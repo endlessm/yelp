@@ -2012,10 +2012,6 @@ view_show_error_page (YelpView *view,
             scheme = "ghelp";
             pkg = struri + 6;
         }
-        if (pkg != NULL)
-            content_end = g_markup_printf_escaped ("<p><a href='install-%s:%s'>%s</a></p>",
-                                                   scheme, pkg,
-                                                   _("Search for packages containing this document."));
         g_free (struri);
     }
 
