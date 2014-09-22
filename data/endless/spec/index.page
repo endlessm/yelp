@@ -1,0 +1,211 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:if="http://projectmallard.org/if/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      xmlns:ui="http://projectmallard.org/experimental/ui/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="guide" style="task"
+      id="spec">
+
+  <info>
+    <credit type="author">
+      <name>Matt Watson</name>
+      <email>watson@endlessm.com</email>
+    </credit>
+    <credit type="author">
+      <name>Nota Person</name>
+    </credit>
+    <credit type="editor">
+      <name>Dr. Foo Bar</name>
+      <email>foo@bar.cat</email>
+    </credit>
+
+    <license href="http://creativecommons.org/licenses/by-sa/3.0/us/">
+      <p>This work is licensed under a
+      <link href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative
+      Commons Attribution-Share Alike 3.0 United States License</link>.</p>
+      <p>As a special exception, the copyright holders give you permission to
+      copy, modify, and distribute the example code contained in this document
+      under the terms of your choosing, without restriction.</p>
+    </license>
+
+    <title type="link" role="trail">Spec page title</title>
+    <desc>Spec page description</desc>
+  </info>
+
+  <title>Spec page title</title>
+  <subtitle>Subtitle of the page</subtitle>
+  <p>This is some paragraph text thats not in any section.</p>
+
+  <links type="section"/>
+
+  <section id="links">
+    <title>Links</title>
+    <links type="topic" groups="single">
+      <title>Single column</title>
+    </links>
+    <links type="topic" style="2column" groups="double">
+      <title>Double column</title>
+    </links>
+    <links type="topic" style="linklist bold nodesc" groups="simple-linklist">
+      <title>Simple linklist</title>
+    </links>
+    <links type="topic" style="linklist" groups="description-linklist">
+      <title>Linklist with descriptions</title>
+    </links>
+    <links type="topic" style="toronto" groups="columnlist">
+      <title>Column list</title>
+    </links>
+  </section>
+
+  <section id="block">
+    <title>Block elements</title>
+    <p>Here are some block elements. This simplest is paragraph text in a section.</p>
+
+    <synopsis><p>This text should be styled as a synopsis of code to follow.</p></synopsis>
+
+    <example><p>This block is an example of something.</p></example>
+
+    <quote>
+      <cite>Some famous dude</cite>
+      <p>This is a quote, it has deeper meaning.</p>
+    </quote>
+
+    <list>
+      <title>Generic list</title>
+      <item><p>Thing one</p></item>
+      <item><p>Thing two</p></item>
+      <item><p>Thing three</p></item>
+    </list>
+
+    <steps>
+      <title>List of steps to take</title>
+      <item><p>These are some steps.</p></item>
+      <item><p>Then comes this.</p></item>
+      <item><p>You did it!.</p></item>
+    </steps>
+
+    <terms>
+      <title>List of terms</title>
+      <item><p>Term 1.</p></item>
+      <item><p>Term 2.</p></item>
+      <item><p>Term 3.</p></item>
+    </terms>
+
+    <tree style="lines">
+      <title>A tree structured list</title>
+      <item>Toplevel
+        <item>Child.
+          <item>Grand child.</item>
+          <item>Other grand child.</item>
+        </item>
+      </item>
+    </tree>
+
+    <table frame="all" rules="all">
+      <title>A table. This table should haves lines</title>
+      <tr>
+        <td><p>Column 1</p></td>  <td><p>Column 2</p></td>
+      </tr>
+      <tr>
+        <td><p>trex</p></td>  <td><p>goat</p></td>
+      </tr>
+      <tr>
+        <td><p>blue</p></td>  <td><p>green</p></td>
+      </tr>
+    </table>
+
+    <table frame="none" rules="none">
+      <title>A table. This table should have no lines</title>
+      <tr>
+        <td><p>Column 1</p></td>  <td><p>Column 2</p></td>
+      </tr>
+      <tr>
+        <td><p>trex</p></td>  <td><p>goat</p></td>
+      </tr>
+      <tr>
+        <td><p>blue</p></td>  <td><p>green</p></td>
+      </tr>
+    </table>
+
+    <comment>
+      <title>A comment</title>
+      <p>If this is showing up we did something wrong!</p>
+    </comment>
+  </section>
+
+  <section id="code">
+    <title>Code elements</title>
+
+    <p>These block elements are for code and terminal output. Not as important,
+    but third party docs use these so we shouldn't break them</p>
+
+    <listing>
+      <title><file>filename.txt</file></title>
+      <desc>A listing which describes the contents of a file</desc>
+       <p>This is the contents of the file.</p>
+    </listing>
+
+    <screen>
+    +==== For terminal output ===========================+
+    | Needs to be monospace                              |
+    | Or things will look wrong.                         |
+    +====================================================+
+    </screen>
+
+    <code mime="application/javascript">
+    // This is a code block.
+    var thing = 1 + 'test';
+    </code>
+  </section>
+
+  <section id="notes">
+    <title>Notes</title>
+
+    <note><p>This is a generic note.</p></note>
+    <note style="warning"><p>This is a warning.</p></note>
+    <note style="tip"><p>This is a tip.</p></note>
+    <note style="important"><p>This is important.</p></note>
+    <note style="bug"><p>This is a bug.</p></note>
+    <note style="sidebar"><p>This is sidebar note.</p></note>
+    <note style="advanced"><p>This is advanced.</p></note>
+  </section>
+
+  <section id="inline">
+    <title>Inline elements</title>
+    <p>This text has a <link href="http://google.com">link to a thing</link>.</p>
+    <p>This text has a <gui>GUI String</gui>.</p>
+    <p>This text has a GUI string sequence <guiseq><gui>File</gui><gui>New</gui><gui>Dirigible</gui></guiseq>.</p>
+    <p>This text has an <app>Application Name</app>.</p>
+    <p>This text has some <code>totally=awesome+code; // TODO: fix code</code>.</p>
+    <p>This text has a <cmd>SHELL_COMMAND=1 rm -rf /</cmd>.</p>
+    <p>This text has some <output>command line output</output>.</p>
+    <p>This text has some <em>even more import text</em>.</p>
+    <p>This text has a <file>/usr/share/filename.tar.gz</file>.</p>
+    <p>This text has a key <key>Super</key> to press.</p>
+    <p>This text has a key sequence <keyseq><key>Ctrl</key><key>Q</key></keyseq> to press.</p>
+    <p>This text has a <sys>random system crap</sys>.</p>
+    <p>This text has <input>input the user needs to type</input>.</p>
+    <p>This text has <var>your name here</var>, where <var>your name here</var> is some text to be replaced by the user.</p>
+  </section>
+
+  <section id="media">
+    <title>Media</title>
+    <media type="image" src="mallard-logo.png"/>
+    <p>An plain image.</p>
+
+    <figure>
+      <title>A figure</title>
+      <desc>A figure can have a title and description.</desc>
+      <media type="image" src="mallard-logo.png"/>
+    </figure>
+
+    <ui:overlay width="300" height="236">
+      <media type="video" its:translate="no" src="movie.ogv">
+        <ui:thumb type="image" mime="image/svg"
+         src="raptor.jpg"/>
+      </media>
+    </ui:overlay>
+    <p>A video.</p>
+  </section>
+
+</page>

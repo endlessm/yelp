@@ -15,6 +15,8 @@
 <xsl:param name="html.syntax.highlight" select="true()"/>
 <xsl:param name="html.js.root" select="'file://@XSL_JSDIR@/'"/>
 
+<xsl:include href="endless-customizations.xsl"/>
+
 <xsl:template name="html.js.mathjax">
   <xsl:param name="node" select="."/>
   <xsl:if test="$node//mml:*[1]">

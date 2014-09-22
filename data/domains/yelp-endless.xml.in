@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- -*- indent-tabs-mode: nil -*- -->
+
+<!--
+Making a change? Make sure to run:
+$ make yelp.pot
+-->
+
+<l10n xmlns="http://projects.gnome.org/yelp/gettext/"
+      xmlns:msg="http://projects.gnome.org/yelp/gettext/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      xmlns:itst="http://itstool.org/extensions/">
+
+<its:rules xmlns:its="http://www.w3.org/2005/11/its"  version="1.0">
+  <its:langRule selector="//*" langPointer="@xml:lang"/>
+
+  <its:translateRule selector="/msg:l10n/msg:msg/msg:msgstr" translate="yes"/>
+  <its:withinTextRule selector="/msg:l10n/msg:msg/msg:msgstr//*" withinText="yes"/>
+
+  <itst:preserveSpaceRule selector="/msg:l10n/msg:msg/its:locNote" preserveSpace="yes"/>
+  <its:locNoteRule selector="/msg:l10n/msg:msg/msg:msgstr" locNotePointer="../its:locNote"/>
+
+  <itst:dropRule selector="//its:*" drop="yes"/>
+</its:rules>
+
+<msg id="sidebar.link.index">
+<its:locNote>
+ID: sidebar.link.index
+
+Appears on the static navigation sidebar.
+</its:locNote>
+<msgstr>Getting Started</msgstr>
+</msg>
+
+<msg id="sidebar.link.net">
+<its:locNote>
+ID: sidebar.link.net
+
+Appears on the static navigation sidebar.
+</its:locNote>
+<msgstr>Internet</msgstr>
+</msg>
+
+<msg id="sidebar.link.files">
+<its:locNote>
+ID: sidebar.link.files
+
+Appears on the static navigation sidebar. Make sure that the string is
+XML-escaped, e.g. &amp;, &gt;, &lt;, &quot;, &apos;, are replaced by &amp;amp;,
+&amp;gt;, &amp;lt;, &amp;quot;, and &amp;apos; respectively.
+</its:locNote>
+<msgstr>Documents &amp; Files</msgstr>
+</msg>
+
+<msg id="sidebar.link.shell-overview">
+<its:locNote>
+ID: sidebar.link.shell-overview
+
+Appears on the static navigation sidebar.
+</its:locNote>
+<msgstr>The Desktop</msgstr>
+</msg>
+
+<msg id="sidebar.link.hardware">
+<its:locNote>
+ID: sidebar.link.hardware
+
+Appears on the static navigation sidebar. Make sure that the string is
+XML-escaped, e.g. &amp;, &gt;, &lt;, &quot;, &apos;, are replaced by &amp;amp;,
+&amp;gt;, &amp;lt;, &amp;quot;, and &amp;apos; respectively.
+</its:locNote>
+<msgstr>Printers, Displays &amp; Accessories</msgstr>
+</msg>
+
+<msg id="sidebar.link.a11y">
+<its:locNote>
+ID: sidebar.link.a11y
+
+Appears on the static navigation sidebar.
+</its:locNote>
+<msgstr>Universal Access</msgstr>
+</msg>
+
+<msg id="sidebar.link.security-and-privacy">
+<its:locNote>
+ID: sidebar.link.security-and-privacy
+
+Appears on the static navigation sidebar. Make sure that the string is
+XML-escaped, e.g. &amp;, &gt;, &lt;, &quot;, &apos;, are replaced by &amp;amp;,
+&amp;gt;, &amp;lt;, &amp;quot;, and &amp;apos; respectively.
+</its:locNote>
+<msgstr>Security &amp; Privacy</msgstr>
+</msg>
+
+</l10n>

@@ -2,6 +2,54 @@ ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 SUBDIRS = . search-provider po
 
+css_files = \
+	data/endless/css/article-style.css \
+	data/endless/css/bootstrap.css.map \
+	data/endless/css/bootstrap.min.css \
+	data/endless/css/eos-help-center-style.css \
+	$(NULL)
+
+img_files = \
+	data/endless/img/arrow-back.png \
+	data/endless/img/border_bg_dark.png \
+	data/endless/img/li_circle.png \
+	data/endless/img/module_circle_bg_blur.png \
+	data/endless/img/video.png \
+	data/endless/img/arrow-right_dark.png \
+	data/endless/img/border_bg.png \
+	data/endless/img/module_circle_bg.png \
+	data/endless/img/arrow-right.png \
+	data/endless/img/border_bg_reverse.png \
+	data/endless/img/arrow-right_section.png \
+	data/endless/img/border_bg_sub.png \
+	data/endless/img/arrow-right-small.png \
+	data/endless/img/icon_info.png \
+	data/endless/img/icon_home.png \
+	data/endless/img/separator.png \
+	data/endless/img/feedback-symbolic.svg \
+	$(NULL)
+
+spec_files = \
+	data/endless/spec/index.page \
+	data/endless/spec/mallard-logo.png \
+	data/endless/spec/movie.ogv \
+	data/endless/spec/page1.page \
+	data/endless/spec/page2.page \
+	data/endless/spec/page3.page \
+	data/endless/spec/raptor.jpg \
+	$(NULL)
+
+endlessdir=$(datadir)/yelp/endless
+
+endless_cssdir=$(endlessdir)/css
+dist_endless_css_DATA = $(css_files)
+
+endless_imgdir=$(endlessdir)/img
+dist_endless_img_DATA = $(img_files)
+
+endless_specdir=$(endlessdir)/spec
+dist_endless_spec_DATA = $(spec_files)
+
 BUILT_SOURCES = \
 	$(nodist_libyelp_libyelp_la_SOURCES)
 
@@ -281,8 +329,8 @@ install-exec-hook:
 	$(LN_S) yelp $(DESTDIR)$(bindir)/gnome-help
 
 desktopdir = $(datadir)/applications
-desktop_DATA = yelp.desktop
-yelp.desktop: ${srcdir}/org.gnome.Yelp.desktop.in.in
+desktop_DATA = org.gnome.Yelp.desktop
+org.gnome.Yelp.desktop: ${srcdir}/org.gnome.Yelp.desktop.in.in
 	$(AM_V_GEN)$(MSGFMT) --desktop --template $< -d $(top_srcdir)/po -o $@
 
 data/yelp.appdata.xml: ${srcdir}/data/yelp.appdata.xml.in
@@ -323,19 +371,22 @@ dist_symbolicappsicon_DATA = \
 
 domaindir = $(datadir)/yelp-xsl/xslt/common/domains
 
-data/domains/yelp.pot: data/domains/yelp.xml.in
-	$(ITSTOOL) -o "$@" "$^"
+data/domains/yelp.pot: data/domains/yelp-endless.xml.in data/domains/yelp.xml.in
+	$(ITSTOOL) -o "$@" $^
 
-data/domains/yelp.xml: data/domains/yelp.xml.in
+data/domains/%.xml: data/domains/%.xml.in
 	$(AM_V_GEN) ( \
-	$(MKDIR_P) data/domains; \
+	$(MKDIR_P) $@-temp; \
 	for lang in $(ALL_LINGUAS); do \
-	  msgfmt -o "$$lang.mo" "$(top_srcdir)/po/$$lang.po" || exit 1; \
+	  msgfmt -o "$@-temp/$$lang.mo" "$(top_srcdir)/po/$$lang.po" || exit 1; \
 	done; \
-	$(ITSTOOL) -o "$@" -j "$^" $(foreach ll,$(ALL_LINGUAS),$(ll).mo); \
-	rm $(foreach ll,$(ALL_LINGUAS),$(ll).mo))
+	$(ITSTOOL) -o "$@" -j "$^" $(foreach ll,$(ALL_LINGUAS),$@-temp/$(ll).mo); \
+	rm $(foreach ll,$(ALL_LINGUAS),$@-temp/$(ll).mo); \
+	rmdir $@-temp)
 
-domain_DATA = data/domains/yelp.xml
+domain_DATA = \
+	data/domains/yelp-endless.xml \
+	data/domains/yelp.xml
 
 dtddir = $(pkgdatadir)/dtd
 
@@ -700,7 +751,8 @@ xsl_DATA = \
 	data/xslt/info2html.xsl \
 	data/xslt/mal2html.xsl \
 	data/xslt/man2html.xsl \
-	data/xslt/yelp-common.xsl
+	data/xslt/yelp-common.xsl \
+	data/xslt/endless-customizations.xsl
 
 dist_noinst_DATA = \
 	$(gsettings_SCHEMAS) \
@@ -712,6 +764,8 @@ dist_noinst_DATA = \
 	data/domains/yelp.pot \
 	data/domains/yelp.xml.in \
 	data/domains/yelp.xml \
+	data/domains/yelp-endless.xml.in \
+	data/domains/yelp-endless.xml \
 	data/mathjax/unpacked/MathJax.js \
 	data/mathjax/unpacked/config/MMLorHTML.js \
 	data/mathjax/unpacked/extensions/HTML-CSS/handle-floats.js \

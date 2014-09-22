@@ -1,0 +1,46 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:if="http://projectmallard.org/if/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      xmlns:ui="http://projectmallard.org/experimental/ui/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="page1">
+
+  <info>
+    <credit type="author">
+      <name>Matt Watson</name>
+      <email>watson@endlessm.com</email>
+    </credit>
+    <credit type="author">
+      <name>Nota Person</name>
+    </credit>
+    <credit type="editor">
+      <name>Dr. Foo Bar</name>
+      <email>foo@bar.cat</email>
+    </credit>
+
+    <license href="http://creativecommons.org/licenses/by-sa/3.0/us/">
+      <p>This work is licensed under a
+      <link href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative
+      Commons Attribution-Share Alike 3.0 United States License</link>.</p>
+      <p>As a special exception, the copyright holders give you permission to
+      copy, modify, and distribute the example code contained in this document
+      under the terms of your choosing, without restriction.</p>
+    </license>
+
+    <link type="guide" xref="spec#links" group="single"/>
+    <link type="guide" xref="spec#links" group="double"/>
+    <link type="guide" xref="spec#links" group="simple-linklist"/>
+    <link type="guide" xref="spec#links" group="description-linklist"/>
+    <link type="guide" xref="spec#links" group="columnlist"/>
+
+    <link type="topic" xref="spec#guide-single"/>
+
+    <link type="seealso" xref="spec"/>
+
+    <title type="link" role="trail">First page link title</title>
+    <desc>Description of first page as it will show up in links and search</desc>
+  </info>
+
+  <title>First page</title>
+</page>
