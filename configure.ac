@@ -163,6 +163,7 @@ data/xslt/mal2html.xsl
 data/xslt/man2html.xsl
 data/xslt/yelp-common.xsl
 org.gnome.Yelp.desktop.in
+data/xslt/endless-customizations.xsl
 po/Makefile.in
 search-provider/Makefile
 ])
