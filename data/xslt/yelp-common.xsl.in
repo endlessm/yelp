@@ -15,13 +15,7 @@
 <xsl:param name="html.syntax.highlight" select="true()"/>
 <xsl:param name="html.js.root" select="'file://@XSL_JSDIR@/'"/>
 
-<xsl:template name="html.head.custom">
-<link rel="stylesheet" href="file://@DATADIR@/endless/css/eos-help-center-style-clear.css" type="text/css"/>
-<link rel="stylesheet" href="file://@DATADIR@/endless/css/article-style.css" type="text/css"/>
-<link rel="stylesheet" href="file://@DATADIR@/endless/css/bootstrap.min.css" type="text/css"/>
-<link rel="stylesheet" href="file://@DATADIR@/endless/css/eos-help-center-style.css" type="text/css"/>
-<link rel="stylesheet" href="file://@DATADIR@/endless/css/utilities.css" type="text/css"/>
-</xsl:template>
+<xsl:include href="endless-customizations.xsl"/>
 
 <xsl:template name="html.js.mathjax">
   <xsl:param name="node" select="."/>
