@@ -165,6 +165,7 @@ data/Makefile
 data/domains/Makefile
 data/dtd/Makefile
 data/dtd/catalog
+data/endless/Makefile
 data/icons/Makefile
 data/icons/hicolor/Makefile
 data/icons/hicolor/16x16/Makefile
@@ -219,6 +220,7 @@ data/xslt/info2html.xsl
 data/xslt/mal2html.xsl
 data/xslt/man2html.xsl
 data/xslt/yelp-common.xsl
+data/xslt/endless-customizations.xsl
 po/Makefile.in
 tests/Makefile
 libyelp/web-extension/Makefile

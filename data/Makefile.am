@@ -1,4 +1,4 @@
-SUBDIRS = domains dtd icons mathjax xslt
+SUBDIRS = domains dtd icons mathjax xslt endless
 
 #This has to be defined, because GSETTINGS_CHECK_RULE adds to it
 MOSTLYCLEANFILES =
