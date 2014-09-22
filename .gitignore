@@ -45,6 +45,7 @@ yelp
 
 /data/org.gnome.yelp.gschema.valid
 /data/domains/yelp.xml
+/data/domains/yelp-endless.xml
 /data/dtd/catalog
 /data/xslt/db2html.xsl
 /data/xslt/info2html.xsl
@@ -52,6 +53,7 @@ yelp
 /data/xslt/man2html.xsl
 /data/xslt/yelp-common.xsl
 /data/yelp.appdata.xml
+/data/xslt/endless-customizations.xsl
 
 /docs/libyelp/html-build.stamp
 /docs/libyelp/html.stamp

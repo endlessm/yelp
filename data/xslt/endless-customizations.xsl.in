@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- -*- indent-tabs-mode: nil -*- -->
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:yelp="http://www.gnome.org/yelp/ns"
+                xmlns="http://www.w3.org/1999/xhtml"
+                extension-element-prefixes="yelp"
+                version="1.0">
+
+<xsl:template name="html.head.custom">
+  <link rel="stylesheet" href="file://@DATADIR@/endless/css/bootstrap.min.css" type="text/css"/>
+  <link rel="stylesheet" href="file://@DATADIR@/endless/css/eos-help-center-style.css" type="text/css"/>
+  <link rel="stylesheet" href="file://@DATADIR@/endless/css/article-style.css" type="text/css"/>
+</xsl:template>
+
+<xsl:template name="l10n-endless-text">
+  <xsl:param name="msgid"/>
+  <xsl:call-template name="l10n.gettext">
+    <xsl:with-param name="domain" select="'yelp-endless'"/>
+    <xsl:with-param name="msgid" select="$msgid"/>
+    <xsl:with-param name="lang" select="$l10n.locale"/>
+  </xsl:call-template>
+</xsl:template>
+
+<!-- Only apply our sidebar if the endless.sidebar parameter has been set true -->
+<xsl:param name="endless.sidebar" select="false()"/>
+
+<xsl:template name="html.top.custom">
+  <xsl:param name="node" select="."/>
+  <xsl:if test="$endless.sidebar">
+  <nav id="sidebar">
+    <h3 class="first"><a href="help:gnome-help/index">
+      <xsl:call-template name="l10n-endless-text">
+        <xsl:with-param name="msgid" select="'sidebar.link.index'"/>
+      </xsl:call-template>
+    </a></h3>
+    <ol>
+      <li><a href="help:gnome-help/shell-overview"><span>
+        <xsl:call-template name="l10n-endless-text">
+          <xsl:with-param name="msgid" select="'sidebar.link.shell-overview'"/>
+        </xsl:call-template>
+      </span></a></li>
+      <li><a href="help:gnome-help/files"><span>
+        <xsl:call-template name="l10n-endless-text">
+          <xsl:with-param name="msgid" select="'sidebar.link.files'"/>
+        </xsl:call-template>
+      </span></a></li>
+      <li><a href="help:gnome-help/net"><span>
+        <xsl:call-template name="l10n-endless-text">
+          <xsl:with-param name="msgid" select="'sidebar.link.net'"/>
+        </xsl:call-template>
+      </span></a></li>
+      <li><a href="help:gnome-help/hardware"><span>
+        <xsl:call-template name="l10n-endless-text">
+          <xsl:with-param name="msgid" select="'sidebar.link.hardware'"/>
+        </xsl:call-template>
+      </span></a></li>
+      <li><a href="help:gnome-help/security-and-privacy"><span>
+        <xsl:call-template name="l10n-endless-text">
+          <xsl:with-param name="msgid" select="'sidebar.link.security-and-privacy'"/>
+        </xsl:call-template>
+      </span></a></li>
+      <li><a href="help:gnome-help/a11y"><span>
+        <xsl:call-template name="l10n-endless-text">
+          <xsl:with-param name="msgid" select="'sidebar.link.a11y'"/>
+        </xsl:call-template>
+      </span></a></li>
+    </ol>
+  </nav>
+  </xsl:if>
+</xsl:template>
+
+</xsl:stylesheet>

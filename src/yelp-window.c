@@ -37,6 +37,9 @@
 #include "yelp-application.h"
 #include "yelp-window.h"
 
+#define MIN_WINDOW_WIDTH 600
+#define MIN_WINDOW_HEIGHT 400
+
 static void          yelp_window_dispose          (GObject            *object);
 static void          yelp_window_finalize         (GObject            *object);
 static void          yelp_window_get_property     (GObject            *object,
@@ -307,7 +310,9 @@ window_construct (YelpWindow *window)
         { "yelp-window-ctrll",  action_ctrll,        NULL, NULL, NULL },
     };
 
-    gtk_window_set_icon_name (GTK_WINDOW (window), "org.gnome.Yelp");
+    gtk_widget_set_size_request (GTK_WIDGET (window), MIN_WINDOW_WIDTH, MIN_WINDOW_HEIGHT);
+
+    gtk_window_set_icon_name (GTK_WINDOW (window), "help-browser");
 
     g_object_get (gtk_settings_get_default (),
                   "gtk-dialogs-use-header", &priv->use_header,

@@ -746,6 +746,12 @@ mallard_page_data_run (MallardPageData *page_data)
         params[end++] = g_strdup ("yelp.stub");
         params[end++] = g_strdup ("true()");
     }
+    else if (strstr (page_data->filename, "/gnome-help/")) {
+        gint end;
+        params = yelp_settings_get_all_params (settings, 2, &end);
+        params[end++] = g_strdup ("endless.sidebar");
+        params[end++] = g_strdup ("true()");
+    }
     else
         params = yelp_settings_get_all_params (settings, 0, NULL);
 

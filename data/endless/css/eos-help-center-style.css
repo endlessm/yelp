@@ -1,0 +1,122 @@
+/*!
+ * Style for eos-help-center
+ */
+
+html {
+    font-size: 1em;
+}
+
+body {
+    height: 100%;
+    min-height: 200px;
+    min-width: 40em;
+}
+
+/* The article body html */
+div.page {
+    /* These need to be !important for now as there is some inline css in
+     * yelp-common.xsl that sets width and max-width to 100% and inline css
+     * always takes precedence over external style sheets. For now following the
+     * convention of leaving the yelp-common.xsl file unchanged from upstream.
+     */
+    width: auto!important;
+    max-width: none!important;
+    height: 100%;
+    overflow: auto;
+    padding: 2rem 4rem;
+}
+
+#sidebar {
+    background-color: #e2e2e2;
+    float: left;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    width: 20rem;
+    -webkit-box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.1), 2px 0px 2px 0px rgba(0,0,0,0.1);
+    box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.1), 2px 0px 2px 0px rgba(0,0,0,0.1);
+}
+
+#sidebar a {
+    text-decoration: none;
+    font-weight: normal;
+    display: block;
+    padding: 1em 2em;
+    color: #737373;
+}
+
+#sidebar li {
+    background-image: url(../img/separator.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position: 17px 0px;
+    clear: both;
+    color: #6d6e70;
+    cursor: pointer;
+    font-size: .875rem;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+#sidebar li > span{
+    padding: .7em 0;
+    display: block;
+}
+
+#sidebar a.active,
+#sidebar a.active:hover {
+    background-color: #3d3d3d;
+    color: #fff;
+    
+}
+
+#sidebar a:hover {
+    color: #3d3d3d;
+}
+
+#sidebar ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar h3 {
+    font-size: .875rem;
+    outline: none;
+    padding: 0.5em;
+    margin: 0;
+    padding-left: 1.2em;
+    clear: both;
+    cursor: pointer;
+    color: #333;
+    width: 100%;
+}
+
+#sidebar h3.first {
+    background: url(../img/icon_home.png) left no-repeat;
+    background-position: 15px;
+    font-weight: 600;
+}
+
+#sidebar li a {
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+#sidebar li:hover {
+    color: #3a3a3a;
+}
+
+#sidebar li.active {
+    font-weight: 600;
+}
+
+#sidebar li.none {
+    border-bottom: 1px solid transparent;
+}
+
+#sidebar li a:hover {
+    color: #000;
+}
