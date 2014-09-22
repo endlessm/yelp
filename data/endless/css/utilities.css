@@ -1,0 +1,128 @@
+.absolute {
+	position: absolute;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+}
+
+.circle {
+	border-radius:  50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+.no-display {
+	display: none !important;
+}
+
+.hide-text {
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+.truncate-text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.float_none {
+	float: none;
+}
+
+.padding_0 {
+	padding: 0;
+}
+
+.height_5 {
+	height: 5px;
+}
+
+.height_10 {
+	height: 10px;
+}
+
+.height_20 {
+	height: 20px;
+}
+
+.height_30 {
+	height: 30px;
+}
+
+.height_40 {
+	height: 40px;
+}
+
+.height_50 {
+	height: 50px;
+}
+
+.radius_0 {
+	border-radius:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+}
+
+.radius_5 {
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.radius_10 {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.radius_20 {
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+.radius_section {
+	-webkit-border-radius: .71em;
+	border-radius: .71em;
+}
+
+.relative {
+	position: relative;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.alpha {
+	padding-left: .75rem;
+}
+
+.omega {
+	padding-right: .75rem;
+}
+
+.no-gutter {
+	padding-left: 0;
+	padding-right: 0;
+}
