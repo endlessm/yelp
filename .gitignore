@@ -48,6 +48,7 @@ Makefile.in
 /data/xslt/mal2html.xsl
 /data/xslt/man2html.xsl
 /data/xslt/yelp-common.xsl
+/data/xslt/endless-customizations.xsl
 
 /docs/libyelp/html-build.stamp
 /docs/libyelp/html.stamp
