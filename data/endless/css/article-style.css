@@ -1013,53 +1013,53 @@ div.terms dl.terms {
     padding: 2rem;
 }
 
-.article div.region div.region ul.list span.keyseq{
-    white-space:inherit    
+.article div.region div.region ul.list span.keyseq {
+    white-space:inherit
 }
 
-.article ul.list span.keyseq span.key{
-    display:inline-block;    
+.article ul.list span.keyseq span.key {
+    display:inline-block;
 }
 
-.article div.region div.region ul.list{
+.article div.region div.region ul.list {
     box-shadow: none;
 }
 
-.article #structural_navigation div.region div.note div.title h3{
+.article #structural_navigation div.region div.note div.title h3 {
     margin-left:11px;
 }
 
-.nextlinks{
+.nextlinks {
     display:none;
 }
 
-.article div.terms dl.terms{
+.article div.terms dl.terms {
     padding: 1rem;
 }
 
-.article div.sect div.region div.title h3{
+.article div.sect div.region div.title h3 {
     margin-left: 15px;
 }
 
-.article div.note div.region ul.list span.keyseq{
-    white-space: inherit;    
+.article div.note div.region ul.list span.keyseq {
+    white-space: inherit;
 }
 
-.article div.note div.region ul.list span.keyseq span.key{
+.article div.note div.region ul.list span.keyseq span.key {
     display: inline-block;
 }
 
 
-.article div.links ul li.links span.desc span.key{
+.article div.links ul li.links span.desc span.key {
     margin-top: 11px;
     margin-bottom: 11px;
     display: inline-block;
 }
 
-.article table.table tbody tr td span.keyseq span.key{
-    margin-top: 3px;
-    margin-bottom: 10px;
-    display: inline-block;
+.article table.table tbody tr td span.keyseq span.key {
+    margin-top: 3px !important;
+    margin-bottom: 10px !important;
+    display: inline-block !important;
 }
 
 
