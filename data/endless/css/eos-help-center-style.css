@@ -44,9 +44,9 @@ body {
     -webkit-border-radius: .71em;
     -moz-border-radius: .71em;
     height: calc(100% - 4em);
-    margin: 2em .5em 2em 0;
+    margin: 2em .5em 2em 1em;
     overflow: hidden;
-    width: calc(100% - 33.8em);
+    width: calc(100% - 34.8em);
 }
 
 #wrap-article.home.small {
@@ -824,6 +824,10 @@ h2 {
 #load-container,
 #content-article {
     margin: 0;
+}
+
+#load-container {
+    margin-right: 1rem;
 }
 
 @media (max-width: 991px) {
