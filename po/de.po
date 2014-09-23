@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Yelp master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-02 20:18+0100\n"
+"POT-Creation-Date: 2014-09-23 16:02-0700\n"
 "PO-Revision-Date: 2014-02-01 18:46+0100\n"
 "Last-Translator: Benjamin Steinwender <b@stbe.at>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
@@ -38,6 +38,149 @@ msgstr ""
 #: yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "<string/> installieren"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:31
+msgid "Home"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.getting-started
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:40
+msgid "Getting started with your OS"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-introduction
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:49
+msgid "Introduction to your OS"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-exit
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:58
+msgid "Log out, power off or switch users"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-apps-open
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:67
+#, fuzzy
+msgid "Start applications"
+msgstr "Zubehör"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:78
+msgid "Desktop Apps &amp; Windows"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:89
+msgid "Files, Folders &amp; Search"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:98
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:109
+msgid "Networking, Web, Email &amp; Chat"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.prefs
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:120
+msgid "User &amp; System Settings"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.tips
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:131
+msgid "Tips &amp; Tricks"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.media
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:142
+#, fuzzy
+msgid "Sound, Video &amp; Pictures"
+msgstr "Klang und Video"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:153
+#, fuzzy
+msgid "Hardware &amp; Drivers"
+msgstr "Hardware-Geräte"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.more-help
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:162
+msgid "Get more help"
+msgstr ""
 
 #: ../libyelp/yelp-bz2-decompressor.c:144
 #: ../libyelp/yelp-lzma-decompressor.c:153
@@ -651,9 +794,6 @@ msgstr "Dokumentation;Information;Handbuch;"
 #~ msgid "Games"
 #~ msgstr "Spiele"
 
-#~ msgid "Hardware Devices"
-#~ msgstr "Hardware-Geräte"
-
 #~ msgid "Kernel Routines"
 #~ msgstr "Kernelroutinen"
 
@@ -1176,9 +1316,6 @@ msgstr "Dokumentation;Information;Handbuch;"
 
 #~ msgid "Sound"
 #~ msgstr "Klang"
-
-#~ msgid "Sound &amp; Video"
-#~ msgstr "Klang und Video"
 
 #~ msgid "Sound &amp; Video Editing"
 #~ msgstr "Klang- und Videobearbeitung"
@@ -1713,9 +1850,6 @@ msgstr "Dokumentation;Information;Handbuch;"
 
 #~ msgid "Scientific Applications."
 #~ msgstr "Wissenschaftliche Programme"
-
-#~ msgid "Utility applications"
-#~ msgstr "Zubehör"
 
 #~ msgid "Variety of other applications"
 #~ msgstr "Eine Sammlung sonstiger Programme"

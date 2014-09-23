@@ -8,9 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po_yelp-xsl-km\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=yelp&keywords=I18N+L10N&component=General\n"
-"POT-Creation-Date: 2012-09-27 04:36+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-23 16:02-0700\n"
 "PO-Revision-Date: 2012-09-21 14:45+0700\n"
 "Last-Translator: sutha <sutha@khmeros.info>\n"
 "Language-Team: Khmer <support@khmeros>\n"
@@ -22,6 +21,7 @@ msgstr ""
 "X-Generator: WordForge 0.8 RC1\n"
 "X-Language: km-KH\n"
 
+#. (itstool) path: msg/msgstr
 #. ID: install.tooltip
 #. This is a format message used to format tooltips on install: links. These
 #. links allow users to install packages by clicking a link in the help. The
@@ -31,40 +31,181 @@ msgstr ""
 #.
 #. <string/> - The package to install
 #.
-#: yelp.xml.in:29(msg/msgstr)
+#: yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "ដំឡើង <string/>"
 
-#: ../libyelp/yelp-bz2-decompressor.c:146
-#: ../libyelp/yelp-lzma-decompressor.c:155
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:31
+msgid "Home"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.getting-started
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:40
+msgid "Getting started with your OS"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-introduction
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:49
+msgid "Introduction to your OS"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-exit
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:58
+msgid "Log out, power off or switch users"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-apps-open
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:67
+#, fuzzy
+msgid "Start applications"
+msgstr "កម្មវិធី"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:78
+msgid "Desktop Apps &amp; Windows"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:89
+msgid "Files, Folders &amp; Search"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:98
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:109
+msgid "Networking, Web, Email &amp; Chat"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.prefs
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:120
+msgid "User &amp; System Settings"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.tips
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:131
+msgid "Tips &amp; Tricks"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.media
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:142
+msgid "Sound, Video &amp; Pictures"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:153
+msgid "Hardware &amp; Drivers"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.more-help
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:162
+msgid "Get more help"
+msgstr ""
+
+#: ../libyelp/yelp-bz2-decompressor.c:144
+#: ../libyelp/yelp-lzma-decompressor.c:153
 msgid "Invalid compressed data"
 msgstr "ទិន្នន័យ​បង្ហាប់​មិន​ត្រឹមត្រូវ"
 
-#: ../libyelp/yelp-bz2-decompressor.c:152
-#: ../libyelp/yelp-lzma-decompressor.c:161
+#: ../libyelp/yelp-bz2-decompressor.c:150
+#: ../libyelp/yelp-lzma-decompressor.c:159
 msgid "Not enough memory"
 msgstr "គ្មាន​អង្គ​ចងចាំ​គ្រប់គ្រាន់"
 
-#: ../libyelp/yelp-docbook-document.c:282 ../libyelp/yelp-info-document.c:238
-#: ../libyelp/yelp-mallard-document.c:306
-#: ../libyelp/yelp-mallard-document.c:458 ../libyelp/yelp-man-document.c:282
+#: ../libyelp/yelp-docbook-document.c:297 ../libyelp/yelp-info-document.c:237
+#: ../libyelp/yelp-mallard-document.c:305
+#: ../libyelp/yelp-mallard-document.c:456 ../libyelp/yelp-man-document.c:281
 #, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
 msgstr "រក​មិន​ឃើញ​ទំព័រ ‘%s’ នៅ​ក្នុង​ឯកសារ ‘%s’ ។"
 
-#: ../libyelp/yelp-docbook-document.c:317 ../libyelp/yelp-info-document.c:372
-#: ../libyelp/yelp-man-document.c:417
+#: ../libyelp/yelp-docbook-document.c:332 ../libyelp/yelp-info-document.c:371
+#: ../libyelp/yelp-man-document.c:416
 #, c-format
 msgid "The file does not exist."
 msgstr "មិន​មាន​ឯកសារ​នោះ​ទេ ។"
 
-#: ../libyelp/yelp-docbook-document.c:327 ../libyelp/yelp-info-document.c:382
-#: ../libyelp/yelp-man-document.c:427
+#: ../libyelp/yelp-docbook-document.c:342 ../libyelp/yelp-info-document.c:381
+#: ../libyelp/yelp-man-document.c:426
 #, c-format
 msgid "The file ‘%s’ does not exist."
 msgstr "មិន​មាន​ឯកសារ ‘%s’ នោះ​ទេ ។"
 
-#: ../libyelp/yelp-docbook-document.c:342
+#: ../libyelp/yelp-docbook-document.c:357
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
@@ -72,7 +213,7 @@ msgid ""
 msgstr ""
 "មិន​អាច​ញែក​ឯកសារ​ ‘%s’ នេះ​បាន​ទេ ពីព្រោះ​វា​មិន​មែន​ជា​ឯកសារ​ XML ដែល​មាន​ទ្រង់ទ្រាយ​ត្រឹមត្រូវ​ទេ ។"
 
-#: ../libyelp/yelp-docbook-document.c:355
+#: ../libyelp/yelp-docbook-document.c:370
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
@@ -81,318 +222,318 @@ msgstr ""
 "មិន​អាច​ញែក​ឯកសារ ‘%s’ បាន​ទេ ពីព្រោះ​ឯកសារ​ដែល​បាន​រួមបញ្ចូល​មួយ​ ឬ​ច្រើន​ គឺជា​ឯកសារ​ XML ដែល​មាន​"
 "ទ្រង់ទ្រាយ​មិន​ត្រឹមត្រូវ ។"
 
-#: ../libyelp/yelp-docbook-document.c:765
+#: ../libyelp/yelp-docbook-document.c:803
 msgid "Unknown"
 msgstr "មិន​ស្គាល់"
 
-#: ../libyelp/yelp-docbook-document.c:826 ../libyelp/yelp-info-document.c:315
-#: ../libyelp/yelp-man-document.c:359
+#: ../libyelp/yelp-docbook-document.c:864 ../libyelp/yelp-info-document.c:314
+#: ../libyelp/yelp-man-document.c:358
 #, c-format
 msgid "The requested page was not found in the document ‘%s’."
 msgstr "រក​មិន​ឃើញ​ទំព័រ​ដែល​បាន​ស្នើសុំ​នៅ​ក្នុង​ឯកសារ ‘%s’ ទេ ។"
 
-#: ../libyelp/yelp-document.c:268
+#: ../libyelp/yelp-document.c:266
 msgid "Indexed"
 msgstr "ដាក់​តាម​លិបិក្រម"
 
-#: ../libyelp/yelp-document.c:269
+#: ../libyelp/yelp-document.c:267
 msgid "Whether the document content has been indexed"
 msgstr "ថា​តើ​ ឯកសារ​ត្រូវ​បាន​ដាក់​តាម​លិបិក្រម​ដែរ​ឬ​ទេ ។"
 
-#: ../libyelp/yelp-document.c:277
+#: ../libyelp/yelp-document.c:275
 msgid "Document URI"
 msgstr "URI របស់​ឯកសារ"
 
-#: ../libyelp/yelp-document.c:278
+#: ../libyelp/yelp-document.c:276
 msgid "The URI which identifies the document"
 msgstr "URI ដែល​សម្គាល់​ឯកសារ"
 
-#: ../libyelp/yelp-document.c:994
+#: ../libyelp/yelp-document.c:992
 #, c-format
 msgid "Search results for “%s”"
 msgstr "លទ្ធផល​ស្វែងរក​សម្រាប់ “%s”"
 
-#: ../libyelp/yelp-document.c:1006
+#: ../libyelp/yelp-document.c:1004
 #, c-format
 msgid "No matching help pages found in “%s”."
 msgstr "រក​មិន​ឃើញ​ទំព័រ​ជំនួយ​ដែល​ផ្គូផ្គង​គ្នា​​នៅ​ក្នុង “%s” ទេ ។"
 
-#: ../libyelp/yelp-document.c:1012
+#: ../libyelp/yelp-document.c:1010
 msgid "No matching help pages found."
 msgstr "រក​មិន​ឃើញ​ទំព័រ​ជំនួយ​ដែល​ផ្គូផ្គង​គ្នា​ទេ ។"
 
-#: ../libyelp/yelp-error.c:37
+#: ../libyelp/yelp-error.c:35
 #, c-format
 msgid "An unknown error occurred."
 msgstr "កំហុស​មិន​ស្គាល់​បាន​កើតឡើង ។"
 
-#: ../libyelp/yelp-help-list.c:478 ../libyelp/yelp-help-list.c:487
+#: ../libyelp/yelp-help-list.c:548 ../libyelp/yelp-help-list.c:557
 msgid "All Help Documents"
 msgstr "ឯកសារ​ជំនួយ​ទាំងអស់"
 
-#: ../libyelp/yelp-info-document.c:397
+#: ../libyelp/yelp-info-document.c:396
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
 msgstr "មិន​អាច​ញែក​ឯកសារ​ ‘%s’ បាន​ទេ ពីព្រោះ​វា​មិនមែន​ជា​ទំព័រ​ព័ត៌មាន​ដែល​មាន​ទ្រង់ទ្រាយ​ត្រឹមត្រូវ ។"
 
-#: ../libyelp/yelp-location-entry.c:336
+#: ../libyelp/yelp-location-entry.c:334
 msgid "View"
 msgstr "មើល"
 
-#: ../libyelp/yelp-location-entry.c:337
+#: ../libyelp/yelp-location-entry.c:335
 msgid "A YelpView instance to control"
 msgstr "វត្ថុ YelpView ត្រូវ​ត្រួតពិនិត្យ"
 
-#: ../libyelp/yelp-location-entry.c:352
+#: ../libyelp/yelp-location-entry.c:350
 msgid "Bookmarks"
 msgstr "ចំណាំ"
 
-#: ../libyelp/yelp-location-entry.c:353
+#: ../libyelp/yelp-location-entry.c:351
 msgid "A YelpBookmarks implementation instance"
 msgstr "វត្ថុ​ប្រតិបត្តិ​នៃ YelpBookmarks"
 
-#: ../libyelp/yelp-location-entry.c:369
+#: ../libyelp/yelp-location-entry.c:367
 msgid "Enable Search"
 msgstr "បើក​ការ​ស្វែងរក"
 
-#: ../libyelp/yelp-location-entry.c:370
+#: ../libyelp/yelp-location-entry.c:368
 msgid "Whether the location entry can be used as a search field"
 msgstr "ថា​តើ​ធាតុ​ទីតាំង​អាច​ត្រូវ​បាន​ប្រើ​ជា​វាល​ស្វែងរក​ដែរ​ឬទេ"
 
-#: ../libyelp/yelp-location-entry.c:440 ../src/yelp-window.c:270
+#: ../libyelp/yelp-location-entry.c:438 ../src/yelp-window.c:268
 msgid "Search..."
 msgstr "ស្វែងរក..."
 
-#: ../libyelp/yelp-location-entry.c:783
+#: ../libyelp/yelp-location-entry.c:781
 msgid "Clear the search text"
 msgstr "សម្អាត​​អត្ថបទ​ស្វែងរក"
 
-#: ../libyelp/yelp-location-entry.c:831 ../libyelp/yelp-location-entry.c:1593
+#: ../libyelp/yelp-location-entry.c:829 ../libyelp/yelp-location-entry.c:1591
 msgid "Bookmark this page"
 msgstr "ចំណាំ​ទំព័រ​នេះ"
 
-#: ../libyelp/yelp-location-entry.c:839 ../libyelp/yelp-location-entry.c:1601
+#: ../libyelp/yelp-location-entry.c:837 ../libyelp/yelp-location-entry.c:1599
 msgid "Remove bookmark"
 msgstr "យក​ចំណាំ​ចេញ"
 
-#: ../libyelp/yelp-location-entry.c:1154
+#: ../libyelp/yelp-location-entry.c:1152
 #, c-format
 msgid "Search for “%s”"
 msgstr "ស្វែងរក “%s”"
 
-#: ../libyelp/yelp-location-entry.c:1458
+#: ../libyelp/yelp-location-entry.c:1456
 msgid "Loading"
 msgstr "ផ្ទុក"
 
-#: ../libyelp/yelp-mallard-document.c:346
+#: ../libyelp/yelp-mallard-document.c:344
 #, c-format
 msgid "The directory ‘%s’ does not exist."
 msgstr "មិន​មាន ‘%s’ ថត ។"
 
-#: ../libyelp/yelp-settings.c:156
+#: ../libyelp/yelp-settings.c:154
 msgid "GtkSettings"
 msgstr "GtkSettings"
 
-#: ../libyelp/yelp-settings.c:157
+#: ../libyelp/yelp-settings.c:155
 msgid "A GtkSettings object to get settings from"
 msgstr "វត្ថុ GtkSettings សម្រាប់ទទួលយក​ការ​កំណត់​ពី"
 
-#: ../libyelp/yelp-settings.c:165
+#: ../libyelp/yelp-settings.c:163
 msgid "GtkIconTheme"
 msgstr "GtkIconTheme"
 
-#: ../libyelp/yelp-settings.c:166
+#: ../libyelp/yelp-settings.c:164
 msgid "A GtkIconTheme object to get icons from"
 msgstr "វត្ថុ GtkIconTheme សម្រាប់​ទទួលយក​រូបតំណាង​ពី"
 
-#: ../libyelp/yelp-settings.c:174
+#: ../libyelp/yelp-settings.c:172
 msgid "Font Adjustment"
 msgstr "ការ​លៃ​តម្រូវ​ពុម្ពអក្សរ"
 
-#: ../libyelp/yelp-settings.c:175
+#: ../libyelp/yelp-settings.c:173
 msgid "A size adjustment to add to font sizes"
 msgstr "ការ​លៃ​តម្រូវ​ពុម្ពអក្សរ​ ដើម្បី​បន្ថែម​ទៅកាន់​ទំហំ​ពុម្ពអក្សរ"
 
-#: ../libyelp/yelp-settings.c:183
+#: ../libyelp/yelp-settings.c:181
 msgid "Show Text Cursor"
 msgstr "បង្ហាញ​ទស្សន៍ទ្រនិច​អត្ថបទ"
 
-#: ../libyelp/yelp-settings.c:184
+#: ../libyelp/yelp-settings.c:182
 msgid "Show the text cursor or caret for accessible navigation"
 msgstr "បង្ហាញ​ទស្សន៍ទ្រនិច​អត្ថបទ ឬ​សញ្ញា (^) សម្រាប់​ការ​រុករក​ដែល​អាច​ចូល​ដំណើរការ​បាន"
 
-#: ../libyelp/yelp-settings.c:192
+#: ../libyelp/yelp-settings.c:190
 msgid "Editor Mode"
 msgstr "របៀប​​កម្មវិធី​កែសម្រួល"
 
-#: ../libyelp/yelp-settings.c:193
+#: ../libyelp/yelp-settings.c:191
 msgid "Enable features useful to editors"
 msgstr "បើក​លក្ខណ​ពិសេស​ដែល​មាន​ប្រយោជន៍​សម្រាប់​កម្មវិធី​កែសម្រួល"
 
-#: ../libyelp/yelp-sqlite-storage.c:150
+#: ../libyelp/yelp-sqlite-storage.c:147
 msgid "Database filename"
 msgstr "ឈ្មោះ​ឯកសារ​មូលដ្ឋាន​ទិន្នន័យ"
 
-#: ../libyelp/yelp-sqlite-storage.c:151
+#: ../libyelp/yelp-sqlite-storage.c:148
 msgid "The filename of the sqlite database"
 msgstr "ឈ្មោះ​ឯកសារ​នៃ​មូលដ្ឋាន​ទិន្នន័យ sqlite"
 
-#: ../libyelp/yelp-transform.c:171
+#: ../libyelp/yelp-transform.c:169
 msgid "XSLT Stylesheet"
 msgstr "សន្លឹក​រចនាប័ទ្ម XSLT"
 
-#: ../libyelp/yelp-transform.c:172
+#: ../libyelp/yelp-transform.c:170
 msgid "The location of the XSLT stylesheet"
 msgstr "ទីតាំង​របស់​សន្លឹក​រចនាប័ទ្ម XSLT"
 
-#: ../libyelp/yelp-transform.c:379 ../libyelp/yelp-transform.c:394
+#: ../libyelp/yelp-transform.c:378 ../libyelp/yelp-transform.c:393
 #, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
 msgstr "សន្លឹក​រចនាប័ទ្ម XSLT  ‘%s’ បាន​បាត់ ឬ​មិន​ត្រឹមត្រូវ ។"
 
-#: ../libyelp/yelp-transform.c:528
+#: ../libyelp/yelp-transform.c:527
 msgid "No href attribute found on yelp:document\n"
 msgstr "រក​មិន​ឃើញ​គុណ​លក្ខណៈ href នៅ​លើ​ yelp:document\n"
 
-#: ../libyelp/yelp-transform.c:543
+#: ../libyelp/yelp-transform.c:542
 msgid "Out of memory"
 msgstr "អស់​អង្គ​ចងចាំ"
 
-#: ../libyelp/yelp-view.c:131
+#: ../libyelp/yelp-view.c:129
 msgid "_Print..."
 msgstr "បោះពុម្ព..."
 
-#: ../libyelp/yelp-view.c:136
+#: ../libyelp/yelp-view.c:134
 msgid "_Back"
 msgstr "ថយ​ក្រោយ"
 
-#: ../libyelp/yelp-view.c:141
+#: ../libyelp/yelp-view.c:139
 msgid "_Forward"
 msgstr "ទៅ​មុខ"
 
-#: ../libyelp/yelp-view.c:146
+#: ../libyelp/yelp-view.c:144
 msgid "_Previous Page"
 msgstr "ទំព័រ​មុន"
 
-#: ../libyelp/yelp-view.c:151
+#: ../libyelp/yelp-view.c:149
 msgid "_Next Page"
 msgstr "ទំព័រ​បន្ទាប់"
 
-#: ../libyelp/yelp-view.c:423
+#: ../libyelp/yelp-view.c:421
 msgid "Yelp URI"
 msgstr "Yelp URI"
 
-#: ../libyelp/yelp-view.c:424
+#: ../libyelp/yelp-view.c:422
 msgid "A YelpUri with the current location"
 msgstr "YelpUri ជាមួយ​ទីតាំង​បច្ចុប្បន្ន"
 
-#: ../libyelp/yelp-view.c:432
+#: ../libyelp/yelp-view.c:430
 msgid "Loading State"
 msgstr "កំពុង​ផ្ទុក​ស្ថានភាព"
 
-#: ../libyelp/yelp-view.c:433
+#: ../libyelp/yelp-view.c:431
 msgid "The loading state of the view"
 msgstr "កំពុង​ផ្ទុក​ស្ថានភាព​នៃ​ទិដ្ឋភាព"
 
-#: ../libyelp/yelp-view.c:442
+#: ../libyelp/yelp-view.c:440
 msgid "Page ID"
 msgstr "លេខ​សម្គាល់​ទំព័រ"
 
-#: ../libyelp/yelp-view.c:443
+#: ../libyelp/yelp-view.c:441
 msgid "The ID of the root page of the page being viewed"
 msgstr "លេខ​សម្គាល់​ទំព័រ root នៃ​ទំព័រ​ដែល​កំពុង​ត្រូវ​បាន​មើល"
 
-#: ../libyelp/yelp-view.c:451
+#: ../libyelp/yelp-view.c:449
 msgid "Root Title"
 msgstr "ចំណង​ជើង Root"
 
-#: ../libyelp/yelp-view.c:452
+#: ../libyelp/yelp-view.c:450
 msgid "The title of the root page of the page being viewed"
 msgstr "ចំណង​ជើង​ទំព័រ root នៃ​ទំព័រ​ដែល​កំពុង​ត្រូវ​បាន​មើល"
 
-#: ../libyelp/yelp-view.c:460
+#: ../libyelp/yelp-view.c:458
 msgid "Page Title"
 msgstr "ចំណង​ជើង​ទំព័រ"
 
-#: ../libyelp/yelp-view.c:461
+#: ../libyelp/yelp-view.c:459
 msgid "The title of the page being viewed"
 msgstr "ចំណង​ជើង​ទំព័រ​ដែល​កំពុង​ត្រូវ​បាន​មើល"
 
-#: ../libyelp/yelp-view.c:469
+#: ../libyelp/yelp-view.c:467
 msgid "Page Description"
 msgstr "សេចក្ដី​ពិពណ៌នា​អំពី​ទំព័រ"
 
-#: ../libyelp/yelp-view.c:470
+#: ../libyelp/yelp-view.c:468
 msgid "The description of the page being viewed"
 msgstr "សេចក្ដី​ពិពណ៌នា​អំពី​ទំព័រ​ដែល​កំពុង​ត្រូវ​បាន​មើល"
 
-#: ../libyelp/yelp-view.c:478
+#: ../libyelp/yelp-view.c:476
 msgid "Page Icon"
 msgstr "រូបតំណាង​ទំព័រ"
 
-#: ../libyelp/yelp-view.c:479
+#: ../libyelp/yelp-view.c:477
 msgid "The icon of the page being viewed"
 msgstr "រូប​តំណាង​ទំព័រ​ដែល​កំពុង​ត្រូវ​បាន​មើល"
 
-#: ../libyelp/yelp-view.c:720
+#: ../libyelp/yelp-view.c:718
 msgid "You do not have PackageKit. Package install links require PackageKit."
 msgstr "អ្នក​មិន​មាន​ PackageKit ។ តំណ​ដំឡើង​កញ្ចប់​ទាមទារ PackageKit ។"
 
-#: ../libyelp/yelp-view.c:1013
+#: ../libyelp/yelp-view.c:1012
 msgid "Save Image"
 msgstr "រក្សាទុក​រូបភាព"
 
-#: ../libyelp/yelp-view.c:1108
+#: ../libyelp/yelp-view.c:1107
 msgid "Save Code"
 msgstr "រក្សាទុក​កូដ"
 
-#: ../libyelp/yelp-view.c:1271
+#: ../libyelp/yelp-view.c:1270
 #, c-format
 msgid "Send email to %s"
 msgstr "ផ្ញើ​អ៊ីមែល​ទៅកាន់ %s"
 
-#: ../libyelp/yelp-view.c:1286
+#: ../libyelp/yelp-view.c:1285
 msgid "_Install Packages"
 msgstr "ដំឡើង​កញ្ចប់"
 
-#: ../libyelp/yelp-view.c:1294
+#: ../libyelp/yelp-view.c:1293
 msgid "_Open Link"
 msgstr "បើក​តំណ"
 
-#: ../libyelp/yelp-view.c:1301
+#: ../libyelp/yelp-view.c:1300
 msgid "_Copy Link Location"
 msgstr "ចម្លង​ទីតាំង​តំណ"
 
-#: ../libyelp/yelp-view.c:1307
+#: ../libyelp/yelp-view.c:1306
 msgid "Open Link in New _Window"
 msgstr "បើក​តំណ​នៅ​ក្នុង​បង្អួច​ថ្មី"
 
-#: ../libyelp/yelp-view.c:1359
+#: ../libyelp/yelp-view.c:1358
 msgid "_Save Image As..."
 msgstr "រក្សាទុក​រូបភាព​ជា..."
 
-#: ../libyelp/yelp-view.c:1361
+#: ../libyelp/yelp-view.c:1360
 msgid "_Save Video As..."
 msgstr "រក្សាទុក​វីដេអូ​ជា..."
 
-#: ../libyelp/yelp-view.c:1368
+#: ../libyelp/yelp-view.c:1367
 msgid "S_end Image To..."
 msgstr "ផ្ញើ​រូបភាព​ទៅកាន់..."
 
-#: ../libyelp/yelp-view.c:1370
+#: ../libyelp/yelp-view.c:1369
 msgid "S_end Video To..."
 msgstr "ផ្ញើ​វីដេអូ​ទៅកាន់..."
 
-#: ../libyelp/yelp-view.c:1381
+#: ../libyelp/yelp-view.c:1380
 msgid "_Copy Text"
 msgstr "ចម្លង​អត្ថបទ"
 
-#: ../libyelp/yelp-view.c:1394
+#: ../libyelp/yelp-view.c:1393
 msgid "C_opy Code Block"
 msgstr "ចម្លង​ប្លុក​កូដ"
 
-#: ../libyelp/yelp-view.c:1399
+#: ../libyelp/yelp-view.c:1398
 msgid "Save Code _Block As..."
 msgstr "រក្សាទុក​ប្លុក​កូដ​ជា..."
 
@@ -411,23 +552,23 @@ msgstr "មិន​អាច​ផ្ទុក​ឯកសារ ‘%s’"
 msgid "Could not load a document"
 msgstr "មិន​អាច​ផ្ទុក​ឯកសារ"
 
-#: ../libyelp/yelp-view.c:1706
+#: ../libyelp/yelp-view.c:1707
 msgid "Document Not Found"
 msgstr "រក​មិន​ឃើញឯកសារ"
 
-#: ../libyelp/yelp-view.c:1708
+#: ../libyelp/yelp-view.c:1709
 msgid "Page Not Found"
 msgstr "រក​មិន​ឃើញទំព័រ"
 
-#: ../libyelp/yelp-view.c:1711
+#: ../libyelp/yelp-view.c:1712
 msgid "Cannot Read"
 msgstr "មិន​អាច​អាន"
 
-#: ../libyelp/yelp-view.c:1717
+#: ../libyelp/yelp-view.c:1718
 msgid "Unknown Error"
 msgstr "មិន​ស្គាល់​កំហុស"
 
-#: ../libyelp/yelp-view.c:1737
+#: ../libyelp/yelp-view.c:1738
 msgid "Search for packages containing this document."
 msgstr "ស្វែងរក​កញ្ចប់​ឯកសារ​នេះ​ដែល​មាន ។"
 
@@ -446,112 +587,116 @@ msgstr "URI មិន​ចង្អុល​ទៅកាន់​ទំព័�
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "មិន​អាច​ញែក URI ‘%s’ បាន​ទេ ។"
 
-#: ../src/yelp-application.c:65
+#: ../src/yelp-application.c:63
 msgid "Turn on editor mode"
 msgstr "បើក​​របៀប​កម្មវិធី​កែសម្រួល"
 
-#: ../src/yelp-application.c:128
+#: ../src/yelp-application.c:126
 msgid "_Larger Text"
 msgstr "អត្ថបទ​ធំជាង​នេះ"
 
-#: ../src/yelp-application.c:130
+#: ../src/yelp-application.c:128
 msgid "Increase the size of the text"
 msgstr "បង្កើន​ទំហំ​អត្ថបទ"
 
-#: ../src/yelp-application.c:133
+#: ../src/yelp-application.c:131
 msgid "_Smaller Text"
 msgstr "អត្ថបទ​តូចជាង​នេះ"
 
-#: ../src/yelp-application.c:135
+#: ../src/yelp-application.c:133
 msgid "Decrease the size of the text"
 msgstr "បន្ថយ​ទំហំ​អត្ថបទ"
 
-#: ../src/yelp-application.c:253 ../src/yelp-window.c:1360
+#: ../src/yelp-application.c:251 ../src/yelp-window.c:1358
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "ជំនួយ"
 
-#: ../src/yelp-application.c:288
+#: ../src/yelp-application.c:286
 msgid "Show Text _Cursor"
 msgstr "បង្ហាញ​ទស្សន៍ទ្រនិច​អត្ថបទ"
 
-#: ../src/yelp-window.c:236
+#: ../src/yelp-window.c:234
 msgid "_Page"
 msgstr "ទំព័រ"
 
-#: ../src/yelp-window.c:237
+#: ../src/yelp-window.c:235
 msgid "_View"
 msgstr "មើល"
 
-#: ../src/yelp-window.c:238
+#: ../src/yelp-window.c:236
 msgid "_Go"
 msgstr "ទៅកាន់"
 
-#: ../src/yelp-window.c:239
+#: ../src/yelp-window.c:237
 msgid "_Bookmarks"
 msgstr "ចំណាំ"
 
-#: ../src/yelp-window.c:242
+#: ../src/yelp-window.c:240
 msgid "_New Window"
 msgstr "បង្អួច​ថ្មី"
 
-#: ../src/yelp-window.c:247
+#: ../src/yelp-window.c:245
 msgid "_Close"
 msgstr "បិទ"
 
-#: ../src/yelp-window.c:252
+#: ../src/yelp-window.c:250
 msgid "_All Documents"
 msgstr "ឯកសារ​ទាំងអស់"
 
-#: ../src/yelp-window.c:256
+#: ../src/yelp-window.c:254
 msgid "_Add Bookmark"
 msgstr "បន្ថែម​ចំណាំ"
 
-#: ../src/yelp-window.c:261
+#: ../src/yelp-window.c:259
 msgid "_Remove Bookmark"
 msgstr "យក​ចំណាំ​ចេញ"
 
-#: ../src/yelp-window.c:265
+#: ../src/yelp-window.c:263
 msgid "Find in Page..."
 msgstr "រកមើល​ក្នុង​ទំព័រ..."
 
-#: ../src/yelp-window.c:275
+#: ../src/yelp-window.c:273
 msgid "Open Location"
 msgstr "បើក​ទីតាំង"
 
-#: ../src/yelp-window.c:301
+#: ../src/yelp-window.c:299
 msgid "Application"
 msgstr "កម្មវិធី"
 
-#: ../src/yelp-window.c:302
+#: ../src/yelp-window.c:300
 msgid "A YelpApplication instance that controls this window"
 msgstr "វត្ថុ YelpApplication ដែល​ត្រួតពិនិត្យ​បង្អួច​នេះ"
 
-#: ../src/yelp-window.c:429
+#: ../src/yelp-window.c:427
 msgid "Read Link _Later"
 msgstr "អាន​តំណ​ពេល​ក្រោយ"
 
-#: ../src/yelp-window.c:526
+#: ../src/yelp-window.c:524
 msgid "Find:"
 msgstr "រក ៖"
 
-#: ../src/yelp-window.c:548
+#: ../src/yelp-window.c:546
 msgid "Read Later"
 msgstr "អាន​ពេលក្រោយ"
 
-#: ../src/yelp-window.c:1180
+#: ../src/yelp-window.c:1178
 #, c-format
 msgid "%i match"
 msgid_plural "%i matches"
 msgstr[0] "%i ផ្គូផ្គង"
 
-#: ../src/yelp-window.c:1189
+#: ../src/yelp-window.c:1187
 msgid "No matches"
 msgstr "គ្មាន​ការ​ផ្គូផ្គង"
 
 #: ../yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
 msgstr "ទទួល​យក​ជំនួយ​ជាមួយ GNOME"
+
+#: ../yelp.desktop.in.in.h:3
+msgid "documentation;information;manual;"
+msgstr ""
 
 #~ msgid "Install <_:string-1/>"
 #~ msgstr "ដំឡើង <_:string-1/>"
