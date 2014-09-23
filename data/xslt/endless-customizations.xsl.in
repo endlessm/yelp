@@ -6,11 +6,80 @@
                 version="1.0">
 
 <xsl:template name="html.head.custom">
-  <link rel="stylesheet" href="file://@DATADIR@/endless/css/eos-help-center-style-clear.css" type="text/css"/>
-  <link rel="stylesheet" href="file://@DATADIR@/endless/css/article-style.css" type="text/css"/>
-  <link rel="stylesheet" href="file://@DATADIR@/endless/css/bootstrap.min.css" type="text/css"/>
   <link rel="stylesheet" href="file://@DATADIR@/endless/css/eos-help-center-style.css" type="text/css"/>
+  <link rel="stylesheet" href="file://@DATADIR@/endless/css/article-style.css" type="text/css"/>
   <link rel="stylesheet" href="file://@DATADIR@/endless/css/utilities.css" type="text/css"/>
+</xsl:template>
+
+<!-- Override html.page from yelp-xsl/xslt/commmon/html.xsl in order to put our
+extra elements around the body contents -->
+<xsl:template name="html.page">
+  <xsl:param name="node" select="."/>
+  <html>
+    <head>
+      <meta name="viewport"
+            content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+      <title>
+        <xsl:apply-templates mode="html.title.mode" select="$node"/>
+      </title>
+      <xsl:call-template name="html.css">
+        <xsl:with-param name="node" select="$node"/>
+      </xsl:call-template>
+      <xsl:call-template name="html.js">
+        <xsl:with-param name="node" select="$node"/>
+      </xsl:call-template>
+      <xsl:call-template name="html.head.custom">
+        <xsl:with-param name="node" select="$node"/>
+      </xsl:call-template>
+    </head>
+    <body>
+      <xsl:call-template name="html.lang.attrs">
+        <xsl:with-param name="node" select="$node"/>
+      </xsl:call-template>
+      <xsl:apply-templates mode="html.body.attr.mode" select="$node"/>
+      <xsl:call-template name="html.top.custom">
+        <xsl:with-param name="node" select="$node"/>
+      </xsl:call-template>
+
+      <!-- Begin customization -->
+      <section id="wrap-article" class="section">
+        <!-- Article section -->
+        <article id="content-body">
+          <div id="content-article">
+            <div id="load-container">
+      <!-- End customization -->
+
+              <div class="page" role="main">
+                <div class="header"> 
+                  <xsl:call-template name="html.header.custom">
+                    <xsl:with-param name="node" select="$node"/>
+                  </xsl:call-template>
+                  <xsl:apply-templates mode="html.header.mode" select="$node"/>
+                </div>
+                <div class="body">
+                  <xsl:apply-templates mode="html.body.mode" select="$node"/>
+                </div>
+                <div class="footer">
+                  <xsl:apply-templates mode="html.footer.mode" select="$node"/>
+                  <xsl:call-template name="html.footer.custom">
+                    <xsl:with-param name="node" select="$node"/>
+                  </xsl:call-template>
+                </div>
+              </div>
+
+      <!-- Begin customization -->
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </article>
+      </section>
+      <!-- End customization -->
+
+      <xsl:call-template name="html.bottom.custom">
+        <xsl:with-param name="node" select="$node"/>
+      </xsl:call-template>
+    </body>
+  </html>
 </xsl:template>
 
 </xsl:stylesheet>
