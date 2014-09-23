@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- -*- indent-tabs-mode: nil -*- -->
+
+<!--
+Making a change? Make sure to run:
+$ make yelp.pot
+-->
+
+<l10n xmlns="http://projects.gnome.org/yelp/gettext/"
+      xmlns:msg="http://projects.gnome.org/yelp/gettext/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      xmlns:itst="http://itstool.org/extensions/">
+
+<its:rules xmlns:its="http://www.w3.org/2005/11/its"  version="1.0">
+  <its:langRule selector="//*" langPointer="@xml:lang"/>
+
+  <its:translateRule selector="/msg:l10n/msg:msg/msg:msgstr" translate="yes"/>
+  <its:withinTextRule selector="/msg:l10n/msg:msg/msg:msgstr//*" withinText="yes"/>
+
+  <itst:preserveSpaceRule selector="/msg:l10n/msg:msg/its:locNote" preserveSpace="yes"/>
+  <its:locNoteRule selector="/msg:l10n/msg:msg/msg:msgstr" locNotePointer="../its:locNote"/>
+
+  <itst:dropRule selector="//its:*" drop="yes"/>
+</its:rules>
+
+<msg id="sidebar.desktop-apps-and-windows">
+<its:locNote>
+ID: sidebar.desktop-apps-and-windows
+
+Appears on the static navigation sidebar. Make sure that the string is
+XML-escaped, e.g. &amp;, &gt;, &lt;, &quot;, &apos;, are replaced by &amp;amp;,
+&amp;gt;, &amp;lt;, &amp;quot;, and &amp;apos; respectively.
+</its:locNote>
+<msgstr>Desktop Apps &amp; Windows</msgstr>
+</msg>
+
+</l10n>

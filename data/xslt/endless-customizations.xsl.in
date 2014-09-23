@@ -12,52 +12,65 @@
   <link rel="stylesheet" href="file://@DATADIR@/endless/css/utilities.css" type="text/css"/>
 </xsl:template>
 
-<!-- <xsl:template name="html.top.custom">
-<div id="content-nav" class="col-xs-2 dynamic">
+<!--           <xsl:for-each select="$mal.cache">
+            <xsl:variable name="guidepage" select="key('mal.cache.key', $linklinkid)"/>
+          </xsl:for-each>
+          <xsl:call-template name="mal.link.topiclinks">
+            <xsl:with-param name="node" select="$node"/>
+          </xsl:call-template> -->
+
+<xsl:template name="html.top.custom">
+  <xsl:param name="node" select="."/>
+  <div id="content-nav" class="col-xs-2 dynamic">
     <nav id="main-nav" class="col-xs-2 load_section">
-        <div id="wrap-nav">
-            <div id="accordion">
-                <h3 class="first">Home</h3>
-                <div>
-                    <ul>
-                        <li rel="brasero"><span>Desktop Apps &amp; Windows</span></li>
-                        <li rel="cheese"><span>Files, Folders &amp; Search</span></li>
-                        <li rel="empathy"><span>Universal Acces</span></li>
-                        <li rel="eog"><span>Networking, Web, Email &amp; Chat</span></li>
-                        <li rel="evince"><span>User &amp; System Settings</span></li>
-                        <li rel="evolution"><span>Tips &amp; Tricks</span></li>
-                        <li rel="file-roller"><span>Sound, Video &amp; Pictures</span></li>
-                        <li rel="gedit"><span>Hardware &amp; Drivers</span></li>
-                        <li rel="gnome-calculator"><span>Get more help</span></li>
-                        <li rel="gnome-devel-demos"><span>Getting started with your OS</span></li>
-                        <li rel="brasero"><span>Introduction to your OS</span></li>
-                        <li rel="gnome-help"><span>Desktop Apps &amp; Windows</span></li>
-                        <li rel="gnome-terminal"><span>Files, Folders &amp; Search</span></li>
-                        <li rel="orca"><span>Universal Acces</span></li>
-                        <li rel="platform-overview"><span>Networking, Web, Email &amp; Chat</span></li>
-                        <li rel="zenity"><span>Tips &amp; Tricks</span></li>
-                    </ul>
-                </div>
+      <div id="wrap-nav">
+        <div id="accordion">
+          <h3 class="first">Home</h3>
+          <div>
+            <ul>
+              <li><span>
+                <xsl:call-template name="l10n.gettext">
+                  <xsl:with-param name="domain" select="'yelp-endless'"/>
+                  <xsl:with-param name="msgid" select="'sidebar.desktop-apps-and-windows'"/>
+                </xsl:call-template>
+              </span></li>
+              <li rel="cheese"><span>Files, Folders &amp; Search</span></li>
+              <li rel="empathy"><span>Universal Access</span></li>
+              <li rel="eog"><span>Networking, Web, Email &amp; Chat</span></li>
+              <li rel="evince"><span>User &amp; System Settings</span></li>
+              <li rel="evolution"><span>Tips &amp; Tricks</span></li>
+              <li rel="file-roller"><span>Sound, Video &amp; Pictures</span></li>
+              <li rel="gedit"><span>Hardware &amp; Drivers</span></li>
+              <li rel="gnome-calculator"><span>Get more help</span></li>
+              <li rel="gnome-devel-demos"><span>Getting started with your OS</span></li>
+              <li rel="brasero"><span>Introduction to your OS</span></li>
+              <li rel="gnome-help"><span>Desktop Apps &amp; Windows</span></li>
+              <li rel="gnome-terminal"><span>Files, Folders &amp; Search</span></li>
+              <li rel="orca"><span>Universal Access</span></li>
+              <li rel="platform-overview"><span>Networking, Web, Email &amp; Chat</span></li>
+              <li rel="zenity"><span>Tips &amp; Tricks</span></li>
+            </ul>
+          </div>
 
-                <h3>Log out, power off or switch users</h3>
-                <div>
-                    <ul>
-                        <li><span>Introducción</span></li>
-                        <li><span>Características principales</span></li>
-                    </ul>
-                </div>
+          <h3>Log out, power off or switch users</h3>
+          <div>
+            <ul>
+              <li><span>Introducción</span></li>
+              <li><span>Características principales</span></li>
+            </ul>
+          </div>
 
-                <h3 class="last">Start applications</h3>
-                <div>
-                    <ul>
-                        <li><span>Características principales</span></li>
-                    </ul>
-                </div>
-            </div>
+          <h3 class="last">Start applications</h3>
+          <div>
+            <ul>
+              <li><span>Características principales</span></li>
+            </ul>
+          </div>
         </div>
+      </div>
     </nav>
-</div>
-</xsl:template> -->
+  </div>
+</xsl:template>
 
 <!-- Override html.page from yelp-xsl/xslt/commmon/html.xsl in order to put our
 extra elements around the body contents -->
