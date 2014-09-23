@@ -63,7 +63,7 @@ msgstr ""
 #.
 #: yelp-endless.xml.in:40
 msgid "Getting started with your OS"
-msgstr ""
+msgstr "Premiers pas"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-introduction
@@ -72,7 +72,7 @@ msgstr ""
 #.
 #: yelp-endless.xml.in:49
 msgid "Introduction to your OS"
-msgstr ""
+msgstr "Introduction"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-exit
@@ -89,9 +89,8 @@ msgstr ""
 #. Appears on the static navigation sidebar.
 #.
 #: yelp-endless.xml.in:67
-#, fuzzy
 msgid "Start applications"
-msgstr "Application"
+msgstr "Lancement d'applications"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
@@ -102,7 +101,7 @@ msgstr "Application"
 #.
 #: yelp-endless.xml.in:78
 msgid "Desktop Apps &amp; Windows"
-msgstr ""
+msgstr "Bureau, applications &amp; fenêtres"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
@@ -113,7 +112,7 @@ msgstr ""
 #.
 #: yelp-endless.xml.in:89
 msgid "Files, Folders &amp; Search"
-msgstr ""
+msgstr "Fichiers, dossiers &amp; recherches"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
@@ -122,7 +121,7 @@ msgstr ""
 #.
 #: yelp-endless.xml.in:98
 msgid "Universal Access"
-msgstr ""
+msgstr "Accès universel"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
@@ -133,7 +132,7 @@ msgstr ""
 #.
 #: yelp-endless.xml.in:109
 msgid "Networking, Web, Email &amp; Chat"
-msgstr ""
+msgstr "Réseau, Web, courriel &amp; chat"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.prefs
@@ -144,7 +143,7 @@ msgstr ""
 #.
 #: yelp-endless.xml.in:120
 msgid "User &amp; System Settings"
-msgstr ""
+msgstr "Préférences utilisateur &amp; système"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.tips
@@ -155,7 +154,7 @@ msgstr ""
 #.
 #: yelp-endless.xml.in:131
 msgid "Tips &amp; Tricks"
-msgstr ""
+msgstr "Trucs &amp; astuces"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.media
@@ -166,7 +165,7 @@ msgstr ""
 #.
 #: yelp-endless.xml.in:142
 msgid "Sound, Video &amp; Pictures"
-msgstr ""
+msgstr "Son, images &amp; vidéos"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
@@ -177,7 +176,7 @@ msgstr ""
 #.
 #: yelp-endless.xml.in:153
 msgid "Hardware &amp; Drivers"
-msgstr ""
+msgstr "Matériel &amp; pilotes"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.more-help
@@ -186,7 +185,7 @@ msgstr ""
 #.
 #: yelp-endless.xml.in:162
 msgid "Get more help"
-msgstr ""
+msgstr "Aide supplémentaire"
 
 #: ../libyelp/yelp-bz2-decompressor.c:144
 #: ../libyelp/yelp-lzma-decompressor.c:153
