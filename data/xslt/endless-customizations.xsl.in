@@ -12,6 +12,35 @@
   <link rel="stylesheet" href="file://@DATADIR@/endless/css/article-style.css" type="text/css"/>
 </xsl:template>
 
+<xsl:template name="html.top.custom">
+  <div id="content-nav" class="col-xs-2 dynamic">
+    <nav id="main-nav" class="col-xs-2 load_section">
+      <div id="wrap-nav">
+        <div id="accordion">
+          <h3 class="first"><a href="help:gnome-help/index">Home</a></h3>
+          <div>
+            <ul>
+              <li><a href="help:gnome-help/getting-started">Getting started with your OS</a></li>
+              <li><a href="help:gnome-help/shell-introduction"><span>Introduction to your OS</span></a></li>
+              <li><a href="help:gnome-help/shell-exit"><span>Log out, power off or switch users</span></a></li>
+              <li><a href="help:gnome-help/shell-apps-open"><span>Start applications</span></a></li>
+              <li><a href="help:gnome-help/shell-overview"><span>Desktop Apps &amp; Windows</span></a></li>
+              <li><a href="help:gnome-help/files"><span>Files, Folders &amp; Search</span></a></li>
+              <li><a href="help:gnome-help/a11y"><span>Universal Access</span></a></li>
+              <li><a href="help:gnome-help/net"><span>Networking, Web, Email &amp; Chat</span></a></li>
+              <li><a href="help:gnome-help/prefs"><span>User &amp; System Settings</span></a></li>
+              <li><a href="help:gnome-help/tips"><span>Tips &amp; Tricks</span></a></li>
+              <li><a href="help:gnome-help/media"><span>Sound, Video &amp; Pictures</span></a></li>
+              <li><a href="help:gnome-help/hardware"><span>Hardware &amp; Drivers</span></a></li>
+              <li><a href="help:gnome-help/more-help"><span>Get more help</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</xsl:template>
+
 <!-- Override html.page from yelp-xsl/xslt/commmon/html.xsl in order to put our
 extra elements around the body contents. -->
 <xsl:template name="html.page">
