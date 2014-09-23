@@ -101,6 +101,8 @@ ul.steps {
     border-radius: 0.5em;
     counter-reset: numList;
     list-style: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     overflow: hidden;
     padding: 2em;
 }
@@ -218,7 +220,7 @@ h1 {
 a.linkdiv {
     padding: .5em .5em .5em 3.5em;
     min-height: 3.8em;
-    background: url(../img/icon_info.png) .5em .5em no-repeat;
+    background: url(../img/icon_info.png) .5em .5em no-repeat !important;
 }
 
 .media {
@@ -243,8 +245,13 @@ table.table {
     margin: 0;
 }
 
+.table td p {
+    padding: .7em .5em .5em;
+}
+
 div.table {
-    overflow: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 div.figure {
@@ -340,9 +347,10 @@ div.sect-links span.desc {
     font-size: .9em
 }
 
-a.linkdiv:hover {
-    background-color: #e9e4e4;
+a.linkdiv:hover, div.linkdiv:hover {
+    background: #e9e4e4 url(../img/icon_info.png) .5em .5em no-repeat !important;
     border-radius: .5em;
+    outline: none !important;
 }
 
 .section div.footer {
@@ -932,10 +940,11 @@ kbd {
     color: #2e3436;
     font-family: inherit;
     font-size: inherit;
-    margin: 0 0.2em 0 0.2em;
+    margin: 0.2em 0.2em 0.4em 0.2em;
     padding: 0.15em .5em;
     white-space: nowrap;
     background-color: transparent;
+    display: inline-block;
 }
 
 dl.terms {
@@ -989,7 +998,15 @@ div.ui-tile > a:hover {
 div.ui-expander > div.inner > div.title span.title:before,
 div.ui-expander > div.inner > div.hgroup span.title:before {
     margin-top: .40rem;
-    vertical-align: top;
+    vertical-align: center;
+}
+
+div.ui-expander-c > div.inner > div.title span.title:before {
+    margin-top: .55rem;
+}
+
+div.ui-expander-e > div.inner > div.title span.title:before {
+    margin-top: 0;
 }
 
 div.terms dl.terms {

@@ -7,9 +7,9 @@
 
 <xsl:template name="html.head.custom">
   <link rel="stylesheet" href="file://@DATADIR@/endless/css/bootstrap.min.css" type="text/css"/>
+  <link rel="stylesheet" href="file://@DATADIR@/endless/css/utilities.css" type="text/css"/>
   <link rel="stylesheet" href="file://@DATADIR@/endless/css/eos-help-center-style.css" type="text/css"/>
   <link rel="stylesheet" href="file://@DATADIR@/endless/css/article-style.css" type="text/css"/>
-  <link rel="stylesheet" href="file://@DATADIR@/endless/css/utilities.css" type="text/css"/>
 </xsl:template>
 
 <!-- Override html.page from yelp-xsl/xslt/commmon/html.xsl in order to put our
@@ -51,7 +51,7 @@ extra elements around the body contents. -->
       <!-- End customization -->
 
               <div class="page" role="main">
-                <div class="header"> 
+                <div class="header">
                   <xsl:call-template name="html.header.custom">
                     <xsl:with-param name="node" select="$node"/>
                   </xsl:call-template>
