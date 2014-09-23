@@ -38,6 +38,8 @@
 #include <libxslt/xsltInternals.h>
 #include <libxslt/xsltutils.h>
 
+#include <gio/gio.h>
+
 #include "yelp-debug.h"
 #include "yelp-error.h"
 #include "yelp-transform.h"
@@ -555,6 +557,14 @@ xslt_yelp_document (xsltTransformContextPtr ctxt,
 
     xsltApplyOneTemplate (ctxt, node, inst->children, NULL, NULL);
     xsltSaveResultToString (&page_buf, &buf_size, new_doc, style);
+
+    GFileIOStream *temp_stream;
+    GFile *temp_file = g_file_new_tmp ("yelp-intermediate-XXXXXX", &temp_stream, NULL);
+    if (temp_file) {
+        GOutputStream *ostream = g_io_stream_get_output_stream (G_IO_STREAM (temp_stream));
+        g_output_stream_write_all (ostream, page_buf, buf_size, NULL, NULL, NULL);
+        g_io_stream_close (G_IO_STREAM (temp_stream), NULL, NULL);
+    }
 
     ctxt->outputFile = old_outfile;
     ctxt->output     = old_doc;
