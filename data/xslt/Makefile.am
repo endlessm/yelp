@@ -5,7 +5,7 @@ xsl_DATA =			\
 	info2html.xsl		\
 	mal2html.xsl		\
 	man2html.xsl		\
-	yelp-common.xsl \
+	yelp-common.xsl		\
 	endless-customizations.xsl \
 	$(NULL)
 

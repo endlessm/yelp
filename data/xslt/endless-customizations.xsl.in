@@ -13,7 +13,7 @@
 </xsl:template>
 
 <!-- Override html.page from yelp-xsl/xslt/commmon/html.xsl in order to put our
-extra elements around the body contents -->
+extra elements around the body contents. -->
 <xsl:template name="html.page">
   <xsl:param name="node" select="."/>
   <html>
