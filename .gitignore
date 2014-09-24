@@ -43,6 +43,7 @@ Makefile.in
 
 /data/org.gnome.yelp.gschema.valid
 /data/domains/yelp.xml
+/data/domains/yelp-endless.xml
 /data/dtd/catalog
 /data/xslt/db2html.xsl
 /data/xslt/info2html.xsl
