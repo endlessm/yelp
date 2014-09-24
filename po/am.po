@@ -8,720 +8,904 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-01-13 18:12-0600\n"
+"POT-Creation-Date: 2014-09-23 16:02-0700\n"
 "PO-Revision-Date: 2003-02-07 17:46+EDT\n"
 "Last-Translator: Ge'ez Frontier Foundation <locales@geez.org>\n"
 "Language-Team: Amharic <locales@geez.org>\n"
+"Language: am\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/man.xml.in.h:1 data/toc.xml.in.h:4
-msgid "Applications"
-msgstr "መጠቀሚያ ፕሮግራሞች"
-
-#: data/man.xml.in.h:2
-msgid "Configuration Files"
-msgstr "የፋይሎች አቀማመጥ"
-
-#: data/man.xml.in.h:3
-msgid "Development"
-msgstr "እድገት"
-
-#: data/man.xml.in.h:4
-msgid "FORTRAN Functions"
+#. (itstool) path: msg/msgstr
+#. ID: install.tooltip
+#. This is a format message used to format tooltips on install: links. These
+#. links allow users to install packages by clicking a link in the help. The
+#. tooltip may also be used as the link text, if there's no link text in the
+#. document. Special elements in the message will be replaced with the
+#. appropriate content, as follows:
+#.
+#. <string/> - The package to install
+#.
+#: yelp.xml.in:36
+msgid "Install <string/>"
 msgstr ""
 
-#: data/man.xml.in.h:5 data/toc.xml.in.h:7
-msgid "Games"
-msgstr "ጨዋታዎች"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:31
+#, fuzzy
+msgid "Home"
+msgstr "መጀመሪያ"
 
-#: data/man.xml.in.h:6
-msgid "Hardware Devices"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.getting-started
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:40
+msgid "Getting started with your OS"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-introduction
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:49
+msgid "Introduction to your OS"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-exit
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:58
+msgid "Log out, power off or switch users"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-apps-open
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:67
+#, fuzzy
+msgid "Start applications"
+msgstr "መጠቀሚያ ፕሮግራሞች"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:78
+msgid "Desktop Apps &amp; Windows"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:89
+msgid "Files, Folders &amp; Search"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:98
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:109
+msgid "Networking, Web, Email &amp; Chat"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.prefs
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:120
+msgid "User &amp; System Settings"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.tips
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:131
+msgid "Tips &amp; Tricks"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.media
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:142
+msgid "Sound, Video &amp; Pictures"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:153
+#, fuzzy
+msgid "Hardware &amp; Drivers"
 msgstr "የሀርድዌር ዲቫይሶች"
 
-#: data/man.xml.in.h:7
-msgid "Kernel Routines"
-msgstr "Kernel Routines"
-
-#: data/man.xml.in.h:8
-msgid "Library Functions"
-msgstr "Library Functions"
-
-#: data/man.xml.in.h:9 src/yelp-toc-pager.c:785
-#, fuzzy
-msgid "Man Pages"
-msgstr "የመመሪያ ገጾች"
-
-#: data/man.xml.in.h:10
-#, fuzzy
-msgid "OpenSSL Applications"
-msgstr "መጠቀሚያ ፕሮግራሞች"
-
-#: data/man.xml.in.h:11
-#, fuzzy
-msgid "OpenSSL Configuration"
-msgstr "የፋይሎች አቀማመጥ"
-
-#: data/man.xml.in.h:12
-#, fuzzy
-msgid "OpenSSL Overviews"
-msgstr "ማጠቃለያ"
-
-#: data/man.xml.in.h:13
-msgid "Overviews"
-msgstr "ማጠቃለያ"
-
-#: data/man.xml.in.h:14
-#, fuzzy
-msgid "Perl Functions"
-msgstr "Library Functions"
-
-#: data/man.xml.in.h:15
-#, fuzzy
-msgid "Qt Functions"
-msgstr "Library Functions"
-
-#: data/man.xml.in.h:16
-msgid "System Administration"
-msgstr "የአሰራሩ መቆጣጠሪያ"
-
-#: data/man.xml.in.h:17
-msgid "System Calls"
-msgstr "System Calls"
-
-#: data/man.xml.in.h:18
-#, fuzzy
-msgid "Termcap Applications"
-msgstr "መጠቀሚያ ፕሮግራሞች"
-
-#: data/man.xml.in.h:19
-#, fuzzy
-msgid "X11 Applications"
-msgstr "መጠቀሚያ ፕሮግራሞች"
-
-#: data/man.xml.in.h:20
-#, fuzzy
-msgid "X11 Configuration"
-msgstr "የፋይሎች አቀማመጥ"
-
-#: data/man.xml.in.h:21
-msgid "X11 Devices"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.more-help
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:162
+msgid "Get more help"
 msgstr ""
 
-#: data/man.xml.in.h:22
-#, fuzzy
-msgid "X11 Functions"
-msgstr "Library Functions"
-
-#: data/man.xml.in.h:23
-#, fuzzy
-msgid "X11 Games"
-msgstr "ጨዋታዎች"
-
-#: data/man.xml.in.h:24
-#, fuzzy
-msgid "X11 Overviews"
-msgstr "ማጠቃለያ"
-
-#: data/toc.xml.in.h:1
-msgid "Accessibility"
+#: ../libyelp/yelp-bz2-decompressor.c:144
+#: ../libyelp/yelp-lzma-decompressor.c:153
+msgid "Invalid compressed data"
 msgstr ""
 
-#: data/toc.xml.in.h:2
-msgid "Accessories"
+#: ../libyelp/yelp-bz2-decompressor.c:150
+#: ../libyelp/yelp-lzma-decompressor.c:159
+msgid "Not enough memory"
 msgstr ""
 
-#: data/toc.xml.in.h:3
-#, fuzzy
-msgid "Applets"
-msgstr "መጠቀሚያ ፕሮግራሞች"
+#: ../libyelp/yelp-docbook-document.c:297 ../libyelp/yelp-info-document.c:237
+#: ../libyelp/yelp-mallard-document.c:305
+#: ../libyelp/yelp-mallard-document.c:456 ../libyelp/yelp-man-document.c:281
+#, fuzzy, c-format
+msgid "The page ‘%s’ was not found in the document ‘%s’."
+msgstr "'%s' የተባለው ሰነድ የለም"
 
-#: data/toc.xml.in.h:5
-#, fuzzy
-msgid "Desktop"
-msgstr "ኖም - ሠሌዳ"
+#: ../libyelp/yelp-docbook-document.c:332 ../libyelp/yelp-info-document.c:371
+#: ../libyelp/yelp-man-document.c:416
+#, fuzzy, c-format
+msgid "The file does not exist."
+msgstr "'%s' የተባለው ሰነድ የለም"
 
-#: data/toc.xml.in.h:6
-#, fuzzy
-msgid "Education Applications"
-msgstr "መጠቀሚያ ፕሮግራሞች"
+#: ../libyelp/yelp-docbook-document.c:342 ../libyelp/yelp-info-document.c:381
+#: ../libyelp/yelp-man-document.c:426
+#, fuzzy, c-format
+msgid "The file ‘%s’ does not exist."
+msgstr "'%s' የተባለው ሰነድ የለም"
 
-#: data/toc.xml.in.h:8
-msgid "Graphics"
-msgstr ""
-
-#: data/toc.xml.in.h:9 src/yelp-bookmarks.c:326
-#, fuzzy
-msgid "Help Topics"
-msgstr "የመረጃ መቃኛ"
-
-#: data/toc.xml.in.h:10
-#, fuzzy
-msgid "Internet"
-msgstr "የመረጃ ማውጫ"
-
-#: data/toc.xml.in.h:11
-msgid "KDE"
-msgstr ""
-
-#: data/toc.xml.in.h:12
-msgid "Office"
-msgstr ""
-
-#: data/toc.xml.in.h:13
-msgid "Other"
-msgstr ""
-
-#: data/toc.xml.in.h:14
-#, fuzzy
-msgid "Other Documentation"
-msgstr "ሰነዶች"
-
-#: data/toc.xml.in.h:15
-msgid "Programming"
-msgstr ""
-
-#: data/toc.xml.in.h:16
-#, fuzzy
-msgid "Scientific"
-msgstr "መጠቀሚያ ፕሮግራሞች"
-
-#: data/toc.xml.in.h:17
-msgid "Sound &amp; Video"
-msgstr ""
-
-#: data/toc.xml.in.h:18
-#, fuzzy
-msgid "System Tools"
-msgstr "System Calls"
-
-#: data/toc.xml.in.h:19
-#, fuzzy
-msgid "X Applications"
-msgstr "መጠቀሚያ ፕሮግራሞች"
-
-#: data/ui/yelp.glade.h:1
-msgid "<b>Accessibility</b>"
-msgstr ""
-
-#: data/ui/yelp.glade.h:2
-msgid "<b>Fonts</b>"
-msgstr ""
-
-#: data/ui/yelp.glade.h:3
-msgid "<b>_Bookmarks:</b>"
-msgstr ""
-
-#: data/ui/yelp.glade.h:4
-msgid "<b>_Title:</b>"
-msgstr ""
-
-#: data/ui/yelp.glade.h:5
-msgid "Add Bookmark"
-msgstr ""
-
-#: data/ui/yelp.glade.h:6
-msgid "Bookmarks"
-msgstr ""
-
-#: data/ui/yelp.glade.h:7
-msgid "C_ase sensitive"
-msgstr ""
-
-#: data/ui/yelp.glade.h:8
-msgid "Find"
-msgstr ""
-
-#: data/ui/yelp.glade.h:9
-#, fuzzy
-msgid "Open Location"
-msgstr "ክፍል"
-
-#: data/ui/yelp.glade.h:10
-msgid "Preferences"
-msgstr ""
-
-#: data/ui/yelp.glade.h:11
-msgid "Re_name"
-msgstr ""
-
-#: data/ui/yelp.glade.h:12
-msgid "_Browse with caret"
-msgstr ""
-
-#: data/ui/yelp.glade.h:13
-msgid "_Find: "
-msgstr ""
-
-#: data/ui/yelp.glade.h:14
-msgid "_Fixed width:"
-msgstr ""
-
-#: data/ui/yelp.glade.h:15
-#, fuzzy
-msgid "_Location:"
-msgstr "ክፍል"
-
-#: data/ui/yelp.glade.h:16
-msgid "_Next"
-msgstr "_የሚቀጥለው"
-
-#: data/ui/yelp.glade.h:17
-msgid "_Previous"
-msgstr "የ_ቀድሞው"
-
-#: data/ui/yelp.glade.h:18
-msgid "_Use system fonts"
-msgstr ""
-
-#: data/ui/yelp.glade.h:19
-msgid "_Variable width:"
-msgstr ""
-
-#: data/ui/yelp.glade.h:20
-msgid "_Wrap around"
-msgstr ""
-
-#: data/yelp.schemas.in.h:1
-msgid "Font for fixed text"
-msgstr ""
-
-#: data/yelp.schemas.in.h:2
-msgid "Font for text"
-msgstr ""
-
-#: data/yelp.schemas.in.h:3
-msgid "Font for text with fixed width."
-msgstr ""
-
-#: data/yelp.schemas.in.h:4
-msgid "Font for text with variable width."
-msgstr ""
-
-#: data/yelp.schemas.in.h:5
-msgid "Use a keyboard-controllable caret when viewing pages."
-msgstr ""
-
-#: data/yelp.schemas.in.h:6
-msgid "Use caret"
-msgstr ""
-
-#: data/yelp.schemas.in.h:7
-msgid "Use system fonts"
-msgstr ""
-
-#: data/yelp.schemas.in.h:8
-msgid "Use the default fonts set for the system."
-msgstr ""
-
-#: src/GNOME_Yelp.server.in.h:1 src/yelp-window.c:2169
-msgid "Yelp"
-msgstr "የልፕ"
-
-#: src/GNOME_Yelp.server.in.h:2
-msgid "Yelp Factory"
-msgstr "የልፕ ፋብሪካ"
-
-#: src/yelp-bookmarks.c:241 src/yelp-bookmarks.c:313
-#, c-format
-msgid "A bookmark titled <b>%s</b> already exists for this page."
-msgstr ""
-
-#: src/yelp-bookmarks.c:341
-#, fuzzy
-msgid "Document Sections"
-msgstr "ሰነዶች"
-
-#: src/yelp-db-pager.c:238
+#: ../libyelp/yelp-docbook-document.c:357
 #, c-format
 msgid ""
-"The file ‘%s’ could not be parsed. Either the file does not exist, or it is "
-"not well-formed XML."
+"The file ‘%s’ could not be parsed because it is not a well-formed XML "
+"document."
 msgstr ""
 
-#: src/yelp-db-pager.c:486
+#: ../libyelp/yelp-docbook-document.c:370
+#, c-format
+msgid ""
+"The file ‘%s’ could not be parsed because one or more of its included files "
+"is not a well-formed XML document."
+msgstr ""
+
+#: ../libyelp/yelp-docbook-document.c:803
 msgid "Unknown"
 msgstr ""
 
-#: src/yelp-error.c:42 src/yelp-error.c:58
-msgid "An unknown error occured"
-msgstr ""
+#: ../libyelp/yelp-docbook-document.c:864 ../libyelp/yelp-info-document.c:314
+#: ../libyelp/yelp-man-document.c:358
+#, fuzzy, c-format
+msgid "The requested page was not found in the document ‘%s’."
+msgstr "'%s' የተባለው ሰነድ የለም"
 
-#: src/yelp-error.c:46
+#: ../libyelp/yelp-document.c:266
 #, fuzzy
-msgid "Could not load document"
-msgstr "ተጨማሪ ሰነዶች"
+msgid "Indexed"
+msgstr "ማውጫ"
 
-#: src/yelp-error.c:48
+#: ../libyelp/yelp-document.c:267
 #, fuzzy
-msgid "Could not load section"
-msgstr "አዲስ መስኮት መክፈት አልቻለም።"
+msgid "Whether the document content has been indexed"
+msgstr "'%s' የተባለው ሰነድ የለም"
 
-#: src/yelp-error.c:50
+#: ../libyelp/yelp-document.c:275
 #, fuzzy
-msgid "Could not read the table of contents"
-msgstr "የልፕን ማስጀመር አልቻለም፦ '%s'"
-
-#: src/yelp-error.c:52
-msgid "Unsupported Format"
-msgstr ""
-
-#: src/yelp-error.c:54
-msgid "Could not read document"
-msgstr ""
-
-#: src/yelp-error.c:56
-msgid "Could not process document"
-msgstr ""
-
-#: src/yelp-error.c:66
-msgid "No information is available about the error."
-msgstr ""
-
-#: src/yelp-io-channel.c:98
-#, c-format
-msgid ""
-"The file ‘%s’ could not be read and decoded. The file may be compressed in "
-"an unsupported format."
-msgstr ""
-
-#: src/yelp-main.c:95
-msgid "Define which cache directory to use"
-msgstr ""
-
-#: src/yelp-main.c:129
-#, c-format
-msgid "Could not activate Yelp: '%s'"
-msgstr "የልፕን ማስጀመር አልቻለም፦ '%s'"
-
-#: src/yelp-main.c:148
-msgid "Could not open new window."
-msgstr "አዲስ መስኮት መክፈት አልቻለም።"
-
-#: src/yelp-main.c:326 yelp.desktop.in.in.h:2
-msgid "Help"
-msgstr "መረጃ"
-
-#: src/yelp-man-pager.c:164
-#, c-format
-msgid ""
-"The file ‘%s’ could not be parsed.  Either the file does not exist, or it is "
-"formatted incorrectly."
-msgstr ""
-
-#: src/yelp-pager.c:120
-#, fuzzy
-msgid "Document Information"
+msgid "Document URI"
 msgstr "ሰነዶች"
 
-#: src/yelp-pager.c:121
-msgid "The YelpDocInfo struct of the document"
+#: ../libyelp/yelp-document.c:276
+msgid "The URI which identifies the document"
 msgstr ""
 
-#. TRANSLATORS:
-#. This is an image of the opening quote character used to watermark
-#. blockquote elements.  Different languages use different opening
-#. quote characters, so the icon name is translatable.  The name of
-#. the icon should be "yelp-watermark-blockquote-XXXX", where XXXX
-#. is the Unicode code point of the opening quote character.   For
-#. example, some languages use the double angle quotation mark, so
-#. those would use "yelp-watermark-blockquote-00AB".  However, the
-#. image is not automagically created.  Do not translate this to a
-#. value if there isn't a corresponding icon in yelp/data/icons.
-#. If you need an image created, contact the maintainers.
-#.
-#. Phew, now some notes on which character to use.  Languages that
-#. use guillemets (angle quotations) should use either 00AB or AABB,
-#. depending on whether the opening quotation is the left guillemet
-#. or the right guillemet.  Languages that use inverted comma style
-#. quotations should use 201C, 201D, or 201E.  Note that single
-#. quotation marks don't make very nice watermarks.  So if you use
-#. single quotes as your primary (outer) quotation marks, you should
-#. just use the corresponding double quote watermark.
-#.
-#: src/yelp-settings.c:151
-msgid "yelp-watermark-blockquote-201C"
+#: ../libyelp/yelp-document.c:992
+#, c-format
+msgid "Search results for “%s”"
 msgstr ""
 
-#: src/yelp-toc-pager.c:268
-msgid "YelpTocPager: Pause count is negative."
+#: ../libyelp/yelp-document.c:1004
+#, c-format
+msgid "No matching help pages found in “%s”."
 msgstr ""
 
-#: src/yelp-toc-pager.c:491
+#: ../libyelp/yelp-document.c:1010
+msgid "No matching help pages found."
+msgstr ""
+
+#: ../libyelp/yelp-error.c:35
+#, c-format
+msgid "An unknown error occurred."
+msgstr ""
+
+#: ../libyelp/yelp-help-list.c:548 ../libyelp/yelp-help-list.c:557
+#, fuzzy
+msgid "All Help Documents"
+msgstr "ሰነዶች"
+
+#: ../libyelp/yelp-info-document.c:396
+#, c-format
+msgid ""
+"The file ‘%s’ could not be parsed because it is not a well-formed info page."
+msgstr ""
+
+#: ../libyelp/yelp-location-entry.c:334
+msgid "View"
+msgstr ""
+
+#: ../libyelp/yelp-location-entry.c:335
+msgid "A YelpView instance to control"
+msgstr ""
+
+#: ../libyelp/yelp-location-entry.c:350
+msgid "Bookmarks"
+msgstr ""
+
+#: ../libyelp/yelp-location-entry.c:351
+msgid "A YelpBookmarks implementation instance"
+msgstr ""
+
+#: ../libyelp/yelp-location-entry.c:367
+msgid "Enable Search"
+msgstr ""
+
+#: ../libyelp/yelp-location-entry.c:368
+msgid "Whether the location entry can be used as a search field"
+msgstr ""
+
+#: ../libyelp/yelp-location-entry.c:438 ../src/yelp-window.c:268
+msgid "Search..."
+msgstr ""
+
+#: ../libyelp/yelp-location-entry.c:781
+msgid "Clear the search text"
+msgstr ""
+
+#: ../libyelp/yelp-location-entry.c:829 ../libyelp/yelp-location-entry.c:1591
+msgid "Bookmark this page"
+msgstr ""
+
+#: ../libyelp/yelp-location-entry.c:837 ../libyelp/yelp-location-entry.c:1599
+msgid "Remove bookmark"
+msgstr ""
+
+#: ../libyelp/yelp-location-entry.c:1152
 #, fuzzy, c-format
-msgid "Could not load the OMF file '%s'."
-msgstr "የልፕን ማስጀመር አልቻለም፦ '%s'"
+msgid "Search for “%s”"
+msgstr "ፈልግ፦ (_S)"
 
-#: src/yelp-toc-pager.c:680
+#: ../libyelp/yelp-location-entry.c:1456
+#, fuzzy
+msgid "Loading"
+msgstr "በመጫን ላይ..."
+
+#: ../libyelp/yelp-mallard-document.c:344
+#, fuzzy, c-format
+msgid "The directory ‘%s’ does not exist."
+msgstr "'%s' የተባለው ሰነድ የለም"
+
+#: ../libyelp/yelp-settings.c:154
+msgid "GtkSettings"
+msgstr ""
+
+#: ../libyelp/yelp-settings.c:155
+msgid "A GtkSettings object to get settings from"
+msgstr ""
+
+#: ../libyelp/yelp-settings.c:163
+msgid "GtkIconTheme"
+msgstr ""
+
+#: ../libyelp/yelp-settings.c:164
+msgid "A GtkIconTheme object to get icons from"
+msgstr ""
+
+#: ../libyelp/yelp-settings.c:172
+msgid "Font Adjustment"
+msgstr ""
+
+#: ../libyelp/yelp-settings.c:173
+msgid "A size adjustment to add to font sizes"
+msgstr ""
+
+#: ../libyelp/yelp-settings.c:181
+msgid "Show Text Cursor"
+msgstr ""
+
+#: ../libyelp/yelp-settings.c:182
+msgid "Show the text cursor or caret for accessible navigation"
+msgstr ""
+
+#: ../libyelp/yelp-settings.c:190
+#, fuzzy
+msgid "Editor Mode"
+msgstr "/_አስተካክል"
+
+#: ../libyelp/yelp-settings.c:191
+msgid "Enable features useful to editors"
+msgstr ""
+
+#: ../libyelp/yelp-sqlite-storage.c:147
+msgid "Database filename"
+msgstr ""
+
+#: ../libyelp/yelp-sqlite-storage.c:148
+msgid "The filename of the sqlite database"
+msgstr ""
+
+#: ../libyelp/yelp-transform.c:169
+msgid "XSLT Stylesheet"
+msgstr ""
+
+#: ../libyelp/yelp-transform.c:170
+msgid "The location of the XSLT stylesheet"
+msgstr ""
+
+#: ../libyelp/yelp-transform.c:378 ../libyelp/yelp-transform.c:393
 #, c-format
-msgid "Read man page for %s"
+msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
 msgstr ""
 
-#: src/yelp-toc-pager.c:765
-#, c-format
-msgid ""
-"The table of contents could not be loaded. The file ‘%s’ is either missing "
-"or is not well-formed XML."
+#: ../libyelp/yelp-transform.c:527
+msgid "No href attribute found on yelp:document\n"
 msgstr ""
 
-#: src/yelp-toc-pager.c:873
-#, c-format
-msgid ""
-"The table of contents could not be processed. The file ‘%s’ is either "
-"missing or is not a valid XSLT stylesheet."
-msgstr ""
-
-#: src/yelp-toc-pager.c:1024 src/yelp-xslt-pager.c:365
-msgid "No href attribute found on yelp:document"
-msgstr ""
-
-#: src/yelp-toc-pager.c:1038 src/yelp-xslt-pager.c:381
+#: ../libyelp/yelp-transform.c:542
 msgid "Out of memory"
 msgstr ""
 
-#: src/yelp-toc-pager.c:1079
-msgid "Help Contents"
-msgstr "የመረጃ ማውጫ"
-
-#: src/yelp-window.c:302
-#, fuzzy
-msgid "_File"
-msgstr "/_ፋይል"
-
-#: src/yelp-window.c:303
-#, fuzzy
-msgid "_Edit"
-msgstr "/_አስተካክል"
-
-#: src/yelp-window.c:304
-#, fuzzy
-msgid "_Go"
-msgstr "/_ሂድ ወደ"
-
-#: src/yelp-window.c:305
-msgid "_Bookmarks"
+#: ../libyelp/yelp-view.c:129
+msgid "_Print..."
 msgstr ""
 
-#: src/yelp-window.c:306
-#, fuzzy
-msgid "_Help"
-msgstr "/_መረጃ"
-
-#: src/yelp-window.c:309
-#, fuzzy
-msgid "_New Window"
-msgstr "/ፋይል/_አዲስ መስኮት"
-
-#: src/yelp-window.c:314
-msgid "About This Document"
-msgstr ""
-
-#: src/yelp-window.c:319
-msgid "Open _Location"
-msgstr ""
-
-#: src/yelp-window.c:324
-#, fuzzy
-msgid "_Close Window"
-msgstr "/ፋይል/_መስኮት ዝጋ"
-
-#: src/yelp-window.c:330
-msgid "_Copy"
-msgstr ""
-
-#: src/yelp-window.c:336
-msgid "_Select All"
-msgstr ""
-
-#: src/yelp-window.c:341
-#, fuzzy
-msgid "_Find..."
-msgstr "/አስተካክል/_Find in page..."
-
-#: src/yelp-window.c:346
-msgid "_Preferences"
-msgstr ""
-
-#: src/yelp-window.c:351
-msgid "_Reload"
-msgstr ""
-
-#: src/yelp-window.c:357
+#: ../libyelp/yelp-view.c:134
 #, fuzzy
 msgid "_Back"
 msgstr "ወደኋላ"
 
-#: src/yelp-window.c:359
-msgid "Show previous page in history"
-msgstr "የበፊቱን ገጽ በታሪክ ውስጥ አሳይ"
-
-#: src/yelp-window.c:362
+#: ../libyelp/yelp-view.c:139
 #, fuzzy
 msgid "_Forward"
 msgstr "ወደፊት"
 
-#: src/yelp-window.c:364
-msgid "Show next page in history"
-msgstr "የሚቀጥለውን ገጽ በታሪክ ውስጥ አሳይ"
-
-#: src/yelp-window.c:367
-msgid "_Help Topics"
-msgstr ""
-
-#: src/yelp-window.c:369
-msgid "Go to the listing of help topics"
-msgstr ""
-
-#: src/yelp-window.c:372
+#: ../libyelp/yelp-view.c:144
 #, fuzzy
-msgid "_Previous Section"
+msgid "_Previous Page"
 msgstr "የ_ቀድሞው"
 
-#: src/yelp-window.c:377
+#: ../libyelp/yelp-view.c:149
 #, fuzzy
-msgid "_Next Section"
-msgstr "ክፍል"
+msgid "_Next Page"
+msgstr "/ሂድ ወደ/_ማውጫ"
 
-#: src/yelp-window.c:382
+#: ../libyelp/yelp-view.c:421
 #, fuzzy
-msgid "_Contents"
-msgstr "የመረጃ ማውጫ"
+msgid "Yelp URI"
+msgstr "የልፕ"
 
-#: src/yelp-window.c:388
-msgid "_Add Bookmark"
+#: ../libyelp/yelp-view.c:422
+msgid "A YelpUri with the current location"
 msgstr ""
 
-#: src/yelp-window.c:393
-msgid "_Edit Bookmarks..."
+#: ../libyelp/yelp-view.c:430
+#, fuzzy
+msgid "Loading State"
+msgstr "በመጫን ላይ..."
+
+#: ../libyelp/yelp-view.c:431
+msgid "The loading state of the view"
 msgstr ""
 
-#: src/yelp-window.c:399
+#: ../libyelp/yelp-view.c:440
+msgid "Page ID"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:441
+msgid "The ID of the root page of the page being viewed"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:449
+msgid "Root Title"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:450
+msgid "The title of the root page of the page being viewed"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:458
+msgid "Page Title"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:459
+msgid "The title of the page being viewed"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:467
+msgid "Page Description"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:468
+msgid "The description of the page being viewed"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:476
+msgid "Page Icon"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:477
+msgid "The icon of the page being viewed"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:718
+msgid "You do not have PackageKit. Package install links require PackageKit."
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1012
+msgid "Save Image"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1107
+msgid "Save Code"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1270
+#, c-format
+msgid "Send email to %s"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1285
+msgid "_Install Packages"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1293
 msgid "_Open Link"
 msgstr ""
 
-#: src/yelp-window.c:404
-msgid "Open Link in _New Window"
-msgstr ""
-
-#: src/yelp-window.c:409
-msgid "_Copy Link Address"
-msgstr ""
-
-#: src/yelp-window.c:415
+#: ../libyelp/yelp-view.c:1300
 #, fuzzy
-msgid "_About"
-msgstr "/መረጃ/_ስለ"
+msgid "_Copy Link Location"
+msgstr "ክፍል"
 
-#: src/yelp-window.c:466
-msgid "Help Browser"
-msgstr "የመረጃ መቃኛ"
-
-#: src/yelp-window.c:697 src/yelp-window.c:830
-msgid "The Uniform Resource Identifier for the file is invalid."
+#: ../libyelp/yelp-view.c:1306
+msgid "Open Link in New _Window"
 msgstr ""
 
-#: src/yelp-window.c:709 src/yelp-window.c:825
+#: ../libyelp/yelp-view.c:1358
+msgid "_Save Image As..."
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1360
+msgid "_Save Video As..."
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1367
+msgid "S_end Image To..."
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1369
+msgid "S_end Video To..."
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1380
+msgid "_Copy Text"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1393
+msgid "C_opy Code Block"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1398
+msgid "Save Code _Block As..."
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1505
 #, c-format
-msgid ""
-"The Uniform Resource Identifier ‘%s’ is invalid or does not point to an "
-"actual file."
+msgid "See all search results for “%s”"
 msgstr ""
 
-#: src/yelp-window.c:786 src/yelp-window.c:1140
-msgid "Man pages are not supported in this version."
+#: ../libyelp/yelp-view.c:1626
+#, fuzzy, c-format
+msgid "Could not load a document for ‘%s’"
+msgstr "ተጨማሪ ሰነዶች"
+
+#: ../libyelp/yelp-view.c:1632
+#, fuzzy, c-format
+msgid "Could not load a document"
+msgstr "ተጨማሪ ሰነዶች"
+
+#: ../libyelp/yelp-view.c:1707
+#, fuzzy
+msgid "Document Not Found"
+msgstr "ሰነዶች"
+
+#: ../libyelp/yelp-view.c:1709
+msgid "Page Not Found"
 msgstr ""
 
-#: src/yelp-window.c:796 src/yelp-window.c:1131
-msgid "GNU info pages are not supported in this version"
+#: ../libyelp/yelp-view.c:1712
+msgid "Cannot Read"
 msgstr ""
 
-#: src/yelp-window.c:806
-msgid ""
-"SGML documents are no longer supported. Please ask the author of the "
-"document to convert to XML."
+#: ../libyelp/yelp-view.c:1718
+msgid "Unknown Error"
 msgstr ""
 
-#: src/yelp-window.c:1024
+#: ../libyelp/yelp-view.c:1738
+#, fuzzy
+msgid "Search for packages containing this document."
+msgstr "'%s' የተባለው ሰነድ የለም"
+
+#: ../libyelp/yelp-view.c:1890
+#, c-format
+msgid "The URI ‘%s’ does not point to a valid page."
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1896
+#, c-format
+msgid "The URI does not point to a valid page."
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1902
+#, fuzzy, c-format
+msgid "The URI ‘%s’ could not be parsed."
+msgstr "'%s' የተባለው ሰነድ የለም"
+
+#: ../src/yelp-application.c:63
+msgid "Turn on editor mode"
+msgstr ""
+
+#: ../src/yelp-application.c:126
+msgid "_Larger Text"
+msgstr ""
+
+#: ../src/yelp-application.c:128
+msgid "Increase the size of the text"
+msgstr ""
+
+#: ../src/yelp-application.c:131
+msgid "_Smaller Text"
+msgstr ""
+
+#: ../src/yelp-application.c:133
+msgid "Decrease the size of the text"
+msgstr ""
+
+#: ../src/yelp-application.c:251 ../src/yelp-window.c:1358
+#: ../yelp.desktop.in.in.h:1
+msgid "Help"
+msgstr "መረጃ"
+
+#: ../src/yelp-application.c:286
+msgid "Show Text _Cursor"
+msgstr ""
+
+#: ../src/yelp-window.c:234
+#, fuzzy
+msgid "_Page"
+msgstr "/ሂድ ወደ/_ማውጫ"
+
+#: ../src/yelp-window.c:235
+msgid "_View"
+msgstr ""
+
+#: ../src/yelp-window.c:236
+#, fuzzy
+msgid "_Go"
+msgstr "/_ሂድ ወደ"
+
+#: ../src/yelp-window.c:237
+msgid "_Bookmarks"
+msgstr ""
+
+#: ../src/yelp-window.c:240
+#, fuzzy
+msgid "_New Window"
+msgstr "/ፋይል/_አዲስ መስኮት"
+
+#: ../src/yelp-window.c:245
+#, fuzzy
+msgid "_Close"
+msgstr "/ፋይል/_መስኮት ዝጋ"
+
+#: ../src/yelp-window.c:250
+#, fuzzy
+msgid "_All Documents"
+msgstr "ሰነዶች"
+
+#: ../src/yelp-window.c:254
+msgid "_Add Bookmark"
+msgstr ""
+
+#: ../src/yelp-window.c:259
+msgid "_Remove Bookmark"
+msgstr ""
+
+#: ../src/yelp-window.c:263
+#, fuzzy
+msgid "Find in Page..."
+msgstr "/አስተካክል/_Find in page..."
+
+#: ../src/yelp-window.c:273
+#, fuzzy
+msgid "Open Location"
+msgstr "ክፍል"
+
+#: ../src/yelp-window.c:299
+#, fuzzy
+msgid "Application"
+msgstr "መጠቀሚያ ፕሮግራሞች"
+
+#: ../src/yelp-window.c:300
+msgid "A YelpApplication instance that controls this window"
+msgstr ""
+
+#: ../src/yelp-window.c:427
+msgid "Read Link _Later"
+msgstr ""
+
+#: ../src/yelp-window.c:524
 #, fuzzy
 msgid "Find:"
 msgstr "/አስተካክል/_Find in page..."
 
-#: src/yelp-window.c:1040
-#, fuzzy
-msgid "Find _Next"
-msgstr "ጽሑፉን ፈልግ..."
+#: ../src/yelp-window.c:546
+msgid "Read Later"
+msgstr ""
 
-#: src/yelp-window.c:1052
-#, fuzzy
-msgid "Find _Previous"
-msgstr "የ_ቀድሞው"
-
-#: src/yelp-window.c:1157
+#: ../src/yelp-window.c:1178
 #, c-format
-msgid ""
-"A transformation context could not be created for the file ‘%s’. The format "
-"may not be supported."
+msgid "%i match"
+msgid_plural "%i matches"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/yelp-window.c:1187
+msgid "No matches"
 msgstr ""
 
-#: src/yelp-window.c:1187 src/yelp-window.c:1601 src/yelp-window.c:1668
-#, c-format
-msgid ""
-"The section ‘%s’ does not exist in this document. If you were directed to "
-"this section from a Help button in an application, please report this to the "
-"maintainers of that application."
-msgstr ""
-
-#: src/yelp-window.c:1302
-#, c-format
-msgid ""
-"The file ‘%s’ could not be read.  This file might be missing, or you might "
-"not have permissions to read it."
-msgstr ""
-
-#: src/yelp-window.c:1336
-msgid "Loading..."
-msgstr "በመጫን ላይ..."
-
-#. Note to translators: put here your name (and address) so it
-#. * will shop up in the "about" box
-#: src/yelp-window.c:2166
-#, fuzzy
-msgid "translator-credits"
-msgstr "ዘግዕዝ Frontier Foundation"
-
-#: src/yelp-window.c:2171
-msgid "A documentation browser and viewer for the Gnome Desktop."
-msgstr ""
-
-#: src/yelp-xslt-pager.c:194
-#, c-format
-msgid ""
-"The file ‘%s’ could not be parsed. Either the file does not exist, or it is "
-"improperly formatted."
-msgstr ""
-
-#: src/yelp-xslt-pager.c:215
-#, c-format
-msgid ""
-"The document ‘%s’ could not be processed. The file ‘%s’ is either missing, "
-"or it is not a valid XSLT stylesheet."
-msgstr ""
-
-#: src/yelp-xslt-pager.c:228
-#, c-format
-msgid ""
-"The document ‘%s’could not be processed. The file ‘%s’ is either missing or "
-"is not a valid XSLT stylesheet."
-msgstr ""
-
-#: yelp.desktop.in.in.h:1
+#: ../yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
 msgstr "ከኖም መረጃ አግኝ"
 
+#: ../yelp.desktop.in.in.h:3
 #, fuzzy
-#~ msgid "_Home"
-#~ msgstr "መጀመሪያ"
+msgid "documentation;information;manual;"
+msgstr "ሰነዶች"
+
+#~ msgid "Configuration Files"
+#~ msgstr "የፋይሎች አቀማመጥ"
+
+#~ msgid "Development"
+#~ msgstr "እድገት"
+
+#~ msgid "Games"
+#~ msgstr "ጨዋታዎች"
+
+#~ msgid "Kernel Routines"
+#~ msgstr "Kernel Routines"
+
+#~ msgid "Library Functions"
+#~ msgstr "Library Functions"
+
+#, fuzzy
+#~ msgid "Man Pages"
+#~ msgstr "የመመሪያ ገጾች"
+
+#, fuzzy
+#~ msgid "OpenSSL Applications"
+#~ msgstr "መጠቀሚያ ፕሮግራሞች"
+
+#, fuzzy
+#~ msgid "OpenSSL Configuration"
+#~ msgstr "የፋይሎች አቀማመጥ"
+
+#, fuzzy
+#~ msgid "OpenSSL Overviews"
+#~ msgstr "ማጠቃለያ"
+
+#~ msgid "Overviews"
+#~ msgstr "ማጠቃለያ"
+
+#, fuzzy
+#~ msgid "Perl Functions"
+#~ msgstr "Library Functions"
+
+#, fuzzy
+#~ msgid "Qt Functions"
+#~ msgstr "Library Functions"
+
+#~ msgid "System Administration"
+#~ msgstr "የአሰራሩ መቆጣጠሪያ"
+
+#~ msgid "System Calls"
+#~ msgstr "System Calls"
+
+#, fuzzy
+#~ msgid "Termcap Applications"
+#~ msgstr "መጠቀሚያ ፕሮግራሞች"
+
+#, fuzzy
+#~ msgid "X11 Applications"
+#~ msgstr "መጠቀሚያ ፕሮግራሞች"
+
+#, fuzzy
+#~ msgid "X11 Configuration"
+#~ msgstr "የፋይሎች አቀማመጥ"
+
+#, fuzzy
+#~ msgid "X11 Functions"
+#~ msgstr "Library Functions"
+
+#, fuzzy
+#~ msgid "X11 Games"
+#~ msgstr "ጨዋታዎች"
+
+#, fuzzy
+#~ msgid "X11 Overviews"
+#~ msgstr "ማጠቃለያ"
+
+#, fuzzy
+#~ msgid "Applets"
+#~ msgstr "መጠቀሚያ ፕሮግራሞች"
+
+#, fuzzy
+#~ msgid "Desktop"
+#~ msgstr "ኖም - ሠሌዳ"
+
+#, fuzzy
+#~ msgid "Education Applications"
+#~ msgstr "መጠቀሚያ ፕሮግራሞች"
+
+#, fuzzy
+#~ msgid "Help Topics"
+#~ msgstr "የመረጃ መቃኛ"
+
+#, fuzzy
+#~ msgid "Internet"
+#~ msgstr "የመረጃ ማውጫ"
+
+#, fuzzy
+#~ msgid "Other Documentation"
+#~ msgstr "ሰነዶች"
+
+#, fuzzy
+#~ msgid "Scientific"
+#~ msgstr "መጠቀሚያ ፕሮግራሞች"
+
+#, fuzzy
+#~ msgid "System Tools"
+#~ msgstr "System Calls"
+
+#, fuzzy
+#~ msgid "X Applications"
+#~ msgstr "መጠቀሚያ ፕሮግራሞች"
+
+#, fuzzy
+#~ msgid "_Location:"
+#~ msgstr "ክፍል"
+
+#~ msgid "_Next"
+#~ msgstr "_የሚቀጥለው"
+
+#~ msgid "Yelp Factory"
+#~ msgstr "የልፕ ፋብሪካ"
+
+#, fuzzy
+#~ msgid "Could not load section"
+#~ msgstr "አዲስ መስኮት መክፈት አልቻለም።"
+
+#, fuzzy
+#~ msgid "Could not read the table of contents"
+#~ msgstr "የልፕን ማስጀመር አልቻለም፦ '%s'"
+
+#~ msgid "Could not activate Yelp: '%s'"
+#~ msgstr "የልፕን ማስጀመር አልቻለም፦ '%s'"
+
+#~ msgid "Could not open new window."
+#~ msgstr "አዲስ መስኮት መክፈት አልቻለም።"
+
+#, fuzzy
+#~ msgid "Could not load the OMF file '%s'."
+#~ msgstr "የልፕን ማስጀመር አልቻለም፦ '%s'"
+
+#~ msgid "Help Contents"
+#~ msgstr "የመረጃ ማውጫ"
+
+#, fuzzy
+#~ msgid "_File"
+#~ msgstr "/_ፋይል"
+
+#, fuzzy
+#~ msgid "_Edit"
+#~ msgstr "/_አስተካክል"
+
+#, fuzzy
+#~ msgid "_Help"
+#~ msgstr "/_መረጃ"
+
+#~ msgid "Show previous page in history"
+#~ msgstr "የበፊቱን ገጽ በታሪክ ውስጥ አሳይ"
+
+#~ msgid "Show next page in history"
+#~ msgstr "የሚቀጥለውን ገጽ በታሪክ ውስጥ አሳይ"
+
+#, fuzzy
+#~ msgid "_Previous Section"
+#~ msgstr "የ_ቀድሞው"
+
+#, fuzzy
+#~ msgid "_Next Section"
+#~ msgstr "ክፍል"
+
+#, fuzzy
+#~ msgid "_Contents"
+#~ msgstr "የመረጃ ማውጫ"
+
+#, fuzzy
+#~ msgid "_About"
+#~ msgstr "/መረጃ/_ስለ"
+
+#~ msgid "Help Browser"
+#~ msgstr "የመረጃ መቃኛ"
+
+#, fuzzy
+#~ msgid "Find _Next"
+#~ msgstr "ጽሑፉን ፈልግ..."
+
+#, fuzzy
+#~ msgid "Find _Previous"
+#~ msgstr "የ_ቀድሞው"
+
+#, fuzzy
+#~ msgid "translator-credits"
+#~ msgstr "ዘግዕዝ Frontier Foundation"
 
 #~ msgid "Go to home view"
 #~ msgstr "የመጀመሪያው መመልከቻ ጋር ሂድ"
@@ -739,10 +923,6 @@ msgstr "ከኖም መረጃ አግኝ"
 #~ msgstr "/_አስተካክል"
 
 #, fuzzy
-#~ msgid "Internet Applications"
-#~ msgstr "መጠቀሚያ ፕሮግራሞች"
-
-#, fuzzy
 #~ msgid "Kernels"
 #~ msgstr "Kernel Routines"
 
@@ -758,23 +938,11 @@ msgstr "ከኖም መረጃ አግኝ"
 #~ msgstr "*"
 
 #, fuzzy
-#~ msgid "The selected document could not be opened"
-#~ msgstr "'%s' የተባለው ሰነድ የለም"
-
-#, fuzzy
-#~ msgid "The selected page could not be found in this document."
-#~ msgstr "'%s' የተባለው ሰነድ የለም"
-
-#, fuzzy
 #~ msgid "The table of contents could not be read."
 #~ msgstr "'%s' የተባለው ሰነድ የለም"
 
 #, fuzzy
 #~ msgid "The selected file could not be read."
-#~ msgstr "'%s' የተባለው ሰነድ የለም"
-
-#, fuzzy
-#~ msgid "The file could not be processed."
 #~ msgstr "'%s' የተባለው ሰነድ የለም"
 
 #~ msgid "X11"
@@ -801,13 +969,6 @@ msgstr "ከኖም መረጃ አግኝ"
 #~ msgid "Categories"
 #~ msgstr "ምድቦች"
 
-#~ msgid "Documents"
-#~ msgstr "ሰነዶች"
-
-#, fuzzy
-#~ msgid "_Next Page"
-#~ msgstr "/ሂድ ወደ/_ማውጫ"
-
 #, fuzzy
 #~ msgid "Affiliation"
 #~ msgstr "መጠቀሚያ ፕሮግራሞች"
@@ -815,13 +976,6 @@ msgstr "ከኖም መረጃ አግኝ"
 #, fuzzy
 #~ msgid "Dedication"
 #~ msgstr "ክፍል"
-
-#, fuzzy
-#~ msgid "Editor"
-#~ msgstr "/_አስተካክል"
-
-#~ msgid "Index"
-#~ msgstr "ማውጫ"
 
 #, fuzzy
 #~ msgid "Set Index"
@@ -860,9 +1014,6 @@ msgstr "ከኖም መረጃ አግኝ"
 #~ msgid "A Help Browser for GNOME"
 #~ msgstr "የመረጃ መቃኛ ለኖም 2.0"
 
-#~ msgid "The document '%s' does not exist"
-#~ msgstr "'%s' የተባለው ሰነድ የለም"
-
 #~ msgid "<b>Find text in the document:</b>"
 #~ msgstr "<b>ሰነድ ውስጥ ጽሁፍ ፈልግ፦</b>"
 
@@ -871,9 +1022,6 @@ msgstr "ከኖም መረጃ አግኝ"
 
 #~ msgid "_Match upper/lower case"
 #~ msgstr "ትልቅ/ትንሽ የጽሑፍ መጠን አመሳስል (_M)"
-
-#~ msgid "_Search for:"
-#~ msgstr "ፈልግ፦ (_S)"
 
 #~ msgid "GNOME - Desktop"
 #~ msgstr "ኖም - ሠሌዳ"

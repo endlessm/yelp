@@ -15,9 +15,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=yelp&keywords=I18N+L10N&component=General\n"
-"POT-Creation-Date: 2014-02-02 00:45+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-23 16:02-0700\n"
 "PO-Revision-Date: 2014-02-01 23:57-0300\n"
 "Last-Translator: Rafael Ferreira <rafael.f.f1@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
@@ -42,27 +41,148 @@ msgstr ""
 msgid "Install <string/>"
 msgstr "Instalar <string/>"
 
-#: ../data/yelp.appdata.xml.in.h:1
-msgid ""
-"Yelp is a viewer and framework for documentation on the Linux desktop. It is "
-"used heavily by the GNOME desktop environment, and its tools serve as the "
-"reference implementation for the Mallard help format. Yelp supports DocBook, "
-"Mallard, HTML, man, and info documents."
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:31
+msgid "Home"
 msgstr ""
-"Yelp é um visualização e framework para documentação no ambiente Linux. Ele "
-"é usado massivamente pelo ambiente de área de trabalho do GNOME e suas "
-"ferramentas servem como a implementação referência do formato de ajuda do "
-"Mallard. Yelp provê suporte a documentos DocBook, Mallard, HTML, man e info."
 
-#: ../data/yelp.appdata.xml.in.h:2
-msgid ""
-"Yelp development has led to the development of various tools, and the "
-"Mallard and DocBook transformations live in standalone XSLT module. All of "
-"these are under the umbrella name Yelp."
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.getting-started
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:40
+msgid "Getting started with your OS"
 msgstr ""
-"O desenvolvimento do Yelp levou ao desenvolvimento de várias ferramentas e "
-"as transformações do Mallard e DocBook vivem em um módulo XSLT autônomo. "
-"Todos esses estão sob o nome do Yelp."
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-introduction
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:49
+msgid "Introduction to your OS"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-exit
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:58
+msgid "Log out, power off or switch users"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-apps-open
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:67
+#, fuzzy
+msgid "Start applications"
+msgstr "Aplicativos"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:78
+msgid "Desktop Apps &amp; Windows"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:89
+msgid "Files, Folders &amp; Search"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:98
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:109
+msgid "Networking, Web, Email &amp; Chat"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.prefs
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:120
+msgid "User &amp; System Settings"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.tips
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:131
+msgid "Tips &amp; Tricks"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.media
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:142
+#, fuzzy
+msgid "Sound, Video &amp; Pictures"
+msgstr "Multimídia"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:153
+#, fuzzy
+msgid "Hardware &amp; Drivers"
+msgstr "Dispositivos de hardware"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.more-help
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:162
+msgid "Get more help"
+msgstr ""
 
 #: ../libyelp/yelp-bz2-decompressor.c:144
 #: ../libyelp/yelp-lzma-decompressor.c:153
@@ -592,6 +712,27 @@ msgstr "Obtenha ajuda sobre o GNOME"
 msgid "documentation;information;manual;"
 msgstr "documentação;informação;informações;manual;"
 
+#~ msgid ""
+#~ "Yelp is a viewer and framework for documentation on the Linux desktop. It "
+#~ "is used heavily by the GNOME desktop environment, and its tools serve as "
+#~ "the reference implementation for the Mallard help format. Yelp supports "
+#~ "DocBook, Mallard, HTML, man, and info documents."
+#~ msgstr ""
+#~ "Yelp é um visualização e framework para documentação no ambiente Linux. "
+#~ "Ele é usado massivamente pelo ambiente de área de trabalho do GNOME e "
+#~ "suas ferramentas servem como a implementação referência do formato de "
+#~ "ajuda do Mallard. Yelp provê suporte a documentos DocBook, Mallard, HTML, "
+#~ "man e info."
+
+#~ msgid ""
+#~ "Yelp development has led to the development of various tools, and the "
+#~ "Mallard and DocBook transformations live in standalone XSLT module. All "
+#~ "of these are under the umbrella name Yelp."
+#~ msgstr ""
+#~ "O desenvolvimento do Yelp levou ao desenvolvimento de várias ferramentas "
+#~ "e as transformações do Mallard e DocBook vivem em um módulo XSLT "
+#~ "autônomo. Todos esses estão sob o nome do Yelp."
+
 #~ msgid "Don't steal focus"
 #~ msgstr "Não roubar o foco"
 
@@ -600,9 +741,6 @@ msgstr "documentação;informação;informações;manual;"
 
 #~ msgid "Traditional command line help (info)"
 #~ msgstr "Ajuda tradicional da linha de comando (info)"
-
-#~ msgid "Applications"
-#~ msgstr "Aplicativos"
 
 #~ msgid "BLT Functions"
 #~ msgstr "Funções BLT"
@@ -621,9 +759,6 @@ msgstr "documentação;informação;informações;manual;"
 
 #~ msgid "Games"
 #~ msgstr "Jogos"
-
-#~ msgid "Hardware Devices"
-#~ msgstr "Dispositivos de hardware"
 
 #~ msgid "Kernel Routines"
 #~ msgstr "Rotinas do kernel"
@@ -1151,9 +1286,6 @@ msgstr "documentação;informação;informações;manual;"
 
 #~ msgid "Sound"
 #~ msgstr "Som"
-
-#~ msgid "Sound &amp; Video"
-#~ msgstr "Multimídia"
 
 #~ msgid "Sound &amp; Video Editing"
 #~ msgstr "Edição de multimídia"
