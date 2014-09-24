@@ -5,11 +5,13 @@ yelp.pot: yelp.xml.in yelp-endless.xml.in
 
 %.xml: %.xml.in
 	$(AM_V_GEN) ( \
+	$(MKDIR_P) $@-temp; \
 	for lang in $(ALL_LINGUAS); do \
-	  msgfmt -o "$$lang.mo" "$(top_srcdir)/po/$$lang.po" || exit 1; \
+	  msgfmt -o "$@-temp/$$lang.mo" "$(top_srcdir)/po/$$lang.po" || exit 1; \
 	done; \
-	itstool -o "$@" -j "$^" $(foreach ll,$(ALL_LINGUAS),$(ll).mo); \
-	rm $(foreach ll,$(ALL_LINGUAS),$(ll).mo))
+	itstool -o "$@" -j "$^" $(foreach ll,$(ALL_LINGUAS),$@-temp/$(ll).mo); \
+	rm $(foreach ll,$(ALL_LINGUAS),$@-temp/$(ll).mo); \
+	rmdir $@-temp)
 
 xsldir=$(datadir)/yelp-xsl/xslt/common/domains
 
