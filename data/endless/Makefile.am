@@ -56,4 +56,4 @@ font_files = \
 
 nobase_endless_DATA = $(css_files) $(img_files) $(font_files)
 
-EXTRA_DIST = $(endless_DATA)
+EXTRA_DIST = $(nobase_endless_DATA)
