@@ -1,0 +1,84 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/eos-help-center-style.css">
+    <title>eos-help-center</title>
+</head>
+<body>
+<div id="content-nav" class="col-xs-2 small">
+    <nav id="main-nav" class="col-xs-2 load_section">
+        <div id="wrap-nav">
+            <div id="accordion">
+                <h3 class="first">Home</h3>
+                <div>
+                    <ul>
+                        <li rel="brasero"><span>Desktop Apps & Windows</span></li>
+                        <li rel="cheese"><span>Files, Folders & Search</span></li>
+                        <li rel="empathy"><span>Universal Acces</span></li>
+                        <li rel="eog"><span>Networking, Web, Email & Chat</span></li>
+                        <li rel="evince"><span>User & System Settings</span></li>
+                        <li rel="evolution"><span>Tips & Tricks</span></li>
+                        <li rel="file-roller"><span>Sound, Video & Pictures</span></li>
+                        <li rel="gedit"><span>Hardware & Drivers</span></li>
+                        <li rel="gnome-calculator"><span>Get more help</span></li>
+                        <li rel="gnome-devel-demos"><span>Getting started with your OS</span></li>
+                        <li rel="brasero"><span>Introduction to your OS</span></li>
+                        <li rel="gnome-help"><span>Desktop Apps & Windows</span></li>
+                        <li rel="gnome-terminal"><span>Files, Folders & Search</span></li>
+                        <li rel="orca"><span>Universal Acces</span></li>
+                        <li rel="platform-overview"><span>Networking, Web, Email & Chat</span></li>
+                        <li rel="zenity"><span>Tips & Tricks</span></li>
+                    </ul>
+                </div>
+
+                <h3>Log out, power off or switch users</h3>
+                <div>
+                    <ul>
+                        <li><span>Introducción</span></li>
+                        <li><span>Características principales</span></li>
+                    </ul>
+                </div>
+
+                <h3 class="last">Start applications</span></h3>
+                <div>
+                    <ul>
+                        <li><span>Características principales</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<section id="wrap-article" class="col-xs-10 section small">
+    <!-- Article section -->
+    <article id="content-body">
+        <div id="content-article">
+            <div id="load-container">
+                
+                
+                
+                
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </article>
+</section>
+<!-- Scripts -->
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/scripts.js"></script>
+<link rel="stylesheet" href="css/article-style.css">
+<script type="text/javascript">
+    $('.module, .section-themes li').click(function() {
+        window.location.replace('article.html');
+    });
+    $('.section #load-container').on('click', "a", function(e) {
+        event.preventDefault();
+        window.location.replace('article.html');
+    });
+</script>
+</body>
+</html>
