@@ -1,25 +1,27 @@
-# translation of yelp.master.po to Español
-# Spanish translation for yelp
-# Copyright (C) 2001,2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 # 
-# Juan Manuel García Molina <juanma_gm@wanadoo.es>, 2001, 2002, 2003.
-# Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2003, 2004, 2005, 2006.
-# Jorge González <jorgegonz@svn.gnome.org>, 2007, 2009, 2010, 2011.
-# 
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015.
+# Translators:
+# c.sanchez <cassandra@endlessm.com>, 2014
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2013
+# Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2003-2006
+# Jorge González <jorgegonz@svn.gnome.org>, 2007,2009-2011
+# Juan Manuel García Molina <juanma_gm@wanadoo.es>, 2001-2003
+# Nuritzi Sanchez <ns@endlessm.com>, 2014
+# mattdangerw <watson@endlessm.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: yelp.master\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-29 21:12-0700\n"
-"PO-Revision-Date: 2015-06-30 \n"
-"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2015-12-01 04:00+0000\n"
+"PO-Revision-Date: 2014-12-29 04:01+0000\n"
+"Last-Translator: mattdangerw <watson@endlessm.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/endless-mobile-inc/yelp/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: msg/msgstr
@@ -29,166 +31,86 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Instalar <string/>"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: yelp-endless.xml.in:31
-msgid "Home"
-msgstr "Inicio"
+msgid "Getting Started"
+msgstr "Empezar"
 
 #. (itstool) path: msg/msgstr
-#. ID: sidebar.link.getting-started
-#.
+#. ID: sidebar.link.net
 #. Appears on the static navigation sidebar.
-#.
 #: yelp-endless.xml.in:40
-msgid "Getting started with your OS"
-msgstr "Primeros pasos"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-introduction
-#.
-#. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:49
-msgid "Introduction to your OS"
-msgstr "Introducción"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-exit
-#.
-#. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:58
-msgid "Log out, power off or switch users"
-msgstr "Cerrar la sesión, apagar o cambiar de usuario"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-apps-open
-#.
-#. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:67
-msgid "Start applications"
-msgstr "Iniciar aplicaciones"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-overview
-#.
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:78
-msgid "Desktop Apps &amp; Windows"
-msgstr "Escritorio, aplicaciones y ventanas"
+msgid "Internet"
+msgstr "Internet"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:89
-msgid "Files, Folders &amp; Search"
-msgstr "Búsqueda de archivos y carpetas"
+#: yelp-endless.xml.in:51
+msgid "Documents &amp; Files"
+msgstr "Documentos y Archivos"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:60
+msgid "The Desktop"
+msgstr "El escritorio"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:71
+msgid "Printers, Displays &amp; Accessories"
+msgstr "Impresoras, pantallas y accesorios"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:98
+#: yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr "Acceso universal"
 
 #. (itstool) path: msg/msgstr
-#. ID: sidebar.link.net
-#.
+#. ID: sidebar.link.security-and-privacy
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:109
-msgid "Networking, Web, Email &amp; Chat"
-msgstr "Red, internet, correo-e y chat"
+#: yelp-endless.xml.in:91
+msgid "Security &amp; Privacy"
+msgstr "Seguridad y privacidad"
 
 #. (itstool) path: msg/msgstr
-#. ID: sidebar.link.prefs
-#.
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:120
-msgid "User &amp; System Settings"
-msgstr "Usuario y configuración del sistema"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.tips
-#.
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:131
-msgid "Tips &amp; Tricks"
-msgstr "Trucos y consejos"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.media
-#.
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:142
-msgid "Sound, Video &amp; Pictures"
-msgstr "Sonido, vídeo e imágenes"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.hardware
-#.
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:153
-msgid "Hardware &amp; Drivers"
-msgstr "Hardware y controladores"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.more-help
-#.
+#. ID: sidebar.link.endless-videos
 #. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:162
-msgid "Get more help"
-msgstr "Obtener más ayuda"
+#: yelp-endless.xml.in:100
+msgid "Video Library"
+msgstr "Videos tutoriales"
 
-#: ../libyelp/yelp-bz2-decompressor.c:144
-#: ../libyelp/yelp-lzma-decompressor.c:153
+#: ../libyelp/yelp-bz2-decompressor.c:143
+#: ../libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
 msgstr "Datos comprimidos no válidos"
 
-#: ../libyelp/yelp-bz2-decompressor.c:150
-#: ../libyelp/yelp-lzma-decompressor.c:159
+#: ../libyelp/yelp-bz2-decompressor.c:149
+#: ../libyelp/yelp-lzma-decompressor.c:158
 msgid "Not enough memory"
 msgstr "No hay suficiente memoria"
 
 #: ../libyelp/yelp-docbook-document.c:297 ../libyelp/yelp-info-document.c:237
-#: ../libyelp/yelp-mallard-document.c:305
-#: ../libyelp/yelp-mallard-document.c:456 ../libyelp/yelp-man-document.c:281
+#: ../libyelp/yelp-mallard-document.c:306
+#: ../libyelp/yelp-mallard-document.c:457 ../libyelp/yelp-man-document.c:281
 #, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
 msgstr "La página «%s» no se encontró en el documento «%s»."
@@ -210,24 +132,20 @@ msgstr "El archivo «%s» no existe."
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"El archivo «%s» no se pudo analizar porque no es un documento XML bien "
-"formado."
+msgstr "El archivo «%s» no se pudo analizar porque no es un documento XML bien formado."
 
 #: ../libyelp/yelp-docbook-document.c:370
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"El archivo «%s» no se pudo analizar porque uno o más de sus archivos "
-"incluidos no son documentos XML bien formados."
+msgstr "El archivo «%s» no se pudo analizar porque uno o más de sus archivos incluidos no son documentos XML bien formados."
 
-#: ../libyelp/yelp-docbook-document.c:803
+#: ../libyelp/yelp-docbook-document.c:800
 msgid "Unknown"
 msgstr "Desconocido"
 
-#: ../libyelp/yelp-docbook-document.c:864 ../libyelp/yelp-info-document.c:314
+#: ../libyelp/yelp-docbook-document.c:861 ../libyelp/yelp-info-document.c:314
 #: ../libyelp/yelp-man-document.c:358
 #, c-format
 msgid "The requested page was not found in the document ‘%s’."
@@ -276,11 +194,14 @@ msgstr "Todos los documentos de ayuda"
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"El archivo «%s» no se pudo analizar porque no es una página de información "
-"bien formada."
+msgstr "El archivo «%s» no se pudo analizar porque no es una página de información bien formada."
 
-#: ../libyelp/yelp-location-entry.c:334
+#: ../libyelp/yelp-mallard-document.c:345
+#, c-format
+msgid "The directory ‘%s’ does not exist."
+msgstr "La carpeta «%s» no existe."
+
+#: ../libyelp/yelp-search-entry.c:172
 msgid "View"
 msgstr "Ver"
 
@@ -288,7 +209,7 @@ msgstr "Ver"
 msgid "A YelpView instance to control"
 msgstr "Una instancia de YelpApplication para controlar"
 
-#: ../libyelp/yelp-location-entry.c:350
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:407
 msgid "Bookmarks"
 msgstr "Marcadores"
 
@@ -302,8 +223,7 @@ msgstr "Activar búsqueda"
 
 #: ../libyelp/yelp-location-entry.c:368
 msgid "Whether the location entry can be used as a search field"
-msgstr ""
-"Indica si la entrada de ubicación se puede usar como un campo de búsqueda"
+msgstr "Indica si la entrada de ubicación se puede usar como un campo de búsqueda"
 
 #: ../libyelp/yelp-location-entry.c:438 ../src/yelp-window.c:268
 msgid "Search..."
@@ -329,11 +249,6 @@ msgstr "Buscar «%s»"
 #: ../libyelp/yelp-location-entry.c:1456
 msgid "Loading"
 msgstr "Cargando"
-
-#: ../libyelp/yelp-mallard-document.c:344
-#, c-format
-msgid "The directory ‘%s’ does not exist."
-msgstr "La carpeta «%s» no existe."
 
 #: ../libyelp/yelp-settings.c:154
 msgid "GtkSettings"
@@ -383,24 +298,24 @@ msgstr "Nombre del archivo de base de datos"
 msgid "The filename of the sqlite database"
 msgstr "El nombre del archivo de la base de datos sqlite"
 
-#: ../libyelp/yelp-transform.c:169
+#: ../libyelp/yelp-transform.c:166
 msgid "XSLT Stylesheet"
 msgstr "Hoja de estilo XSLT"
 
-#: ../libyelp/yelp-transform.c:170
+#: ../libyelp/yelp-transform.c:167
 msgid "The location of the XSLT stylesheet"
 msgstr "La ubicación de la hoja de estilo XSLT"
 
-#: ../libyelp/yelp-transform.c:378 ../libyelp/yelp-transform.c:393
+#: ../libyelp/yelp-transform.c:374 ../libyelp/yelp-transform.c:389
 #, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
 msgstr "La hoja de estilo XSLT «%s» falta o no es válida."
 
-#: ../libyelp/yelp-transform.c:527
+#: ../libyelp/yelp-transform.c:523
 msgid "No href attribute found on yelp:document\n"
 msgstr "No se encontró atributo href en yelp:document\n"
 
-#: ../libyelp/yelp-transform.c:542
+#: ../libyelp/yelp-transform.c:538
 msgid "Out of memory"
 msgstr "Se agotó la memoria"
 
@@ -409,24 +324,20 @@ msgid "_Print..."
 msgstr "_Imprimir…"
 
 #: ../libyelp/yelp-view.c:134
-#, fuzzy
 msgid "_Back"
-msgstr "Atrás"
+msgstr "A_trás"
 
 #: ../libyelp/yelp-view.c:139
-#, fuzzy
 msgid "_Forward"
-msgstr "Adelante"
+msgstr "A_delante"
 
 #: ../libyelp/yelp-view.c:144
-#, fuzzy
 msgid "_Previous Page"
-msgstr "Página anterior"
+msgstr "Página _anterior"
 
 #: ../libyelp/yelp-view.c:149
-#, fuzzy
 msgid "_Next Page"
-msgstr "Siguiente página"
+msgstr "_Siguiente página"
 
 #: ../libyelp/yelp-view.c:421
 msgid "Yelp URI"
@@ -486,9 +397,7 @@ msgstr "El icono de la página que se está viendo"
 
 #: ../libyelp/yelp-view.c:718
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"No tiene PackageKit instalado. Los enlaces de instalación de paquetes "
-"requieren PackageKit."
+msgstr "No tiene PackageKit instalado. Los enlaces de instalación de paquetes requieren PackageKit."
 
 #: ../libyelp/yelp-view.c:1012
 msgid "Save Image"
@@ -498,106 +407,101 @@ msgstr "Guardar imagen"
 msgid "Save Code"
 msgstr "Guardar código"
 
-#: ../libyelp/yelp-view.c:1270
+#: ../libyelp/yelp-view.c:1319
 #, c-format
 msgid "Send email to %s"
 msgstr "Enviar correo-e a %s"
 
-#: ../libyelp/yelp-view.c:1285
+#: ../libyelp/yelp-view.c:1334
 msgid "_Install Packages"
 msgstr "_Instalar paquetes"
 
-#: ../libyelp/yelp-view.c:1293
+#: ../libyelp/yelp-view.c:1342
 msgid "_Open Link"
 msgstr "_Abrir enlace"
 
-#: ../libyelp/yelp-view.c:1300
+#: ../libyelp/yelp-view.c:1349
 msgid "_Copy Link Location"
 msgstr "_Copiar la dirección del enlace"
 
-#: ../libyelp/yelp-view.c:1306
+#: ../libyelp/yelp-view.c:1355
 msgid "Open Link in New _Window"
 msgstr "Abrir enlace en una _ventana nueva"
 
-#: ../libyelp/yelp-view.c:1358
-#, fuzzy
-msgid "_Save Image As..."
-msgstr "Guardar imagen _como…"
+#: ../libyelp/yelp-view.c:1409
+msgid "_Save Image As…"
+msgstr "_Guardar imagen como..."
 
-#: ../libyelp/yelp-view.c:1360
-#, fuzzy
-msgid "_Save Video As..."
-msgstr "Guardar vídeo _como…"
+#: ../libyelp/yelp-view.c:1411
+msgid "_Save Video As…"
+msgstr "_Guardar video como..."
 
-#: ../libyelp/yelp-view.c:1367
-#, fuzzy
-msgid "S_end Image To..."
-msgstr "_Enviar imagen a…"
+#: ../libyelp/yelp-view.c:1418
+msgid "S_end Image To…"
+msgstr "_Enviar imagen a..."
 
-#: ../libyelp/yelp-view.c:1369
-#, fuzzy
-msgid "S_end Video To..."
-msgstr "_Enviar vídeo a…"
+#: ../libyelp/yelp-view.c:1420
+msgid "S_end Video To…"
+msgstr "_Enviar video a..."
 
-#: ../libyelp/yelp-view.c:1380
+#: ../libyelp/yelp-view.c:1431
 msgid "_Copy Text"
 msgstr "_Copiar texto"
 
-#: ../libyelp/yelp-view.c:1393
+#: ../libyelp/yelp-view.c:1444
 msgid "C_opy Code Block"
 msgstr "C_opiar bloque de código"
 
-#: ../libyelp/yelp-view.c:1398
-#, fuzzy
-msgid "Save Code _Block As..."
-msgstr "Guardar _bloque de código como…"
+#: ../libyelp/yelp-view.c:1449
+msgid "Save Code _Block As…"
+msgstr "Guardar _bloque de código como..."
 
-#: ../libyelp/yelp-view.c:1505
+#: ../libyelp/yelp-view.c:1564
 #, c-format
 msgid "See all search results for “%s”"
 msgstr "Buscar todos los resultados para «%s»"
 
-#: ../libyelp/yelp-view.c:1626
+#: ../libyelp/yelp-view.c:1685
 #, c-format
 msgid "Could not load a document for ‘%s’"
 msgstr "No se pudo cargar un documento para «%s»"
 
-#: ../libyelp/yelp-view.c:1632
+#: ../libyelp/yelp-view.c:1691
 #, c-format
 msgid "Could not load a document"
 msgstr "No se pudo cargar un documento"
 
-#: ../libyelp/yelp-view.c:1707
+#: ../libyelp/yelp-view.c:1766
 msgid "Document Not Found"
 msgstr "No se encontró el documento"
 
-#: ../libyelp/yelp-view.c:1709
+#: ../libyelp/yelp-view.c:1768
 msgid "Page Not Found"
 msgstr "No se encontró la página"
 
-#: ../libyelp/yelp-view.c:1712
+#: ../libyelp/yelp-view.c:1771
 msgid "Cannot Read"
 msgstr "No se puede leer"
 
-#: ../libyelp/yelp-view.c:1718
+#: ../libyelp/yelp-view.c:1777
 msgid "Unknown Error"
 msgstr "Error desconocido"
 
-#: ../libyelp/yelp-view.c:1738
+#: ../libyelp/yelp-view.c:1797
 msgid "Search for packages containing this document."
 msgstr "Buscar paquetes que contengan este documento."
 
-#: ../libyelp/yelp-view.c:1890
+#: ../libyelp/yelp-view.c:1966
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "El URI «%s» no apunta a una página válida."
 
-#: ../libyelp/yelp-view.c:1896
+#: ../libyelp/yelp-view.c:1972
 #, c-format
 msgid "The URI does not point to a valid page."
 msgstr "El URI no apunta a una página válida."
 
-#: ../libyelp/yelp-view.c:1902
+#: ../libyelp/yelp-view.c:1978
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "No se pudo analizar el URI «%s»."
@@ -607,18 +511,16 @@ msgid "Turn on editor mode"
 msgstr "Activar el modo editor"
 
 #: ../src/yelp-application.c:126
-#, fuzzy
 msgid "_Larger Text"
-msgstr "Texto más grande"
+msgstr "Texto más gra_nde"
 
 #: ../src/yelp-application.c:128
 msgid "Increase the size of the text"
 msgstr "Aumentar el tamaño del texto"
 
 #: ../src/yelp-application.c:131
-#, fuzzy
 msgid "_Smaller Text"
-msgstr "Texto más pequeño"
+msgstr "Texto más peque_ño"
 
 #: ../src/yelp-application.c:133
 msgid "Decrease the size of the text"
@@ -629,86 +531,77 @@ msgstr "Reducir el tamaño del texto"
 msgid "Help"
 msgstr "Ayuda"
 
-#: ../src/yelp-application.c:286
-msgid "Show Text _Cursor"
-msgstr "Mostrar el _cursor de texto"
+#: ../src/yelp-application.c:322
+msgid "New Window"
+msgstr "Ventana nueva"
 
-#: ../src/yelp-window.c:234
-msgid "_Page"
-msgstr "_Página"
+#: ../src/yelp-application.c:326
+msgid "Larger Text"
+msgstr "Texto más grande"
 
-#: ../src/yelp-window.c:235
-msgid "_View"
-msgstr "_Ver"
+#: ../src/yelp-application.c:327
+msgid "Smaller Text"
+msgstr "Texto más pequeño"
 
 #: ../src/yelp-window.c:236
 msgid "_Go"
 msgstr "_Ir a"
 
-#: ../src/yelp-window.c:237
-msgid "_Bookmarks"
-msgstr "_Marcadores"
-
-#: ../src/yelp-window.c:240
-#, fuzzy
-msgid "_New Window"
-msgstr "Ventana nueva"
-
-#: ../src/yelp-window.c:245
-msgid "_Close"
-msgstr "_Cerrar"
-
-#: ../src/yelp-window.c:250
-msgid "_All Documents"
-msgstr "_Todos los documentos"
-
-#: ../src/yelp-window.c:254
-msgid "_Add Bookmark"
-msgstr "_Añadir marcador"
-
-#: ../src/yelp-window.c:259
-#, fuzzy
-msgid "_Remove Bookmark"
-msgstr "Quitar marcador"
-
-#: ../src/yelp-window.c:263
-msgid "Find in Page..."
-msgstr "Buscar en la página…"
-
-#: ../src/yelp-window.c:273
-msgid "Open Location"
-msgstr "Abrir dirección"
-
-#: ../src/yelp-window.c:299
+#: ../src/yelp-window.c:209
 msgid "Application"
 msgstr "Aplicación"
 
-#: ../src/yelp-window.c:300
+#: ../src/yelp-window.c:210
 msgid "A YelpApplication instance that controls this window"
 msgstr "Una instancia de YelpApplication que controla esta ventana"
 
-#: ../src/yelp-window.c:427
-msgid "Read Link _Later"
-msgstr "Leer en_lace más tarde"
+#: ../src/yelp-window.c:330
+msgid "Back"
+msgstr "Atrás"
 
-#: ../src/yelp-window.c:524
-msgid "Find:"
-msgstr "Buscar:"
+#: ../src/yelp-window.c:337
+msgid "Forward"
+msgstr "Adelante"
 
-#: ../src/yelp-window.c:546
-msgid "Read Later"
-msgstr "Leer más tarde"
+#: ../src/yelp-window.c:348
+msgid "Menu"
+msgstr "Menú"
 
-#: ../src/yelp-window.c:1178
-#, c-format
-msgid "%i match"
-msgid_plural "%i matches"
-msgstr[0] "%i coincidencia"
-msgstr[1] "%i coincidencias"
+#: ../src/yelp-window.c:356
+msgid "Find…"
+msgstr "Encontrar..."
 
-#: ../src/yelp-window.c:1187
-msgid "No matches"
-msgstr "Sin coincidencias"
+#: ../src/yelp-window.c:357
+msgid "Print…"
+msgstr "Imprimir..."
+
+#: ../src/yelp-window.c:362
+msgid "Previous Page"
+msgstr "Página anterior"
+
+#: ../src/yelp-window.c:363
+msgid "Next Page"
+msgstr "Próxima página"
+
+#: ../src/yelp-window.c:368
+msgid "All Help"
+msgstr "Ayuda"
+
+#: ../src/yelp-window.c:390
+msgid "Search (Ctrl+S)"
+msgstr "Buscar (Ctrl+S)"
+
+#: ../src/yelp-window.c:424
+msgid "No bookmarks"
+msgstr "No tienes favoritos"
+
+#: ../src/yelp-window.c:432
+msgid "Add Bookmark"
+msgstr "Marcar como favorito"
+
+#: ../src/yelp-window.c:438
+msgid "Remove Bookmark"
+msgstr "Quitar como favorito"
 
 #: ../yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
@@ -721,27 +614,6 @@ msgstr "documentación;información;manual;"
 #~| msgid "Unknown Error"
 #~ msgid "Unknown Error."
 #~ msgstr "Error desconocido."
-
-#~ msgid "Menu"
-#~ msgstr "Menú"
-
-#~ msgid "Find…"
-#~ msgstr "Buscar…"
-
-#~ msgid "Print…"
-#~ msgstr "Imprimir…"
-
-#~ msgid "All Help"
-#~ msgstr "Toda la ayuda"
-
-#~ msgid "Search (Ctrl+S)"
-#~ msgstr "Buscar (Ctrl+S)"
-
-#~ msgid "No bookmarks"
-#~ msgstr "Sin marcadores"
-
-#~ msgid "Add Bookmark"
-#~ msgstr "Añadir marcador"
 
 #~| msgid "Search"
 #~ msgid "Search…"
@@ -1174,9 +1046,6 @@ msgstr "documentación;información;manual;"
 
 #~ msgid "Instant Messaging"
 #~ msgstr "Mensajería instantánea"
-
-#~ msgid "Internet"
-#~ msgstr "Internet"
 
 #~ msgid "Java"
 #~ msgstr "Java"
