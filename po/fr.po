@@ -1,37 +1,32 @@
-# French translation of Yelp.
-# Copyright (C) 2002-2012 Free Software Foundation, Inc.
-# This file is under the same license as the yelp package.
-#
-# Jean-Michel Ardantz <jmardantz@ifrance.com>, 2002-2005.
-# Christophe Merlet <redfox@redfoxcenter.org>, 2002-2006.
-# Christophe Fergeau <teuf@users.sourceforge.net>, 2002.
-# Sun G11n <gnome_int_l10n@ireland.sun.com>, 2002.
-# Sébastien Bacher <seb128@debian.org>, 2004.
-# Baptiste Mille-Mathias <bmm80@free.fr>, 2005.
-# Laurent Richard <laurent.richard@ael.be>, 2006.
-# Jonathan Ernst <jonathan@ernstfamily.ch>, 2006-2007, 2009.
-# Benoît Dejean <benoit@placenet.org>, 2006.
-# Robert-André Mauchin <zebob.m@gmail.com>, 2006.
-# Claude Paroz <claude@2xlibre.net>, 2007-2009.
-# Stéphane Raimbault <stephane.raimbault@gmail.com>, 2007-2008.
-# Valentin Gatien-Baron <bbaiyfb@gmail.com>, 2007.
-# Laurent Coudeur <laurentc@iol.ie>, 2010.
-# Gérard Baylard <Geodebay@gmail.com>, 2010.
-# Bruno Brouard <annoa.b@gmail.com>, 2011-12
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Baptiste Mille-Mathias <bmm80@free.fr>, 2005
+# Benoît Dejean <benoit@placenet.org>, 2006
+# Christophe Fergeau <teuf@users.sourceforge.net>, 2002
+# Gérard Baylard <Geodebay@gmail.com>, 2010
+# Jonathan Ernst <jonathan@ernstfamily.ch>, 2006-2007, 2009
+# Laurent Coudeur <laurentc@iol.ie>, 2010
+# Laurent Richard <laurent.richard@ael.be>, 2006
+# Robert-André Mauchin <zebob.m@gmail.com>, 2006
+# Sébastien Bacher <seb128@debian.org>, 2004
+# Sun G11n <gnome_int_l10n@ireland.sun.com>, 2002
+# Valentin Gatien-Baron <bbaiyfb@gmail.com>, 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: yelp master\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-23 16:02-0700\n"
-"PO-Revision-Date: 2013-08-22 12:07+0200\n"
-"Last-Translator: Bruno Brouard <annoa.b@gmail.com>\n"
-"Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2014-09-24 00:31+0000\n"
+"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
+"Language-Team: French (http://www.transifex.com/projects/p/yelp/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8 bits\n"
-"Plural-Forms: nplurals=2; plural=n>1;\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -40,149 +35,119 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Installer <string/>"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: yelp-endless.xml.in:31
 msgid "Home"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.getting-started
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: yelp-endless.xml.in:40
 msgid "Getting started with your OS"
 msgstr "Premiers pas"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-introduction
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: yelp-endless.xml.in:49
 msgid "Introduction to your OS"
 msgstr "Introduction"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-exit
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: yelp-endless.xml.in:58
 msgid "Log out, power off or switch users"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-apps-open
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: yelp-endless.xml.in:67
 msgid "Start applications"
 msgstr "Lancement d'applications"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: yelp-endless.xml.in:78
 msgid "Desktop Apps &amp; Windows"
 msgstr "Bureau, applications &amp; fenêtres"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: yelp-endless.xml.in:89
 msgid "Files, Folders &amp; Search"
 msgstr "Fichiers, dossiers &amp; recherches"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: yelp-endless.xml.in:98
 msgid "Universal Access"
 msgstr "Accès universel"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: yelp-endless.xml.in:109
 msgid "Networking, Web, Email &amp; Chat"
 msgstr "Réseau, Web, courriel &amp; chat"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.prefs
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: yelp-endless.xml.in:120
 msgid "User &amp; System Settings"
 msgstr "Préférences utilisateur &amp; système"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.tips
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: yelp-endless.xml.in:131
 msgid "Tips &amp; Tricks"
 msgstr "Trucs &amp; astuces"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.media
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: yelp-endless.xml.in:142
 msgid "Sound, Video &amp; Pictures"
 msgstr "Son, images &amp; vidéos"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: yelp-endless.xml.in:153
 msgid "Hardware &amp; Drivers"
 msgstr "Matériel &amp; pilotes"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.more-help
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: yelp-endless.xml.in:162
 msgid "Get more help"
 msgstr "Aide supplémentaire"
@@ -221,18 +186,14 @@ msgstr "Le fichier « %s » n'existe pas."
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"Le fichier « %s » n'a pas pu être analysé, car ce n'est pas un document XML "
-"correctement formé."
+msgstr "Le fichier « %s » n'a pas pu être analysé, car ce n'est pas un document XML correctement formé."
 
 #: ../libyelp/yelp-docbook-document.c:370
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"Le fichier « %s » n'a pas pu être analysé, car un ou plus de ses fichiers "
-"inclus n'est pas un document XML correctement formé."
+msgstr "Le fichier « %s » n'a pas pu être analysé, car un ou plus de ses fichiers inclus n'est pas un document XML correctement formé."
 
 #: ../libyelp/yelp-docbook-document.c:803
 msgid "Unknown"
@@ -287,9 +248,7 @@ msgstr "Tous les documents d'aide"
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"Le fichier « %s » n'a pas pu être analysé, car ce n'est pas une page info "
-"correctement formée."
+msgstr "Le fichier « %s » n'a pas pu être analysé, car ce n'est pas une page info correctement formée."
 
 #: ../libyelp/yelp-location-entry.c:334
 msgid "View"
@@ -313,9 +272,7 @@ msgstr "Activer la recherche"
 
 #: ../libyelp/yelp-location-entry.c:368
 msgid "Whether the location entry can be used as a search field"
-msgstr ""
-"Indique si la zone de saisie d'emplacement peut être utilisée comme champ de "
-"recherche"
+msgstr "Indique si la zone de saisie d'emplacement peut être utilisée comme champ de recherche"
 
 #: ../libyelp/yelp-location-entry.c:438 ../src/yelp-window.c:268
 msgid "Search..."
@@ -375,7 +332,6 @@ msgstr "Un ajustement de taille à ajouter aux tailles de police"
 msgid "Show Text Cursor"
 msgstr "Afficher le curseur de texte"
 
-# note typo in source
 #: ../libyelp/yelp-settings.c:182
 msgid "Show the text cursor or caret for accessible navigation"
 msgstr "Affiche le curseur de texte ou caret pour une navigation accessible"
@@ -495,9 +451,7 @@ msgstr "L'icône de la page actuellement affichée"
 
 #: ../libyelp/yelp-view.c:718
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"PackageKit n'est pas installé. Les liens d'installation de paquets "
-"nécessitent PackageKit."
+msgstr "PackageKit n'est pas installé. Les liens d'installation de paquets nécessitent PackageKit."
 
 #: ../libyelp/yelp-view.c:1012
 msgid "Save Image"
@@ -622,7 +576,6 @@ msgstr "Augmente la taille du texte"
 msgid "_Smaller Text"
 msgstr "_Réduire le texte"
 
-# note typo in source
 #: ../src/yelp-application.c:133
 msgid "Decrease the size of the text"
 msgstr "Diminue la taille du texte"
