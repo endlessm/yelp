@@ -1,0 +1,90 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>What's the difference between calibration and characterization?</title>
+<link rel="stylesheet" type="text/css" href="C.css">
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jquery.syntax.js"></script><script type="text/javascript" src="yelp.js"></script>
+</head>
+<body><div class="page" role="main">
+<div class="header"><div class="trails" role="navigation">
+<div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="hardware.html" title="Hardware &amp; drivers">Hardware</a> » <a class="trail" href="color.html" title="Color management">Color management</a> › <a class="trail" href="color.html#calibration" title="Calibration">Calibration</a> » </div>
+<div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="prefs.html" title="User &amp; system settings">Settings</a> » <a class="trail" href="color.html" title="Color management">Color management</a> › <a class="trail" href="color.html#calibration" title="Calibration">Calibration</a> » </div>
+</div></div>
+<div class="body">
+<div class="hgroup"><h1 class="title"><span class="title">What's the difference between calibration and characterization?</span></h1></div>
+<div class="region">
+<div class="contents">
+<p class="p">
+    Many people are initially confused about the difference between calibration
+    and characterization.
+    Calibration is the process of modifying the color behavior of a device.
+    This is typically done using two mechanisms:
+  </p>
+<div class="list"><div class="inner"><div class="region"><ul class="list">
+<li class="list"><p class="p">Changing controls or internal settings that it has</p></li>
+<li class="list"><p class="p">Applying curves to its color channels</p></li>
+</ul></div></div></div>
+<p class="p">
+    The idea of calibration is to put a device in a defined state with regard
+    to its color response.
+    Often this is used as a day to day means of maintaining reproducible behavior.
+    Typically calibration will be stored in device or systems specific file
+    formats that record the device settings or per-channel calibration curves.
+  </p>
+<p class="p">
+    Characterization (or profiling) is <span class="em">recording</span> the way
+    a device reproduces or responds to color.
+    Typically the result is stored in a device ICC profile.
+    Such a profile does not in itself modify color in any way.
+    It allows a system such as a CMM (Color Management Module) or a color aware
+    application to modify color when combined with another device profile.
+    Only by knowing the characteristics of two devices, can a way of
+    transferring color from one device representation to another be achieved.
+  </p>
+<div class="note" title="Note"><div class="inner"><div class="region"><div class="contents"><p class="p">
+      Note that a characterization (profile) will only be valid for a device
+      if it's in the same state of calibration as it was when it was
+      characterized.
+    </p></div></div></div></div>
+<p class="p">
+    In the case of display profiles there is some additional confusion because
+    often the calibration information is stored in the profile for convenience.
+    By convention it is stored in a tag called the <span class="em">vcgt</span> tag.
+    Although it is stored in the profile, none of the normal ICC based tools
+    or applications are aware of it, or do anything with it.
+    Similarly, typical display calibration tools and applications will not be
+    aware of, or do anything with the ICC characterization (profile) information.
+  </p>
+</div>
+<div class="sect sect-links" role="navigation">
+<div class="hgroup"></div>
+<div class="contents"><div class="links guidelinks"><div class="inner">
+<div class="title"><h2><span class="title">More Information</span></h2></div>
+<div class="region"><ul><li class="links "><a href="color.html#calibration" title="Calibration">Calibration</a></li></ul></div>
+</div></div></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="footer"><div class="sect about ui-expander" role="contentinfo">
+<div class="yelp-data yelp-data-ui-expander" data-yelp-expanded="false"></div>
+<div class="inner">
+<div class="hgroup"><h2><span class="title">About</span></h2></div>
+<div class="region"><div class="contents">
+<div class="aboutblurb authors">
+<div class="title"><span class="title">Written By</span></div>
+<ul class="credits"><li>Richard Hughes</li></ul>
+</div>
+<div class="aboutblurb license">
+<div class="title"><span class="title">Creative Commons</span></div>
+<div class="contents"><p class="p">This work is licensed under a <span class="link"><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="http://creativecommons.org/licenses/by-sa/3.0/">Creative
+  Commons Attribution-ShareAlike 3.0 Unported License</a></span>.</p></div>
+</div>
+</div></div>
+</div>
+</div></div>
+</div></body>
+</html>

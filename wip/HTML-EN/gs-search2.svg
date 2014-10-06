@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="840px" height="600px" viewBox="0 0 840 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1 (8751) - http://www.bohemiancoding.com/sketch -->
+    <title>gs-search2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="gs-search2" sketch:type="MSArtboardGroup">
+            <circle id="Oval-1" fill="#B9B9B9" sketch:type="MSShapeGroup" cx="87" cy="141" r="18"></circle>
+            <rect id="Rectangle-1" stroke="#C6C6C6" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="125" y="124" width="605" height="342" rx="4"></rect>
+            <path d="M520.494,368 L334.505,368 C325.39,368 318,375.386 318,384.501 C318,393.613 325.38,401.001 334.505,401.001 L520.494,401.001 C529.61,401.001 537,393.615 537,384.501 C537,375.388 529.619,368 520.494,368" id="Imported-Layers" stroke="#333333" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <text id="2" sketch:type="MSTextLayer" font-family="Lato" font-size="18" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                <tspan x="81.28" y="147">2</tspan>
+            </text>
+            <rect id="Rectangle-3" fill="#E0E0E0" sketch:type="MSShapeGroup" x="126" y="432" width="603" height="33"></rect>
+            <path d="M343.656,390.91 L339.897,386.96 C340.539,385.954 340.912,384.759 340.912,383.476 C340.912,379.899 338.022,377 334.456,377 C330.89,377 328,379.899 328,383.476 C328,387.051 330.89,389.951 334.456,389.951 C335.85,389.951 337.14,389.506 338.196,388.753 L341.873,392.617 C342.343,393.111 343.123,393.13 343.616,392.658 C344.108,392.187 344.125,391.404 343.656,390.91 L343.656,390.91 Z M329.982,383.476 C329.982,380.997 331.985,378.988 334.456,378.988 C336.927,378.988 338.93,380.997 338.93,383.476 C338.93,385.954 336.927,387.963 334.456,387.963 C331.985,387.963 329.982,385.954 329.982,383.476 L329.982,383.476 Z" id="Imported-Layers" fill="#333333" sketch:type="MSShapeGroup"></path>
+            <text id="Guatemala" sketch:type="MSTextLayer" font-family="Lato" font-size="14" font-weight="normal" fill="#333333">
+                <tspan x="350" y="390">Guatemala</tspan>
+            </text>
+            <text id="Buscar-“Guatemala”-e" sketch:type="MSTextLayer" font-family="Lato" font-size="12" font-weight="normal" fill="#999999">
+                <tspan x="279" y="274">Buscar “Guatemala” en Google</tspan>
+            </text>
+            <text id="Guatemala" sketch:type="MSTextLayer" font-family="Lato" font-size="12" font-weight="normal" sketch:alignment="middle" fill="#999999">
+                <tspan x="357.29" y="218">Guatemala</tspan>
+            </text>
+            <text id="Curriculum" sketch:type="MSTextLayer" font-family="Lato" font-size="12" font-weight="normal" sketch:alignment="middle" fill="#999999">
+                <tspan x="437.246" y="218">Curriculum</tspan>
+            </text>
+            <text id="Seleción-de-fútbol-d" sketch:type="MSTextLayer" font-family="Lato" font-size="12" font-weight="normal" fill="#999999">
+                <tspan x="279" y="317">Seleción de fútbol de Guatemala</tspan>
+            </text>
+            <rect id="Rectangle-4" fill="#E0E0E0" sketch:type="MSShapeGroup" x="236" y="253" width="32" height="32" rx="4"></rect>
+            <rect id="Rectangle-4" fill="#E0E0E0" sketch:type="MSShapeGroup" x="236" y="296" width="32" height="32" rx="4"></rect>
+            <rect id="Rectangle-4" fill="#E0E0E0" sketch:type="MSShapeGroup" x="370" y="171" width="32" height="32" rx="4"></rect>
+            <rect id="Rectangle-4" fill="#E0E0E0" sketch:type="MSShapeGroup" x="451" y="171" width="32" height="32" rx="4"></rect>
+            <path d="M420.5,375.5 L420.5,394.5" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M237.5,235.5 L618.532806,235.5" id="Line" stroke="#DCDCDC" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M161.883961,450.170842 C161.826649,450.925556 161.525211,451.181842 161.303399,451.309128 C160.827399,451.580842 160.084961,451.612556 159.157461,451.468128 C157.724211,451.245699 155.849524,450.605413 153.834399,449.789413 C156.988774,448.318985 159.902524,447.427556 161.197524,448.154413 C161.396586,448.265842 162.001211,448.60527 161.883961,450.170842 L161.883961,450.170842 Z M145.619461,447.79227 C142.465086,449.262699 139.550899,450.154985 138.256336,449.427699 C138.057274,449.31627 137.452649,448.976842 137.570774,447.411699 C137.627211,446.656128 137.928649,446.399842 138.150461,446.272985 C138.626461,446.00127 139.368899,445.970413 140.295961,446.113985 C141.729211,446.336413 143.604336,446.97627 145.619461,447.79227 L145.619461,447.79227 Z M161.970586,446.831842 C159.851774,445.641699 155.728774,447.115985 152.037586,448.951985 C151.093899,448.516556 150.157649,448.085842 149.243711,447.676985 C151.947461,446.203556 154.137149,444.746842 154.666086,444.389842 C155.020024,444.150699 155.109274,443.67627 154.865586,443.329556 C154.621461,442.982842 154.137149,442.895842 153.782774,443.134985 C152.020961,444.325556 149.741149,445.705556 147.449524,446.891413 C143.058774,445.017699 139.308524,443.84727 137.366899,444.956413 C136.807774,445.276128 136.120461,445.941699 136.018524,447.299413 C135.861899,449.384413 136.728586,450.326842 137.483274,450.750699 C139.601649,451.940842 143.725086,450.465699 147.415836,448.630128 C148.359524,449.065556 149.295774,449.49627 150.209711,449.905128 C147.506399,451.378128 145.316274,452.835699 144.786899,453.19227 C144.433399,453.431842 144.344586,453.906699 144.588274,454.252985 C144.832399,454.59927 145.316711,454.68627 145.670649,454.447556 C147.432461,453.256556 149.711836,451.876556 152.004336,450.690699 C156.395086,452.563556 160.145336,453.734842 162.086961,452.625699 C162.646086,452.306413 163.332961,451.640842 163.435336,450.282699 C163.592399,448.197699 162.725274,447.254842 161.970586,446.831842 L161.970586,446.831842 Z" id="Imported-Layers" fill="#AEAEAE" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,98 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Wireless network troubleshooter</title>
+<link rel="stylesheet" type="text/css" href="C.css">
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jquery.syntax.js"></script><script type="text/javascript" src="yelp.js"></script>
+</head>
+<body><div class="page" role="main">
+<div class="header"><div class="trails" role="navigation">
+<div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="net.html" title="Networking, web, email &amp; chat">Networking, web, email &amp; chat</a> » <a class="trail" href="net-wireless.html" title="Wireless Networking">Wireless Networking</a> » <a class="trail" href="net-wireless-troubleshooting.html" title="Wireless network troubleshooter">Wireless network troubleshooter</a> » </div>
+<div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="hardware.html" title="Hardware &amp; drivers">Hardware</a> › <a class="trail" href="hardware.html#problems" title="Common problems">Problems</a> » <a class="trail" href="net-wireless-troubleshooting.html" title="Wireless network troubleshooter">Wireless network troubleshooter</a> » </div>
+</div></div>
+<div class="body">
+<div class="links nextlinks">
+<a class="nextlinks-prev" href="net-wireless-troubleshooting.html" title="Wireless network troubleshooter">Previous</a><a class="nextlinks-next" href="net-wireless-troubleshooting-hardware-info.html" title="Wireless network troubleshooter">Next</a>
+</div>
+<div class="hgroup">
+<h1 class="title"><span class="title">Wireless network troubleshooter</span></h1>
+<h2 class="subtitle"><span class="subtitle">Perform an initial connection check</span></h2>
+</div>
+<div class="region">
+<div class="contents">
+<p class="p">In this step you will check some basic information about your wireless
+ network connection. This is to make sure that your networking problem isn't
+ caused by a relatively simple issue, like the wireless connection being turned
+ off, and to prepare for the next few troubleshooting steps.</p>
+<div class="steps"><div class="inner"><div class="region"><ol class="steps">
+<li class="steps"><p class="p">Make sure that your laptop is not connected to a <span class="em">wired</span> internet
+ connection.</p></li>
+<li class="steps"><p class="p">If you have an external wireless adapter (such as a USB adapter, or a
+ PCMCIA card that plugs into your laptop), make sure that it is firmly inserted
+ into the proper slot on your computer.</p></li>
+<li class="steps"><p class="p">If your wireless card is <span class="em">inside</span> your computer, make sure that the
+ wireless switch is turned on (if it has one). Laptops often have wireless
+ switches that you can toggle by pressing a combination of keyboard keys.</p></li>
+<li class="steps"><p class="p">Click the system status area on the top bar and select <span class="gui">Wi-Fi</span>,
+ then select <span class="gui">Wi-Fi Settings</span>. Make sure that <span class="gui">Wi-Fi</span> is set
+ to <span class="gui">ON</span>. You should also check that
+ <span class="link"><a href="net-wireless-airplane.html" title="Turn off wireless (airplane mode)">Airplane Mode is not switched on</a></span>.</p></li>
+<li class="steps">
+<p class="p">Open the Terminal, type <span class="cmd">nm-tool</span> and press <span class="key"><kbd>Enter</kbd></span>.</p>
+<p class="p">This will display information about your network hardware and connection
+ status. Look down the list of information and see if there is a section
+ related to the wireless network adapter. The information for each network
+ device is separated by a row of dashes. If you find the line
+ <span class="code">State: Connected</span> in the section for your wireless adapter, it
+ means that it is working and connected to your wireless router.</p>
+</li>
+</ol></div></div></div>
+<p class="p">If you are connected to your wireless router, but you still cannot access the
+ internet, your router may not be set up correctly, or your Internet Service
+ Provider (ISP) maybe experiencing some technical problems. Review your router
+ and ISP setup guides to make sure the settings are correct, or contact your
+ ISP for support.</p>
+<p class="p">If the information from <span class="cmd">nm-tool</span> did not indicate that you were
+ connected to the network, click <span class="gui">Next</span> to proceed to the next portion
+ of the troubleshooting guide.</p>
+</div>
+<div class="links nextlinks">
+<a class="nextlinks-prev" href="net-wireless-troubleshooting.html" title="Wireless network troubleshooter">Previous</a><a class="nextlinks-next" href="net-wireless-troubleshooting-hardware-info.html" title="Wireless network troubleshooter">Next</a>
+</div>
+<div class="sect sect-links" role="navigation">
+<div class="hgroup"></div>
+<div class="contents"><div class="links guidelinks"><div class="inner">
+<div class="title"><h2><span class="title">More Information</span></h2></div>
+<div class="region"><ul><li class="links ">
+<a href="net-wireless-troubleshooting.html" title="Wireless network troubleshooter">Wireless network troubleshooter</a><span class="desc"> — Identify and fix problems with wireless connections</span>
+</li></ul></div>
+</div></div></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="footer"><div class="sect about ui-expander" role="contentinfo">
+<div class="yelp-data yelp-data-ui-expander" data-yelp-expanded="false"></div>
+<div class="inner">
+<div class="hgroup"><h2><span class="title">About</span></h2></div>
+<div class="region"><div class="contents">
+<div class="aboutblurb authors">
+<div class="title"><span class="title">Written By</span></div>
+<ul class="credits">
+<li>Contributors to the Ubuntu documentation wiki</li>
+<li>GNOME Documentation Project</li>
+</ul>
+</div>
+<div class="aboutblurb license">
+<div class="title"><span class="title">Creative Commons</span></div>
+<div class="contents"><p class="p">This work is licensed under a <span class="link"><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="http://creativecommons.org/licenses/by-sa/3.0/">Creative
+  Commons Attribution-ShareAlike 3.0 Unported License</a></span>.</p></div>
+</div>
+</div></div>
+</div>
+</div></div>
+</div></body>
+</html>

@@ -1,0 +1,125 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Why does my computer turn off when I close the lid?</title>
+<link rel="stylesheet" type="text/css" href="C.css">
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jquery.syntax.js"></script><script type="text/javascript" src="yelp.js"></script>
+</head>
+<body><div class="page" role="main">
+<div class="header"><div class="trails" role="navigation">
+<div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="hardware.html" title="Hardware &amp; drivers">Hardware</a> » <a class="trail" href="power.html" title="Power &amp; battery">Power &amp; battery</a> » </div>
+<div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="prefs.html" title="User &amp; system settings">Settings</a> » <a class="trail" href="power.html" title="Power &amp; battery">Power &amp; battery</a> » </div>
+</div></div>
+<div class="body">
+<div class="hgroup"><h1 class="title"><span class="title">Why does my computer turn off when I close the lid?</span></h1></div>
+<div class="region">
+<div class="contents">
+<p class="p">When you close the lid of your laptop, your computer will
+  <span class="link"><a href="power-suspend.html" title="What happens when I suspend my computer?"><span class="em">suspend</span></a></span> in order to save power.
+  This means that the computer is not actually turned off - it has just gone to
+  sleep. You can resume it by opening the lid. If it does not resume, try
+  clicking the mouse or pressing a key. If that still does not work, press the
+  power button.</p>
+<p class="p">Some computers are unable to suspend properly, normally because their
+  hardware is not completely supported by the operating system (for example,
+  the Linux drivers are incomplete). In this case, you may find that you are
+  unable to resume your computer after you have closed the lid. You can try to
+  <span class="link"><a href="power-suspendfail.html" title="Why does my computer not turn back on after I suspended it?">fix the problem with suspend</a></span>, or you
+  can prevent the computer from trying to suspend when you close the lid.</p>
+</div>
+<div id="nosuspend" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Stop the computer from suspending when the lid is closed</span></h2></div>
+<div class="region"><div class="contents">
+<div class="note note-important" title="Important"><div class="inner"><div class="region"><div class="contents"><p class="p">These instructions will only work if you are using <span class="app">systemd</span>.
+    Contact your distribution for more information.</p></div></div></div></div>
+<p class="p">If you do not want the computer to suspend when you close the lid, you can
+  change the settings for that behavior. You will need to have an
+  <span class="link"><a href="user-admin-change.html" title="Change who has administrative privileges">administrator password</a></span> to change the
+  setting.</p>
+<div class="note note-warning" title="Warning"><div class="inner"><div class="region"><div class="contents"><p class="p">Be very careful if you change this setting. Some laptops can overheat
+    if they are left running with the lid closed, especially if they are in
+    a confined place like a backpack.</p></div></div></div></div>
+<div class="steps"><div class="inner"><div class="region"><ol class="steps">
+<li class="steps"><p class="p">Open the <span class="app">Terminal</span> application from the
+      <span class="gui">Activities</span> overview.</p></li>
+<li class="steps">
+<p class="p">Run the following command:</p>
+<div class="screen"><pre class="contents "><span class="prompt output">$</span> <span class="input">sudoedit /etc/systemd/logind.conf</span></pre></div>
+</li>
+<li class="steps">
+<p class="p">You will now see the contents of the file. Look for
+      <span class="code">HandleLidSwitch=</span> in the file. The line may be quoted out
+      with a <span class="code">#</span> at the start and may be followed by an argument. If
+      the line already exists, unquote it. Otherwise, add the line.</p>
+<div class="code"><pre class="contents ">[Login]
+HandleLidSwitch=<span class="input">lock</span>
+      </pre></div>
+<p class="p">You can use <span class="input">lock</span> for the screen to lock,
+      <span class="input">ignore</span> for nothing to happen, <span class="input">poweroff</span> for
+      the computer to switch off or <span class="input">suspend</span> to suspend. For more
+      information, see <span class="link"><a href="man:logind.conf" title="man:logind.conf">logind.conf help</a></span>.</p>
+</li>
+<li class="steps"><p class="p">Once you finish editing the file, save your changes and quit the
+      editor.</p></li>
+<li class="steps">
+<p class="p">Run the following command to make your change work:</p>
+<div class="screen"><pre class="contents "><span class="prompt output">$</span> <span class="input">sudo systemctl restart systemd-logind.service</span></pre></div>
+<p class="p">If you do not run that command, the change will only work after your
+      computer is restarted.</p>
+</li>
+</ol></div></div></div>
+</div></div>
+</div></div>
+<div class="sect sect-links" role="navigation">
+<div class="hgroup"></div>
+<div class="contents">
+<div class="links guidelinks"><div class="inner">
+<div class="title"><h2><span class="title">More Information</span></h2></div>
+<div class="region"><ul><li class="links ">
+<a href="power.html" title="Power &amp; battery">Power &amp; battery</a><span class="desc"> — 
+      <span class="link"><a href="power-suspend.html" title="What happens when I suspend my computer?">Suspend</a></span>,
+      <span class="link"><a href="shell-exit.html#shutdown" title="Power off or restart">power off</a></span>,
+      <span class="link"><a href="power-whydim.html" title="Why does my screen go dim after a while?">screen dimming</a></span>…
+    </span>
+</li></ul></div>
+</div></div>
+<div class="links seealsolinks"><div class="inner">
+<div class="title"><h2><span class="title">See Also</span></h2></div>
+<div class="region"><ul><li class="links ">
+<a href="power-suspendfail.html" title="Why does my computer not turn back on after I suspended it?">Why does my computer not turn back on after I suspended it?</a><span class="desc"> — Some computer hardware causes problems with suspend or hibernate.</span>
+</li></ul></div>
+</div></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="footer"><div class="sect about ui-expander" role="contentinfo">
+<div class="yelp-data yelp-data-ui-expander" data-yelp-expanded="false"></div>
+<div class="inner">
+<div class="hgroup"><h2><span class="title">About</span></h2></div>
+<div class="region"><div class="contents">
+<div class="aboutblurb authors">
+<div class="title"><span class="title">Written By</span></div>
+<ul class="credits">
+<li>GNOME Documentation Project</li>
+<li>Ekaterina Gerasimova</li>
+</ul>
+</div>
+<div class="aboutblurb editors">
+<div class="title"><span class="title">Edited By</span></div>
+<ul class="credits"><li>Ekaterina Gerasimova</li></ul>
+</div>
+<div class="aboutblurb license">
+<div class="title"><span class="title">Creative Commons</span></div>
+<div class="contents"><p class="p">This work is licensed under a <span class="link"><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="http://creativecommons.org/licenses/by-sa/3.0/">Creative
+  Commons Attribution-ShareAlike 3.0 Unported License</a></span>.</p></div>
+</div>
+</div></div>
+</div>
+</div></div>
+</div></body>
+</html>

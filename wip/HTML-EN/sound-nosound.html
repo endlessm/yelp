@@ -1,0 +1,133 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>I can't hear any sounds on the computer</title>
+<link rel="stylesheet" type="text/css" href="C.css">
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jquery.syntax.js"></script><script type="text/javascript" src="yelp.js"></script>
+</head>
+<body><div class="page" role="main">
+<div class="header"><div class="trails" role="navigation">
+<div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="hardware.html" title="Hardware &amp; drivers">Hardware</a> › <a class="trail" href="hardware.html#problems" title="Common problems">Problems</a> » <a class="trail" href="sound-broken.html" title="Sound problems">Sound problems</a> » </div>
+<div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="prefs.html" title="User &amp; system settings">Settings</a> » <a class="trail" href="media.html#sound" title="Basic sound">Sound</a> » <a class="trail" href="sound-broken.html" title="Sound problems">Sound problems</a> » </div>
+</div></div>
+<div class="body">
+<div class="hgroup"><h1 class="title"><span class="title">I can't hear any sounds on the computer</span></h1></div>
+<div class="region">
+<div class="contents"><p class="p">If you can't hear any sounds on your computer, for example when you try to
+ play music, try these troubleshooting steps to see if you can fix the problem.</p></div>
+<div id="mute" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Make sure that the sound is not muted</span></h2></div>
+<div class="region"><div class="contents">
+<p class="p">Click the sound icon on the top bar (it looks like a speaker) and make sure
+ that the sound is not muted or turned right down.</p>
+<p class="p">Some laptops have mute switches or keys on their keyboards—try pressing
+ that key to see if it unmutes the sound.</p>
+<p class="p">You should also check that you haven't muted the application that you're
+ using to play sound (e.g. your music player or movie player). The application
+ may have a mute or volume button in its main window, so check that. Also, click
+ the sound icon on the top bar and choose <span class="gui">Sound Settings</span>. When the
+ <span class="gui">Sound</span> window appears, go to the <span class="gui">Applications</span> tab and
+ check that your application is not muted.</p>
+</div></div>
+</div></div>
+<div id="speakers" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Check that the speakers are turned on and connected properly</span></h2></div>
+<div class="region"><div class="contents">
+<p class="p">If your computer has external speakers, make sure that they are turned on
+ and that the volume is turned up. Make sure that the speaker cable is securely
+ plugged into the "output" audio socket on the back of the computer. This socket
+ is usually light green in color.</p>
+<p class="p">Some sound cards are able to switch which socket they use for output (to the
+ speakers) and input (from a microphone, for instance). The output socket may be
+ different when running Linux than on Windows or Mac OS. Try connecting the
+ speaker cable to the different audio sockets on the computer in turn to see if
+ that works.</p>
+<p class="p">A final thing to check is that the audio cable is securely plugged into the
+ back of the speakers. Some speakers have more than one input too.</p>
+</div></div>
+</div></div>
+<div id="device" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Check that the right sound device is selected</span></h2></div>
+<div class="region"><div class="contents">
+<p class="p">Some computers have multiple "sound devices" installed. Some of these are
+ capable of outputting sound and some are not, so you should check that you have
+ the correct one selected. This might involve some trial-and-error to choose the
+ right one.</p>
+<div class="steps"><div class="inner"><div class="region"><ol class="steps">
+<li class="steps"><p class="p">Click the sound icon on the top bar and select <span class="gui">Sound Settings</span>.</p></li>
+<li class="steps"><p class="p">In the <span class="gui">Sound</span> window that appears, go to the <span class="gui">Output</span>
+ tab. Make a note of which device and which profile are selected (so you can
+ return to the default selections if changing them doesn't work).</p></li>
+<li class="steps"><p class="p">For the selected device, try changing the profile—play a sound after you
+ change the profile to see if it works. You might need to go through the list
+ and try each profile.</p></li>
+<li class="steps"><p class="p">If that doesn't work, you might want to try doing the same for any other
+ devices that are listed.</p></li>
+<li class="steps"><p class="p">Try changing the <span class="gui">Connector</span> option in the <span class="gui">Output</span> tab.</p></li>
+</ol></div></div></div>
+</div></div>
+</div></div>
+<div id="hardware-detected" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Check that the sound card was detected properly</span></h2></div>
+<div class="region"><div class="contents">
+<p class="p">Your sound card may not have been detected properly. If this has happened,
+ your computer will think that it isn't able to play sound. A possible reason
+ for the card not being detected properly is that the drivers for the card are
+ not installed.</p>
+<div class="steps"><div class="inner"><div class="region"><ol class="steps">
+<li class="steps"><p class="p">Go to the <span class="gui">Activities</span> overview and open a Terminal.</p></li>
+<li class="steps"><p class="p">Type <span class="cmd">aplay -l</span> and press <span class="key"><kbd>Enter</kbd></span>.</p></li>
+<li class="steps"><p class="p">A list of devices will be shown. If there are no <span class="gui">playback hardware
+ devices</span>, your sound card has not been detected.</p></li>
+</ol></div></div></div>
+<p class="p">If your sound card is not detected, you may need to manually install the
+ drivers for it. How you do this will depend on the card you have.</p>
+<p class="p">You can see what sound card you have by using the <span class="cmd">lspci</span> command
+ in the Terminal. You may have to run <span class="cmd">lspci</span> as
+ <span class="link"><a href="user-admin-explain.html" title="How do administrative privileges work?">superuser</a></span>; either type <span class="cmd">sudo lspci</span>
+ and type your password, or type <span class="cmd">su</span>, enter the <span class="em">root</span>
+ (administrative) password, then type <span class="cmd">lspci</span>. See if an
+ <span class="em">audio controller</span> or <span class="em">audio device</span> is listed—it should have the
+ sound card's make and model number. <span class="cmd">lspci -v</span> will show a list with
+ more detailed information.</p>
+<p class="p">You may be able to find and install drivers for your card. It's best to ask
+ on support forums (or otherwise) for your Linux distribution for instructions.</p>
+<p class="p">If you can't get drivers for your sound card, you might prefer to buy a new
+ sound card. You can get sound cards that can be installed inside the computer
+ and external USB sound cards.</p>
+</div></div>
+</div></div>
+<div class="sect sect-links" role="navigation">
+<div class="hgroup"></div>
+<div class="contents"><div class="links guidelinks"><div class="inner">
+<div class="title"><h2><span class="title">More Information</span></h2></div>
+<div class="region"><ul><li class="links ">
+<a href="sound-broken.html" title="Sound problems">Sound problems</a><span class="desc"> — Troubleshoot problems like having no sound or having poor sound quality.</span>
+</li></ul></div>
+</div></div></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="footer"><div class="sect about ui-expander" role="contentinfo">
+<div class="yelp-data yelp-data-ui-expander" data-yelp-expanded="false"></div>
+<div class="inner">
+<div class="hgroup"><h2><span class="title">About</span></h2></div>
+<div class="region"><div class="contents">
+<div class="aboutblurb authors">
+<div class="title"><span class="title">Written By</span></div>
+<ul class="credits"><li>GNOME Documentation Project</li></ul>
+</div>
+<div class="aboutblurb license">
+<div class="title"><span class="title">Creative Commons</span></div>
+<div class="contents"><p class="p">This work is licensed under a <span class="link"><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="http://creativecommons.org/licenses/by-sa/3.0/">Creative
+  Commons Attribution-ShareAlike 3.0 Unported License</a></span>.</p></div>
+</div>
+</div></div>
+</div>
+</div></div>
+</div></body>
+</html>

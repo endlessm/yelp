@@ -1,0 +1,194 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Browse files on a server or network share</title>
+<link rel="stylesheet" type="text/css" href="C.css">
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jquery.syntax.js"></script><script type="text/javascript" src="yelp.js"></script>
+</head>
+<body><div class="page" role="main">
+<div class="header"><div class="trails" role="navigation">
+<div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="files.html" title="Files, folders &amp; search">Files</a> » </div>
+<div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="net.html" title="Networking, web, email &amp; chat">Networking, web, email &amp; chat</a> » <a class="trail" href="sharing.html" title="Sharing">Sharing</a> » </div>
+</div></div>
+<div class="body">
+<div class="hgroup"><h1 class="title"><span class="title">Browse files on a server or network share</span></h1></div>
+<div class="region">
+<div class="contents">
+<p class="p">You can connect to a server or network share to browse and
+view files on that server, exactly as if they were on your
+own computer. This is a convenient way to download or upload
+files on the internet, or to share files with other people on
+your local network.</p>
+<p class="p">To browse files over the network, open the <span class="app">Files</span>
+application from the <span class="gui">Activities</span> overview, and click
+<span class="gui">Browse Network</span> in the sidebar. The file manager
+will find any computers on your local area network that advertise
+their ability to serve files. If you want to connect to a server
+on the internet, or if you do not see the computer you're looking
+for, you can manually connect to a server by typing in its
+internet/network address.</p>
+<div class="steps"><div class="inner">
+<div class="title title-steps"><h2><span class="title">Connect to a file server</span></h2></div>
+<div class="region"><ol class="steps">
+<li class="steps"><p class="p">In the file manager, click <span class="gui">Files</span> in the top bar and pick
+  <span class="gui">Connect to Server</span> from the app menu.</p></li>
+<li class="steps">
+<p class="p">Enter the address of the server, in the form of a
+   <span class="link"><a href="#urls" title="Writing URLs">URL</a></span>. Details on supported URLs are
+   <span class="link"><a href="#types" title="Types of servers">listed below</a></span>.</p>
+<div class="note" title="Note"><div class="inner"><div class="region"><div class="contents"><p class="p">If you have connected to the server before, you can click on it in the
+    <span class="gui">Recent Servers</span> list.</p></div></div></div></div>
+</li>
+<li class="steps"><p class="p">Click <span class="gui">Connect</span>. A new window will open showing you the
+  files on the server. You can browse the files just as you would for those on
+  your own computer. The server will also be added to the sidebar so you can
+  access it quickly in the future</p></li>
+</ol></div>
+</div></div>
+</div>
+<div id="urls" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Writing URLs</span></h2></div>
+<div class="region"><div class="contents">
+<p class="p">A <span class="em">URL</span>, or <span class="em">uniform resource locator</span>, is a form of address
+ that refers to a location or file on a network. The address is formatted like this:</p>
+<div class="example"><p class="p"><span class="sys">scheme://servername.example.com/folder</span></p></div>
+<p class="p">The <span class="em">scheme</span> specifies the protocol or type of server. The
+  <span class="em">example.com</span> portion of the address is called the <span class="em">domain name</span>.
+  If a username is required, it is inserted before the server name:</p>
+<div class="example"><p class="p"><span class="sys">scheme://username@servername.example.com/folder</span></p></div>
+<p class="p">Some schemes require the port number to be specified. Insert it after the domain name:</p>
+<div class="example"><p class="p"><span class="sys">scheme://servername.example.com:port/folder</span></p></div>
+<p class="p">Below are specific examples for the various server types that are supported.</p>
+</div></div>
+</div></div>
+<div id="types" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Types of servers</span></h2></div>
+<div class="region"><div class="contents">
+<p class="p">You can connect to different types of servers. Some servers are public,
+   and allow anybody to connect. Other servers require you to log in with a
+   username and password.</p>
+<p class="p">You may not have permissions to perform certain actions on files on a server.
+  For example, on public FTP sites, you will probably not be able to delete
+  files.</p>
+<p class="p">The URL you enter depends on the protocol that the
+  server uses to export its file shares.</p>
+<div class="terms"><div class="inner"><div class="region"><dl class="terms">
+<dt class="terms">SSH</dt>
+<dd class="terms">
+<p class="p">If you have a <span class="em">secure shell</span> account on a server, you
+  can connect using this method. Many web hosts provide SSH accounts
+  to members so they can securely upload files. SSH servers always
+  require you to log in.</p>
+<p class="p">A typical SSH URL looks like this:</p>
+<div class="example"><p class="p"><span class="sys">ssh://username@servername.example.com/folder</span></p></div>
+<p class="p">When using SSH, all the data you send (including your password)
+  is encrypted so that other users on your network can't see it.</p>
+</dd>
+<dt class="terms">FTP (with login)</dt>
+<dd class="terms">
+<p class="p">FTP is a popular way to exchange files on the Internet.
+  Because data is not encrypted over FTP, many servers now provide
+  access through SSH. Some servers, however, still allow or require
+  you to use FTP to upload or download files. FTP sites with logins
+  will usually allow you to delete and upload files.</p>
+<p class="p">A typical FTP URL looks like this:</p>
+<div class="example"><p class="p"><span class="sys">ftp://username@ftp.example.com/path/</span></p></div>
+</dd>
+<dt class="terms">Public FTP</dt>
+<dd class="terms">
+<p class="p">Sites that allow you to download files will sometimes provide
+  public or anonymous FTP access. These servers do not require a
+  username and password, and will usually not allow you to delete
+  or upload files.</p>
+<p class="p">A typical anonymous FTP URL looks like this:</p>
+<div class="example"><p class="p"><span class="sys">ftp://ftp.example.com/path/</span></p></div>
+<p class="p">Some anonymous FTP sites require you to log in with a
+  public username and password, or with a public username using
+  your email address as the password. For these servers, use the
+  <span class="gui">FTP (with login)</span> method, and use the credentials
+  specified by the FTP site.</p>
+</dd>
+<dt class="terms">Windows share</dt>
+<dd class="terms">
+<p class="p">Windows computers use a proprietary protocol to share files over a local
+  area network. Computers on a Windows network are sometimes grouped into
+  <span class="em">domains</span> for organization and to better control access. If you have
+  the right permissions on the remote computer, you can connect to a Windows
+  share from the file manager.</p>
+<p class="p">A typical Windows share URL looks like this:</p>
+<div class="example"><p class="p"><span class="sys">smb://servername/Share</span></p></div>
+</dd>
+<dt class="terms">WebDAV and Secure WebDAV</dt>
+<dd class="terms">
+<p class="p">Based on the HTTP protocol used on the web, WebDAV is sometimes used to
+  share files on a local network and to store files on the internet. If the
+  server you're connecting to supports secure connections, you should choose
+  this option. Secure WebDAV uses strong SSL encryption, so that other users
+  can't see your password.</p>
+<p class="p">A typical WebDAV URL looks like this:</p>
+<div class="example"><p class="p"><span class="sys">http://example.hostname.com/path</span></p></div>
+</dd>
+</dl></div></div></div>
+</div></div>
+</div></div>
+<div class="sect sect-links" role="navigation">
+<div class="hgroup"></div>
+<div class="contents">
+<div class="links guidelinks"><div class="inner">
+<div class="title"><h2><span class="title">More Information</span></h2></div>
+<div class="region"><ul>
+<li class="links ">
+<a href="files.html" title="Files, folders &amp; search">Files, folders &amp; search</a><span class="desc"> — 
+      <span class="link"><a href="files-search.html" title="Search for files">Searching</a></span>,
+      <span class="link"><a href="files-delete.html" title="Delete files and folders">delete files</a></span>,
+      <span class="link"><a href="files.html#backup" title="Backing up">backups</a></span>,
+      <span class="link"><a href="files.html#removable" title="Removable drives and external disks">removable drives</a></span>…
+    </span>
+</li>
+<li class="links ">
+<a href="sharing.html" title="Sharing">Sharing</a><span class="desc"> — 
+      <span class="link"><a href="sharing-desktop.html" title="Share your desktop">Desktop sharing</a></span>,
+      <span class="link"><a href="files-share.html" title="Share files by email">Share files by email</a></span>,
+      <span class="link"><a href="sharing-media.html" title="Share your music, photos and videos">Media sharing</a></span>…
+    </span>
+</li>
+</ul></div>
+</div></div>
+<div class="links seealsolinks"><div class="inner">
+<div class="title"><h2><span class="title">See Also</span></h2></div>
+<div class="region"><ul><li class="links ">
+<a href="files-share.html" title="Share files by email">Share files by email</a><span class="desc"> — Easily transfer files to your email contacts from the file
+    manager.</span>
+</li></ul></div>
+</div></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="footer"><div class="sect about ui-expander" role="contentinfo">
+<div class="yelp-data yelp-data-ui-expander" data-yelp-expanded="false"></div>
+<div class="inner">
+<div class="hgroup"><h2><span class="title">About</span></h2></div>
+<div class="region"><div class="contents">
+<div class="aboutblurb authors">
+<div class="title"><span class="title">Written By</span></div>
+<ul class="credits"><li>Shaun McCance</li></ul>
+</div>
+<div class="aboutblurb editors">
+<div class="title"><span class="title">Edited By</span></div>
+<ul class="credits"><li>Michael Hill</li></ul>
+</div>
+<div class="aboutblurb license">
+<div class="title"><span class="title">Creative Commons</span></div>
+<div class="contents"><p class="p">This work is licensed under a <span class="link"><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="http://creativecommons.org/licenses/by-sa/3.0/">Creative
+  Commons Attribution-ShareAlike 3.0 Unported License</a></span>.</p></div>
+</div>
+</div></div>
+</div>
+</div></div>
+</div></body>
+</html>

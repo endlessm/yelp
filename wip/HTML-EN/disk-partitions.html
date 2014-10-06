@@ -1,0 +1,96 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Manage volumes and partitions</title>
+<link rel="stylesheet" type="text/css" href="C.css">
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jquery.syntax.js"></script><script type="text/javascript" src="yelp.js"></script>
+</head>
+<body><div class="page" role="main">
+<div class="header"><div class="trails" role="navigation"><div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="hardware.html" title="Hardware &amp; drivers">Hardware</a> » <a class="trail" href="disk.html" title="Disks &amp; storage">Disks &amp; storage</a> » </div></div></div>
+<div class="body">
+<div class="hgroup"><h1 class="title"><span class="title">Manage volumes and partitions</span></h1></div>
+<div class="region">
+<div class="contents">
+<p class="p">The word <span class="em">volume</span> is used to describe a storage device, like a hard
+ disk. It can also refer to a <span class="em">part</span> of the storage on that device,
+ because you can split the storage up into chunks. The computer makes this
+ storage accessible via your file system in a process referred to as
+ <span class="em">mounting</span>. Mounted volumes may be hard drives, USB drives, DVD-RWs, SD
+ cards, and other media. If a volume is currently mounted, you can read (and
+ possibly write) files on it.</p>
+<p class="p">Often, a mounted volume is called a <span class="em">partition</span>, though they are not
+ necessarily the same thing. A “partition” refers to a <span class="em">physical</span> area of
+ storage on a single disk drive. Once a partition has been mounted, it can be
+ referred to as a volume because you can access the files on it. You can think
+ of volumes as the labeled, accessible “storefronts” to the functional “back
+ rooms” of partitions and drives.</p>
+</div>
+<div id="manage" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">View and manage volumes and partitions using the disk utility</span></h2></div>
+<div class="region"><div class="contents">
+<p class="p">You can check and modify your computer's storage volumes with the disk
+ utility.</p>
+<div class="steps"><div class="inner"><div class="region"><ol class="steps">
+<li class="steps"><p class="p">Open the <span class="gui">Activities</span> overview and start the <span class="app">Disks</span> application.</p></li>
+<li class="steps"><p class="p"> In the pane marked <span class="gui">Storage Devices</span>, you will find hard disks,
+  CD/DVD drives, and other physical devices. Click the device you want to
+  inspect.</p></li>
+<li class="steps">
+<p class="p"> In the right pane, the area labeled <span class="gui">Volumes</span> provides a visual
+  breakdown of the volumes and partitions present on the selected device. It
+  also contains a variety of tools used to manage these volumes.</p>
+<p class="p">Be careful: it is possible to completely erase the data on your disk with
+  these utilities.</p>
+</li>
+</ol></div></div></div>
+<p class="p">Your computer most likely has at least one <span class="em">primary</span> partition and a
+ single <span class="em">swap</span> partition. The swap partition is used by the operating
+ system for memory management, and is rarely mounted.  The primary partition
+ contains your operating system, applications, settings, and personal files.
+ These files can also be distributed among multiple partitions for security or
+ convenience.</p>
+<p class="p">One primary partition must contain information that your computer uses to
+ start up, or <span class="em">boot</span>. For this reason it is sometimes called a boot
+ partition, or boot volume. To determine if a volume is bootable, look at its
+ <span class="gui">Partition Flags</span> in the disk utility. External media such as USB
+ drives and CDs may also contain a bootable volume.</p>
+</div></div>
+</div></div>
+<div class="sect sect-links" role="navigation">
+<div class="hgroup"></div>
+<div class="contents"><div class="links guidelinks"><div class="inner">
+<div class="title"><h2><span class="title">More Information</span></h2></div>
+<div class="region"><ul><li class="links ">
+<a href="disk.html" title="Disks &amp; storage">Disks &amp; storage</a><span class="desc"> — 
+    <span class="link"><a href="disk-capacity.html" title="Check how much disk space is left">Disk space</a></span>,
+    <span class="link"><a href="disk-benchmark.html" title="Test the performance of your hard disk">performance</a></span>,
+    <span class="link"><a href="disk-check.html" title="Check your hard disk for problems">problems</a></span>,
+    <span class="link"><a href="disk-partitions.html" title="Manage volumes and partitions">volumes and partitions</a></span>…
+  </span>
+</li></ul></div>
+</div></div></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="footer"><div class="sect about ui-expander" role="contentinfo">
+<div class="yelp-data yelp-data-ui-expander" data-yelp-expanded="false"></div>
+<div class="inner">
+<div class="hgroup"><h2><span class="title">About</span></h2></div>
+<div class="region"><div class="contents">
+<div class="aboutblurb authors">
+<div class="title"><span class="title">Written By</span></div>
+<ul class="credits"><li>GNOME Documentation Project</li></ul>
+</div>
+<div class="aboutblurb license">
+<div class="title"><span class="title">Creative Commons</span></div>
+<div class="contents"><p class="p">This work is licensed under a <span class="link"><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="http://creativecommons.org/licenses/by-sa/3.0/">Creative
+  Commons Attribution-ShareAlike 3.0 Unported License</a></span>.</p></div>
+</div>
+</div></div>
+</div>
+</div></div>
+</div></body>
+</html>

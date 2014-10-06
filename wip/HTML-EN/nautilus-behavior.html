@@ -1,0 +1,123 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>File manager behavior preferences</title>
+<link rel="stylesheet" type="text/css" href="C.css">
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jquery.syntax.js"></script><script type="text/javascript" src="yelp.js"></script>
+</head>
+<body><div class="page" role="main">
+<div class="header"><div class="trails" role="navigation"><div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="files.html" title="Files, folders &amp; search">Files</a> » <a class="trail" href="nautilus-prefs.html" title="File manager preferences">File manager preferences</a> » </div></div></div>
+<div class="body">
+<div class="hgroup"><h1 class="title"><span class="title">File manager behavior preferences</span></h1></div>
+<div class="region">
+<div class="contents"><p class="p">You can control whether you single-click or double-click files, how
+executable text files are handled, and the trash behavior. Click
+<span class="gui">Files</span> in the top bar, pick <span class="gui">Preferences</span> and select the <span class="gui">Behavior</span> tab.</p></div>
+<div id="behavior" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Behavior</span></h2></div>
+<div class="region"><div class="contents"><div class="terms"><div class="inner"><div class="region"><dl class="terms">
+<dt class="terms"><span class="gui">Single click to open items</span></dt>
+<dt class="terms"><span class="gui">Double click to open items</span></dt>
+<dd class="terms"><p class="p">By default, clicking selects files and double-clicking opens them.
+  You can instead choose to have files and folders open when you click on
+  them once. When you use single-click mode, you can hold down the
+  <span class="key"><kbd>Ctrl</kbd></span> key while clicking to select one or more files.</p></dd>
+</dl></div></div></div></div></div>
+</div></div>
+<div id="executable" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Executable text files</span></h2></div>
+<div class="region"><div class="contents">
+<p class="p">An executable text file is a file that contains a program that you can run
+ (execute). The <span class="link"><a href="nautilus-file-properties-permissions.html" title="Set file permissions">file
+ permissions</a></span> must also allow for the file to run as a program. The most
+ common are <span class="sys">Shell</span>, <span class="sys">Python</span> and <span class="sys">Perl</span> scripts.
+ These have extensions <span class="file">.sh</span>, <span class="file">.py</span> and <span class="file">.pl</span>,
+ respectively.</p>
+<p class="p">When you open an executable text file, you can select from:</p>
+<div class="list"><div class="inner"><div class="region"><ul class="list">
+<li class="list"><p class="p"><span class="gui">Run executable text files when they are opened</span></p></li>
+<li class="list"><p class="p"><span class="gui">View executable text files when they are opened</span></p></li>
+<li class="list"><p class="p"><span class="gui">Ask each time</span></p></li>
+</ul></div></div></div>
+<p class="p">If <span class="gui">Ask each time</span> is selected, a dialog will pop up asking if you
+ wish to run or view the selected text file.</p>
+<p class="p">Executable text files are also called scripts. All scripts in
+ <span class="file">~/.local/share/nautilus/scripts</span> folder will appear in the context
+ menu for a file under the <span class="gui">Scripts</span> submenu. When a
+ script is executed from a local folder, all selected files will be pasted to
+ the script as parameters. To execute a script on a file:</p>
+<div class="steps"><div class="inner"><div class="region"><ol class="steps">
+<li class="steps"><p class="p">Navigate to the desired folder.</p></li>
+<li class="steps"><p class="p">Select the desired file.</p></li>
+<li class="steps"><p class="p">Right click on the file to open the context menu and select the desired
+    script to execute from the <span class="gui">Scripts</span> menu.</p></li>
+</ol></div></div></div>
+<div class="note note-important" title="Important"><div class="inner"><div class="region"><div class="contents"><p class="p">A script will not be passed any parameters when executed from a remote
+  folder such as a folder showing web or <span class="sys">ftp</span> content.</p></div></div></div></div>
+</div></div>
+</div></div>
+<div id="trash" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Trash</span></h2></div>
+<div class="region">
+<div class="contents"><div class="terms"><div class="inner"><div class="region"><dl class="terms">
+<dt class="terms"><span class="gui">Ask before emptying the Trash or deleting files</span></dt>
+<dd class="terms"><p class="p">This option is selected by default.  When emptying the trash, a message will be displayed confirming that you would like to empty the trash or delete files.</p></dd>
+<dt class="terms"><span class="gui">Include a Delete command that bypasses Trash</span></dt>
+<dd class="terms">
+<p class="p">Selecting this option will add a <span class="gui">Delete</span> item to the menu that
+  pops up when you right-click on an item in the <span class="app">Files</span> application.</p>
+<div class="note note-warning" title="Warning"><div class="inner"><div class="region"><div class="contents"><p class="p">Deleting an item using the <span class="gui">Delete</span> menu option bypasses the Trash altogether.  The item is removed from the system completely.  There is no way to recover the deleted item.</p></div></div></div></div>
+</dd>
+</dl></div></div></div></div>
+<div class="sect sect-links" role="navigation">
+<div class="hgroup"></div>
+<div class="contents"><div class="links seealsolinks"><div class="inner">
+<div class="title"><h3><span class="title">See Also</span></h3></div>
+<div class="region"><ul><li class="links ">
+<a href="files-delete.html" title="Delete files and folders">Delete files and folders</a><span class="desc"> — Remove files or folders you no longer need.</span>
+</li></ul></div>
+</div></div></div>
+</div>
+</div>
+</div></div>
+<div class="sect sect-links" role="navigation">
+<div class="hgroup"></div>
+<div class="contents"><div class="links guidelinks"><div class="inner">
+<div class="title"><h2><span class="title">More Information</span></h2></div>
+<div class="region"><ul><li class="links "><a href="nautilus-prefs.html" title="File manager preferences">File manager preferences</a></li></ul></div>
+</div></div></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="footer"><div class="sect about ui-expander" role="contentinfo">
+<div class="yelp-data yelp-data-ui-expander" data-yelp-expanded="false"></div>
+<div class="inner">
+<div class="hgroup"><h2><span class="title">About</span></h2></div>
+<div class="region"><div class="contents">
+<div class="aboutblurb authors">
+<div class="title"><span class="title">Written By</span></div>
+<ul class="credits">
+<li>Tiffany Antopolski</li>
+<li>Shaun McCance</li>
+</ul>
+</div>
+<div class="aboutblurb editors">
+<div class="title"><span class="title">Edited By</span></div>
+<ul class="credits">
+<li>Michael Hill</li>
+<li>Sindhu S</li>
+</ul>
+</div>
+<div class="aboutblurb license">
+<div class="title"><span class="title">Creative Commons</span></div>
+<div class="contents"><p class="p">This work is licensed under a <span class="link"><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="http://creativecommons.org/licenses/by-sa/3.0/">Creative
+  Commons Attribution-ShareAlike 3.0 Unported License</a></span>.</p></div>
+</div>
+</div></div>
+</div>
+</div></div>
+</div></body>
+</html>

@@ -1,0 +1,116 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>How do administrative privileges work?</title>
+<link rel="stylesheet" type="text/css" href="C.css">
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jquery.syntax.js"></script><script type="text/javascript" src="yelp.js"></script>
+</head>
+<body><div class="page" role="main">
+<div class="header"><div class="trails" role="navigation"><div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="prefs.html" title="User &amp; system settings">Settings</a> » <a class="trail" href="user-accounts.html" title="User accounts">Users</a> › <a class="trail" href="user-accounts.html#privileges" title="User privileges">Privileges</a> » </div></div></div>
+<div class="body">
+<div class="hgroup"><h1 class="title"><span class="title">How do administrative privileges work?</span></h1></div>
+<div class="region">
+<div class="contents">
+<p class="p">As well as the files that <span class="em">you</span> create, your computer has a number
+  of files which are needed by the system for it to work properly. If these
+  important <span class="em">system files</span> are changed improperly they can cause various
+  things to break, so they are protected from changes by default. Certain
+  applications also modify important parts of the system, and so are also
+  protected.</p>
+<p class="p">The way that they are protected is by only allowing users with
+  <span class="em">administrative privileges</span> to change the files or use the
+  applications. In day-to-day use, you won't need to change any system files or
+  use these applications, so by default you do not have administrative
+  privileges.</p>
+<p class="p">Sometimes you need to use these applications, so you may be able to
+  temporarily get administrative privileges to allow you to make the changes.
+  If an application needs administrative privileges, it will ask for your
+  password. For example, if you want to install some new software, the software
+  installer (package manager) will ask for your administrator password so it
+  can add the new application to the system. Once it has finished, your
+  administrative privileges will be taken away again.</p>
+<p class="p">Administrative privileges are associated with your user account.
+  <span class="gui">Administrator</span> users are allowed to have these privileges while
+  <span class="gui">Standard</span> users are not. Without administrative privileges you will
+  not be able to install software. Some user accounts (for example, the "root"
+  account) have permanent administrative privileges. You should not use
+  administrative privileges all of the time, because you might accidentally
+  change something you did not intend to (like delete a needed system file, for
+  example).</p>
+<p class="p">In summary, administrative privileges allow you to change important parts
+  of your system when needed, but prevent you from doing it accidentally.</p>
+<div class="note" title="Note"><div class="inner">
+<div class="title title-note"><h2><span class="title">What does "super user" mean?</span></h2></div>
+<div class="region"><div class="contents"><p class="p">A user with administrative privileges is sometimes called a <span class="em">super
+    user</span>. This is simply because that user has more privileges than normal
+    users. You might see people discussing things like <span class="cmd">su</span> and
+    <span class="cmd">sudo</span>; these are programs for temporarily giving you "super user"
+    (administrative) privileges.</p></div></div>
+</div></div>
+</div>
+<div id="advantages" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Why are administrative privileges useful?</span></h2></div>
+<div class="region"><div class="contents">
+<p class="p">Requiring users to have administrative privileges before important system
+  changes are made is useful because it helps to prevent your system from being
+  broken, intentionally or unintentionally.</p>
+<p class="p">If you had administrative privileges all of the time, you might
+  accidentally change an important file, or run an application which changes
+  something important by mistake. Only getting administrative privileges
+  temporarily, when you need them, reduces the risk of these mistakes
+  happening.</p>
+<p class="p">Only certain trusted users should be allowed to have administrative
+  privileges. This prevents other users from messing with the computer and
+  doing things like uninstalling applications that you need, installing
+  applications that you don't want, or changing important files. This is useful
+  from a security standpoint.</p>
+</div></div>
+</div></div>
+<div class="sect sect-links" role="navigation">
+<div class="hgroup"></div>
+<div class="contents">
+<div class="links guidelinks"><div class="inner">
+<div class="title"><h2><span class="title">More Information</span></h2></div>
+<div class="region"><ul><li class="links "><a href="user-accounts.html#privileges" title="User privileges">User privileges</a></li></ul></div>
+</div></div>
+<div class="links seealsolinks"><div class="inner">
+<div class="title"><h2><span class="title">See Also</span></h2></div>
+<div class="region"><ul>
+<li class="links ">
+<a href="user-admin-change.html" title="Change who has administrative privileges">Change who has administrative privileges</a><span class="desc"> — You can change which users are allowed to make changes to the system by giving them administrative privileges.</span>
+</li>
+<li class="links ">
+<a href="net-othersedit.html" title="Other users can't edit the network connections">Other users can't edit the network connections</a><span class="desc"> — You need to uncheck the <span class="gui">Available to all users</span> option in the network connection settings.</span>
+</li>
+</ul></div>
+</div></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="footer"><div class="sect about ui-expander" role="contentinfo">
+<div class="yelp-data yelp-data-ui-expander" data-yelp-expanded="false"></div>
+<div class="inner">
+<div class="hgroup"><h2><span class="title">About</span></h2></div>
+<div class="region"><div class="contents">
+<div class="aboutblurb authors">
+<div class="title"><span class="title">Written By</span></div>
+<ul class="credits"><li>GNOME Documentation Project</li></ul>
+</div>
+<div class="aboutblurb editors">
+<div class="title"><span class="title">Edited By</span></div>
+<ul class="credits"><li>Ekaterina Gerasimova</li></ul>
+</div>
+<div class="aboutblurb license">
+<div class="title"><span class="title">Creative Commons</span></div>
+<div class="contents"><p class="p">This work is licensed under a <span class="link"><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="http://creativecommons.org/licenses/by-sa/3.0/">Creative
+  Commons Attribution-ShareAlike 3.0 Unported License</a></span>.</p></div>
+</div>
+</div></div>
+</div>
+</div></div>
+</div></body>
+</html>

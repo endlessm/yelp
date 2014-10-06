@@ -1,0 +1,121 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>File properties</title>
+<link rel="stylesheet" type="text/css" href="C.css">
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jquery.syntax.js"></script><script type="text/javascript" src="yelp.js"></script>
+</head>
+<body><div class="page" role="main">
+<div class="header"><div class="trails" role="navigation"><div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="files.html" title="Files, folders &amp; search">Files</a> » </div></div></div>
+<div class="body">
+<div class="hgroup"><h1 class="title"><span class="title">File properties</span></h1></div>
+<div class="region">
+<div class="contents">
+<p class="p">To view information about a file or folder, right-click it and select
+  <span class="gui">Properties</span>. You can also select the file and press
+  <span class="keyseq"><span class="key"><kbd>Alt</kbd></span>+<span class="key"><kbd>Enter</kbd></span></span>.</p>
+<p class="p">The file properties window shows you information like the type of file,
+  the size of the file, and when you last modified it. If you need this
+  information often, you
+  can have it displayed in <span class="link"><a href="nautilus-list.html" title="File manager list columns preferences">list view columns</a></span>
+  or <span class="link"><a href="nautilus-display.html#icon-captions" title="Icon captions">icon captions</a></span>.</p>
+<p class="p">The information given on the <span class="gui">Basic</span> tab is explained below.
+  There are also
+  <span class="gui"><span class="link"><a href="nautilus-file-properties-permissions.html" title="Set file permissions">Permissions</a></span></span>
+  and <span class="gui"><span class="link"><a href="files-open.html#default" title="Change the default application">Open With</a></span></span> tabs. For
+  certain types of files, such as images and videos, there will be an extra tab
+  that provides information like the dimensions, duration, and codec.</p>
+</div>
+<div id="basic" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Basic properties</span></h2></div>
+<div class="region"><div class="contents"><div class="terms"><div class="inner"><div class="region"><dl class="terms">
+<dt class="terms"><span class="gui">Name</span></dt>
+<dd class="terms"><p class="p">You can rename the file by changing this field.
+    You can also rename a file outside the properties window. See
+    <span class="link"><a href="files-rename.html" title="Rename a file or folder">Rename a file or folder</a></span>.</p></dd>
+<dt class="terms"><span class="gui">Type</span></dt>
+<dd class="terms">
+<p class="p">This helps you identify the type of the file, such as PDF document,
+    OpenDocument Text, or JPEG image. The file type determines which
+    applications can open the file, among other things. For example, you
+    can't open a picture with a music player. See <span class="link"><a href="files-open.html" title="Open files with other applications">Open files with other applications</a></span>
+    for more information on this.</p>
+<p class="p">The <span class="em">MIME type</span> of the file is shown in parentheses; MIME type is
+    a standard way that computers use to refer to the file type.</p>
+</dd>
+<dt class="terms">Contents</dt>
+<dd class="terms"><p class="p">This field is displayed if you are looking at the properties of a folder rather than a file. It helps you see the number of items in the folder.  If the folder includes other folders, each inner folder is counted as one item, even if it contains further items. Each file is also counted as one item. If the folder is empty, the contents will display <span class="gui">nothing</span>.</p></dd>
+<dt class="terms">Size</dt>
+<dd class="terms">
+<p class="p">This field is displayed if you are looking at a file (not a folder). The size of a file tells you how much disk space it takes up. This is also an indicator of how long it will take to download a file or send it in an email (big files take longer to send/receive).</p>
+<p class="p">Sizes may be given in bytes, KB, MB, or GB; in the case of the last three, the size in bytes will also be given in parentheses. Technically, 1 KB is 1024 bytes, 1 MB is 1024 KB and so on.</p>
+</dd>
+<dt class="terms">Location</dt>
+<dd class="terms"><p class="p">The location of each file on your computer is given by its <span class="em">absolute path</span>. This is a unique "address" of the file on your computer, made up of a list of the folders that you would need to go into to find the file. For example, if Jim had a file called <span class="file">Resume.pdf</span> in his Home folder, its location would be <span class="file">/home/jim/Resume.pdf</span>.</p></dd>
+<dt class="terms">Volume</dt>
+<dd class="terms"><p class="p">The file system or device that the file is stored on. This shows you
+    where the file is physically stored, for example if it is on the hard disk
+    or on a CD, or a
+    <span class="link"><a href="nautilus-connect.html" title="Browse files on a server or network share">network share or file server</a></span>. Hard
+    disks can be split up into several
+    <span class="link"><a href="disk-partitions.html" title="Manage volumes and partitions">disk partitions</a></span>; the partition will
+    be displayed under <span class="gui">Volume</span> too.</p></dd>
+<dt class="terms">Free Space</dt>
+<dd class="terms"><p class="p">This is only displayed for folders. It gives the amount of disk space
+    which is available on the disk that the folder is on. This is useful for
+    checking if the hard disk is full.</p></dd>
+<dt class="terms">Accessed</dt>
+<dd class="terms"><p class="p">The date and time when the file was last opened.</p></dd>
+<dt class="terms">Modified</dt>
+<dd class="terms"><p class="p">The date and time when the file was last changed and saved.</p></dd>
+</dl></div></div></div></div></div>
+</div></div>
+<div class="sect sect-links" role="navigation">
+<div class="hgroup"></div>
+<div class="contents">
+<div class="links guidelinks"><div class="inner">
+<div class="title"><h2><span class="title">More Information</span></h2></div>
+<div class="region"><ul><li class="links ">
+<a href="files.html" title="Files, folders &amp; search">Files, folders &amp; search</a><span class="desc"> — 
+      <span class="link"><a href="files-search.html" title="Search for files">Searching</a></span>,
+      <span class="link"><a href="files-delete.html" title="Delete files and folders">delete files</a></span>,
+      <span class="link"><a href="files.html#backup" title="Backing up">backups</a></span>,
+      <span class="link"><a href="files.html#removable" title="Removable drives and external disks">removable drives</a></span>…
+    </span>
+</li></ul></div>
+</div></div>
+<div class="links seealsolinks"><div class="inner">
+<div class="title"><h2><span class="title">See Also</span></h2></div>
+<div class="region"><ul><li class="links ">
+<a href="nautilus-file-properties-permissions.html" title="Set file permissions">Set file permissions</a><span class="desc"> — Control who can view and edit your files and folders.</span>
+</li></ul></div>
+</div></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="footer"><div class="sect about ui-expander" role="contentinfo">
+<div class="yelp-data yelp-data-ui-expander" data-yelp-expanded="false"></div>
+<div class="inner">
+<div class="hgroup"><h2><span class="title">About</span></h2></div>
+<div class="region"><div class="contents">
+<div class="aboutblurb authors">
+<div class="title"><span class="title">Written By</span></div>
+<ul class="credits">
+<li>Tiffany Antopolski</li>
+<li>Shaun McCance</li>
+</ul>
+</div>
+<div class="aboutblurb license">
+<div class="title"><span class="title">Creative Commons</span></div>
+<div class="contents"><p class="p">This work is licensed under a <span class="link"><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="http://creativecommons.org/licenses/by-sa/3.0/">Creative
+  Commons Attribution-ShareAlike 3.0 Unported License</a></span>.</p></div>
+</div>
+</div></div>
+</div>
+</div></div>
+</div></body>
+</html>

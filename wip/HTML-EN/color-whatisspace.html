@@ -1,0 +1,129 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>What is a color space?</title>
+<link rel="stylesheet" type="text/css" href="C.css">
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jquery.syntax.js"></script><script type="text/javascript" src="yelp.js"></script>
+</head>
+<body><div class="page" role="main">
+<div class="header"><div class="trails" role="navigation">
+<div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="hardware.html" title="Hardware &amp; drivers">Hardware</a> » <a class="trail" href="color.html" title="Color management">Color management</a> › <a class="trail" href="color.html#profiles" title="Color profiles">Color profiles</a> » </div>
+<div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="prefs.html" title="User &amp; system settings">Settings</a> » <a class="trail" href="color.html" title="Color management">Color management</a> › <a class="trail" href="color.html#profiles" title="Color profiles">Color profiles</a> » </div>
+</div></div>
+<div class="body">
+<div class="hgroup"><h1 class="title"><span class="title">What is a color space?</span></h1></div>
+<div class="region">
+<div class="contents">
+<p class="p">
+    A color space is a defined range of colors.
+    Well known color spaces include sRGB, AdobeRGB and ProPhotoRGB.
+  </p>
+<p class="p">
+    The human visual system is not a simple RGB sensor, but we can
+    approximate how the eye responds with a CIE 1931 chromaticity diagram
+    that shows the human visual response as a horse-shoe shape.
+    You can see that in human vision there are many more shades of green
+    detected than blue or red.
+    With a trichromatic color space like RGB we represent the colors
+    on the computer using three values, which restricts up to encoding
+    a <span class="em">triangle</span> of colors.
+  </p>
+<div class="note" title="Note"><div class="inner"><div class="region"><div class="contents"><p class="p">
+      Using models such as a CIE 1931 chromaticity diagram is a huge
+      simplification of the human visual system, and real gamuts are
+      expressed as 3D hulls, rather than 2D projections.
+      A 2D projection of a 3D shape can sometimes be misleading, so if
+      you want to see the 3D hull, use the <span class="code">gcm-viewer</span>
+      application.
+    </p></div></div></div></div>
+<div class="figure"><div class="inner">
+<a href="#" class="zoom" data-zoom-in-title="View images at normal size" data-zoom-out-title="Scale images down"></a><div class="region">
+<div class="contents"><div class="media media-image"><div class="inner"><img src="figures/color-space.png" class="media media-block" alt=""></div></div></div>
+<div class="desc">sRGB, AdobeRGB and ProPhotoRGB represented by white triangles</div>
+</div>
+</div></div>
+<p class="p">
+    First, looking at sRGB, which is the smallest space and can encode
+    the least number of colors.
+    It is an approximation of a 10 year old CRT display, and so most
+    modern monitors can easily display more colors than this.
+    sRGB is a <span class="em">least-common-denominator</span> standard and is used
+    in a large number of applications (including the Internet).
+  </p>
+<p class="p">
+    AdobeRGB is frequently used as an <span class="em">editing space</span>.
+    It can encode more colors than sRGB, which means you can change
+    colors in a photograph without worrying too much that the most vivid
+    colors are being clipped or the blacks crushed.
+  </p>
+<p class="p">
+    ProPhoto is the largest space available and is frequently used for
+    document archival.
+    It can encode nearly the whole range of colors detected by the human
+    eye, and even encode colors that the eye cannot detect!
+  </p>
+<p class="p">
+    Now, if ProPhoto is clearly better, why don't we use it for everything?
+    The answer is to do with <span class="em">quantization</span>.
+    If you only have 8 bits (256 levels) to encode each channel, then a
+    larger range is going to have bigger steps between each value.
+  </p>
+<p class="p">
+    Bigger steps mean a larger error between the captured color and the
+    stored color, and for some colors this is a big problem.
+    It turns out that key colors, like skin colors are very important,
+    and even small errors will make untrained viewers notice that something
+    in a photograph looks wrong.
+  </p>
+<p class="p">
+    Of course, using a 16 bit image is going to leave many more steps and
+    a much smaller quantization error, but this doubles the size of each
+    image file.
+    Most content in existence today is 8bpp, i.e. 8 bits-per-pixel.
+  </p>
+<p class="p">
+    Color management is a process for converting from one color space to
+    another, where a color space can be a well known defined space like
+    sRGB, or a custom space such as your monitor or printer profile.
+  </p>
+</div>
+<div class="sect sect-links" role="navigation">
+<div class="hgroup"></div>
+<div class="contents">
+<div class="links guidelinks"><div class="inner">
+<div class="title"><h2><span class="title">More Information</span></h2></div>
+<div class="region"><ul><li class="links "><a href="color.html#profiles" title="Color profiles">Color profiles</a></li></ul></div>
+</div></div>
+<div class="links seealsolinks"><div class="inner">
+<div class="title"><h2><span class="title">See Also</span></h2></div>
+<div class="region"><ul><li class="links ">
+<a href="color-whatisprofile.html" title="What is a color profile?">What is a color profile?</a><span class="desc"> — A color profile is a simple file that expresses a color space or device response.</span>
+</li></ul></div>
+</div></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="footer"><div class="sect about ui-expander" role="contentinfo">
+<div class="yelp-data yelp-data-ui-expander" data-yelp-expanded="false"></div>
+<div class="inner">
+<div class="hgroup"><h2><span class="title">About</span></h2></div>
+<div class="region"><div class="contents">
+<div class="aboutblurb authors">
+<div class="title"><span class="title">Written By</span></div>
+<ul class="credits"><li>Richard Hughes</li></ul>
+</div>
+<div class="aboutblurb license">
+<div class="title"><span class="title">Creative Commons</span></div>
+<div class="contents"><p class="p">This work is licensed under a <span class="link"><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="http://creativecommons.org/licenses/by-sa/3.0/">Creative
+  Commons Attribution-ShareAlike 3.0 Unported License</a></span>.</p></div>
+</div>
+</div></div>
+</div>
+</div></div>
+</div></body>
+</html>

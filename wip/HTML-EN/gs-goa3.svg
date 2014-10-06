@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="840px" height="500px" viewBox="0 0 840 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1 (8751) - http://www.bohemiancoding.com/sketch -->
+    <title>gs-goa3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.863520408   0 0 0 0 0.863520408   0 0 0 0 0.863520408  0 0 0 0.7 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="gs-goa3" sketch:type="MSArtboardGroup">
+            <rect id="Rectangle-25" stroke="#C6C6C6" stroke-width="2" fill="#EAEAEA" sketch:type="MSShapeGroup" x="240" y="66" width="383.695312" height="359" rx="6"></rect>
+            <circle id="Oval-1" fill="#B9B9B9" sketch:type="MSShapeGroup" cx="194" cy="85" r="18"></circle>
+            <text id="4" sketch:type="MSTextLayer" font-family="Lato" font-size="18" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                <tspan x="188.28" y="91">4</tspan>
+            </text>
+            <text id="Añadir-cuenta" sketch:type="MSTextLayer" font-family="Lato" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#333333">
+                <tspan x="389.041" y="94">Añadir cuenta</tspan>
+            </text>
+            <rect id="Rectangle-4" stroke="#C6C6C6" fill="#FFFFFF" sketch:type="MSShapeGroup" x="254" y="123" width="355" height="245" rx="2"></rect>
+            <g id="Rectangle-11-+-Cancelar" sketch:type="MSLayerGroup" transform="translate(495.000000, 378.000000)">
+                <rect id="Rectangle-11" stroke="#C6C6C6" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="114" height="33" rx="4"></rect>
+                <text id="Cancelar" sketch:type="MSTextLayer" font-family="Lato" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#333333">
+                    <tspan x="30.165" y="22">Cancelar</tspan>
+                </text>
+            </g>
+            <text id="Google" sketch:type="MSTextLayer" font-family="Lato" font-size="14" font-weight="normal" fill="#333333">
+                <tspan x="319" y="162">Google</tspan>
+            </text>
+            <text id="ownCloud" sketch:type="MSTextLayer" font-family="Lato" font-size="14" font-weight="normal" fill="#333333">
+                <tspan x="319" y="207">ownCloud</tspan>
+            </text>
+            <text id="Facebook" sketch:type="MSTextLayer" font-family="Lato" font-size="14" font-weight="normal" fill="#333333">
+                <tspan x="319" y="252">Facebook</tspan>
+            </text>
+            <text id="Flickr" sketch:type="MSTextLayer" font-family="Lato" font-size="14" font-weight="normal" fill="#333333">
+                <tspan x="319" y="297">Flickr</tspan>
+            </text>
+            <text id="Windows-Live" sketch:type="MSTextLayer" font-family="Lato" font-size="14" font-weight="normal" fill="#333333">
+                <tspan x="319" y="342">Windows Live</tspan>
+            </text>
+            <rect id="Rectangle-91" fill="#D8D8D8" sketch:type="MSShapeGroup" x="277" y="187" width="28" height="28" rx="3"></rect>
+            <rect id="Rectangle-91" fill="#D8D8D8" sketch:type="MSShapeGroup" x="277" y="275" width="28" height="28" rx="3"></rect>
+            <rect id="Rectangle-91" fill="#D8D8D8" sketch:type="MSShapeGroup" x="277" y="322" width="28" height="28" rx="3"></rect>
+            <rect id="Rectangle-91" fill="#D8D8D8" sketch:type="MSShapeGroup" x="277" y="144" width="28" height="28" rx="3"></rect>
+            <rect id="Rectangle-91" fill="#D8D8D8" sketch:type="MSShapeGroup" x="277" y="232" width="28" height="28" rx="3"></rect>
+            <rect id="Rectangle-106" fill="#F4F4F4" filter="url(#filter-1)" sketch:type="MSShapeGroup" x="596" y="124" width="12" height="243"></rect>
+            <rect id="Rectangle-107" fill="#C6C6C6" sketch:type="MSShapeGroup" x="598" y="126" width="8" height="100" rx="5"></rect>
+        </g>
+    </g>
+</svg>

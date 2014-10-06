@@ -1,0 +1,131 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Why is color management important?</title>
+<link rel="stylesheet" type="text/css" href="C.css">
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jquery.syntax.js"></script><script type="text/javascript" src="yelp.js"></script>
+</head>
+<body><div class="page" role="main">
+<div class="header"><div class="trails" role="navigation">
+<div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="hardware.html" title="Hardware &amp; drivers">Hardware</a> » <a class="trail" href="color.html" title="Color management">Color management</a> » </div>
+<div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="prefs.html" title="User &amp; system settings">Settings</a> » <a class="trail" href="color.html" title="Color management">Color management</a> » </div>
+</div></div>
+<div class="body">
+<div class="hgroup"><h1 class="title"><span class="title">Why is color management important?</span></h1></div>
+<div class="region">
+<div class="contents">
+<p class="p">
+    Color management is the process of capturing a color using an input
+    device, displaying it on a screen, and printing it all whilst managing
+    the exact colors and the range of colors on each medium.
+  </p>
+<p class="p">
+    The need for color management is probably explained best with a
+    photograph of a bird on a frosty day in winter.
+  </p>
+<div class="figure"><div class="inner">
+<a href="#" class="zoom" data-zoom-in-title="View images at normal size" data-zoom-out-title="Scale images down"></a><div class="region">
+<div class="contents"><div class="media media-image"><div class="inner"><img src="figures/color-camera.png" class="media media-block" alt=""></div></div></div>
+<div class="desc">A bird on a frosty wall as seen on the camera view-finder</div>
+</div>
+</div></div>
+<p class="p">
+    Displays typically over-saturate the blue channel, making the images
+    look cold.
+  </p>
+<div class="figure"><div class="inner">
+<a href="#" class="zoom" data-zoom-in-title="View images at normal size" data-zoom-out-title="Scale images down"></a><div class="region">
+<div class="contents"><div class="media media-image"><div class="inner"><img src="figures/color-display.png" class="media media-block" alt=""></div></div></div>
+<div class="desc">This is what the user sees on a typical business laptop screen</div>
+</div>
+</div></div>
+<p class="p">
+    Notice how the white is not 'paper white' and the black of the eye
+    is now a muddy brown.
+  </p>
+<div class="figure"><div class="inner">
+<a href="#" class="zoom" data-zoom-in-title="View images at normal size" data-zoom-out-title="Scale images down"></a><div class="region">
+<div class="contents"><div class="media media-image"><div class="inner"><img src="figures/color-printer.png" class="media media-block" alt=""></div></div></div>
+<div class="desc">This is what the user sees when printing on a typical inkjet printer</div>
+</div>
+</div></div>
+<p class="p">
+    The basic problem we have here is that each device is capable of
+    handling a different range of colors.
+    So while you might be able to take a photo of electric blue, most
+    printers are not going to be able to reproduce it.
+  </p>
+<p class="p">
+    Most image devices capture in RGB (Red, Green, Blue) and have
+    to convert to CMYK (Cyan, Magenta, Yellow, and Black) to print.
+    Another problem is that you can't have <span class="em">white</span> ink, and so
+    the whiteness can only be as good as the paper color.
+  </p>
+<p class="p">
+    Another problem is units. Without specifying the scale on which a
+    color is measured, we don't know if 100% red is near infrared or
+    just the deepest red ink in the printer. What is 50% red on one
+    display is probably something like 62% on another display.
+    It's like telling a person that you've just driven 7 units of
+    distance, without the unit you don't know if that's 7 kilometers or
+    7 meters.
+  </p>
+<p class="p">
+    In color, we refer to the units as gamut. Gamut is essentially the
+    range of colors that can be reproduced.
+    A device like a DSLR camera might have a very large gamut, being able
+    to capture all the colors in a sunset, but a projector has a very
+    small gamut and all the colors are going to look "washed out".
+  </p>
+<p class="p">
+    In some cases we can <span class="em">correct</span> the device output by altering
+    the data we send to it, but in other cases where that's not
+    possible (you can't print electric blue) we need to show the user
+    what the result is going to look like.
+  </p>
+<p class="p">
+    For photographs it makes sense to use the full tonal range of a color
+    device, to be able to make smooth changes in color.
+    For other graphics, you might want to match the color exactly, which
+    is important if you're trying to print a custom mug with the Red Hat
+    logo that <span class="em">has</span> to be the exact Red Hat Red.
+  </p>
+</div>
+<div class="sect sect-links" role="navigation">
+<div class="hgroup"></div>
+<div class="contents"><div class="links guidelinks"><div class="inner">
+<div class="title"><h2><span class="title">More Information</span></h2></div>
+<div class="region"><ul><li class="links ">
+<a href="color.html" title="Color management">Color management</a><span class="desc"> — 
+      <span class="link"><a href="color-whyimportant.html" title="Why is color management important?">Why is this important</a></span>,
+      <span class="link"><a href="color.html#profiles" title="Color profiles">Color profiles</a></span>,
+      <span class="link"><a href="color.html#calibration" title="Calibration">How to calibrate a device</a></span>…
+    </span>
+</li></ul></div>
+</div></div></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="footer"><div class="sect about ui-expander" role="contentinfo">
+<div class="yelp-data yelp-data-ui-expander" data-yelp-expanded="false"></div>
+<div class="inner">
+<div class="hgroup"><h2><span class="title">About</span></h2></div>
+<div class="region"><div class="contents">
+<div class="aboutblurb authors">
+<div class="title"><span class="title">Written By</span></div>
+<ul class="credits"><li>Richard Hughes</li></ul>
+</div>
+<div class="aboutblurb license">
+<div class="title"><span class="title">Creative Commons</span></div>
+<div class="contents"><p class="p">This work is licensed under a <span class="link"><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="http://creativecommons.org/licenses/by-sa/3.0/">Creative
+  Commons Attribution-ShareAlike 3.0 Unported License</a></span>.</p></div>
+</div>
+</div></div>
+</div>
+</div></div>
+</div></body>
+</html>

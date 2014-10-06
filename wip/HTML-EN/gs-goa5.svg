@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="840px" height="500px" viewBox="0 0 840 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1 (8751) - http://www.bohemiancoding.com/sketch -->
+    <title>gs-goa5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="gs-goa5" sketch:type="MSArtboardGroup">
+            <circle id="Oval-1" fill="#B9B9B9" sketch:type="MSShapeGroup" cx="92" cy="86" r="18"></circle>
+            <rect id="Rectangle-25" fill="#FFFFFF" sketch:type="MSShapeGroup" x="138" y="67" width="581" height="359" rx="6"></rect>
+            <text id="7" sketch:type="MSTextLayer" font-family="Lato" font-size="18" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                <tspan x="86.28" y="92">7</tspan>
+            </text>
+            <text id="Cuentas-en-línea" sketch:type="MSTextLayer" font-family="Lato" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#333333">
+                <tspan x="378.6" y="95">Cuentas en línea</tspan>
+            </text>
+            <rect id="Rectangle-27" fill="#EBEBEB" sketch:type="MSShapeGroup" x="139" y="110" width="579" height="315"></rect>
+            <path d="M698.462155,89.000375 L702.696244,84.765934 C703.101252,84.362892 703.101252,83.7068236 702.696244,83.3037816 C702.293235,82.8987395 701.636222,82.8987395 701.233213,83.3037816 L696.999125,87.5382227 L692.765037,83.3037816 C692.361028,82.8987395 691.706015,82.8987395 691.303006,83.3037816 C690.898998,83.7068236 690.898998,84.362892 691.303006,84.765934 L695.537095,89.000375 L691.303006,93.2358162 C690.898998,93.6388582 690.898998,94.2949266 691.303006,94.6989686 C691.504011,94.8999896 691.769016,95 692.034022,95 C692.300027,95 692.563033,94.8999896 692.765037,94.6989686 L696.999125,90.4635275 L701.233213,94.6989686 C701.435217,94.8999896 701.701223,95 701.965228,95 C702.230234,95 702.494239,94.8999896 702.696244,94.6989686 C703.101252,94.2949266 703.101252,93.6388582 702.696244,93.2358162 L698.462155,89.000375" id="Close" fill="#C6C6C6" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-4" stroke="#C6C6C6" fill="#FFFFFF" sketch:type="MSShapeGroup" x="149" y="124" width="250" height="291" rx="4"></rect>
+            <rect id="Rectangle-79" fill="#666666" sketch:type="MSShapeGroup" x="150" y="138" width="248" height="49"></rect>
+            <text id="Google" sketch:type="MSTextLayer" font-family="Lato" font-size="12" font-weight="bold" fill="#C6C6C6">
+                <tspan x="207.5" y="159">Google</tspan>
+                <tspan x="245.695999" y="159" font-weight="normal"></tspan>
+                <tspan x="207.5" y="174" font-weight="normal">juan.perez@gmail.com</tspan>
+            </text>
+            <path d="M139.5,110 L717.49827,110" id="Line" stroke="#C6C6C6" stroke-width="2" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M150,382.5 L397.5,382.5" id="Line" stroke="#C6C6C6" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-29" stroke="#C6C6C6" sketch:type="MSShapeGroup" x="156" y="387" width="43" height="22" rx="3"></rect>
+            <path d="M177.5,388.5 L177.5,408.523796" id="Line" stroke="#C6C6C6" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <g id="Correo-+-Rectangle-65-+-Group-+-Rectangle-35" sketch:type="MSLayerGroup" transform="translate(457.000000, 215.000000)">
+                <text id="Correo" sketch:type="MSTextLayer" font-family="Lato" font-size="12" font-weight="bold" fill="#333333">
+                    <tspan x="0" y="17">Correo</tspan>
+                </text>
+                <g id="Rectangle-65-+-Group-+-Rectangle-35" transform="translate(143.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <path d="M3.999,0 C1.791,0 0,1.784 0,3.99 L0,20.01 C0,22.214 1.798,24 3.999,24 L68.001,24 C70.209,24 72,22.216 72,20.01 L72,3.99 C72,1.786 70.202,0 68.001,0 L3.999,0 Z" id="Imported-Layers" fill="#D5D5D5"></path>
+                    <rect id="Rectangle-35" stroke="#FFFFFF" fill="#D8D8D8" x="18" y="6" width="2" height="12"></rect>
+                    <path d="M69,18 C69,19.65 67.65,21 66,21 L42,21 C40.35,21 39,19.65 39,18 L39,6 C39,4.35 40.35,3 42,3 L66,3 C67.65,3 69,4.35 69,6 L69,18" id="Imported-Layers" fill="#FFFFFF"></path>
+                </g>
+            </g>
+            <g id="Calendario-+-Rectangle-65-+-Group-+-Rectangle-35" sketch:type="MSLayerGroup" transform="translate(457.000000, 250.000000)">
+                <text id="Calendario" sketch:type="MSTextLayer" font-family="Lato" font-size="12" font-weight="bold" fill="#333333">
+                    <tspan x="0" y="17">Calendario</tspan>
+                </text>
+                <g id="Rectangle-65-+-Group-+-Rectangle-35" transform="translate(143.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <path d="M3.999,0 C1.791,0 0,1.784 0,3.99 L0,20.01 C0,22.214 1.798,24 3.999,24 L68.001,24 C70.209,24 72,22.216 72,20.01 L72,3.99 C72,1.786 70.202,0 68.001,0 L3.999,0 Z" id="Imported-Layers" fill="#D5D5D5"></path>
+                    <rect id="Rectangle-35" stroke="#FFFFFF" fill="#D8D8D8" x="18" y="6" width="2" height="12"></rect>
+                    <path d="M69,18 C69,19.65 67.65,21 66,21 L42,21 C40.35,21 39,19.65 39,18 L39,6 C39,4.35 40.35,3 42,3 L66,3 C67.65,3 69,4.35 69,6 L69,18" id="Imported-Layers" fill="#FFFFFF"></path>
+                </g>
+            </g>
+            <g id="Contactos-+-Rectangle-65-+-Group-+-Rectangle-35" sketch:type="MSLayerGroup" transform="translate(457.000000, 285.000000)">
+                <text id="Contactos" sketch:type="MSTextLayer" font-family="Lato" font-size="12" font-weight="bold" fill="#333333">
+                    <tspan x="0" y="17">Contactos</tspan>
+                </text>
+                <g id="Rectangle-65-+-Group-+-Rectangle-35" transform="translate(143.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <path d="M3.999,0 C1.791,0 0,1.784 0,3.99 L0,20.01 C0,22.214 1.798,24 3.999,24 L68.001,24 C70.209,24 72,22.216 72,20.01 L72,3.99 C72,1.786 70.202,0 68.001,0 L3.999,0 Z" id="Imported-Layers" fill="#D5D5D5"></path>
+                    <rect id="Rectangle-35" stroke="#FFFFFF" fill="#D8D8D8" x="18" y="6" width="2" height="12"></rect>
+                    <path d="M69,18 C69,19.65 67.65,21 66,21 L42,21 C40.35,21 39,19.65 39,18 L39,6 C39,4.35 40.35,3 42,3 L66,3 C67.65,3 69,4.35 69,6 L69,18" id="Imported-Layers" fill="#FFFFFF"></path>
+                </g>
+            </g>
+            <g id="Chat-+-Rectangle-65-+-Group-+-Rectangle-35" sketch:type="MSLayerGroup" transform="translate(457.000000, 320.000000)">
+                <text id="Chat" sketch:type="MSTextLayer" font-family="Lato" font-size="12" font-weight="bold" fill="#333333">
+                    <tspan x="0" y="17">Chat</tspan>
+                </text>
+                <g id="Rectangle-65-+-Group-+-Rectangle-35" transform="translate(143.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <path d="M3.999,0 C1.791,0 0,1.784 0,3.99 L0,20.01 C0,22.214 1.798,24 3.999,24 L68.001,24 C70.209,24 72,22.216 72,20.01 L72,3.99 C72,1.786 70.202,0 68.001,0 L3.999,0 Z" id="Imported-Layers" fill="#D5D5D5"></path>
+                    <rect id="Rectangle-35" stroke="#FFFFFF" fill="#D8D8D8" x="18" y="6" width="2" height="12"></rect>
+                    <path d="M69,18 C69,19.65 67.65,21 66,21 L42,21 C40.35,21 39,19.65 39,18 L39,6 C39,4.35 40.35,3 42,3 L66,3 C67.65,3 69,4.35 69,6 L69,18" id="Imported-Layers" fill="#FFFFFF"></path>
+                </g>
+            </g>
+            <g id="Documentos-+-Rectangle-65-+-Group-+-Rectangle-35" sketch:type="MSLayerGroup" transform="translate(457.000000, 358.000000)">
+                <text id="Documentos" sketch:type="MSTextLayer" font-family="Lato" font-size="12" font-weight="bold" fill="#333333">
+                    <tspan x="0" y="17">Documentos</tspan>
+                </text>
+                <g id="Rectangle-65-+-Group-+-Rectangle-35" transform="translate(143.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <path d="M3.999,0 C1.791,0 0,1.784 0,3.99 L0,20.01 C0,22.214 1.798,24 3.999,24 L68.001,24 C70.209,24 72,22.216 72,20.01 L72,3.99 C72,1.786 70.202,0 68.001,0 L3.999,0 Z" id="Imported-Layers" fill="#D5D5D5"></path>
+                    <rect id="Rectangle-35" stroke="#FFFFFF" fill="#D8D8D8" x="18" y="6" width="2" height="12"></rect>
+                    <path d="M69,18 C69,19.65 67.65,21 66,21 L42,21 C40.35,21 39,19.65 39,18 L39,6 C39,4.35 40.35,3 42,3 L66,3 C67.65,3 69,4.35 69,6 L69,18" id="Imported-Layers" fill="#FFFFFF"></path>
+                </g>
+            </g>
+            <path d="M163.741526,84.765934 C164.146535,84.362892 164.146535,83.7068236 163.741526,83.3037816 C163.338518,82.8987395 162.681504,82.8987395 162.278496,83.3037816 L157.292277,88.2904156 C156.90021,88.6825154 156.904946,89.3230838 157.292277,89.7105837 L162.278496,94.6989686 C162.4805,94.8999896 162.746505,95 163.010511,95 C163.275516,95 163.539522,94.8999896 163.741526,94.6989686 C164.146535,94.2949266 164.146535,93.6388582 163.741526,93.2358162 L159.507438,89.000375 L163.741526,84.765934 Z" id="Close" fill="#C6C6C6" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-29" stroke="#C6C6C6" sketch:type="MSShapeGroup" x="148" y="76" width="26" height="26" rx="3"></rect>
+            <rect id="Rectangle-121" fill="#C6C6C6" sketch:type="MSShapeGroup" x="170" y="148" width="30" height="30" rx="3"></rect>
+            <rect id="Rectangle-121" fill="#C6C6C6" sketch:type="MSShapeGroup" x="456" y="147" width="30" height="30" rx="3"></rect>
+            <g id="layer12" sketch:type="MSLayerGroup" transform="translate(161.999800, 393.000000)" fill="#BEBEBE">
+                <path d="M4.0002,0 L4.0002,4 L0.0002,4 L0.0002,6 L4.0002,6 L4.0002,10 L6.0002,10 L6.0002,6 L10.0002,6 L10.0002,4 L6.0002,4 L6.0002,0 L4.0002,0 L4.0002,0 Z" id="rect31992" sketch:type="MSShapeGroup"></path>
+            </g>
+            <g id="layer12" sketch:type="MSLayerGroup" transform="translate(182.999800, 397.000000)" fill="#BEBEBE">
+                <rect id="rect31984" sketch:type="MSShapeGroup" x="0" y="0" width="9.9996014" height="2.0002136"></rect>
+            </g>
+            <g id="Gmail-+-Imported-Layers" sketch:type="MSLayerGroup" transform="translate(497.000000, 147.000000)" font-size="12" font-family="Lato" fill="#333333" font-weight="bold">
+                <text id="Google" sketch:type="MSTextLayer">
+                    <tspan x="-0.5" y="12">Google</tspan>
+                    <tspan x="-0.5" y="27" font-weight="normal">juan.perez@gmail.com</tspan>
+                </text>
+            </g>
+            <rect id="Rectangle-25" stroke="#C6C6C6" stroke-width="2" sketch:type="MSShapeGroup" x="138" y="67" width="581" height="359" rx="6"></rect>
+        </g>
+    </g>
+</svg>

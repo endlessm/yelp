@@ -1,0 +1,296 @@
+/*!
+ * Style for eos-help-center
+ */
+
+@import url(assets/css/bootstrap.min.css);
+@import url(assets/css/utilities.css);
+@import url(assets/css/fonts.css);
+
+html,
+body {
+    font-size: 16px;
+    height: 100%;
+    min-height: 200px;
+    min-width: 25em;
+    background-color: #EAE8E4;
+}
+
+a{
+    transition: 0.1s ease-in; 
+}
+
+.page {
+    height: 100%;
+    overflow-y: auto;
+    margin-left:18em;
+    padding:30px;
+}
+
+.header{}
+
+.trail{}
+
+.nav-min{
+    display:none;
+    overflow:hidden;
+    visibility: none;
+}
+.nav-main{
+    float:left;
+    height:100%;
+    width:18em;
+    background: #F8F7F4;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.15), 0px 1px 2px 0px rgba(0,0,0,0.50);
+}
+
+.nav-main h2 {
+    margin: 0;
+    padding: 1em .5em .3em;
+}
+
+.nav-main ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.nav-main li {
+    border-top: 1px solid rgba(255,255,255,0.50);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    clear: both;
+    cursor: pointer;
+}
+
+.nav-main a {
+    display: block;
+    padding: 1em 1.5em;
+    color:black;
+}
+
+.nav-main a:hover {
+    border-right: 3px solid rgba(217,213,208,0.50);
+    box-shadow: 0px 1px 0px 0px #FFFFFF;
+    background: #EAE8E4;
+    text-decoration: none;
+}
+
+
+/* Primary Navigation links highlight based on page ID */
+#sec-1 .nav-main li.sec-2 {
+    color:red;
+    background:red;
+}
+
+.body{
+    font-family: Lato-Regular;
+
+}
+
+h1.title{
+    font-family: Lato-Light;
+    font-size: 24px;
+    color: #2A2A2A;
+    line-height: 30px;
+    letter-spacing: 0px;
+    border-bottom: 1px solid #C9C9C9;
+    padding-bottom:.75em;
+    margin-bottom:.75em;
+}
+
+
+
+
+.contents{
+
+}
+
+#view{
+
+}
+
+.sect,
+.contents{
+    display:block;
+    border-radius: 6px;
+    box-shadow: 0px 2px 8px 0px rgba(3,3,3,0.20);
+    margin-bottom:1em;
+    background-color: #fff;
+
+}
+.sect{
+    margin-top:4em;
+}
+
+.region .contents{
+    padding:30px;
+}
+
+.inner .region .contents{
+    border-radius: 0;
+    box-shadow: 0px;
+    margin:0em;
+    padding:30px;
+}
+
+
+.hgroup{
+}
+
+h2.title{
+    background-image: linear-gradient(-179deg, #FF9F00 0%, #E58E00 100%);
+    font-family: Lato-Regular;
+    color: #fff;
+    line-height: 20px;
+    font-size: 14px;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.10);
+    padding:1em;
+    margin:-3.1em 0 1em;
+    letter-spacing: 1px;
+    border-radius: 6px 6px 0 0;
+    box-shadow: 0px 2px 8px 0px rgba(3,3,3,0.20);
+    float:left;
+    width:100%;
+}
+
+.links-twocolumn{
+
+}
+.topiclinks{margin:-30px;}
+
+a.linkdiv{
+    display:block;
+    padding:1em;
+    text-decoration:none;
+    border-top: 1px solid rgba(255,255,255,0.50);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+a.linkdiv:hover{
+    padding-right:.85em;
+    box-shadow: 0px 0px 10px 0px rgba(3,3,3,0.20);
+    border-bottom:1px solid #ccc;
+}
+a.linkdiv:hover .title{
+    color:#000;
+}
+
+.linkdiv .title{
+    padding-right:1em;
+    background: url('assets/img/arrow-right_dark.png') right center no-repeat;
+    display:block;
+    color:#333;
+    text-shadow: 0px 1px 1px rgba(1,1,2,0.20);
+}
+.linkdiv .linkdiv-dash{
+    display:none;
+}
+
+.linkdiv .desc{
+    color:#6C6C6C;
+    padding-right:2em;
+    display:block;
+
+}
+.linkdiv .app{}
+
+.links{
+}
+
+
+.links-grid{
+    display:block;
+}
+
+.links-grid-link{
+    display:block;
+    float:left;
+    border:1px solid;
+    color:red;
+    width:100%;
+
+}
+
+.links-grid .desc{
+    color:#6C6C6C;
+    padding-right:2em;
+    display:block;
+}
+
+
+div.link{}
+span.link{}
+
+.footer{
+    
+}
+
+.footer .sect{
+    padding:30px;
+}
+
+
+.footer .sect .inner,
+.footer .sect .inner .region,
+.footer .sect .inner .contents,
+.footer .sect .inner .contents .contents{
+    padding:0px;
+    margin:0;
+    box-shadow:none;
+
+}
+
+
+.yelp-title-expanded{
+    display:block;
+    border:1px solid;
+}
+
+.yelp-title-collapsed{
+    display:block;
+    border:1px solid;
+
+}
+
+.ui-expander-e .yelp-title-collapsed{
+    display:none;
+}
+.ui-expander .yelp-title-expanded{
+    display:none;
+}
+
+
+
+@media (max-width:800px){
+    .nav-main{
+        display:none;
+    }
+    .nav-min{
+        display:block;
+    }
+    .page{
+        margin-left:0;
+    }
+
+}
+
+@media (max-width:800px){
+    .nav-main{
+        display:none;
+    }
+    .nav-min{
+        display:block;
+    }
+    .page{
+        margin-left:0;
+    }
+
+}
+
+
+@media (min-width:1000px){
+    div.sect{
+        width:45%;
+        float:left;
+        margin-right:30px;
+    }
+
+}

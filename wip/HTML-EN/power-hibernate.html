@@ -1,0 +1,120 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>How do I hibernate my computer?</title>
+<link rel="stylesheet" type="text/css" href="C.css">
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jquery.syntax.js"></script><script type="text/javascript" src="yelp.js"></script>
+</head>
+<body><div class="page" role="main">
+<div class="header"><div class="trails" role="navigation">
+<div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="hardware.html" title="Hardware &amp; drivers">Hardware</a> » <a class="trail" href="power.html" title="Power &amp; battery">Power &amp; battery</a> » </div>
+<div class="trail">
+<a class="trail" href="index.html" title="GNOME Help"><span class="media"><span class="media media-image"><img src="figures/gnome.png" class="media media-inline" alt="Help"></span></span></a> » <a class="trail" href="prefs.html" title="User &amp; system settings">Settings</a> » <a class="trail" href="power.html" title="Power &amp; battery">Power &amp; battery</a> » </div>
+</div></div>
+<div class="body">
+<div class="hgroup"><h1 class="title"><span class="title">How do I hibernate my computer?</span></h1></div>
+<div class="region">
+<div class="contents">
+<p class="p">When the computer <span class="em">hibernates</span>, all of your applications and
+documents are stored and the computer completely switches off so it does not
+use any power, but the applications and documents will still be open when you
+switch on the computer again.</p>
+<p class="p">Unfortunately, hibernate <span class="link"><a href="power-suspendfail.html" title="Why does my computer not turn back on after I suspended it?">doesn't work</a></span>
+ in many cases, which can cause you to lose data if you expect your documents
+ and applications to re-open when you switch your computer back on. Therefore,
+ hibernate is disabled by default.</p>
+</div>
+<div id="test-hibernate" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Test if hibernate works</span></h2></div>
+<div class="region"><div class="contents">
+<div class="note note-important" title="Important"><div class="inner">
+<div class="title title-note"><h3><span class="title">Always save your work before hibernating</span></h3></div>
+<div class="region"><div class="contents"><p class="p">You should save all of your work before hibernating the computer, just in
+  case something goes wrong and your open applications and documents cannot be
+  recovered when you switch on the computer again.</p></div></div>
+</div></div>
+<p class="p">You can use the command line to test if hibernate works on your computer.</p>
+<div class="steps"><div class="inner"><div class="region"><ol class="steps">
+<li class="steps"><p class="p">Open the <span class="app">Terminal</span> by searching for <span class="input">terminal</span>
+     in the <span class="gui">Activities overview</span>.</p></li>
+<li class="steps">
+<p class="p">As root, type <span class="cmd">pm-hibernate</span> into the terminal and press <span class="key"><kbd>Enter</kbd></span>.</p>
+<p class="p">Enter your password when prompted.</p>
+</li>
+<li class="steps">
+<p class="p">After you computer turns off, switch it back on. Did your open applications
+       re-open?</p>
+<p class="p">If hibernate doesn't work, check if your swap partition is at least as large as your
+       available RAM.</p>
+</li>
+</ol></div></div></div>
+</div></div>
+</div></div>
+<div id="enable-hibernate" class="sect"><div class="inner">
+<div class="hgroup"><h2 class="title"><span class="title">Enable hibernate</span></h2></div>
+<div class="region"><div class="contents">
+<p class="p">If the hibernate test works, you can continue to use the <span class="cmd">pm-hibernate</span>
+  command when you want to hibernate.</p>
+<p class="p">You can also enable the hibernate option in the menus. To do that, use your favorite text
+  editor to create <span class="file">/etc/polkit-1/localauthority/50-local.d/org.gnome.enable-hibernate.pkla</span>.
+  Add the following to the file and save:</p>
+<div class="code"><pre class="contents ">[Re-enable hibernate by default]
+Identity=unix-user:*
+Action=org.freedesktop.upower.hibernate
+ResultActive=yes</pre></div>
+</div></div>
+</div></div>
+<div class="sect sect-links" role="navigation">
+<div class="hgroup"></div>
+<div class="contents">
+<div class="links guidelinks"><div class="inner">
+<div class="title"><h2><span class="title">More Information</span></h2></div>
+<div class="region"><ul><li class="links ">
+<a href="power.html" title="Power &amp; battery">Power &amp; battery</a><span class="desc"> — 
+      <span class="link"><a href="power-suspend.html" title="What happens when I suspend my computer?">Suspend</a></span>,
+      <span class="link"><a href="shell-exit.html#shutdown" title="Power off or restart">power off</a></span>,
+      <span class="link"><a href="power-whydim.html" title="Why does my screen go dim after a while?">screen dimming</a></span>…
+    </span>
+</li></ul></div>
+</div></div>
+<div class="links seealsolinks"><div class="inner">
+<div class="title"><h2><span class="title">See Also</span></h2></div>
+<div class="region"><ul>
+<li class="links ">
+<a href="shell-exit.html" title="Log out, power off or switch users">Log out, power off or switch users</a><span class="desc"> — Learn how to leave your user account, by logging out, switching users, and so on.</span>
+</li>
+<li class="links ">
+<a href="power-batterylife.html" title="Use less power and improve battery life">Use less power and improve battery life</a><span class="desc"> — Tips to reduce the power consumption of your computer.</span>
+</li>
+</ul></div>
+</div></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="footer"><div class="sect about ui-expander" role="contentinfo">
+<div class="yelp-data yelp-data-ui-expander" data-yelp-expanded="false"></div>
+<div class="inner">
+<div class="hgroup"><h2><span class="title">About</span></h2></div>
+<div class="region"><div class="contents">
+<div class="aboutblurb authors">
+<div class="title"><span class="title">Written By</span></div>
+<ul class="credits">
+<li>GNOME Documentation Project</li>
+<li>Ekaterina Gerasimova</li>
+<li>Jeremy Bicha</li>
+</ul>
+</div>
+<div class="aboutblurb license">
+<div class="title"><span class="title">Creative Commons</span></div>
+<div class="contents"><p class="p">This work is licensed under a <span class="link"><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="http://creativecommons.org/licenses/by-sa/3.0/">Creative
+  Commons Attribution-ShareAlike 3.0 Unported License</a></span>.</p></div>
+</div>
+</div></div>
+</div>
+</div></div>
+</div></body>
+</html>
