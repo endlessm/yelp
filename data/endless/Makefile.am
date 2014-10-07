@@ -6,10 +6,7 @@ css_files = \
 	css/bootstrap.min.css \
 	css/eos-help-center-style.css \
 	css/fonts.css \
-	css/jquery-ui.min.css \
-	css/eos-help-center-style-clear.css \
 	css/font-awesome.min.css \
-	css/jquery-ui.css \
 	css/utilities.css \
 	$(NULL)
 
