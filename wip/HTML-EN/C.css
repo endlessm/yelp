@@ -223,10 +223,15 @@ span.link{}
 }
 
 .sect.sect-links{
-    font-family: Lato-Regular;
-    width:100%;
-    margin-bottom: 0;
     border-radius: 6px 6px 0 0 ;
+    font-family: Lato-Regular;
+    margin-bottom: 0;
+    margin-top: 15px;
+    width:100%;
+}
+
+.sect.sect-links .region{
+    box-shadow: none;
 }
 
 .sect.sect-links .links.guidelinks,
@@ -244,6 +249,7 @@ span.link{}
 }
 
 .sect.sect-links .contents{
+    padding: 30px 30px 0 30px;
     box-shadow: none;
 }
 
@@ -357,12 +363,13 @@ p, div {
     line-height: 20px;
 }
 
-div.steps,
+.body .media.media-image + div.steps,
 .body .media.media-image {
     float: left;
     width: 50%;
     position: relative;
     z-index: 100;
+    margin-top: 10px;
 }
 
 .sect div.steps,
@@ -427,6 +434,11 @@ div.steps,
     border-radius: 6px!important;
 }
 
+.region .contents img,
+.region .contents video {
+    max-width: 100%;
+}
+
 .note .contents {
     display: block;
 }
@@ -438,7 +450,8 @@ div.steps,
 }
 
 .sect ol.steps,
-.sect .region .region {
+.sect .region .region,
+.ui-overlay .contents {
     box-shadow: none;
 }
 
@@ -487,13 +500,17 @@ div.steps,
 
 @media (min-width:1000px){
     div.sect{
-        width: 48.5%;
-        float:left;
+        width: 49%;
+        float: left;
         display: list-item;
     }
 
+    .footer div.sect:nth-child(2n+1){
+        margin-left:0px;
+    }
+
     div.sect:nth-child(2n+1){
-        margin-left:30px;
+        float: right;
     }
 
 }
@@ -503,7 +520,7 @@ div.steps,
     box-shadow: 0px 2px 8px 0px rgba(3,3,3,0.20);
     border-radius: .2rem;
     background: #f6f5f3;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .contents .note .inner{
