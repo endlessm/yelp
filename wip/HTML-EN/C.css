@@ -215,18 +215,59 @@ a.linkdiv:hover .title{
     display:block;
 }
 
-
 div.link{}
 span.link{}
 
 .footer{
-    
+    font-family: Lato-Regular;
+}
+
+.sect.sect-links{
+    font-family: Lato-Regular;
+    width:100%;
+    margin-bottom: 0;
+    border-radius: 6px 6px 0 0 ;
+}
+
+.sect.sect-links .links.guidelinks,
+.sect.sect-links .links.seealsolinks{
+    position:relative;
+    width: 50%;
+    float:left;
+}
+
+.sect.sect-links h2{
+    font-family: Lato-Regular;
+    margin-top: 0px; 
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sect.sect-links .contents{
+    box-shadow: none;   
 }
 
 .footer .sect{
     padding:30px;
 }
 
+.footer .ui-expander{
+    padding-top: 0px;
+    box-shadow: 0px 5px 8px 0px rgba(3, 3, 3, 0.2);
+    border:none;
+    border-radius: 0 0 6px 6px;
+    margin-top: -0px;
+    position: relative;
+    width:100%;
+}
+
+.footer .ui-expander h2{
+    background: url(assets/img/arrow-right_dark.png) right center no-repeat;
+    cursor: pointer;
+    padding-right: 15px;
+    font-size: 15px;
+    text-align: right;
+}
 
 .footer .sect .inner,
 .footer .sect .inner .region,
@@ -244,7 +285,7 @@ span.link{}
 }
 
 .yelp-title-collapsed{
-    display:block;
+    display:none;
     border:1px solid;
 
 }
@@ -267,6 +308,19 @@ span.link{}
         margin-left:0;
     }
 
+}
+
+@media (max-width:1000px){
+
+    .sect.sect-links .links.guidelinks,
+    .sect.sect-links .links.seealsolinks{
+        width: 100%;
+        float:none;
+    }
+
+    .footer .ui-expander{
+        margin-top:-36px;
+    }
 }
 
 @media (max-width:800px){
