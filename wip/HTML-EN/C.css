@@ -215,7 +215,6 @@ a.linkdiv:hover .title{
     display:block;
 }
 
-
 div.link{}
 span.link{}
 
@@ -248,7 +247,6 @@ span.link{}
     box-shadow: none;   
 }
 
-
 .footer .sect{
     padding:30px;
 }
@@ -271,7 +269,6 @@ span.link{}
     text-align: right;
 }
 
-
 .footer .sect .inner,
 .footer .sect .inner .region,
 .footer .sect .inner .contents,
@@ -281,7 +278,6 @@ span.link{}
     box-shadow:none;
 
 }
-
 
 .yelp-title-expanded{
     display:block;
@@ -300,10 +296,6 @@ span.link{}
 .ui-expander .yelp-title-expanded{
     display:none;
 }
-
-
-
-
 
 @media (max-width:800px){
     .nav-main{
@@ -343,7 +335,6 @@ span.link{}
     }
 
 }
-
 
 @media (min-width:1000px){
     div.sect{
