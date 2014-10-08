@@ -5,6 +5,7 @@
 @import url(assets/css/bootstrap.min.css);
 @import url(assets/css/utilities.css);
 @import url(assets/css/fonts.css);
+@import url(assets/css/temp_kevin.css);
 
 html,
 body {
@@ -195,7 +196,6 @@ a.linkdiv:hover .title{
 .links{
 }
 
-
 .links-grid{
     display:block;
 }
@@ -215,18 +215,59 @@ a.linkdiv:hover .title{
     display:block;
 }
 
-
 div.link{}
 span.link{}
 
 .footer{
+    font-family: Lato-Regular;
+}
 
+.sect.sect-links{
+    font-family: Lato-Regular;
+    width:100%;
+    margin-bottom: 0;
+    border-radius: 6px 6px 0 0 ;
+}
+
+.sect.sect-links .links.guidelinks,
+.sect.sect-links .links.seealsolinks{
+    position:relative;
+    width: 50%;
+    float:left;
+}
+
+.sect.sect-links h2{
+    font-family: Lato-Regular;
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sect.sect-links .contents{
+    box-shadow: none;
 }
 
 .footer .sect{
     padding:30px;
 }
 
+.footer .ui-expander{
+    padding-top: 0px;
+    box-shadow: 0px 5px 8px 0px rgba(3, 3, 3, 0.2);
+    border:none;
+    border-radius: 0 0 6px 6px;
+    margin-top: -0px;
+    position: relative;
+    width:100%;
+}
+
+.footer .ui-expander h2{
+    background: url(assets/img/arrow-right_dark.png) right center no-repeat;
+    cursor: pointer;
+    padding-right: 15px;
+    font-size: 15px;
+    text-align: right;
+}
 
 .footer .sect .inner,
 .footer .sect .inner .region,
@@ -238,14 +279,13 @@ span.link{}
 
 }
 
-
 .yelp-title-expanded{
     display:block;
     border:1px solid;
 }
 
 .yelp-title-collapsed{
-    display:block;
+    display:none;
     border:1px solid;
 
 }
@@ -419,6 +459,19 @@ div.steps,
 
 }
 
+@media (max-width:1000px){
+
+    .sect.sect-links .links.guidelinks,
+    .sect.sect-links .links.seealsolinks{
+        width: 100%;
+        float:none;
+    }
+
+    .footer .ui-expander{
+        margin-top:-36px;
+    }
+}
+
 @media (max-width:800px){
     .nav-main{
         display:none;
@@ -432,7 +485,6 @@ div.steps,
 
 }
 
-
 @media (min-width:1000px){
     div.sect{
         width: 48.5%;
@@ -444,4 +496,81 @@ div.steps,
         margin-left:30px;
     }
 
+}
+
+ .contents .note{
+    padding-left: 4.5rem;
+    box-shadow: 0px 2px 8px 0px rgba(3,3,3,0.20);
+    border-radius: .2rem;
+    background: #f6f5f3;
+    margin-bottom: 1rem;
+}
+
+.contents .note .inner{
+    position: relative;
+    background: none;
+}
+
+.contents .note .inner .region{
+    background: none;
+    box-shadow: none;
+}
+
+.contents .note .inner div.title{
+    padding:0.5rem 1.9rem;
+    background: none;
+    box-shadow:none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.contents .note .inner span.title{
+    font-size: 1rem;
+}
+
+.contents .note .inner .region .contents{
+    background: none;
+    box-shadow:none;
+    font-size: 1rem;
+    padding:0.5rem 1.9rem;
+}
+
+.contents .note .inner:before {
+    border-radius: .5rem 0 0 .5rem ;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 4.5rem;
+    content: " ";
+    left: -4.5rem;
+    background: url('../HTML-EN/assets/img/note.png') no-repeat center 10px white;
+    z-index: 2;
+}
+
+.contents .note-tip .inner:before {
+    background: url('../HTML-EN/assets/img/note-tip.png') no-repeat center 10px white;
+}
+
+.contents .note-warning .inner:before {
+    background: url('../HTML-EN/assets/img/note-warning.png') no-repeat center 10px white;
+}
+
+.contents .note-important .inner:before {
+    background: url('../HTML-EN/assets/img/note-important.png') no-repeat center 10px white;
+}
+
+.contents .note .inner:after {
+    background-color: transparent;
+    border-radius: 10px / 100px;
+    bottom: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    content: "\0000";
+    display: block;
+    left: -5%;
+    position: absolute;
+    right: 100%;
+    top: 10px;
+    z-index: 1;
 }
