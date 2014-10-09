@@ -162,7 +162,6 @@ body {
     width: 20rem;
     z-index: 10;
     -webkit-box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.1);
-    -moz-box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.1);
     box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.1);
 }
 
@@ -179,7 +178,6 @@ body {
     overflow-y: auto;
     overflow-x: hidden;
     -webkit-box-shadow: 2px 0px 2px 0px rgba(0,0,0,0.1);
-    -moz-box-shadow: 2px 0px 2px 0px rgba(0,0,0,0.1);
     box-shadow: 2px 0px 2px 0px rgba(0,0,0,0.1);
 }
 
