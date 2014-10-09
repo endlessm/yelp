@@ -1,9 +1,7 @@
 body {
     background-color: transparent;
     color: #5f5f5f;
-/*  font-family: 'latoregular', sans-serif;*/
-    font-family: lato;
-    font-weight: 300;
+    font-family: 'latoregular', sans-serif;
     font-size: 15px;
 }
 
