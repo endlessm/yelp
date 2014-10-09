@@ -7,13 +7,14 @@
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2003-2006
 # Jorge González <jorgegonz@svn.gnome.org>, 2007,2009-2011
 # Juan Manuel García Molina <juanma_gm@wanadoo.es>, 2001-2003
+# Nuritzi Sanchez <ns@endlessm.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-29 21:12-0700\n"
-"PO-Revision-Date: 2014-10-06 05:58+0000\n"
-"Last-Translator: Eddy Alegria <eddy@endlessm.com>\n"
+"POT-Creation-Date: 2014-10-09 12:23-0700\n"
+"PO-Revision-Date: 2014-10-09 19:37+0000\n"
+"Last-Translator: Nuritzi Sanchez <ns@endlessm.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/yelp/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -144,6 +145,13 @@ msgstr "Hardware y controladores"
 #: yelp-endless.xml.in:162
 msgid "Get more help"
 msgstr "Obtener más ayuda"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.endless-videos
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:171
+msgid "Video Tutorials"
+msgstr "Tutoriales en video"
 
 #: ../libyelp/yelp-bz2-decompressor.c:144
 #: ../libyelp/yelp-lzma-decompressor.c:153

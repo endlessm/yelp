@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp 2.3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-23 16:02-0700\n"
+"POT-Creation-Date: 2014-10-09 12:23-0700\n"
 "PO-Revision-Date: 2012-03-09 18:48+0100\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
 "Language-Team: Esperanto <gnome-l10n-eo@lists.launchpad.net>\n"
@@ -185,6 +185,15 @@ msgstr "Aparatoj"
 #.
 #: yelp-endless.xml.in:162
 msgid "Get more help"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.endless-videos
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:171
+msgid "Video Tutorials"
 msgstr ""
 
 #: ../libyelp/yelp-bz2-decompressor.c:144

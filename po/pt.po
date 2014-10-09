@@ -3,12 +3,12 @@
 # Distributed under the same licence as yelp package
 # Duarte Loreto <happyguy_pt@hotmail.com>, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2011, 2012, 2013.
 # Pedro Barreira <almufadado@gmail.com>, 2011.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-23 16:02-0700\n"
+"POT-Creation-Date: 2014-10-09 12:23-0700\n"
 "PO-Revision-Date: 2013-03-16 02:10+0000\n"
 "Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
 "Language-Team: Portuguese <gnome_pt@yahoogroups.com>\n"
@@ -171,6 +171,15 @@ msgstr "Hardwares &amp; drivers"
 #: yelp-endless.xml.in:162
 msgid "Get more help"
 msgstr "Obtendo mais ajuda"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.endless-videos
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:171
+msgid "Video Tutorials"
+msgstr ""
 
 #: ../libyelp/yelp-bz2-decompressor.c:144
 #: ../libyelp/yelp-lzma-decompressor.c:153

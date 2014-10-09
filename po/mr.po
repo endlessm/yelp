@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-23 16:02-0700\n"
+"POT-Creation-Date: 2014-10-09 12:23-0700\n"
 "PO-Revision-Date: 2013-06-04 14:59+0530\n"
 "Last-Translator: Sandeep Shedmake <sshedmak@redhat.com>\n"
 "Language-Team: Marathi <fedora-trans-mr@redhat.com>\n"
@@ -175,6 +175,15 @@ msgstr "हार्डवेयर उपकरण"
 #.
 #: yelp-endless.xml.in:162
 msgid "Get more help"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.endless-videos
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:171
+msgid "Video Tutorials"
 msgstr ""
 
 #: ../libyelp/yelp-bz2-decompressor.c:144

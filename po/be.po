@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-23 16:02-0700\n"
+"POT-Creation-Date: 2014-10-09 12:23-0700\n"
 "PO-Revision-Date: 2012-02-26 13:26+0300\n"
 "Last-Translator: kasia <1>\n"
 "Language-Team: 1\n"
@@ -171,6 +171,15 @@ msgstr ""
 #.
 #: yelp-endless.xml.in:162
 msgid "Get more help"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.endless-videos
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:171
+msgid "Video Tutorials"
 msgstr ""
 
 #: ../libyelp/yelp-bz2-decompressor.c:144
