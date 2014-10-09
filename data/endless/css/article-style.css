@@ -561,13 +561,6 @@ a.ui-overlay-close:before {
     top: -.05rem;
 }
 
-div.media-video video {
-    background-color: #000;
-    height: 13.5rem;
-    position: relative;
-    width: 23.5rem;
-}
-
 div.media-controls.media-controls-VIDEO {
     display: none;
 }
