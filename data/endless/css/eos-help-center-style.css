@@ -46,7 +46,7 @@ body {
     height: calc(100% - 4em);
     margin: 2em .5em 2em 1em;
     overflow: hidden;
-    width: calc(100% - 18.8em);
+    width: calc(100% - 34.8em);
 }
 
 #wrap-article.home.small {
@@ -137,7 +137,7 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    width: 15rem;
+    width: 31rem;
 }
 
 #content-nav.small,
