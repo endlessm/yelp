@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>YELP</title>
+	<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		background: #e9e6e2;
+	}
+	.menu-list,
+	.sub-menu {
+		background: #f8f7f4;
+		bottom: 0;
+		font: 14px sans-serif;
+		left: 0;
+		overflow: hidden;
+		position: fixed;
+		top: 0;
+		width: 248px;
+		-webkit-box-shadow: 0 0 5px 0 #ccc;
+		box-shadow: 0 0 5px 0 #ccc;
+		-webkit-transition: left .4s ease-out;
+		-o-transition: left .4s ease-out;
+		transition: left .4s ease-out;
+	}
+	.menu-list a,
+	.menu-list span {
+		border-bottom: 1px solid #e9e6e1;
+		border-top: 1px solid #fff;
+		color: #7f7f7f;
+		display: block;
+		line-height: 47px;
+		overflow: hidden;
+		padding: 0 15px;
+		text-decoration: none;
+		white-space: nowrap;
+		-ms-text-overflow: ellipsis;
+		text-overflow: ellipsis;
+		-webkit-transition: background .4s ease-out;
+		-o-transition: background .4s ease-out;
+		transition: background .4s ease-out;
+	}
+	.menu-list a:hover,
+	.menu-list a:focus {
+		background: #eae8e4;
+	}
+	.menu-list a:active {
+		background: #eae8e4;
+		color: transparent;
+		text-shadow: 0 1px 0 #9f9f9f;
+	}
+	.menu-list .back {
+		font-size: 12px;
+		line-height: 37px;
+		text-transform: uppercase;
+	}
+	.menu-list .back:after {
+		content: "\25b6";
+		font-size: 11px;
+		float: right;
+	}
+	.sub-menu {
+		left: -260px;
+	}
+	.show-menu {
+		left: 0;
+	}
+	</style>
+</head>
+<body>
+	<nav class="menu-nav">
+		<ul class="menu-list">
+			<li class="menu-item">
+				<a href="#">EndlessOS Help</a>
+				<ul class="sub-menu">
+					<li class="menu-item"><a class="back" href="#">Back</a></li>
+					<li class="menu-item">
+						<a href="#">Getting Started with EndlessOS</a>
+						<ul class="sub-menu">
+							<li class="menu-item"><a class="back" href="#">Back</a></li>
+							<li class="menu-item"><a href="#">Browse the web</a></li>
+							<li class="menu-item"><a href="#">Change the date, time and timezone</a></li>
+							<li class="menu-item"><a href="#">Change the wallpaper</a></li>
+							<li class="menu-item"><a href="#">Use the system search</a></li>
+							<li class="menu-item"><a href="#">Use windows and workspaces</a></li>
+							<li class="menu-item"><a href="#">Get online</a></li>
+							<li class="menu-item"><a href="#">Launch applications</a></li>
+							<li class="menu-item"><a href="#">Switch tasks</a></li>
+						</ul>
+					</li>
+					<li class="menu-item"><a href="#">Introduction to EndlessOS</a></li>
+				</ul>
+			</li>
+			<li class="menu-item">
+				<a href="#">Desktop, apps &amp; windows</a>
+				<ul class="sub-menu">
+					<li class="menu-item"><a class="back" href="#">Back</a></li>
+					<li class="menu-item"><a href="#">Log out, power off or switch users</a></li>
+					<li class="menu-item"><a href="#">Notifications and the message tray</a></li>
+					<li class="menu-item"><a href="#">The lock screen</a></li>
+					<li class="menu-item"><a href="#">Switch between windows</a></li>
+					<li class="menu-item">
+						<a href="#">Windows and workspaces</a>
+						<ul class="sub-menu">
+							<li class="menu-item"><a class="back" href="#">Back</a></li>
+							<li class="menu-item"><a href="#">Maximize and unmaximize a window</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li class="menu-item">
+				<a href="#">Networking, web, email &amp; chat</a>
+				<ul class="sub-menu">
+					<li class="menu-item"><a class="back" href="#">Back</a></li>
+					<li class="menu-item">
+						<a href="#">Wireless Networking</a>
+						<ul class="sub-menu">
+							<li class="menu-item"><a class="back" href="#">Back</a></li>
+							<li class="menu-item"><a href="#">Connect to a wireless network</a></li>
+							<li class="menu-item"><a href="#">Connect to a VPN</a></li>
+							<li class="menu-item"><a href="#">Connect to a hidden wireless network</a></li>
+							<li class="menu-item"><a href="#">Create a wireless hotspot</a></li>
+							<li class="menu-item"><a href="#">I can't see my wireless network in the list</a></li>
+							<li class="menu-item"><a href="#">I've entered the correct password, but I still can't connect</a></li>
+							<li class="menu-item"><a href="#">Manually set network settings</a></li>
+							<li class="menu-item"><a href="#">Turn off wireless (airplane mode)</a></li>
+							<li class="menu-item"><a href="#">What do WEP and WPA mean?</a></li>
+							<li class="menu-item"><a href="#">Why does my wireless network keep disconnecting?</a></li>
+						</ul>
+					</li>
+					<li class="menu-item">
+						<a href="#">Keeping safe on the internet</a>
+						<ul class="sub-menu">
+							<li class="menu-item"><a class="back" href="#">Back</a></li>
+							<li class="menu-item"><a href="#">Do I need anti-virus software?</a></li>
+							<li class="menu-item"><a href="#">Do I need to scan my emails for viruses?</a></li>
+							<li class="menu-item"><a href="#">The internet seems slow</a></li>
+							<li class="menu-item"><a href="#">Install the Flash plug-in</a></li>
+							<li class="menu-item"><a href="#">Connect to a wired (Ethernet) network</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li class="menu-item">
+				<a href="#">Files, folders &amp; search</a>
+				<ul class="sub-menu">
+					<li class="menu-item"><a class="back" href="#">Back</a></li>
+					<li class="menu-item"><a href="#">Browse files and folders</a></li>
+					<li class="menu-item"><a href="#">Copy or move files and folders</a></li>
+					<li class="menu-item"><a href="#">Delete files and folders</a></li>
+					<li class="menu-item"><a href="#">Preview files and folders</a></li>
+					<li class="menu-item"><a href="#">Rename a file or folder</a></li>
+					<li class="menu-item"><a href="#">Search for files</a></li>
+					<li class="menu-item"><a href="#">Sort files and folders</a></li>
+					<li class="menu-item"><a href="#">Recover a file from the Trash</a></li>
+					<li class="menu-item"><a href="#">Share files by email</a></li>
+					<li class="menu-item"><a href="#">Safely remove an external drive</a></li>
+					<li class="menu-item">
+						<a href="#">Back up your important files</a>
+						<ul class="sub-menu">
+							<li class="menu-item"><a class="back" href="#">Back</a></li>
+							<li class="menu-item"><a href="#">How to back up</a></li>
+							<li class="menu-item"><a href="#">What to back up</a></li>
+						</ul>
+					</li>
+					<li class="menu-item"><a href="#">Frequency of backups</a></li>
+					<li class="menu-item"><a href="#">Restore a backup</a></li>
+				</ul>
+			</li>
+			<li class="menu-item">
+				<a href="#">User &amp; system settings</a>
+				<ul class="sub-menu">
+					<li class="menu-item"><a class="back" href="#">Back</a></li>
+					<li class="menu-item">
+						<a href="#">Display &amp; screen</a>
+						<ul class="sub-menu">
+							<li class="menu-item"><a class="back" href="#">Back</a></li>
+							<li class="menu-item"><a href="#">Change the desktop and lock screen backgrounds</a></li>
+							<li class="menu-item"><a href="#">Connect another monitor to your computer</a></li>
+							<li class="menu-item"><a href="#">Change which language you use</a></li>
+						</ul>
+					</li>
+					<li class="menu-item">
+						<a href="#">User accounts</a>
+						<ul class="sub-menu">
+							<li class="menu-item"><a class="back" href="#">Back</a></li>
+							<li class="menu-item"><a href="#">Add a new user account</a></li>
+							<li class="menu-item"><a href="#">Change your login screen photo</a></li>
+							<li class="menu-item"><a href="#">Delete a user account</a></li>
+							<li class="menu-item"><a href="#">Log in automatically</a></li>
+							<li class="menu-item"><a href="#">Change your password</a></li>
+							<li class="menu-item"><a href="#">Choose a secure password</a></li>
+							<li class="menu-item"><a href="#">Change who has administrative privileges</a></li>
+							<li class="menu-item"><a href="#">How do administrative privileges work?</a></li>
+							<li class="menu-item"><a href="#">Problems caused by administrative restrictions</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li class="menu-item">
+				<a href="#">Hardware and drivers</a>
+				<ul class="sub-menu">
+					<li class="menu-item"><a class="back" href="#">Back</a></li>
+					<li class="menu-item">
+						<a href="#">Keyboard</a>
+						<ul class="sub-menu">
+							<li class="menu-item"><a class="back" href="#">Back</a></li>
+							<li class="menu-item"><a href="#">Use alternative keyboard layouts</a></li>
+							<li class="menu-item"><a href="#">What is the Super key?</a></li>
+						</ul>
+					</li>
+					<li class="menu-item">
+						<a href="#">Mouse</a>
+						<ul class="sub-menu">
+							<li class="menu-item"><a class="back" href="#">Back</a></li>
+							<li class="menu-item"><a href="#">Adjust speed of the mouse and touchpad</a></li>
+							<li class="menu-item"><a href="#">Adjust the double-click speed</a></li>
+							<li class="menu-item"><a href="#">Will my computer work with a power supply in another country?</a></li>
+						</ul>
+					</li>
+					<li class="menu-item">
+						<a href="#">Printing</a>
+						<ul class="sub-menu">
+							<li class="menu-item"><a class="back" href="#">Back</a></li>
+							<li class="menu-item"><a href="#">Print to file</a></li>
+							<li class="menu-item"><a href="#">Set up a local printer</a></li>
+							<li class="menu-item"><a href="#">Set the default printer</a></li>
+							<li class="menu-item"><a href="#">Change the paper size when printing</a></li>
+							<li class="menu-item"><a href="#">Make pages print in a different order</a></li>
+							<li class="menu-item"><a href="#">Print only certain pages</a></li>
+							<li class="menu-item"><a href="#">Print two-sided and multi-page layouts</a></li>
+							<li class="menu-item"><a href="#">Cancel, pause or release a print job</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li class="menu-item">
+				<a href="#">Tips and Ticks</a>
+				<ul class="sub-menu">
+					<li class="menu-item"><a class="back" href="#">Back</a></li>
+					<li class="menu-item"><a href="#">Screenshots and screencasts</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('.menu-nav').on('click', 'a', function(e){
+			e.preventDefault();
+			$(this).next('.sub-menu').addClass('show-menu');
+		}).on('click', '.back', function(e){
+			e.preventDefault();
+			$(this).closest('.sub-menu').removeClass('show-menu');
+		});
+	});
+	</script>
+</body>
+</html>
