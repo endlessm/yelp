@@ -9,12 +9,21 @@
 
 html,
 body {
-    background-color: #202020;
     font-family: 'latoregular', sans-serif;
     font-size: 16px;
     height: 100%;
     min-height: 200px;
     min-width: 40em;
+    background-color: #e8e6e2;
+}
+
+.note-tip{
+    max-width: 860px;
+    overflow: hidden;
+}
+
+.title-note{
+    padding-left: 2em;
 }
 
 .separate {
@@ -39,12 +48,12 @@ body {
 }
 
 #wrap-article {
-    background-color: #f2f2f2;
+    background-color: #f5f5f5;
     border-radius: .71em;
     -webkit-border-radius: .71em;
     -moz-border-radius: .71em;
-    height: calc(100% - 4em);
-    margin: 2em .5em 2em 1em;
+    height: calc(100% - 5.5em);
+    margin: 2.5em .5em 2em 1em;
     overflow: hidden;
     width: calc(100% - 34.8em);
 }
@@ -55,7 +64,7 @@ body {
 }
 
 #wrap-article.home .bg-light {
-    background-color: #fff;
+    background-color: #e8e6e2;
     position: absolute;
     top: 0;
     left: 0;
@@ -137,7 +146,7 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    width: 31rem;
+    width: 24rem;
 }
 
 #content-nav.small,
@@ -149,9 +158,12 @@ body {
     background-color: transparent;
     height: 100%;
     padding: 0;
-    position: relative;
-    width: 14rem;
+    position: fixed;
+    width: 20rem;
     z-index: 10;
+    -webkit-box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.1);
+    box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.1);
 }
 
 #main-nav #accordion {
@@ -159,12 +171,16 @@ body {
 }
 
 #main-nav #wrap-nav {
+    position: fixed;
     margin: 0;
-    padding: 0 1.5em;
-    background-color: #dfdfdf;
+    padding: 0;
+    background-color: #e2e2e2;
     height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
+    -webkit-box-shadow: 2px 0px 2px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 0px 2px 0px rgba(0,0,0,0.1);
+    box-shadow: 2px 0px 2px 0px rgba(0,0,0,0.1);
 }
 
 #main-nav h2 {
@@ -177,13 +193,15 @@ body {
     text-decoration: none;
     font-weight: normal;
     display: block;
-    padding: 1em 1.5em;
+    padding: 1em 2em;
     color: #737373;
 }
 
 #main-nav li {
-    border-bottom: 1px solid #dadada;
-    border-top: 1px solid #fbfbfb;
+    background-image: url(../img/separator.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position: 17px 0px;
     clear: both;
     color: #6d6e70;
     cursor: pointer;
@@ -201,6 +219,7 @@ body {
 #main-nav a.active:hover {
     background-color: #3d3d3d;
     color: #fff;
+    
 }
 
 #main-nav a:hover {
@@ -214,26 +233,27 @@ body {
 }
 
 #main-nav h3 {
-    font-size: 1.0625rem;
+    font-size: .875rem;
     outline: none;
-    padding: .7em 0;
+    padding: 0.5em;
     margin: 0;
+    padding-left: 1.2em;
     clear: both;
     cursor: pointer;
-    font-weight: normal;
-    color: #6e6e6e;
-    background: #dfdfdf url(../img/border_bg_dark.png) top repeat-x;
+    color: #333;
+    background-color: #e2e2e2;
     width: 100%;
 }
 
 #main-nav h3.first,
 #main-nav h3.ui-accordion-header-active + div li:first-child,
 #main-nav h3.ui-accordion-header-active + div + h3 {
-    background-image: none;
+    background: url(../img/icon_home.png) left no-repeat;
+    background-position: 15px;
+    font-weight: 600;
 }
 
 #main-nav h3.ui-accordion-header-active + div li:first-child {
-    background: #f2f2f2 url(../img/border_bg.png) top repeat-x;
 }
 
 #main-nav h3.ui-accordion-header-active + div li.active span {
@@ -254,7 +274,7 @@ body {
 }
 
 #main-nav h3.ui-accordion-header-active {
-    background-color: #f2f2f2;
+    background-color: #e9e9e9;
     color: #3a3a3a;
     font-weight: bold;
     margin-left: -1.5em;
@@ -262,7 +282,7 @@ body {
     width: calc(100% + 2.8em);
     border-top: 0;
     border-bottom: 0;
-    background: #f2f2f2 url(../img/border_bg_reverse.png) top repeat-x;
+    background: #e9e9e9 url(../img/border_bg_reverse.png) top repeat-x;
 }
 
 #main-nav h3.ui-accordion-header-active.first {
@@ -270,11 +290,13 @@ body {
 }
 
 #main-nav h3 + div {
-    margin-left: -1.5em;
+    margin-left: -0.5em;
     margin-top: 0;
-    padding: 0 1em;
-    width: calc(100% + 3.1em);
-    background: #f2f2f2 url(../img/border_bg.png) bottom repeat-x;
+    width: calc(100% + 3em);
+    background-image: url(../img/separator.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position: 17px 0px;
 }
 
 #main-nav h3.last + div {     background: none;     background-color: #f2f2f2;
@@ -289,6 +311,7 @@ body {
 }
 
 #accordion li a {
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
     text-decoration: none;
 }
 
@@ -298,12 +321,7 @@ body {
 }
 
 #accordion li.active {
-    margin-left: -1.7em;
-    width: calc(100% + 3.5em);
-    color: #fff;
-    border-top: 1px solid transparent;
-    background-color: #383838!important;
-    background-image: none!important;
+    font-weight: 600;
 }
 
 #accordion li.active > span {
@@ -315,7 +333,7 @@ body {
 }
 
 #accordion li a:hover {
-    color: #ff9d00;
+    color: #000;
 }
 
 #accordion li > nav #wrap-nav {
@@ -372,16 +390,20 @@ hr {
 }
 
 p {
-    color: #898989;
-    font-size: .9333rem;
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    max-width: 1250px;
+    padding-bottom: 0.5em;
 }
 
 .section p {
     font-size: .75rem;
 }
 
-h1,
 h2 {
+    font-size: 1rem;
+    font-weight: 400;
     color: #3b3b3b;
 }
 
@@ -396,21 +418,23 @@ h2 {
     border: 1px solid #e8e8e8;
     box-shadow: 0 2px 5px rgba(0,0,0,.25);
     cursor: pointer;
-    height: 9rem;
+    min-height: 9rem;
     margin-bottom: 1em;
-    padding: .5em 3em .5em .5em;
+    overflow: hidden;
+    padding: .5em 1.2rem .5em 0;
     transition: all 0.12s ease-in-out;
 }
 
 .home .module {
-    background-color: #fff;
+    background-color: #f6f5f3;
+    position: relative;
 }
 
 .module h2 {
+    color: #4a4a4a;
+    font-family: 'latoregular', sans-serif;
     font-size: 1.5rem;
-    font-family: 'latolight';
-    margin: 1rem 0;
-    font-weight: bold;
+    margin: 1.5rem 0 1rem;
 }
 
 .module:hover {
@@ -419,11 +443,13 @@ h2 {
 }
 
 .home .module .table-cell {
+    bottom: 0;
     height: 100%;
-    position: relative;
-    width: 7rem;
-    z-index: 100;
-    padding: 0 .8rem 0 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 7.95rem;
+    z-index: 1;
 }
 
 .home .module .table-cell:before {
@@ -440,17 +466,18 @@ h2 {
 
 .home .module .img {
     height: 8rem;
+    left: 50%;
     padding: 0;
-    background: url(../img/module_circle_bg.png) center center no-repeat;
-    background-size: 100%;
+    position: relative;
+    transform: translate(-40%,0);
 }
 
 .home .module .table-cell:after {
     background-color: transparent;
     border-radius: 10px / 100px;
     bottom: 2px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     content: "\0000";
     display: block;
     left: 50%;
@@ -461,8 +488,9 @@ h2 {
 }
 
 .home .module .text p {
-    font-size: .7rem;
-    font-family: 'latoregular';
+    color: #4a4a4a;
+    font-family: 'latoregular', sans-serif;
+    font-size: .9rem;
 }
 
 #sidebar-dark {
@@ -487,19 +515,15 @@ h2 {
     display: inline;
 }
 
-.module:hover .img {
-    background: url(../img/module_circle_bg_blur.png) center center no-repeat;
-    background-size: 100%;
-}
-
 .text {
     padding-left: 2em;
     padding-right: 1rem;
-    width: calc(100% - 7rem);
+    width: calc(100% - 7.95rem);
     height: 100%;
     background-image: url(../img/arrow-right_dark.png);
-    background-position: right center;
+    background-position: right 1rem;
     background-repeat: no-repeat;
+    margin-left: 8rem
 }
 
 .home h1.visible-sm {
@@ -824,7 +848,7 @@ h2 {
 }
 
 #load-container {
-    margin-right: 1rem;
+    margin-right: 0;
 }
 
 @media (max-width: 991px) {
@@ -864,19 +888,6 @@ h2 {
         border-radius: .71em;
     }
 
-    .home .module .table-cell:before,
-    .home .module .table-cell:after {
-        display: none;
-    }
-
-    .home .module .table-cell {
-        padding: 0;
-    }
-
-    .home .module {
-        padding: 1em;
-    }
-
     #wrap-article.small {
         margin: 1.5rem 1rem;
         height: calc(100% - 3.5em);
@@ -904,7 +915,7 @@ h2 {
     }
 
     .module {
-        padding: .5em 1.5em .5em .5em;
+        padding: .5em 1.5em .5em 0;
     }
 }
 
@@ -1225,7 +1236,6 @@ h2 {
     .module {
         background-image: none;
         min-width:13em;
-        padding: 1em 2em 1em 1em;
     }
 
     .home .tutorial .title-video {
@@ -1243,9 +1253,5 @@ h2 {
     .home .tutorial {
         float: none;
         max-height: 33.5rem;
-    }
-
-    .home .text h2{
-        font-size: 1.4em;
     }
 }
