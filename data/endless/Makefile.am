@@ -27,6 +27,8 @@ img_files = \
 	img/border_bg_sub.png \
 	img/arrow-right-small.png \
 	img/icon_info.png \
+	img/icon_home.png \
+	img/separator.png \
 	$(NULL)
 
 font_files = \
