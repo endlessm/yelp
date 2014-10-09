@@ -64,11 +64,6 @@
                   <xsl:with-param name="msgid" select="'sidebar.link.files'"/>
                 </xsl:call-template>
               </span></a></li>
-              <li><a href="help:gnome-help/a11y"><span>
-                <xsl:call-template name="l10n-endless-text">
-                  <xsl:with-param name="msgid" select="'sidebar.link.a11y'"/>
-                </xsl:call-template>
-              </span></a></li>
               <li><a href="help:gnome-help/net"><span>
                 <xsl:call-template name="l10n-endless-text">
                   <xsl:with-param name="msgid" select="'sidebar.link.net'"/>
@@ -84,19 +79,14 @@
                   <xsl:with-param name="msgid" select="'sidebar.link.tips'"/>
                 </xsl:call-template>
               </span></a></li>
-              <li><a href="help:gnome-help/media"><span>
-                <xsl:call-template name="l10n-endless-text">
-                  <xsl:with-param name="msgid" select="'sidebar.link.media'"/>
-                </xsl:call-template>
-              </span></a></li>
               <li><a href="help:gnome-help/hardware"><span>
                 <xsl:call-template name="l10n-endless-text">
                   <xsl:with-param name="msgid" select="'sidebar.link.hardware'"/>
                 </xsl:call-template>
               </span></a></li>
-              <li><a href="help:gnome-help/more-help"><span>
+              <li><a href="help:gnome-help/endless-videos"><span>
                 <xsl:call-template name="l10n-endless-text">
-                  <xsl:with-param name="msgid" select="'sidebar.link.more-help'"/>
+                  <xsl:with-param name="msgid" select="'sidebar.link.endless-videos'"/>
                 </xsl:call-template>
               </span></a></li>
             </ul>

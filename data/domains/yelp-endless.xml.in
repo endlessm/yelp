@@ -162,4 +162,13 @@ Appears on the static navigation sidebar.
 <msgstr>Get more help</msgstr>
 </msg>
 
+<msg id="sidebar.link.endless-videos">
+<its:locNote>
+ID: sidebar.link.endless-videos
+
+Appears on the static navigation sidebar.
+</its:locNote>
+<msgstr>Video Tutorials</msgstr>
+</msg>
+
 </l10n>

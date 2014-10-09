@@ -19,7 +19,6 @@ img_files = \
 	img/arrow-right_dark.png \
 	img/border_bg.png \
 	img/module_circle_bg.png \
-	img/yelp-note.png \
 	img/arrow-right.png \
 	img/border_bg_reverse.png \
 	img/play.png \
