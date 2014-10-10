@@ -225,9 +225,8 @@ h1 {
 }
 
 a.linkdiv {
-    padding: .5em .5em .5em 3.5em;
+    padding: .5em;
     min-height: 3.8em;
-    background: url(../img/icon_info.png) .5em .5em no-repeat !important;
 }
 
 .media {
@@ -356,7 +355,7 @@ div.sect-links span.desc {
 }
 
 a.linkdiv:hover, div.linkdiv:hover {
-    background: #e9e4e4 url(../img/icon_info.png) .5em .5em no-repeat !important;
+    background: #e9e4e4 !important;
     border-radius: .5em;
     outline: none !important;
 }
