@@ -44,12 +44,6 @@ div.note {
     padding: 0.5em 2.5em 1.5em 2.5em;  
 }
 
-div.note {
-    background-image: url("../img/yelp-note.png");
-    background-repeat: no-repeat;
-    background-position: 1.5em 1.5em;
-}
-
 div.trails {
     background-color: transparent;
 }
