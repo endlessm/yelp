@@ -93,7 +93,9 @@ h1.title{
     color: #2A2A2A;
     line-height: 30px;
     letter-spacing: 0px;
-    border-bottom: 1px solid #C9C9C9;
+    background-image: url('assets/img/title_bottom-line.png');
+    background-repeat: repeat-x;
+    background-position: bottom;
     padding-bottom:.75em;
     margin-bottom:.75em;
 }
@@ -114,7 +116,7 @@ h3.title{
 .contents{
     display:block;
     border-radius: 6px;
-    box-shadow: 0px 2px 8px 0px rgba(3,3,3,0.20);
+    box-shadow: 0px 1px 5px 0px rgba(3,3,3,0.15);
     margin-bottom:1em;
     background-color: #fff;
 
@@ -241,6 +243,7 @@ span.link{}
 .sect.sect-links .links.seealsolinks{
     position:relative;
     /* width: 50%; */
+    margin-right: 15px;
     float:left;
 }
 
@@ -317,7 +320,7 @@ h1.title > span.title {
 }
 
 ol.steps {
-    padding: 0 1.2rem;
+    padding: 0;
     counter-reset: numList;
 }
 
@@ -394,7 +397,7 @@ p, div {
 .body .media.media-image {
     float: right;
     clear: both;
-    margin-top: 0;
+    margin-top: 6px;
     background-color: #f6f5f3;
     width: auto;
 }
