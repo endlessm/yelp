@@ -575,10 +575,6 @@ msgstr "dokumentation;information;manual;handbok;"
 #~ msgid "No matches"
 #~ msgstr "Inga sökträffar"
 
-#: ../yelp.desktop.in.in.h:3
-msgid "documentation;information;manual;"
-msgstr ""
-
 #~ msgid "_Share..."
 #~ msgstr "_Dela..."
 
