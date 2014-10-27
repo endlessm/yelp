@@ -243,7 +243,6 @@ enum {
 static void
 yelp_view_init (YelpView *view)
 {
-    GtkAction *action;
     YelpViewPrivate *priv = GET_PRIV (view);
 
     g_object_set (view, "settings", websettings, NULL);
@@ -798,7 +797,8 @@ view_install_uri (YelpView    *view,
         pkg = (gchar *) uri + 8;
     }
 
-    connection = g_bus_get_sync (G_BUS_TYPE_SESSION, NULL, NULL);
+    error = NULL;
+    connection = g_bus_get_sync (G_BUS_TYPE_SESSION, NULL, &error);
     if (connection == NULL) {
         g_warning ("Unable to connect to dbus: %s", error->message);
         g_error_free (error);
@@ -899,7 +899,7 @@ view_scrolled (GtkAdjustment *adjustment,
         return;
     if (adjustment == priv->vadjustment)
         ((YelpBackEntry *) priv->back_cur->data)->vadj = gtk_adjustment_get_value (adjustment);
-    else if (adjustment = priv->hadjustment)
+    else if (adjustment == priv->hadjustment)
         ((YelpBackEntry *) priv->back_cur->data)->hadj = gtk_adjustment_get_value (adjustment);
 }
 
@@ -1488,7 +1488,6 @@ view_resource_request (WebKitWebView         *view,
 {
     YelpViewPrivate *priv = GET_PRIV (view);
     const gchar *requri = webkit_network_request_get_uri (request);
-    gchar last;
     gchar *newpath;
 
     if (!g_str_has_prefix (requri, BOGUS_URI))
@@ -1721,7 +1720,7 @@ view_show_error_page (YelpView *view,
         "</div></div>"
         "</body></html>";
     YelpSettings *settings = yelp_settings_get_default ();
-    gchar *page, *title = NULL, *link = NULL, *title_m, *content_beg, *content_end;
+    gchar *page, *title = NULL, *title_m, *content_beg, *content_end;
     gchar *textcolor, *bgcolor, *noteborder, *notebg, *titlecolor, *noteicon, *linkcolor;
     gint iconsize;
     GParamSpec *spec;

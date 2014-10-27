@@ -230,6 +230,8 @@ yelp_document_get_for_uri (YelpUri *uri)
     case YELP_URI_DOCUMENT_TYPE_NOT_FOUND:
     case YELP_URI_DOCUMENT_TYPE_EXTERNAL:
     case YELP_URI_DOCUMENT_TYPE_ERROR:
+    case YELP_URI_DOCUMENT_TYPE_UNRESOLVED:
+    default:
         break;
     }
 
