@@ -5,14 +5,15 @@
 # Meelad Zakaria <meelad@farsiweb.info>, 2004, 2005.
 # Masoud Ahmadzadeh <masoud@bamdad.org>, 2005.
 # Sanaz Shahrokni <sanaz.shahrokni@gmail.com>, 2006.
-# Arash Mousavi <mousavi.arash@gmail.com>, 2011, 2012.
+# Arash Mousavi <mousavi.arash@gmail.com>, 2011, 2012, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp 2.10.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-09 12:23-0700\n"
-"PO-Revision-Date: 2013-04-01 17:49+0330\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=yelp&keywords=I18N+L10N&component=General\n"
+"POT-Creation-Date: 2014-10-06 23:18+0000\n"
+"PO-Revision-Date: 2014-10-10 22:30+0330\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: Persian\n"
 "Language: fa_IR\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.6.9\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -36,159 +37,6 @@ msgstr ""
 #: yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "نصب Install <string/>"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.index
-#.
-#. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:31
-#, fuzzy
-msgid "Home"
-msgstr "آغازه"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.getting-started
-#.
-#. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:40
-msgid "Getting started with your OS"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-introduction
-#.
-#. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:49
-msgid "Introduction to your OS"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-exit
-#.
-#. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:58
-msgid "Log out, power off or switch users"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-apps-open
-#.
-#. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:67
-#, fuzzy
-msgid "Start applications"
-msgstr "برنامه‌های کاربردی"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-overview
-#.
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:78
-msgid "Desktop Apps &amp; Windows"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.files
-#.
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:89
-msgid "Files, Folders &amp; Search"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.a11y
-#.
-#. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:98
-msgid "Universal Access"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.net
-#.
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:109
-msgid "Networking, Web, Email &amp; Chat"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.prefs
-#.
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:120
-msgid "User &amp; System Settings"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.tips
-#.
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:131
-msgid "Tips &amp; Tricks"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.media
-#.
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:142
-#, fuzzy
-msgid "Sound, Video &amp; Pictures"
-msgstr "صدا و تصویر"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.hardware
-#.
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:153
-#, fuzzy
-msgid "Hardware &amp; Drivers"
-msgstr "دستگاه‌های سخت‌افزاری"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.more-help
-#.
-#. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:162
-msgid "Get more help"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.endless-videos
-#.
-#. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:171
-msgid "Video Tutorials"
-msgstr ""
 
 #: ../libyelp/yelp-bz2-decompressor.c:144
 #: ../libyelp/yelp-lzma-decompressor.c:153
@@ -281,7 +129,7 @@ msgstr "هیچ صفحه‌ی راهنمای منطبقی پیدا نشد."
 msgid "An unknown error occurred."
 msgstr "خطای نامعلومی رخ داد."
 
-#: ../libyelp/yelp-help-list.c:548 ../libyelp/yelp-help-list.c:557
+#: ../libyelp/yelp-help-list.c:546 ../libyelp/yelp-help-list.c:555
 msgid "All Help Documents"
 msgstr "تمام سندهای راهنما"
 
@@ -292,97 +140,69 @@ msgid ""
 msgstr ""
 "تجزیه‌ی پرونده‌ی «%s» بدلیل اینکه صفحه‌ی info خوش ترکیبی نیست، امکان‌پذیر نیست."
 
-#: ../libyelp/yelp-location-entry.c:334
-msgid "View"
-msgstr "نما"
-
-#: ../libyelp/yelp-location-entry.c:335
-msgid "A YelpView instance to control"
-msgstr "یک نمونه‌ی YelpView جهت کنترل"
-
-#: ../libyelp/yelp-location-entry.c:350
-msgid "Bookmarks"
-msgstr "نشانک‌ها"
-
-#: ../libyelp/yelp-location-entry.c:351
-msgid "A YelpBookmarks implementation instance"
-msgstr "یک اجرا کننده‌ی نمونه‌ی YelpBookmarks"
-
-#: ../libyelp/yelp-location-entry.c:367
-msgid "Enable Search"
-msgstr "فعال‌کردن جستجو"
-
-#: ../libyelp/yelp-location-entry.c:368
-msgid "Whether the location entry can be used as a search field"
-msgstr "اینکه آیا از ورودی مکان می‌توان به عنوان فیلد جستجو استفاده کرد یا خیر"
-
-#: ../libyelp/yelp-location-entry.c:438 ../src/yelp-window.c:268
-msgid "Search..."
-msgstr "_جستجو..."
-
-#: ../libyelp/yelp-location-entry.c:781
-msgid "Clear the search text"
-msgstr "پاک‌کردن متن جستجو"
-
-#: ../libyelp/yelp-location-entry.c:829 ../libyelp/yelp-location-entry.c:1591
-msgid "Bookmark this page"
-msgstr "نشانک‌گذاری این صفحه"
-
-#: ../libyelp/yelp-location-entry.c:837 ../libyelp/yelp-location-entry.c:1599
-msgid "Remove bookmark"
-msgstr "حذف نشانک"
-
-#: ../libyelp/yelp-location-entry.c:1152
-#, c-format
-msgid "Search for “%s”"
-msgstr "جستجو برای «%s»"
-
-#: ../libyelp/yelp-location-entry.c:1456
-msgid "Loading"
-msgstr "در حال بار کردن"
-
 #: ../libyelp/yelp-mallard-document.c:344
 #, c-format
 msgid "The directory ‘%s’ does not exist."
 msgstr "شاخه‌ی «%s» وجود ندارد."
 
-#: ../libyelp/yelp-settings.c:154
+#: ../libyelp/yelp-search-entry.c:173
+msgid "View"
+msgstr "نما"
+
+#: ../libyelp/yelp-search-entry.c:174
+msgid "A YelpView instance to control"
+msgstr "یک نمونه‌ی YelpView جهت کنترل"
+
+#: ../libyelp/yelp-search-entry.c:189 ../src/yelp-window.c:399
+msgid "Bookmarks"
+msgstr "نشانک‌ها"
+
+#: ../libyelp/yelp-search-entry.c:190
+msgid "A YelpBookmarks implementation instance"
+msgstr "یک اجرا کننده‌ی نمونه‌ی YelpBookmarks"
+
+#: ../libyelp/yelp-search-entry.c:440
+#, c-format
+msgid "Search for “%s”"
+msgstr "جستجو برای «%s»"
+
+#: ../libyelp/yelp-settings.c:152
 msgid "GtkSettings"
 msgstr "GtkSettings"
 
-#: ../libyelp/yelp-settings.c:155
+#: ../libyelp/yelp-settings.c:153
 msgid "A GtkSettings object to get settings from"
 msgstr "یک GtkSettings برای دریافت تنظیمات از آن"
 
-#: ../libyelp/yelp-settings.c:163
+#: ../libyelp/yelp-settings.c:161
 msgid "GtkIconTheme"
 msgstr "GtkIconTheme"
 
-#: ../libyelp/yelp-settings.c:164
+#: ../libyelp/yelp-settings.c:162
 msgid "A GtkIconTheme object to get icons from"
 msgstr "یک GtkIconTheme برای دریافت شمایل‌ها از آن"
 
-#: ../libyelp/yelp-settings.c:172
+#: ../libyelp/yelp-settings.c:170
 msgid "Font Adjustment"
 msgstr "تنظیم قلم"
 
-#: ../libyelp/yelp-settings.c:173
+#: ../libyelp/yelp-settings.c:171
 msgid "A size adjustment to add to font sizes"
 msgstr "یک اصلاح‌کننده اندازه برای اضافه کردن به اندازه‌ی قلم‌ها"
 
-#: ../libyelp/yelp-settings.c:181
+#: ../libyelp/yelp-settings.c:179
 msgid "Show Text Cursor"
 msgstr "نمایش مکان‌نما متن"
 
-#: ../libyelp/yelp-settings.c:182
+#: ../libyelp/yelp-settings.c:180
 msgid "Show the text cursor or caret for accessible navigation"
 msgstr "نمایش مکان‌نما یا نشان برای حرکت دردسترس"
 
-#: ../libyelp/yelp-settings.c:190
+#: ../libyelp/yelp-settings.c:188
 msgid "Editor Mode"
 msgstr "حالت ویرایشگر"
 
-#: ../libyelp/yelp-settings.c:191
+#: ../libyelp/yelp-settings.c:189
 msgid "Enable features useful to editors"
 msgstr "فعال‌کردن امکاناتی که برای ویرایشگرها مفید است"
 
@@ -415,295 +235,249 @@ msgstr "مشخصه‌ی href در yelp:document پیدا نشد\n"
 msgid "Out of memory"
 msgstr "حافظه تمام شد"
 
-#: ../libyelp/yelp-view.c:129
-msgid "_Print..."
-msgstr "_چاپ..."
-
-#: ../libyelp/yelp-view.c:134
-msgid "_Back"
-msgstr "_عقب"
-
-#: ../libyelp/yelp-view.c:139
-msgid "_Forward"
-msgstr "_جلو"
-
-#: ../libyelp/yelp-view.c:144
-msgid "_Previous Page"
-msgstr "_صفحه‌ی قبلی"
-
-#: ../libyelp/yelp-view.c:149
-msgid "_Next Page"
-msgstr "صفحه‌ی _بعد"
-
-#: ../libyelp/yelp-view.c:421
+#: ../libyelp/yelp-view.c:446
 msgid "Yelp URI"
 msgstr "نشانی یلِپ"
 
-#: ../libyelp/yelp-view.c:422
+#: ../libyelp/yelp-view.c:447
 msgid "A YelpUri with the current location"
 msgstr "یک YelpUri همراه با محل فعلی"
 
-#: ../libyelp/yelp-view.c:430
+#: ../libyelp/yelp-view.c:455
 msgid "Loading State"
 msgstr "وضعیت بارگیری"
 
-#: ../libyelp/yelp-view.c:431
+#: ../libyelp/yelp-view.c:456
 msgid "The loading state of the view"
 msgstr "وضعیت بارگذاری نما"
 
-#: ../libyelp/yelp-view.c:440
+#: ../libyelp/yelp-view.c:465
 msgid "Page ID"
 msgstr "شناسه صفحه"
 
-#: ../libyelp/yelp-view.c:441
+#: ../libyelp/yelp-view.c:466
 msgid "The ID of the root page of the page being viewed"
 msgstr "شناسه‌ی صفحه‌ی ریشه‌ای که دیده می‌شود"
 
-#: ../libyelp/yelp-view.c:449
+#: ../libyelp/yelp-view.c:474
 msgid "Root Title"
 msgstr "تیتر ریشه"
 
-#: ../libyelp/yelp-view.c:450
+#: ../libyelp/yelp-view.c:475
 msgid "The title of the root page of the page being viewed"
 msgstr "تیتر صفحه‌ی ریشه‌ای که دیده می‌شود"
 
-#: ../libyelp/yelp-view.c:458
+#: ../libyelp/yelp-view.c:483
 msgid "Page Title"
 msgstr "تیتر صفحه"
 
-#: ../libyelp/yelp-view.c:459
+#: ../libyelp/yelp-view.c:484
 msgid "The title of the page being viewed"
 msgstr "تیتر صفحه‌ای که دیده می‌شود"
 
-#: ../libyelp/yelp-view.c:467
+#: ../libyelp/yelp-view.c:492
 msgid "Page Description"
 msgstr "توضیحات صفحه"
 
-#: ../libyelp/yelp-view.c:468
+#: ../libyelp/yelp-view.c:493
 msgid "The description of the page being viewed"
 msgstr "توضیح صفحه‌ای که دیده می‌شود"
 
-#: ../libyelp/yelp-view.c:476
+#: ../libyelp/yelp-view.c:501
 msgid "Page Icon"
 msgstr "شمایل صفحه"
 
-#: ../libyelp/yelp-view.c:477
+#: ../libyelp/yelp-view.c:502
 msgid "The icon of the page being viewed"
 msgstr "شمایل صفحه‌ای که دیده می‌شود"
 
-#: ../libyelp/yelp-view.c:718
+#: ../libyelp/yelp-view.c:744
 msgid "You do not have PackageKit. Package install links require PackageKit."
 msgstr "شما PackageKit ندارید. نصب بسته نیاز به PackageKit دارد."
 
-#: ../libyelp/yelp-view.c:1012
+#: ../libyelp/yelp-view.c:1040
 msgid "Save Image"
 msgstr "ذخیره تصویر"
 
-#: ../libyelp/yelp-view.c:1107
+#: ../libyelp/yelp-view.c:1135
 msgid "Save Code"
 msgstr "دخیره کد"
 
-#: ../libyelp/yelp-view.c:1270
+#: ../libyelp/yelp-view.c:1298
 #, c-format
 msgid "Send email to %s"
 msgstr "ارسال پست الکترونیکی به %s"
 
-#: ../libyelp/yelp-view.c:1285
+#: ../libyelp/yelp-view.c:1313
 msgid "_Install Packages"
 msgstr "_نصب بسته‌ها"
 
-#: ../libyelp/yelp-view.c:1293
+#: ../libyelp/yelp-view.c:1321
 msgid "_Open Link"
 msgstr "_باز کردن پیوند"
 
-#: ../libyelp/yelp-view.c:1300
+#: ../libyelp/yelp-view.c:1328
 msgid "_Copy Link Location"
 msgstr "_رونوشت از محل پیوند"
 
-#: ../libyelp/yelp-view.c:1306
+#: ../libyelp/yelp-view.c:1334
 msgid "Open Link in New _Window"
 msgstr "بازکردن پیوند در _پنجره‌ی جدید"
 
-#: ../libyelp/yelp-view.c:1358
-msgid "_Save Image As..."
+#: ../libyelp/yelp-view.c:1388
+msgid "_Save Image As…"
 msgstr "_ذخیره تصویر به نام..."
 
-#: ../libyelp/yelp-view.c:1360
-msgid "_Save Video As..."
+#: ../libyelp/yelp-view.c:1390
+msgid "_Save Video As…"
 msgstr "_ذخیره ویدیو به نام..."
 
-#: ../libyelp/yelp-view.c:1367
-msgid "S_end Image To..."
+#: ../libyelp/yelp-view.c:1397
+msgid "S_end Image To…"
 msgstr "_ارسال تصویر به..."
 
-#: ../libyelp/yelp-view.c:1369
-msgid "S_end Video To..."
+#: ../libyelp/yelp-view.c:1399
+msgid "S_end Video To…"
 msgstr "_ارسال ویدیو به..."
 
-#: ../libyelp/yelp-view.c:1380
+#: ../libyelp/yelp-view.c:1410
 msgid "_Copy Text"
 msgstr "_رونوشت از متن"
 
-#: ../libyelp/yelp-view.c:1393
+#: ../libyelp/yelp-view.c:1423
 msgid "C_opy Code Block"
 msgstr "_رونوشت قالب کد"
 
-#: ../libyelp/yelp-view.c:1398
-msgid "Save Code _Block As..."
-msgstr "ذخیره به نام _قالب کد"
+#: ../libyelp/yelp-view.c:1428
+msgid "Save Code _Block As…"
+msgstr "ذخیره به نام _قالب کد..."
 
-#: ../libyelp/yelp-view.c:1505
+#: ../libyelp/yelp-view.c:1535
 #, c-format
 msgid "See all search results for “%s”"
 msgstr "نمایش تمام نتایج جستجو برای «%s»"
 
-#: ../libyelp/yelp-view.c:1626
+#: ../libyelp/yelp-view.c:1656
 #, c-format
 msgid "Could not load a document for ‘%s’"
 msgstr "برای «%s» نمی‌توان سندی پیدا کرد"
 
-#: ../libyelp/yelp-view.c:1632
+#: ../libyelp/yelp-view.c:1662
 #, c-format
 msgid "Could not load a document"
 msgstr "ناتوان در بارکردن یک سند"
 
-#: ../libyelp/yelp-view.c:1707
+#: ../libyelp/yelp-view.c:1737
 msgid "Document Not Found"
 msgstr "سند پیدا نشد"
 
-#: ../libyelp/yelp-view.c:1709
+#: ../libyelp/yelp-view.c:1739
 msgid "Page Not Found"
 msgstr "صفحه پیدا نشد"
 
-#: ../libyelp/yelp-view.c:1712
+#: ../libyelp/yelp-view.c:1742
 msgid "Cannot Read"
 msgstr "نمی‌توان خواند"
 
-#: ../libyelp/yelp-view.c:1718
+#: ../libyelp/yelp-view.c:1748
 msgid "Unknown Error"
 msgstr "خطای نامعلوم"
 
-#: ../libyelp/yelp-view.c:1738
+#: ../libyelp/yelp-view.c:1768
 msgid "Search for packages containing this document."
 msgstr "جستجو برای بسته‌های حاوی این سند."
 
-#: ../libyelp/yelp-view.c:1890
+#: ../libyelp/yelp-view.c:1918
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "نشانی «‎%s» به یک پرونده‌ی واقعی اشاره نمی‌کند."
 
-#: ../libyelp/yelp-view.c:1896
+#: ../libyelp/yelp-view.c:1924
 #, c-format
 msgid "The URI does not point to a valid page."
 msgstr "آدرس به یک صفحه‌ی معتبر اشاره نمی‌کند."
 
-#: ../libyelp/yelp-view.c:1902
+#: ../libyelp/yelp-view.c:1930
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "تجزیه‌ی نشانی «%s» امکان‌پذیر نیست"
 
-#: ../src/yelp-application.c:63
+#: ../src/yelp-application.c:59
 msgid "Turn on editor mode"
 msgstr "روشن کردن حالت ویرایش"
 
-#: ../src/yelp-application.c:126
-msgid "_Larger Text"
-msgstr "متن _بزرگتر"
-
-#: ../src/yelp-application.c:128
-msgid "Increase the size of the text"
-msgstr "افزایش اندازه متن"
-
-#: ../src/yelp-application.c:131
-msgid "_Smaller Text"
-msgstr "_متن کوچکتر"
-
-#: ../src/yelp-application.c:133
-msgid "Decrease the size of the text"
-msgstr "کاهش اندازه متن"
-
-#: ../src/yelp-application.c:251 ../src/yelp-window.c:1358
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "راهنما"
 
-#: ../src/yelp-application.c:286
-msgid "Show Text _Cursor"
-msgstr "نمایش _مکان‌نما متن"
+#: ../src/yelp-application.c:322
+msgid "New Window"
+msgstr "پنجره‌ی جدید"
 
-#: ../src/yelp-window.c:234
-msgid "_Page"
-msgstr "_صفحه"
+#: ../src/yelp-application.c:326
+msgid "Larger Text"
+msgstr "متن بزرگتر"
 
-#: ../src/yelp-window.c:235
-msgid "_View"
-msgstr "_نما"
+#: ../src/yelp-application.c:327
+msgid "Smaller Text"
+msgstr "متن کوچکتر"
 
-#: ../src/yelp-window.c:236
-msgid "_Go"
-msgstr "_برو"
-
-#: ../src/yelp-window.c:237
-msgid "_Bookmarks"
-msgstr "_نشانک‌ها"
-
-#: ../src/yelp-window.c:240
-msgid "_New Window"
-msgstr "پنجره‌ی _جدید"
-
-#: ../src/yelp-window.c:245
-msgid "_Close"
-msgstr "_بستن"
-
-#: ../src/yelp-window.c:250
-msgid "_All Documents"
-msgstr "_تمام سندها"
-
-#: ../src/yelp-window.c:254
-msgid "_Add Bookmark"
-msgstr "ا_ضافه کردن نشانک"
-
-#: ../src/yelp-window.c:259
-msgid "_Remove Bookmark"
-msgstr "_حذف نشانک"
-
-#: ../src/yelp-window.c:263
-msgid "Find in Page..."
-msgstr "پیدا کردن در صفحه..."
-
-#: ../src/yelp-window.c:273
-msgid "Open Location"
-msgstr "باز کردن مکان"
-
-#: ../src/yelp-window.c:299
+#: ../src/yelp-window.c:206
 msgid "Application"
 msgstr "برنامه"
 
-#: ../src/yelp-window.c:300
+#: ../src/yelp-window.c:207
 msgid "A YelpApplication instance that controls this window"
 msgstr "یک نمونه‌ی YelpApplication جهت کنترل این پنجره"
 
-#: ../src/yelp-window.c:427
-msgid "Read Link _Later"
-msgstr "خواندن بعدا پیوند"
+#: ../src/yelp-window.c:325
+msgid "Back"
+msgstr "عقب"
 
-#: ../src/yelp-window.c:524
-msgid "Find:"
-msgstr "پیدا کردن:"
+#: ../src/yelp-window.c:332
+msgid "Forward"
+msgstr "جلو"
 
-#: ../src/yelp-window.c:546
-msgid "Read Later"
-msgstr "بعدا بخوان"
+#: ../src/yelp-window.c:343
+msgid "Menu"
+msgstr "منو"
 
-#: ../src/yelp-window.c:1178
-#, c-format
-msgid "%i match"
-msgid_plural "%i matches"
-msgstr[0] "%Ii مطابقت"
+#: ../src/yelp-window.c:348
+msgid "Find…"
+msgstr "پیدا کردن..."
 
-#: ../src/yelp-window.c:1187
-msgid "No matches"
-msgstr "بدون مورد منطبق"
+#: ../src/yelp-window.c:349
+msgid "Print…"
+msgstr "چاپ..."
+
+#: ../src/yelp-window.c:354
+msgid "Previous Page"
+msgstr "صفحه‌ی قبل"
+
+#: ../src/yelp-window.c:355
+msgid "Next Page"
+msgstr "صفحه‌ی بعد"
+
+#: ../src/yelp-window.c:360
+msgid "All Help"
+msgstr "تمام راهنما"
+
+#: ../src/yelp-window.c:382
+msgid "Search (Ctrl+S)"
+msgstr "جست‌وجو"
+
+#: ../src/yelp-window.c:416
+msgid "No bookmarks"
+msgstr "بدون نشانک‌ها"
+
+#: ../src/yelp-window.c:424
+msgid "Add Bookmark"
+msgstr "اضافه کردن چوب‌الف"
+
+#: ../src/yelp-window.c:430
+msgid "Remove Bookmark"
+msgstr "حذف نشانک"
 
 #: ../yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
@@ -712,6 +486,83 @@ msgstr "راهنمایی گرفتن در مورد گنوم"
 #: ../yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;"
 msgstr "مستندات;اطلاعات;راهنما;"
+
+#~ msgid "Enable Search"
+#~ msgstr "فعال‌کردن جستجو"
+
+#~ msgid "Whether the location entry can be used as a search field"
+#~ msgstr ""
+#~ "اینکه آیا از ورودی مکان می‌توان به عنوان فیلد جستجو استفاده کرد یا خیر"
+
+#~ msgid "Search..."
+#~ msgstr "_جستجو..."
+
+#~ msgid "Clear the search text"
+#~ msgstr "پاک‌کردن متن جستجو"
+
+#~ msgid "Bookmark this page"
+#~ msgstr "نشانک‌گذاری این صفحه"
+
+#~ msgid "Remove bookmark"
+#~ msgstr "حذف نشانک"
+
+#~ msgid "Loading"
+#~ msgstr "در حال بار کردن"
+
+#~ msgid "_Print..."
+#~ msgstr "_چاپ..."
+
+#~ msgid "Increase the size of the text"
+#~ msgstr "افزایش اندازه متن"
+
+#~ msgid "Decrease the size of the text"
+#~ msgstr "کاهش اندازه متن"
+
+#~ msgid "Show Text _Cursor"
+#~ msgstr "نمایش _مکان‌نما متن"
+
+#~ msgid "_Page"
+#~ msgstr "_صفحه"
+
+#~ msgid "_View"
+#~ msgstr "_نما"
+
+#~ msgid "_Go"
+#~ msgstr "_برو"
+
+#~ msgid "_Bookmarks"
+#~ msgstr "_نشانک‌ها"
+
+#~ msgid "_Close"
+#~ msgstr "_بستن"
+
+#~ msgid "_All Documents"
+#~ msgstr "_تمام سندها"
+
+#~ msgid "_Add Bookmark"
+#~ msgstr "ا_ضافه کردن نشانک"
+
+#~ msgid "Find in Page..."
+#~ msgstr "پیدا کردن در صفحه..."
+
+#~ msgid "Open Location"
+#~ msgstr "باز کردن مکان"
+
+#~ msgid "Read Link _Later"
+#~ msgstr "خواندن بعدا پیوند"
+
+#~ msgid "Find:"
+#~ msgstr "پیدا کردن:"
+
+#~ msgid "Read Later"
+#~ msgstr "بعدا بخوان"
+
+#~ msgid "%i match"
+#~ msgid_plural "%i matches"
+#~ msgstr[0] "%Ii مطابقت"
+
+#~ msgid "No matches"
+#~ msgstr "بدون مورد منطبق"
 
 #~| msgid "Search..."
 #~ msgid "_Share..."
@@ -1238,9 +1089,6 @@ msgstr "مستندات;اطلاعات;راهنما;"
 #~ msgid "Presentation Tools"
 #~ msgstr "ابزارهای ارائه"
 
-#~ msgid "Printing"
-#~ msgstr "در حال چاپ"
-
 #~ msgid "Profiling Tools"
 #~ msgstr "ابزارهای پروفایل"
 
@@ -1420,14 +1268,8 @@ msgstr "مستندات;اطلاعات;راهنما;"
 #~ msgid "<b>Fonts</b>"
 #~ msgstr "<b>قلم‌ها</b>"
 
-#~ msgid "Add Bookmark"
-#~ msgstr "اضافه کردن چوب‌الف"
-
 #~ msgid "C_ase sensitive"
 #~ msgstr "_حساسیت به بزرگی و کوچکی حروف"
-
-#~ msgid "Find"
-#~ msgstr "پیدا کردن"
 
 #~ msgid "Preferences"
 #~ msgstr "ترجیحات"

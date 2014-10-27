@@ -3,13 +3,14 @@
 #
 # Peteris Krisjanis <peteris.krisjanis@ttc.lv>, 2002.
 # Raivis Dejus <orvils@gmail.com>, 2006.
-# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011, 2012, 2013.
+# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: lv\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-09 12:23-0700\n"
-"PO-Revision-Date: 2013-09-12 00:27+0300\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=yelp&keywords=I18N+L10N&component=General\n"
+"POT-Creation-Date: 2014-10-06 23:18+0000\n"
+"PO-Revision-Date: 2014-10-12 14:00+0300\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "Language: lv\n"
@@ -33,158 +34,6 @@ msgstr ""
 #: yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Instalēt <string/>"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.index
-#.
-#. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:31
-msgid "Home"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.getting-started
-#.
-#. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:40
-msgid "Getting started with your OS"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-introduction
-#.
-#. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:49
-msgid "Introduction to your OS"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-exit
-#.
-#. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:58
-msgid "Log out, power off or switch users"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-apps-open
-#.
-#. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:67
-#, fuzzy
-msgid "Start applications"
-msgstr "Nelielās aplikācijas"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-overview
-#.
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:78
-msgid "Desktop Apps &amp; Windows"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.files
-#.
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:89
-msgid "Files, Folders &amp; Search"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.a11y
-#.
-#. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:98
-msgid "Universal Access"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.net
-#.
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:109
-msgid "Networking, Web, Email &amp; Chat"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.prefs
-#.
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:120
-msgid "User &amp; System Settings"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.tips
-#.
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:131
-msgid "Tips &amp; Tricks"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.media
-#.
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:142
-#, fuzzy
-msgid "Sound, Video &amp; Pictures"
-msgstr "Skaņa &amp; video"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.hardware
-#.
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
-#: yelp-endless.xml.in:153
-#, fuzzy
-msgid "Hardware &amp; Drivers"
-msgstr "Aparatūras iekārtas"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.more-help
-#.
-#. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:162
-msgid "Get more help"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.endless-videos
-#.
-#. Appears on the static navigation sidebar.
-#.
-#: yelp-endless.xml.in:171
-msgid "Video Tutorials"
-msgstr ""
 
 #: ../libyelp/yelp-bz2-decompressor.c:144
 #: ../libyelp/yelp-lzma-decompressor.c:153
@@ -278,7 +127,7 @@ msgstr "Netika atrastas atbilstošas palīdzības lapas."
 msgid "An unknown error occurred."
 msgstr "Gadījās nezināma kļūda."
 
-#: ../libyelp/yelp-help-list.c:548 ../libyelp/yelp-help-list.c:557
+#: ../libyelp/yelp-help-list.c:546 ../libyelp/yelp-help-list.c:555
 msgid "All Help Documents"
 msgstr "Visi palīdzības dokumenti"
 
@@ -290,97 +139,69 @@ msgstr ""
 "Datni ar nosaukumu “%s“ nevar parsēt, tāpēc ka tā nav pareizi noformēta info "
 "lapa."
 
-#: ../libyelp/yelp-location-entry.c:334
-msgid "View"
-msgstr "Skats"
-
-#: ../libyelp/yelp-location-entry.c:335
-msgid "A YelpView instance to control"
-msgstr "YelpView instance, ko vadīt"
-
-#: ../libyelp/yelp-location-entry.c:350
-msgid "Bookmarks"
-msgstr "Grāmatzīmes"
-
-#: ../libyelp/yelp-location-entry.c:351
-msgid "A YelpBookmarks implementation instance"
-msgstr "YelpBookmarks realizācijas instance"
-
-#: ../libyelp/yelp-location-entry.c:367
-msgid "Enable Search"
-msgstr "Aktivēt meklēšanu"
-
-#: ../libyelp/yelp-location-entry.c:368
-msgid "Whether the location entry can be used as a search field"
-msgstr "Vai atrašanās vietas ierakstu var izmantot kā meklēšanas lauku"
-
-#: ../libyelp/yelp-location-entry.c:438 ../src/yelp-window.c:268
-msgid "Search..."
-msgstr "Meklēt..."
-
-#: ../libyelp/yelp-location-entry.c:781
-msgid "Clear the search text"
-msgstr "Attīrīt meklēšanas tekstu"
-
-#: ../libyelp/yelp-location-entry.c:829 ../libyelp/yelp-location-entry.c:1591
-msgid "Bookmark this page"
-msgstr "Pievienot lapu grāmatzīmēm"
-
-#: ../libyelp/yelp-location-entry.c:837 ../libyelp/yelp-location-entry.c:1599
-msgid "Remove bookmark"
-msgstr "Izņemt grāmatzīmi"
-
-#: ../libyelp/yelp-location-entry.c:1152
-#, c-format
-msgid "Search for “%s”"
-msgstr "Meklēt “%s”"
-
-#: ../libyelp/yelp-location-entry.c:1456
-msgid "Loading"
-msgstr "Ielādē"
-
 #: ../libyelp/yelp-mallard-document.c:344
 #, c-format
 msgid "The directory ‘%s’ does not exist."
 msgstr "Direktorija “%s” neeksistē."
 
-#: ../libyelp/yelp-settings.c:154
+#: ../libyelp/yelp-search-entry.c:173
+msgid "View"
+msgstr "Skats"
+
+#: ../libyelp/yelp-search-entry.c:174
+msgid "A YelpView instance to control"
+msgstr "YelpView instance, ko vadīt"
+
+#: ../libyelp/yelp-search-entry.c:189 ../src/yelp-window.c:399
+msgid "Bookmarks"
+msgstr "Grāmatzīmes"
+
+#: ../libyelp/yelp-search-entry.c:190
+msgid "A YelpBookmarks implementation instance"
+msgstr "YelpBookmarks realizācijas instance"
+
+#: ../libyelp/yelp-search-entry.c:440
+#, c-format
+msgid "Search for “%s”"
+msgstr "Meklēt “%s”"
+
+#: ../libyelp/yelp-settings.c:152
 msgid "GtkSettings"
 msgstr "GtkSettings"
 
-#: ../libyelp/yelp-settings.c:155
+#: ../libyelp/yelp-settings.c:153
 msgid "A GtkSettings object to get settings from"
 msgstr "GtkSettings objekts, no kā saņemt iestatījumus"
 
-#: ../libyelp/yelp-settings.c:163
+#: ../libyelp/yelp-settings.c:161
 msgid "GtkIconTheme"
 msgstr "GtkIconTheme"
 
-#: ../libyelp/yelp-settings.c:164
+#: ../libyelp/yelp-settings.c:162
 msgid "A GtkIconTheme object to get icons from"
 msgstr "GtkIconTheme objekts, no kā saņemt ikonas"
 
-#: ../libyelp/yelp-settings.c:172
+#: ../libyelp/yelp-settings.c:170
 msgid "Font Adjustment"
 msgstr "Fontu pieregulēšana"
 
-#: ../libyelp/yelp-settings.c:173
+#: ../libyelp/yelp-settings.c:171
 msgid "A size adjustment to add to font sizes"
 msgstr "Izmēra regulējums, ko pievienot fonta izmēram"
 
-#: ../libyelp/yelp-settings.c:181
+#: ../libyelp/yelp-settings.c:179
 msgid "Show Text Cursor"
 msgstr "Radīt teksta kursoru"
 
-#: ../libyelp/yelp-settings.c:182
+#: ../libyelp/yelp-settings.c:180
 msgid "Show the text cursor or caret for accessible navigation"
 msgstr "Rādīt teksta kursoru pieejamākai navigācijai"
 
-#: ../libyelp/yelp-settings.c:190
+#: ../libyelp/yelp-settings.c:188
 msgid "Editor Mode"
 msgstr "Redaktora režīms"
 
-#: ../libyelp/yelp-settings.c:191
+#: ../libyelp/yelp-settings.c:189
 msgid "Enable features useful to editors"
 msgstr "Aktivēt iespējas, kas noder redaktoram"
 
@@ -413,298 +234,267 @@ msgstr "yelp:document nesatur href atribūtu\n"
 msgid "Out of memory"
 msgstr "Nepietiek atmiņas"
 
-#: ../libyelp/yelp-view.c:129
-msgid "_Print..."
-msgstr "_Drukāt..."
-
-#: ../libyelp/yelp-view.c:134
-msgid "_Back"
-msgstr "_Atpakaļ"
-
-#: ../libyelp/yelp-view.c:139
-msgid "_Forward"
-msgstr "_Uz priekšu"
-
-#: ../libyelp/yelp-view.c:144
-msgid "_Previous Page"
-msgstr "_Iepriekšējā lapu"
-
-#: ../libyelp/yelp-view.c:149
-msgid "_Next Page"
-msgstr "_Nākamā lapu"
-
-#: ../libyelp/yelp-view.c:421
+#: ../libyelp/yelp-view.c:446
 msgid "Yelp URI"
 msgstr "Yelp URI"
 
-#: ../libyelp/yelp-view.c:422
+#: ../libyelp/yelp-view.c:447
 msgid "A YelpUri with the current location"
 msgstr "YelpUri ar pašreizējo atrašanās vietu"
 
-#: ../libyelp/yelp-view.c:430
+#: ../libyelp/yelp-view.c:455
 msgid "Loading State"
 msgstr "Ielādē stāvokli"
 
-#: ../libyelp/yelp-view.c:431
+#: ../libyelp/yelp-view.c:456
 msgid "The loading state of the view"
 msgstr "Ielādē skata stāvokli"
 
-#: ../libyelp/yelp-view.c:440
+#: ../libyelp/yelp-view.c:465
 msgid "Page ID"
 msgstr "Lapas ID"
 
-#: ../libyelp/yelp-view.c:441
+#: ../libyelp/yelp-view.c:466
 msgid "The ID of the root page of the page being viewed"
 msgstr "Saknes lapas ID lapai, kas tagad tiek skatīta"
 
-#: ../libyelp/yelp-view.c:449
+#: ../libyelp/yelp-view.c:474
 msgid "Root Title"
 msgstr "Saknes virsraksts"
 
-#: ../libyelp/yelp-view.c:450
+#: ../libyelp/yelp-view.c:475
 msgid "The title of the root page of the page being viewed"
 msgstr "Saknes lapas virsraksts lapai, kas tagad tiek skatīta"
 
-#: ../libyelp/yelp-view.c:458
+#: ../libyelp/yelp-view.c:483
 msgid "Page Title"
 msgstr "Lapas virsraksts"
 
-#: ../libyelp/yelp-view.c:459
+#: ../libyelp/yelp-view.c:484
 msgid "The title of the page being viewed"
 msgstr "Virsraksts lapai, kas tagad tiek skatīta"
 
-#: ../libyelp/yelp-view.c:467
+#: ../libyelp/yelp-view.c:492
 msgid "Page Description"
 msgstr "Lapas apraksts"
 
-#: ../libyelp/yelp-view.c:468
+#: ../libyelp/yelp-view.c:493
 msgid "The description of the page being viewed"
 msgstr "Apraksts lapai, kas tagad tiek skatīta"
 
-#: ../libyelp/yelp-view.c:476
+#: ../libyelp/yelp-view.c:501
 msgid "Page Icon"
 msgstr "Lapas ikona"
 
-#: ../libyelp/yelp-view.c:477
+#: ../libyelp/yelp-view.c:502
 msgid "The icon of the page being viewed"
 msgstr "Ikona lapai, kas tagad tiek skatīta"
 
-#: ../libyelp/yelp-view.c:718
+#: ../libyelp/yelp-view.c:744
 msgid "You do not have PackageKit. Package install links require PackageKit."
 msgstr ""
 "Jums nav PackageKit. Pakotņu instalēšanas saitēm ir nepieciešams PackageKit."
 
-#: ../libyelp/yelp-view.c:1012
+#: ../libyelp/yelp-view.c:1040
 msgid "Save Image"
 msgstr "Saglabāt attēlu"
 
-#: ../libyelp/yelp-view.c:1107
+#: ../libyelp/yelp-view.c:1135
 msgid "Save Code"
 msgstr "Saglabāt kodu"
 
-#: ../libyelp/yelp-view.c:1270
+#: ../libyelp/yelp-view.c:1298
 #, c-format
 msgid "Send email to %s"
 msgstr "Sūtīt e-pasta vēstuli uz %s"
 
-#: ../libyelp/yelp-view.c:1285
+#: ../libyelp/yelp-view.c:1313
 msgid "_Install Packages"
 msgstr "_Instalēt pakotnes"
 
-#: ../libyelp/yelp-view.c:1293
+#: ../libyelp/yelp-view.c:1321
 msgid "_Open Link"
 msgstr "_Atvērt saiti"
 
-#: ../libyelp/yelp-view.c:1300
+#: ../libyelp/yelp-view.c:1328
 msgid "_Copy Link Location"
 msgstr "_Kopēt saites adresi"
 
-#: ../libyelp/yelp-view.c:1306
+#: ../libyelp/yelp-view.c:1334
 msgid "Open Link in New _Window"
 msgstr "Atvērt saiti jaunā _logā"
 
-#: ../libyelp/yelp-view.c:1358
-msgid "_Save Image As..."
+#: ../libyelp/yelp-view.c:1388
+#| msgid "_Save Image As..."
+msgid "_Save Image As…"
 msgstr "_Saglabāt attēlu kā..."
 
-#: ../libyelp/yelp-view.c:1360
-msgid "_Save Video As..."
-msgstr "Saglabāt video kā..."
+#: ../libyelp/yelp-view.c:1390
+#| msgid "_Save Video As..."
+msgid "_Save Video As…"
+msgstr "_Saglabāt video kā…"
 
-#: ../libyelp/yelp-view.c:1367
-msgid "S_end Image To..."
-msgstr "Sūtīt attēlu _uz..."
+#: ../libyelp/yelp-view.c:1397
+#| msgid "S_end Image To..."
+msgid "S_end Image To…"
+msgstr "Sūtīt attēlu _uz…"
 
-#: ../libyelp/yelp-view.c:1369
-msgid "S_end Video To..."
-msgstr "Sūtīt vid_eo uz..."
+#: ../libyelp/yelp-view.c:1399
+#| msgid "S_end Video To..."
+msgid "S_end Video To…"
+msgstr "Sūtīt vid_eo uz…"
 
-#: ../libyelp/yelp-view.c:1380
+#: ../libyelp/yelp-view.c:1410
 msgid "_Copy Text"
 msgstr "_Kopēt tekstu"
 
-#: ../libyelp/yelp-view.c:1393
+#: ../libyelp/yelp-view.c:1423
 msgid "C_opy Code Block"
 msgstr "K_opēt koda bloku"
 
-#: ../libyelp/yelp-view.c:1398
-msgid "Save Code _Block As..."
-msgstr "Saglabāt koda _bloku kā..."
+#: ../libyelp/yelp-view.c:1428
+#| msgid "Save Code _Block As..."
+msgid "Save Code _Block As…"
+msgstr "Saglabāt koda _bloku kā…"
 
-#: ../libyelp/yelp-view.c:1505
+#: ../libyelp/yelp-view.c:1535
 #, c-format
 msgid "See all search results for “%s”"
 msgstr "Skatīt visus “%s” meklēšanas rezultātus"
 
-#: ../libyelp/yelp-view.c:1626
+#: ../libyelp/yelp-view.c:1656
 #, c-format
 msgid "Could not load a document for ‘%s’"
 msgstr "Nevarēja ielādēt “%s“ dokumentu"
 
-#: ../libyelp/yelp-view.c:1632
+#: ../libyelp/yelp-view.c:1662
 #, c-format
 msgid "Could not load a document"
 msgstr "Nevarēja ielādēt dokumentu"
 
-#: ../libyelp/yelp-view.c:1707
+#: ../libyelp/yelp-view.c:1737
 msgid "Document Not Found"
 msgstr "Dokuments nav atrasts"
 
-#: ../libyelp/yelp-view.c:1709
+#: ../libyelp/yelp-view.c:1739
 msgid "Page Not Found"
 msgstr "Lapa nav atrasta"
 
-#: ../libyelp/yelp-view.c:1712
+#: ../libyelp/yelp-view.c:1742
 msgid "Cannot Read"
 msgstr "Nevar nolasīt"
 
-#: ../libyelp/yelp-view.c:1718
+#: ../libyelp/yelp-view.c:1748
 msgid "Unknown Error"
 msgstr "Nezināma kļūda"
 
-#: ../libyelp/yelp-view.c:1738
+#: ../libyelp/yelp-view.c:1768
 msgid "Search for packages containing this document."
 msgstr "Meklēt pakotnes, kas satur šo dokumentu."
 
-#: ../libyelp/yelp-view.c:1890
+#: ../libyelp/yelp-view.c:1918
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "URI “%s“ nenorāda uz derīgu lapu."
 
-#: ../libyelp/yelp-view.c:1896
+#: ../libyelp/yelp-view.c:1924
 #, c-format
 msgid "The URI does not point to a valid page."
 msgstr "URI nenorāda uz derīgu lapu."
 
-#: ../libyelp/yelp-view.c:1902
+#: ../libyelp/yelp-view.c:1930
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "Nevarēja pasēt URI “%s”."
 
-#: ../src/yelp-application.c:63
+#: ../src/yelp-application.c:59
 msgid "Turn on editor mode"
 msgstr "Ieslēgt redaktora režīmu"
 
-#: ../src/yelp-application.c:126
-msgid "_Larger Text"
-msgstr "_ Lielāks teksts"
-
-#: ../src/yelp-application.c:128
-msgid "Increase the size of the text"
-msgstr "Palielināt teksta izmēru"
-
-#: ../src/yelp-application.c:131
-msgid "_Smaller Text"
-msgstr "Mazāk_s teksts"
-
-#: ../src/yelp-application.c:133
-msgid "Decrease the size of the text"
-msgstr "Samazināt teksta izmēru"
-
-#: ../src/yelp-application.c:251 ../src/yelp-window.c:1358
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "Palīdzība"
 
-#: ../src/yelp-application.c:286
-msgid "Show Text _Cursor"
-msgstr "Rādīt teksta _kursoru"
+#: ../src/yelp-application.c:322
+#| msgid "_New Window"
+msgid "New Window"
+msgstr "Jauns logs"
 
-#: ../src/yelp-window.c:234
-msgid "_Page"
-msgstr "La_pa"
+#: ../src/yelp-application.c:326
+#| msgid "_Larger Text"
+msgid "Larger Text"
+msgstr "Lielāks teksts"
 
-#: ../src/yelp-window.c:235
-msgid "_View"
-msgstr "_Skats"
+#: ../src/yelp-application.c:327
+#| msgid "_Smaller Text"
+msgid "Smaller Text"
+msgstr "Mazāks teksts"
 
-#: ../src/yelp-window.c:236
-msgid "_Go"
-msgstr "_Iet"
-
-#: ../src/yelp-window.c:237
-msgid "_Bookmarks"
-msgstr "_Grāmatzīmes"
-
-#: ../src/yelp-window.c:240
-msgid "_New Window"
-msgstr "Jau_ns logs"
-
-#: ../src/yelp-window.c:245
-msgid "_Close"
-msgstr "_Aizvērt"
-
-#: ../src/yelp-window.c:250
-msgid "_All Documents"
-msgstr "_Visi dokumenti"
-
-#: ../src/yelp-window.c:254
-msgid "_Add Bookmark"
-msgstr "Pievienot grām_atzīmi"
-
-#: ../src/yelp-window.c:259
-msgid "_Remove Bookmark"
-msgstr "Izņemt g_rāmatzīmi"
-
-#: ../src/yelp-window.c:263
-msgid "Find in Page..."
-msgstr "Meklēt lapā..."
-
-#: ../src/yelp-window.c:273
-msgid "Open Location"
-msgstr "Atvērt vietu"
-
-#: ../src/yelp-window.c:299
+#: ../src/yelp-window.c:206
 msgid "Application"
 msgstr "Lietotne"
 
-#: ../src/yelp-window.c:300
+#: ../src/yelp-window.c:207
 msgid "A YelpApplication instance that controls this window"
 msgstr "YelpApplication instance, kas vada šo logu"
 
-#: ../src/yelp-window.c:427
-msgid "Read Link _Later"
-msgstr "Lasīt saiti _vēlāk"
+#: ../src/yelp-window.c:325
+#| msgid "_Back"
+msgid "Back"
+msgstr "Atpakaļ"
 
-#: ../src/yelp-window.c:524
-msgid "Find:"
-msgstr "Meklēt:"
+#: ../src/yelp-window.c:332
+#| msgid "_Forward"
+msgid "Forward"
+msgstr "Uz priekšu"
 
-#: ../src/yelp-window.c:546
-msgid "Read Later"
-msgstr "Lasīt vēlāk"
+#: ../src/yelp-window.c:343
+msgid "Menu"
+msgstr "Izvēlne"
 
-#: ../src/yelp-window.c:1178
-#, c-format
-msgid "%i match"
-msgid_plural "%i matches"
-msgstr[0] "%i atbilstība"
-msgstr[1] "%i atbilstības"
-msgstr[2] "%i atbilstību"
+#: ../src/yelp-window.c:348
+#| msgid "Find"
+msgid "Find…"
+msgstr "Meklēt…"
 
-#: ../src/yelp-window.c:1187
-msgid "No matches"
-msgstr "Nav atbilstību"
+#: ../src/yelp-window.c:349
+#| msgid "Printing"
+msgid "Print…"
+msgstr "Drukāt…"
+
+#: ../src/yelp-window.c:354
+#| msgid "_Previous Page"
+msgid "Previous Page"
+msgstr "Iepriekšējā lappuse"
+
+#: ../src/yelp-window.c:355
+#| msgid "_Next Page"
+msgid "Next Page"
+msgstr "Nākamā lappuse"
+
+#: ../src/yelp-window.c:360
+#| msgid "Help"
+msgid "All Help"
+msgstr "Visa palīdzība"
+
+#: ../src/yelp-window.c:382
+msgid "Search (Ctrl+S)"
+msgstr "Meklēt (Ctrl+S)"
+
+#: ../src/yelp-window.c:416
+#| msgid "Bookmarks"
+msgid "No bookmarks"
+msgstr "Nav grāmatzīmju"
+
+#: ../src/yelp-window.c:424
+msgid "Add Bookmark"
+msgstr "Pievienot Grāmatzīmi"
+
+#: ../src/yelp-window.c:430
+#| msgid "_Remove Bookmark"
+msgid "Remove Bookmark"
+msgstr "Izņemt grāmatzīmi"
 
 #: ../yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
@@ -713,6 +503,84 @@ msgstr "Saņemt palīdzību ar GNOME"
 #: ../yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;"
 msgstr "dokumentācija;informācija;rokasgrāmata;"
+
+#~ msgid "Enable Search"
+#~ msgstr "Aktivēt meklēšanu"
+
+#~ msgid "Whether the location entry can be used as a search field"
+#~ msgstr "Vai atrašanās vietas ierakstu var izmantot kā meklēšanas lauku"
+
+#~ msgid "Search..."
+#~ msgstr "Meklēt..."
+
+#~ msgid "Clear the search text"
+#~ msgstr "Attīrīt meklēšanas tekstu"
+
+#~ msgid "Bookmark this page"
+#~ msgstr "Pievienot lapu grāmatzīmēm"
+
+#~ msgid "Remove bookmark"
+#~ msgstr "Izņemt grāmatzīmi"
+
+#~ msgid "Loading"
+#~ msgstr "Ielādē"
+
+#~ msgid "_Print..."
+#~ msgstr "_Drukāt..."
+
+#~ msgid "Increase the size of the text"
+#~ msgstr "Palielināt teksta izmēru"
+
+#~ msgid "Decrease the size of the text"
+#~ msgstr "Samazināt teksta izmēru"
+
+#~ msgid "Show Text _Cursor"
+#~ msgstr "Rādīt teksta _kursoru"
+
+#~ msgid "_Page"
+#~ msgstr "La_pa"
+
+#~ msgid "_View"
+#~ msgstr "_Skats"
+
+#~ msgid "_Go"
+#~ msgstr "_Iet"
+
+#~ msgid "_Bookmarks"
+#~ msgstr "_Grāmatzīmes"
+
+#~ msgid "_Close"
+#~ msgstr "_Aizvērt"
+
+#~ msgid "_All Documents"
+#~ msgstr "_Visi dokumenti"
+
+#~ msgid "_Add Bookmark"
+#~ msgstr "Pievienot grām_atzīmi"
+
+#~ msgid "Find in Page..."
+#~ msgstr "Meklēt lapā..."
+
+#~ msgid "Open Location"
+#~ msgstr "Atvērt vietu"
+
+#~ msgid "Read Link _Later"
+#~ msgstr "Lasīt saiti _vēlāk"
+
+#~ msgid "Find:"
+#~ msgstr "Meklēt:"
+
+#~ msgid "Read Later"
+#~ msgstr "Lasīt vēlāk"
+
+#~ msgid "%i match"
+#~ msgid_plural "%i matches"
+#~ msgstr[0] "%i atbilstība"
+#~ msgstr[1] "%i atbilstības"
+#~ msgstr[2] "%i atbilstību"
+
+#~ msgid "No matches"
+#~ msgstr "Nav atbilstību"
 
 #~ msgid "GNU Info Pages"
 #~ msgstr "GNU Info lapas"
@@ -1228,9 +1096,6 @@ msgstr "dokumentācija;informācija;rokasgrāmata;"
 #~ msgid "Presentation Tools"
 #~ msgstr "Prezentācijas rīki"
 
-#~ msgid "Printing"
-#~ msgstr "Drukāšana"
-
 #~ msgid "Profiling Tools"
 #~ msgstr "Profilēšanas rīki"
 
@@ -1423,14 +1288,8 @@ msgstr "dokumentācija;informācija;rokasgrāmata;"
 #~ msgid "<b>Fonts</b>"
 #~ msgstr "<b>Fonti</b>"
 
-#~ msgid "Add Bookmark"
-#~ msgstr "Pievienot Grāmatzīmi"
-
 #~ msgid "C_ase sensitive"
 #~ msgstr "R_eģistrjūtīgs"
-
-#~ msgid "Find"
-#~ msgstr "Meklēt"
 
 #~ msgid "Preferences"
 #~ msgstr "Atvieglojumi"

@@ -51,7 +51,6 @@ void              yelp_application_new_window     (YelpApplication  *app,
                                                    const gchar      *uri);
 void              yelp_application_new_window_uri (YelpApplication  *app,
                                                    YelpUri          *uri);
-GtkActionGroup *  yelp_application_get_action_group     (YelpApplication   *app);
 void              yelp_application_add_bookmark         (YelpBookmarks     *bookmarks,
                                                          const gchar       *doc_uri,
                                                          const gchar       *page_id,
@@ -69,15 +68,6 @@ void              yelp_application_update_bookmarks     (YelpApplication   *app,
                                                          const gchar       *icon,
                                                          const gchar       *title);
 GVariant *        yelp_application_get_bookmarks        (YelpApplication   *app,
-                                                         const gchar       *doc_uri);
-void              yelp_application_add_read_later       (YelpApplication   *app,
-                                                         const gchar       *doc_uri,
-                                                         const gchar       *full_uri,
-                                                         const gchar       *title);
-void              yelp_application_remove_read_later    (YelpApplication   *app,
-                                                         const gchar       *doc_uri,
-                                                         const gchar       *full_uri);
-GVariant *        yelp_application_get_read_later       (YelpApplication   *app,
                                                          const gchar       *doc_uri);
 
 #endif /* __YELP_APPLICATION_H__ */
