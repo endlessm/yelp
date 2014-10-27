@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lv\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 13:59-0700\n"
+"POT-Creation-Date: 2014-10-27 15:28-0700\n"
 "PO-Revision-Date: 2014-10-12 14:00+0300\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
@@ -301,7 +301,7 @@ msgstr "Skats"
 msgid "A YelpView instance to control"
 msgstr "YelpView instance, ko vadīt"
 
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:399
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:402
 msgid "Bookmarks"
 msgstr "Grāmatzīmes"
 
@@ -555,7 +555,7 @@ msgstr "Nevarēja pasēt URI “%s”."
 msgid "Turn on editor mode"
 msgstr "Ieslēgt redaktora režīmu"
 
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1168
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "Palīdzība"
@@ -592,39 +592,39 @@ msgstr "Uz priekšu"
 msgid "Menu"
 msgstr "Izvēlne"
 
-#: ../src/yelp-window.c:348
+#: ../src/yelp-window.c:351
 msgid "Find…"
 msgstr "Meklēt…"
 
-#: ../src/yelp-window.c:349
+#: ../src/yelp-window.c:352
 msgid "Print…"
 msgstr "Drukāt…"
 
-#: ../src/yelp-window.c:354
+#: ../src/yelp-window.c:357
 msgid "Previous Page"
 msgstr "Iepriekšējā lappuse"
 
-#: ../src/yelp-window.c:355
+#: ../src/yelp-window.c:358
 msgid "Next Page"
 msgstr "Nākamā lappuse"
 
-#: ../src/yelp-window.c:360
+#: ../src/yelp-window.c:363
 msgid "All Help"
 msgstr "Visa palīdzība"
 
-#: ../src/yelp-window.c:382
+#: ../src/yelp-window.c:385
 msgid "Search (Ctrl+S)"
 msgstr "Meklēt (Ctrl+S)"
 
-#: ../src/yelp-window.c:416
+#: ../src/yelp-window.c:419
 msgid "No bookmarks"
 msgstr "Nav grāmatzīmju"
 
-#: ../src/yelp-window.c:424
+#: ../src/yelp-window.c:427
 msgid "Add Bookmark"
 msgstr "Pievienot Grāmatzīmi"
 
-#: ../src/yelp-window.c:430
+#: ../src/yelp-window.c:433
 msgid "Remove Bookmark"
 msgstr "Izņemt grāmatzīmi"
 

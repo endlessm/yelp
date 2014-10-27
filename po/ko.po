@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 13:59-0700\n"
+"POT-Creation-Date: 2014-10-27 15:28-0700\n"
 "PO-Revision-Date: 2014-09-06 05:29+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
@@ -296,7 +296,7 @@ msgstr "보기"
 msgid "A YelpView instance to control"
 msgstr "컨트롤하는 YelpView 인스턴스"
 
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:399
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:402
 msgid "Bookmarks"
 msgstr "책갈피"
 
@@ -550,7 +550,7 @@ msgstr "‘%s’ URI를 파싱할 수 없습니다."
 msgid "Turn on editor mode"
 msgstr "편집기 모드를 켭니다"
 
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1168
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "도움말"
@@ -588,40 +588,40 @@ msgstr "앞으로"
 msgid "Menu"
 msgstr "메뉴"
 
-#: ../src/yelp-window.c:348
+#: ../src/yelp-window.c:351
 msgid "Find…"
 msgstr "찾기…"
 
-#: ../src/yelp-window.c:349
+#: ../src/yelp-window.c:352
 msgid "Print…"
 msgstr "인쇄…"
 
-#: ../src/yelp-window.c:354
+#: ../src/yelp-window.c:357
 msgid "Previous Page"
 msgstr "이전 페이지"
 
-#: ../src/yelp-window.c:355
+#: ../src/yelp-window.c:358
 msgid "Next Page"
 msgstr "다음 페이지"
 
-#: ../src/yelp-window.c:360
+#: ../src/yelp-window.c:363
 msgid "All Help"
 msgstr "전체 도움말"
 
 # 주의: 단축키이므로 괄호 앞에 붙여 쓰지 않는다
-#: ../src/yelp-window.c:382
+#: ../src/yelp-window.c:385
 msgid "Search (Ctrl+S)"
 msgstr "검색 (Ctrl-S)"
 
-#: ../src/yelp-window.c:416
+#: ../src/yelp-window.c:419
 msgid "No bookmarks"
 msgstr "책갈피 없음"
 
-#: ../src/yelp-window.c:424
+#: ../src/yelp-window.c:427
 msgid "Add Bookmark"
 msgstr "책갈피 추가"
 
-#: ../src/yelp-window.c:430
+#: ../src/yelp-window.c:433
 msgid "Remove Bookmark"
 msgstr "책갈피 제거"
 

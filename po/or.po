@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp.master.or\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 13:59-0700\n"
+"POT-Creation-Date: 2014-10-27 15:28-0700\n"
 "PO-Revision-Date: 2014-09-16 17:21+0530\n"
 "Last-Translator: Manoj Kumar Giri <mgiri@redhat.com>\n"
 "Language-Team: Oriya <oriya-it@googlegroups.com>\n"
@@ -305,7 +305,7 @@ msgstr "ଦ୍ରୁଶ୍ଯ"
 msgid "A YelpView instance to control"
 msgstr "ନିୟନ୍ତ୍ରଣ କରିବା ପାଇଁ ଗୋଟିଏ YelpView ପରିସ୍ଥିତି"
 
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:399
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:402
 msgid "Bookmarks"
 msgstr "ଚିହ୍ନିତ ସ୍ଥାନଗୁଡ଼ିକ"
 
@@ -559,7 +559,7 @@ msgstr "URI ‘%s’ କୁ ବିଶ୍ଳେଷଣ କରିପାରିଲା
 msgid "Turn on editor mode"
 msgstr "ସମ୍ପାଦକ ଧାରାକୁ ଅନ କରନ୍ତୁ"
 
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1168
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "ସହାୟତା"
@@ -596,39 +596,39 @@ msgstr "ଆଗକୁ"
 msgid "Menu"
 msgstr "ତାଲିକା"
 
-#: ../src/yelp-window.c:348
+#: ../src/yelp-window.c:351
 msgid "Find…"
 msgstr "ଖୋଜନ୍ତୁ…"
 
-#: ../src/yelp-window.c:349
+#: ../src/yelp-window.c:352
 msgid "Print…"
 msgstr "ମୂଦ୍ରଣ କରନ୍ତୁ…"
 
-#: ../src/yelp-window.c:354
+#: ../src/yelp-window.c:357
 msgid "Previous Page"
 msgstr "ପୂର୍ବବର୍ତ୍ତୀ ପୃଷ୍ଠା"
 
-#: ../src/yelp-window.c:355
+#: ../src/yelp-window.c:358
 msgid "Next Page"
 msgstr "ପରବର୍ତ୍ତୀ ପୃଷ୍ଠା"
 
-#: ../src/yelp-window.c:360
+#: ../src/yelp-window.c:363
 msgid "All Help"
 msgstr "ସମସ୍ତ ସହାୟତା"
 
-#: ../src/yelp-window.c:382
+#: ../src/yelp-window.c:385
 msgid "Search (Ctrl+S)"
 msgstr "ଖୋଜନ୍ତୁ (Ctrl+S)"
 
-#: ../src/yelp-window.c:416
+#: ../src/yelp-window.c:419
 msgid "No bookmarks"
 msgstr "କୌଣସି ପୃଷ୍ଠା ସଂକେତ ନାହିଁ"
 
-#: ../src/yelp-window.c:424
+#: ../src/yelp-window.c:427
 msgid "Add Bookmark"
 msgstr "ବୁକମାର୍କ ଯୋଡ଼ନ୍ତୁ"
 
-#: ../src/yelp-window.c:430
+#: ../src/yelp-window.c:433
 msgid "Remove Bookmark"
 msgstr "ଚିହ୍ନିତ ସ୍ଥାନକୁ କାଢ଼ିଦିଅନ୍ତୁ"
 

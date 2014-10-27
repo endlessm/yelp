@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 13:59-0700\n"
+"POT-Creation-Date: 2014-10-27 15:28-0700\n"
 "PO-Revision-Date: 2014-08-02 22:01+0800\n"
 "Last-Translator: irisgyq <gouyingqiyanxuan321@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -302,7 +302,7 @@ msgstr "查看"
 msgid "A YelpView instance to control"
 msgstr "一个用于控制的 YelpView 实例"
 
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:399
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:402
 msgid "Bookmarks"
 msgstr "书签"
 
@@ -555,7 +555,7 @@ msgstr "URI“%s”无法解析。"
 msgid "Turn on editor mode"
 msgstr "打开编辑器模式"
 
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1168
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "帮助"
@@ -592,39 +592,39 @@ msgstr "前进"
 msgid "Menu"
 msgstr "菜单"
 
-#: ../src/yelp-window.c:348
+#: ../src/yelp-window.c:351
 msgid "Find…"
 msgstr "查找…"
 
-#: ../src/yelp-window.c:349
+#: ../src/yelp-window.c:352
 msgid "Print…"
 msgstr "打印…"
 
-#: ../src/yelp-window.c:354
+#: ../src/yelp-window.c:357
 msgid "Previous Page"
 msgstr "上一页"
 
-#: ../src/yelp-window.c:355
+#: ../src/yelp-window.c:358
 msgid "Next Page"
 msgstr "下一页"
 
-#: ../src/yelp-window.c:360
+#: ../src/yelp-window.c:363
 msgid "All Help"
 msgstr "所有帮助"
 
-#: ../src/yelp-window.c:382
+#: ../src/yelp-window.c:385
 msgid "Search (Ctrl+S)"
 msgstr "搜索(Ctrl+S)"
 
-#: ../src/yelp-window.c:416
+#: ../src/yelp-window.c:419
 msgid "No bookmarks"
 msgstr "无书签"
 
-#: ../src/yelp-window.c:424
+#: ../src/yelp-window.c:427
 msgid "Add Bookmark"
 msgstr "添加书签"
 
-#: ../src/yelp-window.c:430
+#: ../src/yelp-window.c:433
 msgid "Remove Bookmark"
 msgstr "删除书签"
 

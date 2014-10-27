@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 13:59-0700\n"
+"POT-Creation-Date: 2014-10-27 15:28-0700\n"
 "PO-Revision-Date: 2014-09-21 09:11-0500\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
@@ -298,7 +298,7 @@ msgstr "ਵੇਖੋ"
 msgid "A YelpView instance to control"
 msgstr "ਕੰਟਰੋਲ ਕਰਨ ਲਈ YelpView ਮੌਕਾ"
 
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:399
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:402
 msgid "Bookmarks"
 msgstr "ਬੁੱਕਮਾਰਕ"
 
@@ -551,7 +551,7 @@ msgstr "URI ‘%s’ ਨੂੰ ਪਾਰਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸ
 msgid "Turn on editor mode"
 msgstr "ਐਡੀਟਰ ਮੋਡ ਚਾਲੂ ਕਰੋ"
 
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1168
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "ਮਦਦ"
@@ -588,39 +588,39 @@ msgstr "ਅੱਗੇ"
 msgid "Menu"
 msgstr "ਮੇਨੂ"
 
-#: ../src/yelp-window.c:348
+#: ../src/yelp-window.c:351
 msgid "Find…"
 msgstr "...ਖੋਜ"
 
-#: ../src/yelp-window.c:349
+#: ../src/yelp-window.c:352
 msgid "Print…"
 msgstr "…ਪਰਿੰਟ ਕਰੋ"
 
-#: ../src/yelp-window.c:354
+#: ../src/yelp-window.c:357
 msgid "Previous Page"
 msgstr "ਪਿਛਲਾ ਸਫ਼ਾ"
 
-#: ../src/yelp-window.c:355
+#: ../src/yelp-window.c:358
 msgid "Next Page"
 msgstr "ਅਗਲਾ ਸਫ਼ਾ"
 
-#: ../src/yelp-window.c:360
+#: ../src/yelp-window.c:363
 msgid "All Help"
 msgstr "ਸਭ ਮਦਦ"
 
-#: ../src/yelp-window.c:382
+#: ../src/yelp-window.c:385
 msgid "Search (Ctrl+S)"
 msgstr "ਖੋਜ (Ctrl+S)"
 
-#: ../src/yelp-window.c:416
+#: ../src/yelp-window.c:419
 msgid "No bookmarks"
 msgstr "ਕੋਈ ਬੁੱਕਮਾਰਕ ਨਹੀਂ"
 
-#: ../src/yelp-window.c:424
+#: ../src/yelp-window.c:427
 msgid "Add Bookmark"
 msgstr "ਬੁੱਕਮਾਰਕ ਸ਼ਾਮਲ"
 
-#: ../src/yelp-window.c:430
+#: ../src/yelp-window.c:433
 msgid "Remove Bookmark"
 msgstr "ਬੁੱਕਮਾਰਕ ਹਟਾਓ"
 

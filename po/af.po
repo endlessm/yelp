@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 13:59-0700\n"
+"POT-Creation-Date: 2014-10-27 15:28-0700\n"
 "PO-Revision-Date: 2010-09-24 23:30+0100\n"
 "Last-Translator: F Wolff <friedel@translate.org.za>\n"
 "Language-Team: translate-discuss-af@lists.sourceforge.net\n"
@@ -304,7 +304,7 @@ msgstr "Bekyk"
 msgid "A YelpView instance to control"
 msgstr "'n YelpView-voorkoms om te beheer"
 
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:399
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:402
 msgid "Bookmarks"
 msgstr "Boekmerke"
 
@@ -574,7 +574,7 @@ msgstr "Die URI ‘%s’ kon nie ontleed word nie."
 msgid "Turn on editor mode"
 msgstr "Skakel redigeerdermodus aan"
 
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1168
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "Hulp"
@@ -617,45 +617,45 @@ msgstr "_Vorentoe"
 msgid "Menu"
 msgstr ""
 
-#: ../src/yelp-window.c:348
+#: ../src/yelp-window.c:351
 msgid "Find…"
 msgstr ""
 
-#: ../src/yelp-window.c:349
+#: ../src/yelp-window.c:352
 #, fuzzy
 msgid "Print…"
 msgstr "Druk"
 
-#: ../src/yelp-window.c:354
+#: ../src/yelp-window.c:357
 #, fuzzy
 msgid "Previous Page"
 msgstr "_Vorige bladsy"
 
-#: ../src/yelp-window.c:355
+#: ../src/yelp-window.c:358
 #, fuzzy
 msgid "Next Page"
 msgstr "_Volgende bladsy"
 
-#: ../src/yelp-window.c:360
+#: ../src/yelp-window.c:363
 #, fuzzy
 msgid "All Help"
 msgstr "Hulp"
 
-#: ../src/yelp-window.c:382
+#: ../src/yelp-window.c:385
 msgid "Search (Ctrl+S)"
 msgstr ""
 
-#: ../src/yelp-window.c:416
+#: ../src/yelp-window.c:419
 #, fuzzy
 msgid "No bookmarks"
 msgstr "Boekmerke"
 
-#: ../src/yelp-window.c:424
+#: ../src/yelp-window.c:427
 #, fuzzy
 msgid "Add Bookmark"
 msgstr "_Voeg boekmerk by"
 
-#: ../src/yelp-window.c:430
+#: ../src/yelp-window.c:433
 #, fuzzy
 msgid "Remove Bookmark"
 msgstr "_Verwyder boekmerk"

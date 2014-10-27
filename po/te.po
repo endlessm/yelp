@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp.gnome-3-2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 13:59-0700\n"
+"POT-Creation-Date: 2014-10-27 15:28-0700\n"
 "PO-Revision-Date: 2014-09-23 16:21+0530\n"
 "Last-Translator: Krishnababu Krothapalli <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -301,7 +301,7 @@ msgstr "దర్శనం"
 msgid "A YelpView instance to control"
 msgstr "యెల్ప్ వ్యూ నియంత్రణకు సందర్భము"
 
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:399
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:402
 msgid "Bookmarks"
 msgstr "ఇష్టాంశములు"
 
@@ -554,7 +554,7 @@ msgstr "‘%s’ URI పార్స్ అవ్వటలేదు."
 msgid "Turn on editor mode"
 msgstr "సంకలన విధమును ప్రారంభించు"
 
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1168
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "సహాయం"
@@ -591,39 +591,39 @@ msgstr "ఫార్వార్డ్"
 msgid "Menu"
 msgstr "మెనూ"
 
-#: ../src/yelp-window.c:348
+#: ../src/yelp-window.c:351
 msgid "Find…"
 msgstr "కనుగొను..."
 
-#: ../src/yelp-window.c:349
+#: ../src/yelp-window.c:352
 msgid "Print…"
 msgstr "ముద్రించు..."
 
-#: ../src/yelp-window.c:354
+#: ../src/yelp-window.c:357
 msgid "Previous Page"
 msgstr "మునుపటి పేజీ"
 
-#: ../src/yelp-window.c:355
+#: ../src/yelp-window.c:358
 msgid "Next Page"
 msgstr "తరువాతి  పేజీ"
 
-#: ../src/yelp-window.c:360
+#: ../src/yelp-window.c:363
 msgid "All Help"
 msgstr "మొత్తం సహాయం"
 
-#: ../src/yelp-window.c:382
+#: ../src/yelp-window.c:385
 msgid "Search (Ctrl+S)"
 msgstr "వెతుకు (Ctrl+S)"
 
-#: ../src/yelp-window.c:416
+#: ../src/yelp-window.c:419
 msgid "No bookmarks"
 msgstr "ఇష్టాంశములు లేవు"
 
-#: ../src/yelp-window.c:424
+#: ../src/yelp-window.c:427
 msgid "Add Bookmark"
 msgstr "ఇష్టాంశముగా చేయి"
 
-#: ../src/yelp-window.c:430
+#: ../src/yelp-window.c:433
 msgid "Remove Bookmark"
 msgstr "ఇష్టాంశమును తీసివేయి"
 

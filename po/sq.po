@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 13:59-0700\n"
+"POT-Creation-Date: 2014-10-27 15:28-0700\n"
 "PO-Revision-Date: 2008-07-22 12:24+0200\n"
 "Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
 "Language-Team: albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
@@ -302,7 +302,7 @@ msgstr "Shikues"
 msgid "A YelpView instance to control"
 msgstr ""
 
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:399
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:402
 msgid "Bookmarks"
 msgstr "Libërshënues"
 
@@ -569,7 +569,7 @@ msgstr "File ‘%s’ nuk ekziston."
 msgid "Turn on editor mode"
 msgstr ""
 
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1168
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "Ndihmë"
@@ -610,45 +610,45 @@ msgstr "_Para"
 msgid "Menu"
 msgstr ""
 
-#: ../src/yelp-window.c:348
+#: ../src/yelp-window.c:351
 #, fuzzy
 msgid "Find…"
 msgstr "Gjej"
 
-#: ../src/yelp-window.c:349
+#: ../src/yelp-window.c:352
 #, fuzzy
 msgid "Print…"
 msgstr "Printimi"
 
-#: ../src/yelp-window.c:354
+#: ../src/yelp-window.c:357
 #, fuzzy
 msgid "Previous Page"
 msgstr "_Paraardhësja"
 
-#: ../src/yelp-window.c:355
+#: ../src/yelp-window.c:358
 #, fuzzy
 msgid "Next Page"
 msgstr "_Pasardhëse"
 
-#: ../src/yelp-window.c:360
+#: ../src/yelp-window.c:363
 #, fuzzy
 msgid "All Help"
 msgstr "Ndihmë"
 
-#: ../src/yelp-window.c:382
+#: ../src/yelp-window.c:385
 msgid "Search (Ctrl+S)"
 msgstr ""
 
-#: ../src/yelp-window.c:416
+#: ../src/yelp-window.c:419
 #, fuzzy
 msgid "No bookmarks"
 msgstr "Libërshënues"
 
-#: ../src/yelp-window.c:424
+#: ../src/yelp-window.c:427
 msgid "Add Bookmark"
 msgstr "Shto libërshënues"
 
-#: ../src/yelp-window.c:430
+#: ../src/yelp-window.c:433
 #, fuzzy
 msgid "Remove Bookmark"
 msgstr "Fshi libërshënues"

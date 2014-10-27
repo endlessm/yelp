@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp 2.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 13:59-0700\n"
+"POT-Creation-Date: 2014-10-27 15:28-0700\n"
 "PO-Revision-Date: 2005-03-28 19:36-0700\n"
 "Last-Translator: Steve Murphy <murf@e-tools.com>\n"
 "Language-Team: Kinyarwanda <translation-team-rw@lists.sourceforge.net>\n"
@@ -306,7 +306,7 @@ msgid "A YelpView instance to control"
 msgstr ""
 
 # sfx2/source\appl\newhelp.src:WIN_HELP_INDEX.TC_INDEX.HELP_INDEX_PAGE_BOOKMARKS.text
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:399
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:402
 msgid "Bookmarks"
 msgstr "Ibirango"
 
@@ -571,7 +571,7 @@ msgid "Turn on editor mode"
 msgstr ""
 
 # scp/source\office\profile.lng:STR_VALUE_TEMPLATE_SERVICES_HELP.text
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1168
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "Ifashayobora"
@@ -615,48 +615,48 @@ msgid "Menu"
 msgstr ""
 
 # offmgr/source\offapp\dialog\hyprlink.src:RID_SVXDLG_HYPERLINK.BTN_INET_SEARCH.text
-#: ../src/yelp-window.c:348
+#: ../src/yelp-window.c:351
 #, fuzzy
 msgid "Find…"
 msgstr "Gushaka"
 
-#: ../src/yelp-window.c:349
+#: ../src/yelp-window.c:352
 msgid "Print…"
 msgstr ""
 
-#: ../src/yelp-window.c:354
+#: ../src/yelp-window.c:357
 #, fuzzy
 msgid "Previous Page"
 msgstr "Ibanjirije"
 
-#: ../src/yelp-window.c:355
+#: ../src/yelp-window.c:358
 #, fuzzy
 msgid "Next Page"
 msgstr "Bikurikira"
 
 # scp/source\office\profile.lng:STR_VALUE_TEMPLATE_SERVICES_HELP.text
-#: ../src/yelp-window.c:360
+#: ../src/yelp-window.c:363
 #, fuzzy
 msgid "All Help"
 msgstr "Ifashayobora"
 
-#: ../src/yelp-window.c:382
+#: ../src/yelp-window.c:385
 msgid "Search (Ctrl+S)"
 msgstr ""
 
 # sfx2/source\appl\newhelp.src:WIN_HELP_INDEX.TC_INDEX.HELP_INDEX_PAGE_BOOKMARKS.text
-#: ../src/yelp-window.c:416
+#: ../src/yelp-window.c:419
 #, fuzzy
 msgid "No bookmarks"
 msgstr "Ibirango"
 
 # 48
-#: ../src/yelp-window.c:424
+#: ../src/yelp-window.c:427
 msgid "Add Bookmark"
 msgstr "ongeraho icyatoranyijwe"
 
 # sfx2/source\appl\newhelp.src:DLG_HELP_ADDBOOKMARK.STR_BOOKMARK_RENAME.text
-#: ../src/yelp-window.c:430
+#: ../src/yelp-window.c:433
 #, fuzzy
 msgid "Remove Bookmark"
 msgstr "Guhindura Izina ry'Ikirango"

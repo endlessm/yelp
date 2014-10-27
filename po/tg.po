@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp[1].gnome-2-6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 13:59-0700\n"
+"POT-Creation-Date: 2014-10-27 15:28-0700\n"
 "PO-Revision-Date: 2013-04-03 11:48+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik\n"
@@ -305,7 +305,7 @@ msgstr "Намоиш"
 msgid "A YelpView instance to control"
 msgstr "Ҳолати YelpView барои идоракунӣ"
 
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:399
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:402
 msgid "Bookmarks"
 msgstr "Хатбаракҳо"
 
@@ -564,7 +564,7 @@ msgstr "Суроғаи URI-и \"%s\" таҷзия карда намешавад.
 msgid "Turn on editor mode"
 msgstr "Фаъол кардани ҳолати муҳаррир"
 
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1168
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "Кӯмак"
@@ -606,45 +606,45 @@ msgstr "_Ба пеш"
 msgid "Menu"
 msgstr ""
 
-#: ../src/yelp-window.c:348
+#: ../src/yelp-window.c:351
 #, fuzzy
 msgid "Find…"
 msgstr "Бозёбӣ"
 
-#: ../src/yelp-window.c:349
+#: ../src/yelp-window.c:352
 msgid "Print…"
 msgstr ""
 
-#: ../src/yelp-window.c:354
+#: ../src/yelp-window.c:357
 #, fuzzy
 msgid "Previous Page"
 msgstr "_Саҳифаи қаблӣ"
 
-#: ../src/yelp-window.c:355
+#: ../src/yelp-window.c:358
 #, fuzzy
 msgid "Next Page"
 msgstr "_Саҳифаи навбатӣ"
 
-#: ../src/yelp-window.c:360
+#: ../src/yelp-window.c:363
 #, fuzzy
 msgid "All Help"
 msgstr "Кӯмак"
 
-#: ../src/yelp-window.c:382
+#: ../src/yelp-window.c:385
 msgid "Search (Ctrl+S)"
 msgstr ""
 
-#: ../src/yelp-window.c:416
+#: ../src/yelp-window.c:419
 #, fuzzy
 msgid "No bookmarks"
 msgstr "Хатбаракҳо"
 
-#: ../src/yelp-window.c:424
+#: ../src/yelp-window.c:427
 #, fuzzy
 msgid "Add Bookmark"
 msgstr "_Илова кардани хатбарак"
 
-#: ../src/yelp-window.c:430
+#: ../src/yelp-window.c:433
 #, fuzzy
 msgid "Remove Bookmark"
 msgstr "_Тоза кардани хатбарак"

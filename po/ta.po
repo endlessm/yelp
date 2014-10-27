@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp.master.ta\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 13:59-0700\n"
+"POT-Creation-Date: 2014-10-27 15:28-0700\n"
 "PO-Revision-Date: 2014-09-14 23:36+0630\n"
 "Last-Translator: Shantha kumar <shkumar@redhat.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -305,7 +305,7 @@ msgstr "காட்சி"
 msgid "A YelpView instance to control"
 msgstr "கட்டுப்பாட்டுக்கு ஒரு யெல்ப்வ்யூ  சான்று நிகழ்வு"
 
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:399
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:402
 msgid "Bookmarks"
 msgstr "புத்தகக்குறிகள்"
 
@@ -558,7 +558,7 @@ msgstr "யூஆர்ஐ ‘%s’ ஐ அலகிட முடியவில
 msgid "Turn on editor mode"
 msgstr "திருத்தி பாங்கை இயக்கு"
 
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1168
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "உதவி"
@@ -595,39 +595,39 @@ msgstr "முன்"
 msgid "Menu"
 msgstr "மெனு"
 
-#: ../src/yelp-window.c:348
+#: ../src/yelp-window.c:351
 msgid "Find…"
 msgstr "கண்டுபிடி…"
 
-#: ../src/yelp-window.c:349
+#: ../src/yelp-window.c:352
 msgid "Print…"
 msgstr "அச்சிடு…"
 
-#: ../src/yelp-window.c:354
+#: ../src/yelp-window.c:357
 msgid "Previous Page"
 msgstr "முந்தைய பக்கம்"
 
-#: ../src/yelp-window.c:355
+#: ../src/yelp-window.c:358
 msgid "Next Page"
 msgstr "அடுத்த பக்கம்"
 
-#: ../src/yelp-window.c:360
+#: ../src/yelp-window.c:363
 msgid "All Help"
 msgstr "அனைத்து உதவி"
 
-#: ../src/yelp-window.c:382
+#: ../src/yelp-window.c:385
 msgid "Search (Ctrl+S)"
 msgstr "தேடு (Ctrl+S)"
 
-#: ../src/yelp-window.c:416
+#: ../src/yelp-window.c:419
 msgid "No bookmarks"
 msgstr "புத்தகக்குறிகள் இல்லை"
 
-#: ../src/yelp-window.c:424
+#: ../src/yelp-window.c:427
 msgid "Add Bookmark"
 msgstr "புத்தகக்குறி சேர்"
 
-#: ../src/yelp-window.c:430
+#: ../src/yelp-window.c:433
 msgid "Remove Bookmark"
 msgstr "புத்தகக்குறியை நீக்கு"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 13:59-0700\n"
+"POT-Creation-Date: 2014-10-27 15:28-0700\n"
 "PO-Revision-Date: 2013-03-16 02:10+0000\n"
 "Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
 "Language-Team: Portuguese <gnome_pt@yahoogroups.com>\n"
@@ -298,7 +298,7 @@ msgstr "Ver"
 msgid "A YelpView instance to control"
 msgstr "Uma instância YelpView para controlar"
 
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:399
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:402
 msgid "Bookmarks"
 msgstr "Marcadores"
 
@@ -558,7 +558,7 @@ msgstr "Não foi possível processar o URI ‘%s’."
 msgid "Turn on editor mode"
 msgstr "Ativar o modo editor"
 
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1168
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "Ajuda"
@@ -600,45 +600,45 @@ msgstr "_Avançar"
 msgid "Menu"
 msgstr ""
 
-#: ../src/yelp-window.c:348
+#: ../src/yelp-window.c:351
 #, fuzzy
 msgid "Find…"
 msgstr "Procurar"
 
-#: ../src/yelp-window.c:349
+#: ../src/yelp-window.c:352
 #, fuzzy
 msgid "Print…"
 msgstr "A Imprimir"
 
-#: ../src/yelp-window.c:354
+#: ../src/yelp-window.c:357
 #, fuzzy
 msgid "Previous Page"
 msgstr "Página _Anterior"
 
-#: ../src/yelp-window.c:355
+#: ../src/yelp-window.c:358
 #, fuzzy
 msgid "Next Page"
 msgstr "Página _Seguinte"
 
-#: ../src/yelp-window.c:360
+#: ../src/yelp-window.c:363
 #, fuzzy
 msgid "All Help"
 msgstr "Ajuda"
 
-#: ../src/yelp-window.c:382
+#: ../src/yelp-window.c:385
 msgid "Search (Ctrl+S)"
 msgstr ""
 
-#: ../src/yelp-window.c:416
+#: ../src/yelp-window.c:419
 #, fuzzy
 msgid "No bookmarks"
 msgstr "Marcadores"
 
-#: ../src/yelp-window.c:424
+#: ../src/yelp-window.c:427
 msgid "Add Bookmark"
 msgstr "Adicionar um Marcador"
 
-#: ../src/yelp-window.c:430
+#: ../src/yelp-window.c:433
 #, fuzzy
 msgid "Remove Bookmark"
 msgstr "_Remover Marcador"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp gnome-2-30\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 13:59-0700\n"
+"POT-Creation-Date: 2014-10-27 15:28-0700\n"
 "PO-Revision-Date: 2010-09-27 13:53+0600\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
@@ -295,7 +295,7 @@ msgstr ""
 msgid "A YelpView instance to control"
 msgstr ""
 
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:399
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:402
 msgid "Bookmarks"
 msgstr "Бетбелгілер"
 
@@ -554,7 +554,7 @@ msgstr ""
 msgid "Turn on editor mode"
 msgstr ""
 
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1168
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "Көмек"
@@ -595,45 +595,45 @@ msgstr "А_лға"
 msgid "Menu"
 msgstr ""
 
-#: ../src/yelp-window.c:348
+#: ../src/yelp-window.c:351
 #, fuzzy
 msgid "Find…"
 msgstr "_Табу..."
 
-#: ../src/yelp-window.c:349
+#: ../src/yelp-window.c:352
 #, fuzzy
 msgid "Print…"
 msgstr "Баспаға шығару"
 
-#: ../src/yelp-window.c:354
+#: ../src/yelp-window.c:357
 #, fuzzy
 msgid "Previous Page"
 msgstr "Алдыңғысын табу"
 
-#: ../src/yelp-window.c:355
+#: ../src/yelp-window.c:358
 msgid "Next Page"
 msgstr ""
 
-#: ../src/yelp-window.c:360
+#: ../src/yelp-window.c:363
 #, fuzzy
 msgid "All Help"
 msgstr "Көмек"
 
-#: ../src/yelp-window.c:382
+#: ../src/yelp-window.c:385
 msgid "Search (Ctrl+S)"
 msgstr ""
 
-#: ../src/yelp-window.c:416
+#: ../src/yelp-window.c:419
 #, fuzzy
 msgid "No bookmarks"
 msgstr "Бетбелгілер"
 
-#: ../src/yelp-window.c:424
+#: ../src/yelp-window.c:427
 #, fuzzy
 msgid "Add Bookmark"
 msgstr "Бетбелгілер"
 
-#: ../src/yelp-window.c:430
+#: ../src/yelp-window.c:433
 #, fuzzy
 msgid "Remove Bookmark"
 msgstr "Бетбелгіні өшіру"
