@@ -11,9 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp 3.3.3\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=yelp&keywords=I18N+L10N&component=General\n"
-"POT-Creation-Date: 2014-08-18 23:01+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-27 13:59-0700\n"
 "PO-Revision-Date: 2014-08-19 20:30+0800\n"
 "Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -37,6 +36,156 @@ msgstr ""
 #: yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "安裝 <string/>"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:31
+msgid "Home"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.getting-started
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:40
+msgid "Getting started with your OS"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-introduction
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:49
+msgid "Introduction to your OS"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-exit
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:58
+msgid "Log out, power off or switch users"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-apps-open
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:67
+#, fuzzy
+msgid "Start applications"
+msgstr "應用程式"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:78
+msgid "Desktop Apps &amp; Windows"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:89
+msgid "Files, Folders &amp; Search"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:98
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:109
+msgid "Networking, Web, Email &amp; Chat"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.prefs
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:120
+msgid "User &amp; System Settings"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.tips
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:131
+msgid "Tips &amp; Tricks"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.media
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:142
+msgid "Sound, Video &amp; Pictures"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:153
+msgid "Hardware &amp; Drivers"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.more-help
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:162
+msgid "Get more help"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.endless-videos
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:171
+msgid "Video Tutorials"
+msgstr ""
 
 #: ../libyelp/yelp-bz2-decompressor.c:144
 #: ../libyelp/yelp-lzma-decompressor.c:153
@@ -93,33 +242,33 @@ msgstr "不明"
 msgid "The requested page was not found in the document ‘%s’."
 msgstr "所要求的頁面無法在文件「%s」中找到。"
 
-#: ../libyelp/yelp-document.c:266
+#: ../libyelp/yelp-document.c:268
 msgid "Indexed"
 msgstr "已索引"
 
-#: ../libyelp/yelp-document.c:267
+#: ../libyelp/yelp-document.c:269
 msgid "Whether the document content has been indexed"
 msgstr "這份文件的內容是否已索引"
 
-#: ../libyelp/yelp-document.c:275
+#: ../libyelp/yelp-document.c:277
 msgid "Document URI"
 msgstr "文件 URI"
 
-#: ../libyelp/yelp-document.c:276
+#: ../libyelp/yelp-document.c:278
 msgid "The URI which identifies the document"
 msgstr "這份文件的識別 URI"
 
-#: ../libyelp/yelp-document.c:992
+#: ../libyelp/yelp-document.c:996
 #, c-format
 msgid "Search results for “%s”"
 msgstr "「%s」的搜尋結果"
 
-#: ../libyelp/yelp-document.c:1004
+#: ../libyelp/yelp-document.c:1008
 #, c-format
 msgid "No matching help pages found in “%s”."
 msgstr "在「%s」找不到符合的求助頁面。"
 
-#: ../libyelp/yelp-document.c:1010
+#: ../libyelp/yelp-document.c:1014
 msgid "No matching help pages found."
 msgstr "找不到符合的求助頁面。"
 
@@ -128,7 +277,7 @@ msgstr "找不到符合的求助頁面。"
 msgid "An unknown error occurred."
 msgstr "發生不明的錯誤。"
 
-#: ../libyelp/yelp-help-list.c:546 ../libyelp/yelp-help-list.c:555
+#: ../libyelp/yelp-help-list.c:547 ../libyelp/yelp-help-list.c:556
 msgid "All Help Documents"
 msgstr "所有說明文件"
 
@@ -143,64 +292,64 @@ msgstr "無法解析檔案「%s」的內容，因為它並不是一個格式完�
 msgid "The directory ‘%s’ does not exist."
 msgstr "目錄「%s」不存在。"
 
-#: ../libyelp/yelp-search-entry.c:173
+#: ../libyelp/yelp-search-entry.c:172
 msgid "View"
 msgstr "檢視"
 
-#: ../libyelp/yelp-search-entry.c:174
+#: ../libyelp/yelp-search-entry.c:173
 msgid "A YelpView instance to control"
 msgstr "要控制的 YelpView"
 
-#: ../libyelp/yelp-search-entry.c:189 ../src/yelp-window.c:400
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:399
 msgid "Bookmarks"
 msgstr "書籤"
 
-#: ../libyelp/yelp-search-entry.c:190
+#: ../libyelp/yelp-search-entry.c:189
 msgid "A YelpBookmarks implementation instance"
 msgstr "YelpBookmarks 實作實體"
 
-#: ../libyelp/yelp-search-entry.c:440
+#: ../libyelp/yelp-search-entry.c:434
 #, c-format
 msgid "Search for “%s”"
 msgstr "搜尋「%s」"
 
-#: ../libyelp/yelp-settings.c:152
+#: ../libyelp/yelp-settings.c:150
 msgid "GtkSettings"
 msgstr "GtkSettings"
 
-#: ../libyelp/yelp-settings.c:153
+#: ../libyelp/yelp-settings.c:151
 msgid "A GtkSettings object to get settings from"
 msgstr "用來取得設定值的 GtkSettings 物件"
 
-#: ../libyelp/yelp-settings.c:161
+#: ../libyelp/yelp-settings.c:159
 msgid "GtkIconTheme"
 msgstr "GtkIconTheme"
 
-#: ../libyelp/yelp-settings.c:162
+#: ../libyelp/yelp-settings.c:160
 msgid "A GtkIconTheme object to get icons from"
 msgstr "用來取得圖示的 GtkIconTheme 物件"
 
-#: ../libyelp/yelp-settings.c:170
+#: ../libyelp/yelp-settings.c:168
 msgid "Font Adjustment"
 msgstr "字型調整"
 
-#: ../libyelp/yelp-settings.c:171
+#: ../libyelp/yelp-settings.c:169
 msgid "A size adjustment to add to font sizes"
 msgstr "調整尺寸以加入字型大小"
 
-#: ../libyelp/yelp-settings.c:179
+#: ../libyelp/yelp-settings.c:177
 msgid "Show Text Cursor"
 msgstr "顯示文字游標"
 
-#: ../libyelp/yelp-settings.c:180
+#: ../libyelp/yelp-settings.c:178
 msgid "Show the text cursor or caret for accessible navigation"
 msgstr "顯示無障礙導覽的文字游標或鍵盤瀏覽"
 
-#: ../libyelp/yelp-settings.c:188
+#: ../libyelp/yelp-settings.c:186
 msgid "Editor Mode"
 msgstr "編輯器模式"
 
-#: ../libyelp/yelp-settings.c:189
+#: ../libyelp/yelp-settings.c:187
 msgid "Enable features useful to editors"
 msgstr "啟用對編輯器有用的功能"
 
@@ -233,63 +382,63 @@ msgstr "在 yelp:document 中找不到 href 屬性\n"
 msgid "Out of memory"
 msgstr "記憶體不足"
 
-#: ../libyelp/yelp-view.c:446
+#: ../libyelp/yelp-view.c:445
 msgid "Yelp URI"
 msgstr "Yelp URI"
 
-#: ../libyelp/yelp-view.c:447
+#: ../libyelp/yelp-view.c:446
 msgid "A YelpUri with the current location"
 msgstr "YelpUri 目前的位置"
 
-#: ../libyelp/yelp-view.c:455
+#: ../libyelp/yelp-view.c:454
 msgid "Loading State"
 msgstr "載入狀態"
 
-#: ../libyelp/yelp-view.c:456
+#: ../libyelp/yelp-view.c:455
 msgid "The loading state of the view"
 msgstr "檢視的載入狀態"
 
-#: ../libyelp/yelp-view.c:465
+#: ../libyelp/yelp-view.c:464
 msgid "Page ID"
 msgstr "頁面 ID"
 
-#: ../libyelp/yelp-view.c:466
+#: ../libyelp/yelp-view.c:465
 msgid "The ID of the root page of the page being viewed"
 msgstr "已檢視過頁面的根頁面 ID"
 
-#: ../libyelp/yelp-view.c:474
+#: ../libyelp/yelp-view.c:473
 msgid "Root Title"
 msgstr "根標題"
 
-#: ../libyelp/yelp-view.c:475
+#: ../libyelp/yelp-view.c:474
 msgid "The title of the root page of the page being viewed"
 msgstr "已檢視過頁面的根頁面標題"
 
-#: ../libyelp/yelp-view.c:483
+#: ../libyelp/yelp-view.c:482
 msgid "Page Title"
 msgstr "頁面標題"
 
-#: ../libyelp/yelp-view.c:484
+#: ../libyelp/yelp-view.c:483
 msgid "The title of the page being viewed"
 msgstr "已檢視過的頁面標題"
 
-#: ../libyelp/yelp-view.c:492
+#: ../libyelp/yelp-view.c:491
 msgid "Page Description"
 msgstr "頁面描述"
 
-#: ../libyelp/yelp-view.c:493
+#: ../libyelp/yelp-view.c:492
 msgid "The description of the page being viewed"
 msgstr "已檢視過的頁面描述"
 
-#: ../libyelp/yelp-view.c:501
+#: ../libyelp/yelp-view.c:500
 msgid "Page Icon"
 msgstr "頁面圖示"
 
-#: ../libyelp/yelp-view.c:502
+#: ../libyelp/yelp-view.c:501
 msgid "The icon of the page being viewed"
 msgstr "已檢視過的頁面圖示"
 
-#: ../libyelp/yelp-view.c:744
+#: ../libyelp/yelp-view.c:743
 msgid "You do not have PackageKit. Package install links require PackageKit."
 msgstr "你尚未安裝 PackageKit。套件安裝連結需要 PackageKit。"
 
@@ -323,22 +472,18 @@ msgid "Open Link in New _Window"
 msgstr "在新的視窗中開啟連結(_W)"
 
 #: ../libyelp/yelp-view.c:1388
-#| msgid "_Save Image As..."
 msgid "_Save Image As…"
 msgstr "另存影像為(_S)…"
 
 #: ../libyelp/yelp-view.c:1390
-#| msgid "_Save Video As..."
 msgid "_Save Video As…"
 msgstr "另存影片為(_S)…"
 
 #: ../libyelp/yelp-view.c:1397
-#| msgid "S_end Image To..."
 msgid "S_end Image To…"
 msgstr "傳送影像到(_E)…"
 
 #: ../libyelp/yelp-view.c:1399
-#| msgid "S_end Video To..."
 msgid "S_end Video To…"
 msgstr "傳送影片到(_E)…"
 
@@ -351,56 +496,55 @@ msgid "C_opy Code Block"
 msgstr "複製原始碼區塊(_O)"
 
 #: ../libyelp/yelp-view.c:1428
-#| msgid "Save Code _Block As..."
 msgid "Save Code _Block As…"
 msgstr "另存程式區塊為(_B)…"
 
-#: ../libyelp/yelp-view.c:1535
+#: ../libyelp/yelp-view.c:1534
 #, c-format
 msgid "See all search results for “%s”"
 msgstr "查看所有「%s」的搜尋結果"
 
-#: ../libyelp/yelp-view.c:1656
+#: ../libyelp/yelp-view.c:1655
 #, c-format
 msgid "Could not load a document for ‘%s’"
 msgstr "無法載入「%s」的文件"
 
-#: ../libyelp/yelp-view.c:1662
+#: ../libyelp/yelp-view.c:1661
 #, c-format
 msgid "Could not load a document"
 msgstr "無法載入文件"
 
-#: ../libyelp/yelp-view.c:1737
+#: ../libyelp/yelp-view.c:1736
 msgid "Document Not Found"
 msgstr "找不到文件"
 
-#: ../libyelp/yelp-view.c:1739
+#: ../libyelp/yelp-view.c:1738
 msgid "Page Not Found"
 msgstr "找不到頁面"
 
-#: ../libyelp/yelp-view.c:1742
+#: ../libyelp/yelp-view.c:1741
 msgid "Cannot Read"
 msgstr "不能讀取"
 
-#: ../libyelp/yelp-view.c:1748
+#: ../libyelp/yelp-view.c:1747
 msgid "Unknown Error"
 msgstr "不明的錯誤"
 
-#: ../libyelp/yelp-view.c:1768
+#: ../libyelp/yelp-view.c:1767
 msgid "Search for packages containing this document."
 msgstr "搜尋包含這份文件的套件。"
 
-#: ../libyelp/yelp-view.c:1918
+#: ../libyelp/yelp-view.c:1917
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "URI「%s」沒有指向有效的頁面。"
 
-#: ../libyelp/yelp-view.c:1924
+#: ../libyelp/yelp-view.c:1923
 #, c-format
 msgid "The URI does not point to a valid page."
 msgstr "這個 URI 沒有指向有效的頁面。"
 
-#: ../libyelp/yelp-view.c:1930
+#: ../libyelp/yelp-view.c:1929
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "無法解析 URI「%s」。"
@@ -409,23 +553,20 @@ msgstr "無法解析 URI「%s」。"
 msgid "Turn on editor mode"
 msgstr "開啟編輯器模式"
 
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1147
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "求助"
 
 #: ../src/yelp-application.c:322
-#| msgid "_New Window"
 msgid "New Window"
 msgstr "新增視窗"
 
 #: ../src/yelp-application.c:326
-#| msgid "_Larger Text"
 msgid "Larger Text"
 msgstr "較大文字"
 
 #: ../src/yelp-application.c:327
-#| msgid "_Smaller Text"
 msgid "Smaller Text"
 msgstr "較小文字"
 
@@ -437,60 +578,51 @@ msgstr "應用程式"
 msgid "A YelpApplication instance that controls this window"
 msgstr "控制這個視窗的 YelpApplication 實體。"
 
-#: ../src/yelp-window.c:323
-#| msgid "_Back"
+#: ../src/yelp-window.c:325
 msgid "Back"
 msgstr "向後"
 
-#: ../src/yelp-window.c:330
-#| msgid "_Forward"
+#: ../src/yelp-window.c:332
 msgid "Forward"
 msgstr "向前"
 
-#: ../src/yelp-window.c:344
+#: ../src/yelp-window.c:343
 msgid "Menu"
 msgstr "選單"
 
-#: ../src/yelp-window.c:349
-#| msgid "Find:"
+#: ../src/yelp-window.c:348
 msgid "Find…"
 msgstr "尋找…"
 
-#: ../src/yelp-window.c:350
+#: ../src/yelp-window.c:349
 msgid "Print…"
 msgstr "列印…"
 
-#: ../src/yelp-window.c:355
-#| msgid "_Previous Page"
+#: ../src/yelp-window.c:354
 msgid "Previous Page"
 msgstr "上一頁"
 
-#: ../src/yelp-window.c:356
-#| msgid "_Next Page"
+#: ../src/yelp-window.c:355
 msgid "Next Page"
 msgstr "下一頁"
 
-#: ../src/yelp-window.c:361
-#| msgid "Help"
+#: ../src/yelp-window.c:360
 msgid "All Help"
 msgstr "所有求助"
 
-#: ../src/yelp-window.c:383
+#: ../src/yelp-window.c:382
 msgid "Search (Ctrl+S)"
 msgstr "搜尋 (Ctrl+S)"
 
-#: ../src/yelp-window.c:417
-#| msgid "Bookmarks"
+#: ../src/yelp-window.c:416
 msgid "No bookmarks"
 msgstr "沒有書籤"
 
-#: ../src/yelp-window.c:425
-#| msgid "_Add Bookmark"
+#: ../src/yelp-window.c:424
 msgid "Add Bookmark"
 msgstr "加入書籤"
 
-#: ../src/yelp-window.c:431
-#| msgid "_Remove Bookmark"
+#: ../src/yelp-window.c:430
 msgid "Remove Bookmark"
 msgstr "移除書籤"
 

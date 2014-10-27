@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-09 12:23-0700\n"
+"POT-Creation-Date: 2014-10-27 13:59-0700\n"
 "PO-Revision-Date: 2010-09-24 23:30+0100\n"
 "Last-Translator: F Wolff <friedel@translate.org.za>\n"
 "Language-Team: translate-discuss-af@lists.sourceforge.net\n"
@@ -241,34 +241,34 @@ msgstr "Onbekend"
 msgid "The requested page was not found in the document ‘%s’."
 msgstr "Die bladsy wat versoek is, is nie gevind in die dokument ‘%s’ nie."
 
-#: ../libyelp/yelp-document.c:266
+#: ../libyelp/yelp-document.c:268
 msgid "Indexed"
 msgstr ""
 
-#: ../libyelp/yelp-document.c:267
+#: ../libyelp/yelp-document.c:269
 msgid "Whether the document content has been indexed"
 msgstr ""
 
-#: ../libyelp/yelp-document.c:275
+#: ../libyelp/yelp-document.c:277
 #, fuzzy
 msgid "Document URI"
 msgstr "_Alle dokumente"
 
-#: ../libyelp/yelp-document.c:276
+#: ../libyelp/yelp-document.c:278
 msgid "The URI which identifies the document"
 msgstr ""
 
-#: ../libyelp/yelp-document.c:992
+#: ../libyelp/yelp-document.c:996
 #, c-format
 msgid "Search results for “%s”"
 msgstr ""
 
-#: ../libyelp/yelp-document.c:1004
+#: ../libyelp/yelp-document.c:1008
 #, c-format
 msgid "No matching help pages found in “%s”."
 msgstr ""
 
-#: ../libyelp/yelp-document.c:1010
+#: ../libyelp/yelp-document.c:1014
 msgid "No matching help pages found."
 msgstr ""
 
@@ -277,7 +277,7 @@ msgstr ""
 msgid "An unknown error occurred."
 msgstr "'n Onbekende fout het voorgekom."
 
-#: ../libyelp/yelp-help-list.c:548 ../libyelp/yelp-help-list.c:557
+#: ../libyelp/yelp-help-list.c:547 ../libyelp/yelp-help-list.c:556
 #, fuzzy
 msgid "All Help Documents"
 msgstr "_Alle dokumente"
@@ -290,104 +290,72 @@ msgstr ""
 "Die lêer ‘%s’ kon nie ontleed word nie, want dit is nie 'n goed gevormde "
 "\"info\"-bladsy nie."
 
-#: ../libyelp/yelp-location-entry.c:334
-msgid "View"
-msgstr "Bekyk"
-
-#: ../libyelp/yelp-location-entry.c:335
-#, fuzzy
-msgid "A YelpView instance to control"
-msgstr "'n YelpView-voorkoms om te beheer"
-
-#: ../libyelp/yelp-location-entry.c:350
-msgid "Bookmarks"
-msgstr "Boekmerke"
-
-#: ../libyelp/yelp-location-entry.c:351
-#, fuzzy
-msgid "A YelpBookmarks implementation instance"
-msgstr "'n YelpBookmarks implimenteringsvoorkoms"
-
-#: ../libyelp/yelp-location-entry.c:367
-msgid "Enable Search"
-msgstr "Stel soektog in werking"
-
-#: ../libyelp/yelp-location-entry.c:368
-#, fuzzy
-msgid "Whether the location entry can be used as a search field"
-msgstr "Of die liggingstoegang gebruik kan word as 'n soekveld"
-
-#: ../libyelp/yelp-location-entry.c:438 ../src/yelp-window.c:268
-msgid "Search..."
-msgstr "Soek..."
-
-#: ../libyelp/yelp-location-entry.c:781
-#, fuzzy
-msgid "Clear the search text"
-msgstr "Vergroot die grootte van die teks"
-
-#: ../libyelp/yelp-location-entry.c:829 ../libyelp/yelp-location-entry.c:1591
-#, fuzzy
-msgid "Bookmark this page"
-msgstr "Boekmerke"
-
-#: ../libyelp/yelp-location-entry.c:837 ../libyelp/yelp-location-entry.c:1599
-#, fuzzy
-msgid "Remove bookmark"
-msgstr "_Verwyder boekmerk"
-
-#: ../libyelp/yelp-location-entry.c:1152
-#, c-format
-msgid "Search for “%s”"
-msgstr ""
-
-#: ../libyelp/yelp-location-entry.c:1456
-msgid "Loading"
-msgstr "Laai"
-
 #: ../libyelp/yelp-mallard-document.c:344
 #, c-format
 msgid "The directory ‘%s’ does not exist."
 msgstr "Die gids ‘%s’ bestaan nie."
 
-#: ../libyelp/yelp-settings.c:154
+#: ../libyelp/yelp-search-entry.c:172
+msgid "View"
+msgstr "Bekyk"
+
+#: ../libyelp/yelp-search-entry.c:173
+#, fuzzy
+msgid "A YelpView instance to control"
+msgstr "'n YelpView-voorkoms om te beheer"
+
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:399
+msgid "Bookmarks"
+msgstr "Boekmerke"
+
+#: ../libyelp/yelp-search-entry.c:189
+#, fuzzy
+msgid "A YelpBookmarks implementation instance"
+msgstr "'n YelpBookmarks implimenteringsvoorkoms"
+
+#: ../libyelp/yelp-search-entry.c:434
+#, c-format
+msgid "Search for “%s”"
+msgstr ""
+
+#: ../libyelp/yelp-settings.c:150
 msgid "GtkSettings"
 msgstr "GtkSettings"
 
-#: ../libyelp/yelp-settings.c:155
+#: ../libyelp/yelp-settings.c:151
 msgid "A GtkSettings object to get settings from"
 msgstr "'n GtkSettings-objek om instellings van te kry"
 
-#: ../libyelp/yelp-settings.c:163
+#: ../libyelp/yelp-settings.c:159
 msgid "GtkIconTheme"
 msgstr "GtkIconTheme"
 
-#: ../libyelp/yelp-settings.c:164
+#: ../libyelp/yelp-settings.c:160
 msgid "A GtkIconTheme object to get icons from"
 msgstr "'n GtkIconTheme-objek om ikone van te kry"
 
-#: ../libyelp/yelp-settings.c:172
+#: ../libyelp/yelp-settings.c:168
 msgid "Font Adjustment"
 msgstr "Font-verstelling"
 
-#: ../libyelp/yelp-settings.c:173
+#: ../libyelp/yelp-settings.c:169
 msgid "A size adjustment to add to font sizes"
 msgstr "'n Grootte verstelling om by fontgroottes te voeg"
 
-#: ../libyelp/yelp-settings.c:181
+#: ../libyelp/yelp-settings.c:177
 msgid "Show Text Cursor"
 msgstr "Vertoon teksmerker"
 
-#: ../libyelp/yelp-settings.c:182
+#: ../libyelp/yelp-settings.c:178
 #, fuzzy
 msgid "Show the text cursor or caret for accessible navigation"
 msgstr "Vertoon die teksmerker of vir toeganklike navigasie"
 
-#: ../libyelp/yelp-settings.c:190
+#: ../libyelp/yelp-settings.c:186
 msgid "Editor Mode"
 msgstr "Redigeerdermodus"
 
-#: ../libyelp/yelp-settings.c:191
+#: ../libyelp/yelp-settings.c:187
 msgid "Enable features useful to editors"
 msgstr "Aktiveer eienskappe nuttig vir redigeerders"
 
@@ -421,307 +389,276 @@ msgstr "Geen \"href\"-attribuut gevind op yelp:document nie\n"
 msgid "Out of memory"
 msgstr "Geheue is op"
 
-#: ../libyelp/yelp-view.c:129
-msgid "_Print..."
-msgstr "_Druk..."
-
-#: ../libyelp/yelp-view.c:134
-msgid "_Back"
-msgstr "_Terug"
-
-#: ../libyelp/yelp-view.c:139
-msgid "_Forward"
-msgstr "_Vorentoe"
-
-#: ../libyelp/yelp-view.c:144
-msgid "_Previous Page"
-msgstr "_Vorige bladsy"
-
-#: ../libyelp/yelp-view.c:149
-msgid "_Next Page"
-msgstr "_Volgende bladsy"
-
-#: ../libyelp/yelp-view.c:421
+#: ../libyelp/yelp-view.c:445
 msgid "Yelp URI"
 msgstr "Yelp URI"
 
-#: ../libyelp/yelp-view.c:422
+#: ../libyelp/yelp-view.c:446
 msgid "A YelpUri with the current location"
 msgstr "'n YelpUri met die huidige ligging"
 
-#: ../libyelp/yelp-view.c:430
+#: ../libyelp/yelp-view.c:454
 msgid "Loading State"
 msgstr "Laai status"
 
-#: ../libyelp/yelp-view.c:431
+#: ../libyelp/yelp-view.c:455
 #, fuzzy
 msgid "The loading state of the view"
 msgstr "Die laaistatus van die bekyk"
 
-#: ../libyelp/yelp-view.c:440
+#: ../libyelp/yelp-view.c:464
 msgid "Page ID"
 msgstr "Bladsy ID"
 
-#: ../libyelp/yelp-view.c:441
+#: ../libyelp/yelp-view.c:465
 #, fuzzy
 msgid "The ID of the root page of the page being viewed"
 msgstr "Die ID van die   bladsy van die bladsy word bekyk"
 
-#: ../libyelp/yelp-view.c:449
+#: ../libyelp/yelp-view.c:473
 msgid "Root Title"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:450
+#: ../libyelp/yelp-view.c:474
 #, fuzzy
 msgid "The title of the root page of the page being viewed"
 msgstr "Die titel van die boonstevlak-bladsy van die bladsy wat bekyk word"
 
-#: ../libyelp/yelp-view.c:458
+#: ../libyelp/yelp-view.c:482
 msgid "Page Title"
 msgstr "Bladsytitel"
 
-#: ../libyelp/yelp-view.c:459
+#: ../libyelp/yelp-view.c:483
 msgid "The title of the page being viewed"
 msgstr "Die titel van die bladsy wat bekyk word"
 
-#: ../libyelp/yelp-view.c:467
+#: ../libyelp/yelp-view.c:491
 msgid "Page Description"
 msgstr "Bladsybeskrywing"
 
-#: ../libyelp/yelp-view.c:468
+#: ../libyelp/yelp-view.c:492
 msgid "The description of the page being viewed"
 msgstr "Die beskrywing van die bladsy wat bekyk word"
 
-#: ../libyelp/yelp-view.c:476
+#: ../libyelp/yelp-view.c:500
 msgid "Page Icon"
 msgstr "Bladsyikoon"
 
-#: ../libyelp/yelp-view.c:477
+#: ../libyelp/yelp-view.c:501
 msgid "The icon of the page being viewed"
 msgstr "Die ikoon van die bladsy wat bekyk word"
 
-#: ../libyelp/yelp-view.c:718
+#: ../libyelp/yelp-view.c:743
 #, fuzzy
 msgid "You do not have PackageKit. Package install links require PackageKit."
 msgstr ""
 "PackageKit is nie geïnstalleer nie. Pakketinstallasieskakels vereis "
 "PackageKit."
 
-#: ../libyelp/yelp-view.c:1012
+#: ../libyelp/yelp-view.c:1040
 msgid "Save Image"
 msgstr "Stoor beeld"
 
-#: ../libyelp/yelp-view.c:1107
+#: ../libyelp/yelp-view.c:1135
 msgid "Save Code"
 msgstr "Stoor kode"
 
-#: ../libyelp/yelp-view.c:1270
+#: ../libyelp/yelp-view.c:1298
 #, c-format
 msgid "Send email to %s"
 msgstr "Stuur e-pos aan %s"
 
-#: ../libyelp/yelp-view.c:1285
+#: ../libyelp/yelp-view.c:1313
 msgid "_Install Packages"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1293
+#: ../libyelp/yelp-view.c:1321
 msgid "_Open Link"
 msgstr "_Open skakel"
 
-#: ../libyelp/yelp-view.c:1300
+#: ../libyelp/yelp-view.c:1328
 #, fuzzy
 msgid "_Copy Link Location"
 msgstr "Open ligging"
 
-#: ../libyelp/yelp-view.c:1306
+#: ../libyelp/yelp-view.c:1334
 msgid "Open Link in New _Window"
 msgstr "Open skakel in nuwe _venster"
 
-#: ../libyelp/yelp-view.c:1358
-msgid "_Save Image As..."
+#: ../libyelp/yelp-view.c:1388
+#, fuzzy
+msgid "_Save Image As…"
 msgstr "_Stoor beeld as..."
 
-#: ../libyelp/yelp-view.c:1360
-msgid "_Save Video As..."
+#: ../libyelp/yelp-view.c:1390
+#, fuzzy
+msgid "_Save Video As…"
 msgstr "_Stoor video as..."
 
-#: ../libyelp/yelp-view.c:1367
-msgid "S_end Image To..."
+#: ../libyelp/yelp-view.c:1397
+#, fuzzy
+msgid "S_end Image To…"
 msgstr "S_tuur beeld aan..."
 
-#: ../libyelp/yelp-view.c:1369
-msgid "S_end Video To..."
+#: ../libyelp/yelp-view.c:1399
+#, fuzzy
+msgid "S_end Video To…"
 msgstr "S_tuur video aan..."
 
-#: ../libyelp/yelp-view.c:1380
+#: ../libyelp/yelp-view.c:1410
 msgid "_Copy Text"
 msgstr "_Kopieer teks"
 
-#: ../libyelp/yelp-view.c:1393
+#: ../libyelp/yelp-view.c:1423
 msgid "C_opy Code Block"
 msgstr "K_opieer kodeblok"
 
-#: ../libyelp/yelp-view.c:1398
-msgid "Save Code _Block As..."
+#: ../libyelp/yelp-view.c:1428
+#, fuzzy
+msgid "Save Code _Block As…"
 msgstr "Stoor kode_blok as..."
 
-#: ../libyelp/yelp-view.c:1505
+#: ../libyelp/yelp-view.c:1534
 #, c-format
 msgid "See all search results for “%s”"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1626
+#: ../libyelp/yelp-view.c:1655
 #, c-format
 msgid "Could not load a document for ‘%s’"
 msgstr "Kon nie 'n dokument vir ‘%s’ laai nie"
 
-#: ../libyelp/yelp-view.c:1632
+#: ../libyelp/yelp-view.c:1661
 #, c-format
 msgid "Could not load a document"
 msgstr "Kon nie 'n dokument laai nie"
 
-#: ../libyelp/yelp-view.c:1707
+#: ../libyelp/yelp-view.c:1736
 #, fuzzy
 msgid "Document Not Found"
 msgstr "Nie gevind nie"
 
-#: ../libyelp/yelp-view.c:1709
+#: ../libyelp/yelp-view.c:1738
 #, fuzzy
 msgid "Page Not Found"
 msgstr "Nie gevind nie"
 
-#: ../libyelp/yelp-view.c:1712
+#: ../libyelp/yelp-view.c:1741
 msgid "Cannot Read"
 msgstr "Kan nie lees nie"
 
-#: ../libyelp/yelp-view.c:1718
+#: ../libyelp/yelp-view.c:1747
 msgid "Unknown Error"
 msgstr "Onbekende fout"
 
-#: ../libyelp/yelp-view.c:1738
+#: ../libyelp/yelp-view.c:1767
 msgid "Search for packages containing this document."
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1890
+#: ../libyelp/yelp-view.c:1917
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "Die URI ‘%s’ wys nie na 'n geldige bladsy nie."
 
-#: ../libyelp/yelp-view.c:1896
+#: ../libyelp/yelp-view.c:1923
 #, c-format
 msgid "The URI does not point to a valid page."
 msgstr "Die URI wys nie na 'n geldige bladsy nie."
 
-#: ../libyelp/yelp-view.c:1902
+#: ../libyelp/yelp-view.c:1929
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "Die URI ‘%s’ kon nie ontleed word nie."
 
-#: ../src/yelp-application.c:63
+#: ../src/yelp-application.c:59
 msgid "Turn on editor mode"
 msgstr "Skakel redigeerdermodus aan"
 
-#: ../src/yelp-application.c:126
-msgid "_Larger Text"
-msgstr "_Groter teks"
-
-#: ../src/yelp-application.c:128
-msgid "Increase the size of the text"
-msgstr "Vergroot die grootte van die teks"
-
-#: ../src/yelp-application.c:131
-msgid "_Smaller Text"
-msgstr "_Kleiner teks"
-
-#: ../src/yelp-application.c:133
-msgid "Decrease the size of the text"
-msgstr "Verklein die grootte van die teks"
-
-#: ../src/yelp-application.c:251 ../src/yelp-window.c:1358
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "Hulp"
 
-#: ../src/yelp-application.c:286
-msgid "Show Text _Cursor"
-msgstr "Vertoon _teksmerker"
-
-#: ../src/yelp-window.c:234
-msgid "_Page"
-msgstr "_Bladsy"
-
-#: ../src/yelp-window.c:235
-msgid "_View"
-msgstr "Be_kyk"
-
-#: ../src/yelp-window.c:236
-msgid "_Go"
-msgstr "_Gaan"
-
-#: ../src/yelp-window.c:237
-msgid "_Bookmarks"
-msgstr "_Boekmerke"
-
-#: ../src/yelp-window.c:240
-msgid "_New Window"
+#: ../src/yelp-application.c:322
+#, fuzzy
+msgid "New Window"
 msgstr "_Nuwe venster"
 
-#: ../src/yelp-window.c:245
-msgid "_Close"
-msgstr "_Gaan uit"
+#: ../src/yelp-application.c:326
+#, fuzzy
+msgid "Larger Text"
+msgstr "_Groter teks"
 
-#: ../src/yelp-window.c:250
-msgid "_All Documents"
-msgstr "_Alle dokumente"
+#: ../src/yelp-application.c:327
+#, fuzzy
+msgid "Smaller Text"
+msgstr "_Kleiner teks"
 
-#: ../src/yelp-window.c:254
-msgid "_Add Bookmark"
-msgstr "_Voeg boekmerk by"
-
-#: ../src/yelp-window.c:259
-msgid "_Remove Bookmark"
-msgstr "_Verwyder boekmerk"
-
-#: ../src/yelp-window.c:263
-msgid "Find in Page..."
-msgstr "Vind op bladsy..."
-
-#: ../src/yelp-window.c:273
-msgid "Open Location"
-msgstr "Open ligging"
-
-#: ../src/yelp-window.c:299
+#: ../src/yelp-window.c:206
 msgid "Application"
 msgstr "Toepassing"
 
-#: ../src/yelp-window.c:300
+#: ../src/yelp-window.c:207
 #, fuzzy
 msgid "A YelpApplication instance that controls this window"
 msgstr "'n YelpApplication-voorkoms  wat hierdie venster beheer"
 
-#: ../src/yelp-window.c:427
+#: ../src/yelp-window.c:325
 #, fuzzy
-msgid "Read Link _Later"
-msgstr "Lees later"
+msgid "Back"
+msgstr "_Terug"
 
-#: ../src/yelp-window.c:524
-msgid "Find:"
+#: ../src/yelp-window.c:332
+#, fuzzy
+msgid "Forward"
+msgstr "_Vorentoe"
+
+#: ../src/yelp-window.c:343
+msgid "Menu"
 msgstr ""
 
-#: ../src/yelp-window.c:546
-msgid "Read Later"
-msgstr "Lees later"
+#: ../src/yelp-window.c:348
+msgid "Find…"
+msgstr ""
 
-#: ../src/yelp-window.c:1178
-#, c-format
-msgid "%i match"
-msgid_plural "%i matches"
-msgstr[0] "%i wat pas"
-msgstr[1] "%i wat pas"
+#: ../src/yelp-window.c:349
+#, fuzzy
+msgid "Print…"
+msgstr "Druk"
 
-#: ../src/yelp-window.c:1187
-msgid "No matches"
-msgstr "Niks wat pas"
+#: ../src/yelp-window.c:354
+#, fuzzy
+msgid "Previous Page"
+msgstr "_Vorige bladsy"
+
+#: ../src/yelp-window.c:355
+#, fuzzy
+msgid "Next Page"
+msgstr "_Volgende bladsy"
+
+#: ../src/yelp-window.c:360
+#, fuzzy
+msgid "All Help"
+msgstr "Hulp"
+
+#: ../src/yelp-window.c:382
+msgid "Search (Ctrl+S)"
+msgstr ""
+
+#: ../src/yelp-window.c:416
+#, fuzzy
+msgid "No bookmarks"
+msgstr "Boekmerke"
+
+#: ../src/yelp-window.c:424
+#, fuzzy
+msgid "Add Bookmark"
+msgstr "_Voeg boekmerk by"
+
+#: ../src/yelp-window.c:430
+#, fuzzy
+msgid "Remove Bookmark"
+msgstr "_Verwyder boekmerk"
 
 #: ../yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
@@ -730,6 +667,82 @@ msgstr "Kry hulp met GNOME"
 #: ../yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;"
 msgstr ""
+
+#~ msgid "Enable Search"
+#~ msgstr "Stel soektog in werking"
+
+#, fuzzy
+#~ msgid "Whether the location entry can be used as a search field"
+#~ msgstr "Of die liggingstoegang gebruik kan word as 'n soekveld"
+
+#~ msgid "Search..."
+#~ msgstr "Soek..."
+
+#, fuzzy
+#~ msgid "Clear the search text"
+#~ msgstr "Vergroot die grootte van die teks"
+
+#, fuzzy
+#~ msgid "Bookmark this page"
+#~ msgstr "Boekmerke"
+
+#, fuzzy
+#~ msgid "Remove bookmark"
+#~ msgstr "_Verwyder boekmerk"
+
+#~ msgid "Loading"
+#~ msgstr "Laai"
+
+#~ msgid "_Print..."
+#~ msgstr "_Druk..."
+
+#~ msgid "Increase the size of the text"
+#~ msgstr "Vergroot die grootte van die teks"
+
+#~ msgid "Decrease the size of the text"
+#~ msgstr "Verklein die grootte van die teks"
+
+#~ msgid "Show Text _Cursor"
+#~ msgstr "Vertoon _teksmerker"
+
+#~ msgid "_Page"
+#~ msgstr "_Bladsy"
+
+#~ msgid "_View"
+#~ msgstr "Be_kyk"
+
+#~ msgid "_Go"
+#~ msgstr "_Gaan"
+
+#~ msgid "_Bookmarks"
+#~ msgstr "_Boekmerke"
+
+#~ msgid "_Close"
+#~ msgstr "_Gaan uit"
+
+#~ msgid "_All Documents"
+#~ msgstr "_Alle dokumente"
+
+#~ msgid "Find in Page..."
+#~ msgstr "Vind op bladsy..."
+
+#~ msgid "Open Location"
+#~ msgstr "Open ligging"
+
+#, fuzzy
+#~ msgid "Read Link _Later"
+#~ msgstr "Lees later"
+
+#~ msgid "Read Later"
+#~ msgstr "Lees later"
+
+#~ msgid "%i match"
+#~ msgid_plural "%i matches"
+#~ msgstr[0] "%i wat pas"
+#~ msgstr[1] "%i wat pas"
+
+#~ msgid "No matches"
+#~ msgstr "Niks wat pas"
 
 #~ msgid "GNU Info Pages"
 #~ msgstr "GNU Info-bladsye"
@@ -1193,9 +1206,6 @@ msgstr ""
 
 #~ msgid "Presentation Tools"
 #~ msgstr "Voorleggingnutsgoed"
-
-#~ msgid "Printing"
-#~ msgstr "Druk"
 
 #~ msgid "Project Management Tools"
 #~ msgstr "Projekbestuurnutsgoed"
