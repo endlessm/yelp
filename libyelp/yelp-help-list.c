@@ -29,6 +29,7 @@
 #include <libxml/parser.h>
 #include <libxml/xinclude.h>
 #include <libxml/xpath.h>
+#include <libxml/xpathInternals.h>
 
 #include "yelp-help-list.h"
 #include "yelp-settings.h"
@@ -129,15 +130,15 @@ yelp_help_list_init (YelpHelpList *list)
                                            g_free,
                                            (GDestroyNotify) help_list_entry_free);
 
-    priv->get_docbook_title = xmlXPathCompile ("normalize-space("
+    priv->get_docbook_title = xmlXPathCompile ((const xmlChar *) "normalize-space("
                                                "( /*/title | /*/db:title"
                                                "| /*/articleinfo/title"
                                                "| /*/bookinfo/title"
                                                "| /*/db:info/db:title"
                                                ")[1])");
-    priv->get_mallard_title = xmlXPathCompile ("normalize-space((/mal:page/mal:info/mal:title[@type='text'] |"
+    priv->get_mallard_title = xmlXPathCompile ((const xmlChar *) "normalize-space((/mal:page/mal:info/mal:title[@type='text'] |"
                                                "                 /mal:page/mal:title)[1])");
-    priv->get_mallard_desc = xmlXPathCompile ("normalize-space(/mal:page/mal:info/mal:desc[1])");
+    priv->get_mallard_desc = xmlXPathCompile ((const xmlChar *) "normalize-space(/mal:page/mal:info/mal:desc[1])");
 
     yelp_document_set_page_id ((YelpDocument *) list, NULL, "index");
     yelp_document_set_page_id ((YelpDocument *) list, "index", "index");
@@ -224,7 +225,7 @@ help_list_think (YelpHelpList *list)
     YelpHelpListPrivate *priv = GET_PRIV (list);
     /* The strings are still owned by GLib; we just own the array. */
     gchar **datadirs;
-    gint datadir_i, subdir_i, lang_i;
+    gint datadir_i, lang_i;
     GList *cur;
     GtkIconTheme *theme;
 
@@ -247,7 +248,7 @@ help_list_think (YelpHelpList *list)
             g_free (helpdirname);
             continue;
         }
-        while (child = g_file_enumerator_next_file (children, NULL, NULL)) {
+        while ((child = g_file_enumerator_next_file (children, NULL, NULL))) {
             gchar *docid;
             HelpListEntry *entry = NULL;
 
@@ -324,7 +325,7 @@ help_list_think (YelpHelpList *list)
                 g_free (langdirname);
                 continue;
             }
-            while (child = g_file_enumerator_next_file (children, NULL, NULL)) {
+            while ((child = g_file_enumerator_next_file (children, NULL, NULL))) {
                 gchar *docid, *filename;
                 HelpListEntry *entry = NULL;
                 if (g_file_info_get_file_type (child) != G_FILE_TYPE_DIRECTORY) {
@@ -347,7 +348,6 @@ help_list_think (YelpHelpList *list)
                     entry->id = docid;
                     entry->filename = filename;
                     entry->type = YELP_URI_DOCUMENT_TYPE_MALLARD;
-                    g_object_unref (child);
                     goto found;
                 }
                 g_free (filename);
@@ -361,7 +361,6 @@ help_list_think (YelpHelpList *list)
                     entry->id = docid;
                     entry->filename = filename;
                     entry->type = YELP_URI_DOCUMENT_TYPE_DOCBOOK;
-                    g_object_unref (child);
                     goto found;
                 }
                 g_free (filename);
@@ -631,7 +630,7 @@ help_list_process_docbook (YelpHelpList  *list,
     obj = xmlXPathCompiledEval (priv->get_docbook_title, xpath);
     if (obj) {
         if (obj->stringval)
-            entry->title = g_strdup (obj->stringval);
+            entry->title = g_strdup ((const gchar *) obj->stringval);
         xmlXPathFreeObject (obj);
     }
 
@@ -671,14 +670,14 @@ help_list_process_mallard (YelpHelpList  *list,
     obj = xmlXPathCompiledEval (priv->get_mallard_title, xpath);
     if (obj) {
         if (obj->stringval)
-            entry->title = g_strdup (obj->stringval);
+            entry->title = g_strdup ((const gchar *) obj->stringval);
         xmlXPathFreeObject (obj);
     }
 
     obj = xmlXPathCompiledEval (priv->get_mallard_desc, xpath);
     if (obj) {
         if (obj->stringval)
-            entry->desc = g_strdup (obj->stringval);
+            entry->desc = g_strdup ((const gchar *) obj->stringval);
         xmlXPathFreeObject (obj);
     }
 

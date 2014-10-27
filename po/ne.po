@@ -17,9 +17,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp.HEAD.ne\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-09 12:23-0700\n"
-"PO-Revision-Date: 2007-12-20 15:26+0545\n"
-"Last-Translator: Shyam Krishna Bal <balshyam24@yahoo.com>\n"
+"POT-Creation-Date: 2014-10-27 13:59-0700\n"
+"PO-Revision-Date: 2014-09-16 22:07-0500\n"
+"Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
 "Language-Team: Nepali <info@mpp.org.np>\n"
 "Language: ne\n"
 "MIME-Version: 1.0\n"
@@ -39,8 +39,9 @@ msgstr ""
 #. <string/> - The package to install
 #.
 #: yelp.xml.in:36
+#, fuzzy
 msgid "Install <string/>"
-msgstr ""
+msgstr "वास्तविक स्ट्रिङ"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
@@ -197,26 +198,25 @@ msgstr ""
 #: ../libyelp/yelp-bz2-decompressor.c:144
 #: ../libyelp/yelp-lzma-decompressor.c:153
 msgid "Invalid compressed data"
-msgstr ""
+msgstr "सम्पर्क डेटा अवैध छ"
 
 #: ../libyelp/yelp-bz2-decompressor.c:150
 #: ../libyelp/yelp-lzma-decompressor.c:159
-#, fuzzy
 msgid "Not enough memory"
-msgstr "स्मृतिबाट बाहिर"
+msgstr "प्रशस्त स्मृति छैन"
 
 #: ../libyelp/yelp-docbook-document.c:297 ../libyelp/yelp-info-document.c:237
 #: ../libyelp/yelp-mallard-document.c:305
 #: ../libyelp/yelp-mallard-document.c:456 ../libyelp/yelp-man-document.c:281
 #, fuzzy, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
-msgstr "पृष्ठ %s कागजात %s मा फेला परेन ।"
+msgstr "अनुरोध गरिएको पृष्ठ कागजात %s मा फेला परेन ।"
 
 #: ../libyelp/yelp-docbook-document.c:332 ../libyelp/yelp-info-document.c:371
 #: ../libyelp/yelp-man-document.c:416
-#, fuzzy, c-format
+#, c-format
 msgid "The file does not exist."
-msgstr "फाइल ‘%s’ अवस्थित छैन ।"
+msgstr "फाइल अवस्थित छैन"
 
 #: ../libyelp/yelp-docbook-document.c:342 ../libyelp/yelp-info-document.c:381
 #: ../libyelp/yelp-man-document.c:426
@@ -251,45 +251,46 @@ msgstr "अज्ञात"
 msgid "The requested page was not found in the document ‘%s’."
 msgstr "अनुरोध गरिएको पृष्ठ कागजात %s मा फेला परेन ।"
 
-#: ../libyelp/yelp-document.c:266
+#: ../libyelp/yelp-document.c:268
 msgid "Indexed"
-msgstr ""
+msgstr "अनुक्रमण गरिएको"
 
-#: ../libyelp/yelp-document.c:267
+#: ../libyelp/yelp-document.c:269
 msgid "Whether the document content has been indexed"
 msgstr ""
 
-#: ../libyelp/yelp-document.c:275
-#, fuzzy
+#: ../libyelp/yelp-document.c:277
 msgid "Document URI"
-msgstr "कागजात सेक्सन"
+msgstr "पुस्तक यूआरएल"
 
-#: ../libyelp/yelp-document.c:276
+#: ../libyelp/yelp-document.c:278
+#, fuzzy
 msgid "The URI which identifies the document"
-msgstr ""
+msgstr "सम्बन्धित कागजातमा अद्धितिय URL"
 
-#: ../libyelp/yelp-document.c:992
+#: ../libyelp/yelp-document.c:996
 #, fuzzy, c-format
 msgid "Search results for “%s”"
-msgstr "\"%s\" का लागि नतिजा खोजी गर्नुहोस्"
+msgstr "कुञ्जी समाविष्ट गर्न खोजी गर्नुहोस्: "
 
-#: ../libyelp/yelp-document.c:1004
+#: ../libyelp/yelp-document.c:1008
 #, c-format
 msgid "No matching help pages found in “%s”."
 msgstr ""
 
-#: ../libyelp/yelp-document.c:1010
+#: ../libyelp/yelp-document.c:1014
+#, fuzzy
 msgid "No matching help pages found."
-msgstr ""
+msgstr "मिल्दो रेकर्डहरू फेला परेन।"
 
 #: ../libyelp/yelp-error.c:35
 #, c-format
 msgid "An unknown error occurred."
-msgstr ""
+msgstr "अज्ञात त्रुटि देखापर्या"
 
-#: ../libyelp/yelp-help-list.c:548 ../libyelp/yelp-help-list.c:557
+#: ../libyelp/yelp-help-list.c:547 ../libyelp/yelp-help-list.c:556
 msgid "All Help Documents"
-msgstr ""
+msgstr "सबै मद्दतहरू देखाउनुहोस्"
 
 #: ../libyelp/yelp-info-document.c:396
 #, c-format
@@ -298,112 +299,87 @@ msgid ""
 msgstr ""
 "फाइल ‘%s’ पद वर्णन गर्न सकेन किनभने यो राम्रोसँग ढाँचाबद्ध भएको सूचना पृष्ठ होइन ।"
 
-#: ../libyelp/yelp-location-entry.c:334
-msgid "View"
-msgstr ""
-
-#: ../libyelp/yelp-location-entry.c:335
-msgid "A YelpView instance to control"
-msgstr ""
-
-#: ../libyelp/yelp-location-entry.c:350
-msgid "Bookmarks"
-msgstr "पुस्तकचिनो"
-
-#: ../libyelp/yelp-location-entry.c:351
-msgid "A YelpBookmarks implementation instance"
-msgstr ""
-
-#: ../libyelp/yelp-location-entry.c:367
-msgid "Enable Search"
-msgstr ""
-
-#: ../libyelp/yelp-location-entry.c:368
-msgid "Whether the location entry can be used as a search field"
-msgstr ""
-
-#: ../libyelp/yelp-location-entry.c:438 ../src/yelp-window.c:268
-#, fuzzy
-msgid "Search..."
-msgstr "खोजी गर्नुहोस्:"
-
-#: ../libyelp/yelp-location-entry.c:781
-#, fuzzy
-msgid "Clear the search text"
-msgstr "%s मा अनलाइन खोजी दोहोर्याउनुहोस्"
-
-#: ../libyelp/yelp-location-entry.c:829 ../libyelp/yelp-location-entry.c:1591
-#, fuzzy
-msgid "Bookmark this page"
-msgstr "पुस्तकचिनो"
-
-#: ../libyelp/yelp-location-entry.c:837 ../libyelp/yelp-location-entry.c:1599
-#, fuzzy
-msgid "Remove bookmark"
-msgstr "पुस्तकचिनो हटाउनुहोस्"
-
-#: ../libyelp/yelp-location-entry.c:1152
-#, fuzzy, c-format
-msgid "Search for “%s”"
-msgstr "\"%s\" का लागि नतिजा खोजी गर्नुहोस्"
-
-#: ../libyelp/yelp-location-entry.c:1456
-#, fuzzy
-msgid "Loading"
-msgstr "लोड हुँदैछ..."
-
 #: ../libyelp/yelp-mallard-document.c:344
 #, fuzzy, c-format
 msgid "The directory ‘%s’ does not exist."
 msgstr "फाइल ‘%s’ अवस्थित छैन ।"
 
-#: ../libyelp/yelp-settings.c:154
+#: ../libyelp/yelp-search-entry.c:172
+msgid "View"
+msgstr "दृश्य"
+
+#: ../libyelp/yelp-search-entry.c:173
+#, fuzzy
+msgid "A YelpView instance to control"
+msgstr "नियन्त्रण बिन्दु थप्न क्लिक गर्नुहोस्"
+
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:399
+msgid "Bookmarks"
+msgstr "पुस्तकचिनो"
+
+#: ../libyelp/yelp-search-entry.c:189
+#, fuzzy
+msgid "A YelpBookmarks implementation instance"
+msgstr "यस दृष्टान्त मात्र"
+
+#: ../libyelp/yelp-search-entry.c:434
+#, c-format
+msgid "Search for “%s”"
+msgstr "“%s” खोजी गर्नुहोस्"
+
+#: ../libyelp/yelp-settings.c:150
 msgid "GtkSettings"
 msgstr ""
 
-#: ../libyelp/yelp-settings.c:155
+#: ../libyelp/yelp-settings.c:151
+#, fuzzy
 msgid "A GtkSettings object to get settings from"
-msgstr ""
+msgstr "यसबाट हाइलाइट बान्की प्राप्त गरिने भाषा"
 
-#: ../libyelp/yelp-settings.c:163
+#: ../libyelp/yelp-settings.c:159
 msgid "GtkIconTheme"
 msgstr ""
 
-#: ../libyelp/yelp-settings.c:164
+#: ../libyelp/yelp-settings.c:160
+#, fuzzy
 msgid "A GtkIconTheme object to get icons from"
-msgstr ""
+msgstr "यसबाट हाइलाइट बान्की प्राप्त गरिने भाषा"
 
-#: ../libyelp/yelp-settings.c:172
+#: ../libyelp/yelp-settings.c:168
+#, fuzzy
 msgid "Font Adjustment"
-msgstr ""
+msgstr "क्षितिजीय मिलान"
 
-#: ../libyelp/yelp-settings.c:173
+#: ../libyelp/yelp-settings.c:169
 msgid "A size adjustment to add to font sizes"
 msgstr ""
 
-#: ../libyelp/yelp-settings.c:181
+#: ../libyelp/yelp-settings.c:177
+#, fuzzy
 msgid "Show Text Cursor"
-msgstr ""
+msgstr "पाठ प्रविष्टका विकल्पहरू देखाउनुहोस्"
 
-#: ../libyelp/yelp-settings.c:182
+#: ../libyelp/yelp-settings.c:178
 msgid "Show the text cursor or caret for accessible navigation"
 msgstr ""
 
-#: ../libyelp/yelp-settings.c:190
+#: ../libyelp/yelp-settings.c:186
+#, fuzzy
 msgid "Editor Mode"
-msgstr ""
+msgstr "पार्टी मोड"
 
-#: ../libyelp/yelp-settings.c:191
+#: ../libyelp/yelp-settings.c:187
 msgid "Enable features useful to editors"
 msgstr ""
 
 #: ../libyelp/yelp-sqlite-storage.c:147
 msgid "Database filename"
-msgstr ""
+msgstr "डेटाबेस फाईलनाम"
 
 #: ../libyelp/yelp-sqlite-storage.c:148
+#, fuzzy
 msgid "The filename of the sqlite database"
-msgstr ""
+msgstr "सीडी डेटाबेस प्राथमिकता"
 
 #: ../libyelp/yelp-transform.c:169
 #, fuzzy
@@ -411,8 +387,9 @@ msgid "XSLT Stylesheet"
 msgstr "अवैध शैलीपाना"
 
 #: ../libyelp/yelp-transform.c:170
+#, fuzzy
 msgid "The location of the XSLT stylesheet"
-msgstr ""
+msgstr "लाइब्रेरी स्थान छनौट गर्नुहोस्"
 
 #: ../libyelp/yelp-transform.c:378 ../libyelp/yelp-transform.c:393
 #, fuzzy, c-format
@@ -427,324 +404,279 @@ msgstr "कुनै href विशेषता yelp:document मा फेल�
 msgid "Out of memory"
 msgstr "स्मृतिबाट बाहिर"
 
-#: ../libyelp/yelp-view.c:129
-#, fuzzy
-msgid "_Print..."
-msgstr "मुद्रण गर्नुहोस्"
-
-#: ../libyelp/yelp-view.c:134
-msgid "_Back"
-msgstr "पछाडि"
-
-#: ../libyelp/yelp-view.c:139
-msgid "_Forward"
-msgstr "अगाडि"
-
-#: ../libyelp/yelp-view.c:144
-#, fuzzy
-msgid "_Previous Page"
-msgstr "अघिल्लो"
-
-#: ../libyelp/yelp-view.c:149
-#, fuzzy
-msgid "_Next Page"
-msgstr "पछिल्लो"
-
-#: ../libyelp/yelp-view.c:421
+#: ../libyelp/yelp-view.c:445
 #, fuzzy
 msgid "Yelp URI"
-msgstr "येल्प"
+msgstr "पुस्तक यूआरएल"
 
-#: ../libyelp/yelp-view.c:422
+#: ../libyelp/yelp-view.c:446
+#, fuzzy
 msgid "A YelpUri with the current location"
-msgstr ""
+msgstr "हालको स्थान लोड गर्न रोक्नुहोस्"
 
-#: ../libyelp/yelp-view.c:430
+#: ../libyelp/yelp-view.c:454
 #, fuzzy
 msgid "Loading State"
-msgstr "लोड हुँदैछ..."
+msgstr "काम स्थिति"
 
-#: ../libyelp/yelp-view.c:431
+#: ../libyelp/yelp-view.c:455
+#, fuzzy
 msgid "The loading state of the view"
-msgstr ""
+msgstr "सबै फाइलहरू हेर्नुहोस्"
 
-#: ../libyelp/yelp-view.c:440
+#: ../libyelp/yelp-view.c:464
+#, fuzzy
 msgid "Page ID"
-msgstr ""
+msgstr "<b>कुञ्जी आईडी:</b>"
 
-#: ../libyelp/yelp-view.c:441
+#: ../libyelp/yelp-view.c:465
 msgid "The ID of the root page of the page being viewed"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:449
+#: ../libyelp/yelp-view.c:473
+#, fuzzy
 msgid "Root Title"
-msgstr ""
+msgstr "कलाकार - शीर्षक"
 
-#: ../libyelp/yelp-view.c:450
+#: ../libyelp/yelp-view.c:474
 msgid "The title of the root page of the page being viewed"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:458
+#: ../libyelp/yelp-view.c:482
 msgid "Page Title"
-msgstr ""
+msgstr "पृष्ठ - शीर्षक"
 
-#: ../libyelp/yelp-view.c:459
+#: ../libyelp/yelp-view.c:483
 msgid "The title of the page being viewed"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:467
+#: ../libyelp/yelp-view.c:491
 msgid "Page Description"
-msgstr ""
+msgstr "पृष्ठ वर्णन:"
 
-#: ../libyelp/yelp-view.c:468
+#: ../libyelp/yelp-view.c:492
 msgid "The description of the page being viewed"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:476
-#, fuzzy
+#: ../libyelp/yelp-view.c:500
 msgid "Page Icon"
-msgstr "पृष्ठ फेला परेन"
+msgstr "पृष्ठ प्रतिमा"
 
-#: ../libyelp/yelp-view.c:477
+#: ../libyelp/yelp-view.c:501
 msgid "The icon of the page being viewed"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:718
+#: ../libyelp/yelp-view.c:743
 msgid "You do not have PackageKit. Package install links require PackageKit."
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1012
+#: ../libyelp/yelp-view.c:1040
 msgid "Save Image"
-msgstr ""
+msgstr "छवि बचत गर्नुहोस्"
 
-#: ../libyelp/yelp-view.c:1107
+#: ../libyelp/yelp-view.c:1135
 msgid "Save Code"
-msgstr ""
+msgstr "कोड बचत गर्नुहोस्"
 
-#: ../libyelp/yelp-view.c:1270
-#, c-format
+#: ../libyelp/yelp-view.c:1298
+#, fuzzy, c-format
 msgid "Send email to %s"
-msgstr ""
+msgstr "...लाई मेल पठाउनुहोस्"
 
-#: ../libyelp/yelp-view.c:1285
+#: ../libyelp/yelp-view.c:1313
 #, fuzzy
 msgid "_Install Packages"
-msgstr "म्यानुअल पृष्ठ"
+msgstr "'+' प्याकेजहरू स्थापना गर्न"
 
-#: ../libyelp/yelp-view.c:1293
+#: ../libyelp/yelp-view.c:1321
 msgid "_Open Link"
 msgstr "लिङ्क खोल्नुहोस्"
 
-#: ../libyelp/yelp-view.c:1300
+#: ../libyelp/yelp-view.c:1328
 #, fuzzy
 msgid "_Copy Link Location"
-msgstr "स्थान खोल्नुहोस्"
+msgstr "लिङ्क स्थान प्रतिलिपि बनाउनुहोस्"
 
-#: ../libyelp/yelp-view.c:1306
+#: ../libyelp/yelp-view.c:1334
 #, fuzzy
 msgid "Open Link in New _Window"
 msgstr "नयाँ सञ्झ्यालमा लिङ्क खोल्नुहोस्"
 
-#: ../libyelp/yelp-view.c:1358
-msgid "_Save Image As..."
-msgstr ""
+#: ../libyelp/yelp-view.c:1388
+msgid "_Save Image As…"
+msgstr " छवि बचत"
 
-#: ../libyelp/yelp-view.c:1360
-msgid "_Save Video As..."
-msgstr ""
+#: ../libyelp/yelp-view.c:1390
+msgid "_Save Video As…"
+msgstr "भिडियो बचत"
 
-#: ../libyelp/yelp-view.c:1367
-msgid "S_end Image To..."
-msgstr ""
+#: ../libyelp/yelp-view.c:1397
+#, fuzzy
+msgid "S_end Image To…"
+msgstr "PNM छवि डेटाको अप्रत्याशित अन्त्य"
 
-#: ../libyelp/yelp-view.c:1369
-msgid "S_end Video To..."
-msgstr ""
+#: ../libyelp/yelp-view.c:1399
+#, fuzzy
+msgid "S_end Video To…"
+msgstr "भिडियो सम्मेलन युआरएल"
 
-#: ../libyelp/yelp-view.c:1380
+#: ../libyelp/yelp-view.c:1410
 #, fuzzy
 msgid "_Copy Text"
-msgstr "प्रतिलिपि बनाउनुहोस्"
+msgstr "पाठलाई प्रतिलिपि गर्न:"
 
-#: ../libyelp/yelp-view.c:1393
+#: ../libyelp/yelp-view.c:1423
+#, fuzzy
 msgid "C_opy Code Block"
+msgstr "युनिकोड खण्डद्वार"
+
+#: ../libyelp/yelp-view.c:1428
+msgid "Save Code _Block As…"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1398
-msgid "Save Code _Block As..."
-msgstr ""
-
-#: ../libyelp/yelp-view.c:1505
+#: ../libyelp/yelp-view.c:1534
 #, fuzzy, c-format
 msgid "See all search results for “%s”"
 msgstr "\"%s\" का लागि नतिजा खोजी गर्नुहोस्"
 
-#: ../libyelp/yelp-view.c:1626
+#: ../libyelp/yelp-view.c:1655
 #, c-format
 msgid "Could not load a document for ‘%s’"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1632
-#, c-format
+#: ../libyelp/yelp-view.c:1661
+#, fuzzy, c-format
 msgid "Could not load a document"
-msgstr ""
+msgstr "फन्ट \"%s\" लोड गर्न सकेन\n"
 
-#: ../libyelp/yelp-view.c:1707
+#: ../libyelp/yelp-view.c:1736
 #, fuzzy
 msgid "Document Not Found"
-msgstr "कागजात सेक्सन"
+msgstr "कागजात फेला परेन"
 
-#: ../libyelp/yelp-view.c:1709
+#: ../libyelp/yelp-view.c:1738
 #, fuzzy
 msgid "Page Not Found"
 msgstr "पृष्ठ फेला परेन"
 
-#: ../libyelp/yelp-view.c:1712
+#: ../libyelp/yelp-view.c:1741
 #, fuzzy
 msgid "Cannot Read"
-msgstr "सञ्झ्याल सिर्जना गर्न सकिँदैन"
+msgstr "सीडी पढ्न सकिँदैन: %s"
 
-#: ../libyelp/yelp-view.c:1718
+#: ../libyelp/yelp-view.c:1747
 msgid "Unknown Error"
 msgstr "अज्ञात त्रुटि"
 
-#: ../libyelp/yelp-view.c:1738
+#: ../libyelp/yelp-view.c:1767
 #, fuzzy
 msgid "Search for packages containing this document."
 msgstr "अन्य मिसिलीकरणका लागि खोजी गर्नुहोस्"
 
-#: ../libyelp/yelp-view.c:1890
+#: ../libyelp/yelp-view.c:1917
 #, fuzzy, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "फाइल ‘%s’ अवस्थित छैन ।"
 
-#: ../libyelp/yelp-view.c:1896
+#: ../libyelp/yelp-view.c:1923
 #, c-format
 msgid "The URI does not point to a valid page."
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1902
+#: ../libyelp/yelp-view.c:1929
 #, fuzzy, c-format
 msgid "The URI ‘%s’ could not be parsed."
-msgstr "फाइल ‘%s’ अवस्थित छैन ।"
+msgstr "GIMP टिप्स फाइल पद वर्णन गर्न सकेन!"
 
-#: ../src/yelp-application.c:63
+#: ../src/yelp-application.c:59
+#, fuzzy
 msgid "Turn on editor mode"
-msgstr ""
+msgstr "`%s' मा मोड सेट गर्न असफल: %s"
 
-#: ../src/yelp-application.c:126
-msgid "_Larger Text"
-msgstr ""
-
-#: ../src/yelp-application.c:128
-msgid "Increase the size of the text"
-msgstr ""
-
-#: ../src/yelp-application.c:131
-msgid "_Smaller Text"
-msgstr ""
-
-#: ../src/yelp-application.c:133
-msgid "Decrease the size of the text"
-msgstr ""
-
-#: ../src/yelp-application.c:251 ../src/yelp-window.c:1358
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "मद्दत"
 
-#: ../src/yelp-application.c:286
-msgid "Show Text _Cursor"
-msgstr ""
-
-#: ../src/yelp-window.c:234
-msgid "_Page"
-msgstr ""
-
-#: ../src/yelp-window.c:235
-msgid "_View"
-msgstr ""
-
-#: ../src/yelp-window.c:236
-msgid "_Go"
-msgstr "जानुहोस्"
-
-#: ../src/yelp-window.c:237
-msgid "_Bookmarks"
-msgstr "पुस्तकचिनो"
-
-#: ../src/yelp-window.c:240
-msgid "_New Window"
+#: ../src/yelp-application.c:322
+msgid "New Window"
 msgstr "नयाँ सञ्झ्याल"
 
-#: ../src/yelp-window.c:245
+#: ../src/yelp-application.c:326
 #, fuzzy
-msgid "_Close"
-msgstr "सञ्झ्याल बन्द गर्नुहोस्"
+msgid "Larger Text"
+msgstr "गुप्तलेखन गरिएको पाठ"
 
-#: ../src/yelp-window.c:250
+#: ../src/yelp-application.c:327
 #, fuzzy
-msgid "_All Documents"
-msgstr "यो कागजातका बारेमा"
+msgid "Smaller Text"
+msgstr "झन सानो पाठ साइज"
 
-#: ../src/yelp-window.c:254
-msgid "_Add Bookmark"
-msgstr "पुस्तकचिनो थप्नुहोस्"
-
-#: ../src/yelp-window.c:259
-#, fuzzy
-msgid "_Remove Bookmark"
-msgstr "पुस्तकचिनो हटाउनुहोस्"
-
-#: ../src/yelp-window.c:263
-#, fuzzy
-msgid "Find in Page..."
-msgstr "यो पृष्ठ मुद्रण गर्नुहोस् ..."
-
-#: ../src/yelp-window.c:273
-msgid "Open Location"
-msgstr "स्थान खोल्नुहोस्"
-
-#: ../src/yelp-window.c:299
-#, fuzzy
+#: ../src/yelp-window.c:206
 msgid "Application"
 msgstr "अनुप्रयोग"
 
-#: ../src/yelp-window.c:300
+#: ../src/yelp-window.c:207
 msgid "A YelpApplication instance that controls this window"
 msgstr ""
 
-#: ../src/yelp-window.c:427
-msgid "Read Link _Later"
-msgstr ""
+#: ../src/yelp-window.c:325
+msgid "Back"
+msgstr "पछाडि"
 
-#: ../src/yelp-window.c:524
+#: ../src/yelp-window.c:332
+msgid "Forward"
+msgstr "पठाउनुहोस्"
+
+#: ../src/yelp-window.c:343
+msgid "Menu"
+msgstr "मेनु"
+
+#: ../src/yelp-window.c:348
+msgid "Find…"
+msgstr "फेला पार्नुहोस्"
+
+#: ../src/yelp-window.c:349
+msgid "Print…"
+msgstr "मुद्रण गर्नुहोस्"
+
+#: ../src/yelp-window.c:354
+msgid "Previous Page"
+msgstr "अघिल्लो पृष्ठ"
+
+#: ../src/yelp-window.c:355
+msgid "Next Page"
+msgstr "अर्को पृष्ठ"
+
+#: ../src/yelp-window.c:360
+msgid "All Help"
+msgstr "सबै मद्दतहरू"
+
+#: ../src/yelp-window.c:382
 #, fuzzy
-msgid "Find:"
-msgstr "फेला पार्नुहोस्:"
+msgid "Search (Ctrl+S)"
+msgstr "Ctrl+arrows"
 
-#: ../src/yelp-window.c:546
-msgid "Read Later"
-msgstr ""
+#: ../src/yelp-window.c:416
+msgid "No bookmarks"
+msgstr "कुनै पुस्तकचिनोहरू परिभाषित गरिएको छैन"
 
-#: ../src/yelp-window.c:1178
-#, c-format
-msgid "%i match"
-msgid_plural "%i matches"
-msgstr[0] ""
-msgstr[1] ""
+#: ../src/yelp-window.c:424
+msgid "Add Bookmark"
+msgstr "पुस्तकचिनो थप्नुहोस्"
 
-#: ../src/yelp-window.c:1187
-msgid "No matches"
-msgstr ""
+#: ../src/yelp-window.c:430
+msgid "Remove Bookmark"
+msgstr "पुस्तकचिनो हटाउनुहोस्"
 
 #: ../yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
 msgstr "जिनोमसँग मद्दत प्राप्त गर्नुहोस्"
 
 #: ../yelp.desktop.in.in.h:3
+#, fuzzy
 msgid "documentation;information;manual;"
-msgstr ""
+msgstr "म्यानुअल पाना(कम्प्रेस्ड)"
 
 #~ msgid "GNU Info Pages"
 #~ msgstr "जीएनयू सूचना पृष्ठ"
@@ -1034,14 +966,8 @@ msgstr ""
 #~ msgid "<b>Fonts</b>"
 #~ msgstr "<b>फन्ट</b>"
 
-#~ msgid "Add Bookmark"
-#~ msgstr "पुस्तकचिनो थप्नुहोस्"
-
 #~ msgid "C_ase sensitive"
 #~ msgstr "सम्वेदनशील केस"
-
-#~ msgid "Find"
-#~ msgstr "फेला पार्नुहोस्"
 
 #~ msgid "Preferences"
 #~ msgstr "प्राथमिकता"
@@ -1055,11 +981,17 @@ msgstr ""
 #~ msgid "_Browse with caret"
 #~ msgstr "क्यारेटसँग ब्राउज गर्नुहोस्"
 
+#~ msgid "_Find:"
+#~ msgstr "फेला पार्नुहोस्:"
+
 #~ msgid "_Fixed width:"
 #~ msgstr "स्थिर चौडाइ:"
 
 #~ msgid "_Location:"
 #~ msgstr "स्थान:"
+
+#~ msgid "_Next"
+#~ msgstr "पछिल्लो"
 
 #~ msgid "_Title:"
 #~ msgstr "शीर्षक:"
@@ -1178,6 +1110,9 @@ msgstr ""
 #~ "तपाईँले मद्दत चाहनुभएको विषयमा वा तपाईँले भोगिरहनु भएको समस्या वर्णन गर्न विभिन्न "
 #~ "शब्दहरू प्रयोग गरेर प्रयास गर्नुहोस् ।"
 
+#~ msgid "Repeat the search online at %s"
+#~ msgstr "%s मा अनलाइन खोजी दोहोर्याउनुहोस्"
+
 #~ msgid ""
 #~ "a:about:an:are:as:at:be:broke:broken:by:can:can't:dialog:dialogue:do:"
 #~ "doesn't:doesnt:don't:dont:explain:for:from:get:gets:got:make:makes:not:"
@@ -1233,14 +1168,29 @@ msgstr ""
 #~ msgid "_Edit"
 #~ msgstr "सम्पादन"
 
+#~ msgid "_Go"
+#~ msgstr "जानुहोस्"
+
+#~ msgid "_Bookmarks"
+#~ msgstr "पुस्तकचिनो"
+
 #~ msgid "_Help"
 #~ msgstr "मद्दत"
 
 #~ msgid "Print This Document ..."
 #~ msgstr "यो कागजात मुद्रण गर्नुहोस् ..."
 
+#~ msgid "Print This Page ..."
+#~ msgstr "यो पृष्ठ मुद्रण गर्नुहोस् ..."
+
+#~ msgid "About This Document"
+#~ msgstr "यो कागजातका बारेमा"
+
 #~ msgid "Open _Location"
 #~ msgstr "स्थान खोल्नुहोस्"
+
+#~ msgid "_Close Window"
+#~ msgstr "सञ्झ्याल बन्द गर्नुहोस्"
 
 #~ msgid "_Select All"
 #~ msgstr "सबै चयन गर्नुहोस्"
@@ -1287,6 +1237,9 @@ msgstr ""
 #~ msgid "_Contents"
 #~ msgstr "सामग्री"
 
+#~ msgid "_Add Bookmark"
+#~ msgstr "पुस्तकचिनो थप्नुहोस्"
+
 #~ msgid "_Edit Bookmarks..."
 #~ msgstr "पुस्तकचिनो सम्पादन गर्नुहोस्..."
 
@@ -1316,6 +1269,9 @@ msgstr ""
 
 #~ msgid "Error executing \"gnome-open\""
 #~ msgstr "\"gnome-open\" कार्यान्वयन गर्दा त्रुटि"
+
+#~ msgid "_Search:"
+#~ msgstr "खोजी गर्नुहोस्:"
 
 #~ msgid "Cannot create search component"
 #~ msgstr "खोजी अवयव सिर्जना गर्न सकिँदैन"

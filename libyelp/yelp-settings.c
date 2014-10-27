@@ -79,7 +79,6 @@ G_DEFINE_TYPE (YelpSettings, yelp_settings, G_TYPE_OBJECT);
 static void           yelp_settings_class_init   (YelpSettingsClass    *klass);
 static void           yelp_settings_init         (YelpSettings         *settings);
 static void           yelp_settings_constructed  (GObject              *object);
-static void           yelp_settings_dispose      (GObject              *object);
 static void           yelp_settings_finalize     (GObject              *object);
 static void           yelp_settings_get_property (GObject              *object,
 						  guint                 prop_id,
@@ -101,9 +100,7 @@ static void           gtk_font_changed           (GtkSettings          *gtk_sett
 static void           icon_theme_changed         (GtkIconTheme         *theme,
 						  YelpSettings         *settings);
 
-static void           rgb_to_hsv                 (gdouble  r,
-						  gdouble  g,
-						  gdouble  b,
+static void           rgb_to_hsv                 (GdkRGBA  color,
 						  gdouble *h,
 						  gdouble *s,
 						  gdouble *v);
@@ -121,7 +118,6 @@ yelp_settings_class_init (YelpSettingsClass *klass)
     gint i;
 
     object_class->constructed  = yelp_settings_constructed;
-    object_class->dispose  = yelp_settings_dispose;
     object_class->finalize = yelp_settings_finalize;
     object_class->get_property = yelp_settings_get_property;
     object_class->set_property = yelp_settings_set_property;
@@ -246,7 +242,6 @@ yelp_settings_constructed (GObject *object)
     YelpSettings *settings = YELP_SETTINGS (object);
     GDBusConnection *connection;
     GVariant *ret, *names;
-    GVariant *ret2;
     GVariantIter iter;
     gchar *name;
     gboolean env_shell, env_classic, env_panel, env_unity, env_xfce;
@@ -332,14 +327,6 @@ yelp_settings_constructed (GObject *object)
         yelp_settings_set_if_token (settings, "platform:gnome-panel");
 
     yelp_settings_set_if_token (settings, "action:install");
-}
-
-static void
-yelp_settings_dispose (GObject *object)
-{
-    YelpSettings *settings = YELP_SETTINGS (object);
-
-    G_OBJECT_CLASS (yelp_settings_parent_class)->dispose (object);
 }
 
 static void
@@ -889,127 +876,92 @@ gtk_theme_changed (GtkSettings  *gtk_settings,
 		   GParamSpec   *pspec,
 		   YelpSettings *settings)
 {
-    GtkWidget *widget;
-    GtkStyle  *style;
-    GdkColor  *color;
-    GdkColor   blue = { 0, 0x1E1E, 0x3E3E, 0xE7E7 };
+    GtkStyleContext *context, *linkcontext;
+    GtkWidget *tmpwin, *tmpbox, *tmpview, *tmplink;
+    GdkRGBA base, text, link;
     gdouble    base_h, base_s, base_v;
     gdouble    text_h, text_s, text_v;
-    gint i;
 
     g_mutex_lock (&settings->priv->mutex);
 
-    style = gtk_rc_get_style_by_paths (gtk_settings,
-                                       "GtkTextView", "GtkTextView",
-                                       GTK_TYPE_TEXT_VIEW);
-    if (style)
-        g_object_ref (G_OBJECT (style));
-    else
-        style = gtk_style_new ();
+    tmpwin = gtk_offscreen_window_new ();
+    tmpbox = gtk_grid_new ();
+    tmpview = gtk_text_view_new ();
+    tmplink = gtk_link_button_new ("http://projectmallard.org/");
+    gtk_container_add (GTK_CONTAINER (tmpwin), tmpbox);
+    gtk_container_add (GTK_CONTAINER (tmpbox), tmpview);
+    gtk_container_add (GTK_CONTAINER (tmpbox), tmplink);
+    gtk_widget_show_all (tmpwin);
+    context = gtk_widget_get_style_context (tmpview);
+    /* I have to do this for some reason. Don't ask me why. Ain't in the docs. */
+    gtk_style_context_add_class (context, GTK_STYLE_CLASS_VIEW);
 
+    linkcontext = gtk_widget_get_style_context (tmplink);
 
-    rgb_to_hsv (style->text[GTK_STATE_NORMAL].red / 65535.0,
-                style->text[GTK_STATE_NORMAL].green / 65535.0,
-                style->text[GTK_STATE_NORMAL].blue / 65535.0,
-                &text_h, &text_s, &text_v);
-    rgb_to_hsv (style->base[GTK_STATE_NORMAL].red / 65535.0,
-                style->base[GTK_STATE_NORMAL].green / 65535.0,
-                style->base[GTK_STATE_NORMAL].blue / 65535.0,
-                &base_h, &base_s, &base_v);
+    gtk_style_context_get_color (context, GTK_STATE_FLAG_NORMAL, &text);
+    gtk_style_context_get_background_color (context, GTK_STATE_FLAG_ACTIVE, &base);
+
+    rgb_to_hsv (text, &text_h, &text_s, &text_v);
+    rgb_to_hsv (base, &base_h, &base_s, &base_v);
 
     /* YELP_SETTINGS_COLOR_BASE */
-    g_snprintf (settings->priv->colors[YELP_SETTINGS_COLOR_BASE], 8,
-                "#%02X%02X%02X",
-                style->base[GTK_STATE_NORMAL].red >> 8,
-                style->base[GTK_STATE_NORMAL].green >> 8,
-                style->base[GTK_STATE_NORMAL].blue >> 8);
+    g_snprintf (settings->priv->colors[YELP_SETTINGS_COLOR_BASE], 8, "#%02X%02X%02X",
+                (gint) (base.red * 255), (gint) (base.green * 255), (gint) (base.blue * 255));
 
     /* YELP_SETTINGS_COLOR_TEXT */
-    g_snprintf (settings->priv->colors[YELP_SETTINGS_COLOR_TEXT], 8,
-                "#%02X%02X%02X",
-                style->text[GTK_STATE_NORMAL].red >> 8,
-                style->text[GTK_STATE_NORMAL].green >> 8,
-                style->text[GTK_STATE_NORMAL].blue >> 8);
+    g_snprintf (settings->priv->colors[YELP_SETTINGS_COLOR_TEXT], 8, "#%02X%02X%02X",
+                (gint) (text.red * 255), (gint) (text.green * 255), (gint) (text.blue * 255));
 
     /* YELP_SETTINGS_COLOR_LINK */
-    widget = gtk_link_button_new ("http://www.gnome.org");
-    gtk_widget_style_get (widget, "link-color", &color, NULL);
-    if (!color)
-        color = &blue;
-    g_snprintf (settings->priv->colors[YELP_SETTINGS_COLOR_LINK], 8,
-                "#%02X%02X%02X",
-                color->red >> 8,
-                color->green >> 8,
-                color->blue >> 8);
-    if (color != &blue)
-        gdk_color_free (color);
+    gtk_style_context_get_color (linkcontext, GTK_STATE_FLAG_LINK, &link);
+    g_snprintf (settings->priv->colors[YELP_SETTINGS_COLOR_LINK], 8, "#%02X%02X%02X",
+                (gint) (link.red * 255), (gint) (link.green * 255), (gint) (link.blue * 255));
 
     /* YELP_SETTINGS_COLOR_LINK_VISITED */
-    color = NULL;
-    gtk_widget_style_get (widget, "visited-link-color", &color, NULL);
-    if (color) {
-        g_snprintf (settings->priv->colors[YELP_SETTINGS_COLOR_LINK_VISITED], 8,
-                    "#%02X%02X%02X",
-                    color->red >> 8,
-                    color->green >> 8,
-                    color->blue >> 8);
-        gdk_color_free (color);
-    }
-
-    g_object_ref_sink (widget);
-    g_object_unref (widget);
+    gtk_style_context_get_color (linkcontext, GTK_STATE_FLAG_VISITED, &link);
+    g_snprintf (settings->priv->colors[YELP_SETTINGS_COLOR_LINK_VISITED], 8, "#%02X%02X%02X",
+                (gint) (link.red * 255), (gint) (link.green * 255), (gint) (link.blue * 255));
 
     /* YELP_SETTINGS_COLOR_TEXT_LIGHT */
-    hsv_to_hex (text_h, 
-                text_s,
-                text_v - ((text_v - base_v) * 0.25),
+    hsv_to_hex (text_h, text_s, text_v - ((text_v - base_v) * 0.25),
                 settings->priv->colors[YELP_SETTINGS_COLOR_TEXT_LIGHT]);
 
     /* YELP_SETTINGS_COLOR_GRAY */
-    hsv_to_hex (base_h, 
-                base_s,
+    hsv_to_hex (base_h, base_s,
                 base_v - ((base_v - text_v) * 0.05),
                 settings->priv->colors[YELP_SETTINGS_COLOR_GRAY_BASE]);
-    hsv_to_hex (base_h, 
-                base_s,
+    hsv_to_hex (base_h, base_s,
                 base_v - ((base_v - text_v) * 0.1),
                 settings->priv->colors[YELP_SETTINGS_COLOR_DARK_BASE]);
-    hsv_to_hex (base_h, 
-                base_s,
+    hsv_to_hex (base_h, base_s,
                 base_v - ((base_v - text_v) * 0.26),
                 settings->priv->colors[YELP_SETTINGS_COLOR_GRAY_BORDER]);
 
     /* YELP_SETTINGS_COLOR_BLUE */
-    hsv_to_hex (211,
-                0.1,
+    hsv_to_hex (211, 0.1,
                 base_v - ((base_v - text_v) * 0.01),
                 settings->priv->colors[YELP_SETTINGS_COLOR_BLUE_BASE]);
-    hsv_to_hex (211,
-                0.45,
+    hsv_to_hex (211, 0.45,
                 base_v - ((base_v - text_v) * 0.19),
                 settings->priv->colors[YELP_SETTINGS_COLOR_BLUE_BORDER]);
 
     /* YELP_SETTINGS_COLOR_RED */
-    hsv_to_hex (0,
-                0.13,
+    hsv_to_hex (0, 0.13,
                 base_v - ((base_v - text_v) * 0.01),
                 settings->priv->colors[YELP_SETTINGS_COLOR_RED_BASE]);
-    hsv_to_hex (0,
-                0.83,
+    hsv_to_hex (0, 0.83,
                 base_v - ((base_v - text_v) * 0.06),
                 settings->priv->colors[YELP_SETTINGS_COLOR_RED_BORDER]);
 
     /* YELP_SETTINGS_COLOR_YELLOW */
-    hsv_to_hex (60,
-                0.25,
+    hsv_to_hex (60, 0.25,
                 base_v - ((base_v - text_v) * 0.01),
                 settings->priv->colors[YELP_SETTINGS_COLOR_YELLOW_BASE]);
-    hsv_to_hex (60,
-                1.0,
+    hsv_to_hex (60, 1.0,
                 base_v - ((base_v - text_v) * 0.07),
                 settings->priv->colors[YELP_SETTINGS_COLOR_YELLOW_BORDER]);
 
-    g_object_unref (G_OBJECT (style));
+    gtk_widget_destroy (tmpwin);
 
     g_mutex_unlock (&settings->priv->mutex);
 
@@ -1115,14 +1067,14 @@ yelp_settings_cmp_icons (const gchar *icon1,
 /******************************************************************************/
 
 static void
-rgb_to_hsv (gdouble r, gdouble g, gdouble b, gdouble *h, gdouble *s, gdouble *v)
+rgb_to_hsv (GdkRGBA color, gdouble *h, gdouble *s, gdouble *v)
 {
     gdouble min, max, delta;
 
-    max = (r > g) ? r : g;
-    max = (max > b) ? max : b;
-    min = (r < g) ? r : g;
-    min = (min < b) ? min : b;
+    max = (color.red > color.green) ? color.red : color.green;
+    max = (max > color.blue) ? max : color.blue;
+    min = (color.red < color.green) ? color.red : color.green;
+    min = (min < color.blue) ? min : color.blue;
 
     delta = max - min;
 
@@ -1133,12 +1085,12 @@ rgb_to_hsv (gdouble r, gdouble g, gdouble b, gdouble *h, gdouble *s, gdouble *v)
     if (max != min) {
 	*s = delta / *v;
 
-	if (r == max)
-	    *h = (g - b) / delta;
-	else if (g == max)
-	    *h = 2 + (b - r) / delta;
-	else if (b == max)
-	    *h = 4 + (r - g) / delta;
+	if (color.red == max)
+	    *h = (color.green - color.blue) / delta;
+	else if (color.green == max)
+	    *h = 2 + (color.blue - color.red) / delta;
+	else if (color.blue == max)
+	    *h = 4 + (color.red - color.green) / delta;
 
 	*h *= 60;
 	if (*h < 0.0)
@@ -1150,12 +1102,10 @@ static void
 hsv_to_hex (gdouble h, gdouble s, gdouble v, gchar *str)
 {
     gint hue;
-    gdouble c;
     gdouble m1, m2, m3;
     gdouble r, g, b;
     guint8 red, green, blue;
 
-    c = v * s;
     h /= 60;
     hue = (int) h;
     m1 = v * (1 - s);

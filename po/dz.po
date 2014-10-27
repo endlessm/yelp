@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp.HEAD.dz\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-09 12:23-0700\n"
+"POT-Creation-Date: 2014-10-27 13:59-0700\n"
 "PO-Revision-Date: 2006-08-09 12:19+0530\n"
 "Last-Translator: Mindu Dorji\n"
 "Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
@@ -244,34 +244,34 @@ msgstr "མ་ཤེས་པའི་དབྱེ་ཚན།"
 msgid "The requested page was not found in the document ‘%s’."
 msgstr ""
 
-#: ../libyelp/yelp-document.c:266
+#: ../libyelp/yelp-document.c:268
 msgid "Indexed"
 msgstr ""
 
-#: ../libyelp/yelp-document.c:267
+#: ../libyelp/yelp-document.c:269
 msgid "Whether the document content has been indexed"
 msgstr ""
 
-#: ../libyelp/yelp-document.c:275
+#: ../libyelp/yelp-document.c:277
 #, fuzzy
 msgid "Document URI"
 msgstr "ཡིག་ཆའི་བརྡ་དོན།"
 
-#: ../libyelp/yelp-document.c:276
+#: ../libyelp/yelp-document.c:278
 msgid "The URI which identifies the document"
 msgstr ""
 
-#: ../libyelp/yelp-document.c:992
+#: ../libyelp/yelp-document.c:996
 #, fuzzy, c-format
 msgid "Search results for “%s”"
 msgstr " \"%s\"གི་དོན་ལུ་འཚོལ་ཞིབ་གྲུབ་འབྲས།"
 
-#: ../libyelp/yelp-document.c:1004
+#: ../libyelp/yelp-document.c:1008
 #, c-format
 msgid "No matching help pages found in “%s”."
 msgstr ""
 
-#: ../libyelp/yelp-document.c:1010
+#: ../libyelp/yelp-document.c:1014
 msgid "No matching help pages found."
 msgstr ""
 
@@ -280,7 +280,7 @@ msgstr ""
 msgid "An unknown error occurred."
 msgstr "མ་ཤེས་པའི་འཛོལ་བ་ཅིག་བྱུང་ཡི།"
 
-#: ../libyelp/yelp-help-list.c:548 ../libyelp/yelp-help-list.c:557
+#: ../libyelp/yelp-help-list.c:547 ../libyelp/yelp-help-list.c:556
 #, fuzzy
 msgid "All Help Documents"
 msgstr "གྲོགས་རམ་ནང་དོན་ཚུ།"
@@ -293,102 +293,69 @@ msgstr ""
 "ཡིག་སྣོད་ ‘%s’ དེ་ མིང་དཔྱད་འབད་མ་ཚུགས། ཡིག་སྣོད་འདི་མེདཔ་འོང་ནི་དང་ ཡང་ཅིན་ ལེགས་ལྡན་གྲུབ་པའི་"
 "བརྡ་དོན་ཤོག་ལེབ་ཅིག་མེནམ་འོང་ནི་མས།"
 
-#: ../libyelp/yelp-location-entry.c:334
-msgid "View"
-msgstr ""
-
-#: ../libyelp/yelp-location-entry.c:335
-msgid "A YelpView instance to control"
-msgstr ""
-
-#: ../libyelp/yelp-location-entry.c:350
-msgid "Bookmarks"
-msgstr "དེབ་རྟགས་ཚུ།"
-
-#: ../libyelp/yelp-location-entry.c:351
-msgid "A YelpBookmarks implementation instance"
-msgstr ""
-
-#: ../libyelp/yelp-location-entry.c:367
-msgid "Enable Search"
-msgstr ""
-
-#: ../libyelp/yelp-location-entry.c:368
-msgid "Whether the location entry can be used as a search field"
-msgstr ""
-
-#: ../libyelp/yelp-location-entry.c:438 ../src/yelp-window.c:268
-#, fuzzy
-msgid "Search..."
-msgstr "འཚོལ་ཞིབ་:(_S)"
-
-#: ../libyelp/yelp-location-entry.c:781
-#, fuzzy
-msgid "Clear the search text"
-msgstr "%s ལུ་ གློག་ཐོག་འཚོལ་ཞིབ་ཡང་བསྐྱར་འབད།"
-
-#: ../libyelp/yelp-location-entry.c:829 ../libyelp/yelp-location-entry.c:1591
-#, fuzzy
-msgid "Bookmark this page"
-msgstr "དེབ་རྟགས་ཚུ།"
-
-#: ../libyelp/yelp-location-entry.c:837 ../libyelp/yelp-location-entry.c:1599
-#, fuzzy
-msgid "Remove bookmark"
-msgstr "དེབ་རྟགས་རྩ་བསྐྲད་གཏང་།"
-
-#: ../libyelp/yelp-location-entry.c:1152
-#, fuzzy, c-format
-msgid "Search for “%s”"
-msgstr " \"%s\"གི་དོན་ལུ་འཚོལ་ཞིབ་གྲུབ་འབྲས།"
-
-#: ../libyelp/yelp-location-entry.c:1456
-#, fuzzy
-msgid "Loading"
-msgstr "མངོན་གསལ་འབད་དོ།"
-
 #: ../libyelp/yelp-mallard-document.c:344
 #, c-format
 msgid "The directory ‘%s’ does not exist."
 msgstr ""
 
-#: ../libyelp/yelp-settings.c:154
+#: ../libyelp/yelp-search-entry.c:172
+msgid "View"
+msgstr ""
+
+#: ../libyelp/yelp-search-entry.c:173
+msgid "A YelpView instance to control"
+msgstr ""
+
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:399
+msgid "Bookmarks"
+msgstr "དེབ་རྟགས་ཚུ།"
+
+#: ../libyelp/yelp-search-entry.c:189
+msgid "A YelpBookmarks implementation instance"
+msgstr ""
+
+#: ../libyelp/yelp-search-entry.c:434
+#, fuzzy, c-format
+msgid "Search for “%s”"
+msgstr " \"%s\"གི་དོན་ལུ་འཚོལ་ཞིབ་གྲུབ་འབྲས།"
+
+#: ../libyelp/yelp-settings.c:150
 msgid "GtkSettings"
 msgstr ""
 
-#: ../libyelp/yelp-settings.c:155
+#: ../libyelp/yelp-settings.c:151
 msgid "A GtkSettings object to get settings from"
 msgstr ""
 
-#: ../libyelp/yelp-settings.c:163
+#: ../libyelp/yelp-settings.c:159
 msgid "GtkIconTheme"
 msgstr ""
 
-#: ../libyelp/yelp-settings.c:164
+#: ../libyelp/yelp-settings.c:160
 msgid "A GtkIconTheme object to get icons from"
 msgstr ""
 
-#: ../libyelp/yelp-settings.c:172
+#: ../libyelp/yelp-settings.c:168
 msgid "Font Adjustment"
 msgstr ""
 
-#: ../libyelp/yelp-settings.c:173
+#: ../libyelp/yelp-settings.c:169
 msgid "A size adjustment to add to font sizes"
 msgstr ""
 
-#: ../libyelp/yelp-settings.c:181
+#: ../libyelp/yelp-settings.c:177
 msgid "Show Text Cursor"
 msgstr ""
 
-#: ../libyelp/yelp-settings.c:182
+#: ../libyelp/yelp-settings.c:178
 msgid "Show the text cursor or caret for accessible navigation"
 msgstr ""
 
-#: ../libyelp/yelp-settings.c:190
+#: ../libyelp/yelp-settings.c:186
 msgid "Editor Mode"
 msgstr ""
 
-#: ../libyelp/yelp-settings.c:191
+#: ../libyelp/yelp-settings.c:187
 msgid "Enable features useful to editors"
 msgstr ""
 
@@ -424,319 +391,274 @@ msgstr "ཡེལཔ་:ཡིག་ཆའི་གུ་ ཨེཆ་ཨར་�
 msgid "Out of memory"
 msgstr "དྲན་ཚད་ཀྱིས་བདའ་མ་ཟུནམ།"
 
-#: ../libyelp/yelp-view.c:129
-msgid "_Print..."
-msgstr ""
-
-#: ../libyelp/yelp-view.c:134
-msgid "_Back"
-msgstr "རྒྱབ་བསྐྱོད།(_B)"
-
-#: ../libyelp/yelp-view.c:139
-msgid "_Forward"
-msgstr "གདོང་བསྐྱོད།(_F)"
-
-#: ../libyelp/yelp-view.c:144
-#, fuzzy
-msgid "_Previous Page"
-msgstr "ཧེ་མམ།(_P)"
-
-#: ../libyelp/yelp-view.c:149
-#, fuzzy
-msgid "_Next Page"
-msgstr "ཤུལ་མམ།(_N)"
-
-#: ../libyelp/yelp-view.c:421
+#: ../libyelp/yelp-view.c:445
 #, fuzzy
 msgid "Yelp URI"
 msgstr "ཡེལཔ།"
 
-#: ../libyelp/yelp-view.c:422
+#: ../libyelp/yelp-view.c:446
 msgid "A YelpUri with the current location"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:430
+#: ../libyelp/yelp-view.c:454
 #, fuzzy
 msgid "Loading State"
 msgstr "མངོན་གསལ་འབད་དོ།"
 
-#: ../libyelp/yelp-view.c:431
+#: ../libyelp/yelp-view.c:455
 msgid "The loading state of the view"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:440
+#: ../libyelp/yelp-view.c:464
 #, fuzzy
 msgid "Page ID"
 msgstr "ཤོག་ལེབ་ཚུ།"
 
-#: ../libyelp/yelp-view.c:441
+#: ../libyelp/yelp-view.c:465
 #, fuzzy
 msgid "The ID of the root page of the page being viewed"
 msgstr "དཔར་བསྐྲུན་འབད་ནིའི་ཤོག་ལེབ་ཀྱི་མཇུག་གི་ཁྱབ་ཚད་ གཞི་སྒྲིག་འབདཝ་ཨིན།"
 
-#: ../libyelp/yelp-view.c:449
+#: ../libyelp/yelp-view.c:473
 msgid "Root Title"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:450
+#: ../libyelp/yelp-view.c:474
 #, fuzzy
 msgid "The title of the root page of the page being viewed"
 msgstr "དཔར་བསྐྲུན་འབད་ནིའི་ཤོག་ལེབ་ཚུ་གི་འགོ་བཙུགས་ཁྱབ་ཚད་ གཞི་སྒྲིག་འབདཝ་ཨིན།"
 
-#: ../libyelp/yelp-view.c:458
+#: ../libyelp/yelp-view.c:482
 msgid "Page Title"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:459
+#: ../libyelp/yelp-view.c:483
 msgid "The title of the page being viewed"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:467
+#: ../libyelp/yelp-view.c:491
 msgid "Page Description"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:468
+#: ../libyelp/yelp-view.c:492
 msgid "The description of the page being viewed"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:476
+#: ../libyelp/yelp-view.c:500
 msgid "Page Icon"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:477
+#: ../libyelp/yelp-view.c:501
 msgid "The icon of the page being viewed"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:718
+#: ../libyelp/yelp-view.c:743
 msgid "You do not have PackageKit. Package install links require PackageKit."
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1012
+#: ../libyelp/yelp-view.c:1040
 msgid "Save Image"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1107
+#: ../libyelp/yelp-view.c:1135
 msgid "Save Code"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1270
+#: ../libyelp/yelp-view.c:1298
 #, c-format
 msgid "Send email to %s"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1285
+#: ../libyelp/yelp-view.c:1313
 #, fuzzy
 msgid "_Install Packages"
 msgstr "ལག་དེབ་ཤོག་ལེབ་ཚུ།"
 
-#: ../libyelp/yelp-view.c:1293
+#: ../libyelp/yelp-view.c:1321
 msgid "_Open Link"
 msgstr "འབྲེལ་ལམ་ཁ་ཕྱེ།(_O)"
 
-#: ../libyelp/yelp-view.c:1300
+#: ../libyelp/yelp-view.c:1328
 #, fuzzy
 msgid "_Copy Link Location"
 msgstr "གནས་ཁོངས་ཁ་ཕྱེ།"
 
-#: ../libyelp/yelp-view.c:1306
+#: ../libyelp/yelp-view.c:1334
 #, fuzzy
 msgid "Open Link in New _Window"
 msgstr "སྒོ་སྒྲིག་གསར་པའི་ནང་འབྲེལ་ལམ ཁ་ཕྱེ།(_N)"
 
-#: ../libyelp/yelp-view.c:1358
-msgid "_Save Image As..."
+#: ../libyelp/yelp-view.c:1388
+msgid "_Save Image As…"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1360
-msgid "_Save Video As..."
+#: ../libyelp/yelp-view.c:1390
+msgid "_Save Video As…"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1367
-msgid "S_end Image To..."
+#: ../libyelp/yelp-view.c:1397
+msgid "S_end Image To…"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1369
-msgid "S_end Video To..."
+#: ../libyelp/yelp-view.c:1399
+msgid "S_end Video To…"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1380
+#: ../libyelp/yelp-view.c:1410
 #, fuzzy
 msgid "_Copy Text"
 msgstr "འདྲ་བཤུས།(_C)"
 
-#: ../libyelp/yelp-view.c:1393
+#: ../libyelp/yelp-view.c:1423
 msgid "C_opy Code Block"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1398
-msgid "Save Code _Block As..."
+#: ../libyelp/yelp-view.c:1428
+msgid "Save Code _Block As…"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1505
+#: ../libyelp/yelp-view.c:1534
 #, fuzzy, c-format
 msgid "See all search results for “%s”"
 msgstr " \"%s\"གི་དོན་ལུ་འཚོལ་ཞིབ་གྲུབ་འབྲས།"
 
-#: ../libyelp/yelp-view.c:1626
+#: ../libyelp/yelp-view.c:1655
 #, fuzzy, c-format
 msgid "Could not load a document for ‘%s’"
 msgstr "ཡིག་ཆ་མངོན་གསལ་འབད་མ་ཚུགས།"
 
-#: ../libyelp/yelp-view.c:1632
+#: ../libyelp/yelp-view.c:1661
 #, fuzzy, c-format
 msgid "Could not load a document"
 msgstr "ཡིག་ཆ་མངོན་གསལ་འབད་མ་ཚུགས།"
 
-#: ../libyelp/yelp-view.c:1707
+#: ../libyelp/yelp-view.c:1736
 #, fuzzy
 msgid "Document Not Found"
 msgstr "ཡིག་ཆའི་དབྱེ་ཚན་ཚུ"
 
-#: ../libyelp/yelp-view.c:1709
+#: ../libyelp/yelp-view.c:1738
 msgid "Page Not Found"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1712
+#: ../libyelp/yelp-view.c:1741
 msgid "Cannot Read"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1718
+#: ../libyelp/yelp-view.c:1747
 #, fuzzy
 msgid "Unknown Error"
 msgstr "མ་ཤེས་པའི་དབྱེ་ཚན།"
 
-#: ../libyelp/yelp-view.c:1738
+#: ../libyelp/yelp-view.c:1767
 #, fuzzy
 msgid "Search for packages containing this document."
 msgstr "ཡིག་བཀོད་གཞན་གྱི་དོན་ལུ་འཚོལ་ཞིབ་འབད།"
 
-#: ../libyelp/yelp-view.c:1890
+#: ../libyelp/yelp-view.c:1917
 #, fuzzy, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr ""
 "ཡིག་སྣོད་དེ་གི་ གཅིག་མཚུངས་ཐོན་ཁུངས་ངོས་འཛིན་པ་ ‘%s’ དེ་ ནུས་མེད་འོང་ནིའམ་ ཡིག་སྣོད་ངོ་མ་ལུ་ རྩེ་"
 "དཔག་མི་འབདཝ་འོང་ནི་མས།"
 
-#: ../libyelp/yelp-view.c:1896
+#: ../libyelp/yelp-view.c:1923
 #, c-format
 msgid "The URI does not point to a valid page."
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1902
+#: ../libyelp/yelp-view.c:1929
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr ""
 
-#: ../src/yelp-application.c:63
+#: ../src/yelp-application.c:59
 msgid "Turn on editor mode"
 msgstr ""
 
-#: ../src/yelp-application.c:126
-msgid "_Larger Text"
-msgstr ""
-
-#: ../src/yelp-application.c:128
-msgid "Increase the size of the text"
-msgstr ""
-
-#: ../src/yelp-application.c:131
-msgid "_Smaller Text"
-msgstr ""
-
-#: ../src/yelp-application.c:133
-msgid "Decrease the size of the text"
-msgstr ""
-
-#: ../src/yelp-application.c:251 ../src/yelp-window.c:1358
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "གྲོགས་རམ།"
 
-#: ../src/yelp-application.c:286
-msgid "Show Text _Cursor"
-msgstr ""
-
-#: ../src/yelp-window.c:234
+#: ../src/yelp-application.c:322
 #, fuzzy
-msgid "_Page"
-msgstr "ཤོག་ལེབ་ཚུ།"
-
-#: ../src/yelp-window.c:235
-msgid "_View"
-msgstr ""
-
-#: ../src/yelp-window.c:236
-msgid "_Go"
-msgstr "འགྱོ།(_G)"
-
-#: ../src/yelp-window.c:237
-msgid "_Bookmarks"
-msgstr "དེབ་རྟགས།(_B)"
-
-#: ../src/yelp-window.c:240
-msgid "_New Window"
+msgid "New Window"
 msgstr "སྒོ་སྒྲིག་གསརཔ།(_N)"
 
-#: ../src/yelp-window.c:245
-#, fuzzy
-msgid "_Close"
-msgstr "སྒོ་སྒྲིག་ཁ་བསྡམས།(_C)"
+#: ../src/yelp-application.c:326
+msgid "Larger Text"
+msgstr ""
 
-#: ../src/yelp-window.c:250
-#, fuzzy
-msgid "_All Documents"
-msgstr "ཡིག་ཆ་འདི་གི་སྐོར།"
+#: ../src/yelp-application.c:327
+msgid "Smaller Text"
+msgstr ""
 
-#: ../src/yelp-window.c:254
-msgid "_Add Bookmark"
-msgstr "དེབ་རྟགས་ཁ་སྐོང་རྐྱབས།(_A)"
-
-#: ../src/yelp-window.c:259
-#, fuzzy
-msgid "_Remove Bookmark"
-msgstr "དེབ་རྟགས་རྩ་བསྐྲད་གཏང་།"
-
-#: ../src/yelp-window.c:263
-#, fuzzy
-msgid "Find in Page..."
-msgstr "འཚོལ་...(_F)"
-
-#: ../src/yelp-window.c:273
-msgid "Open Location"
-msgstr "གནས་ཁོངས་ཁ་ཕྱེ།"
-
-#: ../src/yelp-window.c:299
+#: ../src/yelp-window.c:206
 #, fuzzy
 msgid "Application"
 msgstr "གློག་རིམ་ཚུ།"
 
-#: ../src/yelp-window.c:300
+#: ../src/yelp-window.c:207
 msgid "A YelpApplication instance that controls this window"
 msgstr ""
 
-#: ../src/yelp-window.c:427
-msgid "Read Link _Later"
-msgstr ""
-
-#: ../src/yelp-window.c:524
+#: ../src/yelp-window.c:325
 #, fuzzy
-msgid "Find:"
-msgstr "འཚོལ:(_F)"
+msgid "Back"
+msgstr "རྒྱབ་བསྐྱོད།(_B)"
 
-#: ../src/yelp-window.c:546
-msgid "Read Later"
+#: ../src/yelp-window.c:332
+#, fuzzy
+msgid "Forward"
+msgstr "གདོང་བསྐྱོད།(_F)"
+
+#: ../src/yelp-window.c:343
+msgid "Menu"
 msgstr ""
 
-#: ../src/yelp-window.c:1178
-#, c-format
-msgid "%i match"
-msgid_plural "%i matches"
-msgstr[0] ""
-msgstr[1] ""
+#: ../src/yelp-window.c:348
+#, fuzzy
+msgid "Find…"
+msgstr "འཚོལ།"
 
-#: ../src/yelp-window.c:1187
-msgid "No matches"
+#: ../src/yelp-window.c:349
+#, fuzzy
+msgid "Print…"
+msgstr "དཔར་བསྐྲུན་འབད་དོ།"
+
+#: ../src/yelp-window.c:354
+#, fuzzy
+msgid "Previous Page"
+msgstr "ཧེ་མམ།(_P)"
+
+#: ../src/yelp-window.c:355
+#, fuzzy
+msgid "Next Page"
+msgstr "ཤུལ་མམ།(_N)"
+
+#: ../src/yelp-window.c:360
+#, fuzzy
+msgid "All Help"
+msgstr "གྲོགས་རམ།"
+
+#: ../src/yelp-window.c:382
+msgid "Search (Ctrl+S)"
 msgstr ""
+
+#: ../src/yelp-window.c:416
+#, fuzzy
+msgid "No bookmarks"
+msgstr "དེབ་རྟགས་ཚུ།"
+
+#: ../src/yelp-window.c:424
+msgid "Add Bookmark"
+msgstr "དེབ་རྟགས་ཁ་སྐོང་རྐྱབས།"
+
+#: ../src/yelp-window.c:430
+#, fuzzy
+msgid "Remove Bookmark"
+msgstr "དེབ་རྟགས་རྩ་བསྐྲད་གཏང་།"
 
 #: ../yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
@@ -746,6 +668,58 @@ msgstr "ཇི་ནོམ་ལས་ གྲོགས་རམ་ལེན།"
 #, fuzzy
 msgid "documentation;information;manual;"
 msgstr "ཡིག་ཆའི་བརྡ་དོན།"
+
+#, fuzzy
+#~ msgid "Search..."
+#~ msgstr "འཚོལ་ཞིབ་:(_S)"
+
+#, fuzzy
+#~ msgid "Clear the search text"
+#~ msgstr "%s ལུ་ གློག་ཐོག་འཚོལ་ཞིབ་ཡང་བསྐྱར་འབད།"
+
+#, fuzzy
+#~ msgid "Bookmark this page"
+#~ msgstr "དེབ་རྟགས་ཚུ།"
+
+#, fuzzy
+#~ msgid "Remove bookmark"
+#~ msgstr "དེབ་རྟགས་རྩ་བསྐྲད་གཏང་།"
+
+#, fuzzy
+#~ msgid "Loading"
+#~ msgstr "མངོན་གསལ་འབད་དོ།"
+
+#, fuzzy
+#~ msgid "_Page"
+#~ msgstr "ཤོག་ལེབ་ཚུ།"
+
+#~ msgid "_Go"
+#~ msgstr "འགྱོ།(_G)"
+
+#~ msgid "_Bookmarks"
+#~ msgstr "དེབ་རྟགས།(_B)"
+
+#, fuzzy
+#~ msgid "_Close"
+#~ msgstr "སྒོ་སྒྲིག་ཁ་བསྡམས།(_C)"
+
+#, fuzzy
+#~ msgid "_All Documents"
+#~ msgstr "ཡིག་ཆ་འདི་གི་སྐོར།"
+
+#~ msgid "_Add Bookmark"
+#~ msgstr "དེབ་རྟགས་ཁ་སྐོང་རྐྱབས།(_A)"
+
+#, fuzzy
+#~ msgid "Find in Page..."
+#~ msgstr "འཚོལ་...(_F)"
+
+#~ msgid "Open Location"
+#~ msgstr "གནས་ཁོངས་ཁ་ཕྱེ།"
+
+#, fuzzy
+#~ msgid "Find:"
+#~ msgstr "འཚོལ:(_F)"
 
 #~ msgid "GNU Info Pages"
 #~ msgstr "ཇི་ཨེན་ཡུ་ བརྡ་དོན་ཤོག་ལེབ།"
@@ -1035,14 +1009,8 @@ msgstr "ཡིག་ཆའི་བརྡ་དོན།"
 #~ msgid "<b>Fonts</b>"
 #~ msgstr "<b> ཡིག་གཟུགས་ཚུ་</b>"
 
-#~ msgid "Add Bookmark"
-#~ msgstr "དེབ་རྟགས་ཁ་སྐོང་རྐྱབས།"
-
 #~ msgid "C_ase sensitive"
 #~ msgstr "ཡི་གུ་ཆེ་ཆུང་གི་ཉེན་ཁ།(_a)"
-
-#~ msgid "Find"
-#~ msgstr "འཚོལ།"
 
 #~ msgid "Preferences"
 #~ msgstr "དགའ་གདམ་ཚུ།"
@@ -1165,9 +1133,6 @@ msgstr "ཡིག་ཆའི་བརྡ་དོན།"
 
 #~ msgid "Printer %s does not support postscript printing."
 #~ msgstr "དཔར་འཕྲུལ་%sའདི་གིས་ པོསིཊི་སིཀིརིཔཊི་ དཔར་བསྐྲུན་ལུ་ རྒྱབ་སྐྱོར་མི་འབད་བས།"
-
-#~ msgid "Printing"
-#~ msgstr "དཔར་བསྐྲུན་འབད་དོ།"
 
 #~ msgid "<b>Printing</b>"
 #~ msgstr "<b> དཔར་བསྐྲུན་འབད་དོ་</b>"

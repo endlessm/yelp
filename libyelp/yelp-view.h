@@ -72,7 +72,9 @@ void               yelp_view_load_document        (YelpView                *view
                                                    YelpUri                 *uri,
                                                    YelpDocument            *document);
 YelpDocument *     yelp_view_get_document         (YelpView                *view);
-GtkActionGroup *   yelp_view_get_action_group     (YelpView                *view);
+
+void               yelp_view_register_actions     (YelpView                *view,
+                                                   GActionMap              *map);
 
 void               yelp_view_add_link_action      (YelpView                *view,
                                                    GtkAction               *action,

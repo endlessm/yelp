@@ -230,6 +230,8 @@ yelp_document_get_for_uri (YelpUri *uri)
     case YELP_URI_DOCUMENT_TYPE_NOT_FOUND:
     case YELP_URI_DOCUMENT_TYPE_EXTERNAL:
     case YELP_URI_DOCUMENT_TYPE_ERROR:
+    case YELP_URI_DOCUMENT_TYPE_UNRESOLVED:
+    default:
         break;
     }
 
@@ -917,6 +919,8 @@ document_read_contents (YelpDocument *document,
 
     g_mutex_lock (&document->priv->mutex);
 
+    real = hash_lookup (document->priv->page_ids, page_id);
+
     if (page_id != NULL && g_str_has_prefix (page_id, "search=")) {
         gchar *tmp, *tmp2, *txt;
         GVariant *value;
@@ -1038,7 +1042,6 @@ document_read_contents (YelpDocument *document,
         return (const gchar *) str;
     }
 
-    real = hash_lookup (document->priv->page_ids, page_id);
     str = hash_lookup (document->priv->contents, real);
     if (str)
 	str_ref (str);

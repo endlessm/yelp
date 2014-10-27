@@ -28,7 +28,9 @@
 #include <gio/gsettingsbackend.h>
 #include <glib/gi18n.h>
 #include <gtk/gtk.h>
+#ifdef GDK_WINDOWING_X11
 #include <gdk/gdkx.h>
+#endif
 #include <stdlib.h>
 
 #include "yelp-bookmarks.h"
@@ -41,12 +43,6 @@
 #define DEFAULT_URI "help:gnome-help"
 
 static gboolean editor_mode = FALSE;
-
-enum {
-    READ_LATER_CHANGED,
-    LAST_SIGNAL
-};
-static gint signals[LAST_SIGNAL] = { 0 };
 
 G_GNUC_NORETURN static gboolean
 option_version_cb (const gchar *option_name,
@@ -91,14 +87,12 @@ static gboolean      application_window_deleted        (YelpWindow            *w
                                                         YelpApplication       *app);
 GSettings *          application_get_doc_settings      (YelpApplication       *app,
                                                         const gchar           *doc_uri);
-static void          application_adjust_font           (GtkAction             *action,
+static void          application_adjust_font           (GAction               *action,
+                                                        GVariant              *parameter,
                                                         YelpApplication       *app);
 static void          application_set_font_sensitivity  (YelpApplication       *app);
 
 static void          bookmarks_changed                 (GSettings             *settings,
-                                                        const gchar           *key,
-                                                        YelpApplication       *app);
-static void          readlater_changed                 (GSettings             *settings,
                                                         const gchar           *key,
                                                         YelpApplication       *app);
 static gboolean      window_resized                    (YelpWindow            *window,
@@ -114,24 +108,13 @@ struct _YelpApplicationPrivate {
     GSList *windows;
     GHashTable *windows_by_document;
 
-    GtkActionGroup *action_group;
+    GPropertyAction  *show_cursor_action;
+    GSimpleAction    *larger_text_action;
+    GSimpleAction    *smaller_text_action;
 
     GSettingsBackend *backend;
     GSettings *gsettings;
     GHashTable *docsettings;
-};
-
-static const GtkActionEntry action_entries[] = {
-    { "LargerText", GTK_STOCK_ZOOM_IN,
-      N_("_Larger Text"),
-      "<Control>plus",
-      N_("Increase the size of the text"),
-      G_CALLBACK (application_adjust_font) },
-    { "SmallerText", GTK_STOCK_ZOOM_OUT,
-      N_("_Smaller Text"),
-      "<Control>minus",
-      N_("Decrease the size of the text"),
-      G_CALLBACK (application_adjust_font) }
 };
 
 static void
@@ -141,6 +124,42 @@ yelp_application_init (YelpApplication *app)
     priv->docsettings = g_hash_table_new_full (g_str_hash, g_str_equal,
                                                (GDestroyNotify) g_free,
                                                (GDestroyNotify) g_object_unref);
+
+    gtk_application_set_accels_for_action (GTK_APPLICATION (app),
+                                           "app.yelp-application-show-cursor",
+                                           (const gchar*[]) {"F7", NULL});
+    gtk_application_set_accels_for_action (GTK_APPLICATION (app),
+                                           "app.yelp-application-larger-text",
+                                           (const gchar*[]) {"<Control>plus", NULL});
+    gtk_application_set_accels_for_action (GTK_APPLICATION (app),
+                                           "app.yelp-application-smaller-text",
+                                           (const gchar*[]) {"<Control>minus", NULL});
+
+    gtk_application_set_accels_for_action (GTK_APPLICATION (app),
+                                           "win.yelp-window-find", (const gchar*[]) {"<Control>F", NULL});
+    gtk_application_set_accels_for_action (GTK_APPLICATION (app),
+                                           "win.yelp-window-search", (const gchar*[]) {"<Control>S", NULL});
+    gtk_application_set_accels_for_action (GTK_APPLICATION (app),
+                                           "win.yelp-window-new", (const gchar*[]) {"<Control>N", NULL});
+    gtk_application_set_accels_for_action (GTK_APPLICATION (app),
+                                           "win.yelp-window-close", (const gchar*[]) {"<Control>W", NULL});
+    gtk_application_set_accels_for_action (GTK_APPLICATION (app),
+                                           "win.yelp-window-ctrll", (const gchar*[]) {"<Control>L", NULL});
+    gtk_application_set_accels_for_action (GTK_APPLICATION (app),
+                                           "win.yelp-view-print", (const gchar*[]) {"<Control>P", NULL});
+
+    gtk_application_set_accels_for_action (GTK_APPLICATION (app),
+                                           "win.yelp-view-go-back",
+                                           (const gchar*[]) {"<Alt>Left", NULL});
+    gtk_application_set_accels_for_action (GTK_APPLICATION (app),
+                                           "win.yelp-view-go-forward",
+                                           (const gchar*[]) {"<Alt>Right", NULL});
+    gtk_application_set_accels_for_action (GTK_APPLICATION (app),
+                                           "win.yelp-view-go-previous",
+                                           (const gchar*[]) {"<Control>Page_Up", NULL});
+    gtk_application_set_accels_for_action (GTK_APPLICATION (app),
+                                           "win.yelp-view-go-next",
+                                           (const gchar*[]) {"<Control>Page_Down", NULL});
 }
 
 static void
@@ -155,14 +174,6 @@ yelp_application_class_init (YelpApplicationClass *klass)
 
     object_class->dispose = yelp_application_dispose;
     object_class->finalize = yelp_application_finalize;
-
-    signals[READ_LATER_CHANGED] =
-        g_signal_new ("read-later-changed",
-                      G_TYPE_FROM_CLASS (klass),
-                      G_SIGNAL_RUN_LAST,
-                      0, NULL, NULL,
-                      g_cclosure_marshal_VOID__STRING,
-                      G_TYPE_NONE, 1, G_TYPE_STRING);
 
     g_type_class_add_private (klass, sizeof (YelpApplicationPrivate));
 }
@@ -180,9 +191,19 @@ yelp_application_dispose (GObject *object)
 {
     YelpApplicationPrivate *priv = GET_PRIV (object);
 
-    if (priv->action_group) {
-        g_object_unref (priv->action_group);
-        priv->action_group = NULL;
+    if (priv->show_cursor_action) {
+        g_object_unref (priv->show_cursor_action);
+        priv->show_cursor_action = NULL;
+    }
+
+    if (priv->larger_text_action) {
+        g_object_unref (priv->larger_text_action);
+        priv->larger_text_action = NULL;
+    }
+
+    if (priv->smaller_text_action) {
+        g_object_unref (priv->smaller_text_action);
+        priv->smaller_text_action = NULL;
     }
 
     if (priv->gsettings) {
@@ -244,15 +265,14 @@ yelp_application_startup (GApplication *application)
 {
     YelpApplication *app = YELP_APPLICATION (application);
     YelpApplicationPrivate *priv = GET_PRIV (app);
+    GMenu *menu, *section;
     gchar *keyfile;
     YelpSettings *settings;
-    GtkAction *action;
 
     g_set_application_name (N_("Help"));
 
     /* chain up */
-    G_APPLICATION_CLASS (yelp_application_parent_class)
-      ->startup (application);
+    G_APPLICATION_CLASS (yelp_application_parent_class)->startup (application);
 
     settings = yelp_settings_get_default ();
     if (editor_mode)
@@ -263,53 +283,63 @@ yelp_application_startup (GApplication *application)
                                                        NULL);
     /* Use a config file for per-document settings, because
        Ryan asked me to. */
-    keyfile = g_build_filename (g_get_user_config_dir (),
-                                "yelp", "yelp.cfg", NULL);
+    keyfile = g_build_filename (g_get_user_config_dir (), "yelp", "yelp.cfg", NULL);
     priv->backend = g_keyfile_settings_backend_new (keyfile, "/org/gnome/yelp/", "yelp");
     g_free (keyfile);
+
     /* But the main settings are in dconf */
     priv->gsettings = g_settings_new ("org.gnome.yelp");
 
     g_settings_bind (priv->gsettings, "show-cursor",
                      settings, "show-text-cursor",
                      G_SETTINGS_BIND_DEFAULT);
+    priv->show_cursor_action = g_property_action_new ("yelp-application-show-cursor",
+                                                      settings, "show-text-cursor");
+    g_action_map_add_action (G_ACTION_MAP (app), G_ACTION (priv->show_cursor_action));
+
     g_settings_bind (priv->gsettings, "font-adjustment",
                      settings, "font-adjustment",
                      G_SETTINGS_BIND_DEFAULT);
 
-    priv->action_group = gtk_action_group_new ("ApplicationActions");
-    gtk_action_group_set_translation_domain (priv->action_group, GETTEXT_PACKAGE);
-    gtk_action_group_add_actions (priv->action_group,
-				  action_entries, G_N_ELEMENTS (action_entries),
-				  app);
-    action = (GtkAction *) gtk_toggle_action_new ("ShowTextCursor",
-                                                  _("Show Text _Cursor"),
-                                                  NULL, NULL);
-    gtk_action_group_add_action_with_accel (priv->action_group,
-                                            action, "F7");
-    g_settings_bind (priv->gsettings, "show-cursor",
-                     action, "active",
-                     G_SETTINGS_BIND_DEFAULT);
-    g_object_unref (action);
+    priv->larger_text_action = g_simple_action_new ("yelp-application-larger-text", NULL);
+    g_signal_connect (priv->larger_text_action,
+                      "activate",
+                      G_CALLBACK (application_adjust_font),
+                      app);
+    g_action_map_add_action (G_ACTION_MAP (app), G_ACTION (priv->larger_text_action));
+
+    priv->smaller_text_action = g_simple_action_new ("yelp-application-smaller-text", NULL);
+    g_signal_connect (priv->smaller_text_action,
+                      "activate",
+                      G_CALLBACK (application_adjust_font),
+                      app);
+    g_action_map_add_action (G_ACTION_MAP (app), G_ACTION (priv->smaller_text_action));
+
     application_set_font_sensitivity (app);
+
+    menu = g_menu_new ();
+    section = g_menu_new ();
+    g_menu_append (section, _("New Window"), "win.yelp-window-new");
+    g_menu_append_section (menu, NULL, G_MENU_MODEL (section));
+    g_object_unref (section);
+    section = g_menu_new ();
+    g_menu_append (section, _("Larger Text"), "app.yelp-application-larger-text");
+    g_menu_append (section, _("Smaller Text"), "app.yelp-application-smaller-text");
+    g_menu_append_section (menu, NULL, G_MENU_MODEL (section));
+    g_object_unref (section);
+    gtk_application_set_app_menu (GTK_APPLICATION (application), G_MENU_MODEL (menu));
 }
 
 /******************************************************************************/
 
-GtkActionGroup *
-yelp_application_get_action_group (YelpApplication  *app)
-{
-    YelpApplicationPrivate *priv = GET_PRIV (app);
-    return priv->action_group;
-}
-
 static void
-application_adjust_font (GtkAction       *action,
+application_adjust_font (GAction         *action,
+                         GVariant        *parameter,
                          YelpApplication *app)
 {
     YelpApplicationPrivate *priv = GET_PRIV (app);
     gint adjustment = g_settings_get_int (priv->gsettings, "font-adjustment");
-    gint adjust = g_str_equal (gtk_action_get_name (action), "LargerText") ? 1 : -1;
+    gint adjust = g_str_equal (g_action_get_name (action), "yelp-application-larger-text") ? 1 : -1;
 
     adjustment += adjust;
     g_settings_set_int (priv->gsettings, "font-adjustment", adjustment);
@@ -329,10 +359,10 @@ application_set_font_sensitivity (YelpApplication *app)
         g_warning ("Expcected integer param spec for font-adjustment");
         return;
     }
-    gtk_action_set_sensitive (gtk_action_group_get_action (priv->action_group, "LargerText"),
-                              adjustment < ((GParamSpecInt *) spec)->maximum);
-    gtk_action_set_sensitive (gtk_action_group_get_action (priv->action_group, "SmallerText"),
-                              adjustment > ((GParamSpecInt *) spec)->minimum);
+    g_simple_action_set_enabled (priv->larger_text_action, 
+                                 adjustment < ((GParamSpecInt *) spec)->maximum);
+    g_simple_action_set_enabled (priv->smaller_text_action, 
+                                 adjustment > ((GParamSpecInt *) spec)->minimum);
 }
 
 /******************************************************************************/
@@ -467,18 +497,25 @@ application_uri_resolved (YelpUri             *uri,
 
     /* Metacity no longer does anything useful with gtk_window_present */
     gdk_window = gtk_widget_get_window (GTK_WIDGET (window));
-    if (gdk_window)
-        gdk_x11_window_move_to_current_desktop (gdk_window);
 
-    /* Ensure we actually present the window when invoked from the command
-     * line. This is somewhat evil, but the minor evil of Yelp stealing
-     * focus (after you requested it) is outweighed for me by the major
-     * evil of no help window appearing when you click Help.
-     */
-    if (data->timestamp == 0)
-        data->timestamp = gdk_x11_get_server_time (gtk_widget_get_window (GTK_WIDGET (window)));
+#ifdef GDK_WINDOWING_X11
+    if (GDK_IS_X11_WINDOW (gdk_window)){
+        if (gdk_window)
+            gdk_x11_window_move_to_current_desktop (gdk_window);
 
-    gtk_window_present_with_time (GTK_WINDOW (window), data->timestamp);
+        /* Ensure we actually present the window when invoked from the command
+         * line. This is somewhat evil, but the minor evil of Yelp stealing
+         * focus (after you requested it) is outweighed for me by the major
+         * evil of no help window appearing when you click Help.
+         */
+        if (data->timestamp == 0)
+            data->timestamp = gdk_x11_get_server_time (gtk_widget_get_window (GTK_WIDGET (window)));
+
+        gtk_window_present_with_time (GTK_WINDOW (window), data->timestamp);
+    }
+    else
+#endif
+        gtk_window_present (GTK_WINDOW (window));
 
     g_object_unref (uri);
     g_free (data);
@@ -522,8 +559,6 @@ application_get_doc_settings (YelpApplication *app, const gchar *doc_uri)
         g_object_set_data ((GObject *) settings, "doc_uri", key);
         g_signal_connect (settings, "changed::bookmarks",
                           G_CALLBACK (bookmarks_changed), app);
-        g_signal_connect (settings, "changed::readlater",
-                          G_CALLBACK (readlater_changed), app);
         g_free (settings_path);
     }
     return settings;
@@ -689,76 +724,6 @@ yelp_application_get_bookmarks (YelpApplication *app,
     return g_settings_get_value (settings, "bookmarks");
 }
 
-void
-yelp_application_add_read_later (YelpApplication   *app,
-                                 const gchar       *doc_uri,
-                                 const gchar       *full_uri,
-                                 const gchar       *title)
-{
-    GSettings *settings;
-
-    settings = application_get_doc_settings (app, doc_uri);
-
-    if (settings) {
-        GVariantBuilder builder;
-        GVariantIter *iter;
-        gchar *this_uri, *this_title;
-        gboolean broken = FALSE;
-        g_settings_get (settings, "readlater", "a(ss)", &iter);
-        g_variant_builder_init (&builder, G_VARIANT_TYPE ("a(ss)"));
-        while (g_variant_iter_loop (iter, "(&s&s)", &this_uri, &this_title)) {
-            if (g_str_equal (full_uri, this_uri)) {
-                /* Already have this link */
-                broken = TRUE;
-                break;
-            }
-            g_variant_builder_add (&builder, "(ss)", this_uri, this_title);
-        }
-        g_variant_iter_free (iter);
-
-        if (!broken) {
-            GVariant *value;
-            g_variant_builder_add (&builder, "(ss)", full_uri, title);
-            value = g_variant_builder_end (&builder);
-            g_settings_set_value (settings, "readlater", value);
-        }
-    }
-}
-
-void
-yelp_application_remove_read_later (YelpApplication *app,
-                                    const gchar     *doc_uri,
-                                    const gchar     *full_uri)
-{
-    GSettings *settings;
-
-    settings = application_get_doc_settings (app, doc_uri);
-
-    if (settings) {
-        GVariantBuilder builder;
-        GVariantIter *iter;
-        gchar *this_uri, *this_title;
-        g_settings_get (settings, "readlater", "a(ss)", &iter);
-        g_variant_builder_init (&builder, G_VARIANT_TYPE ("a(ss)"));
-        while (g_variant_iter_loop (iter, "(&s&s)", &this_uri, &this_title)) {
-            if (!g_str_equal (this_uri, full_uri))
-                g_variant_builder_add (&builder, "(ss)", this_uri, this_title);
-        }
-        g_variant_iter_free (iter);
-
-        g_settings_set_value (settings, "readlater", g_variant_builder_end (&builder));
-    }
-}
-
-GVariant *
-yelp_application_get_read_later (YelpApplication *app,
-                                 const gchar     *doc_uri)
-{
-    GSettings *settings = application_get_doc_settings (app, doc_uri);
-
-    return g_settings_get_value (settings, "readlater");
-}
-
 static void
 bookmarks_changed (GSettings       *settings,
                    const gchar     *key,
@@ -767,16 +732,6 @@ bookmarks_changed (GSettings       *settings,
     const gchar *doc_uri = g_object_get_data ((GObject *) settings, "doc_uri");
     if (doc_uri)
         g_signal_emit_by_name (app, "bookmarks-changed", doc_uri);
-}
-
-static void
-readlater_changed (GSettings       *settings,
-                   const gchar     *key,
-                   YelpApplication *app)
-{
-    const gchar *doc_uri = g_object_get_data ((GObject *) settings, "doc_uri");
-    if (doc_uri)
-        g_signal_emit (app, signals[READ_LATER_CHANGED], 0, doc_uri);
 }
 
 static gboolean
