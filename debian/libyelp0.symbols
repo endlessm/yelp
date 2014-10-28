@@ -56,9 +56,6 @@ libyelp.so.0 libyelp0 #MINVER#
  yelp_info_parse_menu@Base 2.91.92
  yelp_info_parser_parse_file@Base 2.91.92
  yelp_info_parser_parse_tree@Base 2.91.92
- yelp_location_entry_get_type@Base 2.91.92
- yelp_location_entry_new@Base 2.91.92
- yelp_location_entry_start_search@Base 2.91.92
  yelp_lzma_decompressor_get_type@Base 2.91.92
  yelp_lzma_decompressor_new@Base 2.91.92
  yelp_magic_decompressor_get_type@Base 2.91.92
@@ -72,6 +69,8 @@ libyelp.so.0 libyelp0 #MINVER#
  yelp_man_parser_parse_file@Base 2.91.92
  yelp_marshal_BOOLEAN__OBJECT@Base 2.91.92
  yelp_marshal_VOID__OBJECT_BOXED@Base 2.91.92
+ yelp_search_entry_get_type@Base 3.14.1+dev58.730b931-0bem1
+ yelp_search_entry_new@Base 3.14.1+dev58.730b931-0bem1
  yelp_settings_cmp_icons@Base 2.91.92
  yelp_settings_color_get_type@Base 2.91.92
  yelp_settings_font_get_type@Base 2.91.92
@@ -133,7 +132,6 @@ libyelp.so.0 libyelp0 #MINVER#
  yelp_uri_resolve@Base 2.91.92
  yelp_uri_resolve_sync@Base 2.91.92
  yelp_view_add_link_action@Base 2.91.92
- yelp_view_get_action_group@Base 2.91.92
  yelp_view_get_active_link_text@Base 2.91.92
  yelp_view_get_active_link_uri@Base 2.91.92
  yelp_view_get_document@Base 2.91.92
@@ -142,4 +140,5 @@ libyelp.so.0 libyelp0 #MINVER#
  yelp_view_load_document@Base 2.91.92
  yelp_view_load_uri@Base 2.91.92
  yelp_view_new@Base 2.91.92
+ yelp_view_register_actions@Base 3.14.1+dev58.730b931-0bem1
  yelp_view_state_get_type@Base 2.91.92
