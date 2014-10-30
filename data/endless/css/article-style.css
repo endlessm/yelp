@@ -1093,3 +1093,19 @@ div.terms dl.terms {
 #endless-tutorial a:hover {
     color: #2d6698;
 }
+
+#home-video-links tr * {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Style the "More" link in the top row to look a bit bigger */
+#home-video-links tr:first-child a {
+    font-size: 1.2em;
+}
+
+#home-video-links a:hover {
+    color: #2d6698;
+}
