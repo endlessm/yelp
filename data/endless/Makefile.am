@@ -42,6 +42,16 @@ font_files = \
 	fonts/glyphicons-halflings-regular.ttf \
 	$(NULL)
 
-nobase_endless_DATA = $(css_files) $(img_files) $(font_files)
+spec_files = \
+	spec/index.page \
+	spec/mallard-logo.png \
+	spec/movie.ogv \
+	spec/page1.page \
+	spec/page2.page \
+	spec/page3.page \
+	spec/raptor.jpg \
+	$(NULL)
+
+nobase_endless_DATA = $(css_files) $(img_files) $(font_files) $(spec_files)
 
 EXTRA_DIST = $(nobase_endless_DATA)
