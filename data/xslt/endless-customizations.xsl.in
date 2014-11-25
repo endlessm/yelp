@@ -21,8 +21,12 @@
   </xsl:call-template>
 </xsl:template>
 
+<!-- Only apply our sidebar if the endless.sidebar parameter has been set true -->
+<xsl:param name="endless.sidebar" select="false()"/>
+
 <xsl:template name="html.top.custom">
   <xsl:param name="node" select="."/>
+  <xsl:if test="$endless.sidebar">
   <div id="content-nav" class="col-xs-2 dynamic">
     <nav id="main-nav" class="col-xs-2 load_section">
       <div id="wrap-nav">
@@ -95,6 +99,7 @@
       </div>
     </nav>
   </div>
+  </xsl:if>
 </xsl:template>
 
 <!-- Override html.page from yelp-xsl/xslt/commmon/html.xsl in order to put our
