@@ -5,6 +5,28 @@ body {
     font-size: 15px;
 }
 
+hr {
+    border-top: 1px solid #e5e5e5;
+}
+
+p {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    max-width: 1250px;
+    padding-bottom: 0.5em;
+}
+
+.section p {
+    font-size: .75rem;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #3b3b3b;
+}
+
 div.body{
     padding: 0;
     min-height: 0;
@@ -12,13 +34,6 @@ div.body{
 
 .section div.body{
     background-color: #fff;
-}
-
-div.page {
-    border: 0;
-    margin: 0;
-    margin-right: 60px;
-    max-width: 100%;
 }
 
 .header,
@@ -209,7 +224,7 @@ p a {
 
 h1 {
     color: #2c2c2c;
-    padding: 2rem 0rem 1rem;
+    padding-bottom: 1rem;
     margin: 0 0 1rem 0;
     border-bottom: 1px solid #D9D9D9;
     font-size: 2em;
