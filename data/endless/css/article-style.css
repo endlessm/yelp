@@ -14,13 +14,6 @@ div.body{
     background-color: #fff;
 }
 
-div.page {
-    border: 0;
-    margin: 0;
-    margin-right: 60px;
-    max-width: 100%;
-}
-
 .header,
 .hgroup img {
     display: none;
@@ -209,7 +202,7 @@ p a {
 
 h1 {
     color: #2c2c2c;
-    padding: 2rem 0rem 1rem;
+    padding-bottom: 1rem;
     margin: 0 0 1rem 0;
     border-bottom: 1px solid #D9D9D9;
     font-size: 2em;

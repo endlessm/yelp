@@ -14,75 +14,26 @@ body {
     height: 100%;
     min-height: 200px;
     min-width: 40em;
-    background-color: #e8e6e2;
 }
 
-#wrap-article {
-    background-color: white;
-    border-radius: .71em;
-    -webkit-border-radius: .71em;
-    -moz-border-radius: .71em;
-    height: calc(100% - 5.5em);
-    margin: 2.5em .5em 2em 0;
-    overflow: hidden;
-    width: calc(100% - 30.8em);
-}
-
-#wrap-article.home.small {
-    padding-left: 0;
-    background: #3d3d3d;
-}
-
-#wrap-article.home .bg-light {
-    background-color: #e8e6e2;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: calc(100%);
-    width: calc(66.66666667% - .85em);
-}
-
-#wrap-article.small {
-    padding-right: 0;
-    margin: 1rem;
-    height: calc(100% - 2rem);
-    width: calc(100% - 16rem);
-}
-
-#wrap-article #content-body {
-    height: calc(100% - 2em);
-    overflow-y: auto;
-    overflow-x: hidden;
-    margin: 1em 0;
-    position: relative;
-}
-
-#wrap-article.home .light {
-    padding: 0 1.3em;
-}
-
-#wrap-article #content-body hr {
-    margin: 15px 0 5px;
-}
-
-#wrap-article #content-article {
-    position: relative;
-}
-
-#wrap-article .search-content {
-    margin: 0 .5rem;
-}
-
-#wrap-article .search-content h4 {
-    font-size: .8rem;
-    margin: 0;
+div.page {
+    /* These need to be !important for now as there is some inline css in
+     * yelp-common.xsl that sets width and max-width to 100% and inline css
+     * always takes precedence over external style sheets. For now following the
+     * convention of leaving the yelp-common.xsl file unchanged from upstream.
+     */
+    width: auto!important;
+    max-width: none!important;
+    height: 100%;
+    overflow: auto;
+    padding: 2rem 4rem;
 }
 
 #content-nav {
+    float: left;
     height: 100%;
     padding: 0;
     margin: 0;
-    width: 24rem;
 }
 
 #content-nav.small,
@@ -94,7 +45,6 @@ body {
     background-color: transparent;
     height: 100%;
     padding: 0;
-    position: fixed;
     width: 20rem;
     -webkit-box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.1);
     box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.1);
@@ -105,7 +55,6 @@ body {
 }
 
 #main-nav #wrap-nav {
-    position: fixed;
     margin: 0;
     padding: 0;
     background-color: #e2e2e2;
