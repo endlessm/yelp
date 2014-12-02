@@ -5,6 +5,28 @@ body {
     font-size: 15px;
 }
 
+hr {
+    border-top: 1px solid #e5e5e5;
+}
+
+p {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    max-width: 1250px;
+    padding-bottom: 0.5em;
+}
+
+.section p {
+    font-size: .75rem;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #3b3b3b;
+}
+
 div.body{
     padding: 0;
     min-height: 0;
