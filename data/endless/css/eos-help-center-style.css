@@ -2,11 +2,6 @@
  * Style for eos-help-center
  */
 
-@import url(bootstrap.min.css);
-@import url(font-awesome.min.css);
-@import url(utilities.css);
-@import url(fonts.css);
-
 html,
 body {
     font-family: 'latoregular', sans-serif;
