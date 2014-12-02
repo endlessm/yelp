@@ -5,9 +5,6 @@ css_files = \
 	css/bootstrap.css.map \
 	css/bootstrap.min.css \
 	css/eos-help-center-style.css \
-	css/fonts.css \
-	css/font-awesome.min.css \
-	css/utilities.css \
 	$(NULL)
 
 img_files = \
@@ -28,18 +25,6 @@ img_files = \
 	img/icon_info.png \
 	img/icon_home.png \
 	img/separator.png \
-	$(NULL)
-
-font_files = \
-	fonts/fontawesome-webfont.svg \
-	fonts/glyphicons-halflings-regular.eot \
-	fonts/glyphicons-halflings-regular.woff \
-	fonts/FontAwesome.otf \
-	fonts/fontawesome-webfont.ttf \
-	fonts/glyphicons-halflings-regular.svg \
-	fonts/fontawesome-webfont.eot \
-	fonts/fontawesome-webfont.woff \
-	fonts/glyphicons-halflings-regular.ttf \
 	$(NULL)
 
 spec_files = \
