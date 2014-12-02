@@ -33,7 +33,7 @@
         <xsl:with-param name="msgid" select="'sidebar.link.index'"/>
       </xsl:call-template>
     </a></h3>
-    <ul>
+    <ol>
       <li><a href="help:gnome-help/getting-started"><span>
         <xsl:call-template name="l10n-endless-text">
           <xsl:with-param name="msgid" select="'sidebar.link.getting-started'"/>
@@ -89,7 +89,7 @@
           <xsl:with-param name="msgid" select="'sidebar.link.endless-videos'"/>
         </xsl:call-template>
       </span></a></li>
-    </ul>
+    </ol>
   </nav>
   </xsl:if>
 </xsl:template>
