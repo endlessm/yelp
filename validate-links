@@ -1,0 +1,44 @@
+#!/bin/bash -e
+
+if [[ $# -lt 2 ]]; then
+    echo "Builds html from the yelp pages and then validates the page links through the html."
+    echo "You need to have w3c-linkchecker installed to run this script"
+    echo "Usage: ./validate-links in out"
+    echo "   in: any directory with a complete set of .page files, e.g. /usr/share/help/C/gnome-help"
+    echo "  out: directory to build html for checking, e.g. html"
+    exit 1
+fi
+
+indir=$1
+htmldir=$2
+mkdir -p $htmldir
+
+echo "Building the html"
+yelp-build html -o $htmldir $1/*.page
+
+echo "Validating the html links"
+pushd $htmldir > /dev/null
+# Since we do some hacky parsing of checklink output, make sure we and in the C
+# locale
+export LANG=C
+for file in *.html; do
+    # Ignore special uri schemes our OS knows how to handle
+    checklink -X '^[help|endless|install].*' $file | tee out >> aggout
+    # Lines starting with file:// are broken links
+    broken="$(sed -n '/^file:\/\//p' out)"
+    if [ -n "$broken" ]; then
+        echo -e "In \e[31m$file\e[0m, broken links to"
+        echo "$broken" | sed "s/^/    /"
+    fi
+done
+# We should have a line in output starting with "Checking link" for every link we
+# have investigated
+checked="$(sed -n 's/^Checking link file:\/\///p' aggout | sort -u)"
+for file in *.html; do
+    if [[ ! $checked == *"$file"* ]]; then
+        echo -e "Orphan page \e[33m$file\e[0m"
+    fi
+done
+popd > /dev/null
+
+echo "Done!"
