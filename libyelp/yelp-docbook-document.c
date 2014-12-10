@@ -541,7 +541,6 @@ docbook_walk (YelpDocbookDocument *docbook)
     gchar        autoidstr[20];
     xmlChar     *id = NULL;
     xmlChar     *title = NULL;
-    gchar       *old_page_id = NULL;
     xmlNodePtr   cur, old_cur;
     gboolean chunkQ;
     YelpDocbookDocumentPrivate *priv = GET_PRIV (docbook);
@@ -598,7 +597,6 @@ docbook_walk (YelpDocbookDocument *docbook)
 
         if (priv->cur_page_id)
             yelp_document_set_up_id (document, (gchar *) id, priv->cur_page_id);
-        old_page_id = priv->cur_page_id;
         priv->cur_page_id = g_strdup ((gchar *) id);
     }
 
@@ -686,7 +684,6 @@ static gchar *
 docbook_walk_get_title (YelpDocbookDocument *docbook,
                         xmlNodePtr           cur)
 {
-    YelpDocbookDocumentPrivate *priv = GET_PRIV (docbook);
     gchar *infoname = NULL;
     xmlNodePtr child = NULL;
     xmlNodePtr title = NULL;
@@ -927,7 +924,6 @@ static void
 docbook_index_node (DocbookIndexData *index)
 {
     xmlNodePtr oldcur, child;
-    YelpDocbookDocumentPrivate *priv = GET_PRIV (index->docbook);
 
     if ((g_str_equal (index->cur->parent->name, "menuchoice") ||
          g_str_equal (index->cur->parent->name, "keycombo")) &&
