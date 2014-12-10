@@ -964,7 +964,7 @@ docbook_index_chunk (DocbookIndexData *index)
         index->str = g_string_new ("");
     }
 
-    for (child = index->cur->children; child = child->next; child) {
+    for (child = index->cur->children; child != NULL; child = child->next) {
         if (docbook_walk_chunkQ (index->docbook, child, index->depth, index->max_depth)) {
             chunks = g_slist_append (chunks, child);
         }
