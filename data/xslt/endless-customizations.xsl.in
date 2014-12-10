@@ -33,26 +33,6 @@
       </xsl:call-template>
     </a></h3>
     <ol>
-      <li><a href="help:gnome-help/getting-started"><span>
-        <xsl:call-template name="l10n-endless-text">
-          <xsl:with-param name="msgid" select="'sidebar.link.getting-started'"/>
-        </xsl:call-template>
-      </span></a></li>
-      <li><a href="help:gnome-help/shell-introduction"><span>
-        <xsl:call-template name="l10n-endless-text">
-          <xsl:with-param name="msgid" select="'sidebar.link.shell-introduction'"/>
-        </xsl:call-template>
-      </span></a></li>
-      <li><a href="help:gnome-help/shell-exit"><span>
-        <xsl:call-template name="l10n-endless-text">
-          <xsl:with-param name="msgid" select="'sidebar.link.shell-exit'"/>
-        </xsl:call-template>
-      </span></a></li>
-      <li><a href="help:gnome-help/shell-apps-open"><span>
-        <xsl:call-template name="l10n-endless-text">
-          <xsl:with-param name="msgid" select="'sidebar.link.shell-apps-open'"/>
-        </xsl:call-template>
-      </span></a></li>
       <li><a href="help:gnome-help/shell-overview"><span>
         <xsl:call-template name="l10n-endless-text">
           <xsl:with-param name="msgid" select="'sidebar.link.shell-overview'"/>
@@ -68,19 +48,19 @@
           <xsl:with-param name="msgid" select="'sidebar.link.net'"/>
         </xsl:call-template>
       </span></a></li>
-      <li><a href="help:gnome-help/prefs"><span>
-        <xsl:call-template name="l10n-endless-text">
-          <xsl:with-param name="msgid" select="'sidebar.link.prefs'"/>
-        </xsl:call-template>
-      </span></a></li>
-      <li><a href="help:gnome-help/tips"><span>
-        <xsl:call-template name="l10n-endless-text">
-          <xsl:with-param name="msgid" select="'sidebar.link.tips'"/>
-        </xsl:call-template>
-      </span></a></li>
       <li><a href="help:gnome-help/hardware"><span>
         <xsl:call-template name="l10n-endless-text">
           <xsl:with-param name="msgid" select="'sidebar.link.hardware'"/>
+        </xsl:call-template>
+      </span></a></li>
+      <li><a href="help:gnome-help/security-and-privacy"><span>
+        <xsl:call-template name="l10n-endless-text">
+          <xsl:with-param name="msgid" select="'sidebar.link.security-and-privacy'"/>
+        </xsl:call-template>
+      </span></a></li>
+      <li><a href="help:gnome-help/a11y"><span>
+        <xsl:call-template name="l10n-endless-text">
+          <xsl:with-param name="msgid" select="'sidebar.link.a11y'"/>
         </xsl:call-template>
       </span></a></li>
       <li><a href="help:gnome-help/endless-videos"><span>
