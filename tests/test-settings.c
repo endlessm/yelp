@@ -300,7 +300,7 @@ main (int argc, char **argv)
 
     for (i = 0; i < YELP_SETTINGS_NUM_ICONS; i++) {
 	const gchar *labels[YELP_SETTINGS_NUM_ICONS] =
-	    {"BUG", "CAUTION", "IMPORTANT", "NOTE", "TIP", "WARNING"};
+	    {"BUG", "IMPORTANT", "NOTE", "TIP", "WARNING"};
 	widget = gtk_label_new (labels[i]);
 	g_object_set (widget, "xalign", 0.0, NULL);
 	gtk_table_attach (GTK_TABLE (icon_table), widget,
@@ -328,4 +328,6 @@ main (int argc, char **argv)
     gtk_widget_show_all (GTK_WIDGET (window));
 
     gtk_main ();
+
+    return 0;
 }

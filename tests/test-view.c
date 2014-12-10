@@ -61,9 +61,6 @@ int
 main (int argc, char **argv)
 {
     GtkWidget *window, *vbox, *entry, *scroll, *view;
-    YelpUri *uri;
-    YelpDocument *document;
-    GCancellable *cancellable;
 
     gtk_init (&argc, &argv);
 
@@ -93,17 +90,19 @@ main (int argc, char **argv)
     gtk_container_add (GTK_CONTAINER (scroll), view);
 			   
 
-    g_signal_connect (entry, "activate", activate_cb, view);
+    g_signal_connect (entry, "activate", G_CALLBACK (activate_cb), view);
 
     if (argc >= 2) {
 	/* I put in the double-load to test some race condition bugs.
 	 * I decided to leave it in.
 	 */
-	yelp_view_load (view, argv[1]);
-	yelp_view_load (view, argv[1]);
+	yelp_view_load (YELP_VIEW (view), argv[1]);
+	yelp_view_load (YELP_VIEW (view), argv[1]);
     }
 
     gtk_widget_show_all (GTK_WIDGET (window));
 
     gtk_main ();
+
+    return 0;
 }
