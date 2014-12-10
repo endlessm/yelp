@@ -541,7 +541,6 @@ docbook_walk (YelpDocbookDocument *docbook)
     gchar        autoidstr[20];
     xmlChar     *id = NULL;
     xmlChar     *title = NULL;
-    gchar       *old_page_id = NULL;
     xmlNodePtr   cur, old_cur;
     gboolean chunkQ;
     YelpDocbookDocumentPrivate *priv = GET_PRIV (docbook);
@@ -598,7 +597,6 @@ docbook_walk (YelpDocbookDocument *docbook)
 
         if (priv->cur_page_id)
             yelp_document_set_up_id (document, (gchar *) id, priv->cur_page_id);
-        old_page_id = priv->cur_page_id;
         priv->cur_page_id = g_strdup ((gchar *) id);
     }
 
@@ -686,7 +684,6 @@ static gchar *
 docbook_walk_get_title (YelpDocbookDocument *docbook,
                         xmlNodePtr           cur)
 {
-    YelpDocbookDocumentPrivate *priv = GET_PRIV (docbook);
     gchar *infoname = NULL;
     xmlNodePtr child = NULL;
     xmlNodePtr title = NULL;
@@ -795,7 +792,7 @@ docbook_walk_get_title (YelpDocbookDocument *docbook,
 
     if (title) {
         xmlChar *title_s = xmlNodeGetContent (title);
-        gchar *ret = g_strdup (title_s);
+        gchar *ret = g_strdup ((char *) title_s);
         xmlFree (title_s);
         return ret;
     }
@@ -927,7 +924,6 @@ static void
 docbook_index_node (DocbookIndexData *index)
 {
     xmlNodePtr oldcur, child;
-    YelpDocbookDocumentPrivate *priv = GET_PRIV (index->docbook);
 
     if ((g_str_equal (index->cur->parent->name, "menuchoice") ||
          g_str_equal (index->cur->parent->name, "keycombo")) &&
@@ -935,11 +931,11 @@ docbook_index_node (DocbookIndexData *index)
         g_string_append_c (index->str, ' ');
     }
     if (index->cur->type == XML_TEXT_NODE) {
-        g_string_append (index->str, index->cur->content);
+        g_string_append (index->str, (char *) index->cur->content);
         return;
     }
     if (index->cur->type != XML_ELEMENT_NODE ||
-        g_str_has_suffix (index->cur->name, "info") ||
+        g_str_has_suffix ((char *) index->cur->name, "info") ||
         g_str_equal (index->cur->name, "remark"))
         return;
     oldcur = index->cur;
@@ -968,7 +964,7 @@ docbook_index_chunk (DocbookIndexData *index)
         index->str = g_string_new ("");
     }
 
-    for (child = index->cur->children; child = child->next; child) {
+    for (child = index->cur->children; child != NULL; child = child->next) {
         if (docbook_walk_chunkQ (index->docbook, child, index->depth, index->max_depth)) {
             chunks = g_slist_append (chunks, child);
         }
