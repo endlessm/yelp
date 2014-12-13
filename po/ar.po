@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 15:28-0700\n"
+"POT-Creation-Date: 2014-12-13 01:44+0000\n"
 "PO-Revision-Date: 2014-10-27 22:29+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/projects/p/yelp/language/ar/)\n"
@@ -156,19 +156,19 @@ msgstr ""
 msgid "Video Tutorials"
 msgstr ""
 
-#: ../libyelp/yelp-bz2-decompressor.c:144
-#: ../libyelp/yelp-lzma-decompressor.c:153
+#: ../libyelp/yelp-bz2-decompressor.c:143
+#: ../libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
 msgstr "بيانات مضغوطة غير سليمة"
 
-#: ../libyelp/yelp-bz2-decompressor.c:150
-#: ../libyelp/yelp-lzma-decompressor.c:159
+#: ../libyelp/yelp-bz2-decompressor.c:149
+#: ../libyelp/yelp-lzma-decompressor.c:158
 msgid "Not enough memory"
 msgstr "الذاكرة غير كافية"
 
 #: ../libyelp/yelp-docbook-document.c:297 ../libyelp/yelp-info-document.c:237
-#: ../libyelp/yelp-mallard-document.c:305
-#: ../libyelp/yelp-mallard-document.c:456 ../libyelp/yelp-man-document.c:281
+#: ../libyelp/yelp-mallard-document.c:306
+#: ../libyelp/yelp-mallard-document.c:457 ../libyelp/yelp-man-document.c:281
 #, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
 msgstr "تعذّر إيجاد الصفحة ’%s‘ في المستند ’%s‘."
@@ -199,11 +199,11 @@ msgid ""
 "is not a well-formed XML document."
 msgstr "تعذّر فهم الملف ‘%s’. لأنه بعض الملفات التي يُضمّنها غير سليمة."
 
-#: ../libyelp/yelp-docbook-document.c:803
+#: ../libyelp/yelp-docbook-document.c:800
 msgid "Unknown"
 msgstr "مجهول"
 
-#: ../libyelp/yelp-docbook-document.c:864 ../libyelp/yelp-info-document.c:314
+#: ../libyelp/yelp-docbook-document.c:861 ../libyelp/yelp-info-document.c:314
 #: ../libyelp/yelp-man-document.c:358
 #, c-format
 msgid "The requested page was not found in the document ‘%s’."
@@ -254,7 +254,7 @@ msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
 msgstr "تعذّر فهم الملف ‘%s’ لأنه ملف info غير سليم."
 
-#: ../libyelp/yelp-mallard-document.c:344
+#: ../libyelp/yelp-mallard-document.c:345
 #, c-format
 msgid "The directory ‘%s’ does not exist."
 msgstr "الدليل ‘%s’ غير موجود."
@@ -267,7 +267,7 @@ msgstr "عرض"
 msgid "A YelpView instance to control"
 msgstr ""
 
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:402
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:407
 msgid "Bookmarks"
 msgstr "العلامات"
 
@@ -328,24 +328,24 @@ msgstr "اسم ملف قاعدة البيانات"
 msgid "The filename of the sqlite database"
 msgstr "اسم ملف قاعدة بيانات sqlite"
 
-#: ../libyelp/yelp-transform.c:169
+#: ../libyelp/yelp-transform.c:166
 msgid "XSLT Stylesheet"
 msgstr "ورقة أنماط XSLT"
 
-#: ../libyelp/yelp-transform.c:170
+#: ../libyelp/yelp-transform.c:167
 msgid "The location of the XSLT stylesheet"
 msgstr "مكان ورق أنماط XSLT"
 
-#: ../libyelp/yelp-transform.c:378 ../libyelp/yelp-transform.c:393
+#: ../libyelp/yelp-transform.c:374 ../libyelp/yelp-transform.c:389
 #, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
 msgstr "ملف نسق XSLT‏ ’%s‘ غير موجود أو غير سليم."
 
-#: ../libyelp/yelp-transform.c:527
+#: ../libyelp/yelp-transform.c:523
 msgid "No href attribute found on yelp:document\n"
 msgstr "لم يوجد إسناد href عند yelp:document\n"
 
-#: ../libyelp/yelp-transform.c:542
+#: ../libyelp/yelp-transform.c:538
 msgid "Out of memory"
 msgstr "الذاكرة غير كافية"
 
@@ -520,7 +520,7 @@ msgstr "تعذر تحليل المسار ‘%s’."
 msgid "Turn on editor mode"
 msgstr "شغّل نمط المُحرّر"
 
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1168
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1173
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "مساعدة"
@@ -537,59 +537,59 @@ msgstr ""
 msgid "Smaller Text"
 msgstr ""
 
-#: ../src/yelp-window.c:206
+#: ../src/yelp-window.c:209
 msgid "Application"
 msgstr "تطبيق"
 
-#: ../src/yelp-window.c:207
+#: ../src/yelp-window.c:210
 msgid "A YelpApplication instance that controls this window"
 msgstr ""
 
-#: ../src/yelp-window.c:325
+#: ../src/yelp-window.c:330
 msgid "Back"
 msgstr ""
 
-#: ../src/yelp-window.c:332
+#: ../src/yelp-window.c:337
 msgid "Forward"
 msgstr ""
 
-#: ../src/yelp-window.c:343
+#: ../src/yelp-window.c:348
 msgid "Menu"
 msgstr ""
 
-#: ../src/yelp-window.c:351
+#: ../src/yelp-window.c:356
 msgid "Find…"
 msgstr ""
 
-#: ../src/yelp-window.c:352
+#: ../src/yelp-window.c:357
 msgid "Print…"
 msgstr ""
 
-#: ../src/yelp-window.c:357
+#: ../src/yelp-window.c:362
 msgid "Previous Page"
 msgstr ""
 
-#: ../src/yelp-window.c:358
+#: ../src/yelp-window.c:363
 msgid "Next Page"
 msgstr ""
 
-#: ../src/yelp-window.c:363
+#: ../src/yelp-window.c:368
 msgid "All Help"
 msgstr ""
 
-#: ../src/yelp-window.c:385
+#: ../src/yelp-window.c:390
 msgid "Search (Ctrl+S)"
 msgstr ""
 
-#: ../src/yelp-window.c:419
+#: ../src/yelp-window.c:424
 msgid "No bookmarks"
 msgstr ""
 
-#: ../src/yelp-window.c:427
+#: ../src/yelp-window.c:432
 msgid "Add Bookmark"
 msgstr ""
 
-#: ../src/yelp-window.c:433
+#: ../src/yelp-window.c:438
 msgid "Remove Bookmark"
 msgstr ""
 

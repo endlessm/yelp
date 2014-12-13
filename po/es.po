@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 15:28-0700\n"
+"POT-Creation-Date: 2014-12-13 01:44+0000\n"
 "PO-Revision-Date: 2014-10-31 21:00+0000\n"
 "Last-Translator: c.sanchez <cassandra@endlessm.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/yelp/language/es/)\n"
@@ -154,19 +154,19 @@ msgstr "Obtener más ayuda"
 msgid "Video Tutorials"
 msgstr "Tutoriales en video"
 
-#: ../libyelp/yelp-bz2-decompressor.c:144
-#: ../libyelp/yelp-lzma-decompressor.c:153
+#: ../libyelp/yelp-bz2-decompressor.c:143
+#: ../libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
 msgstr "Datos comprimidos no válidos"
 
-#: ../libyelp/yelp-bz2-decompressor.c:150
-#: ../libyelp/yelp-lzma-decompressor.c:159
+#: ../libyelp/yelp-bz2-decompressor.c:149
+#: ../libyelp/yelp-lzma-decompressor.c:158
 msgid "Not enough memory"
 msgstr "No hay suficiente memoria"
 
 #: ../libyelp/yelp-docbook-document.c:297 ../libyelp/yelp-info-document.c:237
-#: ../libyelp/yelp-mallard-document.c:305
-#: ../libyelp/yelp-mallard-document.c:456 ../libyelp/yelp-man-document.c:281
+#: ../libyelp/yelp-mallard-document.c:306
+#: ../libyelp/yelp-mallard-document.c:457 ../libyelp/yelp-man-document.c:281
 #, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
 msgstr "La página «%s» no se encontró en el documento «%s»."
@@ -197,11 +197,11 @@ msgid ""
 "is not a well-formed XML document."
 msgstr "El archivo «%s» no se pudo analizar porque uno o más de sus archivos incluidos no son documentos XML bien formados."
 
-#: ../libyelp/yelp-docbook-document.c:803
+#: ../libyelp/yelp-docbook-document.c:800
 msgid "Unknown"
 msgstr "Desconocido"
 
-#: ../libyelp/yelp-docbook-document.c:864 ../libyelp/yelp-info-document.c:314
+#: ../libyelp/yelp-docbook-document.c:861 ../libyelp/yelp-info-document.c:314
 #: ../libyelp/yelp-man-document.c:358
 #, c-format
 msgid "The requested page was not found in the document ‘%s’."
@@ -252,7 +252,7 @@ msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
 msgstr "El archivo «%s» no se pudo analizar porque no es una página de información bien formada."
 
-#: ../libyelp/yelp-mallard-document.c:344
+#: ../libyelp/yelp-mallard-document.c:345
 #, c-format
 msgid "The directory ‘%s’ does not exist."
 msgstr "La carpeta «%s» no existe."
@@ -265,7 +265,7 @@ msgstr "Ver"
 msgid "A YelpView instance to control"
 msgstr "Una instancia de YelpApplication para controlar"
 
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:402
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:407
 msgid "Bookmarks"
 msgstr "Marcadores"
 
@@ -326,24 +326,24 @@ msgstr "Nombre del archivo de base de datos"
 msgid "The filename of the sqlite database"
 msgstr "El nombre del archivo de la base de datos sqlite"
 
-#: ../libyelp/yelp-transform.c:169
+#: ../libyelp/yelp-transform.c:166
 msgid "XSLT Stylesheet"
 msgstr "Hoja de estilo XSLT"
 
-#: ../libyelp/yelp-transform.c:170
+#: ../libyelp/yelp-transform.c:167
 msgid "The location of the XSLT stylesheet"
 msgstr "La ubicación de la hoja de estilo XSLT"
 
-#: ../libyelp/yelp-transform.c:378 ../libyelp/yelp-transform.c:393
+#: ../libyelp/yelp-transform.c:374 ../libyelp/yelp-transform.c:389
 #, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
 msgstr "La hoja de estilo XSLT «%s» falta o no es válida."
 
-#: ../libyelp/yelp-transform.c:527
+#: ../libyelp/yelp-transform.c:523
 msgid "No href attribute found on yelp:document\n"
 msgstr "No se encontró atributo href en yelp:document\n"
 
-#: ../libyelp/yelp-transform.c:542
+#: ../libyelp/yelp-transform.c:538
 msgid "Out of memory"
 msgstr "Se agotó la memoria"
 
@@ -518,7 +518,7 @@ msgstr "No se pudo analizar el URI «%s»."
 msgid "Turn on editor mode"
 msgstr "Activar el modo editor"
 
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1168
+#: ../src/yelp-application.c:272 ../src/yelp-window.c:1173
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "Ayuda"
@@ -535,59 +535,59 @@ msgstr "Texto más grande"
 msgid "Smaller Text"
 msgstr "Texto más pequeño"
 
-#: ../src/yelp-window.c:206
+#: ../src/yelp-window.c:209
 msgid "Application"
 msgstr "Aplicación"
 
-#: ../src/yelp-window.c:207
+#: ../src/yelp-window.c:210
 msgid "A YelpApplication instance that controls this window"
 msgstr "Una instancia de YelpApplication que controla esta ventana"
 
-#: ../src/yelp-window.c:325
+#: ../src/yelp-window.c:330
 msgid "Back"
 msgstr "Atrás"
 
-#: ../src/yelp-window.c:332
+#: ../src/yelp-window.c:337
 msgid "Forward"
 msgstr "Adelante"
 
-#: ../src/yelp-window.c:343
+#: ../src/yelp-window.c:348
 msgid "Menu"
 msgstr "Menú"
 
-#: ../src/yelp-window.c:351
+#: ../src/yelp-window.c:356
 msgid "Find…"
 msgstr "Encontrar..."
 
-#: ../src/yelp-window.c:352
+#: ../src/yelp-window.c:357
 msgid "Print…"
 msgstr "Imprimir..."
 
-#: ../src/yelp-window.c:357
+#: ../src/yelp-window.c:362
 msgid "Previous Page"
 msgstr "Página anterior"
 
-#: ../src/yelp-window.c:358
+#: ../src/yelp-window.c:363
 msgid "Next Page"
 msgstr "Próxima página"
 
-#: ../src/yelp-window.c:363
+#: ../src/yelp-window.c:368
 msgid "All Help"
 msgstr "Ayuda"
 
-#: ../src/yelp-window.c:385
+#: ../src/yelp-window.c:390
 msgid "Search (Ctrl+S)"
 msgstr "Buscar (Ctrl+S)"
 
-#: ../src/yelp-window.c:419
+#: ../src/yelp-window.c:424
 msgid "No bookmarks"
 msgstr "No tienes favoritos"
 
-#: ../src/yelp-window.c:427
+#: ../src/yelp-window.c:432
 msgid "Add Bookmark"
 msgstr "Marcar como favorito"
 
-#: ../src/yelp-window.c:433
+#: ../src/yelp-window.c:438
 msgid "Remove Bookmark"
 msgstr "Quitar como favorito"
 
