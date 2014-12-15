@@ -1,9 +1,14 @@
 endlessdir=$(datadir)/yelp/endless
 
-css_files = \
-	css/article.css \
-	css/sidebar.css \
+scss_files = \
+	css/article.scss \
+	css/sidebar.scss \
 	$(NULL)
+css_files = $(patsubst %.scss, %.css, $(scss_files))
+
+# scss build rule
+.scss.css:
+	scss $< $@
 
 img_files = \
 	img/arrow-back.png \
@@ -35,6 +40,6 @@ spec_files = \
 	spec/raptor.jpg \
 	$(NULL)
 
-nobase_endless_DATA = $(css_files) $(img_files) $(font_files) $(spec_files)
+nobase_endless_DATA = $(css_files) $(img_files) $(spec_files)
 
-EXTRA_DIST = $(nobase_endless_DATA)
+EXTRA_DIST = $(scss_files) $(img_files) $(spec_files)
