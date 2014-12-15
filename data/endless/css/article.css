@@ -9,13 +9,8 @@ body {
 
 /* The article body html */
 div.page {
-    /* These need to be !important for now as there is some inline css in
-     * yelp-common.xsl that sets width and max-width to 100% and inline css
-     * always takes precedence over external style sheets. For now following the
-     * convention of leaving the yelp-common.xsl file unchanged from upstream.
-     */
-    width: auto!important;
-    max-width: none!important;
+    width: auto;
+    max-width: none;
     height: 100%;
     overflow: auto;
     padding: 2rem 4rem;
