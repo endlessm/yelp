@@ -2,8 +2,6 @@ endlessdir=$(datadir)/yelp/endless
 
 css_files = \
 	css/article.css \
-	css/bootstrap.css.map \
-	css/bootstrap.min.css \
 	css/sidebar.css \
 	$(NULL)
 
