@@ -4,7 +4,7 @@ css_files = \
 	css/article-style.css \
 	css/bootstrap.css.map \
 	css/bootstrap.min.css \
-	css/eos-help-center-style.css \
+	css/sidebar.css \
 	$(NULL)
 
 img_files = \
