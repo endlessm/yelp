@@ -1,8 +1,29 @@
+html,
+body {
+    font-family: 'latoregular', sans-serif;
+    font-size: 16px;
+    height: 100%;
+    min-height: 200px;
+    min-width: 40em;
+}
+
+/* The article body html */
+div.page {
+    /* These need to be !important for now as there is some inline css in
+     * yelp-common.xsl that sets width and max-width to 100% and inline css
+     * always takes precedence over external style sheets. For now following the
+     * convention of leaving the yelp-common.xsl file unchanged from upstream.
+     */
+    width: auto!important;
+    max-width: none!important;
+    height: 100%;
+    overflow: auto;
+    padding: 2rem 4rem;
+}
+
 body {
     background-color: transparent;
     color: #5f5f5f;
-    font-family: 'latoregular', sans-serif;
-    font-size: 15px;
 }
 
 hr {
