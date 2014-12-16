@@ -17,6 +17,8 @@ div.page {
     height: 100%;
     overflow: auto;
     padding: 2rem 4rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 /*=== Styling for the tutorial and video links on the home page ===*/
@@ -51,6 +53,11 @@ div.page {
     color: #2d6698;
 }
 
+#home-video-links img {
+    width: 100%;
+    min-width: 10rem;
+}
+
 /*=== This was taken from html.css.core in yelp-xsl ===*/
 body {
   margin: 0; padding: 0;
@@ -60,8 +67,6 @@ body {
 }
 
 div.page {
-  margin: 1em auto 1em auto;
-  max-width: 60em;
   border: solid 1px $color-gray-border;
 }
 
