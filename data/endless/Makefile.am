@@ -1,10 +1,17 @@
 endlessdir=$(datadir)/yelp/endless
 
-scss_files = \
+scss_toplevels = \
 	css/article.scss \
 	css/sidebar.scss \
 	$(NULL)
-css_files = $(patsubst %.scss, %.css, $(scss_files))
+scss_partials = \
+	css/_color.scss \
+	css/_icons.scss \
+	$(NULL)
+css_files = $(patsubst %.scss, %.css, $(scss_toplevels))
+
+# Rebuild the css files whenever a partial changes
+$(css_files): $(scss_partials)
 
 # scss build rule
 .scss.css:
@@ -42,4 +49,4 @@ spec_files = \
 
 nobase_endless_DATA = $(css_files) $(img_files) $(spec_files)
 
-EXTRA_DIST = $(scss_files) $(img_files) $(spec_files)
+EXTRA_DIST = $(scss_toplevels) $(scss_partials) $(img_files) $(spec_files)

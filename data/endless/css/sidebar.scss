@@ -2,6 +2,9 @@
  * Style for eos-help-center
  */
 
+ @import 'color';
+ @import 'icons';
+
 #sidebar {
     background-color: #e2e2e2;
     float: left;
@@ -49,6 +52,7 @@
 }
 
 #sidebar a:hover {
+    border: 0;
     color: #3d3d3d;
 }
 
