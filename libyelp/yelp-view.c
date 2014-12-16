@@ -2124,6 +2124,7 @@ document_callback (YelpDocument       *document,
                 priv->bogus_uri = g_strdup_printf ("%s%p", BOGUS_URI, priv->uri);
         }
         g_signal_handler_block (view, priv->navigation_requested);
+        g_file_set_contents (g_strconcat(priv->page_id, ".html", NULL), contents, -1, NULL);
         webkit_web_view_load_string (WEBKIT_WEB_VIEW (view),
                                      contents,
                                      mime_type,
