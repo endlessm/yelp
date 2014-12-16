@@ -28,7 +28,7 @@ img_files = \
 	$(NULL)
 
 spec_files = \
-	spec/index.page \
+	spec/spec.page \
 	spec/mallard-logo.png \
 	spec/movie.ogv \
 	spec/page1.page \
