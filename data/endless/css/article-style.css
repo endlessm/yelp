@@ -242,6 +242,10 @@ a.linkdiv {
     border-radius: .5em;
 }
 
+.media-inline {
+    border-radius: 0px;
+}
+
 .media img {
     max-width: 100%;
 }
@@ -1124,6 +1128,10 @@ div.terms dl.terms {
     vertical-align: middle;
     padding-top: 0;
     padding-bottom: 0;
+}
+
+#home-video-links tr .media-inline {
+    border-radius: .5em;
 }
 
 /* Style the "More" link in the top row to look a bit bigger */
