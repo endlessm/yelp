@@ -564,23 +564,18 @@ div.ui-tile .center {
 a.ui-overlay-close {
     padding-top: 0px;
     font-weight: normal;
-    color: rgba(0,0,0,0);
+    color: #fff;
     line-height: .95rem;
     text-shadow: none;
+    font-size: .90rem;
+}
+
+a.ui-overlay-close:hover {
+    text-decoration: none;
 }
 
 div.ui-screen {
     z-index: 5;
-}
-
-a.ui-overlay-close:before {
-    color: #fff;
-    content: "\f00d";
-    font-family: 'FontAwesome';
-    font-size: .90rem;
-    left: .055rem;
-    position: relative;
-    top: -.05rem;
 }
 
 div.media-controls.media-controls-VIDEO {
