@@ -2,10 +2,11 @@
  * Style for eos-help-center
  */
 
-html,
+html {
+    font-size: 1.0666em;
+}
+
 body {
-    font-family: 'latoregular', sans-serif;
-    font-size: 16px;
     height: 100%;
     min-height: 200px;
     min-width: 40em;
