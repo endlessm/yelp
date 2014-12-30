@@ -1456,11 +1456,19 @@ view_navigation_requested (WebKitWebView             *view,
     const gchar *requri = webkit_network_request_get_uri (request);
     YelpViewPrivate *priv = GET_PRIV (view);
     YelpUri *uri;
+    /* Strip any anchors form the bogus uri. */
+    gchar *bogus_uri_path;
+    const gchar *hash = strchr (priv->bogus_uri, '#');
+    if (hash) {
+      bogus_uri_path = g_strndup (priv->bogus_uri, hash - priv->bogus_uri);
+    } else {
+      bogus_uri_path = g_strdup (priv->bogus_uri);
+    }
 
-    if (priv->bogus_uri &&
-        g_str_has_prefix (requri, priv->bogus_uri) &&
-        requri[strlen(priv->bogus_uri)] == '#') {
-        gchar *tmp = g_strconcat("xref:", requri + strlen(priv->bogus_uri), NULL);
+    if (bogus_uri_path &&
+        g_str_has_prefix (requri, bogus_uri_path) &&
+        requri[strlen(bogus_uri_path)] == '#') {
+        gchar *tmp = g_strconcat("xref:", requri + strlen(bogus_uri_path), NULL);
         uri = yelp_uri_new_relative (priv->uri, tmp);
         g_free (tmp);
     }
@@ -1474,6 +1482,7 @@ view_navigation_requested (WebKitWebView             *view,
 
     yelp_view_load_uri ((YelpView *) view, uri);
     g_object_unref (uri);
+    g_free (bogus_uri_path);
 
     return TRUE;
 }
