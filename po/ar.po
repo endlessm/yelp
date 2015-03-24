@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-28 19:55-0800\n"
+"POT-Creation-Date: 2015-03-19 07:13+0000\n"
 "PO-Revision-Date: 2014-12-29 03:55+0000\n"
 "Last-Translator: endlessmobile_build <philip@endlessm.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/projects/p/yelp/language/ar/)\n"
@@ -292,169 +292,169 @@ msgstr "لم يوجد إسناد href عند yelp:document\n"
 msgid "Out of memory"
 msgstr "الذاكرة غير كافية"
 
-#: ../libyelp/yelp-view.c:445
+#: ../libyelp/yelp-view.c:466
 msgid "Yelp URI"
 msgstr "مسار يِلب"
 
-#: ../libyelp/yelp-view.c:446
+#: ../libyelp/yelp-view.c:467
 msgid "A YelpUri with the current location"
 msgstr "مسار يِلب مع المكان الحالي"
 
-#: ../libyelp/yelp-view.c:454
+#: ../libyelp/yelp-view.c:475
 msgid "Loading State"
 msgstr "حالة التحميل"
 
-#: ../libyelp/yelp-view.c:455
+#: ../libyelp/yelp-view.c:476
 msgid "The loading state of the view"
 msgstr "حالة التحميل للمنظور"
 
-#: ../libyelp/yelp-view.c:464
+#: ../libyelp/yelp-view.c:485
 msgid "Page ID"
 msgstr "معرِّف الصفحة"
 
-#: ../libyelp/yelp-view.c:465
+#: ../libyelp/yelp-view.c:486
 msgid "The ID of the root page of the page being viewed"
 msgstr "معرِّف جذر الصفحة للصفحة التي تعرض"
 
-#: ../libyelp/yelp-view.c:473
+#: ../libyelp/yelp-view.c:494
 msgid "Root Title"
 msgstr "عنوان الجذر"
 
-#: ../libyelp/yelp-view.c:474
+#: ../libyelp/yelp-view.c:495
 msgid "The title of the root page of the page being viewed"
 msgstr "عنوان جذر الصفحة للصفحة التي تعرض "
 
-#: ../libyelp/yelp-view.c:482
+#: ../libyelp/yelp-view.c:503
 msgid "Page Title"
 msgstr "عنوان الصفحة"
 
-#: ../libyelp/yelp-view.c:483
+#: ../libyelp/yelp-view.c:504
 msgid "The title of the page being viewed"
 msgstr "عنوان الصفحة التي تعرض"
 
-#: ../libyelp/yelp-view.c:491
+#: ../libyelp/yelp-view.c:512
 msgid "Page Description"
 msgstr "وصف الصفحة"
 
-#: ../libyelp/yelp-view.c:492
+#: ../libyelp/yelp-view.c:513
 msgid "The description of the page being viewed"
 msgstr "وصف الصفحة التي تعرض"
 
-#: ../libyelp/yelp-view.c:500
+#: ../libyelp/yelp-view.c:521
 msgid "Page Icon"
 msgstr "أيقونة الصفحة"
 
-#: ../libyelp/yelp-view.c:501
+#: ../libyelp/yelp-view.c:522
 msgid "The icon of the page being viewed"
 msgstr "أيقونة الصفحة التي تعرض"
 
-#: ../libyelp/yelp-view.c:743
+#: ../libyelp/yelp-view.c:764
 msgid "You do not have PackageKit. Package install links require PackageKit."
 msgstr "ليس لديك PackageKit. وصلات تثبيت الحزمة تتطلب PackageKit."
 
-#: ../libyelp/yelp-view.c:1040
+#: ../libyelp/yelp-view.c:1061
 msgid "Save Image"
 msgstr "احفظ الصورة"
 
-#: ../libyelp/yelp-view.c:1135
+#: ../libyelp/yelp-view.c:1156
 msgid "Save Code"
 msgstr "احفظ الكود"
 
-#: ../libyelp/yelp-view.c:1298
+#: ../libyelp/yelp-view.c:1319
 #, c-format
 msgid "Send email to %s"
 msgstr "أرسل البريد إلى %s"
 
-#: ../libyelp/yelp-view.c:1313
+#: ../libyelp/yelp-view.c:1334
 msgid "_Install Packages"
 msgstr "_ثبّت الحزم"
 
-#: ../libyelp/yelp-view.c:1321
+#: ../libyelp/yelp-view.c:1342
 msgid "_Open Link"
 msgstr "ا_فتح الوصلة"
 
-#: ../libyelp/yelp-view.c:1328
+#: ../libyelp/yelp-view.c:1349
 msgid "_Copy Link Location"
 msgstr "ا_نسخ مكان الوصلة"
 
-#: ../libyelp/yelp-view.c:1334
+#: ../libyelp/yelp-view.c:1355
 msgid "Open Link in New _Window"
 msgstr "افتح الوصلة في _نافذة جديدة"
 
-#: ../libyelp/yelp-view.c:1388
+#: ../libyelp/yelp-view.c:1409
 msgid "_Save Image As…"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1390
+#: ../libyelp/yelp-view.c:1411
 msgid "_Save Video As…"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1397
+#: ../libyelp/yelp-view.c:1418
 msgid "S_end Image To…"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1399
+#: ../libyelp/yelp-view.c:1420
 msgid "S_end Video To…"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1410
+#: ../libyelp/yelp-view.c:1431
 msgid "_Copy Text"
 msgstr "ا_نسخ النص"
 
-#: ../libyelp/yelp-view.c:1423
+#: ../libyelp/yelp-view.c:1444
 msgid "C_opy Code Block"
 msgstr "انسخ وحدة ال_كود"
 
-#: ../libyelp/yelp-view.c:1428
+#: ../libyelp/yelp-view.c:1449
 msgid "Save Code _Block As…"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1534
+#: ../libyelp/yelp-view.c:1564
 #, c-format
 msgid "See all search results for “%s”"
 msgstr "اعرض جميع نتائج البحث عن “%s”"
 
-#: ../libyelp/yelp-view.c:1655
+#: ../libyelp/yelp-view.c:1685
 #, c-format
 msgid "Could not load a document for ‘%s’"
 msgstr "لا يمكن تحميل مستند ل ‘%s’"
 
-#: ../libyelp/yelp-view.c:1661
+#: ../libyelp/yelp-view.c:1691
 #, c-format
 msgid "Could not load a document"
 msgstr "لا يمكن تحميل مستند"
 
-#: ../libyelp/yelp-view.c:1736
+#: ../libyelp/yelp-view.c:1766
 msgid "Document Not Found"
 msgstr "المستند غير موجود"
 
-#: ../libyelp/yelp-view.c:1738
+#: ../libyelp/yelp-view.c:1768
 msgid "Page Not Found"
 msgstr "الصفحة غير موجودة"
 
-#: ../libyelp/yelp-view.c:1741
+#: ../libyelp/yelp-view.c:1771
 msgid "Cannot Read"
 msgstr "تعذّر القراءة"
 
-#: ../libyelp/yelp-view.c:1747
+#: ../libyelp/yelp-view.c:1777
 msgid "Unknown Error"
 msgstr "خطأ مجهول"
 
-#: ../libyelp/yelp-view.c:1767
+#: ../libyelp/yelp-view.c:1797
 msgid "Search for packages containing this document."
 msgstr "ابحث عن الحزم التي تحتوي هذا المستند."
 
-#: ../libyelp/yelp-view.c:1917
+#: ../libyelp/yelp-view.c:1966
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "المسار ‘%s’ لا يصل إلى صفحة سليمة."
 
-#: ../libyelp/yelp-view.c:1923
+#: ../libyelp/yelp-view.c:1972
 #, c-format
 msgid "The URI does not point to a valid page."
 msgstr "المسار لا يصل إلى صفحة سليمة."
 
-#: ../libyelp/yelp-view.c:1929
+#: ../libyelp/yelp-view.c:1978
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "تعذر تحليل المسار ‘%s’."

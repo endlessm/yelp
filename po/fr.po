@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-28 19:55-0800\n"
+"POT-Creation-Date: 2015-03-19 07:13+0000\n"
 "PO-Revision-Date: 2014-12-29 03:55+0000\n"
 "Last-Translator: endlessmobile_build <philip@endlessm.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/yelp/language/fr/)\n"
@@ -295,169 +295,169 @@ msgstr "Aucun attribut href trouvé dans yelp:document\n"
 msgid "Out of memory"
 msgstr "Mémoire insuffisante"
 
-#: ../libyelp/yelp-view.c:445
+#: ../libyelp/yelp-view.c:466
 msgid "Yelp URI"
 msgstr "URI de Yelp"
 
-#: ../libyelp/yelp-view.c:446
+#: ../libyelp/yelp-view.c:467
 msgid "A YelpUri with the current location"
 msgstr "Une YelpUri contenant l'emplacement actuel"
 
-#: ../libyelp/yelp-view.c:454
+#: ../libyelp/yelp-view.c:475
 msgid "Loading State"
 msgstr "État du chargement"
 
-#: ../libyelp/yelp-view.c:455
+#: ../libyelp/yelp-view.c:476
 msgid "The loading state of the view"
 msgstr "L'état du chargement de l'affichage"
 
-#: ../libyelp/yelp-view.c:464
+#: ../libyelp/yelp-view.c:485
 msgid "Page ID"
 msgstr "ID de page"
 
-#: ../libyelp/yelp-view.c:465
+#: ../libyelp/yelp-view.c:486
 msgid "The ID of the root page of the page being viewed"
 msgstr "L'ID de la page racine de la page actuellement affichée"
 
-#: ../libyelp/yelp-view.c:473
+#: ../libyelp/yelp-view.c:494
 msgid "Root Title"
 msgstr "Titre racine"
 
-#: ../libyelp/yelp-view.c:474
+#: ../libyelp/yelp-view.c:495
 msgid "The title of the root page of the page being viewed"
 msgstr "Le titre de la page racine de la page actuellement affichée"
 
-#: ../libyelp/yelp-view.c:482
+#: ../libyelp/yelp-view.c:503
 msgid "Page Title"
 msgstr "Titre de la page"
 
-#: ../libyelp/yelp-view.c:483
+#: ../libyelp/yelp-view.c:504
 msgid "The title of the page being viewed"
 msgstr "Le titre de la page actuellement affichée"
 
-#: ../libyelp/yelp-view.c:491
+#: ../libyelp/yelp-view.c:512
 msgid "Page Description"
 msgstr "Description de la page"
 
-#: ../libyelp/yelp-view.c:492
+#: ../libyelp/yelp-view.c:513
 msgid "The description of the page being viewed"
 msgstr "La description de la page actuellement affichée"
 
-#: ../libyelp/yelp-view.c:500
+#: ../libyelp/yelp-view.c:521
 msgid "Page Icon"
 msgstr "Icône de la page"
 
-#: ../libyelp/yelp-view.c:501
+#: ../libyelp/yelp-view.c:522
 msgid "The icon of the page being viewed"
 msgstr "L'icône de la page actuellement affichée"
 
-#: ../libyelp/yelp-view.c:743
+#: ../libyelp/yelp-view.c:764
 msgid "You do not have PackageKit. Package install links require PackageKit."
 msgstr "PackageKit n'est pas installé. Les liens d'installation de paquets nécessitent PackageKit."
 
-#: ../libyelp/yelp-view.c:1040
+#: ../libyelp/yelp-view.c:1061
 msgid "Save Image"
 msgstr "Enregistrer l'image"
 
-#: ../libyelp/yelp-view.c:1135
+#: ../libyelp/yelp-view.c:1156
 msgid "Save Code"
 msgstr "Enregistrer le code"
 
-#: ../libyelp/yelp-view.c:1298
+#: ../libyelp/yelp-view.c:1319
 #, c-format
 msgid "Send email to %s"
 msgstr "Envoyer un courriel à %s"
 
-#: ../libyelp/yelp-view.c:1313
+#: ../libyelp/yelp-view.c:1334
 msgid "_Install Packages"
 msgstr "_Installer les paquets"
 
-#: ../libyelp/yelp-view.c:1321
+#: ../libyelp/yelp-view.c:1342
 msgid "_Open Link"
 msgstr "_Ouvrir le lien"
 
-#: ../libyelp/yelp-view.c:1328
+#: ../libyelp/yelp-view.c:1349
 msgid "_Copy Link Location"
 msgstr "_Copier l'emplacement du lien"
 
-#: ../libyelp/yelp-view.c:1334
+#: ../libyelp/yelp-view.c:1355
 msgid "Open Link in New _Window"
 msgstr "Ouvrir le lien dans une _nouvelle fenêtre"
 
-#: ../libyelp/yelp-view.c:1388
+#: ../libyelp/yelp-view.c:1409
 msgid "_Save Image As…"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1390
+#: ../libyelp/yelp-view.c:1411
 msgid "_Save Video As…"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1397
+#: ../libyelp/yelp-view.c:1418
 msgid "S_end Image To…"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1399
+#: ../libyelp/yelp-view.c:1420
 msgid "S_end Video To…"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1410
+#: ../libyelp/yelp-view.c:1431
 msgid "_Copy Text"
 msgstr "_Copier le texte"
 
-#: ../libyelp/yelp-view.c:1423
+#: ../libyelp/yelp-view.c:1444
 msgid "C_opy Code Block"
 msgstr "C_opier le bloc de code"
 
-#: ../libyelp/yelp-view.c:1428
+#: ../libyelp/yelp-view.c:1449
 msgid "Save Code _Block As…"
 msgstr ""
 
-#: ../libyelp/yelp-view.c:1534
+#: ../libyelp/yelp-view.c:1564
 #, c-format
 msgid "See all search results for “%s”"
 msgstr "Voir tous les résultats de recherche pour « %s »"
 
-#: ../libyelp/yelp-view.c:1655
+#: ../libyelp/yelp-view.c:1685
 #, c-format
 msgid "Could not load a document for ‘%s’"
 msgstr "Impossible de charger un document pour « %s »"
 
-#: ../libyelp/yelp-view.c:1661
+#: ../libyelp/yelp-view.c:1691
 #, c-format
 msgid "Could not load a document"
 msgstr "Impossible de charger un document"
 
-#: ../libyelp/yelp-view.c:1736
+#: ../libyelp/yelp-view.c:1766
 msgid "Document Not Found"
 msgstr "Document non trouvé"
 
-#: ../libyelp/yelp-view.c:1738
+#: ../libyelp/yelp-view.c:1768
 msgid "Page Not Found"
 msgstr "Page non trouvée"
 
-#: ../libyelp/yelp-view.c:1741
+#: ../libyelp/yelp-view.c:1771
 msgid "Cannot Read"
 msgstr "Lecture impossible"
 
-#: ../libyelp/yelp-view.c:1747
+#: ../libyelp/yelp-view.c:1777
 msgid "Unknown Error"
 msgstr "Erreur inconnue"
 
-#: ../libyelp/yelp-view.c:1767
+#: ../libyelp/yelp-view.c:1797
 msgid "Search for packages containing this document."
 msgstr "Recherche de paquets contenant ce document."
 
-#: ../libyelp/yelp-view.c:1917
+#: ../libyelp/yelp-view.c:1966
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "L'URI « %s » ne se réfère pas à une page valide."
 
-#: ../libyelp/yelp-view.c:1923
+#: ../libyelp/yelp-view.c:1972
 #, c-format
 msgid "The URI does not point to a valid page."
 msgstr "L'URI ne se réfère pas à une page valide."
 
-#: ../libyelp/yelp-view.c:1929
+#: ../libyelp/yelp-view.c:1978
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "Impossible d'analyser l'URI « %s »."
