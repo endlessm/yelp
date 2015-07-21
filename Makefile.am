@@ -23,4 +23,4 @@ DISTCLEANFILES = 					\
 
 CLEANFILES = $(desktop_DATA)
 
-DISTCHECK_CONFIGURE_FLAGS = --enable-gtk-doc
+AM_DISTCHECK_CONFIGURE_FLAGS = --enable-gtk-doc
