@@ -22,7 +22,7 @@ DISTCLEANFILES = 					\
 
 CLEANFILES = $(desktop_DATA)
 
-DISTCHECK_CONFIGURE_FLAGS = \
+AM_DISTCHECK_CONFIGURE_FLAGS = \
 	--enable-bz2 \
 	--enable-gtk-doc \
 	--enable-lzma
