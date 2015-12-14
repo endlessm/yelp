@@ -8,9 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mr\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=yelp&keywords=I18N+L10N&component=General\n"
-"POT-Creation-Date: 2014-09-16 23:02+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-29 21:12-0700\n"
 "PO-Revision-Date: 2014-09-17 10:38+0530\n"
 "Last-Translator: Sandeep Shedmake <sshedmak@redhat.com>\n"
 "Language-Team: Marathi <fedora-trans-mr@redhat.com>\n"
@@ -34,6 +33,149 @@ msgstr ""
 #: yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "<string/> इंस्टॉल करा"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:31
+msgid "Home"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.getting-started
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:40
+msgid "Getting started with your OS"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-introduction
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:49
+msgid "Introduction to your OS"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-exit
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:58
+msgid "Log out, power off or switch users"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-apps-open
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:67
+#, fuzzy
+msgid "Start applications"
+msgstr "उपकरणं"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:78
+msgid "Desktop Apps &amp; Windows"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:89
+msgid "Files, Folders &amp; Search"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:98
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:109
+msgid "Networking, Web, Email &amp; Chat"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.prefs
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:120
+msgid "User &amp; System Settings"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.tips
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:131
+msgid "Tips &amp; Tricks"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.media
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:142
+#, fuzzy
+msgid "Sound, Video &amp; Pictures"
+msgstr "आवाज &amp; चलचित्र"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: yelp-endless.xml.in:153
+#, fuzzy
+msgid "Hardware &amp; Drivers"
+msgstr "हार्डवेयर उपकरण"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.more-help
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: yelp-endless.xml.in:162
+msgid "Get more help"
+msgstr ""
 
 #: ../libyelp/yelp-bz2-decompressor.c:144
 #: ../libyelp/yelp-lzma-decompressor.c:153
@@ -77,8 +219,7 @@ msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
 msgstr ""
-"फाइल ‘%s’ वाचू शकले नाही कारण एकापेक्षा जास्त अंतर्भूत केलेले फाइल पूर्णत्या "
-"रचलेले XML "
+"फाइल ‘%s’ वाचू शकले नाही कारण एकापेक्षा जास्त अंतर्भूत केलेले फाइल पूर्णत्या रचलेले XML "
 "दस्तऐवज नाही."
 
 #: ../libyelp/yelp-docbook-document.c:803
@@ -107,17 +248,17 @@ msgstr "दस्तऐवज URI"
 msgid "The URI which identifies the document"
 msgstr "दस्तऐवज ओळखणारे URI"
 
-#: ../libyelp/yelp-document.c:994
+#: ../libyelp/yelp-document.c:992
 #, c-format
 msgid "Search results for “%s”"
 msgstr "“%s” करीता शोध परिणाम"
 
-#: ../libyelp/yelp-document.c:1006
+#: ../libyelp/yelp-document.c:1004
 #, c-format
 msgid "No matching help pages found in “%s”."
 msgstr "“%s” मध्ये जुळणारे मदत पाने आढळले नाही."
 
-#: ../libyelp/yelp-document.c:1012
+#: ../libyelp/yelp-document.c:1010
 msgid "No matching help pages found."
 msgstr "जुळणारे मदत पृष्ठे आढळले नाही."
 
@@ -126,7 +267,7 @@ msgstr "जुळणारे मदत पृष्ठे आढळले न�
 msgid "An unknown error occurred."
 msgstr "एक अपरिचीत त्रुटी आढळली."
 
-#: ../libyelp/yelp-help-list.c:546 ../libyelp/yelp-help-list.c:555
+#: ../libyelp/yelp-help-list.c:548 ../libyelp/yelp-help-list.c:557
 msgid "All Help Documents"
 msgstr "सर्व मदत दस्तऐवज"
 
@@ -136,69 +277,97 @@ msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
 msgstr "फाइल ‘%s’ वाचू शकले नाही कारण पूर्णत्या रचलेले info पान नाही."
 
+#: ../libyelp/yelp-location-entry.c:334
+msgid "View"
+msgstr "दृष्य"
+
+#: ../libyelp/yelp-location-entry.c:335
+msgid "A YelpView instance to control"
+msgstr "नियंत्रणकरीता YelpView घटना"
+
+#: ../libyelp/yelp-location-entry.c:350
+msgid "Bookmarks"
+msgstr "पुस्तकखुणा"
+
+#: ../libyelp/yelp-location-entry.c:351
+msgid "A YelpBookmarks implementation instance"
+msgstr "YelpBookmarks लागूकरण घटना"
+
+#: ../libyelp/yelp-location-entry.c:367
+msgid "Enable Search"
+msgstr "शोध सुरू करा"
+
+#: ../libyelp/yelp-location-entry.c:368
+msgid "Whether the location entry can be used as a search field"
+msgstr "ठिकाण नोंदणी शोध क्षेत्र म्हणून वापरणे शक्य करायचे"
+
+#: ../libyelp/yelp-location-entry.c:438 ../src/yelp-window.c:268
+msgid "Search..."
+msgstr "शोधा..."
+
+#: ../libyelp/yelp-location-entry.c:781
+msgid "Clear the search text"
+msgstr "शोध मजकूर नष्ट करा"
+
+#: ../libyelp/yelp-location-entry.c:829 ../libyelp/yelp-location-entry.c:1591
+msgid "Bookmark this page"
+msgstr "या पृष्ठाला वाचनखूण लावा"
+
+#: ../libyelp/yelp-location-entry.c:837 ../libyelp/yelp-location-entry.c:1599
+msgid "Remove bookmark"
+msgstr "वाचनखूण काढून टाका"
+
+#: ../libyelp/yelp-location-entry.c:1152
+#, c-format
+msgid "Search for “%s”"
+msgstr "“%s” करीता शोधा"
+
+#: ../libyelp/yelp-location-entry.c:1456
+msgid "Loading"
+msgstr "लोड करत आहे"
+
 #: ../libyelp/yelp-mallard-document.c:344
 #, c-format
 msgid "The directory ‘%s’ does not exist."
 msgstr "डिरेक्ट्री ‘%s’ अस्तित्वात नाही."
 
-#: ../libyelp/yelp-search-entry.c:173
-msgid "View"
-msgstr "दृष्य"
-
-#: ../libyelp/yelp-search-entry.c:174
-msgid "A YelpView instance to control"
-msgstr "नियंत्रणकरीता YelpView घटना"
-
-#: ../libyelp/yelp-search-entry.c:189 ../src/yelp-window.c:399
-msgid "Bookmarks"
-msgstr "पुस्तकखुणा"
-
-#: ../libyelp/yelp-search-entry.c:190
-msgid "A YelpBookmarks implementation instance"
-msgstr "YelpBookmarks लागूकरण घटना"
-
-#: ../libyelp/yelp-search-entry.c:440
-#, c-format
-msgid "Search for “%s”"
-msgstr "“%s” करीता शोधा"
-
-#: ../libyelp/yelp-settings.c:152
+#: ../libyelp/yelp-settings.c:154
 msgid "GtkSettings"
 msgstr "GtkSettings"
 
-#: ../libyelp/yelp-settings.c:153
+#: ../libyelp/yelp-settings.c:155
 msgid "A GtkSettings object to get settings from"
 msgstr "सेटिंग्स् प्राप्त करण्यासाठी GtkSettings ऑब्जेक्ट"
 
-#: ../libyelp/yelp-settings.c:161
+#: ../libyelp/yelp-settings.c:163
 msgid "GtkIconTheme"
 msgstr "GtkIconTheme"
 
-#: ../libyelp/yelp-settings.c:162
+#: ../libyelp/yelp-settings.c:164
 msgid "A GtkIconTheme object to get icons from"
 msgstr "चिन्ह प्राप्त करण्यासाठीचे GtkIconTheme ऑब्जेक्ट"
 
-#: ../libyelp/yelp-settings.c:170
+#: ../libyelp/yelp-settings.c:172
 msgid "Font Adjustment"
 msgstr "फाँट समायोजन"
 
-#: ../libyelp/yelp-settings.c:171
+#: ../libyelp/yelp-settings.c:173
 msgid "A size adjustment to add to font sizes"
 msgstr "फाँट आकार समाविष्ट करण्यासाठी आकार समायोजन"
 
-#: ../libyelp/yelp-settings.c:179
+#: ../libyelp/yelp-settings.c:181
 msgid "Show Text Cursor"
 msgstr "मजकूर कर्सर दाखवा"
 
-#: ../libyelp/yelp-settings.c:180
+#: ../libyelp/yelp-settings.c:182
 msgid "Show the text cursor or caret for accessible navigation"
 msgstr "प्रवेशजोगी संचारनकरीता मजकूर कर्सर किंवा कॅरेट दाखवा"
 
-#: ../libyelp/yelp-settings.c:188
+#: ../libyelp/yelp-settings.c:190
 msgid "Editor Mode"
 msgstr "संपादक मोड"
 
-#: ../libyelp/yelp-settings.c:189
+#: ../libyelp/yelp-settings.c:191
 msgid "Enable features useful to editors"
 msgstr "संपादककरीता उपयोगी गुणधर्मे सुरू करा"
 
@@ -231,268 +400,311 @@ msgstr "yelp वर href गुणधर्म आढळले नाही:द�
 msgid "Out of memory"
 msgstr "स्म्रुतीच्या बाहेर"
 
-#: ../libyelp/yelp-view.c:446
+#: ../libyelp/yelp-view.c:129
+msgid "_Print..."
+msgstr "छपाई (_P)..."
+
+#: ../libyelp/yelp-view.c:134
+#, fuzzy
+msgid "_Back"
+msgstr "मागे"
+
+#: ../libyelp/yelp-view.c:139
+#, fuzzy
+msgid "_Forward"
+msgstr "फॉरवर्ड"
+
+#: ../libyelp/yelp-view.c:144
+#, fuzzy
+msgid "_Previous Page"
+msgstr "मागील पृष्ठ"
+
+#: ../libyelp/yelp-view.c:149
+#, fuzzy
+msgid "_Next Page"
+msgstr "पुढील पृष्ठ"
+
+#: ../libyelp/yelp-view.c:421
 msgid "Yelp URI"
 msgstr "Yelp URI"
 
-#: ../libyelp/yelp-view.c:447
+#: ../libyelp/yelp-view.c:422
 msgid "A YelpUri with the current location"
 msgstr "सध्याच्या ठिकाणसह YelpUri"
 
-#: ../libyelp/yelp-view.c:455
+#: ../libyelp/yelp-view.c:430
 msgid "Loading State"
 msgstr "लोड करत आहे"
 
-#: ../libyelp/yelp-view.c:456
+#: ../libyelp/yelp-view.c:431
 msgid "The loading state of the view"
 msgstr "दृष्याचे लोड स्तर"
 
-#: ../libyelp/yelp-view.c:465
+#: ../libyelp/yelp-view.c:440
 msgid "Page ID"
 msgstr "पृष्ठ ID"
 
-#: ../libyelp/yelp-view.c:466
+#: ../libyelp/yelp-view.c:441
 msgid "The ID of the root page of the page being viewed"
 msgstr "दृष्यास्पद पृष्ठाच्या रूट पानाचे ID"
 
-#: ../libyelp/yelp-view.c:474
+#: ../libyelp/yelp-view.c:449
 msgid "Root Title"
 msgstr "रूट शीर्षक"
 
-#: ../libyelp/yelp-view.c:475
+#: ../libyelp/yelp-view.c:450
 msgid "The title of the root page of the page being viewed"
 msgstr "दृष्यास्पद पृष्ठाच्या रूट पानाचे शीर्षक"
 
-#: ../libyelp/yelp-view.c:483
+#: ../libyelp/yelp-view.c:458
 msgid "Page Title"
 msgstr "पृष्ठ शीर्षक"
 
-#: ../libyelp/yelp-view.c:484
+#: ../libyelp/yelp-view.c:459
 msgid "The title of the page being viewed"
 msgstr "दृष्यास्पद पृष्ठाचे शीर्षक"
 
-#: ../libyelp/yelp-view.c:492
+#: ../libyelp/yelp-view.c:467
 msgid "Page Description"
 msgstr "पृष्ठ वर्णन"
 
-#: ../libyelp/yelp-view.c:493
+#: ../libyelp/yelp-view.c:468
 msgid "The description of the page being viewed"
 msgstr "दृष्यास्पद पृष्ठाचे वर्णन"
 
-#: ../libyelp/yelp-view.c:501
+#: ../libyelp/yelp-view.c:476
 msgid "Page Icon"
 msgstr "पृष्ठ चिन्ह"
 
-#: ../libyelp/yelp-view.c:502
+#: ../libyelp/yelp-view.c:477
 msgid "The icon of the page being viewed"
 msgstr "दृष्यास्पद पृष्ठाचे चिन्ह"
 
-#: ../libyelp/yelp-view.c:744
+#: ../libyelp/yelp-view.c:718
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"तुमच्याकडे PackageKit नाही. संकुल प्रतिष्ठापन लिंक्स्ला PackageKit आवश्यक आहे."
+msgstr "तुमच्याकडे PackageKit नाही. संकुल प्रतिष्ठापन लिंक्स्ला PackageKit आवश्यक आहे."
 
-#: ../libyelp/yelp-view.c:1040
+#: ../libyelp/yelp-view.c:1012
 msgid "Save Image"
 msgstr "प्रतिमा साठवा"
 
-#: ../libyelp/yelp-view.c:1135
+#: ../libyelp/yelp-view.c:1107
 msgid "Save Code"
 msgstr "कोड साठवा"
 
-#: ../libyelp/yelp-view.c:1298
+#: ../libyelp/yelp-view.c:1270
 #, c-format
 msgid "Send email to %s"
 msgstr "%s ला ईमेल पाठवा"
 
-#: ../libyelp/yelp-view.c:1313
+#: ../libyelp/yelp-view.c:1285
 msgid "_Install Packages"
 msgstr "संकुल प्रतिष्ठापीत करा (_I)"
 
-#: ../libyelp/yelp-view.c:1321
+#: ../libyelp/yelp-view.c:1293
 msgid "_Open Link"
 msgstr "दुवा उघडा (_O)"
 
-#: ../libyelp/yelp-view.c:1328
+#: ../libyelp/yelp-view.c:1300
 msgid "_Copy Link Location"
 msgstr "दुव्याच्या ठिकाणाचे प्रत बनवा (_C)"
 
-#: ../libyelp/yelp-view.c:1334
+#: ../libyelp/yelp-view.c:1306
 msgid "Open Link in New _Window"
 msgstr "दुव्याला नवीन पटलात उघडा (_W)"
 
-#: ../libyelp/yelp-view.c:1388
-#| msgid "_Save Image As..."
-msgid "_Save Image As…"
+#: ../libyelp/yelp-view.c:1358
+#, fuzzy
+msgid "_Save Image As..."
 msgstr "प्रतिमा असे साठवा (_S)..."
 
-#: ../libyelp/yelp-view.c:1390
-#| msgid "_Save Video As..."
-msgid "_Save Video As…"
+#: ../libyelp/yelp-view.c:1360
+#, fuzzy
+msgid "_Save Video As..."
 msgstr "व्हिडीओ असे साठवा (_S)..."
 
-#: ../libyelp/yelp-view.c:1397
-#| msgid "S_end Image To..."
-msgid "S_end Image To…"
+#: ../libyelp/yelp-view.c:1367
+#, fuzzy
+msgid "S_end Image To..."
 msgstr "प्रतिमा येथे पाठवा (_e)..."
 
-#: ../libyelp/yelp-view.c:1399
-#| msgid "S_end Video To..."
-msgid "S_end Video To…"
+#: ../libyelp/yelp-view.c:1369
+#, fuzzy
+msgid "S_end Video To..."
 msgstr "व्हिडीओ येथे पाठवा (_e)..."
 
-#: ../libyelp/yelp-view.c:1410
+#: ../libyelp/yelp-view.c:1380
 msgid "_Copy Text"
 msgstr "मजकूरचे प्रत बनवा (_C)"
 
-#: ../libyelp/yelp-view.c:1423
+#: ../libyelp/yelp-view.c:1393
 msgid "C_opy Code Block"
 msgstr "कोड ब्लॉकचे प्रत बनवा (_o)"
 
-#: ../libyelp/yelp-view.c:1428
-#| msgid "Save Code _Block As..."
-msgid "Save Code _Block As…"
+#: ../libyelp/yelp-view.c:1398
+#, fuzzy
+msgid "Save Code _Block As..."
 msgstr "कोड ब्लॉकला असे साठवा (_B)..."
 
-#: ../libyelp/yelp-view.c:1535
+#: ../libyelp/yelp-view.c:1505
 #, c-format
 msgid "See all search results for “%s”"
 msgstr "“%s” करीता सर्व शोध परिणाम पहा"
 
-#: ../libyelp/yelp-view.c:1656
+#: ../libyelp/yelp-view.c:1626
 #, c-format
 msgid "Could not load a document for ‘%s’"
 msgstr "‘%s’ करीता दस्तऐवज लोड करणे अशक्य"
 
-#: ../libyelp/yelp-view.c:1662
+#: ../libyelp/yelp-view.c:1632
 #, c-format
 msgid "Could not load a document"
 msgstr "दस्तऐवज लोड करणे अशक्य"
 
-#: ../libyelp/yelp-view.c:1737
+#: ../libyelp/yelp-view.c:1707
 msgid "Document Not Found"
 msgstr "दस्तऐवज आढळले नाही"
 
-#: ../libyelp/yelp-view.c:1739
+#: ../libyelp/yelp-view.c:1709
 msgid "Page Not Found"
 msgstr "पान आढळले नाही"
 
-#: ../libyelp/yelp-view.c:1742
+#: ../libyelp/yelp-view.c:1712
 msgid "Cannot Read"
 msgstr "वाचणे अशक्य"
 
-#: ../libyelp/yelp-view.c:1748
+#: ../libyelp/yelp-view.c:1718
 msgid "Unknown Error"
 msgstr "अपरिचीत त्रुटी"
 
-#: ../libyelp/yelp-view.c:1768
+#: ../libyelp/yelp-view.c:1738
 msgid "Search for packages containing this document."
 msgstr "हे दस्तऐवज समाविष्टीत असणारे संकुले शोधा."
 
-#: ../libyelp/yelp-view.c:1918
+#: ../libyelp/yelp-view.c:1890
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "URI ‘%s’ वैध पृष्ठकडे निर्देशीत नाही."
 
-#: ../libyelp/yelp-view.c:1924
+#: ../libyelp/yelp-view.c:1896
 #, c-format
 msgid "The URI does not point to a valid page."
 msgstr "URI वैध पृष्ठकरीता निर्देशीत नाही."
 
-#: ../libyelp/yelp-view.c:1930
+#: ../libyelp/yelp-view.c:1902
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "URI ‘%s’ वाचणे अशक्य."
 
-#: ../src/yelp-application.c:59
+#: ../src/yelp-application.c:63
 msgid "Turn on editor mode"
 msgstr "संपादक मोड सुरू करा"
 
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
+#: ../src/yelp-application.c:126
+#, fuzzy
+msgid "_Larger Text"
+msgstr "मोठे मजकूर"
+
+#: ../src/yelp-application.c:128
+msgid "Increase the size of the text"
+msgstr "मजकूरचे आकार वाढवा"
+
+#: ../src/yelp-application.c:131
+#, fuzzy
+msgid "_Smaller Text"
+msgstr "छोटे मजकूर"
+
+#: ../src/yelp-application.c:133
+msgid "Decrease the size of the text"
+msgstr "मजकूरचे आकार कमी करा"
+
+#: ../src/yelp-application.c:251 ../src/yelp-window.c:1358
 #: ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "मदत"
 
-#: ../src/yelp-application.c:322
-#| msgid "_New Window"
-msgid "New Window"
+#: ../src/yelp-application.c:286
+msgid "Show Text _Cursor"
+msgstr "मजकूर कर्सर दाखवा (_C)"
+
+#: ../src/yelp-window.c:234
+msgid "_Page"
+msgstr "पृष्ठ (_P)"
+
+#: ../src/yelp-window.c:235
+msgid "_View"
+msgstr "दृष्य (_V)"
+
+#: ../src/yelp-window.c:236
+msgid "_Go"
+msgstr "जा (_G)"
+
+#: ../src/yelp-window.c:237
+msgid "_Bookmarks"
+msgstr "वाचनखुणा (_B)"
+
+#: ../src/yelp-window.c:240
+#, fuzzy
+msgid "_New Window"
 msgstr "नवीन पटल"
 
-#: ../src/yelp-application.c:326
-#| msgid "_Larger Text"
-msgid "Larger Text"
-msgstr "मोठे मजकूर"
+#: ../src/yelp-window.c:245
+msgid "_Close"
+msgstr "बंद करा (_C)"
 
-#: ../src/yelp-application.c:327
-#| msgid "_Smaller Text"
-msgid "Smaller Text"
-msgstr "छोटे मजकूर"
+#: ../src/yelp-window.c:250
+msgid "_All Documents"
+msgstr "सर्व दस्तऐवज (_A)"
 
-#: ../src/yelp-window.c:206
+#: ../src/yelp-window.c:254
+#, fuzzy
+msgid "_Add Bookmark"
+msgstr "वाचनखूण समाविष्ट करा"
+
+#: ../src/yelp-window.c:259
+#, fuzzy
+msgid "_Remove Bookmark"
+msgstr "वाचनखूण काढून टाका"
+
+#: ../src/yelp-window.c:263
+msgid "Find in Page..."
+msgstr "पृष्ठात शोधा..."
+
+#: ../src/yelp-window.c:273
+msgid "Open Location"
+msgstr "जागा उघडा"
+
+#: ../src/yelp-window.c:299
 msgid "Application"
 msgstr "ॲप्लिकेशन"
 
-#: ../src/yelp-window.c:207
+#: ../src/yelp-window.c:300
 msgid "A YelpApplication instance that controls this window"
 msgstr "हे पटल नियंत्रीत करणारी YelpApplication घटना"
 
-#: ../src/yelp-window.c:325
-#| msgid "_Back"
-msgid "Back"
-msgstr "मागे"
+#: ../src/yelp-window.c:427
+msgid "Read Link _Later"
+msgstr "नंतर दुवा वाचा (_L)"
 
-#: ../src/yelp-window.c:332
-#| msgid "_Forward"
-msgid "Forward"
-msgstr "फॉरवर्ड"
-
-#: ../src/yelp-window.c:343
-msgid "Menu"
-msgstr "मेन्यु"
-
-#: ../src/yelp-window.c:348
-#| msgid "Find:"
-msgid "Find…"
+#: ../src/yelp-window.c:524
+#, fuzzy
+msgid "Find:"
 msgstr "शोधा…"
 
-#: ../src/yelp-window.c:349
-#| msgid "Printing"
-msgid "Print…"
-msgstr "छपाई…"
+#: ../src/yelp-window.c:546
+msgid "Read Later"
+msgstr "नंतर वाचा"
 
-#: ../src/yelp-window.c:354
-#| msgid "_Previous Page"
-msgid "Previous Page"
-msgstr "मागील पृष्ठ"
+#: ../src/yelp-window.c:1178
+#, c-format
+msgid "%i match"
+msgid_plural "%i matches"
+msgstr[0] "%i जोडणी"
+msgstr[1] "%i जोडण्या"
 
-#: ../src/yelp-window.c:355
-#| msgid "_Next Page"
-msgid "Next Page"
-msgstr "पुढील पृष्ठ"
-
-#: ../src/yelp-window.c:360
-#| msgid "Help"
-msgid "All Help"
-msgstr "सर्व मदत"
-
-#: ../src/yelp-window.c:382
-msgid "Search (Ctrl+S)"
-msgstr "शोधा (Ctrl+S)"
-
-#: ../src/yelp-window.c:416
-#| msgid "Bookmarks"
-msgid "No bookmarks"
-msgstr "वाचनखुणा नाही"
-
-#: ../src/yelp-window.c:424
-#| msgid "_Add Bookmark"
-msgid "Add Bookmark"
-msgstr "वाचनखूण समाविष्ट करा"
-
-#: ../src/yelp-window.c:430
-#| msgid "_Remove Bookmark"
-msgid "Remove Bookmark"
-msgstr "वाचनखूण काढून टाका"
+#: ../src/yelp-window.c:1187
+msgid "No matches"
+msgstr "जोडण्या आढळले नाही"
 
 #: ../yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
@@ -502,85 +714,29 @@ msgstr "GNOME पासून मदत घ्या"
 msgid "documentation;information;manual;"
 msgstr "दस्तऐवजीकरण;माहिती;पुस्तिका;"
 
-#~ msgid "Enable Search"
-#~ msgstr "शोध सुरू करा"
+#~ msgid "Menu"
+#~ msgstr "मेन्यु"
 
-#~ msgid "Whether the location entry can be used as a search field"
-#~ msgstr "ठिकाण नोंदणी शोध क्षेत्र म्हणून वापरणे शक्य करायचे"
+#~| msgid "Printing"
+#~ msgid "Print…"
+#~ msgstr "छपाई…"
 
-#~ msgid "Search..."
-#~ msgstr "शोधा..."
+#~| msgid "Help"
+#~ msgid "All Help"
+#~ msgstr "सर्व मदत"
 
-#~ msgid "Clear the search text"
-#~ msgstr "शोध मजकूर नष्ट करा"
+#~ msgid "Search (Ctrl+S)"
+#~ msgstr "शोधा (Ctrl+S)"
 
-#~ msgid "Bookmark this page"
-#~ msgstr "या पृष्ठाला वाचनखूण लावा"
-
-#~ msgid "Remove bookmark"
-#~ msgstr "वाचनखूण काढून टाका"
-
-#~ msgid "Loading"
-#~ msgstr "लोड करत आहे"
-
-#~ msgid "_Print..."
-#~ msgstr "छपाई (_P)..."
-
-#~ msgid "Increase the size of the text"
-#~ msgstr "मजकूरचे आकार वाढवा"
-
-#~ msgid "Decrease the size of the text"
-#~ msgstr "मजकूरचे आकार कमी करा"
-
-#~ msgid "Show Text _Cursor"
-#~ msgstr "मजकूर कर्सर दाखवा (_C)"
-
-#~ msgid "_Page"
-#~ msgstr "पृष्ठ (_P)"
-
-#~ msgid "_View"
-#~ msgstr "दृष्य (_V)"
-
-#~ msgid "_Go"
-#~ msgstr "जा (_G)"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "वाचनखुणा (_B)"
-
-#~ msgid "_Close"
-#~ msgstr "बंद करा (_C)"
-
-#~ msgid "_All Documents"
-#~ msgstr "सर्व दस्तऐवज (_A)"
-
-#~ msgid "Find in Page..."
-#~ msgstr "पृष्ठात शोधा..."
-
-#~ msgid "Open Location"
-#~ msgstr "जागा उघडा"
-
-#~ msgid "Read Link _Later"
-#~ msgstr "नंतर दुवा वाचा (_L)"
-
-#~ msgid "Read Later"
-#~ msgstr "नंतर वाचा"
-
-#~ msgid "%i match"
-#~ msgid_plural "%i matches"
-#~ msgstr[0] "%i जोडणी"
-#~ msgstr[1] "%i जोडण्या"
-
-#~ msgid "No matches"
-#~ msgstr "जोडण्या आढळले नाही"
+#~| msgid "Bookmarks"
+#~ msgid "No bookmarks"
+#~ msgstr "वाचनखुणा नाही"
 
 #~ msgid "GNU Info Pages"
 #~ msgstr "GNU माहितीविषयक पाने"
 
 #~ msgid "Traditional command line help (info)"
 #~ msgstr "पारंपारीक कमांड लाईन मदत(माहीती)"
-
-#~ msgid "Applications"
-#~ msgstr "उपकरणं"
 
 #~ msgid "BLT Functions"
 #~ msgstr "BLT कार्यपध्दती"
@@ -599,9 +755,6 @@ msgstr "दस्तऐवजीकरण;माहिती;पुस्ति�
 
 #~ msgid "Games"
 #~ msgstr "खेळ"
-
-#~ msgid "Hardware Devices"
-#~ msgstr "हार्डवेयर उपकरण"
 
 #~ msgid "Kernel Routines"
 #~ msgstr "कर्नल"
@@ -1122,9 +1275,6 @@ msgstr "दस्तऐवजीकरण;माहिती;पुस्ति�
 
 #~ msgid "Sound"
 #~ msgstr "आवाज"
-
-#~ msgid "Sound &amp; Video"
-#~ msgstr "आवाज &amp; चलचित्र"
 
 #~ msgid "Sound &amp; Video Editing"
 #~ msgstr "आवाज &amp; चलचित्र संपादन"
