@@ -89,7 +89,6 @@ Makefile.in
 /po/missing
 /po/POTFILES
 /po/stamp-it
-/po/yelp.pot
 
 /src/yelp
 
