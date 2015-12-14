@@ -314,9 +314,11 @@ window_construct (YelpWindow *window)
 
     gtk_window_set_icon_name (GTK_WINDOW (window), "help-browser");
 
-    g_object_get (gtk_settings_get_default (),
-                  "gtk-dialogs-use-header", &priv->use_header,
-                  NULL);
+    /* We force using GtkHeaderBar regardless of any general settings */
+    priv->use_header = TRUE;
+    /* g_object_get (gtk_settings_get_default (), */
+    /*               "gtk-dialogs-use-header", &priv->use_header, */
+    /*               NULL); */
 
     priv->view = (YelpView *) yelp_view_new ();
 
