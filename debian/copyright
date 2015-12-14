@@ -1,32 +1,44 @@
-This package was debianized by Christian Marillat <marillat@debian.org> on
-Mon, 14 Jan 2002 11:15:54 +0100.
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Yelp
+Source: http://ftp.gnome.org/pub/GNOME/sources/yelp
 
-It was downloaded from http://ftp.gnome.org/pub/GNOME/sources/yelp/
+Files: *
+Copyright: 2003-2014 Shaun McCance <shaunm@gnome.org>
+License: GPL-2+
 
-Copyright holders and authors:
-   Copyright (C) 2002 Jorn Baayen
-   Copyright (C) 2003-2011 Shaun McCance
-   Copyright (C) 2003, 2004 Christian Persch
-   Copyright (C) 2003-2007 Don Scorgie
-   Copyright (C) 2004, 2005 Davyd Madeley
-   Copyright (C) 2005 Juerg Billeter
-   Copyright (C) 2006 Brent Smith
-   Copyright (C) 2007 Novell, Inc.
-   Copyright (C) 2009 Red Hat, Inc.
+Files: data/mathjax/*
+Copyright: 2012 Design Science, Inc.
+License: Apache-2.0
 
-   This package is free software; you can redistribute it and/or modify
-   it under the terms of the GNU General Public License as published by
-   the Free Software Foundation; either version 2 of the License, or
-   (at your option) any later version.
+License: GPL-2+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 2 can be found in the file /usr/share/common-licenses/GPL-2.
 
-   This package is distributed in the hope that it will be useful,
-   but WITHOUT ANY WARRANTY; without even the implied warranty of
-   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-   GNU General Public License for more details.
-
-   You should have received a copy of the GNU General Public License
-   along with this package; if not, write to the Free Software
-   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
-
-On Debian systems, the complete text of the GNU General
-Public License can be found in `/usr/share/common-licenses/GPL'.
+License: Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ On Debian systems, the complete text of the Apache version 2.0 license
+ can be found in "/usr/share/common-licenses/Apache-2.0".

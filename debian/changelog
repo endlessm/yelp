@@ -1,3 +1,81 @@
+yelp (3.18.1-1) unstable; urgency=medium
+
+  [ Josselin Mouette ]
+  * Remove Debian menu entry.
+
+  [ Andreas Henriksson ]
+  * New upstream release.
+  * Update (build-)dependencies according to configure.ac changes:
+    - switch from libwebkitgtk-3.0-dev to libwebkit2gtk-4.0-dev (>= 2.7.1)
+
+  [ Michael Biebl ]
+  * Fix typo in debian/copyright.
+  * Override the lintian error source-is-missing for data/mathjax/*. The
+    non-minified files are shipped in data/mathjax/unpacked/.
+  * Drop debian/patches/03_info_crasher.patch, fixed upstream with a different
+    approach.
+  * Parts of libyelp moved into a new package-private libyelpcommon library.
+    Install that new library along with the new  web extension as part of
+    libyelp0. Make sure to exclude those shared libraries from dh_makeshlibs.
+    Update the symbols file for libyelp0 accordingly and remove all those
+    symbols which are now private and part of libyelpcommon.
+  * There are still a few symbols left which are private and not part of the
+    public API. Mark them as (conditional). See also bgo#756658.
+
+ -- Michael Biebl <biebl@debian.org>  Sat, 24 Oct 2015 07:39:18 +0200
+
+yelp (3.16.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Build-Depends on libglib2.0-dev to (>= 2.38.0).
+  * Bump Depends on yelp-xsl to (>= 3.12.0).
+  * Update symbols files. A few private symbols were dropped. This should be
+    fine since yelp has a strictly versioned dependency on libyelp0.
+  * Update debian/copyright and convert it to the machine-readable copyright
+    format 1.0.
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 19 May 2015 16:09:50 +0200
+
+yelp (3.14.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update Homepage URL.
+  * Drop the versioned Breaks against yelp << 3.13 from libyelp0. The yelp
+    package has a strictly versioned dependendency on libyelp0, so the
+    packages can't get out of sync.
+  * Bump Standards-Version to 3.9.6. No further changes.
+  * Refresh patches.
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 14 Oct 2014 18:22:01 +0200
+
+yelp (3.14.0-1) unstable; urgency=medium
+
+  * libyelp0: Bump Breaks on yelp to << 3.13 to prevent half-upgraded
+    broken state because of removed symbols (which is unused outside
+    of src:yelp).
+  * New upstream release.
+  * Upload to unstable.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 23 Sep 2014 16:04:09 +0200
+
+yelp (3.13.90-1) experimental; urgency=medium
+
+  [ Emilio Pozuelo Monfort ]
+  * debian/control.in:
+    + Recommend fonts-dejavu instead of ttf-dejavu. Closes: #746629.
+
+  [ Andreas Henriksson ]
+  * New upstream development release.
+  * Bump build-dependencies according to configure.ac changes:
+    + libgtk-3-dev (>= 3.13.3)
+    + yelp-xsl (>= 3.12.0)
+  * Update debian/libyelp0.symbols
+    - 4 missing symbols, unused and dropped in upstream UI revamp:
+      yelp_location_entry_* and yelp_view_get_action_group
+    - a few additions (yelp_search_* etc. equivalent for yelp_location_*).
+
+ -- Andreas Henriksson <andreas@fatal.se>  Sat, 06 Sep 2014 06:04:42 -0700
+
 yelp (3.12.0-1) unstable; urgency=medium
 
   * New upstream release.

@@ -1,1 +1,3 @@
 usr/lib/libyelp.so.*
+usr/lib/yelp/*.so
+usr/lib/yelp/web-extensions/*.so
