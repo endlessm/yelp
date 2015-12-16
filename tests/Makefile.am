@@ -7,7 +7,9 @@ YELP_COMMON_CFLAGS =				\
 YELP_COMMON_LDADD =				\
 	$(YELP_LIBS)				\
 	$(WARN_LDFLAGS)				\
-	$(top_builddir)/libyelp/libyelp.la
+	$(top_builddir)/libyelp/libyelp.la	\
+	$(top_builddir)/libyelp/libyelpcommon.la
+
 
 check_PROGRAMS =				\
 	test-magic				\
