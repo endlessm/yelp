@@ -29,6 +29,8 @@ Build-Depends: debhelper (>= 8),
                libwebkit2gtk-4.0-dev (>= 2.10.2),
                libsqlite3-dev,
                yelp-xsl (>= 3.12.0),
+               xvfb,
+               xauth
 Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/desktop/unstable/yelp
 Vcs-Browser: https://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/yelp
 Homepage: https://wiki.gnome.org/Apps/Yelp
