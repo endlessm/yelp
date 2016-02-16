@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-02 04:08+0000\n"
+"POT-Creation-Date: 2016-02-09 04:02+0000\n"
 "PO-Revision-Date: 2016-02-01 23:33+0000\n"
 "Last-Translator: Nuritzi Sanchez <ns@endlessm.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/endless-mobile-inc/yelp/language/es/)\n"
@@ -167,17 +167,17 @@ msgstr "URI del documento"
 msgid "The URI which identifies the document"
 msgstr "El URI que identifica el documento"
 
-#: ../libyelp/yelp-document.c:1022
+#: ../libyelp/yelp-document.c:1024
 #, c-format
 msgid "Search results for “%s”"
 msgstr "Resultados de la búsqueda para «%s»"
 
-#: ../libyelp/yelp-document.c:1034
+#: ../libyelp/yelp-document.c:1036
 #, c-format
 msgid "No matching help pages found in “%s”."
 msgstr "No se encontraron páginas de ayuda coincidentes en «%s»."
 
-#: ../libyelp/yelp-document.c:1040
+#: ../libyelp/yelp-document.c:1042
 msgid "No matching help pages found."
 msgstr "No se encontraron páginas de ayuda coincidentes."
 
