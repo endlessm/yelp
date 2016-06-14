@@ -19,9 +19,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-31 02:56+0000\n"
-"PO-Revision-Date: 2016-06-06 20:24+0000\n"
-"Last-Translator: Marco Mai <marco@endlessm.com>\n"
+"POT-Creation-Date: 2016-06-07 03:53+0000\n"
+"PO-Revision-Date: 2016-06-12 09:49+0000\n"
+"Last-Translator: zhoushumin <zhoushumin_endless@126.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/endless-mobile-inc/yelp/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -423,7 +423,7 @@ msgstr "将图像另存为… (_S)"
 
 #: ../libyelp/yelp-view.c:1543
 msgid "_Save Video As…"
-msgstr "视频另存为… (_S)"
+msgstr "将视频另存为… (_S)"
 
 #: ../libyelp/yelp-view.c:1551
 msgid "S_end Image To…"
@@ -431,7 +431,7 @@ msgstr "将图像发送到… (S_)"
 
 #: ../libyelp/yelp-view.c:1552
 msgid "S_end Video To…"
-msgstr "将视频发送到…"
+msgstr "将视频发送到…(S_)"
 
 #: ../libyelp/yelp-view.c:1894
 #, c-format
