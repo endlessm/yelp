@@ -223,7 +223,8 @@ yelp_CPPFLAGS = \
 
 yelp_LDADD = \
 	libyelp/libyelp.la \
-	$(YELP_LIBS)
+	$(YELP_LIBS) \
+	$(LIBM)
 
 yelp_LDFLAGS = $(WARN_LDFLAGS)
 
