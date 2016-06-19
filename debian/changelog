@@ -1,3 +1,17 @@
+yelp (3.20.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * The private libyelpcommon library has been removed again upstream, update
+    debian/libyelp0.install accordingly.
+  * Update debian/libyelp0.symbols with new additions. Drop the optional
+    libyelpcommon symbols, which no longer exist.
+  * Temporarily disable building the gtk-oc documentation and ship the
+    pre-generated files. The gtk-doc scanner currently segfaults if $DISPLAY
+    is not available.
+  * Bump Standards-Version to 3.9.8.
+
+ -- Michael Biebl <biebl@debian.org>  Mon, 18 Apr 2016 18:52:34 +0200
+
 yelp (3.18.1-1) unstable; urgency=medium
 
   [ Josselin Mouette ]
