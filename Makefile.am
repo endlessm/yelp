@@ -372,7 +372,9 @@ data/domains/%.xml: data/domains/%.xml.in
 	rm $(foreach ll,$(ALL_LINGUAS),$@-temp/$(ll).mo); \
 	rmdir $@-temp)
 
-domain_DATA = data/domains/yelp.xml
+domain_DATA = \
+	data/domains/yelp-endless.xml \
+	data/domains/yelp.xml
 
 dtddir = $(pkgdatadir)/dtd
 
