@@ -2,8 +2,6 @@ ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 SUBDIRS = po
 
-nobase_endlessdir=$(datadir)/yelp/endless
-
 css_files = \
 	data/endless/css/article-style.css \
 	data/endless/css/bootstrap.css.map \
@@ -41,7 +39,16 @@ spec_files = \
 	data/endless/spec/raptor.jpg \
 	$(NULL)
 
-dist_nobase_endless_DATA = $(css_files) $(img_files) $(spec_files)
+endlessdir=$(datadir)/yelp/endless
+
+endless_cssdir=$(endlessdir)/css
+dist_endless_css_DATA = $(css_files)
+
+endless_imgdir=$(endlessdir)/img
+dist_endless_img_DATA = $(img_files)
+
+endless_specdir=$(endlessdir)/spec
+dist_endless_spec_DATA = $(spec_files)
 
 BUILT_SOURCES = \
 	$(nodist_libyelp_libyelp_la_SOURCES)
