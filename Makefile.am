@@ -359,7 +359,7 @@ dist_scalableicon_DATA = \
 
 domaindir = $(datadir)/yelp-xsl/xslt/common/domains
 
-data/domains/yelp.pot data/domains/yelp-endless.xml.in: data/domains/yelp.xml.in
+data/domains/yelp.pot: data/domains/yelp-endless.xml.in data/domains/yelp.xml.in
 	$(ITSTOOL) -o "$@" $^
 
 data/domains/%.xml: data/domains/%.xml.in
