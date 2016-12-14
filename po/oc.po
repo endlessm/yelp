@@ -1,28 +1,87 @@
-# Occitan translation of Yelp.
-# Copyright (C) 2002-2012 Free Software Foundation, Inc.
-# This file is under the same license as the yelp package.
-# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2006-2008, 2010.
-# Cédric Valmary (Tot en Òc) <cvalmary@yahoo.fr>, 2010-2013.
-# None <None>, 2013.
-# Cédric Valmary (Tot en òc) <cvalmary@yahoo.fr>, 2015.
-# Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>, 2016.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Cédric Valmary <cvalmary@yahoo.fr>, 2015
+# Cédric Valmary <cvalmary@yahoo.fr>, 2016
+# None <None>, 2013
+# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2006-2008, 2010
 msgid ""
 msgstr ""
-"Project-Id-Version: yelp master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=yelp&keywords=I18N+L10N&component=General\n"
-"POT-Creation-Date: 2016-05-10 16:56+0000\n"
-"PO-Revision-Date: 2016-05-08 18:53+0200\n"
-"Last-Translator: Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>\n"
-"Language-Team: Tot En Òc\n"
-"Language: oc\n"
+"Project-Id-Version: yelp\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-13 05:06+0000\n"
+"PO-Revision-Date: 2016-12-14 06:32+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Occitan (post 1500) (http://www.transifex.com/endless-mobile-inc/yelp/language/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: oc\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
-"X-Launchpad-Export-Date: 2016-04-06 19:04+0000\n"
-"X-Project-Style: gnome\n"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#. Appears on the static navigation sidebar.
+#: data/domains/yelp-endless.xml.in:31
+msgid "Getting Started"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#. Appears on the static navigation sidebar.
+#: data/domains/yelp-endless.xml.in:40
+msgid "Internet"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: data/domains/yelp-endless.xml.in:51
+msgid "Documents &amp; Files"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#. Appears on the static navigation sidebar.
+#: data/domains/yelp-endless.xml.in:60
+msgid "The Desktop"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: data/domains/yelp-endless.xml.in:71
+msgid "Printers, Displays &amp; Accessories"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#. Appears on the static navigation sidebar.
+#: data/domains/yelp-endless.xml.in:80
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.security-and-privacy
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: data/domains/yelp-endless.xml.in:91
+msgid "Security &amp; Privacy"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.endless-videos
+#. Appears on the static navigation sidebar.
+#: data/domains/yelp-endless.xml.in:100
+msgid "Video Library"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -31,10 +90,8 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
-#: yelp.xml.in:36
+#: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Installar <string/>"
 
@@ -72,18 +129,14 @@ msgstr "Lo fichièr « %s » existís pas."
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"Lo fichièr « %s » a pas pogut èsser analisat, perque es pas un document XML "
-"format corrèctament."
+msgstr "Lo fichièr « %s » a pas pogut èsser analisat, perque es pas un document XML format corrèctament."
 
 #: ../libyelp/yelp-docbook-document.c:358
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"Lo fichièr « %s » a pas pogut èsser analisat, perque un o mantun de sos "
-"fichièrs incluses es pas un document XML format corrèctament."
+msgstr "Lo fichièr « %s » a pas pogut èsser analisat, perque un o mantun de sos fichièrs incluses es pas un document XML format corrèctament."
 
 #: ../libyelp/yelp-docbook-document.c:788
 msgid "Unknown"
@@ -138,9 +191,7 @@ msgstr "Totes los documents d'ajuda"
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"Lo fichièr « %s » a pas pogut èsser analisat, perque es pas una pagina info "
-"formada corrèctament."
+msgstr "Lo fichièr « %s » a pas pogut èsser analisat, perque es pas una pagina info formada corrèctament."
 
 #: ../libyelp/yelp-mallard-document.c:340
 #, c-format
@@ -155,7 +206,7 @@ msgstr "Vista"
 msgid "A YelpView instance to control"
 msgstr "Una instància YelpView de contrarotlar"
 
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:417
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:422
 msgid "Bookmarks"
 msgstr "Marcapaginas"
 
@@ -343,9 +394,7 @@ msgstr "Error desconeguda."
 
 #: ../libyelp/yelp-view.c:996
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"PackageKit es pas installat. Los ligams d'installacion de paquets necessitan "
-"PackageKit."
+msgstr "PackageKit es pas installat. Los ligams d'installacion de paquets necessitan PackageKit."
 
 #: ../libyelp/yelp-view.c:1243
 msgid "Save Image"
@@ -410,8 +459,8 @@ msgstr ""
 msgid "Turn on editor mode"
 msgstr "Bascular en mòde edicion"
 
-#: ../src/yelp-application.c:271 ../src/yelp-window.c:1180
-#: ../src/yelp-window.c:1188 ../yelp.desktop.in.in.h:1
+#: ../src/yelp-application.c:271 ../src/yelp-window.c:1185
+#: ../src/yelp-window.c:1193 ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "Ajuda"
 
@@ -427,59 +476,59 @@ msgstr "Agrandir lo tèxte"
 msgid "Smaller Text"
 msgstr "Reduire lo tèxte"
 
-#: ../src/yelp-window.c:211
+#: ../src/yelp-window.c:214
 msgid "Application"
 msgstr "Aplicacion"
 
-#: ../src/yelp-window.c:212
+#: ../src/yelp-window.c:215
 msgid "A YelpApplication instance that controls this window"
 msgstr "Una instància de YelpApplication que contraròtla aquesta fenèstra"
 
-#: ../src/yelp-window.c:343
+#: ../src/yelp-window.c:348
 msgid "Back"
 msgstr "Precedent"
 
-#: ../src/yelp-window.c:350
+#: ../src/yelp-window.c:355
 msgid "Forward"
 msgstr "Seguent"
 
-#: ../src/yelp-window.c:361
+#: ../src/yelp-window.c:366
 msgid "Menu"
 msgstr "Menú"
 
-#: ../src/yelp-window.c:366
+#: ../src/yelp-window.c:371
 msgid "Find…"
 msgstr "Recercar…"
 
-#: ../src/yelp-window.c:367
+#: ../src/yelp-window.c:372
 msgid "Print…"
 msgstr "Imprimir…"
 
-#: ../src/yelp-window.c:372
+#: ../src/yelp-window.c:377
 msgid "Previous Page"
 msgstr "Pagina precedenta"
 
-#: ../src/yelp-window.c:373
+#: ../src/yelp-window.c:378
 msgid "Next Page"
 msgstr "Pagina seguenta"
 
-#: ../src/yelp-window.c:378
+#: ../src/yelp-window.c:383
 msgid "All Help"
 msgstr "Ajuda generala"
 
-#: ../src/yelp-window.c:400
+#: ../src/yelp-window.c:405
 msgid "Search (Ctrl+S)"
 msgstr "Recercar (Ctrl+S)"
 
-#: ../src/yelp-window.c:434
+#: ../src/yelp-window.c:439
 msgid "No bookmarks"
 msgstr "Pas cap de marcapaginas"
 
-#: ../src/yelp-window.c:442
+#: ../src/yelp-window.c:447
 msgid "Add Bookmark"
 msgstr "Apondre un marcapaginas"
 
-#: ../src/yelp-window.c:448
+#: ../src/yelp-window.c:453
 msgid "Remove Bookmark"
 msgstr "Suprimir lo marcapaginas"
 
@@ -490,6 +539,3 @@ msgstr "Obténer d'ajuda a prepaus de GNOME"
 #: ../yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;"
 msgstr "documentacion;informacion;manual;"
-
-#~ msgid "See all search results for “%s”"
-#~ msgstr "Veire totes los resultats de recèrca per « %s »"
