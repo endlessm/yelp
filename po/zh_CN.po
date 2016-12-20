@@ -5,11 +5,13 @@
 # Translators:
 # Aron Xu <happyaron.xu@gmail.com>, 2009-2011
 # chenzibing <chenzibing_endless@126.com>, 2016
+# Di Shaodong <gnuyhlfh@gmail.com>, 2008
 # Fan Qijiang <fqj1994@linux.com>, 2010
 # Funda Wang <fundawang@linux.net.cn>, 2003 ,2004, 2005
 # Mingcong Bai <jeffbai@aosc.xyz>, 2015
 # Lele Long <schemacs@gmail.com>, 2011
 # Marco Mai <marco@endlessm.com>, 2016
+# Mingcong Bai <jeffbai@aosc.xyz>, 2015
 # Di Shaodong <gnuyhlfh@gmail.com>, 2008
 # tanyuanxing <tanyuanxingendless@126.com>, 2016
 # Tong Hui <tonghuix@gmail.com>, 2013
@@ -21,7 +23,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-15 04:47+0000\n"
+"POT-Creation-Date: 2016-12-13 05:06+0000\n"
 "PO-Revision-Date: 2016-08-31 21:39+0000\n"
 "Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/endless-mobile-inc/yelp/language/zh_CN/)\n"
