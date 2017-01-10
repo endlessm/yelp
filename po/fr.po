@@ -19,8 +19,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-13 05:06+0000\n"
-"PO-Revision-Date: 2016-12-14 06:31+0000\n"
+"POT-Creation-Date: 2017-01-03 05:37+0000\n"
+"PO-Revision-Date: 2017-01-09 06:05+0000\n"
 "Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
 "Language-Team: French (http://www.transifex.com/endless-mobile-inc/yelp/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -34,14 +34,14 @@ msgstr ""
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
-msgstr ""
+msgstr "Commencer"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
@@ -50,14 +50,14 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
-msgstr ""
+msgstr "Documents et fichiers"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
-msgstr ""
+msgstr "Le bureau"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
@@ -66,14 +66,14 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
-msgstr ""
+msgstr "Imprimantes, écrans et accessoires"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
-msgstr ""
+msgstr "Accès universel"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
@@ -82,14 +82,14 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
-msgstr ""
+msgstr "Sécurité et confidentialité"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.endless-videos
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:100
 msgid "Video Library"
-msgstr ""
+msgstr "Vidéothèque"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip

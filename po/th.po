@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-13 05:06+0000\n"
-"PO-Revision-Date: 2016-12-14 06:29+0000\n"
+"POT-Creation-Date: 2017-01-03 05:37+0000\n"
+"PO-Revision-Date: 2017-01-07 10:06+0000\n"
 "Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
 "Language-Team: Thai (http://www.transifex.com/endless-mobile-inc/yelp/language/th/)\n"
 "MIME-Version: 1.0\n"
@@ -25,14 +25,14 @@ msgstr ""
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
-msgstr ""
+msgstr "เริ่มต้นแล้ว"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
-msgstr ""
+msgstr "อินเทอร์เน็ต"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
@@ -41,14 +41,14 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
-msgstr ""
+msgstr "เอกสารและไฟล์"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
-msgstr ""
+msgstr "เดสก์ท็อป"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
@@ -57,14 +57,14 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
-msgstr ""
+msgstr "เครื่องพิมพ์, การแสดงผล และอุปกรณ์เสริมอื่นๆ"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
-msgstr ""
+msgstr "การเข้าถึงอย่างทั่วถึง"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
@@ -73,14 +73,14 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
-msgstr ""
+msgstr "ความปลอดภัยและความเป็นส่วนตัว"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.endless-videos
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:100
 msgid "Video Library"
-msgstr ""
+msgstr "ห้องสมุดวิดีโอ"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -309,7 +309,7 @@ msgstr "_ติดตั้งแพกเกจ"
 
 #: ../libyelp/yelp-view.c:283
 msgid "Save Code _Block As…"
-msgstr ""
+msgstr "บันทึก Code _Block เป็น..."
 
 #: ../libyelp/yelp-view.c:298
 msgid "_Copy Text"
@@ -389,7 +389,7 @@ msgstr "URI '%s' ไม่สามารถแจงได้"
 #: ../libyelp/yelp-view.c:842
 #, c-format
 msgid "Unknown Error."
-msgstr ""
+msgstr "พบข้อผิดพลาดที่ไม่รู้จัก"
 
 #: ../libyelp/yelp-view.c:996
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -410,19 +410,19 @@ msgstr "ส่งอีเมลถึง %s"
 
 #: ../libyelp/yelp-view.c:1542
 msgid "_Save Image As…"
-msgstr ""
+msgstr "_บันทึกภาพเป็น..."
 
 #: ../libyelp/yelp-view.c:1543
 msgid "_Save Video As…"
-msgstr ""
+msgstr "_บันทึกวิดีโอเป็น..."
 
 #: ../libyelp/yelp-view.c:1551
 msgid "S_end Image To…"
-msgstr ""
+msgstr "_ส่งภาพไปยัง..."
 
 #: ../libyelp/yelp-view.c:1552
 msgid "S_end Video To…"
-msgstr ""
+msgstr "_ส่งวิดีโอไปยัง..."
 
 #: ../libyelp/yelp-view.c:1894
 #, c-format
@@ -465,15 +465,15 @@ msgstr "วิธีใช้"
 
 #: ../src/yelp-application.c:321
 msgid "New Window"
-msgstr ""
+msgstr "หน้าต่างใหม่"
 
 #: ../src/yelp-application.c:325
 msgid "Larger Text"
-msgstr ""
+msgstr "ข้อความใหญ่ขึ้น"
 
 #: ../src/yelp-application.c:326
 msgid "Smaller Text"
-msgstr ""
+msgstr "ข้อความเล็กลง"
 
 #: ../src/yelp-window.c:214
 msgid "Application"
@@ -485,51 +485,51 @@ msgstr "อินสแตนซ์ YelpApplication ที่ควบคุม�
 
 #: ../src/yelp-window.c:348
 msgid "Back"
-msgstr ""
+msgstr "กลับ"
 
 #: ../src/yelp-window.c:355
 msgid "Forward"
-msgstr ""
+msgstr "ไปข้างหน้า"
 
 #: ../src/yelp-window.c:366
 msgid "Menu"
-msgstr ""
+msgstr "เมนู"
 
 #: ../src/yelp-window.c:371
 msgid "Find…"
-msgstr ""
+msgstr "ค้นหา..."
 
 #: ../src/yelp-window.c:372
 msgid "Print…"
-msgstr ""
+msgstr "พิมพ์..."
 
 #: ../src/yelp-window.c:377
 msgid "Previous Page"
-msgstr ""
+msgstr "หน้าที่แล้ว"
 
 #: ../src/yelp-window.c:378
 msgid "Next Page"
-msgstr ""
+msgstr "หน้าถัดไป"
 
 #: ../src/yelp-window.c:383
 msgid "All Help"
-msgstr ""
+msgstr "ความช่วยเหลือทั้งหมด"
 
 #: ../src/yelp-window.c:405
 msgid "Search (Ctrl+S)"
-msgstr ""
+msgstr "ค้นหา Ctrl+S)"
 
 #: ../src/yelp-window.c:439
 msgid "No bookmarks"
-msgstr ""
+msgstr "ไม่มีบุ๊กมาร์ก"
 
 #: ../src/yelp-window.c:447
 msgid "Add Bookmark"
-msgstr ""
+msgstr "เพิ่มบุ๊กมาร์ก"
 
 #: ../src/yelp-window.c:453
 msgid "Remove Bookmark"
-msgstr ""
+msgstr "ลบบุ๊คมาร์ค"
 
 #: ../yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"

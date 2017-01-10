@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-13 05:06+0000\n"
-"PO-Revision-Date: 2016-12-14 06:30+0000\n"
+"POT-Creation-Date: 2017-01-03 05:37+0000\n"
+"PO-Revision-Date: 2017-01-07 12:12+0000\n"
 "Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/endless-mobile-inc/yelp/language/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -30,14 +30,14 @@ msgstr ""
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
-msgstr ""
+msgstr "دليل الشروع في العمل"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
-msgstr ""
+msgstr "الإنترنت"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
@@ -46,14 +46,14 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
-msgstr ""
+msgstr "ملفات &amp; المستندات"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
-msgstr ""
+msgstr "سطح المكتب"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
@@ -62,14 +62,14 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
-msgstr ""
+msgstr "الطابعات &amp;وملحقات الشاشات"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
-msgstr ""
+msgstr "وصول عام"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
@@ -78,14 +78,14 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
-msgstr ""
+msgstr "الأمن &amp؛ الخصوصية"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.endless-videos
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:100
 msgid "Video Library"
-msgstr ""
+msgstr "مكتبة الفيديوهات"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -208,7 +208,7 @@ msgstr "عرض"
 
 #: ../libyelp/yelp-search-entry.c:173
 msgid "A YelpView instance to control"
-msgstr ""
+msgstr "مَثَلٌ من YelpView للتحكم"
 
 #: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:422
 msgid "Bookmarks"
@@ -216,7 +216,7 @@ msgstr "العلامات"
 
 #: ../libyelp/yelp-search-entry.c:189
 msgid "A YelpBookmarks implementation instance"
-msgstr ""
+msgstr "مَثَل لتطبيق YelpBookmarks"
 
 #: ../libyelp/yelp-search-entry.c:433
 #, c-format
@@ -225,7 +225,7 @@ msgstr "ابحث عن \"%s\""
 
 #: ../libyelp/yelp-settings.c:148
 msgid "GtkSettings"
-msgstr ""
+msgstr "إعدادت Gtk"
 
 #: ../libyelp/yelp-settings.c:149
 msgid "A GtkSettings object to get settings from"
@@ -233,7 +233,7 @@ msgstr "كائن GtkSettings الذي ستؤخذ منه الإعدادات"
 
 #: ../libyelp/yelp-settings.c:157
 msgid "GtkIconTheme"
-msgstr ""
+msgstr "سمة GtkIcon"
 
 #: ../libyelp/yelp-settings.c:158
 msgid "A GtkIconTheme object to get icons from"
@@ -486,7 +486,7 @@ msgstr "تطبيق"
 
 #: ../src/yelp-window.c:215
 msgid "A YelpApplication instance that controls this window"
-msgstr ""
+msgstr "َمَثَلٌ من YelpApplication يتحكم في هذه النافذة"
 
 #: ../src/yelp-window.c:348
 msgid "Back"
