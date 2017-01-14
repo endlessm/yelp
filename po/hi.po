@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-03 05:37+0000\n"
-"PO-Revision-Date: 2017-01-09 11:13+0000\n"
+"POT-Creation-Date: 2017-01-10 04:58+0000\n"
+"PO-Revision-Date: 2017-01-10 11:24+0000\n"
 "Last-Translator: e2f_in c7 <e2f_in_c7@outlook.com>\n"
 "Language-Team: Hindi (http://www.transifex.com/endless-mobile-inc/yelp/language/hi/)\n"
 "MIME-Version: 1.0\n"
@@ -68,7 +68,7 @@ msgstr "प्रिंटर, डिस्प्ले और सहायक �
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
-msgstr "विश्वव्यापी पहुंच"
+msgstr "विश्वव्यापी पहुँच"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
