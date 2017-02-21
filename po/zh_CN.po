@@ -12,6 +12,7 @@
 # Lele Long <schemacs@gmail.com>, 2011
 # Marco Mai <marco@endlessm.com>, 2016
 # Mingcong Bai <jeffbai@aosc.xyz>, 2015
+# Roddy Shuler <roddy@endlessm.com>, 2017
 # Di Shaodong <gnuyhlfh@gmail.com>, 2008
 # tanyuanxing <tanyuanxingendless@126.com>, 2016
 # Tong Hui <tonghuix@gmail.com>, 2013
@@ -23,9 +24,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-07 05:09+0000\n"
-"PO-Revision-Date: 2017-01-10 13:56+0000\n"
-"Last-Translator: e2f_STM STM <STMcnhktw@outlook.com>\n"
+"POT-Creation-Date: 2017-02-21 04:50+0000\n"
+"PO-Revision-Date: 2017-02-21 21:58+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/endless-mobile-inc/yelp/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,7 +55,7 @@ msgstr "互联网"
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
-msgstr "文档 &amp；文件"
+msgstr "文档 &amp; 文件"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
@@ -70,7 +71,7 @@ msgstr "桌面"
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
-msgstr "打印机，显示器 &amp；附件"
+msgstr "打印机，显示器 &amp; 附件"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
@@ -86,7 +87,7 @@ msgstr "辅助功能"
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
-msgstr "安全 &amp；隐私"
+msgstr "安全 &amp; 隐私"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.endless-videos
