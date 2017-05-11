@@ -11,6 +11,7 @@ Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 10),
                gnome-pkg-tools (>= 0.10),
                docbook-to-man,
+               eos-shell-content-dev,
                intltool (>= 0.41.0),
                itstool (>= 1.2.0),
                gtk-doc-tools,
