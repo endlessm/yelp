@@ -1,0 +1,2 @@
+usr/lib/*/libyelp.so.*
+usr/lib/*/yelp/web-extensions/*.so

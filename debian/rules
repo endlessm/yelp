@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+-include /usr/share/gnome-pkg-tools/1/rules/gnome-get-source.mk
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+export DEB_LDFLAGS_MAINT_APPEND = -Wl,-z,defs -Wl,-O1 -Wl,--as-needed
+
+%:
+	dh $@ --with gnome
+
+override_dh_auto_configure:
+	dh_auto_configure -- --enable-gtk-doc
+
+override_dh_auto_build:
+	dh_auto_build
+	/usr/bin/docbook-to-man debian/yelp.sgml > debian/yelp.1
+
+override_dh_makeshlibs:
+	dh_makeshlibs -X/usr/lib/$(DEB_HOST_MULTIARCH)/yelp/ -V -- -c4
+
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -f debian/yelp.1

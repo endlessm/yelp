@@ -1,0 +1,73 @@
+Source: yelp
+Section: gnome
+Priority: optional
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: @GNOME_TEAM@
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 10),
+               gnome-pkg-tools (>= 0.10),
+               docbook-to-man,
+               intltool (>= 0.41.0),
+               itstool (>= 1.2.0),
+               gtk-doc-tools,
+               libglib2.0-doc,
+               libgtk-3-doc,
+               libglib2.0-dev (>= 2.38.0),
+               libgtk-3-dev (>= 3.13.3),
+               libxml2-dev (>= 2.6.5),
+               libxslt1-dev (>= 1.1.4),
+               zlib1g-dev,
+               libbz2-dev,
+               liblzma-dev (>= 4.9),
+               libwebkit2gtk-4.0-dev (>= 2.7.1),
+               libsqlite3-dev,
+               yelp-xsl (>= 3.12.0)
+Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/desktop/unstable/yelp
+Vcs-Browser: https://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/yelp
+Homepage: https://wiki.gnome.org/Apps/Yelp
+
+Package: yelp
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         libyelp0 (= ${binary:Version}),
+         yelp-xsl (>= 3.12.0),
+         man-db (>= 2.5.1-1)
+Recommends: fonts-dejavu,
+            gnome-user-guide
+Description: Help browser for GNOME
+ Yelp is the help browser for the GNOME desktop.  Yelp provides a simple
+ graphical interface for viewing DocBook, Mallard, HTML, man, and info
+ formatted documentation.
+
+Package: libyelp0
+Architecture: any
+Multi-Arch: same
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Description: Library for the GNOME help browser
+ Yelp is the help browser for the GNOME desktop.  Yelp provides a simple
+ graphical interface for viewing DocBook, Mallard, HTML, man, and info
+ formatted documentation.
+ .
+ This library contains widgets and utilities for use by Yelp.
+
+Package: libyelp-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends},
+         libyelp0 (= ${binary:Version}),
+         libgtk-3-dev,
+         libwebkit2gtk-4.0-dev,
+         libxml2-dev (>= 2.6.5),
+         libxslt1-dev (>= 1.1.4)
+Description: Library for the GNOME help browser (development)
+ Yelp is the help browser for the GNOME desktop.  Yelp provides a simple
+ graphical interface for viewing DocBook, Mallard, HTML, man, and info
+ formatted documentation.
+ .
+ This package contains the development files for the libyelp library.
+
