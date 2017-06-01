@@ -92,7 +92,6 @@ yelp
 /po/missing
 /po/POTFILES
 /po/stamp-it
-/po/yelp.pot
 
 /tests/test-bz2
 /tests/test-io-channel
