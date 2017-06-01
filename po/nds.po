@@ -1,699 +1,597 @@
-# This is a DRAFT translation into a common dialect
-# for the Frisian Enclave in Northern Low Saxon; which
-# means the Northern Low Saxon variaties grown on 
-# Frisian substrate.
-#
-# This dialect is based on the Northern variaties of 
-# Groningen and East Frisia.
-#
-# So far this is mostly based on Gronings; but that will
-# change. 
-#
-# The orthography is based on ANS; but using some different
-# letter conbinations (ie, öü, üü, ei etc)
-#
-# Copyright © 2002 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Kenneth Christiansen <kenneth@gnu.org>, 2004
-#
-# Ideas are taken from the Dutch translation by
-# Tino Meinen <a.t.meinen@chello.nl>, 2002, 2003, 2004
 # Ronald Hummelink <ronald@hummelink.xs4all.nl>, 2002
-#
+# Tino Meinen <a.t.meinen@chello.nl>, 2002-2004
 msgid ""
 msgstr ""
-"Project-Id-Version: Yelp cvs\n"
-"POT-Creation-Date: 2004-03-22 17:51-0600\n"
-"PO-Revision-Date: 2004-02-09 17:14+0100\n"
-"Last-Translator: Kenneth Christiansen <kenneth@gnu.org>\n"
-"Language-Team: Low Saxon NFE (Northern Frisian Enclave) <kenneth@gnu.org>\n"
-"Language: nds\n"
+"Project-Id-Version: yelp\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-01 13:21-0700\n"
+"PO-Revision-Date: 2017-06-01 20:24+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Language-Team: Low German (http://www.transifex.com/endless-mobile-inc/yelp/language/nds/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Report-Msgid-Bugs-To: \n"
+"Language: nds\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: data/toc.xml.in.h:1
-msgid "Applets"
-msgstr "Paneelprogramma's"
+#. (itstool) path: msg/msgstr
+#. ID: install.tooltip
+#. This is a format message used to format tooltips on install: links. These
+#. links allow users to install packages by clicking a link in the help. The
+#. tooltip may also be used as the link text, if there's no link text in the
+#. document. Special elements in the message will be replaced with the
+#. appropriate content, as follows:
+#. <string/> - The package to install
+#: yelp.xml.in:36
+msgid "Install <string/>"
+msgstr ""
 
-#: data/toc.xml.in.h:2 src/yelp-man.c:429
-msgid "Applications"
-msgstr "Toupassens"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:31
+msgid "Home"
+msgstr ""
 
-#: data/toc.xml.in.h:3
-msgid "Desktop"
-msgstr "Desktop"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.getting-started
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:40
+msgid "Getting started with your OS"
+msgstr ""
 
-#: data/toc.xml.in.h:4 src/yelp-man.c:434
-msgid "Development"
-msgstr "Development"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-introduction
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:49
+msgid "Introduction to your OS"
+msgstr ""
 
-#: data/toc.xml.in.h:5
-msgid "Development Environments"
-msgstr "Ontwikkelomgevens"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-exit
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:58
+msgid "Log out, power off or switch users"
+msgstr ""
 
-#: data/toc.xml.in.h:6
-msgid "Development Tools"
-msgstr "Ontwikkelings-warktüüg"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-apps-open
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:67
+msgid "Start applications"
+msgstr ""
 
-#: data/toc.xml.in.h:7 stylesheets/l10n.xml.in.h:36
-msgid "Editors"
-msgstr "Bewarkers"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:78
+msgid "Desktop Apps &amp; Windows"
+msgstr ""
 
-#: data/toc.xml.in.h:8
-msgid "Education Applications"
-msgstr "Educatieve toupassens"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:89
+msgid "Files, Folders &amp; Search"
+msgstr ""
 
-#: data/toc.xml.in.h:9
-msgid "Games and Entertainment"
-msgstr "Spöllen en amusement"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:98
+msgid "Universal Access"
+msgstr ""
 
-#: data/toc.xml.in.h:10
-msgid "General"
-msgstr "Algemein"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:109
+msgid "Networking, Web, Email &amp; Chat"
+msgstr ""
 
-#: data/toc.xml.in.h:11
-msgid "Help Contents"
-msgstr "Hulp Inholdsopgave"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.prefs
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:120
+msgid "User &amp; System Settings"
+msgstr ""
 
-#: data/toc.xml.in.h:12
-msgid "Internet Applications"
-msgstr "Internettoupassens"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.tips
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:131
+msgid "Tips &amp; Tricks"
+msgstr ""
 
-#: data/toc.xml.in.h:13
-msgid "KDE"
-msgstr "KDE"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.media
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:142
+msgid "Sound, Video &amp; Pictures"
+msgstr ""
 
-#: data/toc.xml.in.h:14
-msgid "Kernels"
-msgstr "Kernels"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:153
+msgid "Hardware &amp; Drivers"
+msgstr ""
 
-#: data/toc.xml.in.h:15
-msgid "Multimedia Applications"
-msgstr "Multimediatoupassens"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.more-help
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:162
+msgid "Get more help"
+msgstr ""
 
-# Office niet vertalen?
-#: data/toc.xml.in.h:16
-msgid "Office and Productivity Applications"
-msgstr "Kentoor- en productiviteitstoupassens"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.endless-videos
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:171
+msgid "Video Tutorials"
+msgstr ""
 
-#: data/toc.xml.in.h:17
-msgid "Scientific Applications"
-msgstr "Wetenschappelke toupassens"
+#: ../libyelp/yelp-bz2-decompressor.c:143
+#: ../libyelp/yelp-lzma-decompressor.c:152
+msgid "Invalid compressed data"
+msgstr ""
 
-#: data/toc.xml.in.h:18
-msgid "Securities"
-msgstr "Veilighaid"
+#: ../libyelp/yelp-bz2-decompressor.c:149
+#: ../libyelp/yelp-lzma-decompressor.c:158
+msgid "Not enough memory"
+msgstr ""
 
-#: data/toc.xml.in.h:19
-msgid "System"
-msgstr "Systeem"
+#: ../libyelp/yelp-docbook-document.c:285 ../libyelp/yelp-info-document.c:221
+#: ../libyelp/yelp-mallard-document.c:301
+#: ../libyelp/yelp-mallard-document.c:455 ../libyelp/yelp-man-document.c:255
+#, c-format
+msgid "The page ‘%s’ was not found in the document ‘%s’."
+msgstr ""
 
-#: data/toc.xml.in.h:20
-msgid "Utilities"
-msgstr "Hulpmiddels"
+#: ../libyelp/yelp-docbook-document.c:323 ../libyelp/yelp-info-document.c:358
+#: ../libyelp/yelp-man-document.c:393
+#, c-format
+msgid "The file does not exist."
+msgstr ""
 
-#: data/toc.xml.in.h:21
-msgid "X Applications"
-msgstr "X-toupassens"
+#: ../libyelp/yelp-docbook-document.c:333 ../libyelp/yelp-info-document.c:368
+#: ../libyelp/yelp-man-document.c:403
+#, c-format
+msgid "The file ‘%s’ does not exist."
+msgstr ""
 
-#: data/ui/yelp.glade.h:1
-msgid "*"
-msgstr "*"
+#: ../libyelp/yelp-docbook-document.c:348
+#, c-format
+msgid ""
+"The file ‘%s’ could not be parsed because it is not a well-formed XML "
+"document."
+msgstr ""
 
-#: data/ui/yelp.glade.h:2
-msgid "C_ase sensitive"
-msgstr "_Hoofdlettergevoulig"
+#: ../libyelp/yelp-docbook-document.c:361
+#, c-format
+msgid ""
+"The file ‘%s’ could not be parsed because one or more of its included files "
+"is not a well-formed XML document."
+msgstr ""
 
-#: data/ui/yelp.glade.h:3
-msgid "Find"
-msgstr "Söüken"
-
-#: data/ui/yelp.glade.h:4
-msgid "_Find: "
-msgstr "_Söüken: "
-
-#: data/ui/yelp.glade.h:5
-msgid "_Next"
-msgstr "_Völgende"
-
-#: data/ui/yelp.glade.h:6
-msgid "_Previous"
-msgstr "V_orige"
-
-# hele discussie hierover op http://home.o2w.net/~ivo/wiki.pl?WrapAround
-# Betere vertaling hier in yelp?
-#: data/ui/yelp.glade.h:7
-msgid "_Wrap around"
-msgstr "_Trügloop"
-
-#: src/GNOME_Yelp.server.in.h:1
-msgid "Yelp"
-msgstr "Yelp"
-
-#: src/GNOME_Yelp.server.in.h:2
-msgid "Yelp Factory"
-msgstr "Yelp-fabriek"
-
-#: src/yelp-db-pager.c:435 src/yelp-man-pager.c:301
-msgid "No href attribute found on yelp:document"
-msgstr "Gein href-attribüüt vonden op yelp:document"
-
-#: src/yelp-db-pager.c:450 src/yelp-man-pager.c:316
-msgid "Out of memory"
-msgstr "Gein gehögen meer"
-
-#: src/yelp-db-pager.c:638 src/yelp-man-pager.c:370
-msgid "Titlepage"
-msgstr "Titelsied"
-
-#: src/yelp-db-pager.c:640 stylesheets/l10n.xml.in.h:30
-#: src/yelp-man-pager.c:372
-msgid "Contents"
-msgstr "Inholdsopgave"
-
-#: src/yelp-db-pager.c:658 stylesheets/l10n.xml.in.h:69
-#: src/yelp-man-pager.c:390
+#: ../libyelp/yelp-docbook-document.c:791
 msgid "Unknown"
 msgstr "Onbekend"
 
-#: src/yelp-error.c:46
-msgid "The selected document could not be opened"
-msgstr "Et selecteerde dukment kon neit opend worden"
-
-# werd niet gevonden?
-# aangetroffen?
-#: src/yelp-error.c:52
-msgid "The selected page could not be found in this document."
-msgstr "Dei selecteerde sied kon neit in dit dukment vonden worden."
-
-#: src/yelp-error.c:58
-msgid "The table of contents could not be read."
-msgstr "Dei inholdsopgave kon neit lesen worden."
-
-#: src/yelp-error.c:64
-msgid "DocBook SGML documents are no longer supported."
-msgstr "DocBook SGML-dukmenten worden neit meer unnerstöönd."
-
-#: src/yelp-error.c:70
-msgid "The selected file could not be read."
-msgstr "Et selecteerde bestand kon neit lesen worden."
-
-#: src/yelp-main.c:94
-msgid "Define which cache directory to use"
-msgstr "Angeven welke map mout worden bruukt voor tiedelke opslag"
-
-#: src/yelp-main.c:128
+#: ../libyelp/yelp-docbook-document.c:853 ../libyelp/yelp-info-document.c:301
+#: ../libyelp/yelp-man-document.c:335
 #, c-format
-msgid "Could not activate Yelp: '%s'"
-msgstr "Kon Yelp neit opstarten: '%s'"
+msgid "The requested page was not found in the document ‘%s’."
+msgstr ""
 
-#: src/yelp-main.c:147
-msgid "Could not open new window."
-msgstr "Kon gein nei vinster openen."
+#: ../libyelp/yelp-document.c:280
+msgid "Indexed"
+msgstr ""
 
-#: src/yelp-man.c:296 src/yelp-man.c:317 src/yelp-man.c:353 src/yelp-man.c:385
-#: src/yelp-man.c:401 src/yelp-man.c:412
-msgid "X11"
-msgstr "X11"
+#: ../libyelp/yelp-document.c:281
+msgid "Whether the document content has been indexed"
+msgstr ""
 
-#: src/yelp-man.c:301 src/yelp-man.c:332 src/yelp-man.c:390 src/yelp-man.c:417
-msgid "OpenSSL"
-msgstr "OpenSSL"
-
-#: src/yelp-man.c:306
-msgid "Termcap"
-msgstr "Termcap"
-
-#: src/yelp-man.c:322
-msgid "Perl"
-msgstr "Perl"
-
-#: src/yelp-man.c:327
-msgid "Qt"
-msgstr "Qt"
-
-#: src/yelp-man.c:337
-msgid "TIFF"
-msgstr "TIFF"
-
-#: src/yelp-man.c:342
-msgid "PThreads"
-msgstr "PThreads"
-
-#: src/yelp-man.c:364
-msgid "System Calls"
-msgstr "Systeemfunkties"
-
-#: src/yelp-man.c:369
-msgid "Library Functions"
-msgstr "Bibliotheekfunkties"
-
-#: src/yelp-man.c:374
-msgid "Kernel Routines"
-msgstr "Kernelroutines"
-
-#: src/yelp-man.c:439
-msgid "Hardware Devices"
-msgstr "Hardware-apparatuur"
-
-#: src/yelp-man.c:444
-msgid "Configuration Files"
-msgstr "Konfiguratiebestanden"
-
-#: src/yelp-man.c:449
-msgid "Games"
-msgstr "Spölletjes"
-
-#: src/yelp-man.c:454
-msgid "Overviews"
-msgstr "Oversichten"
-
-#: src/yelp-man.c:459
-msgid "System Administration"
-msgstr "Systeemadministratie"
-
-#: src/yelp-pager.c:118
+#: ../libyelp/yelp-document.c:289
 msgid "Document URI"
 msgstr "Dokment-URI"
 
-#: src/yelp-pager.c:119
-msgid "The URI of the document to be processed"
-msgstr "Dei URI van t te verwerken dukment"
+#: ../libyelp/yelp-document.c:290
+msgid "The URI which identifies the document"
+msgstr ""
 
-#: src/yelp-toc-pager.c:266
-msgid "YelpTocPager: Pause count is negative."
-msgstr "YelpTocPager: Pauserentelling is negatiev."
-
-#: src/yelp-toc-pager.c:486
+#: ../libyelp/yelp-document.c:1030
 #, c-format
-msgid "Could not load the OMF file '%s'."
-msgstr "Kon t OMF-bestand neit laden: '%s'."
+msgid "Search results for “%s”"
+msgstr ""
 
-#: src/yelp-toc-pager.c:883
-msgid "Categories"
-msgstr "Kategorieën"
+#: ../libyelp/yelp-document.c:1042
+#, c-format
+msgid "No matching help pages found in “%s”."
+msgstr ""
 
-#: src/yelp-toc-pager.c:897
-msgid "Documents"
-msgstr "Dukmenten"
+#: ../libyelp/yelp-document.c:1048
+msgid "No matching help pages found."
+msgstr ""
 
-#: src/yelp-window.c:249
-msgid "/_File"
-msgstr "/_Bestand"
+#: ../libyelp/yelp-error.c:35
+#, c-format
+msgid "An unknown error occurred."
+msgstr ""
 
-#: src/yelp-window.c:250
-msgid "/File/_New window"
-msgstr "/Bestand/_Nei vinster"
+#: ../libyelp/yelp-help-list.c:548 ../libyelp/yelp-help-list.c:557
+msgid "All Help Documents"
+msgstr ""
 
-#: src/yelp-window.c:253
-msgid "/File/_Close window"
-msgstr "/Bestand/Vnster _sluten"
+#: ../libyelp/yelp-info-document.c:383
+#, c-format
+msgid ""
+"The file ‘%s’ could not be parsed because it is not a well-formed info page."
+msgstr ""
 
-#: src/yelp-window.c:257
-msgid "/_Edit"
-msgstr "/Be_warken"
+#: ../libyelp/yelp-mallard-document.c:343
+#, c-format
+msgid "The directory ‘%s’ does not exist."
+msgstr ""
 
-#: src/yelp-window.c:258
-msgid "/Edit/_Find..."
-msgstr "/Bewarken/_Söüken..."
+#: ../libyelp/yelp-search-entry.c:172
+msgid "View"
+msgstr ""
 
-#: src/yelp-window.c:261
-msgid "/Edit/Find Ne_xt"
-msgstr "/Bewarken/_Völgende zöüken"
+#: ../libyelp/yelp-search-entry.c:173
+msgid "A YelpView instance to control"
+msgstr ""
 
-#: src/yelp-window.c:264
-msgid "/Edit/Find Pre_vious"
-msgstr "/Bewarken/V_orige söüken"
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:422
+msgid "Bookmarks"
+msgstr ""
 
-#: src/yelp-window.c:268
-msgid "/_Go"
-msgstr "/_Ga naar"
+#: ../libyelp/yelp-search-entry.c:189
+msgid "A YelpBookmarks implementation instance"
+msgstr ""
 
-#: src/yelp-window.c:269
-msgid "/Go/_Back"
-msgstr "/Ga naar/V_orige"
+#: ../libyelp/yelp-search-entry.c:433
+#, c-format
+msgid "Search for “%s”"
+msgstr ""
 
-#: src/yelp-window.c:272
-msgid "/Go/_Forward"
-msgstr "/Ga naar/_Völgende"
+#: ../libyelp/yelp-settings.c:148
+msgid "GtkSettings"
+msgstr ""
 
-#: src/yelp-window.c:275
-msgid "/Go/_Home"
-msgstr "/Ga naar/_Startsied"
+#: ../libyelp/yelp-settings.c:149
+msgid "A GtkSettings object to get settings from"
+msgstr ""
 
-#: src/yelp-window.c:278
-msgid "/Go/"
-msgstr "/_Ga naar/"
+#: ../libyelp/yelp-settings.c:157
+msgid "GtkIconTheme"
+msgstr ""
 
-#: src/yelp-window.c:279
-msgid "/Go/_Previous Page"
-msgstr "/Ga naar/V_orige sied"
+#: ../libyelp/yelp-settings.c:158
+msgid "A GtkIconTheme object to get icons from"
+msgstr ""
 
-#: src/yelp-window.c:282
-msgid "/Go/_Next Page"
-msgstr "/Ga naar/_Völgende sied"
+#: ../libyelp/yelp-settings.c:166
+msgid "Font Adjustment"
+msgstr ""
 
-#: src/yelp-window.c:285
-msgid "/Go/_Contents"
-msgstr "/Ga naar/_Inholdsopgave"
+#: ../libyelp/yelp-settings.c:167
+msgid "A size adjustment to add to font sizes"
+msgstr ""
 
-#: src/yelp-window.c:289
-msgid "/_Help"
-msgstr "/_Hulp"
+#: ../libyelp/yelp-settings.c:175
+msgid "Show Text Cursor"
+msgstr ""
 
-#: src/yelp-window.c:290
-msgid "/Help/_About"
-msgstr "/Hulp/_Info"
+#: ../libyelp/yelp-settings.c:176
+msgid "Show the text cursor or caret for accessible navigation"
+msgstr ""
 
-#: src/yelp-window.c:352
-msgid "Help Browser"
-msgstr "Hulp-browser"
+#: ../libyelp/yelp-settings.c:184
+msgid "Editor Mode"
+msgstr ""
 
-#: src/yelp-window.c:570 stylesheets/l10n.xml.in.h:61
-msgid "Section"
-msgstr "Sektie"
+#: ../libyelp/yelp-settings.c:185
+msgid "Enable features useful to editors"
+msgstr ""
 
-#: src/yelp-window.c:625
+#: ../libyelp/yelp-sqlite-storage.c:145
+msgid "Database filename"
+msgstr ""
+
+#: ../libyelp/yelp-sqlite-storage.c:146
+msgid "The filename of the sqlite database"
+msgstr ""
+
+#: ../libyelp/yelp-transform.c:164
+msgid "XSLT Stylesheet"
+msgstr ""
+
+#: ../libyelp/yelp-transform.c:165
+msgid "The location of the XSLT stylesheet"
+msgstr ""
+
+#: ../libyelp/yelp-transform.c:369 ../libyelp/yelp-transform.c:384
+#, c-format
+msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
+msgstr ""
+
+#: ../libyelp/yelp-transform.c:518
+msgid "No href attribute found on yelp:document\n"
+msgstr ""
+
+#: ../libyelp/yelp-transform.c:533
+msgid "Out of memory"
+msgstr "Gein gehögen meer"
+
+#: ../libyelp/yelp-view.c:253
+msgid "C_opy Code Block"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:258
+msgid "_Copy Link Location"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:263
+msgid "_Open Link"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:268
+msgid "Open Link in New _Window"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:278
+msgid "_Install Packages"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:283
+msgid "Save Code _Block As…"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:298
+msgid "_Copy Text"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:525
+msgid "Yelp URI"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:526
+msgid "A YelpUri with the current location"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:534
+msgid "Loading State"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:535
+msgid "The loading state of the view"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:544
+msgid "Page ID"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:545
+msgid "The ID of the root page of the page being viewed"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:553
+msgid "Root Title"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:554
+msgid "The title of the root page of the page being viewed"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:562
+msgid "Page Title"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:563
+msgid "The title of the page being viewed"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:571
+msgid "Page Description"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:572
+msgid "The description of the page being viewed"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:580
+msgid "Page Icon"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:581
+msgid "The icon of the page being viewed"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:826 ../libyelp/yelp-view.c:2197
+#, c-format
+msgid "The URI ‘%s’ does not point to a valid page."
+msgstr ""
+
+#: ../libyelp/yelp-view.c:832 ../libyelp/yelp-view.c:2203
+#, c-format
+msgid "The URI does not point to a valid page."
+msgstr ""
+
+#: ../libyelp/yelp-view.c:837 ../libyelp/yelp-view.c:2209
+#, c-format
+msgid "The URI ‘%s’ could not be parsed."
+msgstr ""
+
+#: ../libyelp/yelp-view.c:842
+#, c-format
+msgid "Unknown Error."
+msgstr ""
+
+#: ../libyelp/yelp-view.c:996
+msgid "You do not have PackageKit. Package install links require PackageKit."
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1243
+msgid "Save Image"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1342
+msgid "Save Code"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1438
+#, c-format
+msgid "Send email to %s"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1542
+msgid "_Save Image As…"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1543
+msgid "_Save Video As…"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1551
+msgid "S_end Image To…"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1552
+msgid "S_end Video To…"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1893
+#, c-format
+msgid "Could not load a document for ‘%s’"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1899
+#, c-format
+msgid "Could not load a document"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1983
+msgid "Document Not Found"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1985
+msgid "Page Not Found"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1988
+msgid "Cannot Read"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:1994
+msgid "Unknown Error"
+msgstr ""
+
+#: ../libyelp/yelp-view.c:2014
+msgid "Search for packages containing this document."
+msgstr ""
+
+#: ../src/yelp-application.c:59
+msgid "Turn on editor mode"
+msgstr ""
+
+#: ../src/yelp-application.c:271 ../src/yelp-window.c:1185
+#: ../src/yelp-window.c:1193 ../yelp.desktop.in.in.h:1
+msgid "Help"
+msgstr "Hulp"
+
+#: ../src/yelp-application.c:321
+msgid "New Window"
+msgstr ""
+
+#: ../src/yelp-application.c:325
+msgid "Larger Text"
+msgstr ""
+
+#: ../src/yelp-application.c:326
+msgid "Smaller Text"
+msgstr ""
+
+#: ../src/yelp-window.c:214
+msgid "Application"
+msgstr ""
+
+#: ../src/yelp-window.c:215
+msgid "A YelpApplication instance that controls this window"
+msgstr ""
+
+#: ../src/yelp-window.c:348
 msgid "Back"
 msgstr "Trüg"
 
-#: src/yelp-window.c:626
-msgid "Show previous page in history"
-msgstr "Dei vorige sied tonen"
-
-#: src/yelp-window.c:636
+#: ../src/yelp-window.c:355
 msgid "Forward"
 msgstr "Völgende"
 
-#: src/yelp-window.c:637
-msgid "Show next page in history"
-msgstr "Dei völgende sied tonen"
-
-#: src/yelp-window.c:649
-msgid "Home"
-msgstr "Startsied"
-
-#: src/yelp-window.c:650
-msgid "Go to home view"
-msgstr "Dei startsied tonen"
-
-#: src/yelp-window.c:860
-msgid "Loading..."
-msgstr "Besig mit laden..."
-
-#. Note to translators: put here your name (and address) so it
-#. * will shop up in the "about" box
-#: src/yelp-window.c:1300
-msgid "translator_credits"
+#: ../src/yelp-window.c:366
+msgid "Menu"
 msgstr ""
-"Kenneth Christiansen <kenneth@gnu.org"
 
-# Een Hulp voor GNOME, een Hulp-programma voor GNOME
-#: src/yelp-window.c:1306
-msgid "A Help Browser for GNOME"
-msgstr "Ein Hulp-browser vöör GNOME"
+#: ../src/yelp-window.c:371
+msgid "Find…"
+msgstr ""
 
-#: stylesheets/l10n.xml.in.h:1
-msgid "&#8216;"
-msgstr "&#8216;"
+#: ../src/yelp-window.c:372
+msgid "Print…"
+msgstr ""
 
-#: stylesheets/l10n.xml.in.h:2
-msgid "&#8217;"
-msgstr "&#8217;"
+#: ../src/yelp-window.c:377
+msgid "Previous Page"
+msgstr ""
 
-#: stylesheets/l10n.xml.in.h:3
-msgid "&#8220;"
-msgstr "&#8220;"
+#: ../src/yelp-window.c:378
+msgid "Next Page"
+msgstr ""
 
-#: stylesheets/l10n.xml.in.h:4
-msgid "&#8221;"
-msgstr "&#8221;"
+#: ../src/yelp-window.c:383
+msgid "All Help"
+msgstr ""
 
-# onderdeel beter dan artikel
-#: stylesheets/l10n.xml.in.h:5
-msgid "About This Article"
-msgstr "Över dit onderdeil"
+#: ../src/yelp-window.c:405
+msgid "Search (Ctrl+S)"
+msgstr ""
 
-#: stylesheets/l10n.xml.in.h:6
-msgid "About This Bibliography"
-msgstr "Över disse bibliografie"
+#: ../src/yelp-window.c:439
+msgid "No bookmarks"
+msgstr ""
 
-#: stylesheets/l10n.xml.in.h:7
-msgid "About This Book"
-msgstr "Över dit bouk"
+#: ../src/yelp-window.c:447
+msgid "Add Bookmark"
+msgstr ""
 
-#: stylesheets/l10n.xml.in.h:8
-msgid "About This Chapter"
-msgstr "Över dit hoofdstuk"
+#: ../src/yelp-window.c:453
+msgid "Remove Bookmark"
+msgstr ""
 
-#: stylesheets/l10n.xml.in.h:9
-msgid "About This Entry"
-msgstr "Över dit unnerwerp"
-
-#: stylesheets/l10n.xml.in.h:10
-msgid "About This Glossary"
-msgstr "Över disse woordenliest"
-
-#: stylesheets/l10n.xml.in.h:11
-msgid "About This Index"
-msgstr "Över disse indeks"
-
-#: stylesheets/l10n.xml.in.h:12
-msgid "About This Part"
-msgstr "Över dit onderdeil"
-
-#: stylesheets/l10n.xml.in.h:13
-msgid "About This Preface"
-msgstr "Över dit inleiding"
-
-#: stylesheets/l10n.xml.in.h:14
-msgid "About This Reference"
-msgstr "Över disse referentie"
-
-#: stylesheets/l10n.xml.in.h:15
-msgid "About This Section"
-msgstr "Över disse sektie"
-
-#: stylesheets/l10n.xml.in.h:16
-msgid "About This Set"
-msgstr "Över disse touhoopstellen"
-
-#: stylesheets/l10n.xml.in.h:17
-msgid "Affiliation"
-msgstr "Verwantschup"
-
-#: stylesheets/l10n.xml.in.h:18
-msgid "Appendix"
-msgstr "Appendiks"
-
-#: stylesheets/l10n.xml.in.h:19
-msgid "Article"
-msgstr "Artikel"
-
-#: stylesheets/l10n.xml.in.h:20
-msgid "Audience"
-msgstr "Publiek"
-
-#: stylesheets/l10n.xml.in.h:21
-msgid "Author"
-msgstr "Autöör"
-
-#: stylesheets/l10n.xml.in.h:22
-msgid "Authors"
-msgstr "Autöörs"
-
-#: stylesheets/l10n.xml.in.h:23
-msgid "Bibliography"
-msgstr "Bibliografie"
-
-#: stylesheets/l10n.xml.in.h:24
-msgid "Book"
-msgstr "Bouk"
-
-#: stylesheets/l10n.xml.in.h:25
-msgid "Caution"
-msgstr "Waarschuwing"
-
-#: stylesheets/l10n.xml.in.h:26
-msgid "Chapter"
-msgstr "Hoofdstuk"
-
-# Medeschrijver?
-#: stylesheets/l10n.xml.in.h:27
-msgid "Collaborator"
-msgstr "Medewarker"
-
-# Medeschrijver?
-#: stylesheets/l10n.xml.in.h:28
-msgid "Collaborators"
-msgstr "Medewarkers"
-
-#: stylesheets/l10n.xml.in.h:29
-msgid "Colophon"
-msgstr "Kolofoon"
-
-#: stylesheets/l10n.xml.in.h:31
-msgid "Copyright"
-msgstr "Autöörsrecht"
-
-# onvertaald laten?
-#: stylesheets/l10n.xml.in.h:32
-msgid "Copyrights"
-msgstr "Autöörsrechten"
-
-#: stylesheets/l10n.xml.in.h:33
-msgid "Date"
-msgstr "Datum"
-
-#: stylesheets/l10n.xml.in.h:34
-msgid "Dedication"
-msgstr "Touwieding"
-
-#: stylesheets/l10n.xml.in.h:35
-msgid "Editor"
-msgstr "Bewarker"
-
-#: stylesheets/l10n.xml.in.h:37
-msgid "Email"
-msgstr "E-mail"
-
-#: stylesheets/l10n.xml.in.h:38
-msgid "Example"
-msgstr "Vöörbeeld"
-
-#: stylesheets/l10n.xml.in.h:39
-msgid "Figure"
-msgstr "Figuur"
-
-#: stylesheets/l10n.xml.in.h:40
-msgid "Glossary"
-msgstr "Woordenliest"
-
-#: stylesheets/l10n.xml.in.h:41
-msgid "Important"
-msgstr "Belangriek"
-
-#: stylesheets/l10n.xml.in.h:42
-msgid "Index"
-msgstr "Indeks"
-
-# Kort:
-# Rechtspraak
-#: stylesheets/l10n.xml.in.h:43
-msgid "Legal Notice"
-msgstr "Juridische opmarking"
-
-#: stylesheets/l10n.xml.in.h:44
-msgid "Level"
-msgstr "Nivo"
-
-#: stylesheets/l10n.xml.in.h:45
-msgid "Message Audience"
-msgstr "Berichtpubliek"
-
-#: stylesheets/l10n.xml.in.h:46
-msgid "Message Level"
-msgstr "Berichtnivo"
-
-#: stylesheets/l10n.xml.in.h:47
-msgid "Message Origin"
-msgstr "Berichtbron"
-
-#: stylesheets/l10n.xml.in.h:48
-msgid "Note"
-msgstr "Opmerking"
-
-#: stylesheets/l10n.xml.in.h:49
-msgid "Origin"
-msgstr "Afkomst"
-
-# bijdrager
-#: stylesheets/l10n.xml.in.h:50
-msgid "Other Contributor"
-msgstr "Andere medewarker"
-
-# bijdrager
-#: stylesheets/l10n.xml.in.h:51
-msgid "Other Contributors"
-msgstr "Överige medewarkers"
-
-#: stylesheets/l10n.xml.in.h:52
-msgid "Part"
-msgstr "Deil"
-
-# inleiding
-#: stylesheets/l10n.xml.in.h:53
-msgid "Preface"
-msgstr "Vöörwoord"
-
-#: stylesheets/l10n.xml.in.h:54
-msgid "Publisher"
-msgstr "Uutgever"
-
-#: stylesheets/l10n.xml.in.h:55
-msgid "Publishers"
-msgstr "Uutgevers"
-
-#: stylesheets/l10n.xml.in.h:56
-msgid "Reference"
-msgstr "Verwiesen"
-
-#: stylesheets/l10n.xml.in.h:57
-msgid "Reference Entry"
-msgstr "Referentieunnerwarp"
-
-#: stylesheets/l10n.xml.in.h:58
-msgid "Reference Section"
-msgstr "Referentiesektie"
-
-# specifieke informatie?
-#: stylesheets/l10n.xml.in.h:59
-msgid "Release Information"
-msgstr "Versie-informatie"
-
-# herziening
-#: stylesheets/l10n.xml.in.h:60
-msgid "Revision History"
-msgstr "Revisiegeschiedenis"
-
-#: stylesheets/l10n.xml.in.h:62
-msgid "See"
-msgstr "Sei"
-
-#: stylesheets/l10n.xml.in.h:63
-msgid "See Also"
-msgstr "Sei ook"
-
-# is dit de goede context?
-#: stylesheets/l10n.xml.in.h:64
-msgid "Set Index"
-msgstr "Indeks instellen"
-
-#: stylesheets/l10n.xml.in.h:65
-msgid "Table"
-msgstr "Tabel"
-
-#: stylesheets/l10n.xml.in.h:66
-msgid "Table of Contents"
-msgstr "Inholdsopgave"
-
-#: stylesheets/l10n.xml.in.h:67
-msgid "Tip"
-msgstr "Tip"
-
-#: stylesheets/l10n.xml.in.h:68
-msgid "Title"
-msgstr "Titel"
-
-#: stylesheets/l10n.xml.in.h:70
-msgid "Warning"
-msgstr "Waarschuwen"
-
-#: yelp.desktop.in.h:1
+#: ../yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
 msgstr "Hulp bie GNOME"
 
-#: yelp.desktop.in.h:2
-msgid "Help"
-msgstr "Hulp"
+#: ../yelp.desktop.in.in.h:3
+msgid "documentation;information;manual;help;"
+msgstr ""

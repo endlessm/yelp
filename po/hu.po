@@ -1,29 +1,28 @@
-# Hungarian translation of yelp.
-# Copyright (C) 2002-2016 Free Software Foundation, Inc.
-# This file is distributed under the same license as the yelp package.
-#
-# Szabolcs Ban <shooby at gnome dot hu>, 2002.
-# Emese Kovacs <emese at gnome dot hu>, 2002.
-# Andras Timar <timar at gnome dot hu>, 2002, 2003, 2004.
-# Laszlo Dvornik <dvornik at gnome dot hu>, 2004.
-# Gabor Kelemen <kelemeng at gnome dot hu>, 2004, 2005, 2006, 2007, 2008, 2011, 2012.
-# Mate ORY <orymate at gmail d0t com>, 2006.
-# Balázs Úr <urbalazs at gmail dot com>, 2013, 2014, 2015, 2016.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Andras Timar <timar at gnome dot hu>, 2002-2004
+# Balázs Úr <urbalazs at gmail dot com>, 2013-2016
+# Emese Kovacs <emese at gnome dot hu>, 2002
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2004-2008,2011-2012
+# Laszlo Dvornik <dvornik at gnome dot hu>, 2004
+# Mate ORY <orymate at gmail d0t com>, 2006
+# Szabolcs Ban <shooby at gnome dot hu>, 2002
 msgid ""
 msgstr ""
-"Project-Id-Version: yelp master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=yelp&keywords=I18N+L10N&component=General\n"
-"POT-Creation-Date: 2016-08-19 16:59+0000\n"
-"PO-Revision-Date: 2016-08-19 20:27+0200\n"
-"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
-"Language-Team: Hungarian <openscope at googlegroups dot com>\n"
-"Language: hu\n"
+"Project-Id-Version: yelp\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-01 13:21-0700\n"
+"PO-Revision-Date: 2017-06-01 20:24+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/endless-mobile-inc/yelp/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.2\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -32,12 +31,129 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "<string/> telepítése"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:31
+msgid "Home"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.getting-started
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:40
+msgid "Getting started with your OS"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-introduction
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:49
+msgid "Introduction to your OS"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-exit
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:58
+msgid "Log out, power off or switch users"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-apps-open
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:67
+msgid "Start applications"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:78
+msgid "Desktop Apps &amp; Windows"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:89
+msgid "Files, Folders &amp; Search"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:98
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:109
+msgid "Networking, Web, Email &amp; Chat"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.prefs
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:120
+msgid "User &amp; System Settings"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.tips
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:131
+msgid "Tips &amp; Tricks"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.media
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:142
+msgid "Sound, Video &amp; Pictures"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:153
+msgid "Hardware &amp; Drivers"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.more-help
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:162
+msgid "Get more help"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.endless-videos
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:171
+msgid "Video Tutorials"
+msgstr ""
 
 #: ../libyelp/yelp-bz2-decompressor.c:143
 #: ../libyelp/yelp-lzma-decompressor.c:152
@@ -49,80 +165,76 @@ msgstr "Érvénytelen tömörített adatok"
 msgid "Not enough memory"
 msgstr "Nincs elég memória"
 
-#: ../libyelp/yelp-docbook-document.c:282 ../libyelp/yelp-info-document.c:218
-#: ../libyelp/yelp-mallard-document.c:298
-#: ../libyelp/yelp-mallard-document.c:452 ../libyelp/yelp-man-document.c:252
+#: ../libyelp/yelp-docbook-document.c:285 ../libyelp/yelp-info-document.c:221
+#: ../libyelp/yelp-mallard-document.c:301
+#: ../libyelp/yelp-mallard-document.c:455 ../libyelp/yelp-man-document.c:255
 #, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
 msgstr "A(z) „%s” oldal nem található a(z) „%s” dokumentumban."
 
-#: ../libyelp/yelp-docbook-document.c:320 ../libyelp/yelp-info-document.c:355
-#: ../libyelp/yelp-man-document.c:390
+#: ../libyelp/yelp-docbook-document.c:323 ../libyelp/yelp-info-document.c:358
+#: ../libyelp/yelp-man-document.c:393
 #, c-format
 msgid "The file does not exist."
 msgstr "A fájl nem létezik."
 
-#: ../libyelp/yelp-docbook-document.c:330 ../libyelp/yelp-info-document.c:365
-#: ../libyelp/yelp-man-document.c:400
+#: ../libyelp/yelp-docbook-document.c:333 ../libyelp/yelp-info-document.c:368
+#: ../libyelp/yelp-man-document.c:403
 #, c-format
 msgid "The file ‘%s’ does not exist."
 msgstr "A(z) „%s” fájl nem létezik."
 
-#: ../libyelp/yelp-docbook-document.c:345
+#: ../libyelp/yelp-docbook-document.c:348
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"A(z) „%s” fájl nem dolgozható fel, mivel nem megfelelően formázott XML "
-"dokumentum."
+msgstr "A(z) „%s” fájl nem dolgozható fel, mivel nem megfelelően formázott XML dokumentum."
 
-#: ../libyelp/yelp-docbook-document.c:358
+#: ../libyelp/yelp-docbook-document.c:361
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"A(z) „%s” fájl nem dolgozható fel, mivel az általa tartalmazott fájlok közül "
-"néhány nem megfelelően formázott XML dokumentum."
+msgstr "A(z) „%s” fájl nem dolgozható fel, mivel az általa tartalmazott fájlok közül néhány nem megfelelően formázott XML dokumentum."
 
-#: ../libyelp/yelp-docbook-document.c:788
+#: ../libyelp/yelp-docbook-document.c:791
 msgid "Unknown"
 msgstr "Ismeretlen"
 
-#: ../libyelp/yelp-docbook-document.c:850 ../libyelp/yelp-info-document.c:298
-#: ../libyelp/yelp-man-document.c:332
+#: ../libyelp/yelp-docbook-document.c:853 ../libyelp/yelp-info-document.c:301
+#: ../libyelp/yelp-man-document.c:335
 #, c-format
 msgid "The requested page was not found in the document ‘%s’."
 msgstr "A kért oldal nem található meg a(z) „%s” dokumentumban."
 
-#: ../libyelp/yelp-document.c:278
+#: ../libyelp/yelp-document.c:280
 msgid "Indexed"
 msgstr "Indexelve"
 
-#: ../libyelp/yelp-document.c:279
+#: ../libyelp/yelp-document.c:281
 msgid "Whether the document content has been indexed"
 msgstr "A dokumentum tartalma indexelve van-e"
 
-#: ../libyelp/yelp-document.c:287
+#: ../libyelp/yelp-document.c:289
 msgid "Document URI"
 msgstr "Dokumentum URI"
 
-#: ../libyelp/yelp-document.c:288
+#: ../libyelp/yelp-document.c:290
 msgid "The URI which identifies the document"
 msgstr "A dokumentumot azonosító URI-cím"
 
-#: ../libyelp/yelp-document.c:1024
+#: ../libyelp/yelp-document.c:1030
 #, c-format
 msgid "Search results for “%s”"
 msgstr "Keresési találatok erre: „%s”"
 
-#: ../libyelp/yelp-document.c:1036
+#: ../libyelp/yelp-document.c:1042
 #, c-format
 msgid "No matching help pages found in “%s”."
 msgstr "Nem találhatók illeszkedő súgóoldalak itt: „%s”"
 
-#: ../libyelp/yelp-document.c:1042
+#: ../libyelp/yelp-document.c:1048
 msgid "No matching help pages found."
 msgstr "Nem találhatók illeszkedő súgóoldalak."
 
@@ -131,19 +243,17 @@ msgstr "Nem találhatók illeszkedő súgóoldalak."
 msgid "An unknown error occurred."
 msgstr "Ismeretlen hiba történt."
 
-#: ../libyelp/yelp-help-list.c:545 ../libyelp/yelp-help-list.c:554
+#: ../libyelp/yelp-help-list.c:548 ../libyelp/yelp-help-list.c:557
 msgid "All Help Documents"
 msgstr "Minden súgódokumentum"
 
-#: ../libyelp/yelp-info-document.c:380
+#: ../libyelp/yelp-info-document.c:383
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"A(z) „%s” fájl nem dolgozható fel, mivel nem megfelelően formázott info "
-"oldal."
+msgstr "A(z) „%s” fájl nem dolgozható fel, mivel nem megfelelően formázott info oldal."
 
-#: ../libyelp/yelp-mallard-document.c:340
+#: ../libyelp/yelp-mallard-document.c:343
 #, c-format
 msgid "The directory ‘%s’ does not exist."
 msgstr "A(z) „%s” könyvtár nem létezik."
@@ -156,7 +266,7 @@ msgstr "Nézet"
 msgid "A YelpView instance to control"
 msgstr "Vezérlendő YelpView példány"
 
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:417
+#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:422
 msgid "Bookmarks"
 msgstr "Könyvjelzők"
 
@@ -322,17 +432,17 @@ msgstr "Oldal ikonja"
 msgid "The icon of the page being viewed"
 msgstr "A megjelenített oldal ikonja"
 
-#: ../libyelp/yelp-view.c:826 ../libyelp/yelp-view.c:2198
+#: ../libyelp/yelp-view.c:826 ../libyelp/yelp-view.c:2197
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "A(z) „%s” URI nem mutat érvényes oldalra."
 
-#: ../libyelp/yelp-view.c:832 ../libyelp/yelp-view.c:2204
+#: ../libyelp/yelp-view.c:832 ../libyelp/yelp-view.c:2203
 #, c-format
 msgid "The URI does not point to a valid page."
 msgstr "Az URI nem mutat érvényes oldalra."
 
-#: ../libyelp/yelp-view.c:837 ../libyelp/yelp-view.c:2210
+#: ../libyelp/yelp-view.c:837 ../libyelp/yelp-view.c:2209
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "A(z) „%s” URI nem dolgozható fel."
@@ -344,9 +454,7 @@ msgstr "Ismeretlen hiba."
 
 #: ../libyelp/yelp-view.c:996
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"Nincs telepítve a PackageKit. A csomagtelepítő hivatkozásokhoz a PackageKit "
-"szükséges."
+msgstr "Nincs telepítve a PackageKit. A csomagtelepítő hivatkozásokhoz a PackageKit szükséges."
 
 #: ../libyelp/yelp-view.c:1243
 msgid "Save Image"
@@ -377,33 +485,33 @@ msgstr "Kép kül_dése…"
 msgid "S_end Video To…"
 msgstr "Vid_eó küldése…"
 
-#: ../libyelp/yelp-view.c:1894
+#: ../libyelp/yelp-view.c:1893
 #, c-format
 msgid "Could not load a document for ‘%s’"
 msgstr "Nem tölthető be dokumentum ehhez: „%s”"
 
-#: ../libyelp/yelp-view.c:1900
+#: ../libyelp/yelp-view.c:1899
 #, c-format
 msgid "Could not load a document"
 msgstr "Nem tölthető be dokumentum"
 
-#: ../libyelp/yelp-view.c:1984
+#: ../libyelp/yelp-view.c:1983
 msgid "Document Not Found"
 msgstr "A dokumentum nem található"
 
-#: ../libyelp/yelp-view.c:1986
+#: ../libyelp/yelp-view.c:1985
 msgid "Page Not Found"
 msgstr "Az oldal nem található"
 
-#: ../libyelp/yelp-view.c:1989
+#: ../libyelp/yelp-view.c:1988
 msgid "Cannot Read"
 msgstr "Nem olvasható"
 
-#: ../libyelp/yelp-view.c:1995
+#: ../libyelp/yelp-view.c:1994
 msgid "Unknown Error"
 msgstr "Ismeretlen hiba"
 
-#: ../libyelp/yelp-view.c:2015
+#: ../libyelp/yelp-view.c:2014
 msgid "Search for packages containing this document."
 msgstr "A dokumentumot tartalmazó csomagok keresése."
 
@@ -411,8 +519,8 @@ msgstr "A dokumentumot tartalmazó csomagok keresése."
 msgid "Turn on editor mode"
 msgstr "Szerkesztői mód bekapcsolása"
 
-#: ../src/yelp-application.c:271 ../src/yelp-window.c:1180
-#: ../src/yelp-window.c:1188 ../yelp.desktop.in.in.h:1
+#: ../src/yelp-application.c:271 ../src/yelp-window.c:1185
+#: ../src/yelp-window.c:1193 ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "Súgó"
 
@@ -428,59 +536,59 @@ msgstr "Nagyobb szöveg"
 msgid "Smaller Text"
 msgstr "Kisebb szöveg"
 
-#: ../src/yelp-window.c:211
+#: ../src/yelp-window.c:214
 msgid "Application"
 msgstr "Alkalmazás"
 
-#: ../src/yelp-window.c:212
+#: ../src/yelp-window.c:215
 msgid "A YelpApplication instance that controls this window"
 msgstr "Az ablakot vezérlő YelpApplication példány"
 
-#: ../src/yelp-window.c:343
+#: ../src/yelp-window.c:348
 msgid "Back"
 msgstr "Vissza"
 
-#: ../src/yelp-window.c:350
+#: ../src/yelp-window.c:355
 msgid "Forward"
 msgstr "Előre"
 
-#: ../src/yelp-window.c:361
+#: ../src/yelp-window.c:366
 msgid "Menu"
 msgstr "Menü"
 
-#: ../src/yelp-window.c:366
+#: ../src/yelp-window.c:371
 msgid "Find…"
 msgstr "Keresés…"
 
-#: ../src/yelp-window.c:367
+#: ../src/yelp-window.c:372
 msgid "Print…"
 msgstr "Nyomtatás…"
 
-#: ../src/yelp-window.c:372
+#: ../src/yelp-window.c:377
 msgid "Previous Page"
 msgstr "Előző oldal"
 
-#: ../src/yelp-window.c:373
+#: ../src/yelp-window.c:378
 msgid "Next Page"
 msgstr "Következő oldal"
 
-#: ../src/yelp-window.c:378
+#: ../src/yelp-window.c:383
 msgid "All Help"
 msgstr "Minden súgó"
 
-#: ../src/yelp-window.c:400
+#: ../src/yelp-window.c:405
 msgid "Search (Ctrl+S)"
 msgstr "Keresés (Ctrl+S)"
 
-#: ../src/yelp-window.c:434
+#: ../src/yelp-window.c:439
 msgid "No bookmarks"
 msgstr "Nincsenek könyvjelzők"
 
-#: ../src/yelp-window.c:442
+#: ../src/yelp-window.c:447
 msgid "Add Bookmark"
 msgstr "Könyvjelző hozzáadása"
 
-#: ../src/yelp-window.c:448
+#: ../src/yelp-window.c:453
 msgid "Remove Bookmark"
 msgstr "Könyvjelző eltávolítása"
 
@@ -489,80 +597,5 @@ msgid "Get help with GNOME"
 msgstr "A GNOME súgója"
 
 #: ../yelp.desktop.in.in.h:3
-#| msgid "documentation;information;manual;"
 msgid "documentation;information;manual;help;"
-msgstr "dokumentáció;információ;kézikönyv;súgó;"
-
-#~ msgid "See all search results for “%s”"
-#~ msgstr "Minden találat megjelenítése erre: „%s”"
-
-#~ msgid "Enable Search"
-#~ msgstr "Keresés engedélyezése"
-
-#~ msgid "Whether the location entry can be used as a search field"
-#~ msgstr "A hely beviteli mező használható-e keresőmezőként"
-
-#~ msgid "Search..."
-#~ msgstr "Keresés…"
-
-#~ msgid "Clear the search text"
-#~ msgstr "Keresőszöveg törlése"
-
-#~ msgid "Bookmark this page"
-#~ msgstr "Oldal könyvjelzőbe"
-
-#~ msgid "Remove bookmark"
-#~ msgstr "Könyvjelző eltávolítása"
-
-#~ msgid "Loading"
-#~ msgstr "Betöltés"
-
-#~ msgid "_Print..."
-#~ msgstr "_Nyomtatás…"
-
-#~ msgid "Increase the size of the text"
-#~ msgstr "A szöveg méretének növelése"
-
-#~ msgid "Decrease the size of the text"
-#~ msgstr "A szöveg méretének csökkentése"
-
-#~ msgid "Show Text _Cursor"
-#~ msgstr "Szöveg_kurzor megjelenítése"
-
-#~ msgid "_Page"
-#~ msgstr "_Oldal"
-
-#~ msgid "_View"
-#~ msgstr "_Nézet"
-
-#~ msgid "_Go"
-#~ msgstr "_Ugrás"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "_Könyvjelzők"
-
-#~ msgid "_Close"
-#~ msgstr "_Bezárás"
-
-#~ msgid "_All Documents"
-#~ msgstr "Minden _dokumentum"
-
-#~ msgid "Find in Page..."
-#~ msgstr "Keresés az oldalon…"
-
-#~ msgid "Open Location"
-#~ msgstr "Hely megnyitása"
-
-#~ msgid "Read Link _Later"
-#~ msgstr "Hivatkozás _elolvasása később"
-
-#~ msgid "Read Later"
-#~ msgstr "Elolvasás később"
-
-#~ msgid "%i match"
-#~ msgid_plural "%i matches"
-#~ msgstr[0] "%i találat"
-#~ msgstr[1] "%i találat"
-
-#~ msgid "No matches"
-#~ msgstr "Nincs találat"
+msgstr ""
