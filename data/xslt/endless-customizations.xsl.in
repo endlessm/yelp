@@ -63,11 +63,6 @@
           <xsl:with-param name="msgid" select="'sidebar.link.a11y'"/>
         </xsl:call-template>
       </span></a></li>
-      <li><a href="help:gnome-help/endless-videos"><span>
-        <xsl:call-template name="l10n-endless-text">
-          <xsl:with-param name="msgid" select="'sidebar.link.endless-videos'"/>
-        </xsl:call-template>
-      </span></a></li>
     </ol>
   </nav>
   </xsl:if>
