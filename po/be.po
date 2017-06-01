@@ -7,12 +7,13 @@
 # booxter <ihar.hrachyshka@gmail.com>, 2011
 # Kasia Bondarava <kasia.bondarava>, 2011
 # Vital Khilko <dojlid@mova.org>, 2003
+# Yuras Shumovich <shumovichy@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-01 13:21-0700\n"
-"PO-Revision-Date: 2017-06-01 20:24+0000\n"
+"PO-Revision-Date: 2017-06-01 20:28+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Belarusian (http://www.transifex.com/endless-mobile-inc/yelp/language/be/)\n"
 "MIME-Version: 1.0\n"
@@ -367,7 +368,7 @@ msgstr "_Усталяваць пакункі"
 
 #: ../libyelp/yelp-view.c:283
 msgid "Save Code _Block As…"
-msgstr ""
+msgstr "За_хаваць урывак коду як..."
 
 #: ../libyelp/yelp-view.c:298
 msgid "_Copy Text"
@@ -447,7 +448,7 @@ msgstr "Не ўдалося разабраць URI-адрас \"%s\"."
 #: ../libyelp/yelp-view.c:842
 #, c-format
 msgid "Unknown Error."
-msgstr ""
+msgstr "Невядомая памылка."
 
 #: ../libyelp/yelp-view.c:996
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -468,19 +469,19 @@ msgstr "Паслаць электронны ліст да %s"
 
 #: ../libyelp/yelp-view.c:1542
 msgid "_Save Image As…"
-msgstr ""
+msgstr "_Захаваць выяву як..."
 
 #: ../libyelp/yelp-view.c:1543
 msgid "_Save Video As…"
-msgstr ""
+msgstr "_Захаваць відэа як..."
 
 #: ../libyelp/yelp-view.c:1551
 msgid "S_end Image To…"
-msgstr ""
+msgstr "Па_слаць выяву да..."
 
 #: ../libyelp/yelp-view.c:1552
 msgid "S_end Video To…"
-msgstr ""
+msgstr "Па_слаць відэа да..."
 
 #: ../libyelp/yelp-view.c:1893
 #, c-format
@@ -523,15 +524,15 @@ msgstr "Дапамога"
 
 #: ../src/yelp-application.c:321
 msgid "New Window"
-msgstr ""
+msgstr "Новае акно"
 
 #: ../src/yelp-application.c:325
 msgid "Larger Text"
-msgstr ""
+msgstr "Павялічыць тэкст"
 
 #: ../src/yelp-application.c:326
 msgid "Smaller Text"
-msgstr ""
+msgstr "Паменшыць тэкст"
 
 #: ../src/yelp-window.c:214
 msgid "Application"
@@ -543,51 +544,51 @@ msgstr "Аб'ект YelpApplication, які кіруе гэтым акном"
 
 #: ../src/yelp-window.c:348
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 #: ../src/yelp-window.c:355
 msgid "Forward"
-msgstr ""
+msgstr "Наперад"
 
 #: ../src/yelp-window.c:366
 msgid "Menu"
-msgstr ""
+msgstr "Меню"
 
 #: ../src/yelp-window.c:371
 msgid "Find…"
-msgstr ""
+msgstr "Шукаць..."
 
 #: ../src/yelp-window.c:372
 msgid "Print…"
-msgstr ""
+msgstr "Друкаваць..."
 
 #: ../src/yelp-window.c:377
 msgid "Previous Page"
-msgstr ""
+msgstr "Да папярэдняй старонкі"
 
 #: ../src/yelp-window.c:378
 msgid "Next Page"
-msgstr ""
+msgstr "Да наступнай старонкі"
 
 #: ../src/yelp-window.c:383
 msgid "All Help"
-msgstr ""
+msgstr "Усе дакументы"
 
 #: ../src/yelp-window.c:405
 msgid "Search (Ctrl+S)"
-msgstr ""
+msgstr "Пошук (Ctrl+S)"
 
 #: ../src/yelp-window.c:439
 msgid "No bookmarks"
-msgstr ""
+msgstr "Няма закладак"
 
 #: ../src/yelp-window.c:447
 msgid "Add Bookmark"
-msgstr ""
+msgstr "Дадаць закладку"
 
 #: ../src/yelp-window.c:453
 msgid "Remove Bookmark"
-msgstr ""
+msgstr "Выдаліць закладку"
 
 #: ../yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
@@ -595,4 +596,4 @@ msgstr "Даведка GNOME"
 
 #: ../yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
-msgstr ""
+msgstr "дакументацыя;інфармацыя;звесткі;падручнік;дапаможнік;інструкцыя;"

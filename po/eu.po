@@ -4,13 +4,13 @@
 # 
 # Translators:
 # Hizkuntza Politikarako Sailburuordetza <hizkpol@ej-gv.es>, 2005
-# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2006-2009,2011-2015
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2006-2009,2011-2015,2017
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-01 13:21-0700\n"
-"PO-Revision-Date: 2017-06-01 20:24+0000\n"
+"PO-Revision-Date: 2017-06-01 20:29+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Basque (http://www.transifex.com/endless-mobile-inc/yelp/language/eu/)\n"
 "MIME-Version: 1.0\n"
@@ -593,4 +593,4 @@ msgstr "Eskuratu GNOMEri buruzko laguntza"
 
 #: ../yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
-msgstr ""
+msgstr "dokumentazioa;informazioa;eskuliburua;laguntza;"

@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-01 13:21-0700\n"
-"PO-Revision-Date: 2017-06-01 20:24+0000\n"
+"PO-Revision-Date: 2017-06-01 20:29+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/endless-mobile-inc/yelp/language/id/)\n"
 "MIME-Version: 1.0\n"
@@ -157,38 +157,38 @@ msgstr ""
 #: ../libyelp/yelp-bz2-decompressor.c:143
 #: ../libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
-msgstr "Data kompress tidak valid"
+msgstr "Data terkompresi tak valid"
 
 #: ../libyelp/yelp-bz2-decompressor.c:149
 #: ../libyelp/yelp-lzma-decompressor.c:158
 msgid "Not enough memory"
-msgstr "Memori tidak cukup"
+msgstr "Tak cukup memori"
 
 #: ../libyelp/yelp-docbook-document.c:285 ../libyelp/yelp-info-document.c:221
 #: ../libyelp/yelp-mallard-document.c:301
 #: ../libyelp/yelp-mallard-document.c:455 ../libyelp/yelp-man-document.c:255
 #, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
-msgstr "Halaman '%s' tidak ditemukan di dokumen '%s'."
+msgstr "Halaman '%s' tak ditemukan di dokumen '%s'."
 
 #: ../libyelp/yelp-docbook-document.c:323 ../libyelp/yelp-info-document.c:358
 #: ../libyelp/yelp-man-document.c:393
 #, c-format
 msgid "The file does not exist."
-msgstr "File tidak ada."
+msgstr "Berkas tidak ada."
 
 #: ../libyelp/yelp-docbook-document.c:333 ../libyelp/yelp-info-document.c:368
 #: ../libyelp/yelp-man-document.c:403
 #, c-format
 msgid "The file ‘%s’ does not exist."
-msgstr "File '%s' tidak ada."
+msgstr "Berkas '%s' tidak ada."
 
 #: ../libyelp/yelp-docbook-document.c:348
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr "File ‘%s’ tidak dapat diuraikan karena bukan format XML yang benar."
+msgstr "Berkas ‘%s’ tidak dapat diuraikan karena bukan dokumen XML yang baik bentuknya."
 
 #: ../libyelp/yelp-docbook-document.c:361
 #, c-format
@@ -199,13 +199,13 @@ msgstr "Berkas ‘%s’ tidak dapat diuraikan karena satu atau lebih berkas terk
 
 #: ../libyelp/yelp-docbook-document.c:791
 msgid "Unknown"
-msgstr "Tidak dikenal"
+msgstr "Tak dikenal"
 
 #: ../libyelp/yelp-docbook-document.c:853 ../libyelp/yelp-info-document.c:301
 #: ../libyelp/yelp-man-document.c:335
 #, c-format
 msgid "The requested page was not found in the document ‘%s’."
-msgstr "Halaman yang diminta tidak ditemukan di dokumen '%s'."
+msgstr "Halaman yang diminta tak ditemukan di dokumen '%s'."
 
 #: ../libyelp/yelp-document.c:280
 msgid "Indexed"
@@ -597,4 +597,4 @@ msgstr "Buka bantuan GNOME"
 
 #: ../yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
-msgstr ""
+msgstr "dokumentasi;informasi;manual;bantuan;"

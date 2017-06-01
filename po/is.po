@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Sveinn í Felli <sv1@fellsnet.is>, 2015
+# Sveinn í Felli <sv1@fellsnet.is>, 2015,2017
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-01 13:21-0700\n"
-"PO-Revision-Date: 2017-06-01 20:24+0000\n"
+"PO-Revision-Date: 2017-06-01 20:29+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Icelandic (http://www.transifex.com/endless-mobile-inc/yelp/language/is/)\n"
 "MIME-Version: 1.0\n"
@@ -592,4 +592,4 @@ msgstr "Fá hjálp með GNOME"
 
 #: ../yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
-msgstr ""
+msgstr "handbækur;handbók;hjálparskjöl;skjölun;upplýsingar;leiðbeiningar;"

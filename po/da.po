@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-01 13:21-0700\n"
-"PO-Revision-Date: 2017-06-01 20:24+0000\n"
+"PO-Revision-Date: 2017-06-01 20:30+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Danish (http://www.transifex.com/endless-mobile-inc/yelp/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -367,7 +367,7 @@ msgstr "_Installér pakker"
 
 #: ../libyelp/yelp-view.c:283
 msgid "Save Code _Block As…"
-msgstr "Gem kode_blok som…"
+msgstr "Gem kode_blok som …"
 
 #: ../libyelp/yelp-view.c:298
 msgid "_Copy Text"
@@ -468,19 +468,19 @@ msgstr "Send e-mail til %s"
 
 #: ../libyelp/yelp-view.c:1542
 msgid "_Save Image As…"
-msgstr "_Gem billede som…"
+msgstr "_Gem billede som …"
 
 #: ../libyelp/yelp-view.c:1543
 msgid "_Save Video As…"
-msgstr "_Gem video som…"
+msgstr "_Gem video som …"
 
 #: ../libyelp/yelp-view.c:1551
 msgid "S_end Image To…"
-msgstr "_Send billede til…"
+msgstr "_Send billede til …"
 
 #: ../libyelp/yelp-view.c:1552
 msgid "S_end Video To…"
-msgstr "_Send video til…"
+msgstr "_Send video til …"
 
 #: ../libyelp/yelp-view.c:1893
 #, c-format
@@ -555,11 +555,11 @@ msgstr "Menu"
 
 #: ../src/yelp-window.c:371
 msgid "Find…"
-msgstr "Find…"
+msgstr "Find …"
 
 #: ../src/yelp-window.c:372
 msgid "Print…"
-msgstr "Udskriv…"
+msgstr "Udskriv …"
 
 #: ../src/yelp-window.c:377
 msgid "Previous Page"
@@ -595,4 +595,4 @@ msgstr "Få hjælp til GNOME"
 
 #: ../yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
-msgstr ""
+msgstr "dokumentation;information;manual;håndbog;hjælp;"

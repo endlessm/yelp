@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-01 13:21-0700\n"
-"PO-Revision-Date: 2017-06-01 20:24+0000\n"
+"PO-Revision-Date: 2017-06-01 20:28+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Croatian (http://www.transifex.com/endless-mobile-inc/yelp/language/hr/)\n"
 "MIME-Version: 1.0\n"
@@ -363,7 +363,7 @@ msgstr "_Instaliraj pakete"
 
 #: ../libyelp/yelp-view.c:283
 msgid "Save Code _Block As…"
-msgstr ""
+msgstr "Spremi blok _kôda kao"
 
 #: ../libyelp/yelp-view.c:298
 msgid "_Copy Text"
@@ -443,7 +443,7 @@ msgstr "URI '%s' se ne može obraditi."
 #: ../libyelp/yelp-view.c:842
 #, c-format
 msgid "Unknown Error."
-msgstr ""
+msgstr "Nepoznata greška."
 
 #: ../libyelp/yelp-view.c:996
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -464,19 +464,19 @@ msgstr "Pošalji e-poštu na %s"
 
 #: ../libyelp/yelp-view.c:1542
 msgid "_Save Image As…"
-msgstr ""
+msgstr "_Spremi sliku kao..."
 
 #: ../libyelp/yelp-view.c:1543
 msgid "_Save Video As…"
-msgstr ""
+msgstr "_Spremi snimku kao..."
 
 #: ../libyelp/yelp-view.c:1551
 msgid "S_end Image To…"
-msgstr ""
+msgstr "P_ošalji sliku na..."
 
 #: ../libyelp/yelp-view.c:1552
 msgid "S_end Video To…"
-msgstr ""
+msgstr "P_ošalji snimku na..."
 
 #: ../libyelp/yelp-view.c:1893
 #, c-format
@@ -506,7 +506,7 @@ msgstr "Nepoznata greška"
 
 #: ../libyelp/yelp-view.c:2014
 msgid "Search for packages containing this document."
-msgstr ""
+msgstr "Pretraži pakete koji sadrže ovaj dokument."
 
 #: ../src/yelp-application.c:59
 msgid "Turn on editor mode"
@@ -519,15 +519,15 @@ msgstr "Pomoć"
 
 #: ../src/yelp-application.c:321
 msgid "New Window"
-msgstr ""
+msgstr "Novi prozor"
 
 #: ../src/yelp-application.c:325
 msgid "Larger Text"
-msgstr ""
+msgstr "Veći tekst"
 
 #: ../src/yelp-application.c:326
 msgid "Smaller Text"
-msgstr ""
+msgstr "Manji tekst"
 
 #: ../src/yelp-window.c:214
 msgid "Application"
@@ -539,43 +539,43 @@ msgstr "Primjerak Yelp aplikacije koji upravlja ovim prozorom"
 
 #: ../src/yelp-window.c:348
 msgid "Back"
-msgstr ""
+msgstr "Natrag"
 
 #: ../src/yelp-window.c:355
 msgid "Forward"
-msgstr ""
+msgstr "Naprijed"
 
 #: ../src/yelp-window.c:366
 msgid "Menu"
-msgstr ""
+msgstr "Izbornik"
 
 #: ../src/yelp-window.c:371
 msgid "Find…"
-msgstr ""
+msgstr "Pretraži..."
 
 #: ../src/yelp-window.c:372
 msgid "Print…"
-msgstr ""
+msgstr "Ispis..."
 
 #: ../src/yelp-window.c:377
 msgid "Previous Page"
-msgstr ""
+msgstr "Prijašnja stranica"
 
 #: ../src/yelp-window.c:378
 msgid "Next Page"
-msgstr ""
+msgstr "Sljedeća stranica"
 
 #: ../src/yelp-window.c:383
 msgid "All Help"
-msgstr ""
+msgstr "Sva pomoć"
 
 #: ../src/yelp-window.c:405
 msgid "Search (Ctrl+S)"
-msgstr ""
+msgstr "Pretraga (Ctrl+S)"
 
 #: ../src/yelp-window.c:439
 msgid "No bookmarks"
-msgstr ""
+msgstr "Nema zabilješka"
 
 #: ../src/yelp-window.c:447
 msgid "Add Bookmark"
@@ -583,12 +583,12 @@ msgstr "Dodaj zabilješku"
 
 #: ../src/yelp-window.c:453
 msgid "Remove Bookmark"
-msgstr "Izbriši zabilješku"
+msgstr "Ukloni zabilješku"
 
 #: ../yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
-msgstr ""
+msgstr "Nabavite pomoći za GNOME"
 
 #: ../yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
-msgstr ""
+msgstr "dokumentacija;informacija;priručnik;pomoć;"
