@@ -102,7 +102,6 @@ yelp
 /po/Rules-quot
 /po/stamp-it
 /po/stamp-po
-/po/yelp.pot
 
 /search-provider/org.gnome.Yelp.SearchProvider.service
 /search-provider/yelp-shell-search-provider-generated.c
