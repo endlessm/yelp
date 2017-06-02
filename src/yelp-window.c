@@ -396,24 +396,15 @@ window_construct (YelpWindow *window)
     gtk_box_pack_start (GTK_BOX (priv->vbox_full), priv->vbox_view, TRUE, TRUE, 0);
 
     priv->search_bar = gtk_search_bar_new ();
+    gtk_search_bar_set_search_mode (GTK_SEARCH_BAR (priv->search_bar), TRUE);
     gtk_box_pack_start (GTK_BOX (priv->vbox_view), priv->search_bar, FALSE, FALSE, 0);
     priv->search_entry = yelp_search_entry_new (priv->view,
                                                 YELP_BOOKMARKS (priv->application));
     gtk_entry_set_width_chars (GTK_ENTRY (priv->search_entry), 50);
     gtk_container_add (GTK_CONTAINER (priv->search_bar), priv->search_entry);
-    button = gtk_toggle_button_new ();
-    gtk_widget_set_valign (button, GTK_ALIGN_CENTER);
-    gtk_style_context_add_class (gtk_widget_get_style_context (button), "image-button");
-    gtk_button_set_image (GTK_BUTTON (button),
-                          gtk_image_new_from_icon_name ("edit-find-symbolic",
-                                                        GTK_ICON_SIZE_MENU));
-    gtk_widget_set_tooltip_text (button, _("Search (Ctrl+S)"));
-    g_object_bind_property (button, "active",
-                            priv->search_bar, "search-mode-enabled",
-                            G_BINDING_BIDIRECTIONAL);
+
     g_signal_connect (priv->search_bar, "notify::search-mode-enabled",
                       G_CALLBACK (window_search_mode), window);
-    hdy_header_bar_pack_end (HDY_HEADER_BAR (priv->header), button);
 
     g_signal_connect (window, "key-press-event", G_CALLBACK (window_key_press), NULL);
 
@@ -630,7 +621,6 @@ action_search (GSimpleAction *action,
     YelpWindowPrivate *priv = yelp_window_get_instance_private (userdata);
 
     gtk_revealer_set_reveal_child (GTK_REVEALER (priv->find_bar), FALSE);
-    gtk_search_bar_set_search_mode (GTK_SEARCH_BAR (priv->search_bar), TRUE);
     gtk_widget_grab_focus (priv->search_entry);
 }
 
@@ -641,7 +631,6 @@ action_find (GSimpleAction *action,
 {
     YelpWindowPrivate *priv = yelp_window_get_instance_private (userdata);
 
-    gtk_search_bar_set_search_mode (GTK_SEARCH_BAR (priv->search_bar), FALSE);
     gtk_revealer_set_reveal_child (GTK_REVEALER (priv->find_bar), TRUE);
     gtk_widget_grab_focus (priv->find_entry);
 }
@@ -1017,6 +1006,8 @@ window_search_mode (GtkSearchBar  *search_bar,
 
     if (gtk_search_bar_get_search_mode (GTK_SEARCH_BAR (search_bar)))
         gtk_revealer_set_reveal_child (GTK_REVEALER (priv->find_bar), FALSE);
+    else
+        gtk_search_bar_set_search_mode (GTK_SEARCH_BAR (search_bar), TRUE);
 }
 
 static gboolean
@@ -1117,9 +1108,6 @@ view_loaded (YelpView   *view,
                       "page-icon", &icon,
                       "page-title", &title,
                       NULL);
-        if (!g_str_has_prefix (page_id, "search=")) {
-            gtk_search_bar_set_search_mode (GTK_SEARCH_BAR (priv->search_bar), FALSE);
-        }
         yelp_application_update_bookmarks (priv->application,
                                            doc_uri,
                                            page_id,
