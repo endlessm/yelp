@@ -6,12 +6,13 @@
 # Runa Bhattacharjee <runab@fedoraproject.org>, 2008
 # runa <runabh@gmail.com>, 2007
 # runab <runab@redhat.com>, 2008-2010,2012
+# runa <runabh@gmail.com>, 2007
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-01 13:21-0700\n"
-"PO-Revision-Date: 2017-06-01 20:24+0000\n"
+"POT-Creation-Date: 2017-06-01 17:12-0700\n"
+"PO-Revision-Date: 2017-06-02 00:15+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Bengali (India) (http://www.transifex.com/endless-mobile-inc/yelp/language/bn_IN/)\n"
 "MIME-Version: 1.0\n"
@@ -21,59 +22,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: msg/msgstr
-#. ID: install.tooltip
-#. This is a format message used to format tooltips on install: links. These
-#. links allow users to install packages by clicking a link in the help. The
-#. tooltip may also be used as the link text, if there's no link text in the
-#. document. Special elements in the message will be replaced with the
-#. appropriate content, as follows:
-#. <string/> - The package to install
-#: yelp.xml.in:36
-msgid "Install <string/>"
-msgstr "<string/> ইনস্টল করুন"
-
-#. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
 #. Appears on the static navigation sidebar.
-#: yelp-endless.xml.in:31
-msgid "Home"
+#: data/domains/yelp-endless.xml.in:31
+msgid "Getting Started"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
-#. ID: sidebar.link.getting-started
+#. ID: sidebar.link.net
 #. Appears on the static navigation sidebar.
-#: yelp-endless.xml.in:40
-msgid "Getting started with your OS"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-introduction
-#. Appears on the static navigation sidebar.
-#: yelp-endless.xml.in:49
-msgid "Introduction to your OS"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-exit
-#. Appears on the static navigation sidebar.
-#: yelp-endless.xml.in:58
-msgid "Log out, power off or switch users"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-apps-open
-#. Appears on the static navigation sidebar.
-#: yelp-endless.xml.in:67
-msgid "Start applications"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-overview
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#: yelp-endless.xml.in:78
-msgid "Desktop Apps &amp; Windows"
+#: data/domains/yelp-endless.xml.in:40
+msgid "Internet"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
@@ -81,51 +40,15 @@ msgstr ""
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#: yelp-endless.xml.in:89
-msgid "Files, Folders &amp; Search"
+#: data/domains/yelp-endless.xml.in:51
+msgid "Documents &amp; Files"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
-#. ID: sidebar.link.a11y
+#. ID: sidebar.link.shell-overview
 #. Appears on the static navigation sidebar.
-#: yelp-endless.xml.in:98
-msgid "Universal Access"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.net
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#: yelp-endless.xml.in:109
-msgid "Networking, Web, Email &amp; Chat"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.prefs
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#: yelp-endless.xml.in:120
-msgid "User &amp; System Settings"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.tips
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#: yelp-endless.xml.in:131
-msgid "Tips &amp; Tricks"
-msgstr ""
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.media
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#: yelp-endless.xml.in:142
-msgid "Sound, Video &amp; Pictures"
+#: data/domains/yelp-endless.xml.in:60
+msgid "The Desktop"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
@@ -133,23 +56,44 @@ msgstr ""
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#: yelp-endless.xml.in:153
-msgid "Hardware &amp; Drivers"
+#: data/domains/yelp-endless.xml.in:71
+msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
-#. ID: sidebar.link.more-help
+#. ID: sidebar.link.a11y
 #. Appears on the static navigation sidebar.
-#: yelp-endless.xml.in:162
-msgid "Get more help"
+#: data/domains/yelp-endless.xml.in:80
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.security-and-privacy
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: data/domains/yelp-endless.xml.in:91
+msgid "Security &amp; Privacy"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.endless-videos
 #. Appears on the static navigation sidebar.
-#: yelp-endless.xml.in:171
-msgid "Video Tutorials"
+#: data/domains/yelp-endless.xml.in:100
+msgid "Video Library"
 msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: install.tooltip
+#. This is a format message used to format tooltips on install: links. These
+#. links allow users to install packages by clicking a link in the help. The
+#. tooltip may also be used as the link text, if there's no link text in the
+#. document. Special elements in the message will be replaced with the
+#. appropriate content, as follows:
+#. <string/> - The package to install
+#: data/domains/yelp.xml.in:36
+msgid "Install <string/>"
+msgstr "<string/> ইনস্টল করুন"
 
 #: ../libyelp/yelp-bz2-decompressor.c:143
 #: ../libyelp/yelp-lzma-decompressor.c:152
