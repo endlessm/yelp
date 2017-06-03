@@ -1103,17 +1103,17 @@ div.terms dl.terms {
     }
 }
 
-#endless-tutorial a {
+#endless-feedback a {
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 50px;
-    background: url(../img/play.png) left no-repeat;
+    padding-left: 24px;
+    background: url(../img/feedback-symbolic.svg) left no-repeat;
     font-weight: 600;
     font-size: 1.5em;
     display: inline-block;
 }
 
-#endless-tutorial a:hover {
+#endless-feedback a:hover {
     color: #2d6698;
 }
 
