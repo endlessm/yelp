@@ -91,13 +91,4 @@ XML-escaped, e.g. &amp;, &gt;, &lt;, &quot;, &apos;, are replaced by &amp;amp;,
 <msgstr>Security &amp; Privacy</msgstr>
 </msg>
 
-<msg id="sidebar.link.endless-videos">
-<its:locNote>
-ID: sidebar.link.endless-videos
-
-Appears on the static navigation sidebar.
-</its:locNote>
-<msgstr>Video Library</msgstr>
-</msg>
-
 </l10n>
