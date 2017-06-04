@@ -20,13 +20,13 @@ img_files = \
 	data/endless/img/module_circle_bg.png \
 	data/endless/img/arrow-right.png \
 	data/endless/img/border_bg_reverse.png \
-	data/endless/img/play.png \
 	data/endless/img/arrow-right_section.png \
 	data/endless/img/border_bg_sub.png \
 	data/endless/img/arrow-right-small.png \
 	data/endless/img/icon_info.png \
 	data/endless/img/icon_home.png \
 	data/endless/img/separator.png \
+	data/endless/img/feedback-symbolic.svg \
 	$(NULL)
 
 spec_files = \
