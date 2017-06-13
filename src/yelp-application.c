@@ -117,6 +117,49 @@ struct _YelpApplicationPrivate {
 };
 
 static void
+open_uri (YelpApplication *app,
+          YelpUri         *uri,
+          gboolean         new_window,
+          gboolean         fallback_help_list);
+
+static void
+activate_show_page (GSimpleAction *action,
+                    GVariant      *parameter,
+                    gpointer       user_data)
+{
+    YelpApplication *app = YELP_APPLICATION (user_data);
+    YelpUri *uri = yelp_uri_new (YELP_GNOME_HELP_URI);
+    gchar *xref = g_strconcat ("xref:", g_variant_get_string (parameter, NULL), NULL);
+    YelpUri *page_uri = yelp_uri_new_relative (uri, xref);
+
+    open_uri (app, page_uri, TRUE, FALSE);
+
+    g_object_unref (uri);
+    g_object_unref (page_uri);
+    g_free (xref);
+}
+
+static void
+activate_show_search (GSimpleAction *action,
+                      GVariant      *parameter,
+                      gpointer       user_data)
+{
+    YelpApplication *app = YELP_APPLICATION (user_data);
+    YelpUri *uri = yelp_uri_new (YELP_GNOME_HELP_URI);
+    YelpUri *page_uri = yelp_uri_new_search (uri, g_variant_get_string (parameter, NULL));
+
+    open_uri (app, page_uri, TRUE, FALSE);
+
+    g_object_unref (uri);
+    g_object_unref (page_uri);
+}
+
+static GActionEntry app_entries[] = {
+    { "show-page", activate_show_page, "s", NULL, NULL },
+    { "show-search", activate_show_search, "s", NULL, NULL },
+};
+
+static void
 yelp_application_init (YelpApplication *app)
 {
     YelpApplicationPrivate *priv = GET_PRIV (app);
@@ -162,6 +205,12 @@ yelp_application_init (YelpApplication *app)
 }
 
 static void
+yelp_application_activate (GApplication *application)
+{
+    /* Here we don't need to do anything else. */
+}
+
+static void
 yelp_application_class_init (YelpApplicationClass *klass)
 {
     GApplicationClass *application_class = G_APPLICATION_CLASS (klass);
@@ -170,6 +219,7 @@ yelp_application_class_init (YelpApplicationClass *klass)
     application_class->local_command_line = yelp_application_cmdline;
     application_class->startup = yelp_application_startup;
     application_class->command_line = yelp_application_command_line;
+    application_class->activate = yelp_application_activate;
 
     object_class->dispose = yelp_application_dispose;
     object_class->finalize = yelp_application_finalize;
@@ -276,6 +326,8 @@ yelp_application_startup (GApplication *application)
 
     /* chain up */
     G_APPLICATION_CLASS (yelp_application_parent_class)->startup (application);
+
+    g_action_map_add_action_entries (G_ACTION_MAP (app), app_entries, G_N_ELEMENTS (app_entries), app);
 
     settings = yelp_settings_get_default ();
     if (editor_mode)
