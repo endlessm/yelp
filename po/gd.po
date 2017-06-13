@@ -451,7 +451,7 @@ msgid "Turn on editor mode"
 msgstr "Cuir air modh an deasaiche"
 
 #: ../src/yelp-application.c:271 ../src/yelp-window.c:1185
-#: ../src/yelp-window.c:1193 ../yelp.desktop.in.in.h:1
+#: ../src/yelp-window.c:1193 ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "Cobhair"
 
@@ -523,10 +523,10 @@ msgstr "Cuir comharra-lìn ris"
 msgid "Remove Bookmark"
 msgstr "Thoir an comharra-lìn air falbh"
 
-#: ../yelp.desktop.in.in.h:2
+#: ../org.gnome.Yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
 msgstr "Faigh cobhair le GNOME"
 
-#: ../yelp.desktop.in.in.h:3
+#: ../org.gnome.Yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
 msgstr "documentation;information;manual;help;docamaideadh;fiosrachadh;stiùireadh;treòir;cobhair;"

@@ -466,7 +466,7 @@ msgid "Turn on editor mode"
 msgstr "打开编辑器模式"
 
 #: ../src/yelp-application.c:271 ../src/yelp-window.c:1185
-#: ../src/yelp-window.c:1193 ../yelp.desktop.in.in.h:1
+#: ../src/yelp-window.c:1193 ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "帮助"
 
@@ -538,10 +538,10 @@ msgstr "添加书签"
 msgid "Remove Bookmark"
 msgstr "删除书签"
 
-#: ../yelp.desktop.in.in.h:2
+#: ../org.gnome.Yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
 msgstr "获得 GNOME 的帮助"
 
-#: ../yelp.desktop.in.in.h:3
+#: ../org.gnome.Yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
 msgstr "documentation;information;manual;help;文档;信息;手册;帮助;"

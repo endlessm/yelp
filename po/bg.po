@@ -454,7 +454,7 @@ msgid "Turn on editor mode"
 msgstr "Включване на режим за редактиране"
 
 #: ../src/yelp-application.c:271 ../src/yelp-window.c:1185
-#: ../src/yelp-window.c:1193 ../yelp.desktop.in.in.h:1
+#: ../src/yelp-window.c:1193 ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "Потребителско ръководство"
 
@@ -526,10 +526,10 @@ msgstr "Добавяне на отметка"
 msgid "Remove Bookmark"
 msgstr "Премахване на отметката"
 
-#: ../yelp.desktop.in.in.h:2
+#: ../org.gnome.Yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
 msgstr "Помощ за GNOME"
 
-#: ../yelp.desktop.in.in.h:3
+#: ../org.gnome.Yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
 msgstr ""

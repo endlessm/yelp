@@ -454,7 +454,7 @@ msgid "Turn on editor mode"
 msgstr "روشن کردن حالت ویرایش"
 
 #: ../src/yelp-application.c:271 ../src/yelp-window.c:1185
-#: ../src/yelp-window.c:1193 ../yelp.desktop.in.in.h:1
+#: ../src/yelp-window.c:1193 ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "راهنما"
 
@@ -526,10 +526,10 @@ msgstr "اضافه کردن چوب‌الف"
 msgid "Remove Bookmark"
 msgstr "حذف نشانک"
 
-#: ../yelp.desktop.in.in.h:2
+#: ../org.gnome.Yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
 msgstr "راهنمایی گرفتن در مورد گنوم"
 
-#: ../yelp.desktop.in.in.h:3
+#: ../org.gnome.Yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
 msgstr "documentation;information;manual;help;مستندات;اطلاعات;راهنما;کمک;"

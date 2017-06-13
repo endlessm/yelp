@@ -452,7 +452,7 @@ msgid "Turn on editor mode"
 msgstr "Activa el mode d'edició"
 
 #: ../src/yelp-application.c:271 ../src/yelp-window.c:1185
-#: ../src/yelp-window.c:1193 ../yelp.desktop.in.in.h:1
+#: ../src/yelp-window.c:1193 ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "Ajuda"
 
@@ -524,10 +524,10 @@ msgstr "Afegeix una adreça d'interès"
 msgid "Remove Bookmark"
 msgstr "Suprimeix l'adreça d'interès"
 
-#: ../yelp.desktop.in.in.h:2
+#: ../org.gnome.Yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
 msgstr "Obtingueu ajuda per al GNOME"
 
-#: ../yelp.desktop.in.in.h:3
+#: ../org.gnome.Yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
 msgstr ""

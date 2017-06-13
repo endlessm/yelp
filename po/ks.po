@@ -450,7 +450,7 @@ msgid "Turn on editor mode"
 msgstr ""
 
 #: ../src/yelp-application.c:271 ../src/yelp-window.c:1185
-#: ../src/yelp-window.c:1193 ../yelp.desktop.in.in.h:1
+#: ../src/yelp-window.c:1193 ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "मदद"
 
@@ -522,10 +522,10 @@ msgstr "पसंदुक निशान करिव: जमाह्"
 msgid "Remove Bookmark"
 msgstr "पसंदुक निशान मिटह्यव"
 
-#: ../yelp.desktop.in.in.h:2
+#: ../org.gnome.Yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
 msgstr "गनोम पय्टठ नियू मदद"
 
-#: ../yelp.desktop.in.in.h:3
+#: ../org.gnome.Yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
 msgstr ""

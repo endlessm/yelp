@@ -456,7 +456,7 @@ msgid "Turn on editor mode"
 msgstr "Szerkesztői mód bekapcsolása"
 
 #: ../src/yelp-application.c:271 ../src/yelp-window.c:1185
-#: ../src/yelp-window.c:1193 ../yelp.desktop.in.in.h:1
+#: ../src/yelp-window.c:1193 ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "Súgó"
 
@@ -528,10 +528,10 @@ msgstr "Könyvjelző hozzáadása"
 msgid "Remove Bookmark"
 msgstr "Könyvjelző eltávolítása"
 
-#: ../yelp.desktop.in.in.h:2
+#: ../org.gnome.Yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
 msgstr "A GNOME súgója"
 
-#: ../yelp.desktop.in.in.h:3
+#: ../org.gnome.Yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
 msgstr "dokumentáció;információ;kézikönyv;súgó;"
