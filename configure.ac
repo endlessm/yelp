@@ -176,6 +176,7 @@ data/xslt/mal2html.xsl
 data/xslt/man2html.xsl
 data/xslt/yelp-common.xsl
 po/Makefile.in
+search-provider/Makefile
 ])
 
 AC_OUTPUT
