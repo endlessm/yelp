@@ -246,9 +246,13 @@ yelp_application_cmdline (GApplication     *app,
             cur = g_get_current_dir ();
             base = g_file_new_for_path (cur);
             new = g_file_resolve_relative_path (base, (*arguments)[i]);
-            newuri = g_file_get_uri (new);
-            g_free ((*arguments)[i]);
-            (*arguments)[i] = newuri;
+
+            /* Hack to handle --gapplication-service flag. */
+            if (g_file_query_exists (new, NULL)) {
+                newuri = g_file_get_uri (new);
+                g_free ((*arguments)[i]);
+                (*arguments)[i] = newuri;
+            }
             g_free (cur);
             g_object_unref (new);
             g_object_unref (base);
