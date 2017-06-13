@@ -251,8 +251,8 @@ install-exec-hook:
 	$(LN_S) yelp $(DESTDIR)$(bindir)/gnome-help
 
 desktopdir = $(datadir)/applications
-desktop_DATA = yelp.desktop
-yelp.desktop: ${srcdir}/yelp.desktop.in
+desktop_DATA = org.gnome.Yelp.desktop
+org.gnome.Yelp.desktop: ${srcdir}/org.gnome.Yelp.desktop.in
 	$(AM_V_GEN)$(MSGFMT) --desktop --template $< -d $(top_srcdir)/po -o $@
 
 data/yelp.appdata.xml: ${srcdir}/data/yelp.appdata.xml.in
@@ -656,6 +656,13 @@ dist_mjoutputnativemml_DATA = \
 	data/mathjax/jax/output/NativeMML/config.js \
 	data/mathjax/jax/output/NativeMML/jax.js
 
+servicedir = $(datadir)/dbus-1/services
+service_DATA = $(service_in_files:.service.in=.service)
+service_in_files = org.gnome.Yelp.service.in
+
+org.gnome.Yelp.service: org.gnome.Yelp.service.in Makefile
+	$(AM_V_GEN) sed -e "s|\@bindir\@|$(bindir)|" $< > $@
+
 xsldir = $(pkgdatadir)/xslt
 
 xsl_DATA = \
@@ -671,7 +678,7 @@ dist_noinst_DATA = \
 	$(libyelp_libyelp_la_headers) \
 	$(noinst_libyelp_libyelp_la_headers) \
 	$(yelp_headers) \
-	yelp.desktop.in \
+	org.gnome.Yelp.desktop.in \
 	data/yelp.appdata.xml.in \
 	data/domains/yelp.pot \
 	data/domains/yelp.xml.in \
@@ -844,7 +851,8 @@ CLEANFILES = \
 	$(appstream_XML) \
 	$(desktop_DATA) \
 	$(enum_data) \
-	$(marshal_data)
+	$(marshal_data) \
+	org.gnome.Yelp.service
 
 MAINTAINERCLEANFILES = \
 	build-aux/compile \
@@ -864,5 +872,7 @@ AM_DISTCHECK_CONFIGURE_FLAGS = \
 	--with-webkit2gtk-4-0 \
 	--enable-bz2 \
 	--enable-lzma
+
+EXTRA_DIST = $(service_in_files)
 
 .PHONY: docs
