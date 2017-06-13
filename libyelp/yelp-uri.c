@@ -244,6 +244,7 @@ yelp_uri_resolve (YelpUri *uri)
         g_signal_connect_swapped (priv->res_base, "resolved",
                                   G_CALLBACK (resolve_start),
                                   uri);
+        g_object_ref (uri);
         yelp_uri_resolve (priv->res_base);
     }
     else {
