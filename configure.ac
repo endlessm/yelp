@@ -164,6 +164,7 @@ data/xslt/yelp-common.xsl
 data/xslt/endless-customizations.xsl
 po/Makefile.in
 yelp.desktop.in
+search-provider/Makefile
 ])
 
 AC_OUTPUT

@@ -1,6 +1,6 @@
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
-SUBDIRS = po
+SUBDIRS = . search-provider po
 
 css_files = \
 	data/endless/css/article-style.css \
