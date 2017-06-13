@@ -599,11 +599,18 @@ yelp_settings_get_default (void)
     static GMutex mutex;
     static YelpSettings *settings = NULL;
     g_mutex_lock (&mutex);
-    if (settings == NULL)
-	settings = g_object_new (YELP_TYPE_SETTINGS,
-				 "gtk-settings", gtk_settings_get_default (),
-				 "gtk-icon-theme", gtk_icon_theme_get_default (),
-				 NULL);
+    if (settings == NULL) {
+        const gchar * yelp_skip_gui = g_getenv("YELP_SKIP_GUI");
+        if (yelp_skip_gui) {
+            settings = g_object_new (YELP_TYPE_SETTINGS, NULL);
+        }
+        else {
+            settings = g_object_new (YELP_TYPE_SETTINGS,
+                                     "gtk-settings", gtk_settings_get_default (),
+                                     "gtk-icon-theme", gtk_icon_theme_get_default (),
+                                     NULL);
+        }
+    }
     g_mutex_unlock (&mutex);
     return settings;
 }
