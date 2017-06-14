@@ -586,7 +586,7 @@ main (int    argc,
 {
     GApplication *app;
     gint res;
-    gchar *env_var = "YELP_SKIP_GUI";
+    const gchar *env_var = "YELP_SKIP_GUI";
 
     if (!g_setenv (env_var, "yes", TRUE))
         g_warning ("failed to set the env var %s", env_var);
