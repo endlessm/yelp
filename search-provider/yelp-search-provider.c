@@ -555,9 +555,6 @@ yelp_search_provider_app_init (YelpSearchProviderApp *self)
                       G_CALLBACK (handle_activate_result), self);
     g_signal_connect (self->skeleton, "handle-launch-search",
                       G_CALLBACK (handle_launch_search), self);
-
-    g_application_set_inactivity_timeout (G_APPLICATION (self), 
-                                          SEARCH_PROVIDER_INACTIVITY_TIMEOUT);
 }
 
 static void
@@ -579,6 +576,7 @@ yelp_search_provider_app_new (void)
     return g_object_new (YELP_TYPE_SEARCH_PROVIDER_APP,
                          "application-id", "org.gnome.Yelp.SearchProvider",
                          "flags", G_APPLICATION_IS_SERVICE,
+                         "inactivity-timeout", SEARCH_PROVIDER_INACTIVITY_TIMEOUT,
                          NULL);
 }
 
