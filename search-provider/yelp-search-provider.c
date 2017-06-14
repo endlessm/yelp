@@ -419,10 +419,9 @@ search_provider_app_dispose (GObject *obj)
 static void
 preload_data_cb (YelpDocument          *document,
                  YelpDocumentSignal     signal,
-                 YelpSearchProviderApp *app,
+                 YelpSearchProviderApp *self,
                  GError                *error)
 {
-    YelpSearchProviderApp *self = YELP_SEARCH_PROVIDER_APP (app);
     gchar **page_ids = yelp_document_list_page_ids (document);
     gchar **iter;
 
@@ -445,7 +444,7 @@ preload_data_cb (YelpDocument          *document,
             data = page_data_new_steal (yelp_document_get_page_title (document, page_id), 
                                         yelp_document_get_page_desc (document, page_id), 
                                         icon);
-            g_hash_table_insert (app->page_data_hash_map, page_id, data);
+            g_hash_table_insert (self->page_data_hash_map, page_id, data);
         }
 
         g_application_release (G_APPLICATION (self));
