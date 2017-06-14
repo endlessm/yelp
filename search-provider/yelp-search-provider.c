@@ -474,6 +474,7 @@ uri_resolved_cb (YelpUri               *uri,
                                 NULL);
 
     g_object_unref (doc);
+    g_free (page_id);
 }
 
 static void
