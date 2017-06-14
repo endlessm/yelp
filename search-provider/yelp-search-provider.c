@@ -594,5 +594,7 @@ main (int    argc,
     app = yelp_search_provider_app_new ();
     res = g_application_run (app, argc, argv);
 
+    g_object_unref (app);
+
     return res;
 }
