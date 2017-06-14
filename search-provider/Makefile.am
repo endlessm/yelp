@@ -35,4 +35,7 @@ org.gnome.Yelp.SearchProvider.service: org.gnome.Yelp.SearchProvider.service.in 
 
 BUILT_SOURCES = $(dbus_shell_search_provider_built_sources)
 
-EXTRA_DIST = $(service_in_files) org.gnome.ShellSearchProvider2.xml
+EXTRA_DIST = \
+	$(service_in_files) \
+	org.gnome.ShellSearchProvider2.xml \
+	yelp-search-provider.ini
