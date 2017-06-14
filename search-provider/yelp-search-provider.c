@@ -85,8 +85,7 @@ page_data_free (PageData *page_data)
     g_free (page_data->title_casefold);
     g_free (page_data->desc);
     g_free (page_data->desc_casefold);
-    if (page_data->icon)
-        g_object_unref (page_data->icon);
+    g_clear_object (&page_data->icon);
     g_free (page_data);
 }
 
@@ -600,4 +599,3 @@ main (int    argc,
 
     return res;
 }
-
