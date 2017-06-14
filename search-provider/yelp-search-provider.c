@@ -50,6 +50,7 @@ struct _YelpSearchProviderApp {
     YelpShellSearchProvider2 *skeleton;
 
     GHashTable *page_data_hash_map;
+    GPtrArray *delayed_result_getters;
 };
 
 GType yelp_search_provider_app_get_type (void);
@@ -185,26 +186,10 @@ typedef GVariant * (*ResultGetter) (gchar      **terms,
 
 typedef struct
 {
-    YelpSearchProviderApp  *app;
     GDBusMethodInvocation  *invocation;
     gchar                 **terms;
     ResultGetter            result_getter;
 } DelayedResultGetter;
-
-static gboolean
-check_page_data (gpointer user_data)
-{
-    DelayedResultGetter* delayed = user_data;
-
-    if (g_hash_table_size (delayed->app->page_data_hash_map) > 0) {
-        g_dbus_method_invocation_return_value (delayed->invocation,
-                                               delayed->result_getter (delayed->terms,
-                                                                       delayed->app->page_data_hash_map));
-        return G_SOURCE_REMOVE;
-    }
-
-    return G_SOURCE_CONTINUE;
-}
 
 
 static DelayedResultGetter *
@@ -215,7 +200,6 @@ delayed_result_getter_new (YelpSearchProviderApp  *app,
 {
     DelayedResultGetter *delayed = g_new0 (DelayedResultGetter, 1);
 
-    delayed->app = g_object_ref (app);
     delayed->invocation = g_object_ref (invocation);
     delayed->terms = g_strdupv (terms);
     delayed->result_getter = result_getter;
@@ -226,7 +210,6 @@ delayed_result_getter_new (YelpSearchProviderApp  *app,
 static void
 delayed_result_getter_free (DelayedResultGetter *delayed)
 {
-    g_object_unref (delayed->app);
     g_object_unref (delayed->invocation);
     g_strfreev (delayed->terms);
     g_free (delayed);
@@ -257,10 +240,8 @@ handle_get_initial_result_set (YelpShellSearchProvider2  *skeleton,
                                          invocation,
                                          terms,
                                          get_search_results);
-    g_idle_add_full (G_PRIORITY_DEFAULT_IDLE,
-                     check_page_data,
-                     delayed,
-                     (GDestroyNotify) delayed_result_getter_free);
+
+    g_ptr_array_add (app->delayed_result_getters, (gpointer) delayed);
     return TRUE;
 }
 
@@ -290,10 +271,7 @@ handle_get_subsearch_result_set (YelpShellSearchProvider2  *skeleton,
                                          invocation,
                                          terms,
                                          get_search_results);
-    g_idle_add_full (G_PRIORITY_DEFAULT_IDLE,
-                     check_page_data,
-                     delayed,
-                     (GDestroyNotify) delayed_result_getter_free);
+    g_ptr_array_add (app->delayed_result_getters, (gpointer) delayed);
     return TRUE;
 }
 
@@ -318,10 +296,7 @@ handle_get_result_metas (YelpShellSearchProvider2  *skeleton,
                                          invocation,
                                          results,
                                          get_result_metas);
-    g_idle_add_full (G_PRIORITY_DEFAULT_IDLE,
-                     check_page_data,
-                     delayed,
-                     (GDestroyNotify) delayed_result_getter_free);
+    g_ptr_array_add (app->delayed_result_getters, (gpointer) delayed);
     return TRUE;
 }
 
@@ -424,6 +399,7 @@ preload_data_cb (YelpDocument          *document,
 {
     gchar **page_ids = yelp_document_list_page_ids (document);
     gchar **iter;
+    gint i;
 
     if (signal == YELP_DOCUMENT_SIGNAL_ERROR) {
         g_warning ("error during preloading data: %s", (error != NULL) ? error->message : "unknown error");
@@ -448,6 +424,16 @@ preload_data_cb (YelpDocument          *document,
         }
 
         g_application_release (G_APPLICATION (self));
+
+        for (i = 0; i < self->delayed_result_getters->len; i++) {
+            DelayedResultGetter *delayed = g_ptr_array_index (self->delayed_result_getters, i);
+
+            g_dbus_method_invocation_return_value (delayed->invocation,
+                                                   delayed->result_getter (delayed->terms,
+                                                                           self->page_data_hash_map));
+        }
+
+        g_clear_pointer (self->delayed_result_getters, g_ptr_array_unref);
         /* We only steal the contents of the page_ids array,
          * so we free only the array.
          */
@@ -498,6 +484,8 @@ search_provider_app_startup (GApplication *app)
                                                       g_str_equal,
                                                       g_free,
                                                       (GDestroyNotify) page_data_free);
+    self->delayed_result_getters = g_ptr_array_new_with_free_func ((GDestroyNotify *) delayed_result_getter_free);
+
     yelp_uri_resolve (base_uri);
     g_application_hold (app);
 
