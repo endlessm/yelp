@@ -100,7 +100,6 @@ get_result_metas (gchar      **page_ids,
 
     for (i = 0; page_ids[i] != NULL; i++) {
         GVariantBuilder meta;
-        gchar *gicon_str;
         PageData *data = g_hash_table_lookup (page_data, page_ids[i]);
         g_variant_builder_init (&meta, G_VARIANT_TYPE ("a{sv}"));
         g_variant_builder_add (&meta, "{sv}",
@@ -108,10 +107,8 @@ get_result_metas (gchar      **page_ids,
         if (data != NULL) {
             g_variant_builder_add (&meta, "{sv}",
                                    "name", g_variant_new_string (data->title));
-            gicon_str = g_icon_to_string (data->icon);
             g_variant_builder_add (&meta, "{sv}",
-                                  "gicon", g_variant_new_string (gicon_str));
-            g_free (gicon_str);
+                                   "icon", g_icon_serialize (data->icon));
             g_variant_builder_add (&meta, "{sv}",
                                    "description", g_variant_new_string (data->desc));
         } else {
@@ -443,7 +440,7 @@ preload_data_cb (YelpDocument          *document,
             gchar *page_id = *iter;
             PageData *data = g_new0 (PageData, 1);
             gchar *icon_string = yelp_document_get_page_icon (document, page_id);
-            GIcon *icon = g_icon_new_for_string (icon_string, NULL);
+            GIcon *icon = g_themed_icon_new (icon_string);
             g_free (icon_string);
 
             data = page_data_new_steal (yelp_document_get_page_title (document, page_id), 
