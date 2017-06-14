@@ -923,7 +923,8 @@ dist_noinst_SCRIPTS = \
 CLEANFILES = \
 	$(desktop_DATA) \
 	$(enum_data) \
-	$(marshal_data)
+	$(marshal_data) \
+	org.gnome.Yelp.service
 
 MAINTAINERCLEANFILES = \
 	build-aux/compile \
