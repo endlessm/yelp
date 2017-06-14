@@ -436,7 +436,7 @@ preload_data_cb (YelpDocument          *document,
     if (signal == YELP_DOCUMENT_SIGNAL_INFO) {
         for (iter = page_ids; *iter; iter++) {
             gchar *page_id = *iter;
-            PageData *data = g_new0 (PageData, 1);
+            PageData *data;
             gchar *icon_string = yelp_document_get_page_icon (document, page_id);
             GIcon *icon = g_themed_icon_new (icon_string);
             g_free (icon_string);
