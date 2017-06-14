@@ -500,6 +500,8 @@ search_provider_app_startup (GApplication *app)
                                                       (GDestroyNotify) page_data_free);
     yelp_uri_resolve (base_uri);
     g_application_hold (app);
+
+    g_object_unref (base_uri);
 }
 
 static gboolean
