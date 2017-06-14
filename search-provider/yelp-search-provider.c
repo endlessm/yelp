@@ -366,8 +366,7 @@ yelp_launch (gchar                 *string_parameter,
     if (reply)
         g_variant_unref (reply);
     if (error) {
-        g_dbus_method_invocation_return_gerror (invocation, error);
-        g_error_free (error);
+        g_dbus_method_invocation_take_error (invocation, error);
         return;
     }
     g_dbus_method_invocation_return_value (invocation, NULL);
