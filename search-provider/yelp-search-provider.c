@@ -237,7 +237,7 @@ handle_get_initial_result_set (YelpShellSearchProvider2  *skeleton,
                                          terms,
                                          get_search_results);
 
-    g_ptr_array_add (app->delayed_result_getters, &delayed);
+    g_ptr_array_add (app->delayed_result_getters, delayed);
     return TRUE;
 }
 
@@ -266,7 +266,7 @@ handle_get_subsearch_result_set (YelpShellSearchProvider2  *skeleton,
     delayed = delayed_result_getter_new (invocation,
                                          terms,
                                          get_search_results);
-    g_ptr_array_add (app->delayed_result_getters, &delayed);
+    g_ptr_array_add (app->delayed_result_getters, delayed);
     return TRUE;
 }
 
@@ -290,7 +290,7 @@ handle_get_result_metas (YelpShellSearchProvider2  *skeleton,
     delayed = delayed_result_getter_new (invocation,
                                          results,
                                          get_result_metas);
-    g_ptr_array_add (app->delayed_result_getters, &delayed);
+    g_ptr_array_add (app->delayed_result_getters, delayed);
     return TRUE;
 }
 
