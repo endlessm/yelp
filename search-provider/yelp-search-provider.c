@@ -225,10 +225,10 @@ handle_results (GDBusMethodInvocation  *invocation,
     }
 
     if (g_hash_table_size (app->page_data_hash_map) > 0) {
-      g_dbus_method_invocation_return_value (invocation,
-                                             get_search_results (terms,
-                                                                 app->page_data_hash_map));
-      return;
+        g_dbus_method_invocation_return_value (invocation,
+                                               get_search_results (terms,
+                                                                   app->page_data_hash_map));
+        return;
     }
 
     delayed = delayed_result_getter_new (invocation,
@@ -246,9 +246,7 @@ handle_get_initial_result_set (YelpShellSearchProvider2  *skeleton,
 {
     YelpSearchProviderApp *app = YELP_SEARCH_PROVIDER_APP (user_data);
 
-    handle_results(invocation,
-                   terms,
-                   app);
+    handle_results (invocation, terms, app);
 
     return TRUE;
 }
@@ -262,9 +260,7 @@ handle_get_subsearch_result_set (YelpShellSearchProvider2  *skeleton,
 {
     YelpSearchProviderApp *app = YELP_SEARCH_PROVIDER_APP (user_data);
 
-    handle_results(invocation,
-                   terms,
-                   app);
+    handle_results (invocation, terms, app);
 
     return TRUE;
 }
