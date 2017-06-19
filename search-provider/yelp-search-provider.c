@@ -23,8 +23,11 @@
 #include <gio/gio.h>
 #include <string.h>
 
+#include <gtk/gtk.h>
+
 #include "yelp-shell-search-provider-generated.h"
 
+#include "libyelp/yelp-settings.h"
 #include "libyelp/yelp-document.h"
 #include "libyelp/yelp-uri.h"
 
@@ -573,10 +576,9 @@ main (int    argc,
 {
     GApplication *app;
     gint res;
-    const gchar *env_var = "YELP_SKIP_GUI";
 
-    if (!g_setenv (env_var, "yes", TRUE))
-        g_warning ("failed to set the env var %s", env_var);
+    gtk_init (&argc, &argv);
+    yelp_settings_get_default ();
     app = yelp_search_provider_app_new ();
     res = g_application_run (app, argc, argv);
 
