@@ -1,6 +1,6 @@
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
-SUBDIRS = po
+SUBDIRS = . search-provider po
 
 css_files = \
 	data/endless/css/article-style.css \
@@ -330,7 +330,7 @@ install-exec-hook:
 @INTLTOOL_DESKTOP_RULE@
 
 desktopdir = $(datadir)/applications
-desktop_in_files=yelp.desktop.in.in
+desktop_in_files=org.gnome.Yelp.desktop.in.in
 desktop_DATA = $(desktop_in_files:.desktop.in.in=.desktop)
 
 @INTLTOOL_SCHEMAS_RULE@
@@ -725,6 +725,13 @@ dist_mjoutputnativemml_DATA = \
 	data/mathjax/jax/output/NativeMML/config.js \
 	data/mathjax/jax/output/NativeMML/jax.js
 
+servicedir = $(datadir)/dbus-1/services
+service_DATA = $(service_in_files:.service.in=.service)
+service_in_files = org.gnome.Yelp.service.in
+
+org.gnome.Yelp.service: org.gnome.Yelp.service.in Makefile
+	$(AM_V_GEN) sed -e "s|\@bindir\@|$(bindir)|" $< > $@
+
 xsldir = $(pkgdatadir)/xslt
 
 xsl_DATA = \
@@ -916,7 +923,8 @@ dist_noinst_SCRIPTS = \
 CLEANFILES = \
 	$(desktop_DATA) \
 	$(enum_data) \
-	$(marshal_data)
+	$(marshal_data) \
+	org.gnome.Yelp.service
 
 MAINTAINERCLEANFILES = \
 	build-aux/compile \
@@ -936,5 +944,7 @@ AM_DISTCHECK_CONFIGURE_FLAGS = \
 	--enable-bz2 \
 	--enable-gtk-doc \
 	--enable-lzma
+
+EXTRA_DIST = $(service_in_files)
 
 .PHONY: docs

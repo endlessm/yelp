@@ -451,7 +451,7 @@ msgid "Turn on editor mode"
 msgstr "Aktibatu editorearen modua"
 
 #: ../src/yelp-application.c:271 ../src/yelp-window.c:1185
-#: ../src/yelp-window.c:1193 ../yelp.desktop.in.in.h:1
+#: ../src/yelp-window.c:1193 ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "Laguntza"
 
@@ -523,10 +523,10 @@ msgstr "Gehitu laster-marka"
 msgid "Remove Bookmark"
 msgstr "Kendu laster-marka"
 
-#: ../yelp.desktop.in.in.h:2
+#: ../org.gnome.Yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
 msgstr "Eskuratu GNOMEri buruzko laguntza"
 
-#: ../yelp.desktop.in.in.h:3
+#: ../org.gnome.Yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
 msgstr "dokumentazioa;informazioa;eskuliburua;laguntza;"

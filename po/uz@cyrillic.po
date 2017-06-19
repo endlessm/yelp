@@ -1096,7 +1096,7 @@ msgstr ""
 msgid " GNOME Help Browser"
 msgstr " GNOME ёрдам браузери"
 
-#: ../src/yelp-main.c:377 ../yelp.desktop.in.in.h:2
+#: ../src/yelp-main.c:377 ../org.gnome.Yelp.desktop.in.in.h:2
 msgid "Help"
 msgstr "Ёрдам"
 
@@ -1493,7 +1493,7 @@ msgstr "Yelp"
 msgid "A documentation browser and viewer for the Gnome Desktop."
 msgstr "Gnome иш столи учун қўлланмаларни кўриш дастури."
 
-#: ../yelp.desktop.in.in.h:1
+#: ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "Get help with GNOME"
 msgstr ""
 

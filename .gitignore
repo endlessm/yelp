@@ -40,8 +40,9 @@ Makefile.in
 /libtool
 /stamp-h1
 /yelp
-/yelp.desktop
-/yelp.desktop.in
+/org.gnome.Yelp.desktop
+/org.gnome.Yelp.desktop.in
+/org.gnome.Yelp.service
 
 /data/org.gnome.yelp.gschema.valid
 /data/domains/yelp.xml
@@ -91,6 +92,11 @@ Makefile.in
 /po/missing
 /po/POTFILES
 /po/stamp-it
+
+/search-provider/org.gnome.Yelp.SearchProvider.service
+/search-provider/yelp-shell-search-provider-generated.c
+/search-provider/yelp-shell-search-provider-generated.h
+/search-provider/yelp-search-provider
 
 /tests/test-bz2
 /tests/test-io-channel

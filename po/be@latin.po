@@ -1112,7 +1112,7 @@ msgstr "Vyznačaje, jaki kataloh dla cacha vykarystoŭvać"
 msgid " GNOME Help Browser"
 msgstr "Hartač daviedki GNOME"
 
-#: ../src/yelp-main.c:378 ../yelp.desktop.in.in.h:2
+#: ../src/yelp-main.c:378 ../org.gnome.Yelp.desktop.in.in.h:2
 msgid "Help"
 msgstr "Dapamoha"
 
@@ -1519,7 +1519,7 @@ msgstr "Yelp"
 msgid "A documentation browser and viewer for the Gnome Desktop."
 msgstr "Hartač i ahladalnik dakumentacyi dla asiarodździa Gnome."
 
-#: ../yelp.desktop.in.in.h:1
+#: ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "Get help with GNOME"
 msgstr "Atrymaj dapamohu ad GNOME"
 

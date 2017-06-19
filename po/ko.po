@@ -451,7 +451,7 @@ msgid "Turn on editor mode"
 msgstr "편집기 모드를 켭니다"
 
 #: ../src/yelp-application.c:271 ../src/yelp-window.c:1185
-#: ../src/yelp-window.c:1193 ../yelp.desktop.in.in.h:1
+#: ../src/yelp-window.c:1193 ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "도움말"
 
@@ -523,10 +523,10 @@ msgstr "책갈피 추가"
 msgid "Remove Bookmark"
 msgstr "책갈피 제거"
 
-#: ../yelp.desktop.in.in.h:2
+#: ../org.gnome.Yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
 msgstr "그놈에서 도움말을 봅니다"
 
-#: ../yelp.desktop.in.in.h:3
+#: ../org.gnome.Yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
 msgstr "documentation;문서;information;정보;manual;설명서;매뉴얼;help;도움말;"

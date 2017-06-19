@@ -452,7 +452,7 @@ msgid "Turn on editor mode"
 msgstr "संपादक मोड सुरू करा"
 
 #: ../src/yelp-application.c:271 ../src/yelp-window.c:1185
-#: ../src/yelp-window.c:1193 ../yelp.desktop.in.in.h:1
+#: ../src/yelp-window.c:1193 ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "मदत"
 
@@ -524,10 +524,10 @@ msgstr "वाचनखूण समाविष्ट करा"
 msgid "Remove Bookmark"
 msgstr "वाचनखूण काढून टाका"
 
-#: ../yelp.desktop.in.in.h:2
+#: ../org.gnome.Yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
 msgstr "GNOME पासून मदत घ्या"
 
-#: ../yelp.desktop.in.in.h:3
+#: ../org.gnome.Yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
 msgstr ""

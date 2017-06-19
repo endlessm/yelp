@@ -452,7 +452,7 @@ msgid "Turn on editor mode"
 msgstr "Zapnúť režim upravovania"
 
 #: ../src/yelp-application.c:271 ../src/yelp-window.c:1185
-#: ../src/yelp-window.c:1193 ../yelp.desktop.in.in.h:1
+#: ../src/yelp-window.c:1193 ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "Pomocník"
 
@@ -524,10 +524,10 @@ msgstr "Pridať záložku"
 msgid "Remove Bookmark"
 msgstr "Odstrániť záložku"
 
-#: ../yelp.desktop.in.in.h:2
+#: ../org.gnome.Yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
 msgstr "Zobraziť pomocníka pre GNOME"
 
-#: ../yelp.desktop.in.in.h:3
+#: ../org.gnome.Yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
 msgstr "dokumentácia;informácie;návod;manuál;pomoc;pomocník;"

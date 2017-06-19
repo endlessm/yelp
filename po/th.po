@@ -452,7 +452,7 @@ msgid "Turn on editor mode"
 msgstr "เปิดโหมดสำหรับแก้ไข"
 
 #: ../src/yelp-application.c:271 ../src/yelp-window.c:1185
-#: ../src/yelp-window.c:1193 ../yelp.desktop.in.in.h:1
+#: ../src/yelp-window.c:1193 ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "วิธีใช้"
 
@@ -524,10 +524,10 @@ msgstr "เพิ่มบุ๊กมาร์ก"
 msgid "Remove Bookmark"
 msgstr "ลบบุ๊คมาร์ค"
 
-#: ../yelp.desktop.in.in.h:2
+#: ../org.gnome.Yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
 msgstr "วิธีการใช้ GNOME"
 
-#: ../yelp.desktop.in.in.h:3
+#: ../org.gnome.Yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
 msgstr ""

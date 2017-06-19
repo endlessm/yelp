@@ -458,7 +458,7 @@ msgid "Turn on editor mode"
 msgstr "संपादक विधि को चालू करे"
 
 #: ../src/yelp-application.c:271 ../src/yelp-window.c:1185
-#: ../src/yelp-window.c:1193 ../yelp.desktop.in.in.h:1
+#: ../src/yelp-window.c:1193 ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "मदद"
 
@@ -530,10 +530,10 @@ msgstr "पुस्तचिह्न जोड़ें"
 msgid "Remove Bookmark"
 msgstr "पुस्तचिह्न मिटाएँ"
 
-#: ../yelp.desktop.in.in.h:2
+#: ../org.gnome.Yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
 msgstr "गनोम से मदद लें"
 
-#: ../yelp.desktop.in.in.h:3
+#: ../org.gnome.Yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
 msgstr ""
