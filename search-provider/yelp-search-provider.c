@@ -422,7 +422,7 @@ preload_data_cb (YelpDocument          *document,
                                                                            self->page_data_hash_map));
         }
 
-        g_clear_pointer (&self->delayed_result_getters, g_ptr_array_unref);
+        g_ptr_array_set_size (self->delayed_result_getters, 0);
         /* We only steal the contents of the page_ids array,
          * so we free only the array.
          */
