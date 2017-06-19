@@ -49,6 +49,8 @@ struct _YelpSearchProviderApp {
     gulong uri_resolve_id;
     YelpShellSearchProvider2 *skeleton;
 
+    gboolean released;
+
     GHashTable *page_data_hash_map;
     GPtrArray *delayed_result_getters;
 };
@@ -392,6 +394,10 @@ preload_data_cb (YelpDocument          *document,
 
     if (signal == YELP_DOCUMENT_SIGNAL_ERROR) {
         g_warning ("error during preloading data: %s", (error != NULL) ? error->message : "unknown error");
+        if (!self->released) {
+            g_application_release (G_APPLICATION (self));
+            self->released = TRUE;
+        }
         return;
     }
 
@@ -412,7 +418,10 @@ preload_data_cb (YelpDocument          *document,
             g_hash_table_insert (self->page_data_hash_map, page_id, data);
         }
 
-        g_application_release (G_APPLICATION (self));
+        if (!self->released) {
+            g_application_release (G_APPLICATION (self));
+            self->released = TRUE;
+        }
 
         for (i = 0; i < self->delayed_result_getters->len; i++) {
             DelayedResultGetter *delayed = g_ptr_array_index (self->delayed_result_getters, i);
