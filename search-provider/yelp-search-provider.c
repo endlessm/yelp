@@ -375,6 +375,7 @@ search_provider_app_dispose (GObject *obj)
 
     g_clear_object (&self->skeleton);
     g_clear_pointer (&self->page_data_hash_map, g_hash_table_unref);
+    g_clear_pointer (&self->delayed_result_getters, g_ptr_array_unref);
 
     G_OBJECT_CLASS (yelp_search_provider_app_parent_class)->dispose (obj);
 }
