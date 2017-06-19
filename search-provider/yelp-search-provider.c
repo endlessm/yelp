@@ -72,6 +72,7 @@ page_data_new_steal (gchar *title,
                      GIcon *icon)
 {
     PageData *data = g_new0 (PageData, 1);
+
     if (title) {
         data->title = title;
         data->title_casefold = g_utf8_casefold (title, -1);
