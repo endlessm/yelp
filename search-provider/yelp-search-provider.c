@@ -136,13 +136,14 @@ match_word (const gchar *search_phrase,
 
     strs = g_regex_split (nonword, search_phrase, 0);
     for (stri = 0; strs[stri]; stri++) {
-        if (!title_casefold || !strstr (title_casefold, strs[stri])) {
-            if (!desc_casefold || !strstr (desc_casefold, strs[stri])) {
+        if (!title_casefold ||
+            !strstr (title_casefold, strs[stri]) &&
+            !desc_casefold ||
+            !strstr (desc_casefold, strs[stri])) {
                 ret = FALSE;
                 break;
             }
         }
-    }
 
     g_strfreev (strs);
 
