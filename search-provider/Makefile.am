@@ -40,6 +40,4 @@ EXTRA_DIST = \
 	org.gnome.ShellSearchProvider2.xml \
 	yelp-search-provider.ini
 
-CLEANFILES = \
-	org.gnome.Yelp.SearchProvider.service.in \
-	org.gnome.Yelp.SearchProvider.service
+CLEANFILES = org.gnome.Yelp.SearchProvider.service
