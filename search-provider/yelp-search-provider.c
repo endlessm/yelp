@@ -104,22 +104,13 @@ get_result_metas (gchar      **page_ids,
         PageData *data = g_hash_table_lookup (page_data, page_ids[i]);
         g_variant_builder_init (&meta, G_VARIANT_TYPE ("a{sv}"));
         g_variant_builder_add (&meta, "{sv}",
-                              "id", g_variant_new_string (page_ids[i]));
-        if (data != NULL) {
-            g_variant_builder_add (&meta, "{sv}",
-                                   "name", g_variant_new_string (data->title));
-            g_variant_builder_add (&meta, "{sv}",
-                                   "icon", g_icon_serialize (data->icon));
-            g_variant_builder_add (&meta, "{sv}",
-                                   "description", g_variant_new_string (data->desc));
-        } else {
-            g_variant_builder_add (&meta, "{sv}",
-                                   "name", NULL);
-            g_variant_builder_add (&meta, "{sv}",
-                                   "gicon", NULL);
-            g_variant_builder_add (&meta, "{sv}",
-                                   "description", NULL);
-        }
+                               "id", g_variant_new_string (page_ids[i]));
+        g_variant_builder_add (&meta, "{sv}",
+                               "name", g_variant_new_string (data->title));
+        g_variant_builder_add (&meta, "{sv}",
+                               "icon", g_icon_serialize (data->icon));
+        g_variant_builder_add (&meta, "{sv}",
+                               "description", g_variant_new_string (data->desc));
         g_variant_builder_add_value (&metas, g_variant_builder_end (&meta));
     }
 
