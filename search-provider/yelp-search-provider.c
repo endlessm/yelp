@@ -484,7 +484,7 @@ search_provider_app_startup (GApplication *app)
                                                       g_str_equal,
                                                       g_free,
                                                       (GDestroyNotify) page_data_free);
-    self->delayed_result_getters = g_ptr_array_new_with_free_func ((GDestroyNotify *) delayed_result_getter_free);
+    self->delayed_result_getters = g_ptr_array_new_with_free_func ((GDestroyNotify) delayed_result_getter_free);
 
     yelp_uri_resolve (base_uri);
     g_application_hold (app);
