@@ -475,10 +475,11 @@ search_provider_app_startup (GApplication *app)
         g_application_hold (app);
 
     base_uri = yelp_uri_new (YELP_GNOME_HELP_URI);
-    self->uri_resolve_id = g_signal_connect (base_uri,
-                                             "resolved",
-                                             G_CALLBACK (uri_resolved_cb),
-                                             self);
+    self->uri_resolve_id = g_signal_connect_object (base_uri,
+                                                    "resolved",
+                                                    G_CALLBACK (uri_resolved_cb),
+                                                    self,
+                                                    0);
 
     self->page_data_hash_map = g_hash_table_new_full (g_str_hash,
                                                       g_str_equal,
