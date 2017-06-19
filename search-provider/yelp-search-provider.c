@@ -212,25 +212,23 @@ delayed_result_getter_free (DelayedResultGetter *delayed)
     g_free (delayed);
 }
 
-static gboolean 
-handle_get_initial_result_set (YelpShellSearchProvider2  *skeleton,
-                               GDBusMethodInvocation     *invocation,
-                               gchar                    **terms,
-                               gpointer                   user_data)
+static void
+handle_results (GDBusMethodInvocation  *invocation,
+                gchar                 **terms,
+                YelpSearchProviderApp  *app)
 {
     DelayedResultGetter *delayed;
-    YelpSearchProviderApp *app = YELP_SEARCH_PROVIDER_APP (user_data);
 
     if (g_strv_length (terms) < 2 && g_utf8_strlen (terms[0], -1) < 3 ) {
         g_dbus_method_invocation_return_value (invocation, g_variant_new ("(as)", NULL));
-        return TRUE;
+        return;
     }
 
     if (g_hash_table_size (app->page_data_hash_map) > 0) {
       g_dbus_method_invocation_return_value (invocation,
                                              get_search_results (terms,
                                                                  app->page_data_hash_map));
-      return TRUE;
+      return;
     }
 
     delayed = delayed_result_getter_new (invocation,
@@ -238,6 +236,20 @@ handle_get_initial_result_set (YelpShellSearchProvider2  *skeleton,
                                          get_search_results);
 
     g_ptr_array_add (app->delayed_result_getters, delayed);
+}
+
+static gboolean
+handle_get_initial_result_set (YelpShellSearchProvider2  *skeleton,
+                               GDBusMethodInvocation     *invocation,
+                               gchar                    **terms,
+                               gpointer                   user_data)
+{
+    YelpSearchProviderApp *app = YELP_SEARCH_PROVIDER_APP (user_data);
+
+    handle_results(invocation,
+                   terms,
+                   app);
+
     return TRUE;
 }
 
@@ -248,25 +260,12 @@ handle_get_subsearch_result_set (YelpShellSearchProvider2  *skeleton,
                                  gchar                    **terms,
                                  gpointer                   user_data)
 {
-    DelayedResultGetter *delayed;
     YelpSearchProviderApp *app = YELP_SEARCH_PROVIDER_APP (user_data);
 
-    if (g_strv_length (terms) < 2 && g_utf8_strlen (terms[0], -1) < 3 ) {
-        g_dbus_method_invocation_return_value (invocation, g_variant_new ("(as)", NULL));
-        return TRUE;
-    }
+    handle_results(invocation,
+                   terms,
+                   app);
 
-    if (g_hash_table_size (app->page_data_hash_map) > 0) {
-        g_dbus_method_invocation_return_value (invocation,
-                                               get_search_results (terms,
-                                                                   app->page_data_hash_map));
-        return TRUE;
-    }
-
-    delayed = delayed_result_getter_new (invocation,
-                                         terms,
-                                         get_search_results);
-    g_ptr_array_add (app->delayed_result_getters, delayed);
     return TRUE;
 }
 
