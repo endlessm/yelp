@@ -1,4 +1,5 @@
 yelp_search_provider_CFLAGS = \
+	-I$(top_srcdir)/libyelp \
 	$(YELP_CFLAGS) \
 	$(NULL)
 

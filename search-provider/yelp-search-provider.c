@@ -27,9 +27,9 @@
 
 #include "yelp-shell-search-provider-generated.h"
 
-#include "libyelp/yelp-settings.h"
-#include "libyelp/yelp-document.h"
-#include "libyelp/yelp-uri.h"
+#include "yelp-settings.h"
+#include "yelp-document.h"
+#include "yelp-uri.h"
 
 #define SEARCH_PROVIDER_INACTIVITY_TIMEOUT 12000 /* milliseconds */
 
