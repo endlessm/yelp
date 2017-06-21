@@ -387,10 +387,6 @@ preload_data_cb (YelpDocument          *document,
                  YelpSearchProviderApp *self,
                  GError                *error)
 {
-    gchar **page_ids = yelp_document_list_page_ids (document);
-    gchar **iter;
-    gint i;
-
     if (signal == YELP_DOCUMENT_SIGNAL_ERROR) {
         g_warning ("error during preloading data: %s", (error != NULL) ? error->message : "unknown error");
         if (!self->released) {
@@ -404,6 +400,10 @@ preload_data_cb (YelpDocument          *document,
         return;
 
     if (signal == YELP_DOCUMENT_SIGNAL_INFO) {
+        gchar **page_ids = yelp_document_list_page_ids (document);
+        gchar **iter;
+        gint i;
+
         for (iter = page_ids; *iter; iter++) {
             gchar *page_id = *iter;
             PageData *data;
