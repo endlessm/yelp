@@ -400,10 +400,10 @@ preload_data_cb (YelpDocument          *document,
         return;
     }
 
-    if (signal == YELP_DOCUMENT_SIGNAL_CONTENTS)
+    if (signal == YELP_DOCUMENT_SIGNAL_INFO)
         return;
 
-    if (signal == YELP_DOCUMENT_SIGNAL_INFO) {
+    if (signal == YELP_DOCUMENT_SIGNAL_CONTENTS) {
         for (iter = page_ids; *iter; iter++) {
             gchar *page_id = *iter;
             PageData *data;
