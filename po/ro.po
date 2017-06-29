@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-01 18:05-0700\n"
-"PO-Revision-Date: 2017-06-02 01:06+0000\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"PO-Revision-Date: 2017-06-05 10:45+0000\n"
+"Last-Translator: georgian balan <braila222@gmail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/endless-mobile-inc/yelp/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +29,7 @@ msgstr ""
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
-msgstr ""
+msgstr "Noțiuni de bază"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
@@ -456,7 +456,7 @@ msgid "Turn on editor mode"
 msgstr "Activează modul editor"
 
 #: ../src/yelp-application.c:271 ../src/yelp-window.c:1185
-#: ../src/yelp-window.c:1193 ../org.gnome.Yelp.desktop.in.in.h:1
+#: ../src/yelp-window.c:1193 ../yelp.desktop.in.in.h:1
 msgid "Help"
 msgstr "Ajutor"
 
@@ -528,10 +528,10 @@ msgstr "Adauga Bookmark"
 msgid "Remove Bookmark"
 msgstr "Inlatura Bookmark"
 
-#: ../org.gnome.Yelp.desktop.in.in.h:2
+#: ../yelp.desktop.in.in.h:2
 msgid "Get help with GNOME"
 msgstr "Ajutor pentru GNOME"
 
-#: ../org.gnome.Yelp.desktop.in.in.h:3
+#: ../yelp.desktop.in.in.h:3
 msgid "documentation;information;manual;help;"
-msgstr ""
+msgstr "documentare;informare;manual;ajutor;"
