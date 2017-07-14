@@ -338,8 +338,8 @@ desktop_DATA = $(desktop_in_files:.desktop.in.in=.desktop)
 gsettings_SCHEMAS = data/org.gnome.yelp.gschema.xml
 @GSETTINGS_RULES@
 
-16icondir = $(pkgdatadir)/icons/hicolor/16x16/status
-scalableicondir = $(pkgdatadir)/icons/hicolor/scalable/status
+16icondir = $(datadir)/icons/hicolor/16x16/status
+scalableicondir = $(datadir)/icons/hicolor/scalable/status
 
 dist_16icon_DATA = \
 	data/icons/hicolor/16x16/status/bookmark.png \
