@@ -33,6 +33,11 @@
 
 #define SEARCH_PROVIDER_INACTIVITY_TIMEOUT 12000 /* milliseconds */
 
+/* We will be returning a GFileIcon so that the consumer does not need
+ * to be aware of the non-standard directory Yelp stores its icons, and
+ * that forces us to specify a size to look up the icon for here. */
+#define SEARCH_PROVIDER_ICON_SIZE 32
+
 struct _PageData
 {
     gchar *title;
@@ -381,6 +386,46 @@ search_provider_app_dispose (GObject *obj)
     G_OBJECT_CLASS (yelp_search_provider_app_parent_class)->dispose (obj);
 }
 
+static GIcon *
+get_file_icon_for_page_id (YelpDocument *document,
+                           const char   *page_id)
+{
+    GtkIconTheme *icon_theme;
+    GtkIconInfo *icon_info;
+    gchar *icon_name;
+    const char *icon_filename;
+    GFile *icon_file;
+    GIcon *icon;
+
+    g_object_get (yelp_settings_get_default (), "gtk-icon-theme", &icon_theme, NULL);
+
+    icon_name = yelp_document_get_page_icon (document, page_id);
+    if (!icon_name) {
+        g_warning ("Couldn't find icon for help page %s", page_id);
+        return NULL;
+    }
+
+    icon_info = gtk_icon_theme_lookup_icon (icon_theme,
+                                            icon_name,
+                                            SEARCH_PROVIDER_ICON_SIZE,
+                                            0);
+    g_free (icon_name);
+
+    if (!icon_info) {
+        g_warning ("Couldn't find icon information for '%s'", icon_name);
+        return NULL;
+    }
+
+    icon_filename = gtk_icon_info_get_filename (icon_info);
+    icon_file = g_file_new_for_path (icon_filename);
+    g_object_unref (icon_info);
+
+    icon = g_file_icon_new (icon_file);
+    g_object_unref (icon_file);
+
+    return icon;
+}
+
 static void
 preload_data_cb (YelpDocument          *document,
                  YelpDocumentSignal     signal,
@@ -407,13 +452,11 @@ preload_data_cb (YelpDocument          *document,
         for (iter = page_ids; *iter; iter++) {
             gchar *page_id = *iter;
             PageData *data;
-            gchar *icon_string = yelp_document_get_page_icon (document, page_id);
-            GIcon *icon = g_themed_icon_new (icon_string);
-            g_free (icon_string);
 
             data = page_data_new_steal (yelp_document_get_page_title (document, page_id), 
                                         yelp_document_get_page_desc (document, page_id), 
-                                        icon);
+                                        get_file_icon_for_page_id (document, page_id));
+
             g_hash_table_insert (self->page_data_hash_map, page_id, data);
         }
 
