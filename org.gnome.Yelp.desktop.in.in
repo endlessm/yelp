@@ -33,6 +33,7 @@ Exec=yelp %u
 Icon=eos-app-org.gnome.Yelp
 StartupNotify=true
 Terminal=false
+DBusActivatable=true
 Type=Application
 Categories=GNOME;GTK;Core;Documentation;Utility;
 X-GNOME-Bugzilla-Bugzilla=GNOME
