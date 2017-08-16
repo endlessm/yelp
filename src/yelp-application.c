@@ -135,7 +135,6 @@ activate_show_page (GSimpleAction *action,
     open_uri (app, page_uri, TRUE, FALSE);
 
     g_object_unref (uri);
-    g_object_unref (page_uri);
     g_free (xref);
 }
 
@@ -151,7 +150,6 @@ activate_show_search (GSimpleAction *action,
     open_uri (app, page_uri, TRUE, FALSE);
 
     g_object_unref (uri);
-    g_object_unref (page_uri);
 }
 
 static GActionEntry app_entries[] = {
