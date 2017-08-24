@@ -205,7 +205,8 @@ yelp_application_init (YelpApplication *app)
 static void
 yelp_application_activate (GApplication *application)
 {
-    /* Here we don't need to do anything else. */
+    YelpApplication *app = YELP_APPLICATION (application);
+    open_uri (app, yelp_uri_new (YELP_GNOME_HELP_URI), FALSE, TRUE);
 }
 
 static void
@@ -470,7 +471,7 @@ yelp_application_command_line (GApplication            *application,
     argv = g_application_command_line_get_arguments (cmdline, NULL);
 
     if (argv[1] == NULL)
-        open_uri (app, yelp_uri_new (YELP_GNOME_HELP_URI), FALSE, TRUE);
+        g_application_activate (application);
 
     for (i = 1; argv[i]; i++)
         open_uri (app, yelp_uri_new (argv[i]), FALSE, FALSE);
