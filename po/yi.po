@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-01 13:21-0700\n"
-"PO-Revision-Date: 2017-06-01 20:42+0000\n"
+"POT-Creation-Date: 2018-04-19 16:01-0700\n"
+"PO-Revision-Date: 2018-04-19 23:03+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
-"Language-Team: Yiddish (http://www.transifex.com/endless-mobile-inc/yelp/language/yi/)\n"
+"Language-Team: Yiddish (http://www.transifex.com/endless-os/yelp/language/yi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -201,22 +201,6 @@ msgstr ""
 msgid "The requested page was not found in the document ‘%s’."
 msgstr ""
 
-#: ../libyelp/yelp-document.c:280
-msgid "Indexed"
-msgstr ""
-
-#: ../libyelp/yelp-document.c:281
-msgid "Whether the document content has been indexed"
-msgstr ""
-
-#: ../libyelp/yelp-document.c:289
-msgid "Document URI"
-msgstr ""
-
-#: ../libyelp/yelp-document.c:290
-msgid "The URI which identifies the document"
-msgstr ""
-
 #: ../libyelp/yelp-document.c:1030
 #, c-format
 msgid "Search results for “%s”"
@@ -251,81 +235,9 @@ msgstr ""
 msgid "The directory ‘%s’ does not exist."
 msgstr ""
 
-#: ../libyelp/yelp-search-entry.c:172
-msgid "View"
-msgstr ""
-
-#: ../libyelp/yelp-search-entry.c:173
-msgid "A YelpView instance to control"
-msgstr ""
-
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:422
-msgid "Bookmarks"
-msgstr ""
-
-#: ../libyelp/yelp-search-entry.c:189
-msgid "A YelpBookmarks implementation instance"
-msgstr ""
-
 #: ../libyelp/yelp-search-entry.c:433
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
-
-#: ../libyelp/yelp-settings.c:148
-msgid "GtkSettings"
-msgstr ""
-
-#: ../libyelp/yelp-settings.c:149
-msgid "A GtkSettings object to get settings from"
-msgstr ""
-
-#: ../libyelp/yelp-settings.c:157
-msgid "GtkIconTheme"
-msgstr ""
-
-#: ../libyelp/yelp-settings.c:158
-msgid "A GtkIconTheme object to get icons from"
-msgstr ""
-
-#: ../libyelp/yelp-settings.c:166
-msgid "Font Adjustment"
-msgstr ""
-
-#: ../libyelp/yelp-settings.c:167
-msgid "A size adjustment to add to font sizes"
-msgstr ""
-
-#: ../libyelp/yelp-settings.c:175
-msgid "Show Text Cursor"
-msgstr ""
-
-#: ../libyelp/yelp-settings.c:176
-msgid "Show the text cursor or caret for accessible navigation"
-msgstr ""
-
-#: ../libyelp/yelp-settings.c:184
-msgid "Editor Mode"
-msgstr ""
-
-#: ../libyelp/yelp-settings.c:185
-msgid "Enable features useful to editors"
-msgstr ""
-
-#: ../libyelp/yelp-sqlite-storage.c:145
-msgid "Database filename"
-msgstr ""
-
-#: ../libyelp/yelp-sqlite-storage.c:146
-msgid "The filename of the sqlite database"
-msgstr ""
-
-#: ../libyelp/yelp-transform.c:164
-msgid "XSLT Stylesheet"
-msgstr ""
-
-#: ../libyelp/yelp-transform.c:165
-msgid "The location of the XSLT stylesheet"
 msgstr ""
 
 #: ../libyelp/yelp-transform.c:369 ../libyelp/yelp-transform.c:384
@@ -367,62 +279,6 @@ msgstr ""
 
 #: ../libyelp/yelp-view.c:298
 msgid "_Copy Text"
-msgstr ""
-
-#: ../libyelp/yelp-view.c:525
-msgid "Yelp URI"
-msgstr ""
-
-#: ../libyelp/yelp-view.c:526
-msgid "A YelpUri with the current location"
-msgstr ""
-
-#: ../libyelp/yelp-view.c:534
-msgid "Loading State"
-msgstr ""
-
-#: ../libyelp/yelp-view.c:535
-msgid "The loading state of the view"
-msgstr ""
-
-#: ../libyelp/yelp-view.c:544
-msgid "Page ID"
-msgstr ""
-
-#: ../libyelp/yelp-view.c:545
-msgid "The ID of the root page of the page being viewed"
-msgstr ""
-
-#: ../libyelp/yelp-view.c:553
-msgid "Root Title"
-msgstr ""
-
-#: ../libyelp/yelp-view.c:554
-msgid "The title of the root page of the page being viewed"
-msgstr ""
-
-#: ../libyelp/yelp-view.c:562
-msgid "Page Title"
-msgstr ""
-
-#: ../libyelp/yelp-view.c:563
-msgid "The title of the page being viewed"
-msgstr ""
-
-#: ../libyelp/yelp-view.c:571
-msgid "Page Description"
-msgstr ""
-
-#: ../libyelp/yelp-view.c:572
-msgid "The description of the page being viewed"
-msgstr ""
-
-#: ../libyelp/yelp-view.c:580
-msgid "Page Icon"
-msgstr ""
-
-#: ../libyelp/yelp-view.c:581
-msgid "The icon of the page being viewed"
 msgstr ""
 
 #: ../libyelp/yelp-view.c:826 ../libyelp/yelp-view.c:2197
@@ -512,29 +368,21 @@ msgstr ""
 msgid "Turn on editor mode"
 msgstr ""
 
-#: ../src/yelp-application.c:271 ../src/yelp-window.c:1185
-#: ../src/yelp-window.c:1193 ../yelp.desktop.in.in.h:1
+#: ../src/yelp-application.c:322 ../src/yelp-window.c:1179
+#: ../src/yelp-window.c:1187
 msgid "Help"
 msgstr ""
 
-#: ../src/yelp-application.c:321
+#: ../src/yelp-application.c:374
 msgid "New Window"
 msgstr ""
 
-#: ../src/yelp-application.c:325
+#: ../src/yelp-application.c:378
 msgid "Larger Text"
 msgstr ""
 
-#: ../src/yelp-application.c:326
+#: ../src/yelp-application.c:379
 msgid "Smaller Text"
-msgstr ""
-
-#: ../src/yelp-window.c:214
-msgid "Application"
-msgstr ""
-
-#: ../src/yelp-window.c:215
-msgid "A YelpApplication instance that controls this window"
 msgstr ""
 
 #: ../src/yelp-window.c:348
@@ -569,26 +417,26 @@ msgstr ""
 msgid "All Help"
 msgstr ""
 
-#: ../src/yelp-window.c:405
+#: ../src/yelp-window.c:406
 msgid "Search (Ctrl+S)"
 msgstr ""
 
-#: ../src/yelp-window.c:439
+#: ../src/yelp-window.c:420
+msgid "Bookmarks"
+msgstr ""
+
+#: ../src/yelp-window.c:437
 msgid "No bookmarks"
 msgstr ""
 
-#: ../src/yelp-window.c:447
+#: ../src/yelp-window.c:445
 msgid "Add Bookmark"
 msgstr ""
 
-#: ../src/yelp-window.c:453
+#: ../src/yelp-window.c:451
 msgid "Remove Bookmark"
 msgstr ""
 
-#: ../yelp.desktop.in.in.h:2
-msgid "Get help with GNOME"
-msgstr ""
-
-#: ../yelp.desktop.in.in.h:3
+#: ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "documentation;information;manual;help;"
 msgstr ""

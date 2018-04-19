@@ -1,35 +1,30 @@
-# Greek translation of yelp.
-# Copyright (C) 2002 - 2011 Free Software Foundation, Inc.
-# 59 messages, 19Aug2002, started logging.
-# kostas:70 messages, 05Jan2003, updated translation for Gnome 2..1x.
-# kostas:71 messages,13Jul2003, updated translation for 2.4.
-# Nikos:92 messages,12Dec2003, updated translation for 2.6.
-# kostas:152 messages, 13Jan2004.
-# simos: 180 messages, 27Nov2004.
-# Simos Xenitellis <simos@gnome.org>, 2002, 2003,2004, 2008.
-# Kostas Papadimas <pkst@gmx.net>, 2003.
-# Kostas Papadimas <pkst@gnome.org>, 2003, 2004, 2006.
-# Nikos Charonitakis <frolix68@yahoo.gr>, 2003.
-# Nikos Charonitakis <charosn@her.forthnet.gr>, 2005.
-# Marios Zindilis <m.zindilis@dmajor.org>, 2011.
-# George Stefanakis <george.stefanakis@gmail.com>, 2011.
-# Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2012, 2013.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# ΔΗΜΗΤΡΗΣ ΣΠΙΓΓΟΣ <dmtrs32@gmail.com>, 2012-2013
+# geost <george.stefanakis@gmail.com>, 2011
+# geost <george.stefanakis@gmail.com>, 2011
+# Kostas Papadimas <pkst@gmx.net>, 2003
+# Kostas Papadimas <pkst@gnome.org>, 2003-2004,2006
+# Marios Zindilis <m.zindilis@dmajor.org>, 2011
+# Nikos Charonitakis <charosn@her.forthnet.gr>, 2005
+# Nikos Charonitakis <frolix68@yahoo.gr>, 2003
+# Simos Xenitellis <simos@gnome.org>, 2002-2004,2008
 msgid ""
 msgstr ""
-"Project-Id-Version: el\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=yelp&keywords=I18N+L10N&component=General\n"
-"POT-Creation-Date: 2016-08-19 16:59+0000\n"
-"PO-Revision-Date: 2016-09-12 10:55+0300\n"
-"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
-"Language-Team: team@gnome.gr\n"
-"Language: el\n"
+"Project-Id-Version: yelp\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-19 16:01-0700\n"
+"PO-Revision-Date: 2018-04-19 23:03+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Language-Team: Greek (http://www.transifex.com/endless-os/yelp/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.8\n"
-"X-Project-Style: gnome\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -38,12 +33,129 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Εγκατάσταση <string/>"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:31
+msgid "Home"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.getting-started
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:40
+msgid "Getting started with your OS"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-introduction
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:49
+msgid "Introduction to your OS"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-exit
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:58
+msgid "Log out, power off or switch users"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-apps-open
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:67
+msgid "Start applications"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:78
+msgid "Desktop Apps &amp; Windows"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:89
+msgid "Files, Folders &amp; Search"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:98
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:109
+msgid "Networking, Web, Email &amp; Chat"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.prefs
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:120
+msgid "User &amp; System Settings"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.tips
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:131
+msgid "Tips &amp; Tricks"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.media
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:142
+msgid "Sound, Video &amp; Pictures"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:153
+msgid "Hardware &amp; Drivers"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.more-help
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:162
+msgid "Get more help"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.endless-videos
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:171
+msgid "Video Tutorials"
+msgstr ""
 
 #: ../libyelp/yelp-bz2-decompressor.c:143
 #: ../libyelp/yelp-lzma-decompressor.c:152
@@ -55,80 +167,60 @@ msgstr "Άκυρα συμπιεσμένα δεδομένα"
 msgid "Not enough memory"
 msgstr "Ανεπαρκής μνήμη"
 
-#: ../libyelp/yelp-docbook-document.c:282 ../libyelp/yelp-info-document.c:218
-#: ../libyelp/yelp-mallard-document.c:298
-#: ../libyelp/yelp-mallard-document.c:452 ../libyelp/yelp-man-document.c:252
+#: ../libyelp/yelp-docbook-document.c:285 ../libyelp/yelp-info-document.c:221
+#: ../libyelp/yelp-mallard-document.c:301
+#: ../libyelp/yelp-mallard-document.c:455 ../libyelp/yelp-man-document.c:255
 #, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
 msgstr "Δε βρέθηκε η σελίδα ‘%s’ στο έγγραφο ‘%s’."
 
-#: ../libyelp/yelp-docbook-document.c:320 ../libyelp/yelp-info-document.c:355
-#: ../libyelp/yelp-man-document.c:390
+#: ../libyelp/yelp-docbook-document.c:323 ../libyelp/yelp-info-document.c:358
+#: ../libyelp/yelp-man-document.c:393
 #, c-format
 msgid "The file does not exist."
 msgstr "Το αρχείο δεν υπάρχει."
 
-#: ../libyelp/yelp-docbook-document.c:330 ../libyelp/yelp-info-document.c:365
-#: ../libyelp/yelp-man-document.c:400
+#: ../libyelp/yelp-docbook-document.c:333 ../libyelp/yelp-info-document.c:368
+#: ../libyelp/yelp-man-document.c:403
 #, c-format
 msgid "The file ‘%s’ does not exist."
 msgstr "Το αρχείο ‘%s’ δεν υπάρχει."
 
-#: ../libyelp/yelp-docbook-document.c:345
+#: ../libyelp/yelp-docbook-document.c:348
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"Το αρχείο ‘%s’ δε μπορεί να αναλυθεί επειδή δεν είναι ένα σωστά δομημένο "
-"έγγραφο XML."
+msgstr "Το αρχείο ‘%s’ δε μπορεί να αναλυθεί επειδή δεν είναι ένα σωστά δομημένο έγγραφο XML."
 
-#: ../libyelp/yelp-docbook-document.c:358
+#: ../libyelp/yelp-docbook-document.c:361
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"Το αρχείο ‘%s’ δε μπορεί να αναλυθεί επειδή ένα ή περισσότερα από τα αρχεία "
-"που περιλαμβάνει δεν είναι σωστά δομημένο έγγραφο XML."
+msgstr "Το αρχείο ‘%s’ δε μπορεί να αναλυθεί επειδή ένα ή περισσότερα από τα αρχεία που περιλαμβάνει δεν είναι σωστά δομημένο έγγραφο XML."
 
-#: ../libyelp/yelp-docbook-document.c:788
+#: ../libyelp/yelp-docbook-document.c:791
 msgid "Unknown"
 msgstr "Άγνωστο"
 
-#: ../libyelp/yelp-docbook-document.c:850 ../libyelp/yelp-info-document.c:298
-#: ../libyelp/yelp-man-document.c:332
+#: ../libyelp/yelp-docbook-document.c:853 ../libyelp/yelp-info-document.c:301
+#: ../libyelp/yelp-man-document.c:335
 #, c-format
 msgid "The requested page was not found in the document ‘%s’."
 msgstr "Η ζητούμενη σελίδα δε βρέθηκε στο έγγραφο ‘%s’."
 
-#: ../libyelp/yelp-document.c:278
-msgid "Indexed"
-msgstr "Αρχειοθετημένο"
-
-#: ../libyelp/yelp-document.c:279
-msgid "Whether the document content has been indexed"
-msgstr "Για το αν το περιεχόμενο αυτού του κειμένου έχει αρχειοθετηθεί"
-
-#: ../libyelp/yelp-document.c:287
-msgid "Document URI"
-msgstr "URI κειμένου"
-
-#: ../libyelp/yelp-document.c:288
-msgid "The URI which identifies the document"
-msgstr "Το URI που προσδιορίζει αυτό το κείμενο"
-
-#: ../libyelp/yelp-document.c:1024
+#: ../libyelp/yelp-document.c:1030
 #, c-format
 msgid "Search results for “%s”"
 msgstr "Αποτελέσματα αναζήτησης για “%s”"
 
-#: ../libyelp/yelp-document.c:1036
+#: ../libyelp/yelp-document.c:1042
 #, c-format
 msgid "No matching help pages found in “%s”."
 msgstr "Δεν βρέθηκαν σελίδες βοήθειας που να ταιριάζουν μέσα στο “%s”."
 
-#: ../libyelp/yelp-document.c:1042
+#: ../libyelp/yelp-document.c:1048
 msgid "No matching help pages found."
 msgstr "Δεν βρέθηκαν σελίδες βοήθειας που να ταιριάζουν."
 
@@ -137,99 +229,25 @@ msgstr "Δεν βρέθηκαν σελίδες βοήθειας που να τα
 msgid "An unknown error occurred."
 msgstr "Παρουσιάστηκε ένα άγνωστο σφάλμα."
 
-#: ../libyelp/yelp-help-list.c:545 ../libyelp/yelp-help-list.c:554
+#: ../libyelp/yelp-help-list.c:548 ../libyelp/yelp-help-list.c:557
 msgid "All Help Documents"
 msgstr "Όλα τα έγγραφα βοήθειας"
 
-#: ../libyelp/yelp-info-document.c:380
+#: ../libyelp/yelp-info-document.c:383
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"Το αρχείο ‘%s’ δεν μπορεί να αναλυθεί επειδή δεν είναι μια σωστά δομημένη "
-"σελίδα πληροφοριών."
+msgstr "Το αρχείο ‘%s’ δεν μπορεί να αναλυθεί επειδή δεν είναι μια σωστά δομημένη σελίδα πληροφοριών."
 
-#: ../libyelp/yelp-mallard-document.c:340
+#: ../libyelp/yelp-mallard-document.c:343
 #, c-format
 msgid "The directory ‘%s’ does not exist."
 msgstr "Ο κατάλογος ‘%s’ δεν υπάρχει."
-
-#: ../libyelp/yelp-search-entry.c:172
-msgid "View"
-msgstr "Προβολή"
-
-#: ../libyelp/yelp-search-entry.c:173
-msgid "A YelpView instance to control"
-msgstr "Ένα στιγμιότυπο του YelpView για έλεγχο"
-
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:417
-msgid "Bookmarks"
-msgstr "Σελιδοδείκτες"
-
-#: ../libyelp/yelp-search-entry.c:189
-msgid "A YelpBookmarks implementation instance"
-msgstr "Ένα στιγμιότυπο υλοποίησης του YelpBookmarks"
 
 #: ../libyelp/yelp-search-entry.c:433
 #, c-format
 msgid "Search for “%s”"
 msgstr "Αναζήτηση για “%s”"
-
-#: ../libyelp/yelp-settings.c:148
-msgid "GtkSettings"
-msgstr "GtkSettings"
-
-#: ../libyelp/yelp-settings.c:149
-msgid "A GtkSettings object to get settings from"
-msgstr "Ένα αντικείμενο GtkSettings από το οποίο θα ληφθούν οι ρυθμίσεις"
-
-#: ../libyelp/yelp-settings.c:157
-msgid "GtkIconTheme"
-msgstr "GtkIconTheme"
-
-#: ../libyelp/yelp-settings.c:158
-msgid "A GtkIconTheme object to get icons from"
-msgstr "Ένα αντικείμενο GtkIconTheme από το οποίο θα ληφθούν τα εικονίδια"
-
-#: ../libyelp/yelp-settings.c:166
-msgid "Font Adjustment"
-msgstr "Ρύθμιση γραμματοσειράς"
-
-#: ../libyelp/yelp-settings.c:167
-msgid "A size adjustment to add to font sizes"
-msgstr "Μια ρύθμιση μεγέθους που θα προστίθεται στα μεγέθη των γραμματοσειρών"
-
-#: ../libyelp/yelp-settings.c:175
-msgid "Show Text Cursor"
-msgstr "Εμφάνιση δρομέα κειμένου"
-
-#: ../libyelp/yelp-settings.c:176
-msgid "Show the text cursor or caret for accessible navigation"
-msgstr "Εμφάνιση του δρομέα κειμένου για προσιτή περιήγηση"
-
-#: ../libyelp/yelp-settings.c:184
-msgid "Editor Mode"
-msgstr "Λειτουργία επεξεργαστή"
-
-#: ../libyelp/yelp-settings.c:185
-msgid "Enable features useful to editors"
-msgstr "Ενεργοποίηση χρήσιμων λειτουργιών σε συντάκτες"
-
-#: ../libyelp/yelp-sqlite-storage.c:145
-msgid "Database filename"
-msgstr "Όνομα αρχείου βάσης δεδομένων"
-
-#: ../libyelp/yelp-sqlite-storage.c:146
-msgid "The filename of the sqlite database"
-msgstr "Το όνομα αρχείου της βάσης δεδομένων sqlite"
-
-#: ../libyelp/yelp-transform.c:164
-msgid "XSLT Stylesheet"
-msgstr "Φύλλο στυλ XSLT"
-
-#: ../libyelp/yelp-transform.c:165
-msgid "The location of the XSLT stylesheet"
-msgstr "Η τοποθεσία του φύλλου στυλ XSLT"
 
 #: ../libyelp/yelp-transform.c:369 ../libyelp/yelp-transform.c:384
 #, c-format
@@ -248,7 +266,6 @@ msgstr "Εξαντλήθηκε η μνήμη"
 msgid "C_opy Code Block"
 msgstr "Αντιγραφή _ομάδας κώδικα"
 
-#
 #: ../libyelp/yelp-view.c:258
 msgid "_Copy Link Location"
 msgstr "Αντι_γραφή τοποθεσίας συνδέσμου"
@@ -273,74 +290,17 @@ msgstr "Αποθήκευση ο_μάδας κώδικα ως..."
 msgid "_Copy Text"
 msgstr "Αντιγραφή _κειμένου"
 
-#
-#: ../libyelp/yelp-view.c:525
-msgid "Yelp URI"
-msgstr "Yelp URI"
-
-#: ../libyelp/yelp-view.c:526
-msgid "A YelpUri with the current location"
-msgstr "Ένα YelpUri με την τρέχουσα τοποθεσία"
-
-#: ../libyelp/yelp-view.c:534
-msgid "Loading State"
-msgstr "Κατάσταση φόρτωσης"
-
-#: ../libyelp/yelp-view.c:535
-msgid "The loading state of the view"
-msgstr "Η κατάσταση φόρτωσης της προβολής"
-
-#: ../libyelp/yelp-view.c:544
-msgid "Page ID"
-msgstr "Αναγνωριστικό σελίδας"
-
-#: ../libyelp/yelp-view.c:545
-msgid "The ID of the root page of the page being viewed"
-msgstr "Το αναγνωριστικό της ριζικής σελίδας της σελίδας που προβάλλεται"
-
-#: ../libyelp/yelp-view.c:553
-msgid "Root Title"
-msgstr "Ριζικός τίτλος"
-
-#: ../libyelp/yelp-view.c:554
-msgid "The title of the root page of the page being viewed"
-msgstr "Ο τίτλος της ριζικής σελίδας της σελίδας που προβάλλεται"
-
-#: ../libyelp/yelp-view.c:562
-msgid "Page Title"
-msgstr "Τίτλος σελίδας"
-
-#: ../libyelp/yelp-view.c:563
-msgid "The title of the page being viewed"
-msgstr "Ο τίτλος της σελίδας που προβάλλεται"
-
-#: ../libyelp/yelp-view.c:571
-msgid "Page Description"
-msgstr "Περιγραφή σελίδας"
-
-#: ../libyelp/yelp-view.c:572
-msgid "The description of the page being viewed"
-msgstr "Η περιγραφή της σελίδας που προβάλλεται"
-
-#: ../libyelp/yelp-view.c:580
-msgid "Page Icon"
-msgstr "Εικονίδιο σελίδας"
-
-#: ../libyelp/yelp-view.c:581
-msgid "The icon of the page being viewed"
-msgstr "Το εικονίδιο της σελίδας που προβάλλεται"
-
-#: ../libyelp/yelp-view.c:826 ../libyelp/yelp-view.c:2198
+#: ../libyelp/yelp-view.c:826 ../libyelp/yelp-view.c:2197
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "Το URI ‘%s’ δεν δείχνει σε μια έγκυρη σελίδα."
 
-#: ../libyelp/yelp-view.c:832 ../libyelp/yelp-view.c:2204
+#: ../libyelp/yelp-view.c:832 ../libyelp/yelp-view.c:2203
 #, c-format
 msgid "The URI does not point to a valid page."
 msgstr "Το URI δεν δείχνει σε μια έγκυρη σελίδα."
 
-#: ../libyelp/yelp-view.c:837 ../libyelp/yelp-view.c:2210
+#: ../libyelp/yelp-view.c:837 ../libyelp/yelp-view.c:2209
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "Το URI ‘%s’ δεν μπορεί να αναλυθεί."
@@ -352,9 +312,7 @@ msgstr "Άγνωστο σφάλμα."
 
 #: ../libyelp/yelp-view.c:996
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"Δεν έχετε το PackageKit. Οι σύνδεσμοι εγκατάστασης πακέτων απαιτούν το "
-"PackageKit."
+msgstr "Δεν έχετε το PackageKit. Οι σύνδεσμοι εγκατάστασης πακέτων απαιτούν το PackageKit."
 
 #: ../libyelp/yelp-view.c:1243
 msgid "Save Image"
@@ -385,33 +343,33 @@ msgstr "Αποστολή _εικόνας προς..."
 msgid "S_end Video To…"
 msgstr "Αποστολή βίντ_εο προς..."
 
-#: ../libyelp/yelp-view.c:1894
+#: ../libyelp/yelp-view.c:1893
 #, c-format
 msgid "Could not load a document for ‘%s’"
 msgstr "Αδυναμία φόρτωσης ενός εγγράφου για το ‘%s’"
 
-#: ../libyelp/yelp-view.c:1900
+#: ../libyelp/yelp-view.c:1899
 #, c-format
 msgid "Could not load a document"
 msgstr "Αδυναμία φόρτωσης εγγράφου"
 
-#: ../libyelp/yelp-view.c:1984
+#: ../libyelp/yelp-view.c:1983
 msgid "Document Not Found"
 msgstr "Δεν βρέθηκε το έγγραφο"
 
-#: ../libyelp/yelp-view.c:1986
+#: ../libyelp/yelp-view.c:1985
 msgid "Page Not Found"
 msgstr "Δεν βρέθηκε η σελίδα"
 
-#: ../libyelp/yelp-view.c:1989
+#: ../libyelp/yelp-view.c:1988
 msgid "Cannot Read"
 msgstr "Αδυναμία ανάγνωσης"
 
-#: ../libyelp/yelp-view.c:1995
+#: ../libyelp/yelp-view.c:1994
 msgid "Unknown Error"
 msgstr "Άγνωστο σφάλμα"
 
-#: ../libyelp/yelp-view.c:2015
+#: ../libyelp/yelp-view.c:2014
 msgid "Search for packages containing this document."
 msgstr "Αναζήτηση για πακέτα που περιέχουν αυτό το έγγραφο."
 
@@ -419,144 +377,75 @@ msgstr "Αναζήτηση για πακέτα που περιέχουν αυτ�
 msgid "Turn on editor mode"
 msgstr "Ενεργοποίηση λειτουργίας συντάκτη"
 
-#
-#: ../src/yelp-application.c:271 ../src/yelp-window.c:1180
-#: ../src/yelp-window.c:1188 ../yelp.desktop.in.in.h:1
+#: ../src/yelp-application.c:322 ../src/yelp-window.c:1179
+#: ../src/yelp-window.c:1187
 msgid "Help"
 msgstr "Βοήθεια"
 
-#: ../src/yelp-application.c:321
+#: ../src/yelp-application.c:374
 msgid "New Window"
 msgstr "Νέο παράθυρο"
 
-#: ../src/yelp-application.c:325
+#: ../src/yelp-application.c:378
 msgid "Larger Text"
 msgstr "Μεγαλύτερο κείμενο"
 
-#: ../src/yelp-application.c:326
+#: ../src/yelp-application.c:379
 msgid "Smaller Text"
 msgstr "Μικρότερο κείμενο"
 
-#: ../src/yelp-window.c:211
-msgid "Application"
-msgstr "Εφαρμογή"
-
-#: ../src/yelp-window.c:212
-msgid "A YelpApplication instance that controls this window"
-msgstr "Ένα στιγμιότυπο YelpApplication που ελέγχει αυτό το παράθυρο"
-
-#: ../src/yelp-window.c:343
+#: ../src/yelp-window.c:348
 msgid "Back"
 msgstr "Πίσω"
 
-#: ../src/yelp-window.c:350
+#: ../src/yelp-window.c:355
 msgid "Forward"
 msgstr "Μπροστά"
 
-#: ../src/yelp-window.c:361
+#: ../src/yelp-window.c:366
 msgid "Menu"
 msgstr "Μενού"
 
-#: ../src/yelp-window.c:366
+#: ../src/yelp-window.c:371
 msgid "Find…"
 msgstr "Εύρεση…"
 
-#: ../src/yelp-window.c:367
+#: ../src/yelp-window.c:372
 msgid "Print…"
 msgstr "Εκτύπωση…"
 
-#: ../src/yelp-window.c:372
+#: ../src/yelp-window.c:377
 msgid "Previous Page"
 msgstr "Προηγούμενη σελίδα"
 
-#: ../src/yelp-window.c:373
+#: ../src/yelp-window.c:378
 msgid "Next Page"
 msgstr "Επόμενη σελίδα"
 
-#
-#: ../src/yelp-window.c:378
+#: ../src/yelp-window.c:383
 msgid "All Help"
 msgstr "Όλη η βοήθεια"
 
-#: ../src/yelp-window.c:400
+#: ../src/yelp-window.c:406
 msgid "Search (Ctrl+S)"
 msgstr "Αναζήτηση (Ctrl+S)"
 
-#: ../src/yelp-window.c:434
+#: ../src/yelp-window.c:420
+msgid "Bookmarks"
+msgstr "Σελιδοδείκτες"
+
+#: ../src/yelp-window.c:437
 msgid "No bookmarks"
 msgstr "Δεν υπάρχουν σελιδοδείκτες"
 
-#: ../src/yelp-window.c:442
+#: ../src/yelp-window.c:445
 msgid "Add Bookmark"
 msgstr "Προσθήκη σελιδοδείκτη"
 
-#: ../src/yelp-window.c:448
+#: ../src/yelp-window.c:451
 msgid "Remove Bookmark"
 msgstr "Αφαίρεση σελιδοδείκτη"
 
-#: ../yelp.desktop.in.in.h:2
-msgid "Get help with GNOME"
-msgstr "Λήψη βοήθειας για το GNOME"
-
-#: ../yelp.desktop.in.in.h:3
+#: ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "documentation;information;manual;help;"
-msgstr ""
-"τεκμηρίωση;πληροφορίες;εγχειρίδιο;documentation;information;manual;help;"
-"βοήθεια;"
-
-#~ msgid "See all search results for “%s”"
-#~ msgstr "Δείτε όλα τα αποτελέσματα αναζήτησης για “%s”"
-
-#~ msgid "Enable Search"
-#~ msgstr "Ενεργοποίηση αναζήτησης"
-
-#~ msgid "Whether the location entry can be used as a search field"
-#~ msgstr "Εάν η καταχώριση τοποθεσίας θα χρησιμοποιείται ως πεδίο αναζήτησης"
-
-#~ msgid "Search..."
-#~ msgstr "Αναζήτηση..."
-
-#~ msgid "Clear the search text"
-#~ msgstr "Καθαρισμός του κειμένου αναζήτησης"
-
-#~ msgid "Bookmark this page"
-#~ msgstr "Προσθήκη αυτής της σελίδας στους σελιδοδείκτες"
-
-#~ msgid "Remove bookmark"
-#~ msgstr "Αφαίρεση του σελιδοδείκτη"
-
-#~ msgid "Loading"
-#~ msgstr "Φορτώνεται"
-
-#~ msgid "_Print..."
-#~ msgstr "Εκτύ_πωση..."
-
-#~ msgid "Increase the size of the text"
-#~ msgstr "Αύξηση του μεγέθους του κειμένου"
-
-#~ msgid "Decrease the size of the text"
-#~ msgstr "Μείωση του μεγέθους του κειμένου"
-
-#~ msgid "Show Text _Cursor"
-#~ msgstr "Εμφάνιση _δρομέα κειμένου"
-
-#~ msgid "_Page"
-#~ msgstr "Σ_ελίδα"
-
-#~ msgid "_View"
-#~ msgstr "Προ_βολή"
-
-#~ msgid "_Go"
-#~ msgstr "_Μετάβαση"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "_Σελιδοδείκτες"
-
-#~ msgid "_Close"
-#~ msgstr "_Κλείσιμο"
-
-#~ msgid "_All Documents"
-#~ msgstr "Ό_λα τα έγγραφα"
-
-#~ msgid "Find in Page..."
-#~ msgstr "Αναζήτηση στη σελίδα..."
+msgstr "τεκμηρίωση;πληροφορίες;εγχειρίδιο;documentation;information;manual;help;βοήθεια;"

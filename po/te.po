@@ -1,29 +1,26 @@
-# translation of yelp.gnome to Telugu
-# Telugu translation of yelp.
-# Copyright (C) 2007,2011,2012 Swecha Telugu Localisation Team <localization@swecha.net>.
-# This file is distributed under the same license as the yelp package.
-#
-# Bharat Kumar <jonnalagaddabharat@gmail.com>, 2007.
-# Krishna Babu K <kkrothap@redhat.com>, 2009.
-# Hari krishna <hari@swecha.net>, 2011.
-# Krishna Babu K <kkrothap@redhat.com>, 2011, 2012, 2013, 2014.
-# Praveen Illa <mail2ipn@gmail.com>, 2011, 2012.
-# Sasi Bhushan Boddepalli <sasi@swecha.net>, 2012.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Bharat Kumar <jonnalagaddabharat@gmail.com>, 2007
+# Hari krishna <hari@swecha.net>, 2011
+# Krishnababu Krothapalli <kkrothap@redhat.com>, 2009,2011-2014
+# ప్రవీణ్ ఇళ్ళ <mail2ipn@gmail.com>, 2011-2012
+# Sasi Bhushan Boddepalli <sasi@swecha.net>, 2012
 msgid ""
 msgstr ""
-"Project-Id-Version: yelp.gnome-3-2\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=yelp&keywords=I18N+L10N&component=General\n"
-"POT-Creation-Date: 2014-09-22 23:18+0000\n"
-"PO-Revision-Date: 2014-09-23 16:21+0530\n"
-"Last-Translator: Krishnababu Krothapalli <kkrothap@redhat.com>\n"
-"Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
-"Language: te\n"
+"Project-Id-Version: yelp\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-19 16:01-0700\n"
+"PO-Revision-Date: 2018-04-19 23:03+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Language-Team: Telugu (http://www.transifex.com/endless-os/yelp/language/te/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Language: te\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -32,98 +29,194 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "స్థాపించు <string/>"
 
-#: ../libyelp/yelp-bz2-decompressor.c:144
-#: ../libyelp/yelp-lzma-decompressor.c:153
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:31
+msgid "Home"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.getting-started
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:40
+msgid "Getting started with your OS"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-introduction
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:49
+msgid "Introduction to your OS"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-exit
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:58
+msgid "Log out, power off or switch users"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-apps-open
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:67
+msgid "Start applications"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:78
+msgid "Desktop Apps &amp; Windows"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:89
+msgid "Files, Folders &amp; Search"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:98
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:109
+msgid "Networking, Web, Email &amp; Chat"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.prefs
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:120
+msgid "User &amp; System Settings"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.tips
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:131
+msgid "Tips &amp; Tricks"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.media
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:142
+msgid "Sound, Video &amp; Pictures"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: yelp-endless.xml.in:153
+msgid "Hardware &amp; Drivers"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.more-help
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:162
+msgid "Get more help"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.endless-videos
+#. Appears on the static navigation sidebar.
+#: yelp-endless.xml.in:171
+msgid "Video Tutorials"
+msgstr ""
+
+#: ../libyelp/yelp-bz2-decompressor.c:143
+#: ../libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
 msgstr "కుచించిన దత్తాంశం చెల్లదు"
 
-#: ../libyelp/yelp-bz2-decompressor.c:150
-#: ../libyelp/yelp-lzma-decompressor.c:159
+#: ../libyelp/yelp-bz2-decompressor.c:149
+#: ../libyelp/yelp-lzma-decompressor.c:158
 msgid "Not enough memory"
 msgstr "సరిపడ మెమొరీ లేదు"
 
-#: ../libyelp/yelp-docbook-document.c:297 ../libyelp/yelp-info-document.c:237
-#: ../libyelp/yelp-mallard-document.c:305
-#: ../libyelp/yelp-mallard-document.c:456 ../libyelp/yelp-man-document.c:281
+#: ../libyelp/yelp-docbook-document.c:285 ../libyelp/yelp-info-document.c:221
+#: ../libyelp/yelp-mallard-document.c:301
+#: ../libyelp/yelp-mallard-document.c:455 ../libyelp/yelp-man-document.c:255
 #, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
 msgstr "పేజీ ‘%s‘ పత్రము‘%s‘ నందు కనబడలేదు."
 
-#: ../libyelp/yelp-docbook-document.c:332 ../libyelp/yelp-info-document.c:371
-#: ../libyelp/yelp-man-document.c:416
+#: ../libyelp/yelp-docbook-document.c:323 ../libyelp/yelp-info-document.c:358
+#: ../libyelp/yelp-man-document.c:393
 #, c-format
 msgid "The file does not exist."
 msgstr "ఫైలు అసలు లేనే లేదు."
 
-#: ../libyelp/yelp-docbook-document.c:342 ../libyelp/yelp-info-document.c:381
-#: ../libyelp/yelp-man-document.c:426
+#: ../libyelp/yelp-docbook-document.c:333 ../libyelp/yelp-info-document.c:368
+#: ../libyelp/yelp-man-document.c:403
 #, c-format
 msgid "The file ‘%s’ does not exist."
 msgstr "ఫైలు ‘%s’ లేదు."
 
-#: ../libyelp/yelp-docbook-document.c:357
+#: ../libyelp/yelp-docbook-document.c:348
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"ఫైలు ‘%s’ పార్శ్ చేయబడలేక పోయింది యెంచేతంటే అది సరిగా-రూపొందిన XML పత్రము "
-"కాదు."
+msgstr "ఫైలు ‘%s’ పార్శ్ చేయబడలేక పోయింది యెంచేతంటే అది సరిగా-రూపొందిన XML పత్రము కాదు."
 
-#: ../libyelp/yelp-docbook-document.c:370
+#: ../libyelp/yelp-docbook-document.c:361
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"ఫైలు ‘%s’ పార్శ్ చేయబడలేక పోయింది యెంచేతంటే దానిలో చేర్చిన వొకటి లేదా యెక్కువ "
-"ఫైళ్ళు సరిగా-రూపొందిన XML "
-"పత్రము కాదు."
+msgstr "ఫైలు ‘%s’ పార్శ్ చేయబడలేక పోయింది యెంచేతంటే దానిలో చేర్చిన వొకటి లేదా యెక్కువ ఫైళ్ళు సరిగా-రూపొందిన XML పత్రము కాదు."
 
-#: ../libyelp/yelp-docbook-document.c:803
+#: ../libyelp/yelp-docbook-document.c:791
 msgid "Unknown"
 msgstr "తెలియదు"
 
-#: ../libyelp/yelp-docbook-document.c:864 ../libyelp/yelp-info-document.c:314
-#: ../libyelp/yelp-man-document.c:358
+#: ../libyelp/yelp-docbook-document.c:853 ../libyelp/yelp-info-document.c:301
+#: ../libyelp/yelp-man-document.c:335
 #, c-format
 msgid "The requested page was not found in the document ‘%s’."
 msgstr "అభ్యర్ధించిన పేజీ పత్రము ‘%s‘ నందు కనబడలేదు."
 
-#: ../libyelp/yelp-document.c:266
-msgid "Indexed"
-msgstr "సూచించబడిన"
-
-#: ../libyelp/yelp-document.c:267
-msgid "Whether the document content has been indexed"
-msgstr "పత్రము యొక్క సారము సూచించబడాలా వద్దా"
-
-#: ../libyelp/yelp-document.c:275
-msgid "Document URI"
-msgstr "పత్రము యొక్క URI"
-
-#: ../libyelp/yelp-document.c:276
-msgid "The URI which identifies the document"
-msgstr "పత్రాన్ని గుర్తించే URI"
-
-#: ../libyelp/yelp-document.c:994
+#: ../libyelp/yelp-document.c:1030
 #, c-format
 msgid "Search results for “%s”"
 msgstr "“%s“కు అన్వేషణ ఫలితాలు"
 
-#: ../libyelp/yelp-document.c:1006
+#: ../libyelp/yelp-document.c:1042
 #, c-format
 msgid "No matching help pages found in “%s”."
 msgstr "సరిపోలిన సహాయ పేజీలు ఏవీ “%s” నందు కనపడలేదు."
 
-#: ../libyelp/yelp-document.c:1012
+#: ../libyelp/yelp-document.c:1048
 msgid "No matching help pages found."
 msgstr "సరిపోలిన సహాయ పేజీలు ఏవీ కనపడలేదు."
 
@@ -132,482 +225,223 @@ msgstr "సరిపోలిన సహాయ పేజీలు ఏవీ క�
 msgid "An unknown error occurred."
 msgstr "తెలియని దోషం సంభవించినది."
 
-#: ../libyelp/yelp-help-list.c:546 ../libyelp/yelp-help-list.c:555
+#: ../libyelp/yelp-help-list.c:548 ../libyelp/yelp-help-list.c:557
 msgid "All Help Documents"
 msgstr "అన్ని సహాయ పత్రాలు"
 
-#: ../libyelp/yelp-info-document.c:396
+#: ../libyelp/yelp-info-document.c:383
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"ఫైలు ‘%s’ పార్శ్ చేయబడలేకపోయింది ఎందుకంటే అది సరిగా-రూపొందించిన సామాచార "
-"పేజీకాదు."
+msgstr "ఫైలు ‘%s’ పార్శ్ చేయబడలేకపోయింది ఎందుకంటే అది సరిగా-రూపొందించిన సామాచార పేజీకాదు."
 
-#: ../libyelp/yelp-mallard-document.c:344
+#: ../libyelp/yelp-mallard-document.c:343
 #, c-format
 msgid "The directory ‘%s’ does not exist."
 msgstr "‘%s’ డైరెక్టరీ అసలు లేదు."
 
-#: ../libyelp/yelp-search-entry.c:173
-msgid "View"
-msgstr "దర్శనం"
-
-#: ../libyelp/yelp-search-entry.c:174
-msgid "A YelpView instance to control"
-msgstr "యెల్ప్ వ్యూ నియంత్రణకు సందర్భము"
-
-#: ../libyelp/yelp-search-entry.c:189 ../src/yelp-window.c:399
-msgid "Bookmarks"
-msgstr "ఇష్టాంశములు"
-
-#: ../libyelp/yelp-search-entry.c:190
-msgid "A YelpBookmarks implementation instance"
-msgstr "యెల్ప్ ఇష్టాంశాలను అమలుచేయు సందర్భము"
-
-#: ../libyelp/yelp-search-entry.c:440
+#: ../libyelp/yelp-search-entry.c:433
 #, c-format
 msgid "Search for “%s”"
 msgstr "“%s“కు అన్వేషణ ఫలితాలు"
 
-#: ../libyelp/yelp-settings.c:152
-msgid "GtkSettings"
-msgstr "జిటికెఅమరికలు"
-
-#: ../libyelp/yelp-settings.c:153
-msgid "A GtkSettings object to get settings from"
-msgstr "అమరికల ఫారమునకు జిటికెఅమరికలు తాత్పర్యము"
-
-#: ../libyelp/yelp-settings.c:161
-msgid "GtkIconTheme"
-msgstr "జిటికెప్రతిమ అలంకారం"
-
-#: ../libyelp/yelp-settings.c:162
-msgid "A GtkIconTheme object to get icons from"
-msgstr "ప్రతిమ ఫారమునుకు Gtkప్రతిమఐచ్చిక శైలి తాత్పర్యము"
-
-#: ../libyelp/yelp-settings.c:170
-msgid "Font Adjustment"
-msgstr "ఖతి సవరణ"
-
-#: ../libyelp/yelp-settings.c:171
-msgid "A size adjustment to add to font sizes"
-msgstr "ఖతి పరిమాణములను కూర్చుటకు పరిమాణ సవరణ"
-
-#: ../libyelp/yelp-settings.c:179
-msgid "Show Text Cursor"
-msgstr "పాఠ ములుకును చూపించు"
-
-#: ../libyelp/yelp-settings.c:180
-msgid "Show the text cursor or caret for accessible navigation"
-msgstr "విహరించుటకు సాంగత్యమునకు హంస పాదు లేదా పాఠ ములుకును ప్రదర్శించు"
-
-#: ../libyelp/yelp-settings.c:188
-msgid "Editor Mode"
-msgstr "సంకలన విధము"
-
-#: ../libyelp/yelp-settings.c:189
-msgid "Enable features useful to editors"
-msgstr "సంకలన వ్యవస్థకు ఉపయోగపడే విశిష్ఠతలను చేతనపరుచు"
-
-#: ../libyelp/yelp-sqlite-storage.c:147
-msgid "Database filename"
-msgstr "దత్తాంశ ఫైలుపేరు"
-
-#: ../libyelp/yelp-sqlite-storage.c:148
-msgid "The filename of the sqlite database"
-msgstr "sqlite దత్తాంశస్థానం యొక్క ఫైలుపేరు"
-
-#: ../libyelp/yelp-transform.c:169
-msgid "XSLT Stylesheet"
-msgstr "XSLT స్టైల్‌షీట్"
-
-#: ../libyelp/yelp-transform.c:170
-msgid "The location of the XSLT stylesheet"
-msgstr "XSLT శైలి పేజీ యొక్క స్థానము"
-
-#: ../libyelp/yelp-transform.c:378 ../libyelp/yelp-transform.c:393
+#: ../libyelp/yelp-transform.c:369 ../libyelp/yelp-transform.c:384
 #, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
 msgstr "XSLT స్టైల్‌షీట్ ‘%s’ తప్పిపోయింది, లేదా చెల్లునదికాదు"
 
-#: ../libyelp/yelp-transform.c:527
+#: ../libyelp/yelp-transform.c:518
 msgid "No href attribute found on yelp:document\n"
 msgstr "yelp:document నందు ఎటువంటి href గుణాపాదన కనబడలేదు\n"
 
-#: ../libyelp/yelp-transform.c:542
+#: ../libyelp/yelp-transform.c:533
 msgid "Out of memory"
 msgstr "మెమొరీ మించినది"
 
-#: ../libyelp/yelp-view.c:446
-msgid "Yelp URI"
-msgstr "యెల్ప్ URI"
-
-#: ../libyelp/yelp-view.c:447
-msgid "A YelpUri with the current location"
-msgstr "ప్రస్తుత స్థానంతో YelpUri"
-
-#: ../libyelp/yelp-view.c:455
-msgid "Loading State"
-msgstr "లోడవు స్థితి..."
-
-#: ../libyelp/yelp-view.c:456
-msgid "The loading state of the view"
-msgstr "దర్శనం యొక్క లోడవు స్థితి"
-
-#: ../libyelp/yelp-view.c:465
-msgid "Page ID"
-msgstr "పేజీ  ఐడి"
-
-#: ../libyelp/yelp-view.c:466
-msgid "The ID of the root page of the page being viewed"
-msgstr "దర్శించుచున్న పేజీ యొక్క మూలపు పేజీ ఐడి"
-
-#: ../libyelp/yelp-view.c:474
-msgid "Root Title"
-msgstr "మూల శీర్షిక"
-
-#: ../libyelp/yelp-view.c:475
-msgid "The title of the root page of the page being viewed"
-msgstr "దర్శించుచున్న పేజీ యొక్క మూలపు పేజీ శీర్షిక"
-
-#: ../libyelp/yelp-view.c:483
-msgid "Page Title"
-msgstr "పేజీ శీర్షిక"
-
-#: ../libyelp/yelp-view.c:484
-msgid "The title of the page being viewed"
-msgstr "దర్శించుచున్న పేజీ యొక్క శీర్షిక"
-
-#: ../libyelp/yelp-view.c:492
-msgid "Page Description"
-msgstr "పేజీ యొక్క వివరణ"
-
-#: ../libyelp/yelp-view.c:493
-msgid "The description of the page being viewed"
-msgstr "వీక్షించుచున్న పేజీ యొక్క వివరణ "
-
-#: ../libyelp/yelp-view.c:501
-msgid "Page Icon"
-msgstr "పేజీ ప్రతిమ"
-
-#: ../libyelp/yelp-view.c:502
-msgid "The icon of the page being viewed"
-msgstr "వీక్షించుచున్న పేజీ యొక్క ప్రతిమ"
-
-#: ../libyelp/yelp-view.c:744
-msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr "మీ వద్ద ప్యాకేజీకిట్ లేదు. ప్యాకేజీ నెలకొల్పుటకు ప్యాకేజీకిట్ అవసరము."
-
-#: ../libyelp/yelp-view.c:1040
-msgid "Save Image"
-msgstr "బొమ్మను భద్రపరుచు"
-
-#: ../libyelp/yelp-view.c:1135
-msgid "Save Code"
-msgstr "సంకేతమును దాచు"
-
-#: ../libyelp/yelp-view.c:1298
-#, c-format
-msgid "Send email to %s"
-msgstr "%s కు ఈమెయిల్ పంపండి"
-
-#: ../libyelp/yelp-view.c:1313
-msgid "_Install Packages"
-msgstr "ప్యాకేజీలను స్థాపించండి (_I)"
-
-#: ../libyelp/yelp-view.c:1321
-msgid "_Open Link"
-msgstr "లంకెను తెరువు (_O)"
-
-#: ../libyelp/yelp-view.c:1328
-msgid "_Copy Link Location"
-msgstr "లంకె స్థానాన్ని నకలుతీయి (_C)"
-
-#: ../libyelp/yelp-view.c:1334
-msgid "Open Link in New _Window"
-msgstr "లంకెను కొత్త విండోలో తెరువండి (_W)"
-
-#: ../libyelp/yelp-view.c:1388
-#| msgid "_Save Image As..."
-msgid "_Save Image As…"
-msgstr "చిత్రమును ఇలా భద్రపరుచండి... (_S)"
-
-#: ../libyelp/yelp-view.c:1390
-#| msgid "_Save Video As..."
-msgid "_Save Video As…"
-msgstr "దృశ్యకమును ఇలా భద్రపరచండి... (_S)"
-
-#: ../libyelp/yelp-view.c:1397
-#| msgid "S_end Image To..."
-msgid "S_end Image To…"
-msgstr "చిత్రం వీరికి పంపండి (_e)..."
-
-#: ../libyelp/yelp-view.c:1399
-#| msgid "S_end Video To..."
-msgid "S_end Video To…"
-msgstr "వీడియో వీరికి పంపండి (_e)..."
-
-#: ../libyelp/yelp-view.c:1410
-msgid "_Copy Text"
-msgstr "పాఠము నకలుతీయి (_C)"
-
-#: ../libyelp/yelp-view.c:1423
+#: ../libyelp/yelp-view.c:253
 msgid "C_opy Code Block"
 msgstr "సంకేత విభాగ నకలు(_o)"
 
-#: ../libyelp/yelp-view.c:1428
-#| msgid "Save Code _Block As..."
+#: ../libyelp/yelp-view.c:258
+msgid "_Copy Link Location"
+msgstr "లంకె స్థానాన్ని నకలుతీయి (_C)"
+
+#: ../libyelp/yelp-view.c:263
+msgid "_Open Link"
+msgstr "లంకెను తెరువు (_O)"
+
+#: ../libyelp/yelp-view.c:268
+msgid "Open Link in New _Window"
+msgstr "లంకెను కొత్త విండోలో తెరువండి (_W)"
+
+#: ../libyelp/yelp-view.c:278
+msgid "_Install Packages"
+msgstr "ప్యాకేజీలను స్థాపించండి (_I)"
+
+#: ../libyelp/yelp-view.c:283
 msgid "Save Code _Block As…"
 msgstr "కోడ్ బ్లాక్ ఇలా దాయి..."
 
-#: ../libyelp/yelp-view.c:1535
-#, c-format
-msgid "See all search results for “%s”"
-msgstr "“%s“కు సంబంధించిన అన్ని అన్వేషణ ఫలితాలు చూడండి"
+#: ../libyelp/yelp-view.c:298
+msgid "_Copy Text"
+msgstr "పాఠము నకలుతీయి (_C)"
 
-#: ../libyelp/yelp-view.c:1656
-#, c-format
-msgid "Could not load a document for ‘%s’"
-msgstr "పత్రమును లోడు చేయడం కుదురుట లేదు ‘%s’కు"
-
-#: ../libyelp/yelp-view.c:1662
-#, c-format
-msgid "Could not load a document"
-msgstr "పత్రము లోడు చేయడం కుదురుట లేదు"
-
-#: ../libyelp/yelp-view.c:1737
-msgid "Document Not Found"
-msgstr "పత్రము కనపడలేదు"
-
-#: ../libyelp/yelp-view.c:1739
-msgid "Page Not Found"
-msgstr "పేజీ కనబడలేదు"
-
-#: ../libyelp/yelp-view.c:1742
-msgid "Cannot Read"
-msgstr "చదువుట కుదురుటలేదు"
-
-#: ../libyelp/yelp-view.c:1748
-msgid "Unknown Error"
-msgstr "తెలియని దోషం"
-
-#: ../libyelp/yelp-view.c:1768
-msgid "Search for packages containing this document."
-msgstr "పత్రమునందు ఉన్న ప్యాకేజీల కొరకు కనుగొనుము"
-
-#: ../libyelp/yelp-view.c:1918
+#: ../libyelp/yelp-view.c:826 ../libyelp/yelp-view.c:2197
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "‘%s’ URI వర్తించు  ఫైలుమునకు చూపేజీలేదు."
 
-#: ../libyelp/yelp-view.c:1924
+#: ../libyelp/yelp-view.c:832 ../libyelp/yelp-view.c:2203
 #, c-format
 msgid "The URI does not point to a valid page."
 msgstr "URI వర్తించు పేజీనకు సూచించుట లేదు"
 
-#: ../libyelp/yelp-view.c:1930
+#: ../libyelp/yelp-view.c:837 ../libyelp/yelp-view.c:2209
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "‘%s’ URI పార్స్ అవ్వటలేదు."
+
+#: ../libyelp/yelp-view.c:842
+#, c-format
+msgid "Unknown Error."
+msgstr ""
+
+#: ../libyelp/yelp-view.c:996
+msgid "You do not have PackageKit. Package install links require PackageKit."
+msgstr "మీ వద్ద ప్యాకేజీకిట్ లేదు. ప్యాకేజీ నెలకొల్పుటకు ప్యాకేజీకిట్ అవసరము."
+
+#: ../libyelp/yelp-view.c:1243
+msgid "Save Image"
+msgstr "బొమ్మను భద్రపరుచు"
+
+#: ../libyelp/yelp-view.c:1342
+msgid "Save Code"
+msgstr "సంకేతమును దాచు"
+
+#: ../libyelp/yelp-view.c:1438
+#, c-format
+msgid "Send email to %s"
+msgstr "%s కు ఈమెయిల్ పంపండి"
+
+#: ../libyelp/yelp-view.c:1542
+msgid "_Save Image As…"
+msgstr "చిత్రమును ఇలా భద్రపరుచండి... (_S)"
+
+#: ../libyelp/yelp-view.c:1543
+msgid "_Save Video As…"
+msgstr "దృశ్యకమును ఇలా భద్రపరచండి... (_S)"
+
+#: ../libyelp/yelp-view.c:1551
+msgid "S_end Image To…"
+msgstr "చిత్రం వీరికి పంపండి (_e)..."
+
+#: ../libyelp/yelp-view.c:1552
+msgid "S_end Video To…"
+msgstr "వీడియో వీరికి పంపండి (_e)..."
+
+#: ../libyelp/yelp-view.c:1893
+#, c-format
+msgid "Could not load a document for ‘%s’"
+msgstr "పత్రమును లోడు చేయడం కుదురుట లేదు ‘%s’కు"
+
+#: ../libyelp/yelp-view.c:1899
+#, c-format
+msgid "Could not load a document"
+msgstr "పత్రము లోడు చేయడం కుదురుట లేదు"
+
+#: ../libyelp/yelp-view.c:1983
+msgid "Document Not Found"
+msgstr "పత్రము కనపడలేదు"
+
+#: ../libyelp/yelp-view.c:1985
+msgid "Page Not Found"
+msgstr "పేజీ కనబడలేదు"
+
+#: ../libyelp/yelp-view.c:1988
+msgid "Cannot Read"
+msgstr "చదువుట కుదురుటలేదు"
+
+#: ../libyelp/yelp-view.c:1994
+msgid "Unknown Error"
+msgstr "తెలియని దోషం"
+
+#: ../libyelp/yelp-view.c:2014
+msgid "Search for packages containing this document."
+msgstr "పత్రమునందు ఉన్న ప్యాకేజీల కొరకు కనుగొనుము"
 
 #: ../src/yelp-application.c:59
 msgid "Turn on editor mode"
 msgstr "సంకలన విధమును ప్రారంభించు"
 
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
-#: ../yelp.desktop.in.in.h:1
+#: ../src/yelp-application.c:322 ../src/yelp-window.c:1179
+#: ../src/yelp-window.c:1187
 msgid "Help"
 msgstr "సహాయం"
 
-#: ../src/yelp-application.c:322
-#| msgid "_New Window"
+#: ../src/yelp-application.c:374
 msgid "New Window"
 msgstr "కొత్త విండో"
 
-#: ../src/yelp-application.c:326
-#| msgid "_Larger Text"
+#: ../src/yelp-application.c:378
 msgid "Larger Text"
 msgstr "పెద్ద పాఠం"
 
-#: ../src/yelp-application.c:327
-#| msgid "_Smaller Text"
+#: ../src/yelp-application.c:379
 msgid "Smaller Text"
 msgstr "చిన్న పాఠం"
 
-#: ../src/yelp-window.c:206
-msgid "Application"
-msgstr "అనువర్తనం"
-
-#: ../src/yelp-window.c:207
-msgid "A YelpApplication instance that controls this window"
-msgstr "ఈ విండోను నియంత్రించుటకు ఒక Yelpకార్యక్షేత్ర ప్రతిరూపాంశము"
-
-#: ../src/yelp-window.c:325
-#| msgid "_Back"
+#: ../src/yelp-window.c:348
 msgid "Back"
 msgstr "వెనుకకు"
 
-#: ../src/yelp-window.c:332
-#| msgid "_Forward"
+#: ../src/yelp-window.c:355
 msgid "Forward"
 msgstr "ఫార్వార్డ్"
 
-#: ../src/yelp-window.c:343
+#: ../src/yelp-window.c:366
 msgid "Menu"
 msgstr "మెనూ"
 
-#: ../src/yelp-window.c:348
-#| msgid "Find:"
+#: ../src/yelp-window.c:371
 msgid "Find…"
 msgstr "కనుగొను..."
 
-#: ../src/yelp-window.c:349
+#: ../src/yelp-window.c:372
 msgid "Print…"
 msgstr "ముద్రించు..."
 
-#: ../src/yelp-window.c:354
-#| msgid "_Previous Page"
+#: ../src/yelp-window.c:377
 msgid "Previous Page"
 msgstr "మునుపటి పేజీ"
 
-#: ../src/yelp-window.c:355
-#| msgid "_Next Page"
+#: ../src/yelp-window.c:378
 msgid "Next Page"
 msgstr "తరువాతి  పేజీ"
 
-#: ../src/yelp-window.c:360
-#| msgid "Help"
+#: ../src/yelp-window.c:383
 msgid "All Help"
 msgstr "మొత్తం సహాయం"
 
-#: ../src/yelp-window.c:382
+#: ../src/yelp-window.c:406
 msgid "Search (Ctrl+S)"
 msgstr "వెతుకు (Ctrl+S)"
 
-#: ../src/yelp-window.c:416
-#| msgid "Bookmarks"
+#: ../src/yelp-window.c:420
+msgid "Bookmarks"
+msgstr "ఇష్టాంశములు"
+
+#: ../src/yelp-window.c:437
 msgid "No bookmarks"
 msgstr "ఇష్టాంశములు లేవు"
 
-#: ../src/yelp-window.c:424
-#| msgid "_Add Bookmark"
+#: ../src/yelp-window.c:445
 msgid "Add Bookmark"
 msgstr "ఇష్టాంశముగా చేయి"
 
-#: ../src/yelp-window.c:430
-#| msgid "_Remove Bookmark"
+#: ../src/yelp-window.c:451
 msgid "Remove Bookmark"
 msgstr "ఇష్టాంశమును తీసివేయి"
 
-#: ../yelp.desktop.in.in.h:2
-msgid "Get help with GNOME"
-msgstr "గ్నోమ్‌తో సహాయం పొందండి"
-
-#: ../yelp.desktop.in.in.h:3
-msgid "documentation;information;manual;"
-msgstr "పత్రకీకరణ;సమాచారం;మాన్యువల్;"
-
-#~ msgid "Enable Search"
-#~ msgstr "అన్వేషణను చేతనపరుచు"
-
-#~ msgid "Whether the location entry can be used as a search field"
-#~ msgstr "ప్రవేశ స్థానం కనుగొను క్షేత్రం కొరకు ఉపయోగించవచ్చును ఏమో"
-
-#~ msgid "Search..."
-#~ msgstr "అన్వేషించు..."
-
-#~ msgid "Clear the search text"
-#~ msgstr "కనుగొనుతున్న పాఠమును చెరుపుము"
-
-#~ msgid "Bookmark this page"
-#~ msgstr "ఈ పేజీని ఇష్టాంశముగా చేయి"
-
-#~ msgid "Remove bookmark"
-#~ msgstr "ఇష్టాంశమును తీసివేయి"
-
-#~ msgid "Loading"
-#~ msgstr "లోడవుతున్నది"
-
-#~ msgid "_Print..."
-#~ msgstr "ముద్రించు...(_P)"
-
-#~ msgid "Increase the size of the text"
-#~ msgstr "పాఠ పరిమాణం పెంచు"
-
-#~ msgid "Decrease the size of the text"
-#~ msgstr "పాఠ పరిమాణం తగ్గించు"
-
-#~ msgid "Show Text _Cursor"
-#~ msgstr "మూలము ములుకు చూపించు(_C)"
-
-#~ msgid "_Page"
-#~ msgstr "పేజీ(_P)"
-
-#~ msgid "_View"
-#~ msgstr "దర్శనం (_V)"
-
-#~ msgid "_Go"
-#~ msgstr "వెళ్ళు (_G)"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "ఇష్టాంశాలు (_B)"
-
-#~ msgid "_Close"
-#~ msgstr "మూసివేయి (_C)"
-
-#~ msgid "_All Documents"
-#~ msgstr "అన్ని పత్రములు (_A)"
-
-#~ msgid "Find in Page..."
-#~ msgstr "ఈ పేజీలో వెతుకండి..."
-
-#~ msgid "Open Location"
-#~ msgstr "స్థానాన్ని తెరువండి"
-
-#~ msgid "Read Link _Later"
-#~ msgstr "లంకె తరువాత చదువు (_L)"
-
-#~ msgid "Read Later"
-#~ msgstr "తరువాత చదువు"
-
-#~ msgid "%i match"
-#~ msgid_plural "%i matches"
-#~ msgstr[0] "%i సరిపోలిన"
-#~ msgstr[1] "%i సరిపోలినవి"
-
-#~ msgid "No matches"
-#~ msgstr "ఏవీ సరిపోలేదు"
-
-#~ msgid "_Share..."
-#~ msgstr "పంచుకొను...(_S)"
-
-#~ msgid "Share"
-#~ msgstr "పంచుకొను"
-
-#~ msgid "Close"
-#~ msgstr "మూసివేయి"
-
-#~ msgid "Chat"
-#~ msgstr "చాట్"
-
-#~ msgid "Send a help link to a chat contact:"
-#~ msgstr "చాట్ పరిచయానికి ఒక సహాయ లంకెను పంపండి:"
-
-#~ msgid "Email"
-#~ msgstr "ఈమెయిల్"
-
-#~ msgid "Send a help link to an email contact:"
-#~ msgstr "ఈమెయిల్ పరిచయానికి ఒక సహాయ లంకెను పంపండి:"
-
-#~ msgid "Compose new email"
-#~ msgstr "కొత్త ఈమెయిలును రూపొందించండి"
-
-#~ msgid "Copy"
-#~ msgstr "నకలుచేయండి"
-
-#~ msgid "Copy the help location to the clipboard:"
-#~ msgstr "సహాయ స్థానాన్ని క్లిప్‌బోర్డునకు నకలుతీయండి:"
-
-#~ msgid "Copy location to clipboard"
-#~ msgstr "స్థానాన్ని క్లిప్‌బోర్డునకు నకలుతీయండి"
+#: ../org.gnome.Yelp.desktop.in.in.h:1
+msgid "documentation;information;manual;help;"
+msgstr ""
