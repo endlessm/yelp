@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 16:01-0700\n"
-"PO-Revision-Date: 2018-04-19 23:03+0000\n"
+"PO-Revision-Date: 2018-04-19 23:59+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Low German (http://www.transifex.com/endless-os/yelp/language/nds/)\n"
 "MIME-Version: 1.0\n"
@@ -37,7 +37,7 @@ msgstr ""
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:31
 msgid "Home"
-msgstr ""
+msgstr "Startsied"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.getting-started

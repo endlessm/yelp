@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 16:01-0700\n"
-"PO-Revision-Date: 2018-04-19 23:03+0000\n"
+"PO-Revision-Date: 2018-04-19 23:58+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Danish (http://www.transifex.com/endless-os/yelp/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -169,7 +169,7 @@ msgstr "Ikke nok hukommelse"
 #: ../libyelp/yelp-mallard-document.c:455 ../libyelp/yelp-man-document.c:255
 #, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
-msgstr "Siden \"%s\" blev ikke fundet i dokumentet \"%s\"."
+msgstr "Siden “%s” blev ikke fundet i dokumentet “%s”."
 
 #: ../libyelp/yelp-docbook-document.c:323 ../libyelp/yelp-info-document.c:358
 #: ../libyelp/yelp-man-document.c:393
@@ -181,21 +181,21 @@ msgstr "Filen findes ikke."
 #: ../libyelp/yelp-man-document.c:403
 #, c-format
 msgid "The file ‘%s’ does not exist."
-msgstr "Filen \"%s\" findes ikke."
+msgstr "Filen “%s” findes ikke."
 
 #: ../libyelp/yelp-docbook-document.c:348
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr "Filen \"%s\" kunne ikke fortolkes fordi den ikke er et velformet XML-dokument."
+msgstr "Filen “%s” kunne ikke fortolkes fordi den ikke er et velformet XML-dokument."
 
 #: ../libyelp/yelp-docbook-document.c:361
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr "Filen \"%s\" kunne ikke fortolkes fordi en eller flere af dens inkluderede filer ikke er et velformet XML-dokument."
+msgstr "Filen “%s” kunne ikke fortolkes fordi en eller flere af dens inkluderede filer ikke er et velformet XML-dokument."
 
 #: ../libyelp/yelp-docbook-document.c:791
 msgid "Unknown"
@@ -205,17 +205,17 @@ msgstr "Ukendt"
 #: ../libyelp/yelp-man-document.c:335
 #, c-format
 msgid "The requested page was not found in the document ‘%s’."
-msgstr "Den efterspurgte side blev ikke fundet i dokumentet \"%s\"."
+msgstr "Den efterspurgte side blev ikke fundet i dokumentet “%s”."
 
 #: ../libyelp/yelp-document.c:1030
 #, c-format
 msgid "Search results for “%s”"
-msgstr "Søgeresultater for \"%s\""
+msgstr "Søgeresultater for “%s”"
 
 #: ../libyelp/yelp-document.c:1042
 #, c-format
 msgid "No matching help pages found in “%s”."
-msgstr "Ingen hjælpesider fundet i \"%s\"."
+msgstr "Ingen hjælpesider fundet i “%s”."
 
 #: ../libyelp/yelp-document.c:1048
 msgid "No matching help pages found."
@@ -234,12 +234,12 @@ msgstr "Alle hjælpedokumenter"
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr "Filen \"%s\" kunne ikke fortolkes fordi den ikke er en velformet info-side."
+msgstr "Filen “%s” kunne ikke fortolkes fordi den ikke er en velformet info-side."
 
 #: ../libyelp/yelp-mallard-document.c:343
 #, c-format
 msgid "The directory ‘%s’ does not exist."
-msgstr "Mappen \"%s\" findes ikke."
+msgstr "Mappen “%s” findes ikke."
 
 #: ../libyelp/yelp-search-entry.c:433
 #, c-format
@@ -249,11 +249,11 @@ msgstr "Søg efter “%s”"
 #: ../libyelp/yelp-transform.c:369 ../libyelp/yelp-transform.c:384
 #, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
-msgstr "XSLT-stilarket \"%s\" mangler eller indeholder fejl."
+msgstr "XSLT-stilarket “%s” mangler eller indeholder fejl."
 
 #: ../libyelp/yelp-transform.c:518
 msgid "No href attribute found on yelp:document\n"
-msgstr "Ingen \"href\"-egenskab fundet i yelp:document\n"
+msgstr "Ingen “href”-egenskab fundet i yelp:document\n"
 
 #: ../libyelp/yelp-transform.c:533
 msgid "Out of memory"
@@ -290,7 +290,7 @@ msgstr "_Kopiér tekst"
 #: ../libyelp/yelp-view.c:826 ../libyelp/yelp-view.c:2197
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
-msgstr "URI'en \"%s\" peger ikke på en gyldig side."
+msgstr "URI'en “%s” peger ikke på en gyldig side."
 
 #: ../libyelp/yelp-view.c:832 ../libyelp/yelp-view.c:2203
 #, c-format
@@ -300,7 +300,7 @@ msgstr "URI'en peger ikke på en gyldig side."
 #: ../libyelp/yelp-view.c:837 ../libyelp/yelp-view.c:2209
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
-msgstr "URI'en \"%s\" kunne ikke tolkes."
+msgstr "URI'en “%s” kunne ikke tolkes."
 
 #: ../libyelp/yelp-view.c:842
 #, c-format
@@ -343,7 +343,7 @@ msgstr "_Send video til …"
 #: ../libyelp/yelp-view.c:1893
 #, c-format
 msgid "Could not load a document for ‘%s’"
-msgstr "Kunne ikke indlæse et dokument for \"%s\""
+msgstr "Kunne ikke indlæse et dokument for “%s”"
 
 #: ../libyelp/yelp-view.c:1899
 #, c-format

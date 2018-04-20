@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 16:01-0700\n"
-"PO-Revision-Date: 2018-04-19 23:03+0000\n"
+"PO-Revision-Date: 2018-04-19 23:58+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Serbian (http://www.transifex.com/endless-os/yelp/language/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -422,7 +422,7 @@ msgstr "Сва помоћ"
 
 #: ../src/yelp-window.c:406
 msgid "Search (Ctrl+S)"
-msgstr "Тражи (Ктрл+С)"
+msgstr "Тражи (Ctrl+S)"
 
 #: ../src/yelp-window.c:420
 msgid "Bookmarks"

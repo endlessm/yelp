@@ -7,7 +7,7 @@
 # Baris Cicek <baris@teamforce.name.tr>, 2004-2005,2007-2009
 # Fatih Ergüven <fatih@erguven.org>, 2007
 # Görkem Çetin <gorkem@gelecek.com.tr>, 2002
-# Muhammet Kara <muhammetk@gmail.com>, 2011-2012,2014-2015
+# Muhammet Kara <muhammetk@gmail.com>, 2011-2012,2014-2015,2017
 # ozancaglayan <ozancag@gmail.com>, 2013
 # ozancaglayan <ozancag@gmail.com>, 2013
 # Serdar ÇİÇEK <serdar@nerd.com.tr>, 2007-2008
@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 16:01-0700\n"
-"PO-Revision-Date: 2018-04-19 23:03+0000\n"
+"PO-Revision-Date: 2018-04-19 23:55+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/endless-os/yelp/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -450,4 +450,4 @@ msgstr "Yer İmini Kaldır"
 
 #: ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "documentation;information;manual;help;"
-msgstr ""
+msgstr "belgelendirme;bilgi;kılavuz;yardım;"

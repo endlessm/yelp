@@ -5,6 +5,7 @@
 # Translators:
 # Alexandru Florescu <show_some_originality@yahoo.com>, 2011
 # Daniel Șerbănescu <cyber19rider@gmail.com>, 2010
+# Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2017
 # georgian balan <braila222@gmail.com>, 2017
 # Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010-2011
 # Mugurel Tudor <mugurelu@gnome.ro>, 2002-2003, 2005-2006
@@ -15,7 +16,7 @@ msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 16:01-0700\n"
-"PO-Revision-Date: 2018-04-19 23:03+0000\n"
+"PO-Revision-Date: 2018-04-19 23:58+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/endless-os/yelp/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -282,7 +283,7 @@ msgstr "_Instalează pachete"
 
 #: ../libyelp/yelp-view.c:283
 msgid "Save Code _Block As…"
-msgstr "Salveaza codul de bloc ca..."
+msgstr "Salvează _blocul de cod ca…"
 
 #: ../libyelp/yelp-view.c:298
 msgid "_Copy Text"
@@ -306,7 +307,7 @@ msgstr "URI-ul „%s” nu a putut fi analizat."
 #: ../libyelp/yelp-view.c:842
 #, c-format
 msgid "Unknown Error."
-msgstr "Eroare necunoscută"
+msgstr "Eroare necunoscută."
 
 #: ../libyelp/yelp-view.c:996
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -327,19 +328,19 @@ msgstr "Trimite email la %s"
 
 #: ../libyelp/yelp-view.c:1542
 msgid "_Save Image As…"
-msgstr "_Salveaza imaginea ca..."
+msgstr "_Salvează imaginea ca…"
 
 #: ../libyelp/yelp-view.c:1543
 msgid "_Save Video As…"
-msgstr "_Salveaza clipul ca..."
+msgstr "_Salvează videoul ca…"
 
 #: ../libyelp/yelp-view.c:1551
 msgid "S_end Image To…"
-msgstr "Trimite imaginea la..."
+msgstr "Trimit_e imaginea la…"
 
 #: ../libyelp/yelp-view.c:1552
 msgid "S_end Video To…"
-msgstr "Trimite clipul la..."
+msgstr "Trimit_e videoul la…"
 
 #: ../libyelp/yelp-view.c:1893
 #, c-format
@@ -382,23 +383,23 @@ msgstr "Ajutor"
 
 #: ../src/yelp-application.c:374
 msgid "New Window"
-msgstr "Fereastra noua"
+msgstr "Fereastră nouă"
 
 #: ../src/yelp-application.c:378
 msgid "Larger Text"
-msgstr "Mareste textul"
+msgstr "Text mai mare"
 
 #: ../src/yelp-application.c:379
 msgid "Smaller Text"
-msgstr "Micsoreaza textul"
+msgstr "Text mai mic"
 
 #: ../src/yelp-window.c:348
 msgid "Back"
-msgstr "Inapoi"
+msgstr "Înapoi"
 
 #: ../src/yelp-window.c:355
 msgid "Forward"
-msgstr "Inainte"
+msgstr "Înainte"
 
 #: ../src/yelp-window.c:366
 msgid "Menu"
@@ -406,27 +407,27 @@ msgstr "Meniu"
 
 #: ../src/yelp-window.c:371
 msgid "Find…"
-msgstr "Gaseste..."
+msgstr "Caută…"
 
 #: ../src/yelp-window.c:372
 msgid "Print…"
-msgstr "Printeaza..."
+msgstr "Tipărește…"
 
 #: ../src/yelp-window.c:377
 msgid "Previous Page"
-msgstr "Pagina anterioara"
+msgstr "Pagina precedentă"
 
 #: ../src/yelp-window.c:378
 msgid "Next Page"
-msgstr "Pagina urmatoare"
+msgstr "Pagina următoare"
 
 #: ../src/yelp-window.c:383
 msgid "All Help"
-msgstr "Ajutor complet"
+msgstr "Tot ajutorul"
 
 #: ../src/yelp-window.c:406
 msgid "Search (Ctrl+S)"
-msgstr "Cauta (Ctrl+S)"
+msgstr "Caută (Ctrl+S)"
 
 #: ../src/yelp-window.c:420
 msgid "Bookmarks"
@@ -434,16 +435,16 @@ msgstr "Semne de carte"
 
 #: ../src/yelp-window.c:437
 msgid "No bookmarks"
-msgstr "Nici un bookmark"
+msgstr "Nu sunt semne de carte"
 
 #: ../src/yelp-window.c:445
 msgid "Add Bookmark"
-msgstr "Adauga Bookmark"
+msgstr "Adaugă un semn de carte"
 
 #: ../src/yelp-window.c:451
 msgid "Remove Bookmark"
-msgstr "Inlatura Bookmark"
+msgstr "Elimină semnul de carte"
 
 #: ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "documentation;information;manual;help;"
-msgstr "documentare;informare;manual;ajutor;"
+msgstr "documentation;intormation;manual;documentație;informație;ajutor"

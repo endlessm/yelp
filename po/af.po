@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 16:01-0700\n"
-"PO-Revision-Date: 2018-04-19 23:03+0000\n"
+"PO-Revision-Date: 2018-04-19 23:57+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Afrikaans (http://www.transifex.com/endless-os/yelp/language/af/)\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr ""
 #. <string/> - The package to install
 #: yelp.xml.in:36
 msgid "Install <string/>"
-msgstr ""
+msgstr "Installeer <string/>"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
@@ -206,16 +206,16 @@ msgstr "Die bladsy wat versoek is, is nie gevind in die dokument ‘%s’ nie."
 #: ../libyelp/yelp-document.c:1030
 #, c-format
 msgid "Search results for “%s”"
-msgstr ""
+msgstr "Soekresultate vir \"%s\""
 
 #: ../libyelp/yelp-document.c:1042
 #, c-format
 msgid "No matching help pages found in “%s”."
-msgstr ""
+msgstr "Geen hulpbladsye wat pas in \"%s\" gevind nie."
 
 #: ../libyelp/yelp-document.c:1048
 msgid "No matching help pages found."
-msgstr ""
+msgstr "Geen hulpbladsye wat pas gevind nie."
 
 #: ../libyelp/yelp-error.c:35
 #, c-format
@@ -224,7 +224,7 @@ msgstr "'n Onbekende fout het voorgekom."
 
 #: ../libyelp/yelp-help-list.c:548 ../libyelp/yelp-help-list.c:557
 msgid "All Help Documents"
-msgstr ""
+msgstr "Alle hulpdokumente"
 
 #: ../libyelp/yelp-info-document.c:383
 #, c-format
@@ -240,7 +240,7 @@ msgstr "Die gids ‘%s’ bestaan nie."
 #: ../libyelp/yelp-search-entry.c:433
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "Soek vir “%s”"
 
 #: ../libyelp/yelp-transform.c:369 ../libyelp/yelp-transform.c:384
 #, c-format
@@ -261,7 +261,7 @@ msgstr "K_opieer kodeblok"
 
 #: ../libyelp/yelp-view.c:258
 msgid "_Copy Link Location"
-msgstr ""
+msgstr "K_opieer skakelligging"
 
 #: ../libyelp/yelp-view.c:263
 msgid "_Open Link"
@@ -273,11 +273,11 @@ msgstr "Open skakel in nuwe _venster"
 
 #: ../libyelp/yelp-view.c:278
 msgid "_Install Packages"
-msgstr ""
+msgstr "_Installeer pakkette"
 
 #: ../libyelp/yelp-view.c:283
 msgid "Save Code _Block As…"
-msgstr ""
+msgstr "Stoor kode_blok as…"
 
 #: ../libyelp/yelp-view.c:298
 msgid "_Copy Text"
@@ -301,11 +301,11 @@ msgstr "Die URI ‘%s’ kon nie ontleed word nie."
 #: ../libyelp/yelp-view.c:842
 #, c-format
 msgid "Unknown Error."
-msgstr ""
+msgstr "Onbekende fout."
 
 #: ../libyelp/yelp-view.c:996
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
+msgstr "PackageKit is nie geïnstalleer nie. Pakketinstallasieskakels vereis PackageKit."
 
 #: ../libyelp/yelp-view.c:1243
 msgid "Save Image"
@@ -322,19 +322,19 @@ msgstr "Stuur e-pos aan %s"
 
 #: ../libyelp/yelp-view.c:1542
 msgid "_Save Image As…"
-msgstr ""
+msgstr "_Stoor beeld as…"
 
 #: ../libyelp/yelp-view.c:1543
 msgid "_Save Video As…"
-msgstr ""
+msgstr "_Stoor video as…"
 
 #: ../libyelp/yelp-view.c:1551
 msgid "S_end Image To…"
-msgstr ""
+msgstr "S_tuur beeld aan…"
 
 #: ../libyelp/yelp-view.c:1552
 msgid "S_end Video To…"
-msgstr ""
+msgstr "S_tuur video aan…"
 
 #: ../libyelp/yelp-view.c:1893
 #, c-format
@@ -348,11 +348,11 @@ msgstr "Kon nie 'n dokument laai nie"
 
 #: ../libyelp/yelp-view.c:1983
 msgid "Document Not Found"
-msgstr ""
+msgstr "Dokument nie gevind nie"
 
 #: ../libyelp/yelp-view.c:1985
 msgid "Page Not Found"
-msgstr ""
+msgstr "Bladsy nie gevind nie"
 
 #: ../libyelp/yelp-view.c:1988
 msgid "Cannot Read"
@@ -364,7 +364,7 @@ msgstr "Onbekende fout"
 
 #: ../libyelp/yelp-view.c:2014
 msgid "Search for packages containing this document."
-msgstr ""
+msgstr "Soek vir pakkette wat die dokument bevat."
 
 #: ../src/yelp-application.c:59
 msgid "Turn on editor mode"
@@ -377,51 +377,51 @@ msgstr "Hulp"
 
 #: ../src/yelp-application.c:374
 msgid "New Window"
-msgstr ""
+msgstr "Nuwe venster"
 
 #: ../src/yelp-application.c:378
 msgid "Larger Text"
-msgstr ""
+msgstr "Groter teks"
 
 #: ../src/yelp-application.c:379
 msgid "Smaller Text"
-msgstr ""
+msgstr "Kleiner teks"
 
 #: ../src/yelp-window.c:348
 msgid "Back"
-msgstr ""
+msgstr "Terug"
 
 #: ../src/yelp-window.c:355
 msgid "Forward"
-msgstr ""
+msgstr "Vorentoe"
 
 #: ../src/yelp-window.c:366
 msgid "Menu"
-msgstr ""
+msgstr "Kieslys"
 
 #: ../src/yelp-window.c:371
 msgid "Find…"
-msgstr ""
+msgstr "Vind…"
 
 #: ../src/yelp-window.c:372
 msgid "Print…"
-msgstr ""
+msgstr "Druk…"
 
 #: ../src/yelp-window.c:377
 msgid "Previous Page"
-msgstr ""
+msgstr "Vorige bladsy"
 
 #: ../src/yelp-window.c:378
 msgid "Next Page"
-msgstr ""
+msgstr "Volgende bladsy"
 
 #: ../src/yelp-window.c:383
 msgid "All Help"
-msgstr ""
+msgstr "Alle hulp"
 
 #: ../src/yelp-window.c:406
 msgid "Search (Ctrl+S)"
-msgstr ""
+msgstr "Soek (Ctrl+S)"
 
 #: ../src/yelp-window.c:420
 msgid "Bookmarks"
@@ -429,16 +429,16 @@ msgstr "Boekmerke"
 
 #: ../src/yelp-window.c:437
 msgid "No bookmarks"
-msgstr ""
+msgstr "Geen boekmerke"
 
 #: ../src/yelp-window.c:445
 msgid "Add Bookmark"
-msgstr ""
+msgstr "Voeg boekmerk by"
 
 #: ../src/yelp-window.c:451
 msgid "Remove Bookmark"
-msgstr ""
+msgstr "Verwyder boekmerk"
 
 #: ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "documentation;information;manual;help;"
-msgstr ""
+msgstr "dokumentasie;inligting;handleiding;hulp;"

@@ -4,13 +4,13 @@
 # 
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2011
-# GunChleoc, 2014-2016
+# GunChleoc, 2014-2016,2018
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 16:01-0700\n"
-"PO-Revision-Date: 2018-04-19 23:03+0000\n"
+"PO-Revision-Date: 2018-04-19 23:55+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Gaelic, Scottish (http://www.transifex.com/endless-os/yelp/language/gd/)\n"
 "MIME-Version: 1.0\n"
@@ -165,7 +165,7 @@ msgstr "Chan eil cuimhne gu leòr ann"
 #: ../libyelp/yelp-mallard-document.c:455 ../libyelp/yelp-man-document.c:255
 #, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
-msgstr "Cha deach an duilleag \"%s\" a lorg san sgrìobhainn \"%s\"."
+msgstr "Cha deach an duilleag “%s” a lorg san sgrìobhainn “%s”."
 
 #: ../libyelp/yelp-docbook-document.c:323 ../libyelp/yelp-info-document.c:358
 #: ../libyelp/yelp-man-document.c:393
@@ -177,21 +177,21 @@ msgstr "Chan eil am faidhle ann."
 #: ../libyelp/yelp-man-document.c:403
 #, c-format
 msgid "The file ‘%s’ does not exist."
-msgstr "Chan eil am faidhle \"%s\" ann."
+msgstr "Chan eil am faidhle “%s” ann."
 
 #: ../libyelp/yelp-docbook-document.c:348
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr "Cha b' urrainn dhuinn am am faidhle \"%s\" a pharsadh a chionn 's nach e sgrìobhainn XML dheagh-chumta a tha ann."
+msgstr "Cha b’ urrainn dhuinn am am faidhle “%s” a pharsadh a chionn ’s nach e sgrìobhainn XML dheagh-chumta a tha ann."
 
 #: ../libyelp/yelp-docbook-document.c:361
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr "Cha b' urrainn dhuinn am am faidhle \"%s\" a pharsadh a chionn 's gu bheil co-dhiù aon fhaidhle 'na bhroinn nach eil 'na sgrìobhainn XML dheagh-chumta a tha ann."
+msgstr "Cha b’ urrainn dhuinn am am faidhle “%s” a pharsadh a chionn ’s gu bheil co-dhiù aon fhaidhle ’na bhroinn nach eil ’na sgrìobhainn XML dheagh-chumta a tha ann."
 
 #: ../libyelp/yelp-docbook-document.c:791
 msgid "Unknown"
@@ -201,17 +201,17 @@ msgstr "Neo-aithnichte"
 #: ../libyelp/yelp-man-document.c:335
 #, c-format
 msgid "The requested page was not found in the document ‘%s’."
-msgstr "Cha deach an duilleag a dh'iarr thu a lorg san sgrìobhainn \"%s\"."
+msgstr "Cha deach an duilleag a dh’iarr thu a lorg san sgrìobhainn “%s”."
 
 #: ../libyelp/yelp-document.c:1030
 #, c-format
 msgid "Search results for “%s”"
-msgstr "Toraidhean luirg airson \"%s\""
+msgstr "Toraidhean luirg airson “%s”"
 
 #: ../libyelp/yelp-document.c:1042
 #, c-format
 msgid "No matching help pages found in “%s”."
-msgstr "Cha deach duilleag cobharach a lorg ann an \"%s\" a fhreagair ris na lorg thu."
+msgstr "Cha deach duilleag cobharach a lorg ann an “%s” a fhreagair ris na lorg thu."
 
 #: ../libyelp/yelp-document.c:1048
 msgid "No matching help pages found."
@@ -230,22 +230,22 @@ msgstr "Gach sgrìobhainn na cobharach"
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr "Cha b' urrainn dhuinn am faidhle \"%s\" a pharsadh a chionn 's nach e duilleag cobharach dheagh-chumta a tha ann."
+msgstr "Cha b’ urrainn dhuinn am faidhle “%s” a pharsadh a chionn ’s nach e duilleag cobharach dheagh-chumta a tha ann."
 
 #: ../libyelp/yelp-mallard-document.c:343
 #, c-format
 msgid "The directory ‘%s’ does not exist."
-msgstr "Chan eil am pasgan \"%s\" ann"
+msgstr "Chan eil am pasgan “%s” ann"
 
 #: ../libyelp/yelp-search-entry.c:433
 #, c-format
 msgid "Search for “%s”"
-msgstr "Lorg \"%s\""
+msgstr "Lorg “%s”"
 
 #: ../libyelp/yelp-transform.c:369 ../libyelp/yelp-transform.c:384
 #, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
-msgstr "Chan eil an siota-stoidhle XSLT \"%s\" ann no chan eil e dligheach."
+msgstr "Chan eil an siota-stoidhle XSLT “%s” ann no chan eil e dligheach."
 
 #: ../libyelp/yelp-transform.c:518
 msgid "No href attribute found on yelp:document\n"
@@ -257,11 +257,11 @@ msgstr "Chan eil cuimhne air fhàgail"
 
 #: ../libyelp/yelp-view.c:253
 msgid "C_opy Code Block"
-msgstr "Dèan l_ethbhreac de bhloca a' chòd"
+msgstr "Dèan l_ethbhreac de bhloca a’ chòd"
 
 #: ../libyelp/yelp-view.c:258
 msgid "_Copy Link Location"
-msgstr "_Dèan lethbhreac de dh'ionad a' cheangail"
+msgstr "_Dèan lethbhreac de dh’ionad a’ cheangail"
 
 #: ../libyelp/yelp-view.c:263
 msgid "_Open Link"
@@ -277,7 +277,7 @@ msgstr "_Stàlaich na pacaidean"
 
 #: ../libyelp/yelp-view.c:283
 msgid "Save Code _Block As…"
-msgstr "Sàbhail _bloca a' chòd mar…"
+msgstr "Sàbhail _bloca a’ chòd mar…"
 
 #: ../libyelp/yelp-view.c:298
 msgid "_Copy Text"
@@ -286,17 +286,17 @@ msgstr "Dèan _lethbhreac dhen teacsa"
 #: ../libyelp/yelp-view.c:826 ../libyelp/yelp-view.c:2197
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
-msgstr "Chan eil an URI \"%s\" a' tomhadh ri duilleag dhligheach."
+msgstr "Chan eil an URI “%s” a’ tomhadh ri duilleag dhligheach."
 
 #: ../libyelp/yelp-view.c:832 ../libyelp/yelp-view.c:2203
 #, c-format
 msgid "The URI does not point to a valid page."
-msgstr "Chan eil an URI a' tomhadh ri duilleag dhligheach."
+msgstr "Chan eil an URI a’ tomhadh ri duilleag dhligheach."
 
 #: ../libyelp/yelp-view.c:837 ../libyelp/yelp-view.c:2209
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
-msgstr "Cha b' urrainn an URI \"%s\" a pharsadh."
+msgstr "Cha b’ urrainn an URI “%s” a pharsadh."
 
 #: ../libyelp/yelp-view.c:842
 #, c-format
@@ -326,7 +326,7 @@ msgstr "_Sàbhail an dealbh mar…"
 
 #: ../libyelp/yelp-view.c:1543
 msgid "_Save Video As…"
-msgstr "_Sàbhail a' video mar…"
+msgstr "_Sàbhail a’ video mar…"
 
 #: ../libyelp/yelp-view.c:1551
 msgid "S_end Image To…"
@@ -334,17 +334,17 @@ msgstr "Cu_ir an dealbh gu…"
 
 #: ../libyelp/yelp-view.c:1552
 msgid "S_end Video To…"
-msgstr "Cuir a' _video gu…"
+msgstr "Cuir a’ _video gu…"
 
 #: ../libyelp/yelp-view.c:1893
 #, c-format
 msgid "Could not load a document for ‘%s’"
-msgstr "Cha b' urrainn dhuinn sgrìobhainn a luchdadh airson \"%s\""
+msgstr "Cha b’ urrainn dhuinn sgrìobhainn a luchdadh airson “%s”"
 
 #: ../libyelp/yelp-view.c:1899
 #, c-format
 msgid "Could not load a document"
-msgstr "Tha sgrìobhainn ann nach b' urrainn a luchdadh"
+msgstr "Tha sgrìobhainn ann nach b’ urrainn a luchdadh"
 
 #: ../libyelp/yelp-view.c:1983
 msgid "Document Not Found"

@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Alexander Shopov <ash@kambanaria.org>, 2002,2006-2009,2016
+# Alexander Shopov <ash@kambanaria.org>, 2002,2006-2009,2016-2017
 # Ivaylo Valkov <ivaylo@e-valkov.org>, 2011-2012,2014
 # Rostislav Raykov <zbrox@i-space.org>, 2006
 # Vladimir Petkov <vpetkov@i-space.org>, 2004-2006
@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 16:01-0700\n"
-"PO-Revision-Date: 2018-04-19 23:03+0000\n"
+"PO-Revision-Date: 2018-04-19 23:58+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/endless-os/yelp/language/bg/)\n"
 "MIME-Version: 1.0\n"
@@ -444,4 +444,4 @@ msgstr "Премахване на отметката"
 
 #: ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "documentation;information;manual;help;"
-msgstr ""
+msgstr "documentation;information;manual;help;документация;информация;ръководство;помощ;"

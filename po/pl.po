@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 16:01-0700\n"
-"PO-Revision-Date: 2018-04-19 23:03+0000\n"
+"PO-Revision-Date: 2018-04-19 23:56+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Polish (http://www.transifex.com/endless-os/yelp/language/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgstr ""
 #. <string/> - The package to install
 #: yelp.xml.in:36
 msgid "Install <string/>"
-msgstr "Zainstaluj <string/>"
+msgstr "Zainstaluj „<string/>”"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
@@ -166,7 +166,7 @@ msgstr "Brak pamięci"
 #: ../libyelp/yelp-mallard-document.c:455 ../libyelp/yelp-man-document.c:255
 #, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
-msgstr "Strona „%s” nie została odnaleziona w dokumencie „%s”."
+msgstr "Nie odnaleziono strony „%s” w dokumencie „%s”."
 
 #: ../libyelp/yelp-docbook-document.c:323 ../libyelp/yelp-info-document.c:358
 #: ../libyelp/yelp-man-document.c:393
@@ -202,7 +202,7 @@ msgstr "Nieznany"
 #: ../libyelp/yelp-man-document.c:335
 #, c-format
 msgid "The requested page was not found in the document ‘%s’."
-msgstr "Żądana strona nie została odnaleziona w dokumencie „%s”."
+msgstr "Nie odnaleziono żądanej strony w dokumencie „%s”."
 
 #: ../libyelp/yelp-document.c:1030
 #, c-format
@@ -258,7 +258,7 @@ msgstr "Brak pamięci"
 
 #: ../libyelp/yelp-view.c:253
 msgid "C_opy Code Block"
-msgstr "Skopiuj blok _kodu"
+msgstr "Skopi_uj blok kodu"
 
 #: ../libyelp/yelp-view.c:258
 msgid "_Copy Link Location"
@@ -274,11 +274,11 @@ msgstr "Otwórz odnośnik w _nowym oknie"
 
 #: ../libyelp/yelp-view.c:278
 msgid "_Install Packages"
-msgstr "Za_instaluj pakiety"
+msgstr "_Zainstaluj pakiety"
 
 #: ../libyelp/yelp-view.c:283
 msgid "Save Code _Block As…"
-msgstr "Zapisz blok ko_du jako…"
+msgstr "Zapisz _blok kodu jako…"
 
 #: ../libyelp/yelp-view.c:298
 msgid "_Copy Text"
@@ -365,11 +365,11 @@ msgstr "Nieznany błąd"
 
 #: ../libyelp/yelp-view.c:2014
 msgid "Search for packages containing this document."
-msgstr "Wyszukiwanie pakietów zawierających ten dokument."
+msgstr "Wyszukaj pakiety zawierające ten dokument."
 
 #: ../src/yelp-application.c:59
 msgid "Turn on editor mode"
-msgstr "Włączenie trybu redaktora"
+msgstr "Włącza tryb redaktora"
 
 #: ../src/yelp-application.c:322 ../src/yelp-window.c:1179
 #: ../src/yelp-window.c:1187
@@ -442,4 +442,4 @@ msgstr "Usuń zakładkę"
 
 #: ../org.gnome.Yelp.desktop.in.in.h:1
 msgid "documentation;information;manual;help;"
-msgstr "dokumentacja;informacje;podręcznik;przewodnik;manual;instrukcja;pomoc;"
+msgstr "dokumentacja;informacje;podręcznik;przewodnik;manual;instrukcja;pomoc;wsparcie;"

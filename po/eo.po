@@ -8,7 +8,7 @@
 # Fabio Ruiz ORTEGA < >, 2009
 # Joël BRICH <joel.brich@laposte.net>, 2003
 # Joop EGGEN <joop_eggen@yahoo.de>, 2006
-# Kim RIBEIRO <ribekim@gmail.com>, 2009
+# Kim Ribeiro <ribekim@gmail.com>, 2009
 # kristjan <kristjan.schmidt@googlemail.com>, 2010-2012
 # Lynn < >, 2006
 # Michael MORONI, <haikara90@gmail.com>, 2009
