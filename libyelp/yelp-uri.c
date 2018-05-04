@@ -854,20 +854,25 @@ resolve_ghelp_uri (YelpUri *uri)
 static void
 resolve_help_uri (YelpUri *uri)
 {
-    /* help:document[/page][?query][#frag]
+    /* help:[/+]document[/page][?query][#frag]
      */
     YelpUriPrivate *priv = yelp_uri_get_instance_private (uri);
     gchar *document, *slash, *query, *hash;
-    gchar *colon, *c; /* do not free */
+    gchar *colon, *base, *c; /* do not free */
 
     colon = strchr (priv->res_arg, ':');
     if (!colon) {
         priv->tmptype = YELP_URI_DOCUMENT_TYPE_ERROR;
         return;
     }
+    base = colon + 1;
+
+    c = base;
+    while (*c == '/' && *(c + 1) != '\0')
+        base = ++c;
 
     slash = query = hash = NULL;
-    for (c = colon; *c != '\0'; c++) {
+    for (c = base; *c != '\0'; c++) {
         if (*c == '#' && hash == NULL)
             hash = c;
         else if (*c == '?' && query == NULL && hash == NULL)
@@ -877,10 +882,10 @@ resolve_help_uri (YelpUri *uri)
     }
 
     if (slash || query || hash)
-        document = g_strndup (colon + 1,
-                              (slash ? slash : (query ? query : hash)) - colon - 1);
+        document = g_strndup (base,
+                              (slash ? slash : (query ? query : hash)) - base);
     else
-        document = g_strdup (colon + 1);
+        document = g_strdup (base);
 
     if (slash && (query || hash))
         slash = g_strndup (slash + 1,
