@@ -210,6 +210,23 @@ yelp_application_activate (GApplication *application)
 }
 
 static void
+yelp_application_open (GApplication *application,
+                       GFile       **files,
+                       gint          n_files,
+                       const gchar  *hint)
+{
+    YelpApplication *app = YELP_APPLICATION (application);
+    g_autofree gchar *uri = NULL;
+
+    if (n_files <= 0 || files == NULL)
+        return;
+
+    /* Only support one URI for now */
+    uri = g_file_get_uri (files[0]);
+    open_uri (app, yelp_uri_new (uri), FALSE, TRUE);
+}
+
+static void
 yelp_application_class_init (YelpApplicationClass *klass)
 {
     GApplicationClass *application_class = G_APPLICATION_CLASS (klass);
@@ -219,6 +236,7 @@ yelp_application_class_init (YelpApplicationClass *klass)
     application_class->startup = yelp_application_startup;
     application_class->command_line = yelp_application_command_line;
     application_class->activate = yelp_application_activate;
+    application_class->open = yelp_application_open;
 
     object_class->dispose = yelp_application_dispose;
     object_class->finalize = yelp_application_finalize;
@@ -425,8 +443,8 @@ yelp_application_new (void)
     }
 
     app = g_object_new (YELP_TYPE_APPLICATION,
-                        "application-id", yelp,
-                        "flags", G_APPLICATION_HANDLES_COMMAND_LINE,
+                        "application-id", "org.gnome.Yelp",
+                        "flags", G_APPLICATION_HANDLES_COMMAND_LINE | G_APPLICATION_HANDLES_OPEN,
                         "inactivity-timeout", 5000,
                         NULL);
     g_free (app_id);
