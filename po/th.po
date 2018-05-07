@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 16:01-0700\n"
-"PO-Revision-Date: 2018-04-19 23:03+0000\n"
+"PO-Revision-Date: 2018-04-30 06:16+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Thai (http://www.transifex.com/endless-os/yelp/language/th/)\n"
 "MIME-Version: 1.0\n"
@@ -37,35 +37,35 @@ msgstr "ติดตั้ง <string/>"
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:31
 msgid "Home"
-msgstr ""
+msgstr "หน้าหลัก"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.getting-started
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:40
 msgid "Getting started with your OS"
-msgstr ""
+msgstr "เริ่มต้นใช้งานระบบปฏิบัติการของคุณ"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-introduction
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:49
 msgid "Introduction to your OS"
-msgstr ""
+msgstr "ข้อมูลเบื้องต้นเกี่ยวกับระบบปฏิบัติการของคุณ"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-exit
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:58
 msgid "Log out, power off or switch users"
-msgstr ""
+msgstr "ออกจากระบบ ปิดเครื่อง หรือเปลี่ยนผู้ใช้"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-apps-open
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:67
 msgid "Start applications"
-msgstr ""
+msgstr "เปิดแอพพลิเคชัน"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
@@ -74,7 +74,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:78
 msgid "Desktop Apps &amp; Windows"
-msgstr ""
+msgstr "แอพเดสก์ท็อปและ Windows"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
@@ -83,7 +83,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:89
 msgid "Files, Folders &amp; Search"
-msgstr ""
+msgstr "ไฟล์ โฟลเดอร์ และการค้นหา"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
@@ -99,7 +99,7 @@ msgstr "การเข้าถึงอย่างทั่วถึง"
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:109
 msgid "Networking, Web, Email &amp; Chat"
-msgstr ""
+msgstr "การสร้างเครือข่าย เว็บ อีเมล และแชท"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.prefs
@@ -108,7 +108,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:120
 msgid "User &amp; System Settings"
-msgstr ""
+msgstr "การตั้งค่าผู้ใช้และระบบ"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.tips
@@ -117,7 +117,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:131
 msgid "Tips &amp; Tricks"
-msgstr ""
+msgstr "เทคนิคและเคล็ดลับ"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.media
@@ -126,7 +126,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:142
 msgid "Sound, Video &amp; Pictures"
-msgstr ""
+msgstr "เสียง วิดีโอ และภาพ"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
@@ -135,21 +135,21 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:153
 msgid "Hardware &amp; Drivers"
-msgstr ""
+msgstr "ฮาร์ดแวร์และไดรฟ์เวอร์"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.more-help
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:162
 msgid "Get more help"
-msgstr ""
+msgstr "รับความช่วยเหลือเพิ่มเติม"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.endless-videos
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:171
 msgid "Video Tutorials"
-msgstr ""
+msgstr "วิดีโอช่วยสอน"
 
 #: ../libyelp/yelp-bz2-decompressor.c:143
 #: ../libyelp/yelp-lzma-decompressor.c:152

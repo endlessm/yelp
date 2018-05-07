@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 16:01-0700\n"
-"PO-Revision-Date: 2018-04-19 23:03+0000\n"
+"PO-Revision-Date: 2018-05-02 23:25+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/endless-os/yelp/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -47,35 +47,35 @@ msgstr "Instalar <string/>"
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:31
 msgid "Home"
-msgstr ""
+msgstr "Página Inicial"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.getting-started
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:40
 msgid "Getting started with your OS"
-msgstr ""
+msgstr "Primeiros Passos com seu Sistema Operacional"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-introduction
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:49
 msgid "Introduction to your OS"
-msgstr ""
+msgstr "Introdução ao seu Sistema Operacional"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-exit
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:58
 msgid "Log out, power off or switch users"
-msgstr ""
+msgstr "Suspenda, desligue ou troque de usuários"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-apps-open
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:67
 msgid "Start applications"
-msgstr ""
+msgstr "Inicie aplicativos"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
@@ -84,7 +84,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:78
 msgid "Desktop Apps &amp; Windows"
-msgstr ""
+msgstr "Aplicativos de área de trabalho &amp; Windows"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
@@ -93,7 +93,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:89
 msgid "Files, Folders &amp; Search"
-msgstr ""
+msgstr "Arquivos, Pastas &amp; Pesquisa"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
@@ -109,7 +109,7 @@ msgstr "Acessibilidade"
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:109
 msgid "Networking, Web, Email &amp; Chat"
-msgstr ""
+msgstr "Rede, Web, E-mail &amp; Chat"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.prefs
@@ -118,7 +118,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:120
 msgid "User &amp; System Settings"
-msgstr ""
+msgstr "Usuário &amp; Configurações do Sistema"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.tips
@@ -127,7 +127,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:131
 msgid "Tips &amp; Tricks"
-msgstr ""
+msgstr "Dicas &amp; Truques"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.media
@@ -136,7 +136,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:142
 msgid "Sound, Video &amp; Pictures"
-msgstr ""
+msgstr "Som, Vídeo &amp; Fotos"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
@@ -145,21 +145,21 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:153
 msgid "Hardware &amp; Drivers"
-msgstr ""
+msgstr "Hardware &amp; Drivers"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.more-help
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:162
 msgid "Get more help"
-msgstr ""
+msgstr "Obtenha mais ajuda"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.endless-videos
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:171
 msgid "Video Tutorials"
-msgstr ""
+msgstr "Vídeos Tutoriais"
 
 #: ../libyelp/yelp-bz2-decompressor.c:143
 #: ../libyelp/yelp-lzma-decompressor.c:152

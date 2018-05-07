@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 16:01-0700\n"
-"PO-Revision-Date: 2018-04-19 23:03+0000\n"
+"PO-Revision-Date: 2018-04-29 19:50+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Hindi (http://www.transifex.com/endless-os/yelp/language/hi/)\n"
 "MIME-Version: 1.0\n"
@@ -43,35 +43,35 @@ msgstr "<string/> संस्थापित करें"
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:31
 msgid "Home"
-msgstr ""
+msgstr "होम"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.getting-started
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:40
 msgid "Getting started with your OS"
-msgstr ""
+msgstr "अपने OS को शुरू करना"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-introduction
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:49
 msgid "Introduction to your OS"
-msgstr ""
+msgstr "आपके OS का परिचय"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-exit
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:58
 msgid "Log out, power off or switch users"
-msgstr ""
+msgstr "लॉगआउट करें, पॉवर ऑफ करें या यूज़र्स बदलें "
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-apps-open
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:67
 msgid "Start applications"
-msgstr ""
+msgstr "आवेदन शुरू करें"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
@@ -80,7 +80,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:78
 msgid "Desktop Apps &amp; Windows"
-msgstr ""
+msgstr "डेस्कटॉप ऐप्स & amp; विंडोज"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
@@ -89,7 +89,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:89
 msgid "Files, Folders &amp; Search"
-msgstr ""
+msgstr "फ़ाइलें, फ़ोल्डर & amp; खोज"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
@@ -105,7 +105,7 @@ msgstr "विश्वव्यापी पहुँच"
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:109
 msgid "Networking, Web, Email &amp; Chat"
-msgstr ""
+msgstr "नेटवर्किंग, वेब, ईमेल & amp; बातचीत"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.prefs
@@ -114,7 +114,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:120
 msgid "User &amp; System Settings"
-msgstr ""
+msgstr "उपयोगकर्ता और amp; प्रणाली व्यवस्था"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.tips
@@ -123,7 +123,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:131
 msgid "Tips &amp; Tricks"
-msgstr ""
+msgstr "टिप्स एंड ट्रिक्स"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.media
@@ -132,7 +132,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:142
 msgid "Sound, Video &amp; Pictures"
-msgstr ""
+msgstr "ध्वनि, विडियो और चित्र"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
@@ -141,21 +141,21 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:153
 msgid "Hardware &amp; Drivers"
-msgstr ""
+msgstr "हार्डवेयर और ड्राइवर्स"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.more-help
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:162
 msgid "Get more help"
-msgstr ""
+msgstr "और मदद हासिल करें "
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.endless-videos
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:171
 msgid "Video Tutorials"
-msgstr ""
+msgstr "वीडियो शिक्षण"
 
 #: ../libyelp/yelp-bz2-decompressor.c:143
 #: ../libyelp/yelp-lzma-decompressor.c:152

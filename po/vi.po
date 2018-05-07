@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 16:01-0700\n"
-"PO-Revision-Date: 2018-04-19 23:03+0000\n"
+"PO-Revision-Date: 2018-04-28 13:27+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/endless-os/yelp/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -38,35 +38,35 @@ msgstr "Cài đặt <string/>"
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:31
 msgid "Home"
-msgstr ""
+msgstr "Trang chủ"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.getting-started
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:40
 msgid "Getting started with your OS"
-msgstr ""
+msgstr "Bắt đầu với Hệ điều hành của bạn"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-introduction
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:49
 msgid "Introduction to your OS"
-msgstr ""
+msgstr "Giới thiệu đến HĐH của bạn."
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-exit
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:58
 msgid "Log out, power off or switch users"
-msgstr ""
+msgstr "Đăng xuất, tắt nguồn hoặc đổi người dùng"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-apps-open
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:67
 msgid "Start applications"
-msgstr ""
+msgstr "Khởi động các ứng dụng"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
@@ -75,7 +75,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:78
 msgid "Desktop Apps &amp; Windows"
-msgstr ""
+msgstr "Ứng dụng Desktop &amp; Windows"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
@@ -84,7 +84,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:89
 msgid "Files, Folders &amp; Search"
-msgstr ""
+msgstr "Các tệp, Các thư mục &amp; Tìm kiếm"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
@@ -100,7 +100,7 @@ msgstr "Truy cập Phổ quát"
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:109
 msgid "Networking, Web, Email &amp; Chat"
-msgstr ""
+msgstr "Mạng, Web, Email &amp; Chat"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.prefs
@@ -109,7 +109,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:120
 msgid "User &amp; System Settings"
-msgstr ""
+msgstr "Người dùng &amp; Cài đặt hệ thống"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.tips
@@ -118,7 +118,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:131
 msgid "Tips &amp; Tricks"
-msgstr ""
+msgstr "Mẹo &amp; Thủ thuật"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.media
@@ -127,7 +127,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:142
 msgid "Sound, Video &amp; Pictures"
-msgstr ""
+msgstr "Âm thanh, Video &amp; Hình ảnh"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
@@ -136,21 +136,21 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:153
 msgid "Hardware &amp; Drivers"
-msgstr ""
+msgstr "Phần cứng &amp; Trình điều khiển"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.more-help
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:162
 msgid "Get more help"
-msgstr ""
+msgstr "Tìm thêm sự trợ giúp"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.endless-videos
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:171
 msgid "Video Tutorials"
-msgstr ""
+msgstr "Hướng dẫn bằng Video"
 
 #: ../libyelp/yelp-bz2-decompressor.c:143
 #: ../libyelp/yelp-lzma-decompressor.c:152

@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 16:01-0700\n"
-"PO-Revision-Date: 2018-04-19 23:58+0000\n"
+"PO-Revision-Date: 2018-04-30 06:17+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/endless-os/yelp/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -40,35 +40,35 @@ msgstr "安裝 <string/>"
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:31
 msgid "Home"
-msgstr ""
+msgstr "首頁"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.getting-started
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:40
 msgid "Getting started with your OS"
-msgstr ""
+msgstr "開始使用你的操作系統"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-introduction
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:49
 msgid "Introduction to your OS"
-msgstr ""
+msgstr "操作系統簡介"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-exit
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:58
 msgid "Log out, power off or switch users"
-msgstr ""
+msgstr "登出、關機或切換使用者"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-apps-open
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:67
 msgid "Start applications"
-msgstr ""
+msgstr "開啟應用程式"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
@@ -77,7 +77,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:78
 msgid "Desktop Apps &amp; Windows"
-msgstr ""
+msgstr "桌面應用程式與視窗 "
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
@@ -86,7 +86,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:89
 msgid "Files, Folders &amp; Search"
-msgstr ""
+msgstr "檔案、資料夾和搜尋"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
@@ -102,7 +102,7 @@ msgstr "通用存取"
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:109
 msgid "Networking, Web, Email &amp; Chat"
-msgstr ""
+msgstr "網絡、網路、電郵和聊天"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.prefs
@@ -111,7 +111,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:120
 msgid "User &amp; System Settings"
-msgstr ""
+msgstr "使用者與系統設定"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.tips
@@ -120,7 +120,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:131
 msgid "Tips &amp; Tricks"
-msgstr ""
+msgstr "提示與技巧"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.media
@@ -129,7 +129,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:142
 msgid "Sound, Video &amp; Pictures"
-msgstr ""
+msgstr "聲音、影片和圖片"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
@@ -138,21 +138,21 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: yelp-endless.xml.in:153
 msgid "Hardware &amp; Drivers"
-msgstr ""
+msgstr "硬件與驅動程式"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.more-help
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:162
 msgid "Get more help"
-msgstr ""
+msgstr "獲取更多協助"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.endless-videos
 #. Appears on the static navigation sidebar.
 #: yelp-endless.xml.in:171
 msgid "Video Tutorials"
-msgstr ""
+msgstr "影片教程"
 
 #: ../libyelp/yelp-bz2-decompressor.c:143
 #: ../libyelp/yelp-lzma-decompressor.c:152
