@@ -102,7 +102,8 @@ endif
 libyelp_libyelp_la_CFLAGS = \
 	$(WARN_CFLAGS) \
 	$(YELP_CFLAGS) \
-	-Wno-deprecated-declarations
+	-Wno-deprecated-declarations \
+	-Wno-error=comment
 
 libyelp_libyelp_la_CPPFLAGS = \
 	-DDATADIR=\""$(datadir)"\" \
@@ -189,6 +190,7 @@ libyelp_web_extension_libyelpwebextension_la_SOURCES = \
 	libyelp/web-extension/yelp-web-extension.c
 
 libyelp_web_extension_libyelpwebextension_la_CFLAGS = \
+	-Wno-error=comment \
 	$(YELP_EXTENSION_CFLAGS)
 
 libyelp_web_extension_libyelpwebextension_la_CPPFLAGS = \
