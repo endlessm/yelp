@@ -5,13 +5,14 @@
 # Translators:
 # aka.ape <aka.ape@gmail.com>, 2007
 # Paisa Seeluangsawat <paisa@users.sf.net>, 2003-2004
+# Roddy Shuler <roddy@endlessm.com>, 2018
 # Sira Nokyoongtong <gumaraa@gmail.com>, 2010
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-19 16:01-0700\n"
-"PO-Revision-Date: 2018-04-30 06:16+0000\n"
+"POT-Creation-Date: 2018-05-23 21:50-0700\n"
+"PO-Revision-Date: 2018-05-24 05:08+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Thai (http://www.transifex.com/endless-os/yelp/language/th/)\n"
 "MIME-Version: 1.0\n"
@@ -21,6 +22,61 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#. Appears on the static navigation sidebar.
+#: data/domains/yelp-endless.xml.in:31
+msgid "Getting Started"
+msgstr "เริ่มต้นแล้ว"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#. Appears on the static navigation sidebar.
+#: data/domains/yelp-endless.xml.in:40
+msgid "Internet"
+msgstr "อินเทอร์เน็ต"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: data/domains/yelp-endless.xml.in:51
+msgid "Documents &amp; Files"
+msgstr "เอกสารและไฟล์"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#. Appears on the static navigation sidebar.
+#: data/domains/yelp-endless.xml.in:60
+msgid "The Desktop"
+msgstr "เดสก์ท็อป"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: data/domains/yelp-endless.xml.in:71
+msgid "Printers, Displays &amp; Accessories"
+msgstr "เครื่องพิมพ์, การแสดงผล และอุปกรณ์เสริมอื่นๆ"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#. Appears on the static navigation sidebar.
+#: data/domains/yelp-endless.xml.in:80
+msgid "Universal Access"
+msgstr "การเข้าถึงอย่างทั่วถึง"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.security-and-privacy
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: data/domains/yelp-endless.xml.in:91
+msgid "Security &amp; Privacy"
+msgstr "ความปลอดภัยและความเป็นส่วนตัว"
+
+#. (itstool) path: msg/msgstr
 #. ID: install.tooltip
 #. This is a format message used to format tooltips on install: links. These
 #. links allow users to install packages by clicking a link in the help. The
@@ -28,128 +84,9 @@ msgstr ""
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
 #. <string/> - The package to install
-#: yelp.xml.in:36
+#: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "ติดตั้ง <string/>"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.index
-#. Appears on the static navigation sidebar.
-#: yelp-endless.xml.in:31
-msgid "Home"
-msgstr "หน้าหลัก"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.getting-started
-#. Appears on the static navigation sidebar.
-#: yelp-endless.xml.in:40
-msgid "Getting started with your OS"
-msgstr "เริ่มต้นใช้งานระบบปฏิบัติการของคุณ"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-introduction
-#. Appears on the static navigation sidebar.
-#: yelp-endless.xml.in:49
-msgid "Introduction to your OS"
-msgstr "ข้อมูลเบื้องต้นเกี่ยวกับระบบปฏิบัติการของคุณ"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-exit
-#. Appears on the static navigation sidebar.
-#: yelp-endless.xml.in:58
-msgid "Log out, power off or switch users"
-msgstr "ออกจากระบบ ปิดเครื่อง หรือเปลี่ยนผู้ใช้"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-apps-open
-#. Appears on the static navigation sidebar.
-#: yelp-endless.xml.in:67
-msgid "Start applications"
-msgstr "เปิดแอพพลิเคชัน"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.shell-overview
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#: yelp-endless.xml.in:78
-msgid "Desktop Apps &amp; Windows"
-msgstr "แอพเดสก์ท็อปและ Windows"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.files
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#: yelp-endless.xml.in:89
-msgid "Files, Folders &amp; Search"
-msgstr "ไฟล์ โฟลเดอร์ และการค้นหา"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.a11y
-#. Appears on the static navigation sidebar.
-#: yelp-endless.xml.in:98
-msgid "Universal Access"
-msgstr "การเข้าถึงอย่างทั่วถึง"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.net
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#: yelp-endless.xml.in:109
-msgid "Networking, Web, Email &amp; Chat"
-msgstr "การสร้างเครือข่าย เว็บ อีเมล และแชท"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.prefs
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#: yelp-endless.xml.in:120
-msgid "User &amp; System Settings"
-msgstr "การตั้งค่าผู้ใช้และระบบ"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.tips
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#: yelp-endless.xml.in:131
-msgid "Tips &amp; Tricks"
-msgstr "เทคนิคและเคล็ดลับ"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.media
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#: yelp-endless.xml.in:142
-msgid "Sound, Video &amp; Pictures"
-msgstr "เสียง วิดีโอ และภาพ"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.hardware
-#. Appears on the static navigation sidebar. Make sure that the string is
-#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
-#. &gt;, &lt;, &quot;, and &apos; respectively.
-#: yelp-endless.xml.in:153
-msgid "Hardware &amp; Drivers"
-msgstr "ฮาร์ดแวร์และไดรฟ์เวอร์"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.more-help
-#. Appears on the static navigation sidebar.
-#: yelp-endless.xml.in:162
-msgid "Get more help"
-msgstr "รับความช่วยเหลือเพิ่มเติม"
-
-#. (itstool) path: msg/msgstr
-#. ID: sidebar.link.endless-videos
-#. Appears on the static navigation sidebar.
-#: yelp-endless.xml.in:171
-msgid "Video Tutorials"
-msgstr "วิดีโอช่วยสอน"
 
 #: ../libyelp/yelp-bz2-decompressor.c:143
 #: ../libyelp/yelp-lzma-decompressor.c:152
@@ -371,20 +308,20 @@ msgstr "ค้นหาแพกเกจที่บรรจุเอกสา
 msgid "Turn on editor mode"
 msgstr "เปิดโหมดสำหรับแก้ไข"
 
-#: ../src/yelp-application.c:322 ../src/yelp-window.c:1179
+#: ../src/yelp-application.c:340 ../src/yelp-window.c:1179
 #: ../src/yelp-window.c:1187
 msgid "Help"
 msgstr "วิธีใช้"
 
-#: ../src/yelp-application.c:374
+#: ../src/yelp-application.c:392
 msgid "New Window"
 msgstr "หน้าต่างใหม่"
 
-#: ../src/yelp-application.c:378
+#: ../src/yelp-application.c:396
 msgid "Larger Text"
 msgstr "ข้อความใหญ่ขึ้น"
 
-#: ../src/yelp-application.c:379
+#: ../src/yelp-application.c:397
 msgid "Smaller Text"
 msgstr "ข้อความเล็กลง"
 
