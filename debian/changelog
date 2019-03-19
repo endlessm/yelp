@@ -1,3 +1,59 @@
+yelp (3.32.0-1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Tue, 12 Mar 2019 21:11:18 +0100
+
+yelp (3.31.90-1) unstable; urgency=medium
+
+  * New upstream release
+  * Drop Build-Depends on intltool
+  * debian/yelp.install: Install new app icon
+  * debian/libyelp0.symbols: Add new symbols
+
+ -- Jeremy Bicha <jbicha@debian.org>  Mon, 04 Feb 2019 16:31:59 -0500
+
+yelp (3.30.0-2) unstable; urgency=medium
+
+  * Restore -Wl,-O1 to our LDFLAGS
+  * Move source lintian-override to debian/source/
+  * Bump Standards-Version to 4.3.0
+
+ -- Jeremy Bicha <jbicha@debian.org>  Thu, 27 Dec 2018 19:58:59 -0500
+
+yelp (3.30.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Don't recommend fonts-dejavu on Ubuntu
+  * Add apport hook from Ubuntu. Depend on python3-distro.
+  * Add disable_package_search.patch from Ubuntu:
+    - This feature doesn't work because Debian's PackageKit doesn't support
+      InstallProvideFiles yet
+
+ -- Jeremy Bicha <jbicha@debian.org>  Mon, 03 Sep 2018 17:29:38 -0400
+
+yelp (3.28.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Build-Depend on appstream-util
+  * Install new AppStream metadata
+  * Bump Standards-Version to 4.1.4
+
+ -- Jeremy Bicha <jbicha@debian.org>  Mon, 09 Apr 2018 18:43:22 -0400
+
+yelp (3.28.0-1) unstable; urgency=medium
+
+  * New upstream release (LP: #1758467)
+  * Update Vcs fields for migration to https://salsa.debian.org/
+  * Update Build-Depends per configure.ac
+    - Add autoconf-archive
+    - Bump libwebkit2gtk-4.0-dev to >= 2.19.2
+    - Bump yelp-xsl to >= 3.27.1
+  * debian/copyright: Add m4 to Files-Excluded to ensure we use
+    the distro packaged version of the autotools macros
+
+ -- Jeremy Bicha <jbicha@debian.org>  Wed, 28 Mar 2018 20:43:46 -0400
+
 yelp (3.26.0-2) unstable; urgency=medium
 
   * Update Vcs fields for conversion to git
@@ -306,7 +362,7 @@ yelp (2.30.1+webkit-1) unstable; urgency=low
 
 yelp (2.30.0+webkit-1) unstable; urgency=low
 
-  * New upstream release, based on the webkit branch with 2.30 merged 
+  * New upstream release, based on the webkit branch with 2.30 merged
     in.
   * 05_fix_xml_generation.patch: dropped, merged upstream.
   * Update build-dependencies.
@@ -327,7 +383,7 @@ yelp (2.28.0+webkit-1) unstable; urgency=low
   * Update build-dependencies.
   * 06_text_plain.patch: removed, merged upstream.
   * 10_hurd_path-max.patch, 70_autotools.patch: removed, obsolete.
-  * This upload is brought to you by the Cabalistic Lizard Hunting 
+  * This upload is brought to you by the Cabalistic Lizard Hunting
     Association.
 
  -- Josselin Mouette <joss@debian.org>  Wed, 23 Sep 2009 22:29:43 +0200
@@ -345,7 +401,7 @@ yelp (2.26.0-3) unstable; urgency=low
 
 yelp (2.26.0-2) unstable; urgency=low
 
-  * 04_use_doc-base.patch: disable for now, it’s really too slow to be 
+  * 04_use_doc-base.patch: disable for now, it’s really too slow to be
     usable. Furthermore, documents are not classified.
   * Stop recommending doc-base.
 
@@ -354,11 +410,11 @@ yelp (2.26.0-2) unstable; urgency=low
 yelp (2.26.0-1) unstable; urgency=low
 
   * Stop mentioning GNOME 2.
-  * Add a versioned breaks with scrollkeeper to force it out of users’ 
+  * Add a versioned breaks with scrollkeeper to force it out of users’
     systems.
   * Recommend gnome-user-guide. Closes: #528017.
   * New upstream release.
-  * 07_url_localfile.patch, 08_html_livelock.patch: dropped, merged 
+  * 07_url_localfile.patch, 08_html_livelock.patch: dropped, merged
     upstream.
   * 70_autotools.patch: regenerated for the new version.
   * Bump gnome-doc-utils build-dep.
@@ -386,18 +442,18 @@ yelp (2.24.0-1) experimental; urgency=low
   * Add glib 2.15.2 build-dependency for gio.
   * Regenerate 70_autotools.patch, and document how to do it.
   * Force the search implementation to be the basic one.
-  * 07_url_localfile.patch: new patch. Get GIO to read paths as well as 
+  * 07_url_localfile.patch: new patch. Get GIO to read paths as well as
     URIs.
-  * 06_text_plain.patch: do not kill handling of info and man pages 
+  * 06_text_plain.patch: do not kill handling of info and man pages
     through file: URIs.
-  * 08_html_livelock.patch: new patch. Do not loop endlessly at the end 
+  * 08_html_livelock.patch: new patch. Do not loop endlessly at the end
     of files.
 
  -- Josselin Mouette <joss@debian.org>  Tue, 23 Dec 2008 19:33:13 +0100
 
 yelp (2.22.1-8) unstable; urgency=low
 
-  * 07_crash_info.patch: patch from JHM Dassen (Ray) to fix crash when 
+  * 07_crash_info.patch: patch from JHM Dassen (Ray) to fix crash when
     viewing libc.info. Closes: #452747.
 
  -- Josselin Mouette <joss@debian.org>  Sun, 31 Aug 2008 15:24:52 +0200
@@ -406,7 +462,7 @@ yelp (2.22.1-7) unstable; urgency=low
 
   * 05_txt_crash.patch: fix crash when trying to view a text file.
     Closes: #497086.
-  * 06_text_plain.patch: support text/plain files, so that the text 
+  * 06_text_plain.patch: support text/plain files, so that the text
     documentation is viewable.
   * Standards version is 3.8.0, no changes needed.
 
@@ -439,7 +495,7 @@ yelp (2.22.1-3) unstable; urgency=low
 
   * 03_info_crasher.patch: new patch, fix crasher in the info parser.
     Closes: #461625.
-  * 04_use_doc-base.patch: add /var/lib/doc-base to XDG_DATA_DIRS so 
+  * 04_use_doc-base.patch: add /var/lib/doc-base to XDG_DATA_DIRS so
     that doc-base documents are correctly displayed. Closes: #472390.
   * Recommend doc-base.
   * Upload to unstable; drop check-dist include.
@@ -452,7 +508,7 @@ yelp (2.22.1-2) experimental; urgency=low
   * Target to experimental; include check-dist.mk.
   * Switch to quilt for patch handling; build-depend on quilt.
   * Build-depend on xulrunner-dev and depend on xulrunner-1.9.
-  * 01_gecko1.9.patch: patch from Alexander Sack and Christian Persch to 
+  * 01_gecko1.9.patch: patch from Alexander Sack and Christian Persch to
     get yelp to build against gecko 1.9.
   * Pass --with-gecko=libxul-embedding to use it. Closes: #480815.
   * 70_autotools.patch: run the autotools on top of that.
@@ -600,14 +656,14 @@ yelp (2.14.1-1) unstable; urgency=low
   * Use debhelper compatibility mode 4.
   * links, rules: use dh_link for the manual page.
   * copyright: update download link.
-  * Add missing build-dependencies: libgconf2-dev, libgnomevfs2-dev, 
+  * Add missing build-dependencies: libgconf2-dev, libgnomevfs2-dev,
     libbonobo2-dev, libglade2-dev, libxml2-dev.
 
  -- Josselin Mouette <joss@debian.org>  Thu, 27 Apr 2006 19:25:56 +0200
 
 yelp (2.12.2-4) unstable; urgency=low
 
-  * Remove the dependency on xulrunner, it is unneeded as of xulrunner 
+  * Remove the dependency on xulrunner, it is unneeded as of xulrunner
     1.8.0.1-4.
 
  -- Josselin Mouette <joss@debian.org>  Tue, 21 Feb 2006 20:24:08 +0100
@@ -732,7 +788,7 @@ yelp (2.6.4-1) unstable; urgency=low
 yelp (2.6.3-2) unstable; urgency=low
 
   * Removed the conflict against gman.
-  * [debian/patches/01_relibtoolize.patch] Removed (added to rules 
+  * [debian/patches/01_relibtoolize.patch] Removed (added to rules
     file).
 
  -- Jerry Haltom <wasabi@larvalstage.net>  Sat,  9 Oct 2004 23:12:06 -0500
@@ -1099,4 +1155,3 @@ yelp (0.1-1) unstable; urgency=low
   * Initial Release.
 
  -- Christian Marillat <marillat@debian.org>  Mon, 14 Jan 2002 11:15:54 +0100
-
