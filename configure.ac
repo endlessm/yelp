@@ -15,7 +15,7 @@ AM_SILENT_RULES([yes])
 AX_IS_RELEASE([git-directory])
 AX_CHECK_ENABLE_DEBUG([info], [YELP_DEBUG], [$ax_is_release])
 
-AX_COMPILER_FLAGS([], [], [$ax_is_release])
+AX_COMPILER_FLAGS([], [], [yes])
 # Check for programs
 AC_PROG_CC
 AC_PROG_CC_C_O
