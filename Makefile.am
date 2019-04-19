@@ -327,8 +327,8 @@ install-exec-hook:
 	$(LN_S) yelp $(DESTDIR)$(bindir)/gnome-help
 
 desktopdir = $(datadir)/applications
-desktop_DATA = yelp.desktop
-yelp.desktop: ${srcdir}/org.gnome.Yelp.desktop.in.in
+desktop_DATA = org.gnome.Yelp.desktop
+org.gnome.Yelp.desktop: ${srcdir}/org.gnome.Yelp.desktop.in.in
 	$(AM_V_GEN)$(MSGFMT) --desktop --template $< -d $(top_srcdir)/po -o $@
 
 data/yelp.appdata.xml: ${srcdir}/data/yelp.appdata.xml.in
