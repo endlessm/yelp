@@ -34,6 +34,7 @@ Homepage: https://wiki.gnome.org/Apps/Yelp
 
 Package: yelp
 Architecture: any
+XCBS-EOS-AppId: org.gnome.Yelp
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          libyelp0 (= ${binary:Version}),
