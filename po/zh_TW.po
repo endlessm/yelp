@@ -30,9 +30,8 @@ msgstr ""
 #. Appears on the static navigation sidebar.
 #.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "載入狀態"
+msgstr "入門指引"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
@@ -41,7 +40,7 @@ msgstr "載入狀態"
 #.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
-msgstr ""
+msgstr "網際網路"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
@@ -52,7 +51,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
-msgstr ""
+msgstr "文件與檔案"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
@@ -61,7 +60,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
-msgstr ""
+msgstr "桌面"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
@@ -72,7 +71,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
-msgstr ""
+msgstr "印表機、顯示器與配件"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
@@ -81,7 +80,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
-msgstr ""
+msgstr "通用存取"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
@@ -92,7 +91,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
-msgstr ""
+msgstr "安全 &amp; 隱私"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
