@@ -1,24 +1,79 @@
-# Yelp Catalan translation. 
-# Copyright © 2002, 2003-2008 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
 # This file is distributed under the same license as the yelp package.
-# Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005, 2006.
-# Jordi Serratosa <jordis@softcatala.cat>, 2012.
-# Gil Forcada <gilforcada@guifi.net>, 2007, 2008, 2009, 2010, 2011, 2013, 2014, 2016.
-#
+# 
+# Translators:
+# Gil Forcada <gilforcada@guifi.net>, 2007-2011,2013-2014,2016
+# Jordi Mallach <jordi@sindominio.net>, 2002-2006
+# Jordi Serratosa <jordis@softcatala.cat>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/yelp/issues\n"
-"POT-Creation-Date: 2019-01-25 11:28+0000\n"
-"PO-Revision-Date: 2019-02-09 21:42+0100\n"
-"Last-Translator: Gil Forcada <gilforcada@guifi.net>\n"
-"Language-Team: Catalan <tradgnome@softcatala.org>\n"
-"Language: ca\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
+"POT-Creation-Date: 2019-06-05 21:30+0000\n"
+"PO-Revision-Date: 2019-06-05 21:57+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Catalan (http://www.transifex.com/endless-os/yelp/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 2.1.1\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#. Appears on the static navigation sidebar.
+#: data/domains/yelp-endless.xml.in:31
+msgid "Getting Started"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#. Appears on the static navigation sidebar.
+#: data/domains/yelp-endless.xml.in:40
+msgid "Internet"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: data/domains/yelp-endless.xml.in:51
+msgid "Documents &amp; Files"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#. Appears on the static navigation sidebar.
+#: data/domains/yelp-endless.xml.in:60
+msgid "The Desktop"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: data/domains/yelp-endless.xml.in:71
+msgid "Printers, Displays &amp; Accessories"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#. Appears on the static navigation sidebar.
+#: data/domains/yelp-endless.xml.in:80
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.security-and-privacy
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#: data/domains/yelp-endless.xml.in:91
+msgid "Security &amp; Privacy"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -27,9 +82,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Instal·la <string/>"
@@ -46,29 +99,19 @@ msgstr "Visualitzador d'ajuda del GNOME"
 msgid ""
 "Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
 "also display DocBook, info, man, and HTML documentation."
-msgstr ""
-"Yelp és el visualitzador d'ajuda del GNOME. És el visualitzador Mallard predeterminat, "
-"però també pot mostrar documentació en DocBook, info, man, i HTML."
+msgstr "Yelp és el visualitzador d'ajuda del GNOME. És el visualitzador Mallard predeterminat, però també pot mostrar documentació en DocBook, info, man, i HTML."
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
-msgstr ""
-"Fa senzill cercar la documentació que necessiteu, amb cerca interactiva "
-"i adreces d'interès."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
+msgstr "Fa senzill cercar la documentació que necessiteu, amb cerca interactiva i adreces d'interès."
 
 #: data/yelp.appdata.xml.in:17
 msgid ""
 "It also has an editor mode, which shows editorial comments and revision "
 "statuses when editing Mallard documents."
-msgstr ""
-"També disposa d'un mode d'edició que mostra comentaris i l'estat "
-"de revisions quan editeu documents Mallard."
-
-#: data/yelp.appdata.xml.in:30
-msgid "The GNOME Project"
-msgstr "El projecte GNOME"
+msgstr "També disposa d'un mode d'edició que mostra comentaris i l'estat de revisions quan editeu documents Mallard."
 
 #: libyelp/yelp-bz2-decompressor.c:143 libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
@@ -101,17 +144,14 @@ msgstr "No existeix el fitxer «%s»."
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"No s'ha pogut analitzar el fitxer «%s» perquè no és un document XML vàlid."
+msgstr "No s'ha pogut analitzar el fitxer «%s» perquè no és un document XML vàlid."
 
 #: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"No s'ha pogut analitzar el fitxer «%s» perquè algun dels seus fitxers "
-"inclosos no és un document XML vàlid."
+msgstr "No s'ha pogut analitzar el fitxer «%s» perquè algun dels seus fitxers inclosos no és un document XML vàlid."
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -149,9 +189,7 @@ msgstr "Tots els documents d'ajuda"
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"No s'ha pogut analitzar el fitxer «%s» perquè no és una pàgina d'informació "
-"vàlida."
+msgstr "No s'ha pogut analitzar el fitxer «%s» perquè no és una pàgina d'informació vàlida."
 
 #: libyelp/yelp-mallard-document.c:348
 #, c-format
@@ -163,17 +201,16 @@ msgstr "No existeix el directori «%s»."
 msgid "Search for “%s”"
 msgstr "Cerca «%s»"
 
-#: libyelp/yelp-transform.c:369 libyelp/yelp-transform.c:384
+#: libyelp/yelp-transform.c:370 libyelp/yelp-transform.c:385
 #, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
-msgstr ""
-"O bé no existeix el full d'estil XSLT «%s» o no és un fitxer d'estil vàlid."
+msgstr "O bé no existeix el full d'estil XSLT «%s» o no és un fitxer d'estil vàlid."
 
-#: libyelp/yelp-transform.c:518
+#: libyelp/yelp-transform.c:519
 msgid "No href attribute found on yelp:document\n"
 msgstr "No s'ha trobat cap atribut href a yelp:document\n"
 
-#: libyelp/yelp-transform.c:533
+#: libyelp/yelp-transform.c:534
 msgid "Out of memory"
 msgstr "S'ha exhaurit la memòria"
 
@@ -205,16 +242,16 @@ msgstr "_Anomena i desa el bloc de codi…"
 msgid "_Copy Text"
 msgstr "_Copia el text"
 
-#: libyelp/yelp-view.c:805 libyelp/yelp-view.c:2138
+#: libyelp/yelp-view.c:805 libyelp/yelp-view.c:2134
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "L'URI «%s» no apunta a una pàgina vàlida."
 
-#: libyelp/yelp-view.c:811 libyelp/yelp-view.c:2144
+#: libyelp/yelp-view.c:811 libyelp/yelp-view.c:2140
 msgid "The URI does not point to a valid page."
 msgstr "L'URI no apunta a una pàgina vàlida."
 
-#: libyelp/yelp-view.c:816 libyelp/yelp-view.c:2150
+#: libyelp/yelp-view.c:816 libyelp/yelp-view.c:2146
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "No s'ha pogut analitzar l'URI «%s»."
@@ -225,9 +262,7 @@ msgstr "Error desconegut."
 
 #: libyelp/yelp-view.c:975
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"No teniu el PackageKit instal·lat. Cal tenir el PackageKit per utilitzar els "
-"enllaços d'instal·lació de paquets."
+msgstr "No teniu el PackageKit instal·lat. Cal tenir el PackageKit per utilitzar els enllaços d'instal·lació de paquets."
 
 #: libyelp/yelp-view.c:1222
 msgid "Save Image"
@@ -283,206 +318,87 @@ msgstr "No es pot llegir"
 msgid "Unknown Error"
 msgstr "Error desconegut"
 
-#: libyelp/yelp-view.c:1993
-msgid "Search for packages containing this document."
-msgstr "Cerca paquets que continguin aquest document."
-
 #: src/yelp-application.c:59
 msgid "Turn on editor mode"
 msgstr "Activa el mode d'edició"
 
-#: src/yelp-application.c:270 src/yelp-window.c:1188 src/yelp-window.c:1196
-#: yelp.desktop.in:3
+#: src/yelp-application.c:338 src/yelp-window.c:1186 src/yelp-window.c:1194
+#: org.gnome.Yelp.desktop.in.in:3
 msgid "Help"
 msgstr "Ajuda"
 
-#: src/yelp-window.c:343
+#: src/yelp-window.c:348
 msgid "Back"
 msgstr "Endarrere"
 
-#: src/yelp-window.c:350
+#: src/yelp-window.c:355
 msgid "Forward"
 msgstr "Endavant"
 
-#: src/yelp-window.c:361
+#: src/yelp-window.c:366
 msgid "Menu"
 msgstr "Menú"
 
-#: src/yelp-window.c:366
+#: src/yelp-window.c:371
 msgid "New Window"
 msgstr "Finestra nova"
 
-#: src/yelp-window.c:367
+#: src/yelp-window.c:372
 msgid "Find…"
 msgstr "Cerca…"
 
-#: src/yelp-window.c:368
+#: src/yelp-window.c:373
 msgid "Print…"
 msgstr "Imprimeix…"
 
-#: src/yelp-window.c:373
+#: src/yelp-window.c:378
 msgid "Previous Page"
 msgstr "Pàgina anterior"
 
-#: src/yelp-window.c:374
+#: src/yelp-window.c:379
 msgid "Next Page"
 msgstr "Pàgina següent"
 
-#: src/yelp-window.c:379
+#: src/yelp-window.c:384
 msgid "Larger Text"
 msgstr "Text més gran"
 
-#: src/yelp-window.c:380
+#: src/yelp-window.c:385
 msgid "Smaller Text"
 msgstr "Text més petit"
 
-#: src/yelp-window.c:385
+#: src/yelp-window.c:390
 msgid "All Help"
 msgstr "Tota l'ajuda"
 
-#: src/yelp-window.c:407
+#: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
 msgstr "Cerca (Ctrl+S)"
 
-#: src/yelp-window.c:424
+#: src/yelp-window.c:427
 msgid "Bookmarks"
 msgstr "Adreces d'interès"
 
-#: src/yelp-window.c:441
+#: src/yelp-window.c:444
 msgid "No bookmarks"
 msgstr "No hi ha cap adreça d'interès"
 
-#: src/yelp-window.c:449
+#: src/yelp-window.c:452
 msgid "Add Bookmark"
 msgstr "Afegeix una adreça d'interès"
 
-#: src/yelp-window.c:455
+#: src/yelp-window.c:458
 msgid "Remove Bookmark"
 msgstr "Suprimeix l'adreça d'interès"
 
-# ...sobre el GNOME? (josep)
-#: yelp.desktop.in:4
+#: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
 msgstr "Obtingueu ajuda per al GNOME"
 
-#: yelp.desktop.in:5
+#: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr "documentació;informació;manual;ajuda;"
 
-#: yelp.desktop.in:8
-msgid "org.gnome.Yelp"
-msgstr "org.gnome.Yelp"
-
-#~ msgid "Indexed"
-#~ msgstr "Indexat"
-
-#~ msgid "Whether the document content has been indexed"
-#~ msgstr "Si els continguts del document s'han indexat"
-
-#~ msgid "Document URI"
-#~ msgstr "URI del document"
-
-#~ msgid "The URI which identifies the document"
-#~ msgstr "L'URI que identifica el document"
-
-#~ msgid "View"
-#~ msgstr "Visualització"
-
-#~ msgid "A YelpView instance to control"
-#~ msgstr "Una instància de YelpView a controlar"
-
-#~ msgid "A YelpBookmarks implementation instance"
-#~ msgstr "Una instància d'implementació de YelpBookmarks"
-
-#~ msgid "GtkSettings"
-#~ msgstr "GtkSettings"
-
-#~ msgid "A GtkSettings object to get settings from"
-#~ msgstr "Un objecte GtkSettings des d'on obtenir els paràmetres"
-
-#~ msgid "GtkIconTheme"
-#~ msgstr "GtkIconTheme"
-
-#~ msgid "A GtkIconTheme object to get icons from"
-#~ msgstr "Un objecte GtkIconTheme des d'on obtenir icones"
-
-#~ msgid "Font Adjustment"
-#~ msgstr "Ajustament dels tipus de lletra"
-
-#~ msgid "A size adjustment to add to font sizes"
-#~ msgstr "Un ajustament de mida per afegir a les mides dels tipus de lletra"
-
-#~ msgid "Show Text Cursor"
-#~ msgstr "Mostra el cursor de text"
-
-#~ msgid "Show the text cursor or caret for accessible navigation"
-#~ msgstr "Mostra el cursor de text per la navegació accessible"
-
-#~ msgid "Editor Mode"
-#~ msgstr "Mode d'edició"
-
-#~ msgid "Enable features useful to editors"
-#~ msgstr "Habilita les característiques útils per als editors"
-
-#~ msgid "Database filename"
-#~ msgstr "Nom de la base de dades"
-
-#~ msgid "The filename of the sqlite database"
-#~ msgstr "El nom del fitxer de la base de dades SQLite"
-
-#~ msgid "XSLT Stylesheet"
-#~ msgstr "Full d'estil XSLT"
-
-#~ msgid "The location of the XSLT stylesheet"
-#~ msgstr "La ubicació del full d'estil XSLT"
-
-#~ msgid "Yelp URI"
-#~ msgstr "URI del Yelp"
-
-#~ msgid "A YelpUri with the current location"
-#~ msgstr "Un YelpUri amb la ubicació actual"
-
-#~ msgid "Loading State"
-#~ msgstr "S'està carregant l'estat"
-
-#~ msgid "The loading state of the view"
-#~ msgstr "L'estat de càrrega de la vista"
-
-#~ msgid "Page ID"
-#~ msgstr "Identificador de la pàgina"
-
-#~ msgid "The ID of the root page of the page being viewed"
-#~ msgstr "L'identificador de la pàgina inicial de la que s'està visualitzant"
-
-#~ msgid "Root Title"
-#~ msgstr "Títol inicial"
-
-#~ msgid "The title of the root page of the page being viewed"
-#~ msgstr "El títol de la pàgina inicial de la que s'està visualitzant"
-
-#~ msgid "Page Title"
-#~ msgstr "Títol de la pàgina"
-
-#~ msgid "The title of the page being viewed"
-#~ msgstr "El títol de la pàgina que s'està visualitzant"
-
-#~ msgid "Page Description"
-#~ msgstr "Descripció de la pàgina"
-
-#~ msgid "The description of the page being viewed"
-#~ msgstr "La descripció de la pàgina que s'està visualitzant"
-
-#~ msgid "Page Icon"
-#~ msgstr "Icona de la pàgina"
-
-#~ msgid "The icon of the page being viewed"
-#~ msgstr "La icona de la pàgina que s'està visualitzant"
-
-#~ msgid "Application"
-#~ msgstr "Aplicacions"
-
-#~ msgid "A YelpApplication instance that controls this window"
-#~ msgstr "Una instància de YelpApplication que controla aquesta finestra"
-
-#~ msgid "See all search results for “%s”"
-#~ msgstr "Mostra tots els resultats de la cerca «%s»"
+#: org.gnome.Yelp.desktop.in.in:8
+msgid "help-browser"
+msgstr ""
