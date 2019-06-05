@@ -8,12 +8,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/yelp/issues\n"
-"POT-Creation-Date: 2019-01-25 13:29+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
+"POT-Creation-Date: 2019-06-05 21:30+0000\n"
 "PO-Revision-Date: 2019-01-25 18:06+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
-"Language: sl_SI\n"
+"Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,6 +21,78 @@ msgstr ""
 "%100==4 ? 3 : 0);\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Poedit 2.1.1\n"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:31
+#, fuzzy
+msgid "Getting Started"
+msgstr "Stanje nalaganja"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:40
+msgid "Internet"
+msgstr "Medmrežje"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:51
+#, fuzzy
+msgid "Documents &amp; Files"
+msgstr "Zvok in video"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:60
+#, fuzzy
+msgid "The Desktop"
+msgstr "Namizje"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:71
+msgid "Printers, Displays &amp; Accessories"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:80
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.security-and-privacy
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:91
+msgid "Security &amp; Privacy"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -68,10 +140,6 @@ msgid ""
 msgstr ""
 "V programu je tudi poseben urejevalni način, ki pokaže komentarje in stanje "
 "obdelave za dokumentacijo Mallard."
-
-#: data/yelp.appdata.xml.in:30
-msgid "The GNOME Project"
-msgstr "Projekt GNOME"
 
 #: libyelp/yelp-bz2-decompressor.c:143 libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
@@ -163,17 +231,17 @@ msgstr "Mapa »%s« ne obstaja."
 msgid "Search for “%s”"
 msgstr "Poišči “%s”"
 
-#: libyelp/yelp-transform.c:369 libyelp/yelp-transform.c:384
+#: libyelp/yelp-transform.c:370 libyelp/yelp-transform.c:385
 #, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
 msgstr ""
 "Slogovna predloga XSLT »%s« ne obstaja ali pa ni zapisana v veljavnem zapisu."
 
-#: libyelp/yelp-transform.c:518
+#: libyelp/yelp-transform.c:519
 msgid "No href attribute found on yelp:document\n"
 msgstr "Ni mogoče najti atributa href v yelp:dokument\n"
 
-#: libyelp/yelp-transform.c:533
+#: libyelp/yelp-transform.c:534
 msgid "Out of memory"
 msgstr "Primanjkuje pomnilnika"
 
@@ -205,16 +273,16 @@ msgstr "Shrani _blok kode kot …"
 msgid "_Copy Text"
 msgstr "_Kopiraj besedilo"
 
-#: libyelp/yelp-view.c:805 libyelp/yelp-view.c:2138
+#: libyelp/yelp-view.c:805 libyelp/yelp-view.c:2134
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "Naslov URI »%s« ni povezan z veljavno stranjo."
 
-#: libyelp/yelp-view.c:811 libyelp/yelp-view.c:2144
+#: libyelp/yelp-view.c:811 libyelp/yelp-view.c:2140
 msgid "The URI does not point to a valid page."
 msgstr "Naslov URI ni povezan z veljavno stranjo."
 
-#: libyelp/yelp-view.c:816 libyelp/yelp-view.c:2150
+#: libyelp/yelp-view.c:816 libyelp/yelp-view.c:2146
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "Naslova URI »%s« ni mogoče razčleniti"
@@ -283,94 +351,100 @@ msgstr "Ni mogoče brati"
 msgid "Unknown Error"
 msgstr "Neznana napaka"
 
-#: libyelp/yelp-view.c:1993
-msgid "Search for packages containing this document."
-msgstr "Iskanje paketov, ki vsebujejo ta dokument"
-
 #: src/yelp-application.c:59
 msgid "Turn on editor mode"
 msgstr "Omogoči urejevalni način"
 
-#: src/yelp-application.c:270 src/yelp-window.c:1188 src/yelp-window.c:1196
-#: yelp.desktop.in:3
+#: src/yelp-application.c:338 src/yelp-window.c:1186 src/yelp-window.c:1194
+#: org.gnome.Yelp.desktop.in.in:3
 msgid "Help"
 msgstr "Pomoč"
 
-#: src/yelp-window.c:343
+#: src/yelp-window.c:348
 msgid "Back"
 msgstr "Nazaj"
 
-#: src/yelp-window.c:350
+#: src/yelp-window.c:355
 msgid "Forward"
 msgstr "Posreduj"
 
-#: src/yelp-window.c:361
+#: src/yelp-window.c:366
 msgid "Menu"
 msgstr "Meni"
 
-#: src/yelp-window.c:366
+#: src/yelp-window.c:371
 msgid "New Window"
 msgstr "Novo okno"
 
-#: src/yelp-window.c:367
+#: src/yelp-window.c:372
 msgid "Find…"
 msgstr "Najdi …"
 
-#: src/yelp-window.c:368
+#: src/yelp-window.c:373
 msgid "Print…"
 msgstr "Natisni …"
 
-#: src/yelp-window.c:373
+#: src/yelp-window.c:378
 msgid "Previous Page"
 msgstr "Predhodna stran"
 
-#: src/yelp-window.c:374
+#: src/yelp-window.c:379
 msgid "Next Page"
 msgstr "Naslednja stran"
 
-#: src/yelp-window.c:379
+#: src/yelp-window.c:384
 msgid "Larger Text"
 msgstr "Večje besedilo"
 
-#: src/yelp-window.c:380
+#: src/yelp-window.c:385
 msgid "Smaller Text"
 msgstr "Manjše besedilo"
 
-#: src/yelp-window.c:385
+#: src/yelp-window.c:390
 msgid "All Help"
 msgstr "Vsi dokumenti pomoči"
 
-#: src/yelp-window.c:407
+#: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
 msgstr "Iskanje [Ctrl+P]"
 
-#: src/yelp-window.c:424
+#: src/yelp-window.c:427
 msgid "Bookmarks"
 msgstr "Zaznamki"
 
-#: src/yelp-window.c:441
+#: src/yelp-window.c:444
 msgid "No bookmarks"
 msgstr "Ni zaznamkov"
 
-#: src/yelp-window.c:449
+#: src/yelp-window.c:452
 msgid "Add Bookmark"
 msgstr "Dodaj zaznamek"
 
-#: src/yelp-window.c:455
+#: src/yelp-window.c:458
 msgid "Remove Bookmark"
 msgstr "Odstrani zaznamek"
 
-#: yelp.desktop.in:4
+#: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
 msgstr "Iskanje pomoči namizja GNOME"
 
-#: yelp.desktop.in:5
+#: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr "dokumentacija;podrobnosti;priročnik;pomoč;yelp;"
 
-#: yelp.desktop.in:8
-msgid "org.gnome.Yelp"
-msgstr "org.gnome.Yelp"
+#: org.gnome.Yelp.desktop.in.in:8
+#, fuzzy
+msgid "help-browser"
+msgstr "Brskalnik pomoči"
+
+#~ msgid "The GNOME Project"
+#~ msgstr "Projekt GNOME"
+
+#~ msgid "Search for packages containing this document."
+#~ msgstr "Iskanje paketov, ki vsebujejo ta dokument"
+
+#~ msgid "org.gnome.Yelp"
+#~ msgstr "org.gnome.Yelp"
 
 #~ msgid "Indexed"
 #~ msgstr "V kazalu"
@@ -440,9 +514,6 @@ msgstr "org.gnome.Yelp"
 
 #~ msgid "A YelpUri with the current location"
 #~ msgstr "Yelp naslov URI s trenutnim mestom"
-
-#~ msgid "Loading State"
-#~ msgstr "Stanje nalaganja"
 
 #~ msgid "The loading state of the view"
 #~ msgstr "Stanje nalaganja pogleda"
@@ -889,9 +960,6 @@ msgstr "org.gnome.Yelp"
 #~ msgid "Debuggers"
 #~ msgstr "Razhroščevalniki"
 
-#~ msgid "Desktop"
-#~ msgstr "Namizje"
-
 #~ msgid "Desktop Settings"
 #~ msgstr "Nastavitve namizja"
 
@@ -997,9 +1065,6 @@ msgstr "org.gnome.Yelp"
 
 #~ msgid "Instant Messaging"
 #~ msgstr "Hipno sporočanje"
-
-#~ msgid "Internet"
-#~ msgstr "Medmrežje"
 
 #~ msgid "Java"
 #~ msgstr "Java"
@@ -1146,9 +1211,6 @@ msgstr "org.gnome.Yelp"
 
 #~ msgid "Sound"
 #~ msgstr "Zvok"
-
-#~ msgid "Sound &amp; Video"
-#~ msgstr "Zvok in video"
 
 #~ msgid "Sound &amp; Video Editing"
 #~ msgstr "Urejanje zvoka in slike"
@@ -1559,9 +1621,6 @@ msgstr "org.gnome.Yelp"
 
 #~ msgid "Copy _Email Address"
 #~ msgstr "Kopiraj _elektronski naslov"
-
-#~ msgid "Help Browser"
-#~ msgstr "Brskalnik pomoči"
 
 #~ msgid "Unknown Page"
 #~ msgstr "Neznana stran"
