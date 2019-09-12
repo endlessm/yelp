@@ -12,6 +12,7 @@ Build-Depends: appstream-util,
                debhelper (>= 11),
                gnome-pkg-tools (>= 0.10),
                docbook-to-man,
+               eos-shell-content-dev,
                itstool (>= 1.2.0),
                gtk-doc-tools,
                libglib2.0-doc,
@@ -33,6 +34,7 @@ Homepage: https://wiki.gnome.org/Apps/Yelp
 
 Package: yelp
 Architecture: any
+XCBS-EOS-AppId: org.gnome.Yelp
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          libyelp0 (= ${binary:Version}),

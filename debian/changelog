@@ -1,3 +1,9 @@
+yelp (3.34.0-1endless0) unstable; urgency=medium
+
+  * Release yelp-3.34.0-1endless0
+
+ -- Umang Jain <umang@endlessm.com>  Tue, 17 Sep 2019 15:55:21 +0530
+
 yelp (3.34.0-1) unstable; urgency=medium
 
   * New upstream release

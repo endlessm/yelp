@@ -1,4 +1,6 @@
 usr/share/applications
+usr/share/dbus-1
+usr/share/gnome-shell
 usr/share/glib-2.0/schemas
 usr/share/icons
 usr/share/locale
@@ -7,3 +9,4 @@ usr/share/yelp
 usr/share/yelp-xsl
 usr/bin
 debian/source_yelp.py usr/share/apport/package-hooks/
+usr/lib/*/yelp-search-provider
