@@ -5,7 +5,7 @@
 # Translators:
 # Ani Peter <apeter@redhat.com>, 2006,2009,2012
 # Aslam Muhammad <aslamckra@gmail.com>, 2012
-# Balasankar C <c.balasankar@gmail.com>, 2013
+# Balasankar C <balasankarc@autistici.org>, 2013
 # FSF-India <locale@gnu.org.in>, 2003
 # Ranjith Siji <ranjith.sajeev@gmail.com>, 2018
 # Suresh VP <mvpsuresh@yahoo.com>, 2003

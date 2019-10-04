@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the yelp package.
 # 
 # Translators:
+# abuyop <abuyop@gmail.com>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-06-05 21:30+0000\n"
-"PO-Revision-Date: 2019-06-05 21:54+0000\n"
-"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"PO-Revision-Date: 2019-09-21 02:25+0000\n"
+"Last-Translator: abuyop <abuyop@gmail.com>\n"
 "Language-Team: Malay (http://www.transifex.com/endless-os/yelp/language/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,14 +23,14 @@ msgstr ""
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
-msgstr ""
+msgstr "Membiasakan Diri"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
@@ -38,14 +39,14 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
-msgstr ""
+msgstr "Dokumen &amp; Fail"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
-msgstr ""
+msgstr "Atas Meja"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
@@ -54,14 +55,14 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
-msgstr ""
+msgstr "Pencetak, Paparan &amp; Aksesori"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
 #. Appears on the static navigation sidebar.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
-msgstr ""
+msgstr "Capaian Menyeluruh"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
@@ -70,7 +71,7 @@ msgstr ""
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
-msgstr ""
+msgstr "Keselamatan &amp; Kerahsiaan"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -82,142 +83,142 @@ msgstr ""
 #. <string/> - The package to install
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
-msgstr ""
+msgstr "Pasang <string/>"
 
 #: data/yelp.appdata.xml.in:6
 msgid "GNOME Help"
-msgstr ""
+msgstr "Bantuan GNOME"
 
 #: data/yelp.appdata.xml.in:7
 msgid "Help viewer for GNOME"
-msgstr ""
+msgstr "Pelihat bantuan GNOME"
 
 #: data/yelp.appdata.xml.in:9
 msgid ""
 "Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
 "also display DocBook, info, man, and HTML documentation."
-msgstr ""
+msgstr "Yelp merupakan pelihat bantuan GNOME. Ia ialah pelihat Mallard lalai, tetapi juga dapat memaparkan dokumentasi DocBook, info, man dan HTML."
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
 "It makes it easy to find the documentation you need, with interactive search"
 " and bookmarks."
-msgstr ""
+msgstr "Ia memudahkan pencarian dokumentasi yang anda perlukan, yang dilengkap dengan gelintar interaktif dan tanda buku."
 
 #: data/yelp.appdata.xml.in:17
 msgid ""
 "It also has an editor mode, which shows editorial comments and revision "
 "statuses when editing Mallard documents."
-msgstr ""
+msgstr "Yelp juga mempunyai mod penyunting, yang dapat menunjukkan ulasan-ulasan dan status-status revisi ketika menyunting dokumen-dokumen Mallard."
 
 #: libyelp/yelp-bz2-decompressor.c:143 libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
-msgstr ""
+msgstr "Data termampat tidak sah"
 
 #: libyelp/yelp-bz2-decompressor.c:149 libyelp/yelp-lzma-decompressor.c:158
 msgid "Not enough memory"
-msgstr ""
+msgstr "Ingat tidak mencukupi"
 
 #: libyelp/yelp-docbook-document.c:292 libyelp/yelp-info-document.c:221
 #: libyelp/yelp-mallard-document.c:306 libyelp/yelp-mallard-document.c:464
 #: libyelp/yelp-man-document.c:199
 #, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
-msgstr ""
+msgstr "Halaman '%s' tidak ditemui di dalam dokumen '%s'."
 
 #: libyelp/yelp-docbook-document.c:331 libyelp/yelp-info-document.c:358
 #: libyelp/yelp-man-document.c:336
 msgid "The file does not exist."
-msgstr ""
+msgstr "Fail tidak wujud."
 
 #: libyelp/yelp-docbook-document.c:341 libyelp/yelp-info-document.c:368
 #: libyelp/yelp-man-document.c:346
 #, c-format
 msgid "The file ‘%s’ does not exist."
-msgstr ""
+msgstr "Fail '%s' tidak wujud."
 
 #: libyelp/yelp-docbook-document.c:359
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
+msgstr "Fail '%s' tidak dapat dihurai kerana ia bukanlah dokumen XML berformat baik."
 
 #: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
+msgstr "Fail '%s' tidak dapat dihurai kerana satu atau lebih fail-fail yang ada di dalamnya bukanlah dokumen XML berformat baik."
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
-msgstr "Entah"
+msgstr "Tidak diketahui"
 
 #: libyelp/yelp-docbook-document.c:908 libyelp/yelp-info-document.c:301
 #: libyelp/yelp-man-document.c:279
 #, c-format
 msgid "The requested page was not found in the document ‘%s’."
-msgstr ""
+msgstr "Halaman dipinta tidak ditemui di dalam dokumen '%s'."
 
 #: libyelp/yelp-document.c:1068
 #, c-format
 msgid "Search results for “%s”"
-msgstr ""
+msgstr "Hasil gelintar bagi \"%s\""
 
 #: libyelp/yelp-document.c:1080
 #, c-format
 msgid "No matching help pages found in “%s”."
-msgstr ""
+msgstr "Tiada halaman-halaman bantuan yang sepadan ditemui dalam \"%s\"."
 
 #: libyelp/yelp-document.c:1086
 msgid "No matching help pages found."
-msgstr ""
+msgstr "Tiada halaman-halaman bantuan yang sepadan ditemui."
 
 #: libyelp/yelp-error.c:35
 msgid "An unknown error occurred."
-msgstr ""
+msgstr "Satu ralat tidak diketahui telah terjadi."
 
 #: libyelp/yelp-help-list.c:548 libyelp/yelp-help-list.c:557
 msgid "All Help Documents"
-msgstr ""
+msgstr "Semua Dokumen Bantuan"
 
 #: libyelp/yelp-info-document.c:383
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
+msgstr "Fail '%s' tidak dapat dihurai kerana ia bukanlah dokumen info berformat baik."
 
 #: libyelp/yelp-mallard-document.c:348
 #, c-format
 msgid "The directory ‘%s’ does not exist."
-msgstr ""
+msgstr "Direktori '%s' tidak wujud."
 
 #: libyelp/yelp-search-entry.c:434
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "Gelintar untuk \"%s\""
 
 #: libyelp/yelp-transform.c:370 libyelp/yelp-transform.c:385
 #, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
-msgstr ""
+msgstr "Lembaran gaya '%s' XSLT sama ada hilang atau tidak sah."
 
 #: libyelp/yelp-transform.c:519
 msgid "No href attribute found on yelp:document\n"
-msgstr ""
+msgstr "Tiada atribut href ditemui dalam yelp:document\n"
 
 #: libyelp/yelp-transform.c:534
 msgid "Out of memory"
-msgstr "Kehabisan memori"
+msgstr "Kehabisan ingatan"
 
 #: libyelp/yelp-view.c:248
 msgid "C_opy Code Block"
-msgstr ""
+msgstr "Sa_lin Blok Kod"
 
 #: libyelp/yelp-view.c:253
 msgid "_Copy Link Location"
-msgstr ""
+msgstr "Sa_lin Lokasi Pautan"
 
 #: libyelp/yelp-view.c:258
 msgid "_Open Link"
@@ -225,99 +226,99 @@ msgstr "_Buka Pautan"
 
 #: libyelp/yelp-view.c:263
 msgid "Open Link in New _Window"
-msgstr ""
+msgstr "Buka Pautan dalam _Tetingkap Baharu"
 
 #: libyelp/yelp-view.c:273
 msgid "_Install Packages"
-msgstr ""
+msgstr "_Pasang Pakej"
 
 #: libyelp/yelp-view.c:278
 msgid "Save Code _Block As…"
-msgstr ""
+msgstr "Simpan _Blok Kod Sebagai..."
 
 #: libyelp/yelp-view.c:293
 msgid "_Copy Text"
-msgstr ""
+msgstr "Sa_lin Teks"
 
 #: libyelp/yelp-view.c:805 libyelp/yelp-view.c:2134
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
-msgstr ""
+msgstr "URI '%s' tidak menuju ke halaman yang sah."
 
 #: libyelp/yelp-view.c:811 libyelp/yelp-view.c:2140
 msgid "The URI does not point to a valid page."
-msgstr ""
+msgstr "URI tidak menuju ke halaman yang sah."
 
 #: libyelp/yelp-view.c:816 libyelp/yelp-view.c:2146
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
-msgstr ""
+msgstr "URI '%s' tidak dapat dihuraikan."
 
 #: libyelp/yelp-view.c:821
 msgid "Unknown Error."
-msgstr ""
+msgstr "Ralat Tidak Diketahui."
 
 #: libyelp/yelp-view.c:975
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
+msgstr "Anda tidak mempunyai PackageKit. Pautan pemasangan Pakej memerlukan PackageKit."
 
 #: libyelp/yelp-view.c:1222
 msgid "Save Image"
-msgstr ""
+msgstr "Simpan Imej"
 
 #: libyelp/yelp-view.c:1321
 msgid "Save Code"
-msgstr ""
+msgstr "Simpan Kod"
 
 #: libyelp/yelp-view.c:1417
 #, c-format
 msgid "Send email to %s"
-msgstr ""
+msgstr "Hantar emel kepada %s"
 
 #: libyelp/yelp-view.c:1521
 msgid "_Save Image As…"
-msgstr ""
+msgstr "_Simpan Imej Sebagai..."
 
 #: libyelp/yelp-view.c:1522
 msgid "_Save Video As…"
-msgstr ""
+msgstr "_Simpan Video Sebagai..."
 
 #: libyelp/yelp-view.c:1530
 msgid "S_end Image To…"
-msgstr ""
+msgstr "_Hantar Imej Kepada..."
 
 #: libyelp/yelp-view.c:1531
 msgid "S_end Video To…"
-msgstr ""
+msgstr "Ha_ntar Video Kepada..."
 
 #: libyelp/yelp-view.c:1872
 #, c-format
 msgid "Could not load a document for ‘%s’"
-msgstr ""
+msgstr "Tidak dapat memuatkan dokumen untuk '%s'"
 
 #: libyelp/yelp-view.c:1878
 msgid "Could not load a document"
-msgstr ""
+msgstr "Tidak dapat memuatkan satu dokumen"
 
 #: libyelp/yelp-view.c:1962
 msgid "Document Not Found"
-msgstr ""
+msgstr "Dokumen Tidak Ditemui"
 
 #: libyelp/yelp-view.c:1964
 msgid "Page Not Found"
-msgstr ""
+msgstr "Halaman Tidak Ditemui"
 
 #: libyelp/yelp-view.c:1967
 msgid "Cannot Read"
-msgstr ""
+msgstr "Tidak Dapat Baca"
 
 #: libyelp/yelp-view.c:1973
 msgid "Unknown Error"
-msgstr ""
+msgstr "Ralat Tidak Diketahui"
 
 #: src/yelp-application.c:59
 msgid "Turn on editor mode"
-msgstr ""
+msgstr "Hidupkan mod penyunting"
 
 #: src/yelp-application.c:338 src/yelp-window.c:1186 src/yelp-window.c:1194
 #: org.gnome.Yelp.desktop.in.in:3
@@ -326,76 +327,76 @@ msgstr "Bantuan"
 
 #: src/yelp-window.c:348
 msgid "Back"
-msgstr ""
+msgstr "Undur"
 
 #: src/yelp-window.c:355
 msgid "Forward"
-msgstr ""
+msgstr "Maju"
 
 #: src/yelp-window.c:366
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 #: src/yelp-window.c:371
 msgid "New Window"
-msgstr ""
+msgstr "Tetingkap Baharu"
 
 #: src/yelp-window.c:372
 msgid "Find…"
-msgstr ""
+msgstr "Cari..."
 
 #: src/yelp-window.c:373
 msgid "Print…"
-msgstr ""
+msgstr "Cetak..."
 
 #: src/yelp-window.c:378
 msgid "Previous Page"
-msgstr ""
+msgstr "Halaman Terdahulu"
 
 #: src/yelp-window.c:379
 msgid "Next Page"
-msgstr ""
+msgstr "Halaman Berikutnya"
 
 #: src/yelp-window.c:384
 msgid "Larger Text"
-msgstr ""
+msgstr "Teks Lebih Besar"
 
 #: src/yelp-window.c:385
 msgid "Smaller Text"
-msgstr ""
+msgstr "Teks Lebih Kecil"
 
 #: src/yelp-window.c:390
 msgid "All Help"
-msgstr ""
+msgstr "Semua Bantuan"
 
 #: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
-msgstr ""
+msgstr "Gelintar (Ctrl+S)"
 
 #: src/yelp-window.c:427
 msgid "Bookmarks"
-msgstr ""
+msgstr "Tanda Buku"
 
 #: src/yelp-window.c:444
 msgid "No bookmarks"
-msgstr ""
+msgstr "Tiada tanda buku"
 
 #: src/yelp-window.c:452
 msgid "Add Bookmark"
-msgstr ""
+msgstr "Tambah Tanda Buku"
 
 #: src/yelp-window.c:458
 msgid "Remove Bookmark"
-msgstr ""
+msgstr "Buang Tanda Buku"
 
 #: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
-msgstr "Mendapatkan bantuan bersama GNOME"
+msgstr "Dapatkan bantuan GNOME"
 
 #: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
-msgstr ""
+msgstr "dokumentasi;maklumat;panduan;bantuan;"
 
 #: org.gnome.Yelp.desktop.in.in:8
 msgid "help-browser"
-msgstr ""
+msgstr "help-browser"
