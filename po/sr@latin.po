@@ -204,7 +204,7 @@ msgstr "Nisam pronašao odgovarajuću stranicu pomoći u „%s“."
 msgid "No matching help pages found."
 msgstr "Nisam pronašao odgovarajuću stranicu pomoći."
 
-# note(slobo): odličan prevod (dogodila se (neka) greška);pregledaj druge 
+# note(slobo): odličan prevod (dogodila se (neka) greška);pregledaj druge
 # prevode i ukloni sve prevode tipa: dogodila se nepoznata greška i slično
 #: libyelp/yelp-error.c:35
 msgid "An unknown error occurred."
@@ -592,7 +592,8 @@ msgstr ""
 #~ msgid "_View"
 #~ msgstr "_Pregled"
 
-# note(slobo): Radi se o kretanju kroz knjigu,uputstvo,članak (strane); napred, 
+# note(slobo): Radi se o kretanju kroz knjigu,uputstvo,članak (strane);
+# napred,
 # nazad, sadržaj i slično
 #~ msgid "_Go"
 #~ msgstr "_Strana"

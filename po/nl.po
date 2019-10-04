@@ -650,14 +650,12 @@ msgstr "Hulp-browser"
 #~ msgid "No matches"
 #~ msgstr "Geen resultaten"
 
-#~| msgid "Search..."
 #~ msgid "_Share..."
 #~ msgstr "_Delen…"
 
 #~ msgid "Share"
 #~ msgstr "Delen"
 
-#~| msgid "_Close"
 #~ msgid "Close"
 #~ msgstr "Sluiten"
 
@@ -667,7 +665,6 @@ msgstr "Hulp-browser"
 #~ msgid "Send a help link to a chat contact:"
 #~ msgstr "Een helpverwijzing sturen naar een chatcontact:"
 
-#~| msgid "Email Tools"
 #~ msgid "Email"
 #~ msgstr "E-mail"
 
@@ -677,7 +674,6 @@ msgstr "Hulp-browser"
 #~ msgid "Compose new email"
 #~ msgstr "Nieuw e-mailbericht samenstellen"
 
-#~| msgid "Copyright"
 #~ msgid "Copy"
 #~ msgstr "Kopiëren"
 
@@ -1315,19 +1311,15 @@ msgstr "Hulp-browser"
 #~ msgid "Word Processors"
 #~ msgstr "Tekstverwerkers"
 
-#~| msgid "_Edit Bookmarks..."
 #~ msgid "_Edit Bookmarks"
 #~ msgstr "Bladwijzers be_werken"
 
-#~| msgid "Bookmarks"
 #~ msgid "Bookmarks for %s"
 #~ msgstr "Bladwijzers voor %s"
 
-#~| msgid "Rename Bookmark"
 #~ msgid "_Open Bookmark"
 #~ msgstr "Bladwijzer _openen"
 
-#~| msgid "Open Bookmark in New Window"
 #~ msgid "Open Bookmark in New _Window"
 #~ msgstr "Bladwijzer in nieuw _venster openen"
 

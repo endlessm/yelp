@@ -28,9 +28,8 @@ msgstr ""
 #. Appears on the static navigation sidebar.
 #.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "स्थिति लोड कर रहा है"
+msgstr "प्रारंभ करना"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
@@ -39,7 +38,7 @@ msgstr "स्थिति लोड कर रहा है"
 #.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
-msgstr ""
+msgstr "इंटरनेट"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
@@ -50,7 +49,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
-msgstr ""
+msgstr "दस्तावेज़ और फ़ाइलें"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
@@ -59,7 +58,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
-msgstr ""
+msgstr "डेस्कटॉप"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
@@ -70,7 +69,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
-msgstr ""
+msgstr "प्रिंटर, डिस्प्ले और सहायक सामग्री"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
@@ -79,7 +78,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
-msgstr ""
+msgstr "विश्वव्यापी पहुँच"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
@@ -90,7 +89,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
-msgstr ""
+msgstr "सुरक्षा और गोपनीयता"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -282,9 +281,8 @@ msgid "The URI ‘%s’ could not be parsed."
 msgstr "यूआरआइ ‘%s’ को विश्लेषित नहीं कर सका."
 
 #: libyelp/yelp-view.c:825
-#, fuzzy
 msgid "Unknown Error."
-msgstr "अनजान त्रुटि"
+msgstr "अज्ञात त्रुटि."
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -423,9 +421,8 @@ msgid "Get help with GNOME"
 msgstr "गनोम से मदद लें"
 
 #: org.gnome.Yelp.desktop.in.in:5
-#, fuzzy
 msgid "documentation;information;manual;help;"
-msgstr "दस्तावेजीकरण;सूचना;मैनुअल;"
+msgstr "दस्तावेज़ीकरण;सूचना;मैनुअल;सहायता;"
 
 #: org.gnome.Yelp.desktop.in.in:8
 msgid "help-browser"

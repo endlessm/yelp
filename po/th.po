@@ -26,9 +26,8 @@ msgstr ""
 #. Appears on the static navigation sidebar.
 #.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "สถานะการโหลด"
+msgstr "เริ่มต้นแล้ว"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
@@ -47,9 +46,8 @@ msgstr "อินเทอร์เน็ต"
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #.
 #: data/domains/yelp-endless.xml.in:51
-#, fuzzy
 msgid "Documents &amp; Files"
-msgstr "เสียงและวีดิทัศน์"
+msgstr "เอกสารและไฟล์"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
@@ -57,9 +55,8 @@ msgstr "เสียงและวีดิทัศน์"
 #. Appears on the static navigation sidebar.
 #.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "พื้นโต๊ะ"
+msgstr "เดสก์ท็อป"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
@@ -70,7 +67,7 @@ msgstr "พื้นโต๊ะ"
 #.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
-msgstr ""
+msgstr "เครื่องพิมพ์, การแสดงผล และอุปกรณ์เสริมอื่นๆ"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
@@ -79,7 +76,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
-msgstr ""
+msgstr "การเข้าถึงอย่างทั่วถึง"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
@@ -90,7 +87,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
-msgstr ""
+msgstr "ความปลอดภัยและความเป็นส่วนตัว"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -259,9 +256,8 @@ msgid "_Install Packages"
 msgstr "_ติดตั้งแพกเกจ"
 
 #: libyelp/yelp-view.c:282
-#, fuzzy
 msgid "Save Code _Block As…"
-msgstr "บั_นทึกบล็อคของโค้ดเป็น..."
+msgstr "บันทึก Code _Block เป็น..."
 
 #: libyelp/yelp-view.c:297
 msgid "_Copy Text"
@@ -282,9 +278,8 @@ msgid "The URI ‘%s’ could not be parsed."
 msgstr "URI '%s' ไม่สามารถแจงได้"
 
 #: libyelp/yelp-view.c:825
-#, fuzzy
 msgid "Unknown Error."
-msgstr "ข้อผิดพลาดไม่ทราบสาเหตุ"
+msgstr "พบข้อผิดพลาดที่ไม่รู้จัก"
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -304,24 +299,20 @@ msgid "Send email to %s"
 msgstr "ส่งอีเมลถึง %s"
 
 #: libyelp/yelp-view.c:1525
-#, fuzzy
 msgid "_Save Image As…"
 msgstr "_บันทึกภาพเป็น..."
 
 #: libyelp/yelp-view.c:1526
-#, fuzzy
 msgid "_Save Video As…"
-msgstr "_บันทึกวีดิทัศน์เป็น..."
+msgstr "_บันทึกวิดีโอเป็น..."
 
 #: libyelp/yelp-view.c:1534
-#, fuzzy
 msgid "S_end Image To…"
 msgstr "_ส่งภาพไปยัง..."
 
 #: libyelp/yelp-view.c:1535
-#, fuzzy
 msgid "S_end Video To…"
-msgstr "_ส่งวีดิทัศน์ไปยัง..."
+msgstr "_ส่งวิดีโอไปยัง..."
 
 #: libyelp/yelp-view.c:1876
 #, c-format
@@ -359,80 +350,68 @@ msgid "Help"
 msgstr "วิธีใช้"
 
 #: src/yelp-window.c:348
-#, fuzzy
 msgid "Back"
-msgstr "ถ_อยกลับ"
+msgstr "กลับ"
 
 #: src/yelp-window.c:355
-#, fuzzy
 msgid "Forward"
-msgstr "เดินห_น้า"
+msgstr "ไปข้างหน้า"
 
 #: src/yelp-window.c:366
 msgid "Menu"
-msgstr ""
+msgstr "เมนู"
 
 #: src/yelp-window.c:371
-#, fuzzy
 msgid "New Window"
-msgstr "หน้าต่างใ_หม่"
+msgstr "หน้าต่างใหม่"
 
 #: src/yelp-window.c:372
-#, fuzzy
 msgid "Find…"
-msgstr "หา"
+msgstr "ค้นหา..."
 
 #: src/yelp-window.c:373
-#, fuzzy
 msgid "Print…"
-msgstr "การพิมพ์"
+msgstr "พิมพ์..."
 
 #: src/yelp-window.c:378
-#, fuzzy
 msgid "Previous Page"
-msgstr "หน้า_ก่อน"
+msgstr "หน้าที่แล้ว"
 
 #: src/yelp-window.c:379
-#, fuzzy
 msgid "Next Page"
-msgstr "หน้าถั_ดไป"
+msgstr "หน้าถัดไป"
 
 #: src/yelp-window.c:384
-#, fuzzy
 msgid "Larger Text"
-msgstr "ข้อความขนาด_ใหญ่ขึ้น"
+msgstr "ข้อความใหญ่ขึ้น"
 
 #: src/yelp-window.c:385
-#, fuzzy
 msgid "Smaller Text"
-msgstr "ข้อความขนาดเ_ล็กลง"
+msgstr "ข้อความเล็กลง"
 
 #: src/yelp-window.c:390
-#, fuzzy
 msgid "All Help"
-msgstr "วิธีใช้"
+msgstr "ความช่วยเหลือทั้งหมด"
 
 #: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
-msgstr ""
+msgstr "ค้นหา Ctrl+S)"
 
 #: src/yelp-window.c:427
 msgid "Bookmarks"
 msgstr "ที่คั่นหน้า"
 
 #: src/yelp-window.c:444
-#, fuzzy
 msgid "No bookmarks"
-msgstr "ที่คั่นหน้า"
+msgstr "ไม่มีบุ๊กมาร์ก"
 
 #: src/yelp-window.c:452
 msgid "Add Bookmark"
-msgstr "เพิ่มที่คั่นหน้า"
+msgstr "เพิ่มบุ๊กมาร์ก"
 
 #: src/yelp-window.c:458
-#, fuzzy
 msgid "Remove Bookmark"
-msgstr "_ลบที่คั่นหน้า"
+msgstr "ลบบุ๊คมาร์ค"
 
 #: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
@@ -440,9 +419,8 @@ msgstr "วิธีการใช้ GNOME"
 
 # There should be a better translation.
 #: org.gnome.Yelp.desktop.in.in:5
-#, fuzzy
 msgid "documentation;information;manual;help;"
-msgstr "เอกสาร;สารสนเทศ;คู่มือ;"
+msgstr "เอกสาร;ข้อมูล;คู่มือ;ความช่วยเหลือ;"
 
 #: org.gnome.Yelp.desktop.in.in:8
 #, fuzzy

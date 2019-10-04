@@ -482,8 +482,10 @@ msgstr ""
 #~ msgstr "Zobraziť textový kurzor"
 
 # preklad vsuvka je správny?
-# accesible som v ubuntu videl preložené ako sprístupnenie v gnome používame bez arierový prístup?
-# PK: v ubuntu je to kde? nahlas chybu ked tak, v yelp nemozem najst nastavenia, takze nemozem overit :/
+# accesible som v ubuntu videl preložené ako sprístupnenie v gnome používame
+# bez arierový prístup?
+# PK: v ubuntu je to kde? nahlas chybu ked tak, v yelp nemozem najst
+# nastavenia, takze nemozem overit :/
 #~ msgid "Show the text cursor or caret for accessible navigation"
 #~ msgstr ""
 #~ "Zobraziť textový kurzor alebo vsuvku pre navigáciu bezbariérového prístupu"

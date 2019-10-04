@@ -34,9 +34,8 @@ msgstr ""
 #. Appears on the static navigation sidebar.
 #.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "Estado de carregamento"
+msgstr "Começando"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
@@ -55,9 +54,8 @@ msgstr "Internet"
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #.
 #: data/domains/yelp-endless.xml.in:51
-#, fuzzy
 msgid "Documents &amp; Files"
-msgstr "Multimídia"
+msgstr "Documentos &amp; Arquivos"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
@@ -65,9 +63,8 @@ msgstr "Multimídia"
 #. Appears on the static navigation sidebar.
 #.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "Área de trabalho"
+msgstr "A área de trabalho"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
@@ -78,7 +75,7 @@ msgstr "Área de trabalho"
 #.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
-msgstr ""
+msgstr "Impressoras, telas &amp; Acessórios"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
@@ -87,7 +84,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
-msgstr ""
+msgstr "Acessibilidade"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
@@ -98,7 +95,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
-msgstr ""
+msgstr "Segurança &amp; Privacidade"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -445,9 +442,8 @@ msgid "documentation;information;manual;help;"
 msgstr "documentação;informação;informações;manual;ajuda;"
 
 #: org.gnome.Yelp.desktop.in.in:8
-#, fuzzy
 msgid "help-browser"
-msgstr "Navegador de Ajuda"
+msgstr "help-browser"
 
 #~ msgid "Search for packages containing this document."
 #~ msgstr "Pesquisar por pacotes contendo esse documento."

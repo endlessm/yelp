@@ -20,8 +20,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Poedit 2.2.1\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
@@ -285,7 +285,7 @@ msgstr "نشانی «‎%s» به یک پروندهٔ واقعی اشاره نم
 
 #: libyelp/yelp-view.c:815 libyelp/yelp-view.c:2144
 msgid "The URI does not point to a valid page."
-msgstr "آدرس به یک صفحهٔ معتبر اشاره نمی‌کند."
+msgstr "آدرس به یک صفحه‌ی معتبر اشاره نمی‌کند."
 
 #: libyelp/yelp-view.c:820 libyelp/yelp-view.c:2150
 #, c-format
@@ -631,14 +631,12 @@ msgstr "مرورگر وب"
 #~ msgid "No matches"
 #~ msgstr "بدون مورد منطبق"
 
-#~| msgid "Search..."
 #~ msgid "_Share..."
 #~ msgstr "_اشتراک‌گذاری..."
 
 #~ msgid "Share"
 #~ msgstr "اشتراک‌گذاری"
 
-#~| msgid "_Close"
 #~ msgid "Close"
 #~ msgstr "بستن"
 
@@ -648,7 +646,6 @@ msgstr "مرورگر وب"
 #~ msgid "Send a help link to a chat contact:"
 #~ msgstr "ارسال یک پیوند راهنما به یک آشنا در گپ:"
 
-#~| msgid "Email Tools"
 #~ msgid "Email"
 #~ msgstr "پست‌الکترونیکی"
 
@@ -658,7 +655,6 @@ msgstr "مرورگر وب"
 #~ msgid "Compose new email"
 #~ msgstr "ایجاد یک پست‌الکترونیکی جدید"
 
-#~| msgid "Copyright"
 #~ msgid "Copy"
 #~ msgstr "رونوشت"
 

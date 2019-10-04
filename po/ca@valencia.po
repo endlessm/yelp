@@ -1,4 +1,4 @@
-# Yelp Catalan translation. 
+# Yelp Catalan translation.
 # Copyright © 2002, 2003-2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the yelp package.
 # Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005, 2006.

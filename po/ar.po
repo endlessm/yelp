@@ -34,9 +34,8 @@ msgstr ""
 #. Appears on the static navigation sidebar.
 #.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "حالة التحميل"
+msgstr "دليل الشروع في العمل"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
@@ -55,9 +54,8 @@ msgstr "الإنترنت"
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #.
 #: data/domains/yelp-endless.xml.in:51
-#, fuzzy
 msgid "Documents &amp; Files"
-msgstr "صوت و صورة"
+msgstr "ملفات &amp; المستندات"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
@@ -65,7 +63,6 @@ msgstr "صوت و صورة"
 #. Appears on the static navigation sidebar.
 #.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
 msgstr "سطح المكتب"
 
@@ -78,7 +75,7 @@ msgstr "سطح المكتب"
 #.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
-msgstr ""
+msgstr "الطابعات &amp;وملحقات الشاشات"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
@@ -87,7 +84,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
-msgstr ""
+msgstr "وصول عام"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
@@ -98,7 +95,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
-msgstr ""
+msgstr "الأمن &amp؛ الخصوصية"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -428,9 +425,8 @@ msgid "Get help with GNOME"
 msgstr "احصل على المساعدة في جُنوم"
 
 #: org.gnome.Yelp.desktop.in.in:5
-#, fuzzy
 msgid "documentation;information;manual;help;"
-msgstr "توثيق;معلومات;كتيب;"
+msgstr "التوثيق؛معلومات؛الدليل؛المساعدة؛"
 
 #: org.gnome.Yelp.desktop.in.in:8
 #, fuzzy
