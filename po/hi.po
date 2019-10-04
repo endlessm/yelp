@@ -9,9 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp.master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=yelp&keywords=I18N+L10N&component=General\n"
-"POT-Creation-Date: 2014-09-19 23:07+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
+"POT-Creation-Date: 2019-10-04 15:09+0100\n"
 "PO-Revision-Date: 2014-09-21 08:03+0630\n"
 "Last-Translator: rajesh <rajesh>\n"
 "Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
@@ -24,6 +23,76 @@ msgstr ""
 "X-Generator: Lokalize 1.5\n"
 
 #. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:31
+#, fuzzy
+msgid "Getting Started"
+msgstr "स्थिति लोड कर रहा है"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:40
+msgid "Internet"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:51
+msgid "Documents &amp; Files"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:60
+msgid "The Desktop"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:71
+msgid "Printers, Displays &amp; Accessories"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:80
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.security-and-privacy
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:91
+msgid "Security &amp; Privacy"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
 #. ID: install.tooltip
 #. This is a format message used to format tooltips on install: links. These
 #. links allow users to install packages by clicking a link in the help. The
@@ -33,476 +102,448 @@ msgstr ""
 #.
 #. <string/> - The package to install
 #.
-#: yelp.xml.in:36
+#: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "<string/> संस्थापित करें"
 
-#: ../libyelp/yelp-bz2-decompressor.c:144
-#: ../libyelp/yelp-lzma-decompressor.c:153
+#: data/yelp.appdata.xml.in:6
+msgid "GNOME Help"
+msgstr ""
+
+#: data/yelp.appdata.xml.in:7
+msgid "Help viewer for GNOME"
+msgstr ""
+
+#: data/yelp.appdata.xml.in:9
+msgid ""
+"Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
+"also display DocBook, info, man, and HTML documentation."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:13
+msgid ""
+"It makes it easy to find the documentation you need, with interactive search "
+"and bookmarks."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:17
+msgid ""
+"It also has an editor mode, which shows editorial comments and revision "
+"statuses when editing Mallard documents."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:30
+msgid "The GNOME Project"
+msgstr ""
+
+#: libyelp/yelp-bz2-decompressor.c:143 libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
 msgstr "अवैध संकुचित डाटा"
 
-#: ../libyelp/yelp-bz2-decompressor.c:150
-#: ../libyelp/yelp-lzma-decompressor.c:159
+#: libyelp/yelp-bz2-decompressor.c:149 libyelp/yelp-lzma-decompressor.c:158
 msgid "Not enough memory"
 msgstr "पर्याप्त स्मृति नहीं है"
 
-#: ../libyelp/yelp-docbook-document.c:297 ../libyelp/yelp-info-document.c:237
-#: ../libyelp/yelp-mallard-document.c:305
-#: ../libyelp/yelp-mallard-document.c:456 ../libyelp/yelp-man-document.c:281
+#: libyelp/yelp-docbook-document.c:292 libyelp/yelp-info-document.c:221
+#: libyelp/yelp-mallard-document.c:306 libyelp/yelp-mallard-document.c:464
+#: libyelp/yelp-man-document.c:199
 #, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
 msgstr "'%s' पृष्ठ '%s' दस्तावेज़ में नहीं मिला."
 
-#: ../libyelp/yelp-docbook-document.c:332 ../libyelp/yelp-info-document.c:371
-#: ../libyelp/yelp-man-document.c:416
-#, c-format
+#: libyelp/yelp-docbook-document.c:331 libyelp/yelp-info-document.c:358
+#: libyelp/yelp-man-document.c:336
 msgid "The file does not exist."
 msgstr "फ़ाइल मौज़ूद नहीं है."
 
-#: ../libyelp/yelp-docbook-document.c:342 ../libyelp/yelp-info-document.c:381
-#: ../libyelp/yelp-man-document.c:426
+#: libyelp/yelp-docbook-document.c:341 libyelp/yelp-info-document.c:368
+#: libyelp/yelp-man-document.c:346
 #, c-format
 msgid "The file ‘%s’ does not exist."
 msgstr "फ़ाइल ‘%s’ मौजूद नहीं है."
 
-#: ../libyelp/yelp-docbook-document.c:357
+#: libyelp/yelp-docbook-document.c:359
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
 msgstr "‘%s’ फ़ाइल विश्लेषित नहीं कर सका क्योंकि यह सही XML दस्तावेज़ नहीं है."
 
-#: ../libyelp/yelp-docbook-document.c:370
+#: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
 msgstr ""
-"‘%s’ फ़ाइल विश्लेषित नहीं कर सका क्योंकि इसमें शामिल एक या अधिक फ़ाइल सही XML "
-"दस्तावेज़ "
+"‘%s’ फ़ाइल विश्लेषित नहीं कर सका क्योंकि इसमें शामिल एक या अधिक फ़ाइल सही XML दस्तावेज़ "
 "नहीं है."
 
-#: ../libyelp/yelp-docbook-document.c:803
+#: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
 msgstr "अज्ञात"
 
-#: ../libyelp/yelp-docbook-document.c:864 ../libyelp/yelp-info-document.c:314
-#: ../libyelp/yelp-man-document.c:358
+#: libyelp/yelp-docbook-document.c:908 libyelp/yelp-info-document.c:301
+#: libyelp/yelp-man-document.c:279
 #, c-format
 msgid "The requested page was not found in the document ‘%s’."
 msgstr "निवेदित पृष्ठ '%s' दस्तावेज़ में नहीं मिला."
 
-#: ../libyelp/yelp-document.c:266
-msgid "Indexed"
-msgstr "सूचीबद्ध"
-
-#: ../libyelp/yelp-document.c:267
-msgid "Whether the document content has been indexed"
-msgstr "क्या दस्तावेज़ सामग्री को तालिकाबद्ध किया गया है"
-
-#: ../libyelp/yelp-document.c:275
-msgid "Document URI"
-msgstr "दस्तावेज URI"
-
-#: ../libyelp/yelp-document.c:276
-msgid "The URI which identifies the document"
-msgstr "यूआरआइ जो दस्तावेज़ को पहचानती है "
-
-#: ../libyelp/yelp-document.c:994
+#: libyelp/yelp-document.c:1068
 #, c-format
 msgid "Search results for “%s”"
 msgstr "“%s” के लिए खोजें"
 
-#: ../libyelp/yelp-document.c:1006
+#: libyelp/yelp-document.c:1080
 #, c-format
 msgid "No matching help pages found in “%s”."
 msgstr "कोई मिलता-जुलता सहायता पृष्ठ \"%s\" में नहीं मिला."
 
-#: ../libyelp/yelp-document.c:1012
+#: libyelp/yelp-document.c:1086
 msgid "No matching help pages found."
 msgstr "कोई मिलता-जुलता सहायता पृष्ठ नहीं मिला."
 
-#: ../libyelp/yelp-error.c:35
-#, c-format
+#: libyelp/yelp-error.c:35
 msgid "An unknown error occurred."
 msgstr "एक अज्ञात त्रुटि पायी गई."
 
-#: ../libyelp/yelp-help-list.c:546 ../libyelp/yelp-help-list.c:555
+#: libyelp/yelp-help-list.c:548 libyelp/yelp-help-list.c:557
 msgid "All Help Documents"
 msgstr "सभी मदद दस्तावेज़"
 
-#: ../libyelp/yelp-info-document.c:396
+#: libyelp/yelp-info-document.c:383
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
 msgstr "‘%s’ फ़ाइल विश्लेषित नहीं कर सका क्योंकि यह सही सूचना पृष्ठ नहीं है."
 
-#: ../libyelp/yelp-mallard-document.c:344
+#: libyelp/yelp-mallard-document.c:348
 #, c-format
 msgid "The directory ‘%s’ does not exist."
 msgstr "निर्देशिका ‘%s’ मौजूद नहीं है."
 
-#: ../libyelp/yelp-search-entry.c:173
-msgid "View"
-msgstr "दृश्य"
-
-#: ../libyelp/yelp-search-entry.c:174
-msgid "A YelpView instance to control"
-msgstr "YelpView इंसटैंस के नियंत्रण के लिए"
-
-#: ../libyelp/yelp-search-entry.c:189 ../src/yelp-window.c:399
-msgid "Bookmarks"
-msgstr "पसंद"
-
-#: ../libyelp/yelp-search-entry.c:190
-msgid "A YelpBookmarks implementation instance"
-msgstr "YelpBookmarks कार्यान्वयन इंसटैंस"
-
-#: ../libyelp/yelp-search-entry.c:440
+#: libyelp/yelp-search-entry.c:434
 #, c-format
 msgid "Search for “%s”"
 msgstr "\"%s\" खोजें"
 
-#: ../libyelp/yelp-settings.c:152
-msgid "GtkSettings"
-msgstr "GtkSettings"
-
-#: ../libyelp/yelp-settings.c:153
-msgid "A GtkSettings object to get settings from"
-msgstr " सेटिंग्स प्राप्त करने हेतु GtkSettings ऑब्जैक्ट"
-
-#: ../libyelp/yelp-settings.c:161
-msgid "GtkIconTheme"
-msgstr "GtkIconTheme"
-
-#: ../libyelp/yelp-settings.c:162
-msgid "A GtkIconTheme object to get icons from"
-msgstr "चिह्न प्राप्त करने हेतु GtkIconTheme ऑब्जैक्ट"
-
-#: ../libyelp/yelp-settings.c:170
-msgid "Font Adjustment"
-msgstr "फॉन्ट समायोजन"
-
-#: ../libyelp/yelp-settings.c:171
-msgid "A size adjustment to add to font sizes"
-msgstr "फ़ॉन्ट आकार को जोड़ने के लिए आकार समायोजन"
-
-#: ../libyelp/yelp-settings.c:179
-msgid "Show Text Cursor"
-msgstr "पाठ कर्सर दिखाएँ"
-
-#: ../libyelp/yelp-settings.c:180
-msgid "Show the text cursor or caret for accessible navigation"
-msgstr "पहुंचनीय नेविगेशन के लिए पाठ कर्सर या हंसपद चिन्ह दिखाएँ"
-
-#: ../libyelp/yelp-settings.c:188
-msgid "Editor Mode"
-msgstr "संपादक विधि"
-
-#: ../libyelp/yelp-settings.c:189
-msgid "Enable features useful to editors"
-msgstr "संपादकों के लिए उपयोगी सुविधाओं को सक्षम करें"
-
-#: ../libyelp/yelp-sqlite-storage.c:147
-msgid "Database filename"
-msgstr "डाटाबेसे फ़ाइलनाम"
-
-#: ../libyelp/yelp-sqlite-storage.c:148
-msgid "The filename of the sqlite database"
-msgstr "sqlite डाटाबेस के फ़ाइल का नाम"
-
-#: ../libyelp/yelp-transform.c:169
-msgid "XSLT Stylesheet"
-msgstr "XSLT स्टाइलशीट"
-
-#: ../libyelp/yelp-transform.c:170
-msgid "The location of the XSLT stylesheet"
-msgstr "XSLT स्टाइलशीट का स्थान"
-
-#: ../libyelp/yelp-transform.c:378 ../libyelp/yelp-transform.c:393
+#: libyelp/yelp-transform.c:370 libyelp/yelp-transform.c:385
 #, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
 msgstr "XSLT स्टाइलशीट '%s ' या तो गुम है या मान्य नहीं है."
 
-#: ../libyelp/yelp-transform.c:527
+#: libyelp/yelp-transform.c:519
 msgid "No href attribute found on yelp:document\n"
 msgstr "yelp:document पर कोई हर्फ विशेषता नहीं पाई गई\n"
 
-#: ../libyelp/yelp-transform.c:542
+#: libyelp/yelp-transform.c:534
 msgid "Out of memory"
 msgstr "मेमोरी कम पड़ गई"
 
-#: ../libyelp/yelp-view.c:446
-msgid "Yelp URI"
-msgstr "Yelp URI"
-
-#: ../libyelp/yelp-view.c:447
-msgid "A YelpUri with the current location"
-msgstr "मौजूदा स्थान के साथ YelpUri"
-
-#: ../libyelp/yelp-view.c:455
-msgid "Loading State"
-msgstr "स्थिति लोड कर रहा है"
-
-#: ../libyelp/yelp-view.c:456
-msgid "The loading state of the view"
-msgstr "दृश्य का स्थिति लोड कर रहा है"
-
-#: ../libyelp/yelp-view.c:465
-msgid "Page ID"
-msgstr "पृष्ठ ID"
-
-#: ../libyelp/yelp-view.c:466
-msgid "The ID of the root page of the page being viewed"
-msgstr "पृष्ठ के रूट पृष्ठ की आईडी को देखा जा रहा है"
-
-#: ../libyelp/yelp-view.c:474
-msgid "Root Title"
-msgstr "रूट शीर्षक"
-
-#: ../libyelp/yelp-view.c:475
-msgid "The title of the root page of the page being viewed"
-msgstr "पृष्ठ के रूट पृष्ठ की शीर्षक को देखा जा रहा है"
-
-#: ../libyelp/yelp-view.c:483
-msgid "Page Title"
-msgstr "पृष्ठ शीर्षक"
-
-#: ../libyelp/yelp-view.c:484
-msgid "The title of the page being viewed"
-msgstr "पृष्ठ के शीर्षक को देखा जा रहा है"
-
-#: ../libyelp/yelp-view.c:492
-msgid "Page Description"
-msgstr "पृष्ठ वर्णन"
-
-#: ../libyelp/yelp-view.c:493
-msgid "The description of the page being viewed"
-msgstr "पृष्ठ के वर्णन को देखा जा रहा है"
-
-#: ../libyelp/yelp-view.c:501
-msgid "Page Icon"
-msgstr "पृष्ठ प्रतीक"
-
-#: ../libyelp/yelp-view.c:502
-msgid "The icon of the page being viewed"
-msgstr "पृष्ठ केप्रतीक को देखा जा रहा है"
-
-#: ../libyelp/yelp-view.c:744
-msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"आपके पास  PackageKit नहीं है. संकुल संस्थापन लिंक को PackageKit की आवश्यकता "
-"होती है."
-
-#: ../libyelp/yelp-view.c:1040
-msgid "Save Image"
-msgstr "छवि सहेजें"
-
-#: ../libyelp/yelp-view.c:1135
-msgid "Save Code"
-msgstr "कोड सहेजें"
-
-#: ../libyelp/yelp-view.c:1298
-#, c-format
-msgid "Send email to %s"
-msgstr "%s में ईमेल भेजें"
-
-#: ../libyelp/yelp-view.c:1313
-msgid "_Install Packages"
-msgstr "संकुल संस्थापित करें  (_I)"
-
-#: ../libyelp/yelp-view.c:1321
-msgid "_Open Link"
-msgstr "लिंक खोलें (_O)"
-
-#: ../libyelp/yelp-view.c:1328
-msgid "_Copy Link Location"
-msgstr "लिंक स्थान की नक़ल करें (_C)"
-
-#: ../libyelp/yelp-view.c:1334
-msgid "Open Link in New _Window"
-msgstr "लिंक नई विंडो में खोलें (_W)"
-
-#: ../libyelp/yelp-view.c:1388
-#| msgid "_Save Image As..."
-msgid "_Save Image As…"
-msgstr "छवि इस रूप में सहेजें (_S)…"
-
-#: ../libyelp/yelp-view.c:1390
-#| msgid "_Save Video As..."
-msgid "_Save Video As…"
-msgstr "वीडियो ऐसे सहेजें (_S)…"
-
-#: ../libyelp/yelp-view.c:1397
-#| msgid "S_end Image To..."
-msgid "S_end Image To…"
-msgstr "छवि ऐसे भेजें... (_S)"
-
-#: ../libyelp/yelp-view.c:1399
-#| msgid "S_end Video To..."
-msgid "S_end Video To…"
-msgstr "वीडियो ऐसे भेजें.. (_S)"
-
-#: ../libyelp/yelp-view.c:1410
-msgid "_Copy Text"
-msgstr "पाठ की नक़ल लें (_C)"
-
-#: ../libyelp/yelp-view.c:1423
+#: libyelp/yelp-view.c:252
 msgid "C_opy Code Block"
 msgstr "कोड ब्लॉक की नक़ल लें (_C)"
 
-#: ../libyelp/yelp-view.c:1428
-#| msgid "Save Code _Block As..."
+#: libyelp/yelp-view.c:257
+msgid "_Copy Link Location"
+msgstr "लिंक स्थान की नक़ल करें (_C)"
+
+#: libyelp/yelp-view.c:262
+msgid "_Open Link"
+msgstr "लिंक खोलें (_O)"
+
+#: libyelp/yelp-view.c:267
+msgid "Open Link in New _Window"
+msgstr "लिंक नई विंडो में खोलें (_W)"
+
+#: libyelp/yelp-view.c:277
+msgid "_Install Packages"
+msgstr "संकुल संस्थापित करें  (_I)"
+
+#: libyelp/yelp-view.c:282
 msgid "Save Code _Block As…"
 msgstr "कोड ब्लॉक ऐसे सहेजें... (_B)"
 
-#: ../libyelp/yelp-view.c:1535
-#, c-format
-msgid "See all search results for “%s”"
-msgstr " “%s” के लिए सारे खोज परिणाम देखें"
+#: libyelp/yelp-view.c:297
+msgid "_Copy Text"
+msgstr "पाठ की नक़ल लें (_C)"
 
-#: ../libyelp/yelp-view.c:1656
-#, c-format
-msgid "Could not load a document for ‘%s’"
-msgstr "'%s' के लिए दस्तावेज लोड नहीं कर सका"
-
-#: ../libyelp/yelp-view.c:1662
-#, c-format
-msgid "Could not load a document"
-msgstr "दस्तावेज लोड नहीं कर सका"
-
-#: ../libyelp/yelp-view.c:1737
-msgid "Document Not Found"
-msgstr "दस्तावेज नहीं मिला"
-
-#: ../libyelp/yelp-view.c:1739
-msgid "Page Not Found"
-msgstr "पृष्ठ नहीं मिला"
-
-#: ../libyelp/yelp-view.c:1742
-msgid "Cannot Read"
-msgstr "पढ़ नहीं सकता है"
-
-#: ../libyelp/yelp-view.c:1748
-msgid "Unknown Error"
-msgstr "अनजान त्रुटि"
-
-#: ../libyelp/yelp-view.c:1768
-msgid "Search for packages containing this document."
-msgstr "इस दस्तावेज़ युक्त संकुल के लिए खोज."
-
-#: ../libyelp/yelp-view.c:1918
+#: libyelp/yelp-view.c:809 libyelp/yelp-view.c:2138
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "यूआरआइ '%s' एक वैध पृष्ठ की ओर संकेत नहीं करता है."
 
-#: ../libyelp/yelp-view.c:1924
-#, c-format
+#: libyelp/yelp-view.c:815 libyelp/yelp-view.c:2144
 msgid "The URI does not point to a valid page."
 msgstr "यूआरआइ एक वैध पृष्ठ की ओर संकेत नहीं करता है."
 
-#: ../libyelp/yelp-view.c:1930
+#: libyelp/yelp-view.c:820 libyelp/yelp-view.c:2150
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "यूआरआइ ‘%s’ को विश्लेषित नहीं कर सका."
 
-#: ../src/yelp-application.c:59
+#: libyelp/yelp-view.c:825
+#, fuzzy
+msgid "Unknown Error."
+msgstr "अनजान त्रुटि"
+
+#: libyelp/yelp-view.c:979
+msgid "You do not have PackageKit. Package install links require PackageKit."
+msgstr ""
+"आपके पास  PackageKit नहीं है. संकुल संस्थापन लिंक को PackageKit की आवश्यकता होती है."
+
+#: libyelp/yelp-view.c:1226
+msgid "Save Image"
+msgstr "छवि सहेजें"
+
+#: libyelp/yelp-view.c:1325
+msgid "Save Code"
+msgstr "कोड सहेजें"
+
+#: libyelp/yelp-view.c:1421
+#, c-format
+msgid "Send email to %s"
+msgstr "%s में ईमेल भेजें"
+
+#: libyelp/yelp-view.c:1525
+msgid "_Save Image As…"
+msgstr "छवि इस रूप में सहेजें (_S)…"
+
+#: libyelp/yelp-view.c:1526
+msgid "_Save Video As…"
+msgstr "वीडियो ऐसे सहेजें (_S)…"
+
+#: libyelp/yelp-view.c:1534
+msgid "S_end Image To…"
+msgstr "छवि ऐसे भेजें... (_S)"
+
+#: libyelp/yelp-view.c:1535
+msgid "S_end Video To…"
+msgstr "वीडियो ऐसे भेजें.. (_S)"
+
+#: libyelp/yelp-view.c:1876
+#, c-format
+msgid "Could not load a document for ‘%s’"
+msgstr "'%s' के लिए दस्तावेज लोड नहीं कर सका"
+
+#: libyelp/yelp-view.c:1882
+msgid "Could not load a document"
+msgstr "दस्तावेज लोड नहीं कर सका"
+
+#: libyelp/yelp-view.c:1966
+msgid "Document Not Found"
+msgstr "दस्तावेज नहीं मिला"
+
+#: libyelp/yelp-view.c:1968
+msgid "Page Not Found"
+msgstr "पृष्ठ नहीं मिला"
+
+#: libyelp/yelp-view.c:1971
+msgid "Cannot Read"
+msgstr "पढ़ नहीं सकता है"
+
+#: libyelp/yelp-view.c:1977
+msgid "Unknown Error"
+msgstr "अनजान त्रुटि"
+
+#: src/yelp-application.c:59
 msgid "Turn on editor mode"
 msgstr "संपादक विधि को चालू करे"
 
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
-#: ../yelp.desktop.in.in.h:1
+#: src/yelp-application.c:338 src/yelp-window.c:1186 src/yelp-window.c:1194
+#: org.gnome.Yelp.desktop.in.in:3
 msgid "Help"
 msgstr "मदद"
 
-#: ../src/yelp-application.c:322
-#| msgid "_New Window"
-msgid "New Window"
-msgstr "नया विंडो"
-
-#: ../src/yelp-application.c:326
-#| msgid "_Larger Text"
-msgid "Larger Text"
-msgstr "बड़ा पाठ"
-
-#: ../src/yelp-application.c:327
-#| msgid "_Smaller Text"
-msgid "Smaller Text"
-msgstr "छोटा पाठ"
-
-#: ../src/yelp-window.c:206
-msgid "Application"
-msgstr "अनुप्रयोग"
-
-#: ../src/yelp-window.c:207
-msgid "A YelpApplication instance that controls this window"
-msgstr "YelpApplication इंस्टेंस जो इस विंडो को नियंत्रित करता है"
-
-#: ../src/yelp-window.c:325
-#| msgid "_Back"
+#: src/yelp-window.c:348
 msgid "Back"
 msgstr "पीछे"
 
-#: ../src/yelp-window.c:332
-#| msgid "_Forward"
+#: src/yelp-window.c:355
 msgid "Forward"
 msgstr "आगे"
 
-#: ../src/yelp-window.c:343
+#: src/yelp-window.c:366
 msgid "Menu"
 msgstr "मेन्यू"
 
-#: ../src/yelp-window.c:348
-#| msgid "Find:"
+#: src/yelp-window.c:371
+msgid "New Window"
+msgstr "नया विंडो"
+
+#: src/yelp-window.c:372
 msgid "Find…"
 msgstr "ढूँढ़ें…"
 
-#: ../src/yelp-window.c:349
+#: src/yelp-window.c:373
 msgid "Print…"
 msgstr "छापें…"
 
-#: ../src/yelp-window.c:354
-#| msgid "_Previous Page"
+#: src/yelp-window.c:378
 msgid "Previous Page"
 msgstr "पिछला पृष्ठ"
 
-#: ../src/yelp-window.c:355
-#| msgid "_Next Page"
+#: src/yelp-window.c:379
 msgid "Next Page"
 msgstr "अगला पृष्ठ"
 
-#: ../src/yelp-window.c:360
-#| msgid "Help"
+#: src/yelp-window.c:384
+msgid "Larger Text"
+msgstr "बड़ा पाठ"
+
+#: src/yelp-window.c:385
+msgid "Smaller Text"
+msgstr "छोटा पाठ"
+
+#: src/yelp-window.c:390
 msgid "All Help"
 msgstr "मदद"
 
-#: ../src/yelp-window.c:382
+#: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
 msgstr "खोजें (Ctrl+S)"
 
-#: ../src/yelp-window.c:416
-#| msgid "Bookmarks"
+#: src/yelp-window.c:427
+msgid "Bookmarks"
+msgstr "पसंद"
+
+#: src/yelp-window.c:444
 msgid "No bookmarks"
 msgstr "कोई पसंदीदा नहीं"
 
-#: ../src/yelp-window.c:424
-#| msgid "_Add Bookmark"
+#: src/yelp-window.c:452
 msgid "Add Bookmark"
 msgstr "पुस्तचिह्न जोड़ें"
 
-#: ../src/yelp-window.c:430
-#| msgid "_Remove Bookmark"
+#: src/yelp-window.c:458
 msgid "Remove Bookmark"
 msgstr "पुस्तचिह्न मिटाएँ"
 
-#: ../yelp.desktop.in.in.h:2
+#: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
 msgstr "गनोम से मदद लें"
 
-#: ../yelp.desktop.in.in.h:3
-msgid "documentation;information;manual;"
+#: org.gnome.Yelp.desktop.in.in:5
+#, fuzzy
+msgid "documentation;information;manual;help;"
 msgstr "दस्तावेजीकरण;सूचना;मैनुअल;"
+
+#: org.gnome.Yelp.desktop.in.in:8
+msgid "help-browser"
+msgstr ""
+
+#~ msgid "Indexed"
+#~ msgstr "सूचीबद्ध"
+
+#~ msgid "Whether the document content has been indexed"
+#~ msgstr "क्या दस्तावेज़ सामग्री को तालिकाबद्ध किया गया है"
+
+#~ msgid "Document URI"
+#~ msgstr "दस्तावेज URI"
+
+#~ msgid "The URI which identifies the document"
+#~ msgstr "यूआरआइ जो दस्तावेज़ को पहचानती है "
+
+#~ msgid "View"
+#~ msgstr "दृश्य"
+
+#~ msgid "A YelpView instance to control"
+#~ msgstr "YelpView इंसटैंस के नियंत्रण के लिए"
+
+#~ msgid "A YelpBookmarks implementation instance"
+#~ msgstr "YelpBookmarks कार्यान्वयन इंसटैंस"
+
+#~ msgid "GtkSettings"
+#~ msgstr "GtkSettings"
+
+#~ msgid "A GtkSettings object to get settings from"
+#~ msgstr " सेटिंग्स प्राप्त करने हेतु GtkSettings ऑब्जैक्ट"
+
+#~ msgid "GtkIconTheme"
+#~ msgstr "GtkIconTheme"
+
+#~ msgid "A GtkIconTheme object to get icons from"
+#~ msgstr "चिह्न प्राप्त करने हेतु GtkIconTheme ऑब्जैक्ट"
+
+#~ msgid "Font Adjustment"
+#~ msgstr "फॉन्ट समायोजन"
+
+#~ msgid "A size adjustment to add to font sizes"
+#~ msgstr "फ़ॉन्ट आकार को जोड़ने के लिए आकार समायोजन"
+
+#~ msgid "Show Text Cursor"
+#~ msgstr "पाठ कर्सर दिखाएँ"
+
+#~ msgid "Show the text cursor or caret for accessible navigation"
+#~ msgstr "पहुंचनीय नेविगेशन के लिए पाठ कर्सर या हंसपद चिन्ह दिखाएँ"
+
+#~ msgid "Editor Mode"
+#~ msgstr "संपादक विधि"
+
+#~ msgid "Enable features useful to editors"
+#~ msgstr "संपादकों के लिए उपयोगी सुविधाओं को सक्षम करें"
+
+#~ msgid "Database filename"
+#~ msgstr "डाटाबेसे फ़ाइलनाम"
+
+#~ msgid "The filename of the sqlite database"
+#~ msgstr "sqlite डाटाबेस के फ़ाइल का नाम"
+
+#~ msgid "XSLT Stylesheet"
+#~ msgstr "XSLT स्टाइलशीट"
+
+#~ msgid "The location of the XSLT stylesheet"
+#~ msgstr "XSLT स्टाइलशीट का स्थान"
+
+#~ msgid "Yelp URI"
+#~ msgstr "Yelp URI"
+
+#~ msgid "A YelpUri with the current location"
+#~ msgstr "मौजूदा स्थान के साथ YelpUri"
+
+#~ msgid "The loading state of the view"
+#~ msgstr "दृश्य का स्थिति लोड कर रहा है"
+
+#~ msgid "Page ID"
+#~ msgstr "पृष्ठ ID"
+
+#~ msgid "The ID of the root page of the page being viewed"
+#~ msgstr "पृष्ठ के रूट पृष्ठ की आईडी को देखा जा रहा है"
+
+#~ msgid "Root Title"
+#~ msgstr "रूट शीर्षक"
+
+#~ msgid "The title of the root page of the page being viewed"
+#~ msgstr "पृष्ठ के रूट पृष्ठ की शीर्षक को देखा जा रहा है"
+
+#~ msgid "Page Title"
+#~ msgstr "पृष्ठ शीर्षक"
+
+#~ msgid "The title of the page being viewed"
+#~ msgstr "पृष्ठ के शीर्षक को देखा जा रहा है"
+
+#~ msgid "Page Description"
+#~ msgstr "पृष्ठ वर्णन"
+
+#~ msgid "The description of the page being viewed"
+#~ msgstr "पृष्ठ के वर्णन को देखा जा रहा है"
+
+#~ msgid "Page Icon"
+#~ msgstr "पृष्ठ प्रतीक"
+
+#~ msgid "The icon of the page being viewed"
+#~ msgstr "पृष्ठ केप्रतीक को देखा जा रहा है"
+
+#~ msgid "See all search results for “%s”"
+#~ msgstr " “%s” के लिए सारे खोज परिणाम देखें"
+
+#~ msgid "Search for packages containing this document."
+#~ msgstr "इस दस्तावेज़ युक्त संकुल के लिए खोज."
+
+#~ msgid "Application"
+#~ msgstr "अनुप्रयोग"
+
+#~ msgid "A YelpApplication instance that controls this window"
+#~ msgstr "YelpApplication इंस्टेंस जो इस विंडो को नियंत्रित करता है"
 
 #~ msgid "Enable Search"
 #~ msgstr "ढूंढना सक्षम करें"

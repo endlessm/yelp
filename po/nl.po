@@ -13,8 +13,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Yelp\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/yelp/issues\n"
-"POT-Creation-Date: 2019-01-25 11:28+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
+"POT-Creation-Date: 2019-10-04 15:09+0100\n"
 "PO-Revision-Date: 2019-02-24 14:52+0100\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
@@ -24,6 +24,80 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.1\n"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:31
+#, fuzzy
+msgid "Getting Started"
+msgstr "Status van laden"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:40
+msgid "Internet"
+msgstr "Internet"
+
+# audio en video/beeld en geluid
+# het menu-onderdeel is: Audio en video
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:51
+#, fuzzy
+msgid "Documents &amp; Files"
+msgstr "Audio en video"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:60
+#, fuzzy
+msgid "The Desktop"
+msgstr "Bureaublad"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:71
+msgid "Printers, Displays &amp; Accessories"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:80
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.security-and-privacy
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:91
+msgid "Security &amp; Privacy"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -174,216 +248,219 @@ msgstr "De map ‘%s’ bestaat niet."
 msgid "Search for “%s”"
 msgstr "Zoeken naar ‘%s’"
 
-#: libyelp/yelp-transform.c:369 libyelp/yelp-transform.c:384
+#: libyelp/yelp-transform.c:370 libyelp/yelp-transform.c:385
 #, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
 msgstr "Het XSLT-stijlblad ‘%s’ onbreekt of is ongeldig."
 
-#: libyelp/yelp-transform.c:518
+#: libyelp/yelp-transform.c:519
 msgid "No href attribute found on yelp:document\n"
 msgstr "Geen ‘href’-attribuut gevonden op yelp:document\n"
 
-#: libyelp/yelp-transform.c:533
+#: libyelp/yelp-transform.c:534
 msgid "Out of memory"
 msgstr "Geen geheugen meer"
 
-#: libyelp/yelp-view.c:248
+#: libyelp/yelp-view.c:252
 msgid "C_opy Code Block"
 msgstr "Codeblok _kopiëren"
 
-#: libyelp/yelp-view.c:253
+#: libyelp/yelp-view.c:257
 msgid "_Copy Link Location"
 msgstr "Koppeling naar locatie _kopiëren"
 
-#: libyelp/yelp-view.c:258
+#: libyelp/yelp-view.c:262
 msgid "_Open Link"
 msgstr "_Koppeling openen"
 
-#: libyelp/yelp-view.c:263
+#: libyelp/yelp-view.c:267
 msgid "Open Link in New _Window"
 msgstr "Koppeling openen in _nieuw venster"
 
 # man-pagina's
-#: libyelp/yelp-view.c:273
+#: libyelp/yelp-view.c:277
 msgid "_Install Packages"
 msgstr "_Pakketten installeren"
 
-#: libyelp/yelp-view.c:278
+#: libyelp/yelp-view.c:282
 msgid "Save Code _Block As…"
 msgstr "Code_blok opslaan als…"
 
-#: libyelp/yelp-view.c:293
+#: libyelp/yelp-view.c:297
 msgid "_Copy Text"
 msgstr "Tekst _kopiëren"
 
-#: libyelp/yelp-view.c:805 libyelp/yelp-view.c:2138
+#: libyelp/yelp-view.c:809 libyelp/yelp-view.c:2138
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "De URI ‘%s’ wijst niet naar een geldige pagina."
 
-#: libyelp/yelp-view.c:811 libyelp/yelp-view.c:2144
+#: libyelp/yelp-view.c:815 libyelp/yelp-view.c:2144
 msgid "The URI does not point to a valid page."
 msgstr "De URI wijst niet naar een geldige pagina."
 
-#: libyelp/yelp-view.c:816 libyelp/yelp-view.c:2150
+#: libyelp/yelp-view.c:820 libyelp/yelp-view.c:2150
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "De URI ‘%s’ kan niet verwerkt worden."
 
-#: libyelp/yelp-view.c:821
+#: libyelp/yelp-view.c:825
 msgid "Unknown Error."
 msgstr "Onbekende fout."
 
-#: libyelp/yelp-view.c:975
+#: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
 msgstr ""
 "U heeft PackageKit niet. Koppelingen naar pakketinstallaties vereisen "
 "PackageKit."
 
-#: libyelp/yelp-view.c:1222
+#: libyelp/yelp-view.c:1226
 msgid "Save Image"
 msgstr "Afbeelding opslaan"
 
-#: libyelp/yelp-view.c:1321
+#: libyelp/yelp-view.c:1325
 msgid "Save Code"
 msgstr "Code opslaan"
 
-#: libyelp/yelp-view.c:1417
+#: libyelp/yelp-view.c:1421
 #, c-format
 msgid "Send email to %s"
 msgstr "Een e-mail sturen naar %s"
 
-#: libyelp/yelp-view.c:1521
+#: libyelp/yelp-view.c:1525
 msgid "_Save Image As…"
 msgstr "Afbeelding op_slaan als…"
 
-#: libyelp/yelp-view.c:1522
+#: libyelp/yelp-view.c:1526
 msgid "_Save Video As…"
 msgstr "Video op_slaan als…"
 
-#: libyelp/yelp-view.c:1530
+#: libyelp/yelp-view.c:1534
 msgid "S_end Image To…"
 msgstr "Afbeelding s_turen naar…"
 
-#: libyelp/yelp-view.c:1531
+#: libyelp/yelp-view.c:1535
 msgid "S_end Video To…"
 msgstr "Video s_turen naar…"
 
-#: libyelp/yelp-view.c:1872
+#: libyelp/yelp-view.c:1876
 #, c-format
 msgid "Could not load a document for ‘%s’"
 msgstr "Laden van een document voor ‘%s’ mislukt"
 
-#: libyelp/yelp-view.c:1878
+#: libyelp/yelp-view.c:1882
 msgid "Could not load a document"
 msgstr "Laden van een document mislukt"
 
 # onderdelen/secties
-#: libyelp/yelp-view.c:1962
+#: libyelp/yelp-view.c:1966
 msgid "Document Not Found"
 msgstr "Document niet gevonden"
 
-#: libyelp/yelp-view.c:1964
+#: libyelp/yelp-view.c:1968
 msgid "Page Not Found"
 msgstr "Pagina niet gevonden"
 
-#: libyelp/yelp-view.c:1967
+#: libyelp/yelp-view.c:1971
 msgid "Cannot Read"
 msgstr "Lezen mislukt"
 
-#: libyelp/yelp-view.c:1973
+#: libyelp/yelp-view.c:1977
 msgid "Unknown Error"
 msgstr "Onbekende fout"
-
-#: libyelp/yelp-view.c:1993
-msgid "Search for packages containing this document."
-msgstr "Zoek naar pakketten die dit document bevatten."
 
 #: src/yelp-application.c:59
 msgid "Turn on editor mode"
 msgstr "Bewerkingsmodus activeren"
 
-#: src/yelp-application.c:270 src/yelp-window.c:1188 src/yelp-window.c:1196
-#: yelp.desktop.in:3
+#: src/yelp-application.c:338 src/yelp-window.c:1186 src/yelp-window.c:1194
+#: org.gnome.Yelp.desktop.in.in:3
 msgid "Help"
 msgstr "Hulp"
 
-#: src/yelp-window.c:343
+#: src/yelp-window.c:348
 msgid "Back"
 msgstr "Vorige"
 
 # In tegenstelling tot de normale sneltoets gebruiken we hier de V
-#: src/yelp-window.c:350
+#: src/yelp-window.c:355
 msgid "Forward"
 msgstr "Volgende"
 
-#: src/yelp-window.c:361
+#: src/yelp-window.c:366
 msgid "Menu"
 msgstr "Menu"
 
-#: src/yelp-window.c:366
+#: src/yelp-window.c:371
 msgid "New Window"
 msgstr "Nieuw venster"
 
-#: src/yelp-window.c:367
+#: src/yelp-window.c:372
 msgid "Find…"
 msgstr "Zoeken…"
 
-#: src/yelp-window.c:368
+#: src/yelp-window.c:373
 msgid "Print…"
 msgstr "Afdrukken…"
 
-#: src/yelp-window.c:373
+#: src/yelp-window.c:378
 msgid "Previous Page"
 msgstr "Vorige pagina"
 
-#: src/yelp-window.c:374
+#: src/yelp-window.c:379
 msgid "Next Page"
 msgstr "Volgende pagina"
 
-#: src/yelp-window.c:379
+#: src/yelp-window.c:384
 msgid "Larger Text"
 msgstr "Grotere tekst"
 
-#: src/yelp-window.c:380
+#: src/yelp-window.c:385
 msgid "Smaller Text"
 msgstr "Kleinere tekst"
 
-#: src/yelp-window.c:385
+#: src/yelp-window.c:390
 msgid "All Help"
 msgstr "Alle hulp"
 
-#: src/yelp-window.c:407
+#: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
 msgstr "Zoeken (Ctrl+S)"
 
-#: src/yelp-window.c:424
+#: src/yelp-window.c:427
 msgid "Bookmarks"
 msgstr "Bladwijzers"
 
-#: src/yelp-window.c:441
+#: src/yelp-window.c:444
 msgid "No bookmarks"
 msgstr "Geen bladwijzers"
 
-#: src/yelp-window.c:449
+#: src/yelp-window.c:452
 msgid "Add Bookmark"
 msgstr "Bladwijzer toevoegen"
 
-#: src/yelp-window.c:455
+#: src/yelp-window.c:458
 msgid "Remove Bookmark"
 msgstr "Bladwijzer verwijderen"
 
-#: yelp.desktop.in:4
+#: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
 msgstr "Hulp bij Gnome"
 
-#: yelp.desktop.in:5
+#: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr "documentatie;informatie;handleiding;hulp;help;docs;"
 
-#: yelp.desktop.in:8
-msgid "org.gnome.Yelp"
-msgstr "org.gnome.Yelp"
+#: org.gnome.Yelp.desktop.in.in:8
+#, fuzzy
+msgid "help-browser"
+msgstr "Hulp-browser"
+
+#~ msgid "Search for packages containing this document."
+#~ msgstr "Zoek naar pakketten die dit document bevatten."
+
+#~ msgid "org.gnome.Yelp"
+#~ msgstr "org.gnome.Yelp"
 
 #~ msgid "Indexed"
 #~ msgstr "Geïndexeerd"
@@ -453,9 +530,6 @@ msgstr "org.gnome.Yelp"
 
 #~ msgid "A YelpUri with the current location"
 #~ msgstr "Een YelpUri met de huidige locatie"
-
-#~ msgid "Loading State"
-#~ msgstr "Status van laden"
 
 #~ msgid "The loading state of the view"
 #~ msgstr "De laadstatus van de weergave"
@@ -907,9 +981,6 @@ msgstr "org.gnome.Yelp"
 #~ msgid "Debuggers"
 #~ msgstr "Debuggers"
 
-#~ msgid "Desktop"
-#~ msgstr "Bureaublad"
-
 #~ msgid "Desktop Settings"
 #~ msgstr "Bureaubladinstellingen"
 
@@ -1017,9 +1088,6 @@ msgstr "org.gnome.Yelp"
 
 #~ msgid "Instant Messaging"
 #~ msgstr "Directe berichten"
-
-#~ msgid "Internet"
-#~ msgstr "Internet"
 
 #~ msgid "Java"
 #~ msgstr "Java"
@@ -1169,11 +1237,6 @@ msgstr "org.gnome.Yelp"
 
 #~ msgid "Sound"
 #~ msgstr "Audio"
-
-# audio en video/beeld en geluid
-# het menu-onderdeel is: Audio en video
-#~ msgid "Sound &amp; Video"
-#~ msgstr "Audio en video"
 
 # audio en video/beeld en geluid
 # het menu-onderdeel is: Audio en video
@@ -1553,9 +1616,6 @@ msgstr "org.gnome.Yelp"
 
 #~ msgid "Copy _Email Address"
 #~ msgstr "_E-mailadres kopiëren"
-
-#~ msgid "Help Browser"
-#~ msgstr "Hulp-browser"
 
 #~ msgid "Unknown Page"
 #~ msgstr "Onbekende pagina"

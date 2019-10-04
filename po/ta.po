@@ -15,9 +15,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp.master.ta\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=yelp&keywords=I18N+L10N&component=General\n"
-"POT-Creation-Date: 2014-09-14 11:01+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
+"POT-Creation-Date: 2019-10-04 15:09+0100\n"
 "PO-Revision-Date: 2014-09-14 23:36+0630\n"
 "Last-Translator: Shantha kumar <shkumar@redhat.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -26,9 +25,80 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.5\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\\n\n"
 "\n"
-"\n"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:31
+#, fuzzy
+msgid "Getting Started"
+msgstr "ஏற்றப்படும் நிலை"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:40
+msgid "Internet"
+msgstr "இணையம்"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:51
+#, fuzzy
+msgid "Documents &amp; Files"
+msgstr "ஒலி &amp; பார்வை"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:60
+#, fuzzy
+msgid "The Desktop"
+msgstr "மேல்மேசை"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:71
+msgid "Printers, Displays &amp; Accessories"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:80
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.security-and-privacy
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:91
+msgid "Security &amp; Privacy"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -40,48 +110,75 @@ msgstr ""
 #.
 #. <string/> - The package to install
 #.
-#: yelp.xml.in:36
+#: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "நிறுவு <string/>"
 
-#: ../libyelp/yelp-bz2-decompressor.c:144
-#: ../libyelp/yelp-lzma-decompressor.c:153
+#: data/yelp.appdata.xml.in:6
+#, fuzzy
+msgid "GNOME Help"
+msgstr "நோம் உதவி உலாவி"
+
+#: data/yelp.appdata.xml.in:7
+msgid "Help viewer for GNOME"
+msgstr ""
+
+#: data/yelp.appdata.xml.in:9
+msgid ""
+"Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
+"also display DocBook, info, man, and HTML documentation."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:13
+msgid ""
+"It makes it easy to find the documentation you need, with interactive search "
+"and bookmarks."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:17
+msgid ""
+"It also has an editor mode, which shows editorial comments and revision "
+"statuses when editing Mallard documents."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:30
+msgid "The GNOME Project"
+msgstr ""
+
+#: libyelp/yelp-bz2-decompressor.c:143 libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
 msgstr "செல்லுபடியாகாத சுருக்கிய தரவு"
 
-#: ../libyelp/yelp-bz2-decompressor.c:150
-#: ../libyelp/yelp-lzma-decompressor.c:159
+#: libyelp/yelp-bz2-decompressor.c:149 libyelp/yelp-lzma-decompressor.c:158
 msgid "Not enough memory"
 msgstr "நினைவகம் போதாது"
 
-#: ../libyelp/yelp-docbook-document.c:297 ../libyelp/yelp-info-document.c:237
-#: ../libyelp/yelp-mallard-document.c:305
-#: ../libyelp/yelp-mallard-document.c:456 ../libyelp/yelp-man-document.c:281
+#: libyelp/yelp-docbook-document.c:292 libyelp/yelp-info-document.c:221
+#: libyelp/yelp-mallard-document.c:306 libyelp/yelp-mallard-document.c:464
+#: libyelp/yelp-man-document.c:199
 #, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
 msgstr " ‘%s’ பக்கம் ஆவணம் ‘%s’ இல் இல்லை"
 
-#: ../libyelp/yelp-docbook-document.c:332 ../libyelp/yelp-info-document.c:371
-#: ../libyelp/yelp-man-document.c:416
-#, c-format
+#: libyelp/yelp-docbook-document.c:331 libyelp/yelp-info-document.c:358
+#: libyelp/yelp-man-document.c:336
 msgid "The file does not exist."
 msgstr "கோப்பு இருப்பில் இல்லை"
 
-#: ../libyelp/yelp-docbook-document.c:342 ../libyelp/yelp-info-document.c:381
-#: ../libyelp/yelp-man-document.c:426
+#: libyelp/yelp-docbook-document.c:341 libyelp/yelp-info-document.c:368
+#: libyelp/yelp-man-document.c:346
 #, c-format
 msgid "The file ‘%s’ does not exist."
 msgstr "கோப்பு ‘%s’ இருப்பில் இல்லை."
 
-#: ../libyelp/yelp-docbook-document.c:357
+#: libyelp/yelp-docbook-document.c:359
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"கோப்பு ‘%s’ ஐ அலகிட இயலவில்லை. ஏனெனில் அது சரியாக உருவாகாத எக்ஸ்எம்எல் ஆவணம்"
+msgstr "கோப்பு ‘%s’ ஐ அலகிட இயலவில்லை. ஏனெனில் அது சரியாக உருவாகாத எக்ஸ்எம்எல் ஆவணம்"
 
-#: ../libyelp/yelp-docbook-document.c:370
+#: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
@@ -90,426 +187,372 @@ msgstr ""
 "கோப்பு ‘%s’ ஐ அலகிட இயலவில்லை. ஏனெனில் அதில் ஒன்றோ மேற்பட்டோ சரியாக உருவாகாத "
 "எக்ஸ்எம்எல் ஆவணம் உள்ளது"
 
-#: ../libyelp/yelp-docbook-document.c:803
+#: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
 msgstr "தெரியாத"
 
-#: ../libyelp/yelp-docbook-document.c:864 ../libyelp/yelp-info-document.c:314
-#: ../libyelp/yelp-man-document.c:358
+#: libyelp/yelp-docbook-document.c:908 libyelp/yelp-info-document.c:301
+#: libyelp/yelp-man-document.c:279
 #, c-format
 msgid "The requested page was not found in the document ‘%s’."
 msgstr "கேட்ட பக்கம் ஆவணம் ‘%s’ இல் இல்லை"
 
-#: ../libyelp/yelp-document.c:266
-msgid "Indexed"
-msgstr "அட்டவணைப் படுத்தப்பட்டது"
-
-#: ../libyelp/yelp-document.c:267
-msgid "Whether the document content has been indexed"
-msgstr "ஆவணத்தின் உள்ளடக்கம் அட்டவணைப் படுத்தப்பட்டதா?"
-
-#: ../libyelp/yelp-document.c:275
-msgid "Document URI"
-msgstr "ஆவண யூஆர்ஐ"
-
-#: ../libyelp/yelp-document.c:276
-msgid "The URI which identifies the document"
-msgstr "யூஆர்ஐ ஆவணத்தை அடையாளம் காட்டுகிறது"
-
-#: ../libyelp/yelp-document.c:994
+#: libyelp/yelp-document.c:1068
 #, c-format
 msgid "Search results for “%s”"
 msgstr "\"%s\"க்கான தேடுதல் முடிவு"
 
-#: ../libyelp/yelp-document.c:1006
+#: libyelp/yelp-document.c:1080
 #, c-format
 msgid "No matching help pages found in “%s”."
 msgstr "“%s” இல் பொருத்தமான உதவி பக்கங்கள் காணப்படவில்லை"
 
-#: ../libyelp/yelp-document.c:1012
+#: libyelp/yelp-document.c:1086
 msgid "No matching help pages found."
 msgstr "பொருத்தமான உதவி பக்கங்கள் காணப்படவில்லை"
 
-#: ../libyelp/yelp-error.c:35
-#, c-format
+#: libyelp/yelp-error.c:35
 msgid "An unknown error occurred."
 msgstr "ஒரு தெரியாத பிழை ஏற்பட்டது."
 
-#: ../libyelp/yelp-help-list.c:546 ../libyelp/yelp-help-list.c:555
+#: libyelp/yelp-help-list.c:548 libyelp/yelp-help-list.c:557
 msgid "All Help Documents"
 msgstr "அனைத்து உதவி ஆவணங்கள்"
 
-#: ../libyelp/yelp-info-document.c:396
+#: libyelp/yelp-info-document.c:383
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"கோப்பு ‘%s’ ஐ அலகிட இயலவில்லை. ஏனெனில் அது சரியாக உருவாகாத விவரணப் பக்கம்"
+msgstr "கோப்பு ‘%s’ ஐ அலகிட இயலவில்லை. ஏனெனில் அது சரியாக உருவாகாத விவரணப் பக்கம்"
 
-#: ../libyelp/yelp-mallard-document.c:344
+#: libyelp/yelp-mallard-document.c:348
 #, c-format
 msgid "The directory ‘%s’ does not exist."
 msgstr "அடைவு ‘%s’ இருப்பில் இல்லை."
 
-#: ../libyelp/yelp-search-entry.c:173
-msgid "View"
-msgstr "காட்சி"
-
-#: ../libyelp/yelp-search-entry.c:174
-msgid "A YelpView instance to control"
-msgstr "கட்டுப்பாட்டுக்கு ஒரு யெல்ப்வ்யூ  சான்று நிகழ்வு"
-
-#: ../libyelp/yelp-search-entry.c:189 ../src/yelp-window.c:399
-msgid "Bookmarks"
-msgstr "புத்தகக்குறிகள்"
-
-#: ../libyelp/yelp-search-entry.c:190
-msgid "A YelpBookmarks implementation instance"
-msgstr "ஒரு யெல்ப்புக்மார்க்ஸ் செயலாக்க சான்று நிகழ்வு"
-
-#: ../libyelp/yelp-search-entry.c:440
+#: libyelp/yelp-search-entry.c:434
 #, c-format
 msgid "Search for “%s”"
 msgstr "\"%s\"க்காக தேடு"
 
-#: ../libyelp/yelp-settings.c:152
-msgid "GtkSettings"
-msgstr "அமைப்புகள்"
-
-#: ../libyelp/yelp-settings.c:153
-msgid "A GtkSettings object to get settings from"
-msgstr "ஜிடிகேஅமைப்புகள் பொருள் அமைவுகளைப்பெற"
-
-#: ../libyelp/yelp-settings.c:161
-msgid "GtkIconTheme"
-msgstr "ஜிடிகேஐகான் கருத்து"
-
-#: ../libyelp/yelp-settings.c:162
-msgid "A GtkIconTheme object to get icons from"
-msgstr "ஒரு ஜிடிகேஐகான் கருத்துப்பொருள் -சின்னங்களை பெற"
-
-#: ../libyelp/yelp-settings.c:170
-msgid "Font Adjustment"
-msgstr "எழுத்துரு நேர்த்தி"
-
-#: ../libyelp/yelp-settings.c:171
-msgid "A size adjustment to add to font sizes"
-msgstr "எழுத்துரு அளவுகளுக்கு சேர்க்க ஒரு அளவு நேர்த்தி"
-
-#: ../libyelp/yelp-settings.c:179
-msgid "Show Text Cursor"
-msgstr "உரை நிலைக்காட்டி ஐ காட்டு"
-
-#: ../libyelp/yelp-settings.c:180
-msgid "Show the text cursor or caret for accessible navigation"
-msgstr "அணுகக்கூடிய உலாவலுக்கான உரை நிலைக்காட்டி அல்லது காரட் ஐ காட்டு"
-
-#: ../libyelp/yelp-settings.c:188
-msgid "Editor Mode"
-msgstr "திருத்தி பாங்கு"
-
-#: ../libyelp/yelp-settings.c:189
-msgid "Enable features useful to editors"
-msgstr "உரை திருத்திகளுக்கு பயனாகும்  முறைகளை செயல்படுத்து"
-
-#: ../libyelp/yelp-sqlite-storage.c:147
-msgid "Database filename"
-msgstr "தரவுத்தள கோப்புப்பெயர்"
-
-#: ../libyelp/yelp-sqlite-storage.c:148
-msgid "The filename of the sqlite database"
-msgstr "எஸ்க்யூலைட்  தரவுத்தள கோப்புப்பெயர்"
-
-#: ../libyelp/yelp-transform.c:169
-msgid "XSLT Stylesheet"
-msgstr "எக்ஸ்எஸ்எல்டி பாணிசீட்டு"
-
-#: ../libyelp/yelp-transform.c:170
-msgid "The location of the XSLT stylesheet"
-msgstr "எக்ஸ்எஸ்எல்டி பாணிசீட்டின் இடம்"
-
-#: ../libyelp/yelp-transform.c:378 ../libyelp/yelp-transform.c:393
+#: libyelp/yelp-transform.c:370 libyelp/yelp-transform.c:385
 #, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
 msgstr "எக்ஸ்எஸ்எல்டி பாணிசீட்டு ‘%s’ இருப்பில் இல்லை அல்லது செல்லுபடியாகாதது."
 
-#: ../libyelp/yelp-transform.c:527
+#: libyelp/yelp-transform.c:519
 msgid "No href attribute found on yelp:document\n"
 msgstr "யெல்ப்:ஆவணத்தில் href பண்பு இல்லை\n"
 
-#: ../libyelp/yelp-transform.c:542
+#: libyelp/yelp-transform.c:534
 msgid "Out of memory"
 msgstr "நினைவகம் போதாது"
 
-#: ../libyelp/yelp-view.c:446
-msgid "Yelp URI"
-msgstr "யெல்ப் யூஆர்ஐ"
-
-#: ../libyelp/yelp-view.c:447
-msgid "A YelpUri with the current location"
-msgstr "நடப்பு இடத்திற்கு ஒரு யெல்ப் யுஆர்ஐ"
-
-#: ../libyelp/yelp-view.c:455
-msgid "Loading State"
-msgstr "ஏற்றப்படும் நிலை"
-
-#: ../libyelp/yelp-view.c:456
-msgid "The loading state of the view"
-msgstr "காட்சியின் ஏற்றப்படும் நிலை"
-
-#: ../libyelp/yelp-view.c:465
-msgid "Page ID"
-msgstr "பக்க அடையாளம் "
-
-#: ../libyelp/yelp-view.c:466
-msgid "The ID of the root page of the page being viewed"
-msgstr "பார்வையிடப்படும் பக்கத்தின் மூல பக்கத்தின் அடையாளம் "
-
-#: ../libyelp/yelp-view.c:474
-msgid "Root Title"
-msgstr "மூல தலைப்பு"
-
-#: ../libyelp/yelp-view.c:475
-msgid "The title of the root page of the page being viewed"
-msgstr "பார்வையிடப்படும் பக்கத்தின் மூல பக்கத்தின் தலைப்பு"
-
-#: ../libyelp/yelp-view.c:483
-msgid "Page Title"
-msgstr "பக்கத் தலைப்பு"
-
-#: ../libyelp/yelp-view.c:484
-msgid "The title of the page being viewed"
-msgstr "பார்வையிடப்படும் பக்கத்தின் தலைப்பு"
-
-#: ../libyelp/yelp-view.c:492
-msgid "Page Description"
-msgstr "பக்கத்தின் விவரம்"
-
-#: ../libyelp/yelp-view.c:493
-msgid "The description of the page being viewed"
-msgstr "பார்வையிடப்படும் பக்கத்தின் விவரம்"
-
-#: ../libyelp/yelp-view.c:501
-msgid "Page Icon"
-msgstr "பக்க சின்னம்"
-
-#: ../libyelp/yelp-view.c:502
-msgid "The icon of the page being viewed"
-msgstr "பார்வையிடப்படும் பக்கத்தின் சின்னம்"
-
-#: ../libyelp/yelp-view.c:744
-msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"உங்களிடம் பேக்கேஜ்கிட் இல்லை. பொதிகளை நிறுவும் தொடுப்புகளுக்கு அது அவசியம்"
-
-#: ../libyelp/yelp-view.c:1040
-msgid "Save Image"
-msgstr "பிம்பத்தை சேமி"
-
-#: ../libyelp/yelp-view.c:1135
-msgid "Save Code"
-msgstr "நிரறொடர் ஐ சேமி"
-
-#: ../libyelp/yelp-view.c:1298
-#, c-format
-msgid "Send email to %s"
-msgstr "%s க்கு மின்னஞ்சல் அனுப்பவும்"
-
-#: ../libyelp/yelp-view.c:1313
-msgid "_Install Packages"
-msgstr "_I பொதிகளை நிறுவுக"
-
-#: ../libyelp/yelp-view.c:1321
-msgid "_Open Link"
-msgstr "_த இணைப்பினை திற"
-
-#: ../libyelp/yelp-view.c:1328
-msgid "_Copy Link Location"
-msgstr "இணைப்பு இடத்தை நகலெடு (_C)"
-
-#: ../libyelp/yelp-view.c:1334
-msgid "Open Link in New _Window"
-msgstr "இணைப்பினை புது சாளரத்தில் திறக்கவும்  (_W)"
-
-#: ../libyelp/yelp-view.c:1388
-#| msgid "_Save Image As..."
-msgid "_Save Image As…"
-msgstr "(_S) பிம்பத்தை இப்படிச் சேமி"
-
-#: ../libyelp/yelp-view.c:1390
-#| msgid "_Save Video As..."
-msgid "_Save Video As…"
-msgstr "வீடியோவை இவ்வாறு சேமி … (_S)"
-
-#: ../libyelp/yelp-view.c:1397
-#| msgid "S_end Image To..."
-msgid "S_end Image To…"
-msgstr "படத்தை இங்கு அனுப்பு… (_e)"
-
-#: ../libyelp/yelp-view.c:1399
-#| msgid "S_end Video To..."
-msgid "S_end Video To…"
-msgstr "விடியோவை இங்கு அனுப்பு…(_e)"
-
-#: ../libyelp/yelp-view.c:1410
-msgid "_Copy Text"
-msgstr "_C உரையை நகலெடு"
-
-#: ../libyelp/yelp-view.c:1423
+#: libyelp/yelp-view.c:252
 msgid "C_opy Code Block"
 msgstr "நிரறொடர் தொகுதியை நகலெடு"
 
-#: ../libyelp/yelp-view.c:1428
-#| msgid "Save Code _Block As..."
+#: libyelp/yelp-view.c:257
+msgid "_Copy Link Location"
+msgstr "இணைப்பு இடத்தை நகலெடு (_C)"
+
+#: libyelp/yelp-view.c:262
+msgid "_Open Link"
+msgstr "_த இணைப்பினை திற"
+
+#: libyelp/yelp-view.c:267
+msgid "Open Link in New _Window"
+msgstr "இணைப்பினை புது சாளரத்தில் திறக்கவும்  (_W)"
+
+#: libyelp/yelp-view.c:277
+msgid "_Install Packages"
+msgstr "_I பொதிகளை நிறுவுக"
+
+#: libyelp/yelp-view.c:282
 msgid "Save Code _Block As…"
 msgstr "குறியீடுத் தொகுதியை இவ்வாறு சேமி…(_B)"
 
-#: ../libyelp/yelp-view.c:1535
-#, c-format
-msgid "See all search results for “%s”"
-msgstr "\"%s\"க்கான தேடுதல் முடிவுகள் அனைத்தையும் காண்க"
+#: libyelp/yelp-view.c:297
+msgid "_Copy Text"
+msgstr "_C உரையை நகலெடு"
 
-#: ../libyelp/yelp-view.c:1656
-#, c-format
-msgid "Could not load a document for ‘%s’"
-msgstr "‘%s’ க்கு ஆவணத்தை ஏற்ற முடியவில்லை’"
-
-#: ../libyelp/yelp-view.c:1662
-#, c-format
-msgid "Could not load a document"
-msgstr "ஆவணத்தை ஏற்ற முடியவில்லை"
-
-#: ../libyelp/yelp-view.c:1737
-msgid "Document Not Found"
-msgstr "ஆவணம் காணவில்லை"
-
-#: ../libyelp/yelp-view.c:1739
-msgid "Page Not Found"
-msgstr "பக்கம் காணப்படவில்லை"
-
-#: ../libyelp/yelp-view.c:1742
-msgid "Cannot Read"
-msgstr "படிக்க முடியவில்லை"
-
-#: ../libyelp/yelp-view.c:1748
-msgid "Unknown Error"
-msgstr "தெரியாத பிழை"
-
-#: ../libyelp/yelp-view.c:1768
-msgid "Search for packages containing this document."
-msgstr "இந்த ஆவணம் உள்ள பொதிகளைத் தேடு"
-
-#: ../libyelp/yelp-view.c:1918
+#: libyelp/yelp-view.c:809 libyelp/yelp-view.c:2138
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "யூஆர்ஐ ‘%s’ செல்லுபடியாகும் பக்கத்துக்கு சுட்டவில்லை."
 
-#: ../libyelp/yelp-view.c:1924
-#, c-format
+#: libyelp/yelp-view.c:815 libyelp/yelp-view.c:2144
 msgid "The URI does not point to a valid page."
 msgstr "யூஆர்ஐ செல்லுபடியாகும் பக்கத்துக்கு சுட்டவில்லை."
 
-#: ../libyelp/yelp-view.c:1930
+#: libyelp/yelp-view.c:820 libyelp/yelp-view.c:2150
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "யூஆர்ஐ ‘%s’ ஐ அலகிட முடியவில்லை"
 
-#: ../src/yelp-application.c:59
+#: libyelp/yelp-view.c:825
+#, fuzzy
+msgid "Unknown Error."
+msgstr "தெரியாத பிழை"
+
+#: libyelp/yelp-view.c:979
+msgid "You do not have PackageKit. Package install links require PackageKit."
+msgstr "உங்களிடம் பேக்கேஜ்கிட் இல்லை. பொதிகளை நிறுவும் தொடுப்புகளுக்கு அது அவசியம்"
+
+#: libyelp/yelp-view.c:1226
+msgid "Save Image"
+msgstr "பிம்பத்தை சேமி"
+
+#: libyelp/yelp-view.c:1325
+msgid "Save Code"
+msgstr "நிரறொடர் ஐ சேமி"
+
+#: libyelp/yelp-view.c:1421
+#, c-format
+msgid "Send email to %s"
+msgstr "%s க்கு மின்னஞ்சல் அனுப்பவும்"
+
+#: libyelp/yelp-view.c:1525
+msgid "_Save Image As…"
+msgstr "(_S) பிம்பத்தை இப்படிச் சேமி"
+
+#: libyelp/yelp-view.c:1526
+msgid "_Save Video As…"
+msgstr "வீடியோவை இவ்வாறு சேமி … (_S)"
+
+#: libyelp/yelp-view.c:1534
+msgid "S_end Image To…"
+msgstr "படத்தை இங்கு அனுப்பு… (_e)"
+
+#: libyelp/yelp-view.c:1535
+msgid "S_end Video To…"
+msgstr "விடியோவை இங்கு அனுப்பு…(_e)"
+
+#: libyelp/yelp-view.c:1876
+#, c-format
+msgid "Could not load a document for ‘%s’"
+msgstr "‘%s’ க்கு ஆவணத்தை ஏற்ற முடியவில்லை’"
+
+#: libyelp/yelp-view.c:1882
+msgid "Could not load a document"
+msgstr "ஆவணத்தை ஏற்ற முடியவில்லை"
+
+#: libyelp/yelp-view.c:1966
+msgid "Document Not Found"
+msgstr "ஆவணம் காணவில்லை"
+
+#: libyelp/yelp-view.c:1968
+msgid "Page Not Found"
+msgstr "பக்கம் காணப்படவில்லை"
+
+#: libyelp/yelp-view.c:1971
+msgid "Cannot Read"
+msgstr "படிக்க முடியவில்லை"
+
+#: libyelp/yelp-view.c:1977
+msgid "Unknown Error"
+msgstr "தெரியாத பிழை"
+
+#: src/yelp-application.c:59
 msgid "Turn on editor mode"
 msgstr "திருத்தி பாங்கை இயக்கு"
 
-#: ../src/yelp-application.c:272 ../src/yelp-window.c:1165
-#: ../yelp.desktop.in.in.h:1
+#: src/yelp-application.c:338 src/yelp-window.c:1186 src/yelp-window.c:1194
+#: org.gnome.Yelp.desktop.in.in:3
 msgid "Help"
 msgstr "உதவி"
 
-#: ../src/yelp-application.c:322
-#| msgid "_New Window"
-msgid "New Window"
-msgstr "புதிய சாளரம்"
-
-#: ../src/yelp-application.c:326
-#| msgid "_Larger Text"
-msgid "Larger Text"
-msgstr "பெரிய உரை"
-
-#: ../src/yelp-application.c:327
-#| msgid "_Smaller Text"
-msgid "Smaller Text"
-msgstr "சிறிய உரை"
-
-#: ../src/yelp-window.c:206
-msgid "Application"
-msgstr "பயன்பாடு"
-
-#: ../src/yelp-window.c:207
-msgid "A YelpApplication instance that controls this window"
-msgstr "இந்த சாளரத்தை கட்டுப்படுத்தும் யெல்ப் பயன்பாட்டு சான்று நிகழ்வு"
-
-#: ../src/yelp-window.c:325
-#| msgid "_Back"
+#: src/yelp-window.c:348
 msgid "Back"
 msgstr "பின்"
 
-#: ../src/yelp-window.c:332
-#| msgid "_Forward"
+#: src/yelp-window.c:355
 msgid "Forward"
 msgstr "முன்"
 
-#: ../src/yelp-window.c:343
+#: src/yelp-window.c:366
 msgid "Menu"
 msgstr "மெனு"
 
-#: ../src/yelp-window.c:348
-#| msgid "Find:"
+#: src/yelp-window.c:371
+msgid "New Window"
+msgstr "புதிய சாளரம்"
+
+#: src/yelp-window.c:372
 msgid "Find…"
 msgstr "கண்டுபிடி…"
 
-#: ../src/yelp-window.c:349
-#| msgid "Printing"
+#: src/yelp-window.c:373
 msgid "Print…"
 msgstr "அச்சிடு…"
 
-#: ../src/yelp-window.c:354
-#| msgid "_Previous Page"
+#: src/yelp-window.c:378
 msgid "Previous Page"
 msgstr "முந்தைய பக்கம்"
 
-#: ../src/yelp-window.c:355
-#| msgid "_Next Page"
+#: src/yelp-window.c:379
 msgid "Next Page"
 msgstr "அடுத்த பக்கம்"
 
-#: ../src/yelp-window.c:360
-#| msgid "Help"
+#: src/yelp-window.c:384
+msgid "Larger Text"
+msgstr "பெரிய உரை"
+
+#: src/yelp-window.c:385
+msgid "Smaller Text"
+msgstr "சிறிய உரை"
+
+#: src/yelp-window.c:390
 msgid "All Help"
 msgstr "அனைத்து உதவி"
 
-#: ../src/yelp-window.c:382
+#: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
 msgstr "தேடு (Ctrl+S)"
 
-#: ../src/yelp-window.c:416
-#| msgid "Bookmarks"
+#: src/yelp-window.c:427
+msgid "Bookmarks"
+msgstr "புத்தகக்குறிகள்"
+
+#: src/yelp-window.c:444
 msgid "No bookmarks"
 msgstr "புத்தகக்குறிகள் இல்லை"
 
-#: ../src/yelp-window.c:424
+#: src/yelp-window.c:452
 msgid "Add Bookmark"
 msgstr "புத்தகக்குறி சேர்"
 
-#: ../src/yelp-window.c:430
-#| msgid "_Remove Bookmark"
+#: src/yelp-window.c:458
 msgid "Remove Bookmark"
 msgstr "புத்தகக்குறியை நீக்கு"
 
-#: ../yelp.desktop.in.in.h:2
+#: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
 msgstr "கனோமைப் பற்றி உதவி பெறு"
 
-#: ../yelp.desktop.in.in.h:3
-msgid "documentation;information;manual;"
+#: org.gnome.Yelp.desktop.in.in:5
+#, fuzzy
+msgid "documentation;information;manual;help;"
 msgstr "documentation;information;manual;"
+
+#: org.gnome.Yelp.desktop.in.in:8
+#, fuzzy
+msgid "help-browser"
+msgstr "உதவி உலாவி"
+
+#~ msgid "Indexed"
+#~ msgstr "அட்டவணைப் படுத்தப்பட்டது"
+
+#~ msgid "Whether the document content has been indexed"
+#~ msgstr "ஆவணத்தின் உள்ளடக்கம் அட்டவணைப் படுத்தப்பட்டதா?"
+
+#~ msgid "Document URI"
+#~ msgstr "ஆவண யூஆர்ஐ"
+
+#~ msgid "The URI which identifies the document"
+#~ msgstr "யூஆர்ஐ ஆவணத்தை அடையாளம் காட்டுகிறது"
+
+#~ msgid "View"
+#~ msgstr "காட்சி"
+
+#~ msgid "A YelpView instance to control"
+#~ msgstr "கட்டுப்பாட்டுக்கு ஒரு யெல்ப்வ்யூ  சான்று நிகழ்வு"
+
+#~ msgid "A YelpBookmarks implementation instance"
+#~ msgstr "ஒரு யெல்ப்புக்மார்க்ஸ் செயலாக்க சான்று நிகழ்வு"
+
+#~ msgid "GtkSettings"
+#~ msgstr "அமைப்புகள்"
+
+#~ msgid "A GtkSettings object to get settings from"
+#~ msgstr "ஜிடிகேஅமைப்புகள் பொருள் அமைவுகளைப்பெற"
+
+#~ msgid "GtkIconTheme"
+#~ msgstr "ஜிடிகேஐகான் கருத்து"
+
+#~ msgid "A GtkIconTheme object to get icons from"
+#~ msgstr "ஒரு ஜிடிகேஐகான் கருத்துப்பொருள் -சின்னங்களை பெற"
+
+#~ msgid "Font Adjustment"
+#~ msgstr "எழுத்துரு நேர்த்தி"
+
+#~ msgid "A size adjustment to add to font sizes"
+#~ msgstr "எழுத்துரு அளவுகளுக்கு சேர்க்க ஒரு அளவு நேர்த்தி"
+
+#~ msgid "Show Text Cursor"
+#~ msgstr "உரை நிலைக்காட்டி ஐ காட்டு"
+
+#~ msgid "Show the text cursor or caret for accessible navigation"
+#~ msgstr "அணுகக்கூடிய உலாவலுக்கான உரை நிலைக்காட்டி அல்லது காரட் ஐ காட்டு"
+
+#~ msgid "Editor Mode"
+#~ msgstr "திருத்தி பாங்கு"
+
+#~ msgid "Enable features useful to editors"
+#~ msgstr "உரை திருத்திகளுக்கு பயனாகும்  முறைகளை செயல்படுத்து"
+
+#~ msgid "Database filename"
+#~ msgstr "தரவுத்தள கோப்புப்பெயர்"
+
+#~ msgid "The filename of the sqlite database"
+#~ msgstr "எஸ்க்யூலைட்  தரவுத்தள கோப்புப்பெயர்"
+
+#~ msgid "XSLT Stylesheet"
+#~ msgstr "எக்ஸ்எஸ்எல்டி பாணிசீட்டு"
+
+#~ msgid "The location of the XSLT stylesheet"
+#~ msgstr "எக்ஸ்எஸ்எல்டி பாணிசீட்டின் இடம்"
+
+#~ msgid "Yelp URI"
+#~ msgstr "யெல்ப் யூஆர்ஐ"
+
+#~ msgid "A YelpUri with the current location"
+#~ msgstr "நடப்பு இடத்திற்கு ஒரு யெல்ப் யுஆர்ஐ"
+
+#~ msgid "The loading state of the view"
+#~ msgstr "காட்சியின் ஏற்றப்படும் நிலை"
+
+#~ msgid "Page ID"
+#~ msgstr "பக்க அடையாளம் "
+
+#~ msgid "The ID of the root page of the page being viewed"
+#~ msgstr "பார்வையிடப்படும் பக்கத்தின் மூல பக்கத்தின் அடையாளம் "
+
+#~ msgid "Root Title"
+#~ msgstr "மூல தலைப்பு"
+
+#~ msgid "The title of the root page of the page being viewed"
+#~ msgstr "பார்வையிடப்படும் பக்கத்தின் மூல பக்கத்தின் தலைப்பு"
+
+#~ msgid "Page Title"
+#~ msgstr "பக்கத் தலைப்பு"
+
+#~ msgid "The title of the page being viewed"
+#~ msgstr "பார்வையிடப்படும் பக்கத்தின் தலைப்பு"
+
+#~ msgid "Page Description"
+#~ msgstr "பக்கத்தின் விவரம்"
+
+#~ msgid "The description of the page being viewed"
+#~ msgstr "பார்வையிடப்படும் பக்கத்தின் விவரம்"
+
+#~ msgid "Page Icon"
+#~ msgstr "பக்க சின்னம்"
+
+#~ msgid "The icon of the page being viewed"
+#~ msgstr "பார்வையிடப்படும் பக்கத்தின் சின்னம்"
+
+#~ msgid "See all search results for “%s”"
+#~ msgstr "\"%s\"க்கான தேடுதல் முடிவுகள் அனைத்தையும் காண்க"
+
+#~ msgid "Search for packages containing this document."
+#~ msgstr "இந்த ஆவணம் உள்ள பொதிகளைத் தேடு"
+
+#~ msgid "Application"
+#~ msgstr "பயன்பாடு"
+
+#~ msgid "A YelpApplication instance that controls this window"
+#~ msgstr "இந்த சாளரத்தை கட்டுப்படுத்தும் யெல்ப் பயன்பாட்டு சான்று நிகழ்வு"
 
 #~ msgid "Enable Search"
 #~ msgstr "தேடல் இயலுமைப்படுத்து"
@@ -876,9 +919,6 @@ msgstr "documentation;information;manual;"
 #~ msgid "Debuggers"
 #~ msgstr "வழு திருத்திகள்"
 
-#~ msgid "Desktop"
-#~ msgstr "மேல்மேசை"
-
 #~ msgid "Desktop Settings"
 #~ msgstr "மேல் மேசை அமைப்புகள்"
 
@@ -987,9 +1027,6 @@ msgstr "documentation;information;manual;"
 
 #~ msgid "Instant Messaging"
 #~ msgstr "உடனடி செய்தி பரிமாற்றம்"
-
-#~ msgid "Internet"
-#~ msgstr "இணையம்"
 
 #~ msgid "Java"
 #~ msgstr "ஜாவா"
@@ -1134,9 +1171,6 @@ msgstr "documentation;information;manual;"
 
 #~ msgid "Sound"
 #~ msgstr "ஒலி"
-
-#~ msgid "Sound &amp; Video"
-#~ msgstr "ஒலி &amp; பார்வை"
 
 #~ msgid "Sound &amp; Video Editing"
 #~ msgstr "ஒலி &amp; விடியோ திருத்தம்"
@@ -1351,9 +1385,6 @@ msgstr "documentation;information;manual;"
 #~ msgid "Define which cache directory to use"
 #~ msgstr "எந்த தற்காலிக சேமிப்பு அடைவு பயன்படுத்துவது என அறுதியிடுக"
 
-#~ msgid " GNOME Help Browser"
-#~ msgstr "நோம் உதவி உலாவி"
-
 #~ msgid "Directory not found"
 #~ msgstr "அடைவை காணவில்லை"
 
@@ -1511,9 +1542,6 @@ msgstr "documentation;information;manual;"
 
 #~ msgid "Copy _Email Address"
 #~ msgstr "_ம மின்னஞ்சல் முகவரியை நகலெடு"
-
-#~ msgid "Help Browser"
-#~ msgstr "உதவி உலாவி"
 
 #~ msgid "Unknown Page"
 #~ msgstr "தெரியாத பக்கம்"

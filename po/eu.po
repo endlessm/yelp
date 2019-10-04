@@ -6,9 +6,10 @@
 # Asier Sarasua Garmendia <asier.sarasua@gmail.com>, 2019.
 #
 msgid ""
-msgstr "Project-Id-Version: yelp master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/yelp/issues\n"
-"POT-Creation-Date: 2019-04-19 15:58+0000\n"
+msgstr ""
+"Project-Id-Version: yelp master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
+"POT-Creation-Date: 2019-10-04 15:09+0100\n"
 "PO-Revision-Date: 2019-05-11 10:00+0100\n"
 "Last-Translator: Asier Sarasua Garmendia <asier.sarasua@gmail.com>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
@@ -17,6 +18,78 @@ msgstr "Project-Id-Version: yelp master\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:31
+#, fuzzy
+msgid "Getting Started"
+msgstr "Egoera kargatzen"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:40
+msgid "Internet"
+msgstr "Internet"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:51
+#, fuzzy
+msgid "Documents &amp; Files"
+msgstr "Soinua eta bideoa"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:60
+#, fuzzy
+msgid "The Desktop"
+msgstr "Mahaigaina"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:71
+msgid "Printers, Displays &amp; Accessories"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:80
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.security-and-privacy
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:91
+msgid "Security &amp; Privacy"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -44,19 +117,25 @@ msgstr "GNOMEren laguntzaren ikusgailua"
 msgid ""
 "Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
 "also display DocBook, info, man, and HTML documentation."
-msgstr "Yelp GNOMEren laguntza ikusteko tresna da. Mallard ikusgailu lehenetsia da, baina DocBook, info, man eta HTML dokumentazioa ere erakutsi dezake."
+msgstr ""
+"Yelp GNOMEren laguntza ikusteko tresna da. Mallard ikusgailu lehenetsia da, "
+"baina DocBook, info, man eta HTML dokumentazioa ere erakutsi dezake."
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
 "It makes it easy to find the documentation you need, with interactive search "
 "and bookmarks."
-msgstr "Erraz bihurtzen du behar duzun dokumentazioa bilatzea, bilaketa interaktiboa eta laster-markak baititu."
+msgstr ""
+"Erraz bihurtzen du behar duzun dokumentazioa bilatzea, bilaketa interaktiboa "
+"eta laster-markak baititu."
 
 #: data/yelp.appdata.xml.in:17
 msgid ""
 "It also has an editor mode, which shows editorial comments and revision "
 "statuses when editing Mallard documents."
-msgstr "Editatzeko modua ere badu, Mallard dokumentuak editatzean editoreen iruzkinak eta berrikuspen-egoerak erakusten dituena."
+msgstr ""
+"Editatzeko modua ere badu, Mallard dokumentuak editatzean editoreen "
+"iruzkinak eta berrikuspen-egoerak erakusten dituena."
 
 #: data/yelp.appdata.xml.in:30
 msgid "The GNOME Project"
@@ -93,14 +172,17 @@ msgstr "'%s' fitxategia ez da existitzen."
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr "'%s' fitxategia ezin da analizatu, ez daukalako behar bezalako XML formatua."
+msgstr ""
+"'%s' fitxategia ezin da analizatu, ez daukalako behar bezalako XML formatua."
 
 #: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr "'%s' fitxategia ezin da analizatu, ez duelako txertatutako fitxategi bat edo gehiago behar bezalako XML formatuan."
+msgstr ""
+"'%s' fitxategia ezin da analizatu, ez duelako txertatutako fitxategi bat edo "
+"gehiago behar bezalako XML formatuan."
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -138,7 +220,8 @@ msgstr "Laguntzako dokumentu guztiak"
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr "'%s' fitxategia ezin da analizatu, ez daukalako behar bezalako info formatua."
+msgstr ""
+"'%s' fitxategia ezin da analizatu, ez daukalako behar bezalako info formatua."
 
 #: libyelp/yelp-mallard-document.c:348
 #, c-format
@@ -163,195 +246,199 @@ msgstr "Ez da href atributurik aurkitu yelp:document-en\n"
 msgid "Out of memory"
 msgstr "Memoriarik ez"
 
-#: libyelp/yelp-view.c:248
+#: libyelp/yelp-view.c:252
 msgid "C_opy Code Block"
 msgstr "_Kopiatu kodearen blokea"
 
-#: libyelp/yelp-view.c:253
+#: libyelp/yelp-view.c:257
 msgid "_Copy Link Location"
 msgstr "_Kopiatu estekaren helbidea"
 
-#: libyelp/yelp-view.c:258
+#: libyelp/yelp-view.c:262
 msgid "_Open Link"
 msgstr "_Ireki esteka"
 
-#: libyelp/yelp-view.c:263
+#: libyelp/yelp-view.c:267
 msgid "Open Link in New _Window"
 msgstr "Ireki esteka leiho _berrian"
 
-#: libyelp/yelp-view.c:273
+#: libyelp/yelp-view.c:277
 msgid "_Install Packages"
 msgstr "_Instalatu paketeak"
 
-#: libyelp/yelp-view.c:278
+#: libyelp/yelp-view.c:282
 msgid "Save Code _Block As…"
 msgstr "Gorde kodearen b_lokea honela..."
 
-#: libyelp/yelp-view.c:293
+#: libyelp/yelp-view.c:297
 msgid "_Copy Text"
 msgstr "_Kopiatu testua"
 
-#: libyelp/yelp-view.c:805 libyelp/yelp-view.c:2138
+#: libyelp/yelp-view.c:809 libyelp/yelp-view.c:2138
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "'%s' URIak ez du baliozko orrialde batera zuzentzen."
 
-#: libyelp/yelp-view.c:811 libyelp/yelp-view.c:2144
+#: libyelp/yelp-view.c:815 libyelp/yelp-view.c:2144
 msgid "The URI does not point to a valid page."
 msgstr "URIak ez du baliozko orrialde batera zuzentzen."
 
-#: libyelp/yelp-view.c:816 libyelp/yelp-view.c:2150
+#: libyelp/yelp-view.c:820 libyelp/yelp-view.c:2150
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "Ezin izan da '%s' URIa analizatu."
 
-#: libyelp/yelp-view.c:821
+#: libyelp/yelp-view.c:825
 msgid "Unknown Error."
 msgstr "Errore ezezaguna."
 
-#: libyelp/yelp-view.c:975
+#: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr "PackageKit ez dago instalatuta. Estekak instalatzeko PackageKit behar da."
+msgstr ""
+"PackageKit ez dago instalatuta. Estekak instalatzeko PackageKit behar da."
 
-#: libyelp/yelp-view.c:1222
+#: libyelp/yelp-view.c:1226
 msgid "Save Image"
 msgstr "Gorde irudia"
 
-#: libyelp/yelp-view.c:1321
+#: libyelp/yelp-view.c:1325
 msgid "Save Code"
 msgstr "Gorde kodea"
 
-#: libyelp/yelp-view.c:1417
+#: libyelp/yelp-view.c:1421
 #, c-format
 msgid "Send email to %s"
 msgstr "Bidali mezua %s(r)i"
 
-#: libyelp/yelp-view.c:1521
+#: libyelp/yelp-view.c:1525
 msgid "_Save Image As…"
 msgstr "Gorde _irudia honela..."
 
-#: libyelp/yelp-view.c:1522
+#: libyelp/yelp-view.c:1526
 msgid "_Save Video As…"
 msgstr "Gorde _bideoa honela..."
 
-#: libyelp/yelp-view.c:1530
+#: libyelp/yelp-view.c:1534
 msgid "S_end Image To…"
 msgstr "_Bidali irudia hona..."
 
-#: libyelp/yelp-view.c:1531
+#: libyelp/yelp-view.c:1535
 msgid "S_end Video To…"
 msgstr "_Bidali bideoa hona..."
 
-#: libyelp/yelp-view.c:1872
+#: libyelp/yelp-view.c:1876
 #, c-format
 msgid "Could not load a document for ‘%s’"
 msgstr "Ezin izan da %s(r)en dokumentua kargatu"
 
-#: libyelp/yelp-view.c:1878
+#: libyelp/yelp-view.c:1882
 msgid "Could not load a document"
 msgstr "Ezin izan da dokumentua kargatu"
 
-#: libyelp/yelp-view.c:1962
+#: libyelp/yelp-view.c:1966
 msgid "Document Not Found"
 msgstr "Ez da dokumentua aurkitu"
 
-#: libyelp/yelp-view.c:1964
+#: libyelp/yelp-view.c:1968
 msgid "Page Not Found"
 msgstr "Ez da orrialdea aurkitu"
 
-#: libyelp/yelp-view.c:1967
+#: libyelp/yelp-view.c:1971
 msgid "Cannot Read"
 msgstr "Ezin da irakurri"
 
-#: libyelp/yelp-view.c:1973
+#: libyelp/yelp-view.c:1977
 msgid "Unknown Error"
 msgstr "Errore ezezaguna"
-
-#: libyelp/yelp-view.c:1993
-msgid "Search for packages containing this document."
-msgstr "Bilatu dokumentu hau daukaten paketeak."
 
 #: src/yelp-application.c:59
 msgid "Turn on editor mode"
 msgstr "Aktibatu editorearen modua"
 
-#: src/yelp-application.c:270 src/yelp-window.c:1188 src/yelp-window.c:1196
-#: yelp.desktop.in:3
+#: src/yelp-application.c:338 src/yelp-window.c:1186 src/yelp-window.c:1194
+#: org.gnome.Yelp.desktop.in.in:3
 msgid "Help"
 msgstr "Laguntza"
 
-#: src/yelp-window.c:343
+#: src/yelp-window.c:348
 msgid "Back"
 msgstr "Atzera"
 
-#: src/yelp-window.c:350
+#: src/yelp-window.c:355
 msgid "Forward"
 msgstr "Aurrera"
 
-#: src/yelp-window.c:361
+#: src/yelp-window.c:366
 msgid "Menu"
 msgstr "Menua"
 
-#: src/yelp-window.c:366
+#: src/yelp-window.c:371
 msgid "New Window"
 msgstr "_Leiho berria"
 
-#: src/yelp-window.c:367
+#: src/yelp-window.c:372
 msgid "Find…"
 msgstr "Bilatu…"
 
-#: src/yelp-window.c:368
+#: src/yelp-window.c:373
 msgid "Print…"
 msgstr "Inprimatu..."
 
-#: src/yelp-window.c:373
+#: src/yelp-window.c:378
 msgid "Previous Page"
 msgstr "Aurreko orrialdea"
 
-#: src/yelp-window.c:374
+#: src/yelp-window.c:379
 msgid "Next Page"
 msgstr "Hurrengo orrialdea"
 
-#: src/yelp-window.c:379
+#: src/yelp-window.c:384
 msgid "Larger Text"
 msgstr "Handitu testua"
 
-#: src/yelp-window.c:380
+#: src/yelp-window.c:385
 msgid "Smaller Text"
 msgstr "Txikiagotu testua"
 
-#: src/yelp-window.c:385
+#: src/yelp-window.c:390
 msgid "All Help"
 msgstr "Laguntza guztia"
 
-#: src/yelp-window.c:407
+#: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
 msgstr "Bilatu (Ktrl+S)"
 
-#: src/yelp-window.c:424
+#: src/yelp-window.c:427
 msgid "Bookmarks"
 msgstr "Laster-markak"
 
-#: src/yelp-window.c:441
+#: src/yelp-window.c:444
 msgid "No bookmarks"
 msgstr "Laster-markarik ez"
 
-#: src/yelp-window.c:449
+#: src/yelp-window.c:452
 msgid "Add Bookmark"
 msgstr "Gehitu laster-marka"
 
-#: src/yelp-window.c:455
+#: src/yelp-window.c:458
 msgid "Remove Bookmark"
 msgstr "Kendu laster-marka"
 
-#: yelp.desktop.in:4
+#: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
 msgstr "Eskuratu GNOMEri buruzko laguntza"
 
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: yelp.desktop.in:6
+#: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr "dokumentazioa;informazioa;eskuliburua;laguntza;"
+
+#: org.gnome.Yelp.desktop.in.in:8
+#, fuzzy
+msgid "help-browser"
+msgstr "Laguntza-arakatzailea"
+
+#~ msgid "Search for packages containing this document."
+#~ msgstr "Bilatu dokumentu hau daukaten paketeak."
 
 #~ msgid "Indexed"
 #~ msgstr "Indexatuta"
@@ -421,9 +508,6 @@ msgstr "dokumentazioa;informazioa;eskuliburua;laguntza;"
 
 #~ msgid "A YelpUri with the current location"
 #~ msgstr "YelpUri uneko kokalekuarekin"
-
-#~ msgid "Loading State"
-#~ msgstr "Egoera kargatzen"
 
 #~ msgid "The loading state of the view"
 #~ msgstr "Ikuspegiaren egoera kargatzen"
@@ -832,9 +916,6 @@ msgstr "dokumentazioa;informazioa;eskuliburua;laguntza;"
 #~ msgid "Debuggers"
 #~ msgstr "Araztaileak"
 
-#~ msgid "Desktop"
-#~ msgstr "Mahaigaina"
-
 #~ msgid "Desktop Settings"
 #~ msgstr "Mahaigaineko konfigurazioa"
 
@@ -944,9 +1025,6 @@ msgstr "dokumentazioa;informazioa;eskuliburua;laguntza;"
 
 #~ msgid "Instant Messaging"
 #~ msgstr "Berehalako mezularitza"
-
-#~ msgid "Internet"
-#~ msgstr "Internet"
 
 #~ msgid "Java"
 #~ msgstr "Java"
@@ -1095,9 +1173,6 @@ msgstr "dokumentazioa;informazioa;eskuliburua;laguntza;"
 
 #~ msgid "Sound"
 #~ msgstr "Soinua"
-
-#~ msgid "Sound &amp; Video"
-#~ msgstr "Soinua eta bideoa"
 
 #~ msgid "Sound &amp; Video Editing"
 #~ msgstr "Soinu eta bideoaren edizioa"
@@ -1478,9 +1553,6 @@ msgstr "dokumentazioa;informazioa;eskuliburua;laguntza;"
 
 #~ msgid "Copy _Email Address"
 #~ msgstr "_Kopiatu postaren helbidea"
-
-#~ msgid "Help Browser"
-#~ msgstr "Laguntza-arakatzailea"
 
 #~ msgid "Unknown Page"
 #~ msgstr "Orrialde ezezaguna"

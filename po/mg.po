@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YELP VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-08-23 09:06+0200\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
+"POT-Creation-Date: 2019-10-04 15:09+0100\n"
 "PO-Revision-Date: 2006-09-14 10:49+0300\n"
 "Last-Translator: Fanomezana Rajaonarisoa <fano@isvtec.com>\n"
 "Language-Team: MALAGASY <i18n-malagasy-gnome@gna.org>\n"
@@ -15,1063 +15,1117 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../data/info.xml.in.h:1
-#: ../src/yelp-toc-pager.c:1849
-msgid "GNU Info Pages"
-msgstr "Pejy fampahafantarana GNU"
-
-#: ../data/info.xml.in.h:2
-msgid "Traditional command line help (info)"
-msgstr "Toro-làlana (fampahafantarana) taloha mikasika ny lazam-baiko"
-
-#: ../data/man.xml.in.h:1
-msgid "Applications"
-msgstr "Rindranasa"
-
-#: ../data/man.xml.in.h:2
-msgid "BLT Functions"
-msgstr "Asa BLT"
-
-#: ../data/man.xml.in.h:3
-msgid "Configuration Files"
-msgstr "Rakitry ny fikirakirana"
-
-#: ../data/man.xml.in.h:4
-msgid "Curses Functions"
-msgstr "Asa Curses"
-
-#: ../data/man.xml.in.h:5
-msgid "Development"
-msgstr "Famolavolana"
-
-#: ../data/man.xml.in.h:6
-msgid "FORTRAN Functions"
-msgstr "Asa FORTRAN"
-
-#: ../data/man.xml.in.h:7
-#: ../data/toc.xml.in.h:15
-msgid "Games"
-msgstr "Lalao"
-
-#: ../data/man.xml.in.h:8
-msgid "Hardware Devices"
-msgstr "Periferikam-batan-tsolosaina"
-
-#: ../data/man.xml.in.h:9
-msgid "Kernel Routines"
-msgstr "Asa fanaon'ny Ivo"
-
-#: ../data/man.xml.in.h:10
-#: ../src/yelp-toc-pager.c:1843
-msgid "Manual Pages"
-msgstr "Pejin'ny toro-làlana"
-
-#: ../data/man.xml.in.h:11
-msgid "Network Audio Sound Functions"
-msgstr "Asa mikasika ny feo amin'ny rezo"
-
-#: ../data/man.xml.in.h:12
-msgid "OpenSSL Applications"
-msgstr "Rindranasa OpenSSL"
-
-#: ../data/man.xml.in.h:13
-msgid "OpenSSL Configuration"
-msgstr "Kirakiran'ny OpenSSL"
-
-#: ../data/man.xml.in.h:14
-msgid "OpenSSL Functions"
-msgstr "Asa mikasika ny OpenSSL"
-
-#: ../data/man.xml.in.h:15
-msgid "OpenSSL Overviews"
-msgstr "Topimaso momba ny OpenSSL"
-
-#: ../data/man.xml.in.h:16
-msgid "Overviews"
-msgstr "Topimaso"
-
-#: ../data/man.xml.in.h:17
-msgid "POSIX Functions"
-msgstr "Asa mikasika ny POSIX"
-
-#: ../data/man.xml.in.h:18
-msgid "POSIX Headers"
-msgstr "Lohasoratra POSIX"
-
-#: ../data/man.xml.in.h:19
-msgid "Perl Functions"
-msgstr "Asa mikasika ny Perl"
-
-#: ../data/man.xml.in.h:20
-msgid "Qt Functions"
-msgstr "Asa mikasika ny Qt"
-
-#: ../data/man.xml.in.h:21
-msgid "Readline Functions"
-msgstr "Asa mikasika ny Readline"
-
-#: ../data/man.xml.in.h:22
-msgid "Section 0p"
-msgstr "Fitsinjarana 0p"
-
-#: ../data/man.xml.in.h:23
-msgid "Section 1m"
-msgstr "Fitsinjarana 1m"
-
-#: ../data/man.xml.in.h:24
-msgid "Section 1ssl"
-msgstr "Fitsinjarana 1ssl"
-
-#: ../data/man.xml.in.h:25
-msgid "Section 1x"
-msgstr "Fitsinjarana 1x"
-
-#: ../data/man.xml.in.h:26
-msgid "Section 2"
-msgstr "Fitsinjarana 2"
-
-#: ../data/man.xml.in.h:27
-msgid "Section 3blt"
-msgstr "Fitsinjarana 3blt"
-
-#: ../data/man.xml.in.h:28
-msgid "Section 3f"
-msgstr "Fitsinjarana 3f"
-
-#: ../data/man.xml.in.h:29
-msgid "Section 3nas"
-msgstr "Fitsinjarana 3nas"
-
-#: ../data/man.xml.in.h:30
-msgid "Section 3p"
-msgstr "Fitsinjarana 3p"
-
-#: ../data/man.xml.in.h:31
-msgid "Section 3qt"
-msgstr "Fitsinjarana 3qt"
-
-#: ../data/man.xml.in.h:32
-msgid "Section 3readline"
-msgstr "Fitsinjarana 3readline"
-
-#: ../data/man.xml.in.h:33
-msgid "Section 3ssl"
-msgstr "Fitsinjarana 3ssl"
-
-#: ../data/man.xml.in.h:34
-msgid "Section 3tiff"
-msgstr "Fitsinjarana 3tiff"
-
-#: ../data/man.xml.in.h:35
-msgid "Section 4"
-msgstr "Fitsinjarana 4"
-
-#: ../data/man.xml.in.h:36
-msgid "Section 4x"
-msgstr "Fitsinjarana 4x"
-
-#: ../data/man.xml.in.h:37
-msgid "Section 5"
-msgstr "Fitsinjarana 5"
-
-#: ../data/man.xml.in.h:38
-msgid "Section 5ssl"
-msgstr "Fitsinjarana 5ssl"
-
-#: ../data/man.xml.in.h:39
-msgid "Section 5x"
-msgstr "Fitsinjarana 5x"
-
-#: ../data/man.xml.in.h:40
-msgid "Section 6"
-msgstr "Fitsinjarana 6"
-
-#: ../data/man.xml.in.h:41
-msgid "Section 6x"
-msgstr "Fitsinjarana 6x"
-
-#: ../data/man.xml.in.h:42
-msgid "Section 7ssl"
-msgstr "Fitsinjarana 7ssl"
-
-#: ../data/man.xml.in.h:43
-msgid "Section 7x"
-msgstr "Fitsinjarana 7x"
-
-#: ../data/man.xml.in.h:44
-msgid "Section 9"
-msgstr "Fitsinjarana 9"
-
-#: ../data/man.xml.in.h:45
-msgid "Sections 1, 1p, 1g and 1t"
-msgstr "Fitsinjarana 1, 1p, 1g ary 1t"
-
-#: ../data/man.xml.in.h:46
-msgid "Sections 3, 3o, and 3t"
-msgstr "Fitsinjarana 3, 3o, ary 3t"
-
-#: ../data/man.xml.in.h:47
-msgid "Sections 3form and 3menu"
-msgstr "Fitsinjarana 3form ary 3menu"
-
-#: ../data/man.xml.in.h:48
-msgid "Sections 3ncurses and 3curses"
-msgstr "Fitsinjarana 3ncurses ary 3curses"
-
-#: ../data/man.xml.in.h:49
-msgid "Sections 3pm and 3perl"
-msgstr "Fitsinjarana 3pm ary 3perl"
-
-#: ../data/man.xml.in.h:50
-msgid "Sections 3x and 3X11"
-msgstr "Fitsinjarana 3x ary 3X11"
-
-#: ../data/man.xml.in.h:51
-msgid "Sections 7 and 7gcc"
-msgstr "Fitsinjarana 7 ary 7gcc"
-
-#: ../data/man.xml.in.h:52
-msgid "Sections 8 and 8l"
-msgstr "Fitsinjarana 8 ary 8l"
-
-#: ../data/man.xml.in.h:53
-msgid "System Administration"
-msgstr "Fitantanan-drafitra"
-
-#: ../data/man.xml.in.h:54
-#, fuzzy
-msgid "System Calls"
-msgstr "Antson-drafitra"
-
-#: ../data/man.xml.in.h:55
-#, fuzzy
-msgid "System V Form/Menu Functions"
-msgstr "Asa mikasika ny System V Form/Menu"
-
-#: ../data/man.xml.in.h:56
-msgid "TIFF Functions"
-msgstr "Asa momba ny TIFF"
-
-#: ../data/man.xml.in.h:57
-msgid "Termcap Applications"
-msgstr "Rindranasa Termcap"
-
-#: ../data/man.xml.in.h:58
-msgid "Traditional command line help (man)"
-msgstr "Toro-làlana taloha mikasika ny lazam-baiko"
-
-#: ../data/man.xml.in.h:59
-msgid "X11 Applications"
-msgstr "Rindranasa X11"
-
-#: ../data/man.xml.in.h:60
-msgid "X11 Configuration"
-msgstr "Kirakiran'ny X11"
-
-#: ../data/man.xml.in.h:61
-msgid "X11 Devices"
-msgstr "Periferika X11"
-
-#: ../data/man.xml.in.h:62
-msgid "X11 Functions"
-msgstr "Asa momba ny X11"
-
-#: ../data/man.xml.in.h:63
-msgid "X11 Games"
-msgstr "Lalao X11"
-
-#: ../data/man.xml.in.h:64
-msgid "X11 Overviews"
-msgstr "Topimaso momba ny X11"
-
-#: ../data/toc.xml.in.h:1
-msgid "Accessibility"
-msgstr "Fahafahana mampiasa"
-
-#: ../data/toc.xml.in.h:2
-msgid "Accessories"
-msgstr "Kojakoja"
-
-#: ../data/toc.xml.in.h:3
-msgid "Applications for fun"
-msgstr "Rindranasa fialana voly"
-
-#: ../data/toc.xml.in.h:4
-msgid "Applications for manipulating or viewing graphics"
-msgstr "Rindranasa fikirakirana na fizahana sary"
-
-#: ../data/toc.xml.in.h:5
-msgid "Applications for word processing and other office tasks"
-msgstr "Rindranasa fikirakirana teny ary fanaovana asa birôtika hafa"
-
-#: ../data/toc.xml.in.h:6
-#, fuzzy
-msgid "Applications related to X Windows"
-msgstr "Rindranasa mifandraika amin'ny X Windows"
-
-#: ../data/toc.xml.in.h:7
-msgid "Applications related to multimedia"
-msgstr "Rindranasa mifandraika amin'ny haino aman-jery"
-
-#: ../data/toc.xml.in.h:8
-msgid "Applications related to software development"
-msgstr "Rindranasa mifandraika amin'ny famolavolana rindranasa"
-
-#: ../data/toc.xml.in.h:9
-msgid "Applications related to the internet"
-msgstr "Rindranasa mifandraika amin'ny Internet"
-
-#: ../data/toc.xml.in.h:10
-msgid "Applications specific to the panel"
-msgstr "Rindranasa misahana ny momba ny tontonana"
-
-#: ../data/toc.xml.in.h:11
-msgid "Applications that support assistive technologies"
-msgstr "Rindranasa mandray an-tànana ny haitao fanamorana"
-
-#: ../data/toc.xml.in.h:12
-msgid "Desktop"
-msgstr "Sahatrasa"
-
-#: ../data/toc.xml.in.h:13
-msgid "Documents specific to the KDE Desktop Environment"
-msgstr "Tahirin-kevitra misahana ny Tontolon'ny Sehatrasa KDE"
-
-#: ../data/toc.xml.in.h:14
-msgid "Education"
-msgstr "Fanabeazana"
-
-#: ../data/toc.xml.in.h:16
-msgid "Graphics"
-msgstr "Sarys"
-
-#: ../data/toc.xml.in.h:17
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:31
+msgid "Getting Started"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr "Internet"
 
-#: ../data/toc.xml.in.h:18
-msgid "KDE"
-msgstr "KDE"
-
-#: ../data/toc.xml.in.h:19
-msgid "Learning applications"
-msgstr "Rindranasa fianarana"
-
-#: ../data/toc.xml.in.h:20
-msgid "Miscellaneous documents"
-msgstr "Tahirin-kevitra samihafa"
-
-#: ../data/toc.xml.in.h:21
-msgid "Office"
-msgstr "Birôtika"
-
-#: ../data/toc.xml.in.h:22
-msgid "Other Applications"
-msgstr "Rindranasa hafa"
-
-#: ../data/toc.xml.in.h:23
-msgid "Other Documentation"
-msgstr "Tahirin-kevitra hafa"
-
-#: ../data/toc.xml.in.h:24
-msgid "Panel Applets"
-msgstr "Applet amin'ny tontonana"
-
-#: ../data/toc.xml.in.h:25
-msgid "Programming"
-msgstr "Fandaharana"
-
-#: ../data/toc.xml.in.h:26
-msgid "Scientific"
-msgstr "Siantifika"
-
-#: ../data/toc.xml.in.h:27
-msgid "Scientific Applications."
-msgstr "Rindranasa siantifika."
-
-#: ../data/toc.xml.in.h:28
-msgid "Sound &amp; Video"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:51
+#, fuzzy
+msgid "Documents &amp; Files"
 msgstr "Feo &amp; Sarimihetsika"
 
-#: ../data/toc.xml.in.h:29
-msgid "System Tools"
-msgstr "Fitaovan-drafitra"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:60
+#, fuzzy
+msgid "The Desktop"
+msgstr "Sahatrasa"
 
-#: ../data/toc.xml.in.h:30
-msgid "Utilities to manage your computer"
-msgstr "Rindranasa fandrindrana ny solosainao"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:71
+msgid "Printers, Displays &amp; Accessories"
+msgstr ""
 
-#: ../data/toc.xml.in.h:31
-msgid "Utility applications"
-msgstr "Rindranasa mpanampy"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:80
+msgid "Universal Access"
+msgstr ""
 
-#: ../data/toc.xml.in.h:32
-msgid "Variety of other applications"
-msgstr "Karazan-drindranasa maro hafa"
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.security-and-privacy
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:91
+msgid "Security &amp; Privacy"
+msgstr ""
 
-#: ../data/toc.xml.in.h:33
-msgid "Welcome to the GNOME Help Browser"
-msgstr "Tongasoa eto amin'ny Mpizaha toro-làlan'ny GNOME"
+#. (itstool) path: msg/msgstr
+#. ID: install.tooltip
+#. This is a format message used to format tooltips on install: links. These
+#. links allow users to install packages by clicking a link in the help. The
+#. tooltip may also be used as the link text, if there's no link text in the
+#. document. Special elements in the message will be replaced with the
+#. appropriate content, as follows:
+#.
+#. <string/> - The package to install
+#.
+#: data/domains/yelp.xml.in:36
+msgid "Install <string/>"
+msgstr ""
 
-#: ../data/toc.xml.in.h:34
-msgid "X Applications"
-msgstr "Rindranasa X"
-
-#: ../data/ui/yelp.glade.h:1
-msgid "<b>Accessibility</b>"
-msgstr "<b>Fahafahana mampiasa</b>"
-
-#: ../data/ui/yelp.glade.h:2
-msgid "<b>Fonts</b>"
-msgstr "<b>Endri-tsoratra</b>"
-
-#: ../data/ui/yelp.glade.h:3
-msgid "Add Bookmark"
-msgstr "Hampiditra rohy"
-
-#: ../data/ui/yelp.glade.h:4
-msgid "Bookmarks"
-msgstr "Rohy"
-
-#: ../data/ui/yelp.glade.h:5
-msgid "C_ase sensitive"
-msgstr "Manaja _haben-tsoratra"
-
-#: ../data/ui/yelp.glade.h:6
-msgid "Find"
-msgstr "Karohy"
-
-#: ../data/ui/yelp.glade.h:7
-msgid "Open Location"
-msgstr "Hanokatra toerana"
-
-#: ../data/ui/yelp.glade.h:8
-msgid "Preferences"
-msgstr "Safidy manokana"
-
-#: ../data/ui/yelp.glade.h:9
-msgid "Re_name"
-msgstr "Ovay _anarana"
-
-#: ../data/ui/yelp.glade.h:10
-msgid "_Bookmarks:"
-msgstr "_Rohy:"
-
-#: ../data/ui/yelp.glade.h:11
-msgid "_Browse with caret"
-msgstr "_Zahavo amin'ny alalan'ny mpikorisa"
-
-#: ../data/ui/yelp.glade.h:12
-msgid "_Find:"
-msgstr "_Karohy:"
-
-#: ../data/ui/yelp.glade.h:13
-msgid "_Fixed width:"
-msgstr "Indra _tsy miova:"
-
-#: ../data/ui/yelp.glade.h:14
-msgid "_Location:"
-msgstr "_Toerana:"
-
-#: ../data/ui/yelp.glade.h:15
-msgid "_Next"
-msgstr "_Manaraka"
-
-#: ../data/ui/yelp.glade.h:16
-msgid "_Previous"
-msgstr "_Aloha"
-
-#: ../data/ui/yelp.glade.h:17
-msgid "_Title:"
-msgstr "_Lohateny:"
-
-#: ../data/ui/yelp.glade.h:18
-msgid "_Use system fonts"
-msgstr "_Hampiasa ny endri-tsoratry ny rafitra"
-
-#: ../data/ui/yelp.glade.h:19
-msgid "_Variable width:"
-msgstr "Indra _miovaova:"
-
-#: ../data/ui/yelp.glade.h:20
-msgid "_Wrap around"
-msgstr "_Miverimberina"
-
-#: ../data/yelp.schemas.in.h:1
-msgid "Font for fixed text"
-msgstr "Endri-tsora-dahabolana tsy miova indra"
-
-#: ../data/yelp.schemas.in.h:2
-msgid "Font for text"
-msgstr "Endri-tsora-dahabolana"
-
-#: ../data/yelp.schemas.in.h:3
-msgid "Font for text with fixed width."
-msgstr "Endri-tsoratra ho an'ny lahabolana tsy miova indra."
-
-#: ../data/yelp.schemas.in.h:4
-msgid "Font for text with variable width."
-msgstr "Endri-tsoratra ho an'ny lahabolana miova indra."
-
-#: ../data/yelp.schemas.in.h:5
-msgid "Use a keyboard-controllable caret when viewing pages."
-msgstr "Mampiasa mpikorisa voabaikom-pafan-teny rehefa mizaha ireo pejy."
-
-#: ../data/yelp.schemas.in.h:6
-msgid "Use caret"
-msgstr "Mampiasa mpikorisa"
-
-#: ../data/yelp.schemas.in.h:7
-msgid "Use system fonts"
-msgstr "Mampiasa ny endri-tsoratry ny rafitra"
-
-#: ../data/yelp.schemas.in.h:8
-msgid "Use the default fonts set for the system."
-msgstr "Mampiasa ny endri-tsoratra lasitra voafaritra ho an'ny rafitra."
-
-#: ../src/yelp-bookmarks.c:150
-msgid "Open Bookmark in New Window"
-msgstr "Sokafy anaty fikandrana vaovao io rohy io"
-
-#: ../src/yelp-bookmarks.c:154
-msgid "Rename Bookmark"
-msgstr "Hanova anarana io rohy io"
-
-#: ../src/yelp-bookmarks.c:158
-msgid "Remove Bookmark"
-msgstr "Hamindra io rohy io"
-
-#: ../src/yelp-bookmarks.c:315
-#, c-format
-msgid "A bookmark titled %s already exists for this page."
-msgstr "Efa manana rohy mitondra ny anarana hoe %s io pejy io."
-
-#: ../src/yelp-bookmarks.c:392
-#, c-format
-msgid "A bookmark titled <b>%s</b> already exists for this page."
-msgstr "Efa manana rohy misy ny lohateny hoe <b>%s</b> io pejy io."
-
-#: ../src/yelp-bookmarks.c:405
-msgid "Help Topics"
-msgstr "Lohahevitra"
-
-#: ../src/yelp-bookmarks.c:420
-msgid "Document Sections"
-msgstr "Fitsinjaran-tahirin-kevitra"
-
-#: ../src/yelp-db-pager.c:239
-#: ../src/yelp-db-print-pager.c:190
-#, c-format
-msgid "The file ‘%s’ could not be parsed. Either the file does not exist, or it is not well-formed XML."
-msgstr "Tsy mety zarazarina ny rakitra  ‘%s’. Na tsy misy, na XML ratsy voatra io rakitra io."
-
-#: ../src/yelp-error.c:42
-#: ../src/yelp-error.c:58
-msgid "An unknown error occured"
-msgstr "Nisy olana tsy fantatra nitranga"
-
-#: ../src/yelp-error.c:46
-msgid "Could not load document"
-msgstr "Tsy afaka naka ilay tahirin-kevitra"
-
-#: ../src/yelp-error.c:48
-msgid "Could not load section"
-msgstr "Tsy afaka naka ilay fitsinjarana"
-
-#: ../src/yelp-error.c:50
-msgid "Could not read the table of contents"
-msgstr "Tsy afaka namaky ny fizahan-takila"
-
-#: ../src/yelp-error.c:52
-msgid "Unsupported Format"
-msgstr "Lamina tsy raisina an-tànana"
-
-#: ../src/yelp-error.c:54
-msgid "Could not read document"
-msgstr "Tsy afaka namaky ilay tahirin-kevitra"
-
-#: ../src/yelp-error.c:56
-msgid "Could not process document"
-msgstr "Tsy afaka nikirakira ilay tahirin-kevitra"
-
-#: ../src/yelp-error.c:66
-msgid "No information is available about the error."
-msgstr "Tsy misy laza azo aseho momba ilay tsy fetezana."
-
-#: ../src/yelp-info-pager.c:188
-#, c-format
-msgid "The file  ‘%s’ could not be parsed. Either the file does not exist, or it is not a well-formed info page."
-msgstr "Tsy nety zarazaraina ny rakitra  ‘%s’. Na tsy misy na pejy fampahafantarana ratsy voatra io rakitra io."
-
-#: ../src/yelp-io-channel.c:101
-#, c-format
-msgid "The file ‘%s’ could not be read and decoded. The file may be compressed in an unsupported format."
-msgstr "Tsy mety vakiana sy avadi-pango ny rakitra  ‘%s’. Mety nafintina manaraka lamina hafa izy io."
-
-#: ../src/yelp-main.c:91
-msgid "Use a private session"
-msgstr "Hampiasa session voatokana"
-
-#: ../src/yelp-main.c:100
-msgid "Define which cache directory to use"
-msgstr "Mamaritra ny lahatahirin'ny cache hampiasaina"
-
-#. Commandline parsing is done here
-#: ../src/yelp-main.c:354
-msgid " GNOME Help Browser"
+#: data/yelp.appdata.xml.in:6
+#, fuzzy
+msgid "GNOME Help"
 msgstr "Mpizaha toro-làlan'ny GNOME"
 
-#: ../src/yelp-main.c:372
-#: ../yelp.desktop.in.in.h:2
-msgid "Help"
-msgstr "Toro-làlana"
+#: data/yelp.appdata.xml.in:7
+msgid "Help viewer for GNOME"
+msgstr ""
 
-#: ../src/yelp-man-pager.c:263
+#: data/yelp.appdata.xml.in:9
+msgid ""
+"Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
+"also display DocBook, info, man, and HTML documentation."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:13
+msgid ""
+"It makes it easy to find the documentation you need, with interactive search "
+"and bookmarks."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:17
+msgid ""
+"It also has an editor mode, which shows editorial comments and revision "
+"statuses when editing Mallard documents."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:30
+msgid "The GNOME Project"
+msgstr ""
+
+#: libyelp/yelp-bz2-decompressor.c:143 libyelp/yelp-lzma-decompressor.c:152
+msgid "Invalid compressed data"
+msgstr ""
+
+#: libyelp/yelp-bz2-decompressor.c:149 libyelp/yelp-lzma-decompressor.c:158
+#, fuzzy
+msgid "Not enough memory"
+msgstr "Tsy misy arika intsony"
+
+#: libyelp/yelp-docbook-document.c:292 libyelp/yelp-info-document.c:221
+#: libyelp/yelp-mallard-document.c:306 libyelp/yelp-mallard-document.c:464
+#: libyelp/yelp-man-document.c:199
 #, c-format
-msgid "The file ‘%s’ could not be parsed.  Either the file does not exist, or it is formatted incorrectly."
-msgstr "Tsy mety zarazaraina ny rakitra  ‘%s’. Na tsy misy na tsy nomanina araka ny tokony ho izy io."
+msgid "The page ‘%s’ was not found in the document ‘%s’."
+msgstr ""
 
-#: ../src/yelp-pager.c:117
-msgid "Document Information"
-msgstr "Mombamomba ilay tahirin-kevitra"
+#: libyelp/yelp-docbook-document.c:331 libyelp/yelp-info-document.c:358
+#: libyelp/yelp-man-document.c:336
+msgid "The file does not exist."
+msgstr ""
 
-#: ../src/yelp-pager.c:118
-msgid "The YelpDocInfo struct of the document"
-msgstr "Ny rafitra YelpDocInfo an'ilay tahirin-kevitra"
-
-#: ../src/yelp-print.c:167
-msgid "Preparing to print"
-msgstr "Miomana ny hanonta"
-
-#: ../src/yelp-print.c:261
-msgid "Printing is not supported on this printer"
-msgstr "Tsy mandray an-tànana asa fanontana io mpanonta-printy io"
-
-#: ../src/yelp-print.c:264
+#: libyelp/yelp-docbook-document.c:341 libyelp/yelp-info-document.c:368
+#: libyelp/yelp-man-document.c:346
 #, c-format
-msgid "Printer %s does not support postscript printing."
-msgstr "Tsy mandray an-tànana asa fanontana postscript ny mpanonta-printy %s."
+msgid "The file ‘%s’ does not exist."
+msgstr ""
 
-#: ../src/yelp-print.c:337
-msgid "Printing"
-msgstr "Fanontana"
+#: libyelp/yelp-docbook-document.c:359
+#, fuzzy, c-format
+msgid ""
+"The file ‘%s’ could not be parsed because it is not a well-formed XML "
+"document."
+msgstr ""
+"Tsy mety zarazarina ny rakitra  ‘%s’. Na tsy misy, na XML ratsy voatra io "
+"rakitra io."
 
-#: ../src/yelp-print.c:364
-msgid "<b>Printing</b>"
-msgstr "<b>Fanontana</b>"
+#: libyelp/yelp-docbook-document.c:372
+#, fuzzy, c-format
+msgid ""
+"The file ‘%s’ could not be parsed because one or more of its included files "
+"is not a well-formed XML document."
+msgstr ""
+"Tsy mety zarazarina ny rakitra  ‘%s’. Na tsy misy, na XML ratsy voatra io "
+"rakitra io."
 
-#: ../src/yelp-print.c:366
-msgid "Waiting to print"
-msgstr "Miandry baiko hanontana"
+#: libyelp/yelp-docbook-document.c:810
+msgid "Unknown"
+msgstr ""
 
-#: ../src/yelp-print.c:578
-msgid "An error occurred while printing"
-msgstr "Nisy olana nitranga teo am-panontana"
-
-#: ../src/yelp-print.c:582
+#: libyelp/yelp-docbook-document.c:908 libyelp/yelp-info-document.c:301
+#: libyelp/yelp-man-document.c:279
 #, c-format
-msgid "It was not possible to print your document: %s"
-msgstr "Tsy nety natonta ny tahirin-kevitrao: %s"
+msgid "The requested page was not found in the document ‘%s’."
+msgstr ""
 
-#: ../src/yelp-search-pager.c:71
-msgid "the GNOME Support Forums"
-msgstr "Ny sehatra fifanampian'ny GNOME"
-
-#: ../src/yelp-search-pager.c:755
-#, c-format
-msgid "Your search could not be processed. The file ‘%s’ is either missing or is not a valid XSLT stylesheet."
-msgstr "Tsy nety nokirakiraina ny karokao. Na tsy ao, na taratasin'angaly XSLT tsy ekena ny rakitra  ‘%s’."
-
-#: ../src/yelp-search-pager.c:807
-#, c-format
-msgid "No results for \"%s\""
-msgstr "Tsy nahitana valiny ny \"%s\""
-
-#: ../src/yelp-search-pager.c:808
-msgid "Try using different words to describe the problem you're having or the topic you want help with."
-msgstr "Andramo lazaina amin'ny teny hafa ny olanao na ilay lohahevitra ilanao fanampiana."
-
-#: ../src/yelp-search-pager.c:811
-#, c-format
-msgid "Search results for \"%s\""
+#: libyelp/yelp-document.c:1068
+#, fuzzy, c-format
+msgid "Search results for “%s”"
 msgstr "Valin'ny karoka \"%s\""
 
-#. TRANSLATORS: Please don't do anything funny with the
-#. * format arguement.  It isn't really going through a printf
-#. * The %s is used to indicate where the name of the site (linked)
-#. * should be.  This is done in the XSLT
-#.
-#: ../src/yelp-search-pager.c:828
+#: libyelp/yelp-document.c:1080
 #, c-format
-msgid "Repeat the search online at %s"
-msgstr "Ataovy en ligne indray amin'ny %s indray ilay karoka"
+msgid "No matching help pages found in “%s”."
+msgstr ""
 
-#: ../src/yelp-search-pager.c:905
-#: ../src/yelp-toc-pager.c:2144
-#: ../src/yelp-xslt-pager.c:364
-msgid "No href attribute found on yelp:document"
+#: libyelp/yelp-document.c:1086
+msgid "No matching help pages found."
+msgstr ""
+
+#: libyelp/yelp-error.c:35
+#, fuzzy
+msgid "An unknown error occurred."
+msgstr "Nisy olana tsy fantatra nitranga"
+
+#: libyelp/yelp-help-list.c:548 libyelp/yelp-help-list.c:557
+#, fuzzy
+msgid "All Help Documents"
+msgstr "Mpiatin'ny toro-làlana"
+
+#: libyelp/yelp-info-document.c:383
+#, fuzzy, c-format
+msgid ""
+"The file ‘%s’ could not be parsed because it is not a well-formed info page."
+msgstr ""
+"Tsy nety zarazaraina ny rakitra  ‘%s’. Na tsy misy na pejy fampahafantarana "
+"ratsy voatra io rakitra io."
+
+#: libyelp/yelp-mallard-document.c:348
+#, c-format
+msgid "The directory ‘%s’ does not exist."
+msgstr ""
+
+#: libyelp/yelp-search-entry.c:434
+#, fuzzy, c-format
+msgid "Search for “%s”"
+msgstr "Valin'ny karoka \"%s\""
+
+#: libyelp/yelp-transform.c:370 libyelp/yelp-transform.c:385
+#, fuzzy, c-format
+msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
+msgstr ""
+"Tsy azo ny fizahan-takila. Na tsy misy na XML ratsy voatra ny rakitra ‘%s’."
+
+#: libyelp/yelp-transform.c:519
+#, fuzzy
+msgid "No href attribute found on yelp:document\n"
 msgstr "Tsy nahitana marika manokana href tanatin'ny yelp:document"
 
-#: ../src/yelp-search-pager.c:919
-#: ../src/yelp-toc-pager.c:2157
-#: ../src/yelp-xslt-pager.c:380
-#: ../src/yelp-xslt-pager.c:531
+#: libyelp/yelp-transform.c:534
 msgid "Out of memory"
 msgstr "Tsy misy arika intsony"
 
-#: ../src/yelp-search-pager.c:960
-#: ../src/yelp-toc-pager.c:2206
-msgid "Help Contents"
-msgstr "Mpiatin'ny toro-làlana"
+#: libyelp/yelp-view.c:252
+msgid "C_opy Code Block"
+msgstr ""
 
-#. Translators: Do not translate this list exactly.  These are
-#. * colon-separated words that aren't useful for choosing search
-#. * results; they will be different for each language. Include
-#. * pronouns, articles, very common verbs and prepositions,
-#. * words from question structures like "tell me about" and
-#. * "how do I", and words for functional states like "not",
-#. * "work", and "broken".
-#.
-#: ../src/yelp-search-pager.c:1286
-msgid "a:about:an:are:as:at:be:broke:broken:by:can:can't:dialog:dialogue:do:doesn't:doesnt:don't:dont:explain:for:from:get:gets:got:make:makes:not:when:has:have:help:how:i:in:is:it:item:me:my:of:on:or:tell:that:the:thing:this:to:what:where:who:will:with:won't:wont:why:work:working:works"
-msgstr "momba:toy:amin'ny:afaka:resaka:fanaovana:hoan'i:avy:mahazo:manao:rehefa:atoroy:fomba:anaty:izy:zavatra:izaho:na:izay:ilay:ity:io:inona:aiza:iza:miaraka:nahoana:fa"
-
-#. Translators: This is a list of common prefixes for words.
-#. * Do not translate this directly.  Instead, use a colon
-#. * seperated list of word-starts.  In English, an example
-#. * is re-.  If there is none, please use the term NULL
-#. * If there is only one, please put a colon after.
-#. * E.g. if the common prefix is re then the string would be
-#. * "re:"
-#.
-#: ../src/yelp-search-pager.c:1302
-msgid "re"
-msgstr "man:mi"
-
-#. Translators: This is a list of (guess what?) common suffixes
-#. * to words.  Things that may be put at ends of words to slightly
-#. * alter their meaning (like -ing and -s in English).  This is a
-#. * colon seperated list (I like colons).  If there are none,
-#. * please use the strig NULL.  If there is only 1, please
-#. * add a colon at the end of the list
-#.
-#: ../src/yelp-search-pager.c:1311
-msgid "ers:er:ing:es:s:'s"
-msgstr "ina:ana"
-
-#: ../src/yelp-search-pager.c:1506
-#: ../src/yelp-toc-pager.c:631
-#, c-format
-msgid "Could not load the OMF file '%s'."
-msgstr "Tsy afaka naka ny rakitra OMF '%s'."
-
-#. TRANSLATORS:
-#. This is an image of the opening quote character used to watermark
-#. blockquote elements.  Different languages use different opening
-#. quote characters, so the icon name is translatable.  The name of
-#. the icon should be "yelp-watermark-blockquote-XXXX", where XXXX
-#. is the Unicode code point of the opening quote character.   For
-#. example, some languages use the double angle quotation mark, so
-#. those would use "yelp-watermark-blockquote-00AB".  However, the
-#. image is not automagically created.  Do not translate this to a
-#. value if there isn't a corresponding icon in yelp/data/icons.
-#. If you need an image created, contact the maintainers.
-#.
-#. Phew, now some notes on which character to use.  Languages that
-#. use guillemets (angle quotations) should use either 00AB or 00BB,
-#. depending on whether the opening quotation is the left guillemet
-#. or the right guillemet.  Languages that use inverted comma style
-#. quotations should use 201C, 201D, or 201E.  Note that single
-#. quotation marks don't make very nice watermarks.  So if you use
-#. single quotes as your primary (outer) quotation marks, you should
-#. just use the corresponding double quote watermark.
-#.
-#: ../src/yelp-settings.c:151
-msgid "yelp-watermark-blockquote-201C"
-msgstr "yelp-watermark-blockquote-201C"
-
-#: ../src/yelp-toc-pager.c:268
+#: libyelp/yelp-view.c:257
 #, fuzzy
-msgid "YelpTocPager: Pause count is negative."
-msgstr "YelpTocPager: Manana sanda miiba ny fanisana fiatoana."
+msgid "_Copy Link Location"
+msgstr "Hanokatra toerana"
 
-#: ../src/yelp-toc-pager.c:379
-#: ../src/yelp-toc-pager.c:1957
-#, c-format
-msgid "The table of contents could not be processed. The file ‘%s’ is either missing or is not a valid XSLT stylesheet."
-msgstr "Tsy mety kirakiraina ny fizahan-takila. Na tsy misy na taratasin'angaly XSLT tsy ekena ny rakitra ‘%s’."
-
-#: ../src/yelp-toc-pager.c:1110
-#, c-format
-msgid "Read man page for %s"
-msgstr "Mamaky ny pejin'ny toro-làlana mikasika ny %s"
-
-#: ../src/yelp-toc-pager.c:1703
-#, c-format
-msgid "Read info page for %s"
-msgstr "Mamaky ny pejy fampahafantarana mikasika ny %s"
-
-#: ../src/yelp-toc-pager.c:1816
-#, c-format
-msgid "The table of contents could not be loaded. The file ‘%s’ is either missing or is not well-formed XML."
-msgstr "Tsy azo ny fizahan-takila. Na tsy misy na XML ratsy voatra ny rakitra ‘%s’."
-
-#: ../src/yelp-toc-pager.c:1838
-msgid "Command Line Help"
-msgstr "Toro-làlana mikasika ny lazam-baiko"
-
-#: ../src/yelp-window.c:318
-msgid "_File"
-msgstr "_Rakitra"
-
-#: ../src/yelp-window.c:319
-msgid "_Edit"
-msgstr "_Fanovana"
-
-#: ../src/yelp-window.c:320
-msgid "_Go"
-msgstr "_Fandefasana"
-
-#: ../src/yelp-window.c:321
-msgid "_Bookmarks"
-msgstr "_Tobin-drohy"
-
-#: ../src/yelp-window.c:322
-msgid "_Help"
-msgstr "_Toro-làlana"
-
-#: ../src/yelp-window.c:325
-msgid "_New Window"
-msgstr "Fikandrana _vaovao"
-
-#: ../src/yelp-window.c:330
-msgid "Print This Document"
-msgstr "Atontay io tahirin-kevitra io"
-
-#: ../src/yelp-window.c:335
-msgid "Print This Page"
-msgstr "Atontay io pejy io"
-
-#: ../src/yelp-window.c:340
-msgid "About This Document"
-msgstr "Mombamomba io tahirin-kevitra io"
-
-#: ../src/yelp-window.c:345
-msgid "Open _Location"
-msgstr "Hanokatra _toerana"
-
-#: ../src/yelp-window.c:350
-msgid "_Close Window"
-msgstr "_Hidio ny fikandrana"
-
-#: ../src/yelp-window.c:356
-msgid "_Copy"
-msgstr "_Adikao"
-
-#: ../src/yelp-window.c:362
-msgid "_Select All"
-msgstr "_Farito izy rehetra"
-
-#: ../src/yelp-window.c:367
-msgid "_Find..."
-msgstr "_Karohy..."
-
-#: ../src/yelp-window.c:372
-msgid "Find Pre_vious"
-msgstr "_Aloha"
-
-#: ../src/yelp-window.c:374
-msgid "Find previous occurrence of the word or phrase"
-msgstr "Mikaroka teny mitovy amin'ilay tadiavina any aloha"
-
-#: ../src/yelp-window.c:377
-msgid "Find Ne_xt"
-msgstr "_Manaraka"
-
-#: ../src/yelp-window.c:379
-msgid "Find next occurrence of the word or phrase"
-msgstr "Mikaroka teny mitovy amin'ilay tadiavina any afara"
-
-#: ../src/yelp-window.c:382
-msgid "_Preferences"
-msgstr "_Safidy manokana"
-
-#: ../src/yelp-window.c:387
-msgid "_Reload"
-msgstr "_Avereno aseho"
-
-#: ../src/yelp-window.c:399
-msgid "_Back"
-msgstr "_Mihemotra"
-
-#: ../src/yelp-window.c:401
-msgid "Show previous page in history"
-msgstr "Maneho pejy any aloha anatin'ny diary"
-
-#: ../src/yelp-window.c:404
-msgid "_Forward"
-msgstr "_Miroso"
-
-#: ../src/yelp-window.c:406
-msgid "Show next page in history"
-msgstr "Maneho ny pejy manaraka anatin'ny diary"
-
-#: ../src/yelp-window.c:409
-msgid "_Help Topics"
-msgstr "_Lohahevitra"
-
-#: ../src/yelp-window.c:411
-msgid "Go to the listing of help topics"
-msgstr "Mankany amin'ny pejy misy ireo lohahevitra"
-
-#: ../src/yelp-window.c:414
-msgid "_Previous Section"
-msgstr "_Fitsinjarana aloha"
-
-#: ../src/yelp-window.c:419
-msgid "_Next Section"
-msgstr "_fitsinjarana manaraka"
-
-#: ../src/yelp-window.c:424
-#: ../src/yelp-window.c:456
-msgid "_Contents"
-msgstr "_Mpiaty"
-
-#: ../src/yelp-window.c:430
-msgid "_Add Bookmark"
-msgstr "_Hampiditra rohy"
-
-#: ../src/yelp-window.c:435
-msgid "_Edit Bookmarks..."
-msgstr "_Hanova rohy..."
-
-#: ../src/yelp-window.c:441
+#: libyelp/yelp-view.c:262
 msgid "_Open Link"
 msgstr "_Sokafy io rohy io"
 
-#: ../src/yelp-window.c:446
-msgid "Open Link in _New Window"
+#: libyelp/yelp-view.c:267
+#, fuzzy
+msgid "Open Link in New _Window"
 msgstr "Sokafy anaty fikandrana _vaovao"
 
-#: ../src/yelp-window.c:451
-msgid "_Copy Link Address"
-msgstr "_Adikao ny adiresiny"
+#: libyelp/yelp-view.c:277
+#, fuzzy
+msgid "_Install Packages"
+msgstr "Pejin'ny toro-làlana"
 
-#: ../src/yelp-window.c:458
-msgid "Help On this application"
-msgstr "Toro-làlana mikasika ity rindranasa ity"
+#: libyelp/yelp-view.c:282
+msgid "Save Code _Block As…"
+msgstr ""
 
-#: ../src/yelp-window.c:461
-msgid "_About"
-msgstr "_Mombamomba"
+#: libyelp/yelp-view.c:297
+#, fuzzy
+msgid "_Copy Text"
+msgstr "_Adikao"
 
-#: ../src/yelp-window.c:466
-msgid "Copy _Email Address"
-msgstr "Adikao ny _adiresiny"
+#: libyelp/yelp-view.c:809 libyelp/yelp-view.c:2138
+#, fuzzy, c-format
+msgid "The URI ‘%s’ does not point to a valid page."
+msgstr ""
+"Tsy mitombina na tsy mitondra mankany amin'ilay rakitra voalaza ny URI ‘%s’ ."
 
-#: ../src/yelp-window.c:515
-msgid "Help Browser"
-msgstr "Mpizaha toro-làlana"
+#: libyelp/yelp-view.c:815 libyelp/yelp-view.c:2144
+msgid "The URI does not point to a valid page."
+msgstr ""
 
-#: ../src/yelp-window.c:926
-#: ../src/yelp-window.c:1082
-msgid "The Uniform Resource Identifier for the file is invalid."
-msgstr "Tsy mitombina ny URIn'ilay rakitra."
-
-#: ../src/yelp-window.c:938
-#: ../src/yelp-window.c:1077
+#: libyelp/yelp-view.c:820 libyelp/yelp-view.c:2150
 #, c-format
-msgid "The Uniform Resource Identifier ‘%s’ is invalid or does not point to an actual file."
-msgstr "Tsy mitombina na tsy mitondra mankany amin'ilay rakitra voalaza ny URI ‘%s’ ."
+msgid "The URI ‘%s’ could not be parsed."
+msgstr ""
 
-#: ../src/yelp-window.c:1026
-#: ../src/yelp-window.c:1506
-msgid "Man pages are not supported in this version."
-msgstr "Tsy mandray an-tànana pejin-toro-làlana ity kinova ity."
+#: libyelp/yelp-view.c:825
+msgid "Unknown Error."
+msgstr ""
 
-#: ../src/yelp-window.c:1036
-#: ../src/yelp-window.c:1497
-msgid "GNU info pages are not supported in this version"
-msgstr "Tsy mandray pejy fampahafantarana GNU ity kinova ity"
+#: libyelp/yelp-view.c:979
+msgid "You do not have PackageKit. Package install links require PackageKit."
+msgstr ""
 
-#: ../src/yelp-window.c:1052
-#: ../src/yelp-window.c:1519
-msgid "Search is not supported in this version."
-msgstr "Tsy mandray an-tànana fikarohana ity kinova ity."
+#: libyelp/yelp-view.c:1226
+msgid "Save Image"
+msgstr ""
 
-#: ../src/yelp-window.c:1057
-msgid "SGML documents are no longer supported. Please ask the author of the document to convert to XML."
-msgstr "Tsy raisina an-tànana intsony ny tahirin-kevitra SGML. Asaivo avadiky ny mpanoratra ho XML io tahirin-kevitra io."
+#: libyelp/yelp-view.c:1325
+msgid "Save Code"
+msgstr ""
 
-#: ../src/yelp-window.c:1223
-msgid "_Search:"
-msgstr "_Karohy:"
+#: libyelp/yelp-view.c:1421
+#, c-format
+msgid "Send email to %s"
+msgstr ""
 
-#: ../src/yelp-window.c:1224
-msgid "Search for other documentation"
-msgstr "Mikaroka loharanon-kevitra hafa"
+#: libyelp/yelp-view.c:1525
+msgid "_Save Image As…"
+msgstr ""
 
-#: ../src/yelp-window.c:1386
-msgid "Fin_d:"
-msgstr "_Tadiavo:"
+#: libyelp/yelp-view.c:1526
+msgid "_Save Video As…"
+msgstr ""
 
-#: ../src/yelp-window.c:1406
-msgid "Find _Next"
-msgstr "_Manaraka"
+#: libyelp/yelp-view.c:1534
+msgid "S_end Image To…"
+msgstr ""
 
-#: ../src/yelp-window.c:1418
-msgid "Find _Previous"
+#: libyelp/yelp-view.c:1535
+msgid "S_end Video To…"
+msgstr ""
+
+#: libyelp/yelp-view.c:1876
+#, fuzzy, c-format
+msgid "Could not load a document for ‘%s’"
+msgstr "Tsy afaka naka ilay tahirin-kevitra"
+
+#: libyelp/yelp-view.c:1882
+#, fuzzy
+msgid "Could not load a document"
+msgstr "Tsy afaka naka ilay tahirin-kevitra"
+
+#: libyelp/yelp-view.c:1966
+#, fuzzy
+msgid "Document Not Found"
+msgstr "Fitsinjaran-tahirin-kevitra"
+
+#: libyelp/yelp-view.c:1968
+msgid "Page Not Found"
+msgstr ""
+
+#: libyelp/yelp-view.c:1971
+msgid "Cannot Read"
+msgstr ""
+
+#: libyelp/yelp-view.c:1977
+msgid "Unknown Error"
+msgstr ""
+
+#: src/yelp-application.c:59
+msgid "Turn on editor mode"
+msgstr ""
+
+#: src/yelp-application.c:338 src/yelp-window.c:1186 src/yelp-window.c:1194
+#: org.gnome.Yelp.desktop.in.in:3
+msgid "Help"
+msgstr "Toro-làlana"
+
+#: src/yelp-window.c:348
+#, fuzzy
+msgid "Back"
+msgstr "_Mihemotra"
+
+#: src/yelp-window.c:355
+#, fuzzy
+msgid "Forward"
+msgstr "_Miroso"
+
+#: src/yelp-window.c:366
+msgid "Menu"
+msgstr ""
+
+#: src/yelp-window.c:371
+#, fuzzy
+msgid "New Window"
+msgstr "Fikandrana _vaovao"
+
+#: src/yelp-window.c:372
+#, fuzzy
+msgid "Find…"
+msgstr "Karohy"
+
+#: src/yelp-window.c:373
+#, fuzzy
+msgid "Print…"
+msgstr "Fanontana"
+
+#: src/yelp-window.c:378
+#, fuzzy
+msgid "Previous Page"
 msgstr "_Aloha"
 
-#: ../src/yelp-window.c:1532
-#, c-format
-msgid "A transformation context could not be created for the file ‘%s’. The format may not be supported."
-msgstr "Tsy mety amoronana sehatra fiofahana ny rakitra ‘%s’. Mety tsy raisina an-tànana ny laminy."
-
-#: ../src/yelp-window.c:1562
-#: ../src/yelp-window.c:1981
-#: ../src/yelp-window.c:2064
-#, c-format
-msgid "The section ‘%s’ does not exist in this document. If you were directed to this section from a Help button in an application, please report this to the maintainers of that application."
-msgstr "Tsy misy anatin'ity tahirin-kevitra ity ny fitsinjarana ‘%s’. Raha toa ka tsindrin-toro-làlana amina rindranasa iray no nahatonga anao eto amin'ity fitsinjarana ity, dia manaova tatitra any amin'ny mpikojakoja ilay rindranasa."
-
-#: ../src/yelp-window.c:1677
-#: ../src/yelp-window.c:2468
-#, c-format
-msgid "The file ‘%s’ could not be read.  This file might be missing, or you might not have permissions to read it."
-msgstr "Tsy nety novakiana ny rakitra ‘%s’. Mety tsy misy angamba io rakitra io, na tsy manana alalana hamaky azy ianao."
-
-#: ../src/yelp-window.c:1728
-msgid "Loading..."
-msgstr "Maka..."
-
-#. Note to translators: put here your name (and address) so it
-#. * will show up in the "about" box
-#: ../src/yelp-window.c:2911
-msgid "translator-credits"
+#: src/yelp-window.c:379
+msgid "Next Page"
 msgstr ""
-"Mpandrindra: Randrianiriana Thierry\n"
-"Mpandika teny: Rajaonarisoa Fanomezana"
 
-#: ../src/yelp-window.c:2914
-msgid "Yelp"
-msgstr "Yelp"
+#: src/yelp-window.c:384
+msgid "Larger Text"
+msgstr ""
 
-#: ../src/yelp-window.c:2916
-msgid "A documentation browser and viewer for the Gnome Desktop."
-msgstr "Mpizaha sy mpaneho toro-làlana ho an'ny Sehatrasan'ny Gnome."
+#: src/yelp-window.c:385
+msgid "Smaller Text"
+msgstr ""
 
-#: ../src/yelp-xslt-pager.c:189
-#, c-format
-msgid "The file ‘%s’ could not be parsed. Either the file does not exist, or it is improperly formatted."
-msgstr "Tsy nety nozarazaraina ny rakitra ‘%s’. Na tsy misy, na tsy nomanina araka ny tokony ho izy ilay rakitra."
+#: src/yelp-window.c:390
+#, fuzzy
+msgid "All Help"
+msgstr "Toro-làlana"
 
-#: ../src/yelp-xslt-pager.c:210
-#: ../src/yelp-xslt-pager.c:223
-#, c-format
-msgid "The document ‘%s’ could not be processed. The file ‘%s’ is either missing, or it is not a valid XSLT stylesheet."
-msgstr "Tsy nety nokirakiraina ny tahirin-kevitra ‘%s’. Na tsy misy na tsy taratasin'angaly tsy ekena ny rakitra ‘%s’."
+#: src/yelp-window.c:413
+msgid "Search (Ctrl+S)"
+msgstr ""
 
-#: ../yelp.desktop.in.in.h:1
+#: src/yelp-window.c:427
+msgid "Bookmarks"
+msgstr "Rohy"
+
+#: src/yelp-window.c:444
+#, fuzzy
+msgid "No bookmarks"
+msgstr "Rohy"
+
+#: src/yelp-window.c:452
+msgid "Add Bookmark"
+msgstr "Hampiditra rohy"
+
+#: src/yelp-window.c:458
+msgid "Remove Bookmark"
+msgstr "Hamindra io rohy io"
+
+#: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
 msgstr "Hizaha toro-làlana amin'ny alalan'ny GNOME"
+
+#: org.gnome.Yelp.desktop.in.in:5
+msgid "documentation;information;manual;help;"
+msgstr ""
+
+#: org.gnome.Yelp.desktop.in.in:8
+#, fuzzy
+msgid "help-browser"
+msgstr "Mpizaha toro-làlana"
+
+#~ msgid "GNU Info Pages"
+#~ msgstr "Pejy fampahafantarana GNU"
+
+#~ msgid "Traditional command line help (info)"
+#~ msgstr "Toro-làlana (fampahafantarana) taloha mikasika ny lazam-baiko"
+
+#~ msgid "Applications"
+#~ msgstr "Rindranasa"
+
+#~ msgid "BLT Functions"
+#~ msgstr "Asa BLT"
+
+#~ msgid "Configuration Files"
+#~ msgstr "Rakitry ny fikirakirana"
+
+#~ msgid "Curses Functions"
+#~ msgstr "Asa Curses"
+
+#~ msgid "Development"
+#~ msgstr "Famolavolana"
+
+#~ msgid "FORTRAN Functions"
+#~ msgstr "Asa FORTRAN"
+
+#~ msgid "Games"
+#~ msgstr "Lalao"
+
+#~ msgid "Hardware Devices"
+#~ msgstr "Periferikam-batan-tsolosaina"
+
+#~ msgid "Kernel Routines"
+#~ msgstr "Asa fanaon'ny Ivo"
+
+#~ msgid "Network Audio Sound Functions"
+#~ msgstr "Asa mikasika ny feo amin'ny rezo"
+
+#~ msgid "OpenSSL Applications"
+#~ msgstr "Rindranasa OpenSSL"
+
+#~ msgid "OpenSSL Configuration"
+#~ msgstr "Kirakiran'ny OpenSSL"
+
+#~ msgid "OpenSSL Functions"
+#~ msgstr "Asa mikasika ny OpenSSL"
+
+#~ msgid "OpenSSL Overviews"
+#~ msgstr "Topimaso momba ny OpenSSL"
+
+#~ msgid "Overviews"
+#~ msgstr "Topimaso"
+
+#~ msgid "POSIX Functions"
+#~ msgstr "Asa mikasika ny POSIX"
+
+#~ msgid "POSIX Headers"
+#~ msgstr "Lohasoratra POSIX"
+
+#~ msgid "Perl Functions"
+#~ msgstr "Asa mikasika ny Perl"
+
+#~ msgid "Qt Functions"
+#~ msgstr "Asa mikasika ny Qt"
+
+#~ msgid "Readline Functions"
+#~ msgstr "Asa mikasika ny Readline"
+
+#~ msgid "Section 0p"
+#~ msgstr "Fitsinjarana 0p"
+
+#~ msgid "Section 1m"
+#~ msgstr "Fitsinjarana 1m"
+
+#~ msgid "Section 1ssl"
+#~ msgstr "Fitsinjarana 1ssl"
+
+#~ msgid "Section 1x"
+#~ msgstr "Fitsinjarana 1x"
+
+#~ msgid "Section 2"
+#~ msgstr "Fitsinjarana 2"
+
+#~ msgid "Section 3blt"
+#~ msgstr "Fitsinjarana 3blt"
+
+#~ msgid "Section 3f"
+#~ msgstr "Fitsinjarana 3f"
+
+#~ msgid "Section 3nas"
+#~ msgstr "Fitsinjarana 3nas"
+
+#~ msgid "Section 3p"
+#~ msgstr "Fitsinjarana 3p"
+
+#~ msgid "Section 3qt"
+#~ msgstr "Fitsinjarana 3qt"
+
+#~ msgid "Section 3readline"
+#~ msgstr "Fitsinjarana 3readline"
+
+#~ msgid "Section 3ssl"
+#~ msgstr "Fitsinjarana 3ssl"
+
+#~ msgid "Section 3tiff"
+#~ msgstr "Fitsinjarana 3tiff"
+
+#~ msgid "Section 4"
+#~ msgstr "Fitsinjarana 4"
+
+#~ msgid "Section 4x"
+#~ msgstr "Fitsinjarana 4x"
+
+#~ msgid "Section 5"
+#~ msgstr "Fitsinjarana 5"
+
+#~ msgid "Section 5ssl"
+#~ msgstr "Fitsinjarana 5ssl"
+
+#~ msgid "Section 5x"
+#~ msgstr "Fitsinjarana 5x"
+
+#~ msgid "Section 6"
+#~ msgstr "Fitsinjarana 6"
+
+#~ msgid "Section 6x"
+#~ msgstr "Fitsinjarana 6x"
+
+#~ msgid "Section 7ssl"
+#~ msgstr "Fitsinjarana 7ssl"
+
+#~ msgid "Section 7x"
+#~ msgstr "Fitsinjarana 7x"
+
+#~ msgid "Section 9"
+#~ msgstr "Fitsinjarana 9"
+
+#~ msgid "Sections 1, 1p, 1g and 1t"
+#~ msgstr "Fitsinjarana 1, 1p, 1g ary 1t"
+
+#~ msgid "Sections 3, 3o, and 3t"
+#~ msgstr "Fitsinjarana 3, 3o, ary 3t"
+
+#~ msgid "Sections 3form and 3menu"
+#~ msgstr "Fitsinjarana 3form ary 3menu"
+
+#~ msgid "Sections 3ncurses and 3curses"
+#~ msgstr "Fitsinjarana 3ncurses ary 3curses"
+
+#~ msgid "Sections 3pm and 3perl"
+#~ msgstr "Fitsinjarana 3pm ary 3perl"
+
+#~ msgid "Sections 3x and 3X11"
+#~ msgstr "Fitsinjarana 3x ary 3X11"
+
+#~ msgid "Sections 7 and 7gcc"
+#~ msgstr "Fitsinjarana 7 ary 7gcc"
+
+#~ msgid "Sections 8 and 8l"
+#~ msgstr "Fitsinjarana 8 ary 8l"
+
+#~ msgid "System Administration"
+#~ msgstr "Fitantanan-drafitra"
+
+#, fuzzy
+#~ msgid "System Calls"
+#~ msgstr "Antson-drafitra"
+
+#, fuzzy
+#~ msgid "System V Form/Menu Functions"
+#~ msgstr "Asa mikasika ny System V Form/Menu"
+
+#~ msgid "TIFF Functions"
+#~ msgstr "Asa momba ny TIFF"
+
+#~ msgid "Termcap Applications"
+#~ msgstr "Rindranasa Termcap"
+
+#~ msgid "Traditional command line help (man)"
+#~ msgstr "Toro-làlana taloha mikasika ny lazam-baiko"
+
+#~ msgid "X11 Applications"
+#~ msgstr "Rindranasa X11"
+
+#~ msgid "X11 Configuration"
+#~ msgstr "Kirakiran'ny X11"
+
+#~ msgid "X11 Devices"
+#~ msgstr "Periferika X11"
+
+#~ msgid "X11 Functions"
+#~ msgstr "Asa momba ny X11"
+
+#~ msgid "X11 Games"
+#~ msgstr "Lalao X11"
+
+#~ msgid "X11 Overviews"
+#~ msgstr "Topimaso momba ny X11"
+
+#~ msgid "Accessibility"
+#~ msgstr "Fahafahana mampiasa"
+
+#~ msgid "Accessories"
+#~ msgstr "Kojakoja"
+
+#~ msgid "Applications for fun"
+#~ msgstr "Rindranasa fialana voly"
+
+#~ msgid "Applications for manipulating or viewing graphics"
+#~ msgstr "Rindranasa fikirakirana na fizahana sary"
+
+#~ msgid "Applications for word processing and other office tasks"
+#~ msgstr "Rindranasa fikirakirana teny ary fanaovana asa birôtika hafa"
+
+#, fuzzy
+#~ msgid "Applications related to X Windows"
+#~ msgstr "Rindranasa mifandraika amin'ny X Windows"
+
+#~ msgid "Applications related to multimedia"
+#~ msgstr "Rindranasa mifandraika amin'ny haino aman-jery"
+
+#~ msgid "Applications related to software development"
+#~ msgstr "Rindranasa mifandraika amin'ny famolavolana rindranasa"
+
+#~ msgid "Applications related to the internet"
+#~ msgstr "Rindranasa mifandraika amin'ny Internet"
+
+#~ msgid "Applications specific to the panel"
+#~ msgstr "Rindranasa misahana ny momba ny tontonana"
+
+#~ msgid "Applications that support assistive technologies"
+#~ msgstr "Rindranasa mandray an-tànana ny haitao fanamorana"
+
+#~ msgid "Documents specific to the KDE Desktop Environment"
+#~ msgstr "Tahirin-kevitra misahana ny Tontolon'ny Sehatrasa KDE"
+
+#~ msgid "Education"
+#~ msgstr "Fanabeazana"
+
+#~ msgid "Graphics"
+#~ msgstr "Sarys"
+
+#~ msgid "KDE"
+#~ msgstr "KDE"
+
+#~ msgid "Learning applications"
+#~ msgstr "Rindranasa fianarana"
+
+#~ msgid "Miscellaneous documents"
+#~ msgstr "Tahirin-kevitra samihafa"
+
+#~ msgid "Office"
+#~ msgstr "Birôtika"
+
+#~ msgid "Other Applications"
+#~ msgstr "Rindranasa hafa"
+
+#~ msgid "Other Documentation"
+#~ msgstr "Tahirin-kevitra hafa"
+
+#~ msgid "Panel Applets"
+#~ msgstr "Applet amin'ny tontonana"
+
+#~ msgid "Programming"
+#~ msgstr "Fandaharana"
+
+#~ msgid "Scientific"
+#~ msgstr "Siantifika"
+
+#~ msgid "Scientific Applications."
+#~ msgstr "Rindranasa siantifika."
+
+#~ msgid "System Tools"
+#~ msgstr "Fitaovan-drafitra"
+
+#~ msgid "Utilities to manage your computer"
+#~ msgstr "Rindranasa fandrindrana ny solosainao"
+
+#~ msgid "Utility applications"
+#~ msgstr "Rindranasa mpanampy"
+
+#~ msgid "Variety of other applications"
+#~ msgstr "Karazan-drindranasa maro hafa"
+
+#~ msgid "Welcome to the GNOME Help Browser"
+#~ msgstr "Tongasoa eto amin'ny Mpizaha toro-làlan'ny GNOME"
+
+#~ msgid "X Applications"
+#~ msgstr "Rindranasa X"
+
+#~ msgid "<b>Accessibility</b>"
+#~ msgstr "<b>Fahafahana mampiasa</b>"
+
+#~ msgid "<b>Fonts</b>"
+#~ msgstr "<b>Endri-tsoratra</b>"
+
+#~ msgid "C_ase sensitive"
+#~ msgstr "Manaja _haben-tsoratra"
+
+#~ msgid "Preferences"
+#~ msgstr "Safidy manokana"
+
+#~ msgid "Re_name"
+#~ msgstr "Ovay _anarana"
+
+#~ msgid "_Bookmarks:"
+#~ msgstr "_Rohy:"
+
+#~ msgid "_Browse with caret"
+#~ msgstr "_Zahavo amin'ny alalan'ny mpikorisa"
+
+#~ msgid "_Find:"
+#~ msgstr "_Karohy:"
+
+#~ msgid "_Fixed width:"
+#~ msgstr "Indra _tsy miova:"
+
+#~ msgid "_Location:"
+#~ msgstr "_Toerana:"
+
+#~ msgid "_Next"
+#~ msgstr "_Manaraka"
+
+#~ msgid "_Title:"
+#~ msgstr "_Lohateny:"
+
+#~ msgid "_Use system fonts"
+#~ msgstr "_Hampiasa ny endri-tsoratry ny rafitra"
+
+#~ msgid "_Variable width:"
+#~ msgstr "Indra _miovaova:"
+
+#~ msgid "_Wrap around"
+#~ msgstr "_Miverimberina"
+
+#~ msgid "Font for fixed text"
+#~ msgstr "Endri-tsora-dahabolana tsy miova indra"
+
+#~ msgid "Font for text"
+#~ msgstr "Endri-tsora-dahabolana"
+
+#~ msgid "Font for text with fixed width."
+#~ msgstr "Endri-tsoratra ho an'ny lahabolana tsy miova indra."
+
+#~ msgid "Font for text with variable width."
+#~ msgstr "Endri-tsoratra ho an'ny lahabolana miova indra."
+
+#~ msgid "Use a keyboard-controllable caret when viewing pages."
+#~ msgstr "Mampiasa mpikorisa voabaikom-pafan-teny rehefa mizaha ireo pejy."
+
+#~ msgid "Use caret"
+#~ msgstr "Mampiasa mpikorisa"
+
+#~ msgid "Use system fonts"
+#~ msgstr "Mampiasa ny endri-tsoratry ny rafitra"
+
+#~ msgid "Use the default fonts set for the system."
+#~ msgstr "Mampiasa ny endri-tsoratra lasitra voafaritra ho an'ny rafitra."
+
+#~ msgid "Open Bookmark in New Window"
+#~ msgstr "Sokafy anaty fikandrana vaovao io rohy io"
+
+#~ msgid "Rename Bookmark"
+#~ msgstr "Hanova anarana io rohy io"
+
+#~ msgid "A bookmark titled %s already exists for this page."
+#~ msgstr "Efa manana rohy mitondra ny anarana hoe %s io pejy io."
+
+#~ msgid "A bookmark titled <b>%s</b> already exists for this page."
+#~ msgstr "Efa manana rohy misy ny lohateny hoe <b>%s</b> io pejy io."
+
+#~ msgid "Help Topics"
+#~ msgstr "Lohahevitra"
+
+#~ msgid "Could not load section"
+#~ msgstr "Tsy afaka naka ilay fitsinjarana"
+
+#~ msgid "Could not read the table of contents"
+#~ msgstr "Tsy afaka namaky ny fizahan-takila"
+
+#~ msgid "Unsupported Format"
+#~ msgstr "Lamina tsy raisina an-tànana"
+
+#~ msgid "Could not read document"
+#~ msgstr "Tsy afaka namaky ilay tahirin-kevitra"
+
+#~ msgid "Could not process document"
+#~ msgstr "Tsy afaka nikirakira ilay tahirin-kevitra"
+
+#~ msgid "No information is available about the error."
+#~ msgstr "Tsy misy laza azo aseho momba ilay tsy fetezana."
+
+#~ msgid ""
+#~ "The file ‘%s’ could not be read and decoded. The file may be compressed "
+#~ "in an unsupported format."
+#~ msgstr ""
+#~ "Tsy mety vakiana sy avadi-pango ny rakitra  ‘%s’. Mety nafintina manaraka "
+#~ "lamina hafa izy io."
+
+#~ msgid "Use a private session"
+#~ msgstr "Hampiasa session voatokana"
+
+#~ msgid "Define which cache directory to use"
+#~ msgstr "Mamaritra ny lahatahirin'ny cache hampiasaina"
+
+#~ msgid ""
+#~ "The file ‘%s’ could not be parsed.  Either the file does not exist, or it "
+#~ "is formatted incorrectly."
+#~ msgstr ""
+#~ "Tsy mety zarazaraina ny rakitra  ‘%s’. Na tsy misy na tsy nomanina araka "
+#~ "ny tokony ho izy io."
+
+#~ msgid "Document Information"
+#~ msgstr "Mombamomba ilay tahirin-kevitra"
+
+#~ msgid "The YelpDocInfo struct of the document"
+#~ msgstr "Ny rafitra YelpDocInfo an'ilay tahirin-kevitra"
+
+#~ msgid "Preparing to print"
+#~ msgstr "Miomana ny hanonta"
+
+#~ msgid "Printing is not supported on this printer"
+#~ msgstr "Tsy mandray an-tànana asa fanontana io mpanonta-printy io"
+
+#~ msgid "Printer %s does not support postscript printing."
+#~ msgstr ""
+#~ "Tsy mandray an-tànana asa fanontana postscript ny mpanonta-printy %s."
+
+#~ msgid "<b>Printing</b>"
+#~ msgstr "<b>Fanontana</b>"
+
+#~ msgid "Waiting to print"
+#~ msgstr "Miandry baiko hanontana"
+
+#~ msgid "An error occurred while printing"
+#~ msgstr "Nisy olana nitranga teo am-panontana"
+
+#~ msgid "It was not possible to print your document: %s"
+#~ msgstr "Tsy nety natonta ny tahirin-kevitrao: %s"
+
+#~ msgid "the GNOME Support Forums"
+#~ msgstr "Ny sehatra fifanampian'ny GNOME"
+
+#~ msgid ""
+#~ "Your search could not be processed. The file ‘%s’ is either missing or is "
+#~ "not a valid XSLT stylesheet."
+#~ msgstr ""
+#~ "Tsy nety nokirakiraina ny karokao. Na tsy ao, na taratasin'angaly XSLT "
+#~ "tsy ekena ny rakitra  ‘%s’."
+
+#~ msgid "No results for \"%s\""
+#~ msgstr "Tsy nahitana valiny ny \"%s\""
+
+#~ msgid ""
+#~ "Try using different words to describe the problem you're having or the "
+#~ "topic you want help with."
+#~ msgstr ""
+#~ "Andramo lazaina amin'ny teny hafa ny olanao na ilay lohahevitra ilanao "
+#~ "fanampiana."
+
+#~ msgid "Repeat the search online at %s"
+#~ msgstr "Ataovy en ligne indray amin'ny %s indray ilay karoka"
+
+#~ msgid ""
+#~ "a:about:an:are:as:at:be:broke:broken:by:can:can't:dialog:dialogue:do:"
+#~ "doesn't:doesnt:don't:dont:explain:for:from:get:gets:got:make:makes:not:"
+#~ "when:has:have:help:how:i:in:is:it:item:me:my:of:on:or:tell:that:the:thing:"
+#~ "this:to:what:where:who:will:with:won't:wont:why:work:working:works"
+#~ msgstr ""
+#~ "momba:toy:amin'ny:afaka:resaka:fanaovana:hoan'i:avy:mahazo:manao:rehefa:"
+#~ "atoroy:fomba:anaty:izy:zavatra:izaho:na:izay:ilay:ity:io:inona:aiza:iza:"
+#~ "miaraka:nahoana:fa"
+
+#~ msgid "re"
+#~ msgstr "man:mi"
+
+#~ msgid "ers:er:ing:es:s:'s"
+#~ msgstr "ina:ana"
+
+#~ msgid "Could not load the OMF file '%s'."
+#~ msgstr "Tsy afaka naka ny rakitra OMF '%s'."
+
+#~ msgid "yelp-watermark-blockquote-201C"
+#~ msgstr "yelp-watermark-blockquote-201C"
+
+#, fuzzy
+#~ msgid "YelpTocPager: Pause count is negative."
+#~ msgstr "YelpTocPager: Manana sanda miiba ny fanisana fiatoana."
+
+#~ msgid ""
+#~ "The table of contents could not be processed. The file ‘%s’ is either "
+#~ "missing or is not a valid XSLT stylesheet."
+#~ msgstr ""
+#~ "Tsy mety kirakiraina ny fizahan-takila. Na tsy misy na taratasin'angaly "
+#~ "XSLT tsy ekena ny rakitra ‘%s’."
+
+#~ msgid "Read man page for %s"
+#~ msgstr "Mamaky ny pejin'ny toro-làlana mikasika ny %s"
+
+#~ msgid "Read info page for %s"
+#~ msgstr "Mamaky ny pejy fampahafantarana mikasika ny %s"
+
+#~ msgid "Command Line Help"
+#~ msgstr "Toro-làlana mikasika ny lazam-baiko"
+
+#~ msgid "_File"
+#~ msgstr "_Rakitra"
+
+#~ msgid "_Edit"
+#~ msgstr "_Fanovana"
+
+#~ msgid "_Go"
+#~ msgstr "_Fandefasana"
+
+#~ msgid "_Bookmarks"
+#~ msgstr "_Tobin-drohy"
+
+#~ msgid "_Help"
+#~ msgstr "_Toro-làlana"
+
+#~ msgid "Print This Document"
+#~ msgstr "Atontay io tahirin-kevitra io"
+
+#~ msgid "Print This Page"
+#~ msgstr "Atontay io pejy io"
+
+#~ msgid "About This Document"
+#~ msgstr "Mombamomba io tahirin-kevitra io"
+
+#~ msgid "Open _Location"
+#~ msgstr "Hanokatra _toerana"
+
+#~ msgid "_Close Window"
+#~ msgstr "_Hidio ny fikandrana"
+
+#~ msgid "_Select All"
+#~ msgstr "_Farito izy rehetra"
+
+#~ msgid "_Find..."
+#~ msgstr "_Karohy..."
+
+#~ msgid "Find Pre_vious"
+#~ msgstr "_Aloha"
+
+#~ msgid "Find previous occurrence of the word or phrase"
+#~ msgstr "Mikaroka teny mitovy amin'ilay tadiavina any aloha"
+
+#~ msgid "Find Ne_xt"
+#~ msgstr "_Manaraka"
+
+#~ msgid "Find next occurrence of the word or phrase"
+#~ msgstr "Mikaroka teny mitovy amin'ilay tadiavina any afara"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Safidy manokana"
+
+#~ msgid "_Reload"
+#~ msgstr "_Avereno aseho"
+
+#~ msgid "Show previous page in history"
+#~ msgstr "Maneho pejy any aloha anatin'ny diary"
+
+#~ msgid "Show next page in history"
+#~ msgstr "Maneho ny pejy manaraka anatin'ny diary"
+
+#~ msgid "_Help Topics"
+#~ msgstr "_Lohahevitra"
+
+#~ msgid "Go to the listing of help topics"
+#~ msgstr "Mankany amin'ny pejy misy ireo lohahevitra"
+
+#~ msgid "_Previous Section"
+#~ msgstr "_Fitsinjarana aloha"
+
+#~ msgid "_Next Section"
+#~ msgstr "_fitsinjarana manaraka"
+
+#~ msgid "_Contents"
+#~ msgstr "_Mpiaty"
+
+#~ msgid "_Add Bookmark"
+#~ msgstr "_Hampiditra rohy"
+
+#~ msgid "_Edit Bookmarks..."
+#~ msgstr "_Hanova rohy..."
+
+#~ msgid "_Copy Link Address"
+#~ msgstr "_Adikao ny adiresiny"
+
+#~ msgid "Help On this application"
+#~ msgstr "Toro-làlana mikasika ity rindranasa ity"
+
+#~ msgid "_About"
+#~ msgstr "_Mombamomba"
+
+#~ msgid "Copy _Email Address"
+#~ msgstr "Adikao ny _adiresiny"
+
+#~ msgid "The Uniform Resource Identifier for the file is invalid."
+#~ msgstr "Tsy mitombina ny URIn'ilay rakitra."
+
+#~ msgid "Man pages are not supported in this version."
+#~ msgstr "Tsy mandray an-tànana pejin-toro-làlana ity kinova ity."
+
+#~ msgid "GNU info pages are not supported in this version"
+#~ msgstr "Tsy mandray pejy fampahafantarana GNU ity kinova ity"
+
+#~ msgid "Search is not supported in this version."
+#~ msgstr "Tsy mandray an-tànana fikarohana ity kinova ity."
+
+#~ msgid ""
+#~ "SGML documents are no longer supported. Please ask the author of the "
+#~ "document to convert to XML."
+#~ msgstr ""
+#~ "Tsy raisina an-tànana intsony ny tahirin-kevitra SGML. Asaivo avadiky ny "
+#~ "mpanoratra ho XML io tahirin-kevitra io."
+
+#~ msgid "_Search:"
+#~ msgstr "_Karohy:"
+
+#~ msgid "Search for other documentation"
+#~ msgstr "Mikaroka loharanon-kevitra hafa"
+
+#~ msgid "Fin_d:"
+#~ msgstr "_Tadiavo:"
+
+#~ msgid "Find _Next"
+#~ msgstr "_Manaraka"
+
+#~ msgid "Find _Previous"
+#~ msgstr "_Aloha"
+
+#~ msgid ""
+#~ "A transformation context could not be created for the file ‘%s’. The "
+#~ "format may not be supported."
+#~ msgstr ""
+#~ "Tsy mety amoronana sehatra fiofahana ny rakitra ‘%s’. Mety tsy raisina an-"
+#~ "tànana ny laminy."
+
+#~ msgid ""
+#~ "The section ‘%s’ does not exist in this document. If you were directed to "
+#~ "this section from a Help button in an application, please report this to "
+#~ "the maintainers of that application."
+#~ msgstr ""
+#~ "Tsy misy anatin'ity tahirin-kevitra ity ny fitsinjarana ‘%s’. Raha toa ka "
+#~ "tsindrin-toro-làlana amina rindranasa iray no nahatonga anao eto amin'ity "
+#~ "fitsinjarana ity, dia manaova tatitra any amin'ny mpikojakoja ilay "
+#~ "rindranasa."
+
+#~ msgid ""
+#~ "The file ‘%s’ could not be read.  This file might be missing, or you "
+#~ "might not have permissions to read it."
+#~ msgstr ""
+#~ "Tsy nety novakiana ny rakitra ‘%s’. Mety tsy misy angamba io rakitra io, "
+#~ "na tsy manana alalana hamaky azy ianao."
+
+#~ msgid "Loading..."
+#~ msgstr "Maka..."
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Mpandrindra: Randrianiriana Thierry\n"
+#~ "Mpandika teny: Rajaonarisoa Fanomezana"
+
+#~ msgid "Yelp"
+#~ msgstr "Yelp"
+
+#~ msgid "A documentation browser and viewer for the Gnome Desktop."
+#~ msgstr "Mpizaha sy mpaneho toro-làlana ho an'ny Sehatrasan'ny Gnome."
+
+#~ msgid ""
+#~ "The file ‘%s’ could not be parsed. Either the file does not exist, or it "
+#~ "is improperly formatted."
+#~ msgstr ""
+#~ "Tsy nety nozarazaraina ny rakitra ‘%s’. Na tsy misy, na tsy nomanina "
+#~ "araka ny tokony ho izy ilay rakitra."
+
+#~ msgid ""
+#~ "The document ‘%s’ could not be processed. The file ‘%s’ is either "
+#~ "missing, or it is not a valid XSLT stylesheet."
+#~ msgstr ""
+#~ "Tsy nety nokirakiraina ny tahirin-kevitra ‘%s’. Na tsy misy na tsy "
+#~ "taratasin'angaly tsy ekena ny rakitra ‘%s’."
