@@ -1,88 +1,73 @@
-# Limburgish translation of Yelp.
-# 2003
-# Mathieu van Woerkom <mathieu.brabants.org>, 2003.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
 # 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Yelp cvs\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2003-05-19 15:19+0000\n"
-"Last-Translator: Mathieu van Woerkom <mathieu.brabants.org>\n"
-"Language-Team: Limburgish <li.org>\n"
-"Language: li\n"
+"PO-Revision-Date: 2019-10-04 14:18+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Limburgian (http://www.transifex.com/endless-os/yelp/language/li/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: li\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
-#, fuzzy
 msgid "Internet"
-msgstr "Hulp Inhaudsopgaaf"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
-#, fuzzy
 msgid "Documents &amp; Files"
-msgstr "Dokkemènter"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "GNOME - Beroblaad"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -94,22 +79,18 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr ""
 
 #: data/yelp.appdata.xml.in:6
-#, fuzzy
 msgid "GNOME Help"
-msgstr "GNOME is"
+msgstr ""
 
 #: data/yelp.appdata.xml.in:7
-#, fuzzy
 msgid "Help viewer for GNOME"
-msgstr "Hulp Browser veur GNOME"
+msgstr ""
 
 #: data/yelp.appdata.xml.in:9
 msgid ""
@@ -119,8 +100,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -144,21 +125,20 @@ msgstr ""
 #: libyelp/yelp-docbook-document.c:292 libyelp/yelp-info-document.c:221
 #: libyelp/yelp-mallard-document.c:306 libyelp/yelp-mallard-document.c:464
 #: libyelp/yelp-man-document.c:199
-#, fuzzy, c-format
+#, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
-msgstr "'t dokkemènt '%s' besjteit neet"
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:331 libyelp/yelp-info-document.c:358
 #: libyelp/yelp-man-document.c:336
-#, fuzzy
 msgid "The file does not exist."
-msgstr "'t dokkemènt '%s' besjteit neet"
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:341 libyelp/yelp-info-document.c:368
 #: libyelp/yelp-man-document.c:346
-#, fuzzy, c-format
+#, c-format
 msgid "The file ‘%s’ does not exist."
-msgstr "'t dokkemènt '%s' besjteit neet"
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:359
 #, c-format
@@ -180,9 +160,9 @@ msgstr ""
 
 #: libyelp/yelp-docbook-document.c:908 libyelp/yelp-info-document.c:301
 #: libyelp/yelp-man-document.c:279
-#, fuzzy, c-format
+#, c-format
 msgid "The requested page was not found in the document ‘%s’."
-msgstr "'t dokkemènt '%s' besjteit neet"
+msgstr ""
 
 #: libyelp/yelp-document.c:1068
 #, c-format
@@ -203,9 +183,8 @@ msgid "An unknown error occurred."
 msgstr ""
 
 #: libyelp/yelp-help-list.c:548 libyelp/yelp-help-list.c:557
-#, fuzzy
 msgid "All Help Documents"
-msgstr "Dokkemènter"
+msgstr ""
 
 #: libyelp/yelp-info-document.c:383
 #, c-format
@@ -214,14 +193,14 @@ msgid ""
 msgstr ""
 
 #: libyelp/yelp-mallard-document.c:348
-#, fuzzy, c-format
+#, c-format
 msgid "The directory ‘%s’ does not exist."
-msgstr "'t dokkemènt '%s' besjteit neet"
+msgstr ""
 
 #: libyelp/yelp-search-entry.c:434
-#, fuzzy, c-format
+#, c-format
 msgid "Search for “%s”"
-msgstr "_Zeuke nao:"
+msgstr ""
 
 #: libyelp/yelp-transform.c:370 libyelp/yelp-transform.c:385
 #, c-format
@@ -241,9 +220,8 @@ msgid "C_opy Code Block"
 msgstr ""
 
 #: libyelp/yelp-view.c:257
-#, fuzzy
 msgid "_Copy Link Location"
-msgstr "Seksie"
+msgstr ""
 
 #: libyelp/yelp-view.c:262
 msgid "_Open Link"
@@ -275,9 +253,9 @@ msgid "The URI does not point to a valid page."
 msgstr ""
 
 #: libyelp/yelp-view.c:820 libyelp/yelp-view.c:2150
-#, fuzzy, c-format
+#, c-format
 msgid "The URI ‘%s’ could not be parsed."
-msgstr "'t dokkemènt '%s' besjteit neet"
+msgstr ""
 
 #: libyelp/yelp-view.c:825
 msgid "Unknown Error."
@@ -317,19 +295,17 @@ msgid "S_end Video To…"
 msgstr ""
 
 #: libyelp/yelp-view.c:1876
-#, fuzzy, c-format
+#, c-format
 msgid "Could not load a document for ‘%s’"
-msgstr "Aanvöllende dokkemènter"
+msgstr ""
 
 #: libyelp/yelp-view.c:1882
-#, fuzzy
 msgid "Could not load a document"
-msgstr "Aanvöllende dokkemènter"
+msgstr ""
 
 #: libyelp/yelp-view.c:1966
-#, fuzzy
 msgid "Document Not Found"
-msgstr "Dokkemènter"
+msgstr ""
 
 #: libyelp/yelp-view.c:1968
 msgid "Page Not Found"
@@ -353,42 +329,36 @@ msgid "Help"
 msgstr "Hulp"
 
 #: src/yelp-window.c:348
-#, fuzzy
 msgid "Back"
-msgstr "Veurige"
+msgstr ""
 
 #: src/yelp-window.c:355
-#, fuzzy
 msgid "Forward"
-msgstr "Naekste"
+msgstr ""
 
 #: src/yelp-window.c:366
 msgid "Menu"
 msgstr ""
 
 #: src/yelp-window.c:371
-#, fuzzy
 msgid "New Window"
-msgstr "/Besjtandj/_Nuuj vinster"
+msgstr ""
 
 #: src/yelp-window.c:372
-#, fuzzy
 msgid "Find…"
-msgstr "/Bewirke/_Zeuke in pagina..."
+msgstr ""
 
 #: src/yelp-window.c:373
 msgid "Print…"
 msgstr ""
 
 #: src/yelp-window.c:378
-#, fuzzy
 msgid "Previous Page"
-msgstr "Veu_rige"
+msgstr ""
 
 #: src/yelp-window.c:379
-#, fuzzy
 msgid "Next Page"
-msgstr "/Gank nao/_Index"
+msgstr ""
 
 #: src/yelp-window.c:384
 msgid "Larger Text"
@@ -399,9 +369,8 @@ msgid "Smaller Text"
 msgstr ""
 
 #: src/yelp-window.c:390
-#, fuzzy
 msgid "All Help"
-msgstr "Hulp"
+msgstr ""
 
 #: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
@@ -432,373 +401,5 @@ msgid "documentation;information;manual;help;"
 msgstr ""
 
 #: org.gnome.Yelp.desktop.in.in:8
-#, fuzzy
 msgid "help-browser"
-msgstr "Hulp Browser"
-
-#~ msgid "Applications"
-#~ msgstr "Toepassinge"
-
-#~ msgid "Configuration Files"
-#~ msgstr "Kóngfiggerasiebesjtenj"
-
-#~ msgid "Development"
-#~ msgstr "Development"
-
-#~ msgid "Games"
-#~ msgstr "Sjpelkes"
-
-#~ msgid "Hardware Devices"
-#~ msgstr "Hardware-apperetuur"
-
-#~ msgid "Kernel Routines"
-#~ msgstr "Kernelróttines"
-
-#~ msgid "Library Functions"
-#~ msgstr "Bibeleteekfónksies"
-
-#, fuzzy
-#~ msgid "Man Pages"
-#~ msgstr "Handjleijing-pagina's"
-
-#, fuzzy
-#~ msgid "OpenSSL Applications"
-#~ msgstr "Toepassinge"
-
-#, fuzzy
-#~ msgid "OpenSSL Configuration"
-#~ msgstr "Kóngfiggerasiebesjtenj"
-
-#, fuzzy
-#~ msgid "OpenSSL Overviews"
-#~ msgstr "Euverzichte"
-
-#~ msgid "Overviews"
-#~ msgstr "Euverzichte"
-
-#, fuzzy
-#~ msgid "Perl Functions"
-#~ msgstr "Bibeleteekfónksies"
-
-#, fuzzy
-#~ msgid "Qt Functions"
-#~ msgstr "Bibeleteekfónksies"
-
-#~ msgid "System Administration"
-#~ msgstr "Systeemadminnestrasie"
-
-#~ msgid "System Calls"
-#~ msgstr "Systeemfónksies"
-
-#, fuzzy
-#~ msgid "Termcap Applications"
-#~ msgstr "Toepassinge"
-
-#, fuzzy
-#~ msgid "X11 Applications"
-#~ msgstr "Toepassinge"
-
-#, fuzzy
-#~ msgid "X11 Configuration"
-#~ msgstr "Kóngfiggerasiebesjtenj"
-
-#, fuzzy
-#~ msgid "X11 Functions"
-#~ msgstr "Bibeleteekfónksies"
-
-#, fuzzy
-#~ msgid "X11 Games"
-#~ msgstr "Sjpelkes"
-
-#, fuzzy
-#~ msgid "X11 Overviews"
-#~ msgstr "Euverzichte"
-
-#, fuzzy
-#~ msgid "Applets"
-#~ msgstr "Toepassinge"
-
-#, fuzzy
-#~ msgid "Education Applications"
-#~ msgstr "Toepassinge"
-
-#, fuzzy
-#~ msgid "Help Topics"
-#~ msgstr "Hulp Browser"
-
-#, fuzzy
-#~ msgid "Other Documentation"
-#~ msgstr "Dokkemènter"
-
-#, fuzzy
-#~ msgid "Scientific"
-#~ msgstr "Toepassinge"
-
-#, fuzzy
-#~ msgid "System Tools"
-#~ msgstr "Systeemfónksies"
-
-#, fuzzy
-#~ msgid "X Applications"
-#~ msgstr "Toepassinge"
-
-#, fuzzy
-#~ msgid "_Location:"
-#~ msgstr "Seksie"
-
-#~ msgid "_Next"
-#~ msgstr "_Naekste"
-
-#~ msgid "Yelp"
-#~ msgstr "Yelp"
-
-#~ msgid "Yelp Factory"
-#~ msgstr "Yelp-Febrik"
-
-#, fuzzy
-#~ msgid "Could not load section"
-#~ msgstr "Kós gein nuuj vinster äöpene."
-
-#, fuzzy
-#~ msgid "Could not read the table of contents"
-#~ msgstr "Kós Yelp neet opsjtarte: '%s'"
-
-#, fuzzy
-#~ msgid "Define which cache directory to use"
-#~ msgstr "Aangaeve welke cache dir te gebroeke"
-
-#~ msgid "Could not activate Yelp: '%s'"
-#~ msgstr "Kós Yelp neet opsjtarte: '%s'"
-
-#~ msgid "Could not open new window."
-#~ msgstr "Kós gein nuuj vinster äöpene."
-
-#, fuzzy
-#~ msgid "Document Information"
-#~ msgstr "Dokkemènter"
-
-#, fuzzy
-#~ msgid "Could not load the OMF file '%s'."
-#~ msgstr "Kós Yelp neet opsjtarte: '%s'"
-
-#~ msgid "Help Contents"
-#~ msgstr "Hulp Inhaudsopgaaf"
-
-#, fuzzy
-#~ msgid "_File"
-#~ msgstr "/_Besjtandj"
-
-#, fuzzy
-#~ msgid "_Edit"
-#~ msgstr "/B_ewirke"
-
-#, fuzzy
-#~ msgid "_Go"
-#~ msgstr "/_Gank nao"
-
-#, fuzzy
-#~ msgid "_Help"
-#~ msgstr "/_Hulp"
-
-#, fuzzy
-#~ msgid "_Close Window"
-#~ msgstr "/Besjtandj/Vinster _sjloete"
-
-#, fuzzy
-#~ msgid "_Find..."
-#~ msgstr "/Bewirke/_Zeuke in pagina..."
-
-#~ msgid "Show previous page in history"
-#~ msgstr "De veurige pagina tuine"
-
-#~ msgid "Show next page in history"
-#~ msgstr "De naekste pagina tuine"
-
-#, fuzzy
-#~ msgid "_Previous Section"
-#~ msgstr "Veu_rige"
-
-#, fuzzy
-#~ msgid "_Next Section"
-#~ msgstr "Seksie"
-
-#, fuzzy
-#~ msgid "_Contents"
-#~ msgstr "Hulp Inhaudsopgaaf"
-
-#, fuzzy
-#~ msgid "_About"
-#~ msgstr "/Hulp/_Euver"
-
-#, fuzzy
-#~ msgid "Find _Next"
-#~ msgstr "Teks zeuke..."
-
-#, fuzzy
-#~ msgid "Find _Previous"
-#~ msgstr "Veu_rige"
-
-#~ msgid "Loading..."
-#~ msgstr "Baezig mit lajen..."
-
-#, fuzzy
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "mathieu van Woerkom\n"
-#~ "http://mathieu.brabants.org"
-
-#, fuzzy
-#~ msgid "_Home"
-#~ msgstr "Sjtartpagina"
-
-#~ msgid "Go to home view"
-#~ msgstr "De sjtartpagina tuine"
-
-#, fuzzy
-#~ msgid "Development Environments"
-#~ msgstr "Development"
-
-#, fuzzy
-#~ msgid "Development Tools"
-#~ msgstr "Development"
-
-#, fuzzy
-#~ msgid "Editors"
-#~ msgstr "/B_ewirke"
-
-#, fuzzy
-#~ msgid "Internet Applications"
-#~ msgstr "Toepassinge"
-
-#, fuzzy
-#~ msgid "Kernels"
-#~ msgstr "Kernelróttines"
-
-#, fuzzy
-#~ msgid "Multimedia Applications"
-#~ msgstr "Toepassinge"
-
-#, fuzzy
-#~ msgid "System"
-#~ msgstr "Systeemfónksies"
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#, fuzzy
-#~ msgid "The selected document could not be opened"
-#~ msgstr "'t dokkemènt '%s' besjteit neet"
-
-#, fuzzy
-#~ msgid "The table of contents could not be read."
-#~ msgstr "'t dokkemènt '%s' besjteit neet"
-
-#, fuzzy
-#~ msgid "The selected file could not be read."
-#~ msgstr "'t dokkemènt '%s' besjteit neet"
-
-#~ msgid "X11"
-#~ msgstr "X11"
-
-#~ msgid "OpenSSL"
-#~ msgstr "ÄöpenSSL"
-
-#~ msgid "Termcap"
-#~ msgstr "Termcap"
-
-#~ msgid "Perl"
-#~ msgstr "Perl"
-
-#~ msgid "Qt"
-#~ msgstr "Qt"
-
-#~ msgid "TIFF"
-#~ msgstr "TIFF"
-
-#~ msgid "PThreads"
-#~ msgstr "PThreads"
-
-#~ msgid "Categories"
-#~ msgstr "Kattegerieje"
-
-#, fuzzy
-#~ msgid "Affiliation"
-#~ msgstr "Toepassinge"
-
-#, fuzzy
-#~ msgid "Dedication"
-#~ msgstr "Seksie"
-
-#, fuzzy
-#~ msgid "Editor"
-#~ msgstr "/B_ewirke"
-
-#~ msgid "Index"
-#~ msgstr "Indeks"
-
-#, fuzzy
-#~ msgid "Set Index"
-#~ msgstr "Indeks"
-
-#, fuzzy
-#~ msgid "Table of Contents"
-#~ msgstr "Hulp Inhaudsopgaaf"
-
-#, fuzzy
-#~ msgid "/Edit/Find Ne_xt"
-#~ msgstr "/Bewirke/_Obbenuuts zeuke"
-
-#, fuzzy
-#~ msgid "/Edit/Find Pre_vious"
-#~ msgstr "/Bewirke/_Obbenuuts zeuke"
-
-#~ msgid "/Go/_Back"
-#~ msgstr "/Gank nao/V_eurige"
-
-#~ msgid "/Go/_Forward"
-#~ msgstr "/Gank nao/_Naekste"
-
-#~ msgid "/Go/_Home"
-#~ msgstr "/Gank nao/_Sjtartpagina"
-
-#, fuzzy
-#~ msgid "/Go/"
-#~ msgstr "/_Gank nao"
-
-#, fuzzy
-#~ msgid "/Go/_Contents"
-#~ msgstr "Hulp Inhaudsopgaaf"
-
-#~ msgid "<b>Find text in the document:</b>"
-#~ msgstr "<b>Zeuke nao teks in 't dokkemènt:</b>"
-
-#~ msgid "Automatically _wrap around"
-#~ msgstr "Automatisse _doorloup"
-
-#~ msgid "Match _entire word"
-#~ msgstr "Ganse _wäörd zeuke"
-
-#~ msgid "_Match upper/lower case"
-#~ msgstr "_Huidbooksjtaafgeveulig"
-
-#~ msgid "GNOME - Desktop"
-#~ msgstr "GNOME - Beroblaad"
-
-#~ msgid "Info Pages"
-#~ msgstr "Info-pagina's"
-
-#~ msgid "Manual pages"
-#~ msgstr "Handjleijing-pagina's"
-
-#~ msgid "Free Software"
-#~ msgstr "Vrieje Software"
-
-#~ msgid "(C)"
-#~ msgstr "©"
-
-#, fuzzy
-#~ msgid "Loading..&nbsp;"
-#~ msgstr "Baezig mit lajen..."
-
-#~ msgid "Search in the index"
-#~ msgstr "De index doorzeuke"
+msgstr ""

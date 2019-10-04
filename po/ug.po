@@ -1,94 +1,75 @@
-# Uighur Translation of yelp
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
 # Abduxukur Abdurixit <abduxukur.abdurixit@t-systems.ch>, 2005
 # Gheyret T.Kenji <gheyret@gmail.com>, 2010
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: yelp 2.10\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2013-02-16 13:36+0900\n"
-"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
-"Language-Team: GNOME Uighur Translation Project <gnome-uighur@yahoogroups."
-"com>\n"
-"Language: ug\n"
+"PO-Revision-Date: 2019-10-04 14:18+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Uighur (http://www.transifex.com/endless-os/yelp/language/ug/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ug\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Launchpad (build Unknown)\n"
-"X-Launchpad-Export-Date: 2010-08-10 20:56+0000\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "يۈكلەش ھالىتى"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr "ئىنتېرنېت"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
-#, fuzzy
 msgid "Documents &amp; Files"
-msgstr "ئۈن &amp; سىن"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "ئۈستەلئۈستى"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -100,17 +81,14 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "ئورنىتىش <string/>"
 
 #: data/yelp.appdata.xml.in:6
-#, fuzzy
 msgid "GNOME Help"
-msgstr " GNOME ياردەم كۆرگۈ"
+msgstr ""
 
 #: data/yelp.appdata.xml.in:7
 msgid "Help viewer for GNOME"
@@ -124,8 +102,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -176,9 +154,7 @@ msgstr "‘%s’ ھۆججەتنى يېشەلمىدى، چۈنكى ئۇ ئىنا�
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"‘%s’ ھۆججەتنى يېشەلمىدى، چۈنكى ئۇنىڭ بىر ياكى بىر قانچە بۆلەك ھۆججىتى "
-"ئىناۋەتلىك XML پۈتۈكى ئەمەس."
+msgstr "‘%s’ ھۆججەتنى يېشەلمىدى، چۈنكى ئۇنىڭ بىر ياكى بىر قانچە بۆلەك ھۆججىتى ئىناۋەتلىك XML پۈتۈكى ئەمەس."
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -262,9 +238,8 @@ msgid "_Install Packages"
 msgstr "بوغچىلارنى ئورنات(_I)"
 
 #: libyelp/yelp-view.c:282
-#, fuzzy
 msgid "Save Code _Block As…"
-msgstr "كود بۆلىكىنى باشقا ئاتتا ساقلا(_B)…"
+msgstr ""
 
 #: libyelp/yelp-view.c:297
 msgid "_Copy Text"
@@ -285,9 +260,8 @@ msgid "The URI ‘%s’ could not be parsed."
 msgstr "«%s»  دېگەن URI نى يېشەلمىدى."
 
 #: libyelp/yelp-view.c:825
-#, fuzzy
 msgid "Unknown Error."
-msgstr "نامەلۇم خاتالىق"
+msgstr ""
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -307,24 +281,20 @@ msgid "Send email to %s"
 msgstr "%s غا ئېلخەت يوللا"
 
 #: libyelp/yelp-view.c:1525
-#, fuzzy
 msgid "_Save Image As…"
-msgstr "سۈرەتنى باشقا ئاتتا ساقلا(_S)…"
+msgstr ""
 
 #: libyelp/yelp-view.c:1526
-#, fuzzy
 msgid "_Save Video As…"
-msgstr "سىننى باشقا ئاتتا ساقلا(_S)…"
+msgstr ""
 
 #: libyelp/yelp-view.c:1534
-#, fuzzy
 msgid "S_end Image To…"
-msgstr "سۈرەت يوللاش ئورنى(_E)…"
+msgstr ""
 
 #: libyelp/yelp-view.c:1535
-#, fuzzy
 msgid "S_end Video To…"
-msgstr "سىن يوللاش ئورنى(_E)…"
+msgstr ""
 
 #: libyelp/yelp-view.c:1876
 #, c-format
@@ -361,58 +331,48 @@ msgid "Help"
 msgstr "ياردەم"
 
 #: src/yelp-window.c:348
-#, fuzzy
 msgid "Back"
-msgstr "كەينى(_B)"
+msgstr ""
 
 #: src/yelp-window.c:355
-#, fuzzy
 msgid "Forward"
-msgstr "ئالدىغا(_F)"
+msgstr ""
 
 #: src/yelp-window.c:366
 msgid "Menu"
 msgstr ""
 
 #: src/yelp-window.c:371
-#, fuzzy
 msgid "New Window"
-msgstr "يېڭى كۆزنەك(_N)"
+msgstr ""
 
 #: src/yelp-window.c:372
-#, fuzzy
 msgid "Find…"
-msgstr "ئىزدە:"
+msgstr ""
 
 #: src/yelp-window.c:373
-#, fuzzy
 msgid "Print…"
-msgstr "بېسىۋاتىدۇ"
+msgstr ""
 
 #: src/yelp-window.c:378
-#, fuzzy
 msgid "Previous Page"
-msgstr "ئالدىنقى بەت(_P)"
+msgstr ""
 
 #: src/yelp-window.c:379
-#, fuzzy
 msgid "Next Page"
-msgstr "كېيىنكى بەت(_N)"
+msgstr ""
 
 #: src/yelp-window.c:384
-#, fuzzy
 msgid "Larger Text"
-msgstr "چوڭراق تېكىست(_L)"
+msgstr ""
 
 #: src/yelp-window.c:385
-#, fuzzy
 msgid "Smaller Text"
-msgstr "كىچىكرەك تېكىست(_S)"
+msgstr ""
 
 #: src/yelp-window.c:390
-#, fuzzy
 msgid "All Help"
-msgstr "ياردەم"
+msgstr ""
 
 #: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
@@ -423,1253 +383,25 @@ msgid "Bookmarks"
 msgstr "خەتكۈشلەر"
 
 #: src/yelp-window.c:444
-#, fuzzy
 msgid "No bookmarks"
-msgstr "خەتكۈشلەر"
+msgstr ""
 
 #: src/yelp-window.c:452
 msgid "Add Bookmark"
 msgstr "خەتكۈش قوش"
 
 #: src/yelp-window.c:458
-#, fuzzy
 msgid "Remove Bookmark"
-msgstr "خەتكۈشنى چىقىرىۋەت(_R)"
+msgstr ""
 
 #: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
 msgstr "گىنوم ياردىمىگە ئېرىش"
 
 #: org.gnome.Yelp.desktop.in.in:5
-#, fuzzy
 msgid "documentation;information;manual;help;"
-msgstr "documentation;information;manual;قوللانما;ئۇچۇر;پۈتۈك;"
+msgstr ""
 
 #: org.gnome.Yelp.desktop.in.in:8
-#, fuzzy
 msgid "help-browser"
-msgstr "ياردەم كۆرگۈ"
-
-#~ msgid "Indexed"
-#~ msgstr "ئىندېكسلانغان"
-
-#~ msgid "Whether the document content has been indexed"
-#~ msgstr "پۈتۈك مەزمۇنى ئىندېكسلانغانمۇ يوق"
-
-#~ msgid "Document URI"
-#~ msgstr "پۈتۈك URI"
-
-#~ msgid "The URI which identifies the document"
-#~ msgstr "پۈتۈكنى پەرقلەندۈرىدىغان URI"
-
-#~ msgid "View"
-#~ msgstr "كۆرۈنۈش"
-
-#~ msgid "A YelpView instance to control"
-#~ msgstr "تىزگىنلىنىدىغان YelpView نىڭ ئۈلگىسى"
-
-#~ msgid "A YelpBookmarks implementation instance"
-#~ msgstr "YelpBookmarks نى ئەمەلگە ئاشۇرغان ئۈلگە"
-
-#~ msgid "Enable Search"
-#~ msgstr "ئىزدەشنى قوزغات"
-
-#~ msgid "Whether the location entry can be used as a search field"
-#~ msgstr "ئىزدەش سۆز بۆلىكىگە ئىشلىتىشكە بولىدىغان يەرلىك كىرگۈزۈش تۈرى"
-
-#~ msgid "Search..."
-#~ msgstr "ئىزدە…"
-
-#~ msgid "Clear the search text"
-#~ msgstr "ئىزدەش تېكىستىنى تازىلايدۇ"
-
-#~ msgid "Bookmark this page"
-#~ msgstr "بۇ بەتنى خەتكۈچكە قوش"
-
-#~ msgid "Remove bookmark"
-#~ msgstr "خەتكۈشنى چىقىۋەت"
-
-#~ msgid "Loading"
-#~ msgstr "يۈكلەۋاتىدۇ"
-
-#~ msgid "GtkSettings"
-#~ msgstr "GtkSettings"
-
-#~ msgid "A GtkSettings object to get settings from"
-#~ msgstr "تەڭشەككە ئېرىشىدىغان GtkSettings نەڭى"
-
-#~ msgid "GtkIconTheme"
-#~ msgstr "GtkIconTheme"
-
-#~ msgid "A GtkIconTheme object to get icons from"
-#~ msgstr "تەڭشەككە ئېرىشىدىغان GtkIconTheme جىسىم"
-
-#~ msgid "Font Adjustment"
-#~ msgstr "خەت نۇسخا تەڭشەش"
-
-#~ msgid "A size adjustment to add to font sizes"
-#~ msgstr "خەت چوڭلۇق تەڭشىكىدىن بىرى خەت چوڭلۇقىغا قوشۇلدى"
-
-#~ msgid "Show Text Cursor"
-#~ msgstr "تېكىست نۇربەلگىنى كۆرسەت"
-
-#~ msgid "Show the text cursor or caret for accessible navigation"
-#~ msgstr "تېكىست نۇربەلگە قىستۇرۇش بەلگىسى ياكى زىيارەتچان يول باشچىنى كۆرسەت"
-
-#~ msgid "Editor Mode"
-#~ msgstr "تەھرىرلىگۈچ ھالىتى"
-
-#~ msgid "Enable features useful to editors"
-#~ msgstr "تەھرىرلىگۈچكە كېرەكلىك ئىقتىدارىنى قوزغات"
-
-#~ msgid "Database filename"
-#~ msgstr "سانداننىڭ ھۆججەت ئاتى"
-
-#~ msgid "The filename of the sqlite database"
-#~ msgstr "sqlite ساندىنىنىڭ ھۆججەت ئاتى"
-
-#~ msgid "XSLT Stylesheet"
-#~ msgstr "XSLT ئۇسلۇب جەدۋىلى"
-
-#~ msgid "The location of the XSLT stylesheet"
-#~ msgstr "XSLT ئۇسلۇب جەدۋىلىنىڭ ئورنى"
-
-#~ msgid "_Print..."
-#~ msgstr "باس(_P)…"
-
-#~ msgid "Yelp URI"
-#~ msgstr "Yelp URI"
-
-#~ msgid "A YelpUri with the current location"
-#~ msgstr "YelpUri نىڭ نۆۋەتتىكى يەرلىك ئورنى"
-
-#~ msgid "The loading state of the view"
-#~ msgstr "كۆرۈنۈشنىڭ يۈكلەش ھالىتى"
-
-#~ msgid "Page ID"
-#~ msgstr "بەت نومۇرى"
-
-#~ msgid "The ID of the root page of the page being viewed"
-#~ msgstr "كۆرۈۋاتقان بەتنىڭ غول بەت نومۇرى"
-
-#~ msgid "Root Title"
-#~ msgstr "غول ماۋزۇ"
-
-#~ msgid "The title of the root page of the page being viewed"
-#~ msgstr "كۆرۈۋاتقان بەتنىڭ غول بەت ماۋزۇسى"
-
-#~ msgid "Page Title"
-#~ msgstr "بەت ماۋزۇسى"
-
-#~ msgid "The title of the page being viewed"
-#~ msgstr "كۆرۈۋاتقان بەتنىڭ بەت ماۋزۇسى"
-
-#~ msgid "Page Description"
-#~ msgstr "بەت چۈشەندۈرۈشى"
-
-#~ msgid "The description of the page being viewed"
-#~ msgstr "كۆرۈۋاتقان بەتنىڭ بەت چۈشەندۈرۈشى"
-
-#~ msgid "Page Icon"
-#~ msgstr "بەت سىنبەلگىسى"
-
-#~ msgid "The icon of the page being viewed"
-#~ msgstr "كۆرۈۋاتقان بەتنىڭ سىنبەلگىسى"
-
-#~ msgid "See all search results for “%s”"
-#~ msgstr "«%s» نىڭ بارلىق ئىزدەش نەتىجىسى"
-
-#~ msgid "Search for packages containing this document."
-#~ msgstr "بۇ پۈتۈكنى ئۆز ئىچىگە ئالغان بوغچىنى ئىزدەيدۇ."
-
-#~ msgid "Increase the size of the text"
-#~ msgstr "تېكىست چوڭلۇقىنى ئاشۇر"
-
-#~ msgid "Decrease the size of the text"
-#~ msgstr "تېكىستنى كىچىكلىتىدۇ"
-
-#~ msgid "Show Text _Cursor"
-#~ msgstr "تېكىست نۇربەلگىنى كۆرسەت(_C)"
-
-#~ msgid "_Page"
-#~ msgstr "بەت(_P)"
-
-#~ msgid "_View"
-#~ msgstr "كۆرۈنۈش(_V)"
-
-#~ msgid "_Go"
-#~ msgstr "يۆتكەل(_G)"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "خەتكۈچلەر(_B)"
-
-#~ msgid "_Close"
-#~ msgstr "ياپ(_C)"
-
-#~ msgid "_All Documents"
-#~ msgstr "بارلىق پۈتۈكلەر(_A)"
-
-#~ msgid "_Add Bookmark"
-#~ msgstr "خەتكۈش قوش(_A)"
-
-#~ msgid "Find in Page..."
-#~ msgstr "بەتتىن ئىزدە…"
-
-#~ msgid "Open Location"
-#~ msgstr "ئورۇننى ئاچ"
-
-#~ msgid "Application"
-#~ msgstr "پروگرامما"
-
-#~ msgid "A YelpApplication instance that controls this window"
-#~ msgstr "YelpApplication مىسالى بۇ كۆزنەكنى كونترول قىلىدۇ"
-
-#~ msgid "Read Link _Later"
-#~ msgstr "ئۇلانمىنى سەل تۇرۇپ ئوقۇش(_L)"
-
-#~ msgid "Read Later"
-#~ msgstr "سەل تۇرۇپ ئوقۇ"
-
-#~ msgid "%i match"
-#~ msgid_plural "%i matches"
-#~ msgstr[0] "ماس كەلگىنى %i"
-
-#~ msgid "No matches"
-#~ msgstr "ماس كەلگىنى يوق"
-
-#~ msgid "GNU Info Pages"
-#~ msgstr "GNU ئۇچۇر بەتلىرى"
-
-#~ msgid "Traditional command line help (info)"
-#~ msgstr "ئەنئەنىۋى بۇيرۇق قۇرى ياردىمى (ئۇچۇرى)"
-
-#~ msgid "Applications"
-#~ msgstr "پروگراممىلار"
-
-#~ msgid "BLT Functions"
-#~ msgstr "BTL فۇنكسىيىلىرى"
-
-#~ msgid "Configuration Files"
-#~ msgstr "سەپلىمە ھۆججەتلەر"
-
-#~ msgid "Curses Functions"
-#~ msgstr "Curses فۇنكسىيىسى"
-
-#~ msgid "Development"
-#~ msgstr "ئىجادىيەت"
-
-#~ msgid "FORTRAN Functions"
-#~ msgstr "FORTRAN فۇنكسىيىلىرى"
-
-#~ msgid "Games"
-#~ msgstr "ئويۇنلار"
-
-#~ msgid "Hardware Devices"
-#~ msgstr "قاتتىق دېتال ئۈسكۈنىلىرى"
-
-#~ msgid "Kernel Routines"
-#~ msgstr "Kernel فۇنكسىيىلىرى"
-
-#~ msgid "Network Audio Sound Functions"
-#~ msgstr "تور ئۈن-ئاۋاز فۇنكسىيىسى"
-
-#~ msgid "OpenSSL Applications"
-#~ msgstr "OpenSSL پروگراممىلىرى"
-
-#~ msgid "OpenSSL Configuration"
-#~ msgstr "OpenSSL سەپلىمىسى"
-
-#~ msgid "OpenSSL Functions"
-#~ msgstr "OpenSSL  فۇنكسىيىلىرى"
-
-#~ msgid "OpenSSL Overviews"
-#~ msgstr "OpenSSL نىڭ قىسقىچە تونۇشتۇرۇلۇشى"
-
-#~ msgid "Overviews"
-#~ msgstr "قىسقىچە تونۇشتۇرۇش"
-
-#~ msgid "POSIX Functions"
-#~ msgstr "POSIX  نىڭ فۇنكسىيىلىرى"
-
-#~ msgid "POSIX Headers"
-#~ msgstr "POSIX بېشى"
-
-#~ msgid "Perl Functions"
-#~ msgstr "Perl فۇنكسىيىلىرى"
-
-#~ msgid "Qt Functions"
-#~ msgstr "Qt فۇنكسىيىلىرى"
-
-#~ msgid "Readline Functions"
-#~ msgstr "Readline فۇنكسىيىسى"
-
-#~ msgid "Section 0p"
-#~ msgstr "0p بۆلەك"
-
-#~ msgid "Section 1m"
-#~ msgstr "1m بۆلەك"
-
-#~ msgid "Section 1ssl"
-#~ msgstr "1ssl بۆلەك"
-
-#~ msgid "Section 1x"
-#~ msgstr "1x بۆلەك"
-
-#~ msgid "Section 2"
-#~ msgstr "2-بۆلەك"
-
-#~ msgid "Section 3blt"
-#~ msgstr "3blt بۆلەك"
-
-#~ msgid "Section 3f"
-#~ msgstr "3f بۆلەك"
-
-#~ msgid "Section 3nas"
-#~ msgstr "3nas بۆلەك"
-
-#~ msgid "Section 3p"
-#~ msgstr "3p بۆلەك"
-
-#~ msgid "Section 3qt"
-#~ msgstr "3qt بۆلەك"
-
-#~ msgid "Section 3readline"
-#~ msgstr "3readline بۆلەك"
-
-#~ msgid "Section 3ssl"
-#~ msgstr "3ssl بۆلەك"
-
-#~ msgid "Section 3tiff"
-#~ msgstr "3tiff بۆلەك"
-
-#~ msgid "Section 4"
-#~ msgstr "4-بۆلەك"
-
-#~ msgid "Section 4x"
-#~ msgstr "4x بۆلەك"
-
-#~ msgid "Section 5"
-#~ msgstr "5-بۆلەك"
-
-#~ msgid "Section 5ssl"
-#~ msgstr "5ssl بۆلەك"
-
-#~ msgid "Section 5x"
-#~ msgstr "5x بۆلەك"
-
-#~ msgid "Section 6"
-#~ msgstr "6 بۆلەك"
-
-#~ msgid "Section 6x"
-#~ msgstr "6x بۆلەك"
-
-#~ msgid "Section 7ssl"
-#~ msgstr "7ssl بۆلەك"
-
-#~ msgid "Section 7x"
-#~ msgstr "7x بۆلەك"
-
-#~ msgid "Section 9"
-#~ msgstr "9 بۆلەك"
-
-#~ msgid "Sections 1, 1p, 1g and 1t"
-#~ msgstr "1، 1p، 1g ۋە 1t بۆلەك"
-
-#~ msgid "Sections 3, 3o, and 3t"
-#~ msgstr "3، 3o ۋە 3t بۆلەك"
-
-#~ msgid "Sections 3form and 3menu"
-#~ msgstr "3form ۋە 3menu بۆلەك"
-
-#~ msgid "Sections 3ncurses and 3curses"
-#~ msgstr "3ncurses ۋە 3curses بۆلەك"
-
-#~ msgid "Sections 3pm and 3perl"
-#~ msgstr "3pm ۋە 3perl بۆلەك"
-
-#~ msgid "Sections 3x and 3X11"
-#~ msgstr "3x ۋە 3X11 بۆلەك"
-
-#~ msgid "Sections 7 and 7gcc"
-#~ msgstr "7 ۋە 7gcc بۆلەك"
-
-#~ msgid "Sections 8 and 8l"
-#~ msgstr "8 ۋە 8l بۆلەك"
-
-#~ msgid "System Administration"
-#~ msgstr "سىستېما باشقۇرۇش"
-
-#~ msgid "System Calls"
-#~ msgstr "سىستېما چاقىرىش"
-
-#~ msgid "System V Form/Menu Functions"
-#~ msgstr "System V كۆزنەك/تىزىملىك فۇنكسىيىسى"
-
-#~ msgid "TIFF Functions"
-#~ msgstr "TIFF فۇنكسىيىلىرى"
-
-#~ msgid "Termcap Applications"
-#~ msgstr "Termcap پروگراممىلىرى"
-
-#~ msgid "Traditional command line help (man)"
-#~ msgstr "ئەنئەنىۋى بۇيرۇق قۇرى ياردىمى (man)"
-
-#~ msgid "X11 Applications"
-#~ msgstr "X11  پروگراممىلىرى"
-
-#~ msgid "X11 Configuration"
-#~ msgstr "X11 سەپلىمىسى"
-
-#~ msgid "X11 Devices"
-#~ msgstr "X11 ئۈسكۈنىلىرى"
-
-#~ msgid "X11 Functions"
-#~ msgstr "X11 فۇنكسىيىلىرى"
-
-#~ msgid "X11 Games"
-#~ msgstr "X11 ئويۇنلىرى"
-
-#~ msgid "X11 Overviews"
-#~ msgstr "X11 نىڭ قىسقىچە چۈشەندۈرۈلۈشى"
-
-#~ msgid "2D Graphics"
-#~ msgstr "2D گرافىكى"
-
-#~ msgid "3D Graphics"
-#~ msgstr "3D گرافىكى"
-
-#~ msgid "Accessibility"
-#~ msgstr "قوشۇمچە ئىقتىدار"
-
-#~ msgid "Action Games"
-#~ msgstr "ھەرىكەتلىك ئويۇن"
-
-#~ msgid "Adventure Games"
-#~ msgstr "تەۋەككۈلچىلىك ئويۇنى"
-
-#~ msgid "Amusement"
-#~ msgstr "كۆڭۈل خۇشلۇقى"
-
-#~ msgid "Applications for viewing and manipulating graphics"
-#~ msgstr "گرافىك كۆرۈش ۋە بىر تەرەپ قىلىشقا ئىشلىتىدىغان پروگرامما"
-
-#~ msgid "Applications related to audio and video"
-#~ msgstr "ئۈن ۋە سىنغا مۇناسىۋەتلىك پروگرامما"
-
-#~ msgid "Applications that teach or aid in learning"
-#~ msgstr "مائارىپ ۋە ئوقۇتۇشتا ياردەمچى پروگرامما"
-
-#~ msgid "Arcade Games"
-#~ msgstr "Arcade ئويۇنى"
-
-#~ msgid "Archiving Tools"
-#~ msgstr "ئارخىپ قورالى"
-
-#~ msgid "Art"
-#~ msgstr "سەنئەت"
-
-#~ msgid "Artificial Intelligence"
-#~ msgstr "سۈنئىي ئىدراك"
-
-#~ msgid "Astronomy"
-#~ msgstr "ئاسترونومىيە"
-
-#~ msgid "Biology"
-#~ msgstr "بىئولوگىيە"
-
-#~ msgid "Blocks Games"
-#~ msgstr "خىش ئويۇنى"
-
-#~ msgid "Board Games"
-#~ msgstr "تاختاي ئويۇنلىرى"
-
-#~ msgid "Building"
-#~ msgstr "قۇرۇلۇش"
-
-#~ msgid "Calculator"
-#~ msgstr "ھېسابلىغۇچ"
-
-#~ msgid "Calendar"
-#~ msgstr "يىلنامە"
-
-#~ msgid "Card Games"
-#~ msgstr "قارتا ئويۇنلىرى"
-
-#~ msgid "Charting Tools"
-#~ msgstr "سىزمىچىلىق قوراللىرى"
-
-#~ msgid "Chat"
-#~ msgstr "پاراڭ"
-
-#~ msgid "Chemistry"
-#~ msgstr "خىمىيە"
-
-#~ msgid "Clocks"
-#~ msgstr "سائەتلەر"
-
-#~ msgid "Compression Tools"
-#~ msgstr "پرېسلاش پروگراممىلىرى"
-
-#~ msgid "Computer Science"
-#~ msgstr "كومپيۇتېر ئىلمى"
-
-#~ msgid "Construction"
-#~ msgstr "قۇرۇلۇش"
-
-#~ msgid "Contact Management"
-#~ msgstr "ئالاقىلەشكۈچىلەرنى باشقۇرۇش"
-
-#~ msgid "Data Visualization"
-#~ msgstr "سانلىق مەلۇمات كۆرۈنۈشچانلىقى"
-
-#~ msgid "Databases"
-#~ msgstr "ساندان"
-
-#~ msgid "Debuggers"
-#~ msgstr "سازلىغۇچلار"
-
-#~ msgid "Desktop Settings"
-#~ msgstr "ئۈستەلئۈستى تەڭشىكى"
-
-#~ msgid "Dialup"
-#~ msgstr "نومۇر بۇراش"
-
-#~ msgid "Dictionaries"
-#~ msgstr "لۇغەتلەر"
-
-#~ msgid "Disc Burning"
-#~ msgstr "دىسكىغا يېزىش"
-
-#~ msgid "Economy"
-#~ msgstr "ئىقتىساد"
-
-#~ msgid "Education"
-#~ msgstr "مائارىپ"
-
-#~ msgid "Electricity"
-#~ msgstr "ئېلېكتر"
-
-#~ msgid "Electronics"
-#~ msgstr "ئېلېكترونىكا"
-
-#~ msgid "Email Tools"
-#~ msgstr "ئېلخەت قوراللىرى"
-
-#~ msgid "Emulator"
-#~ msgstr "تەقلىدلەشتۈرگۈچ"
-
-#~ msgid "Engineering"
-#~ msgstr "ئىنژېنېرلىق ئىلمى"
-
-#~ msgid "File Manager"
-#~ msgstr "ھۆججەت باشقۇرغۇ"
-
-#~ msgid "File Tools"
-#~ msgstr "ھۆججەت قورالى"
-
-#~ msgid "File Transfer"
-#~ msgstr "ھۆججەت يوللاش"
-
-#~ msgid "Filesystem"
-#~ msgstr "ھۆججەت سىستېمىسى"
-
-#~ msgid "Financial Tools"
-#~ msgstr "مالىيە قورالى"
-
-#~ msgid "Flow Charting Tools"
-#~ msgstr "تەرتىپ دىئاگرامما قورالى"
-
-#~ msgid "GNOME Applications"
-#~ msgstr "GNOME  پروگراممىلىرى"
-
-#~ msgid "GTK"
-#~ msgstr "GTK"
-
-#~ msgid "GUI Designers"
-#~ msgstr "ئىشلەتكۈچى كۆرۈنمە يۈز لايىھىلىگۈچى"
-
-#~ msgid "Generic applications for the GNOME environment"
-#~ msgstr "GNOME مۇھىتىدىكى ئادەتتىكى پروگراممىلار"
-
-#~ msgid "Generic applications for the KDE environment"
-#~ msgstr "KDE مۇھىتىدىكى ئادەتتىكى  پروگراممىلار"
-
-#~ msgid "Geography"
-#~ msgstr "جۇغراپىيە"
-
-#~ msgid "Geology"
-#~ msgstr "گېئولوگىيە"
-
-#~ msgid "Geoscience"
-#~ msgstr "يەر شارى ئىلمى"
-
-#~ msgid "Graphics"
-#~ msgstr "گرافىك"
-
-#~ msgid ""
-#~ "Guides and manuals for applications that connect to the outside world"
-#~ msgstr "تورغا باغلىنىدىغان پروگرامما قوللانمىسى ۋە ياردىمى"
-
-#~ msgid "Guides for getting involved in development"
-#~ msgstr "ئىجادىيەتكە قاتنىشىشقا مۇناسىۋەتلىك كۆرسەتمىلەر"
-
-#~ msgid "Ham Radio"
-#~ msgstr "سىمسىز تېلېگراف ھەۋەسكارلار رادىئوسى"
-
-#~ msgid "Hardware Settings"
-#~ msgstr "قاتتىق دېتال تەڭشىكى"
-
-#~ msgid "Have some fun"
-#~ msgstr "خۇشال ئويناڭ"
-
-#~ msgid "History"
-#~ msgstr "تارىخ"
-
-#~ msgid "IDEs"
-#~ msgstr "يۈرۈشلەشتۈرۈلگەن ئىجادىيەت مۇھىتلىرى"
-
-#~ msgid "IRC Clients"
-#~ msgstr "IRC خېرىدارى"
-
-#~ msgid "Image Processing"
-#~ msgstr "سۈرەتچىلىك"
-
-#~ msgid "Instant Messaging"
-#~ msgstr "مۇڭداشقۇ"
-
-#~ msgid "Java"
-#~ msgstr "Java"
-
-#~ msgid "KDE Applications"
-#~ msgstr "KDE پروگراممىلىرى"
-
-#~ msgid "Kids Games"
-#~ msgstr "بالىلار ئويۇنلىرى"
-
-#~ msgid ""
-#~ "Learn more about making your system more accessible for a range of "
-#~ "disabilities"
-#~ msgstr "سىستېمىڭىزنى تېخىمۇ كۆپ مېيىپلەرنىڭ ئىشلىتىشى ئۈچۈن ئىزدىنىپ كۆرۈڭ"
-
-#~ msgid "Licenses"
-#~ msgstr "ئىجازەتنامىلەر"
-
-#~ msgid "Literature"
-#~ msgstr "ئەدەبىيات"
-
-#~ msgid "Logic Games"
-#~ msgstr "لوگىكىلىق ئويۇن"
-
-#~ msgid "Math"
-#~ msgstr "ماتېماتىكا"
-
-#~ msgid "Medical Software"
-#~ msgstr "تېببىي يۇمشاق دېتال"
-
-#~ msgid "Midi"
-#~ msgstr "Midi"
-
-#~ msgid "Miscellaneous Documentation"
-#~ msgstr "باشقا پۈتۈكلەر"
-
-#~ msgid "Mixers"
-#~ msgstr "كىرىشتۈرگۈچىلەر"
-
-#~ msgid "Monitor"
-#~ msgstr "ئېكران"
-
-#~ msgid "Motif"
-#~ msgstr "Motif"
-
-#~ msgid "Music"
-#~ msgstr "نەغمە"
-
-#~ msgid "News"
-#~ msgstr "خەۋەر"
-
-#~ msgid "Numerical Analysis"
-#~ msgstr "سانلىق ئانالىز"
-
-#~ msgid "OCR"
-#~ msgstr "OCR"
-
-#~ msgid "Office Applications"
-#~ msgstr "ئىشخانا پروگراممىلىرى"
-
-#~ msgid "Office applications"
-#~ msgstr "ئىشخانا پروگراممىلىرى"
-
-#~ msgid "Other Documentation"
-#~ msgstr "باشقا پۈتۈكلەر"
-
-#~ msgid "P2P"
-#~ msgstr "P2P"
-
-#~ msgid "PDA Communication"
-#~ msgstr "PDA ئالاقىسى"
-
-#~ msgid "Package Manager"
-#~ msgstr "بوغچا باشقۇرغۇ"
-
-#~ msgid "Parallel Computing"
-#~ msgstr "پاراللېل ھېسابلاش"
-
-#~ msgid "Photography"
-#~ msgstr "سۈرەتچىلىك"
-
-#~ msgid "Physics"
-#~ msgstr "فىزىكا"
-
-#~ msgid "Players"
-#~ msgstr "ئوينىغۇچى"
-
-#~ msgid "Presentation Tools"
-#~ msgstr "دوكلات قوراللىرى"
-
-#~ msgid "Profiling Tools"
-#~ msgstr "سىناش قورالى"
-
-#~ msgid "Project Management Tools"
-#~ msgstr "قۇرۇلۇش باشقۇرۇش قورالى"
-
-#~ msgid "Publishing"
-#~ msgstr "نەشرىياتچىلىق"
-
-#~ msgid "Qt"
-#~ msgstr "Qt"
-
-#~ msgid "Raster Graphics"
-#~ msgstr "گرافىك سىزىش"
-
-#~ msgid "Recorders"
-#~ msgstr "ئۈنئالغۇ"
-
-#~ msgid "Remote Access"
-#~ msgstr "يىراقتىن زىيارەت"
-
-#~ msgid "Revision Control"
-#~ msgstr "نەشر كونترولى"
-
-#~ msgid "Robotics"
-#~ msgstr "ماشىنا ئادەم ئىلمى"
-
-#~ msgid "Role Playing Games"
-#~ msgstr "رول ئېلىش تىپىدىكى ئويۇن"
-
-#~ msgid "Scanning"
-#~ msgstr "تەكشۈرۈۋاتىدۇ"
-
-#~ msgid "Science"
-#~ msgstr "ئىلىم"
-
-#~ msgid "Security"
-#~ msgstr "بىخەتەرلىك"
-
-#~ msgid "Sequencers"
-#~ msgstr "تەرتىپلىگۈچ"
-
-#~ msgid "Settings"
-#~ msgstr "تەڭشەكلەر"
-
-#~ msgid ""
-#~ "Settings users can manipulate to make their environment more pleasant"
-#~ msgstr ""
-#~ "ئىشلەتكۈچىلەر بۇ تەڭشەكلەرنى ئۆزگەرتىپ مەشغۇلات مۇھىتىنى تېخىمۇ راھەت "
-#~ "قىلالايدۇ"
-
-#~ msgid "Simulation Games"
-#~ msgstr "تەقلىدلەشتۈرگۈچ ئويۇنى"
-
-#~ msgid "Sound"
-#~ msgstr "ئاۋاز"
-
-#~ msgid "Sound &amp; Video Editing"
-#~ msgstr "ئۈن &amp; سىن تەھرىر"
-
-#~ msgid "Sports"
-#~ msgstr "تەنتەربىيە"
-
-#~ msgid "Sports Games"
-#~ msgstr "تەنتەربىيە ئويۇنلىرى"
-
-#~ msgid "Spreadsheet Tools"
-#~ msgstr "ئېلېكترونلۇق جەدۋەل قورالى"
-
-#~ msgid "Strategy Games"
-#~ msgstr "تەدبىر ئويۇنى"
-
-#~ msgid "System"
-#~ msgstr "سىستېما"
-
-#~ msgid "TV"
-#~ msgstr "تېلېۋىزور"
-
-#~ msgid "Telephony"
-#~ msgstr "تېلېفون ئىلمى"
-
-#~ msgid "Telephony Tools"
-#~ msgstr "تېلېفونشۇناسلىق قورالى"
-
-#~ msgid "Terminal Emulator"
-#~ msgstr "تېرمىنال تەقلىدلەشتۈرگۈچ"
-
-#~ msgid "Text Editors"
-#~ msgstr "تېكىست تەھرىرلىگۈچلەر"
-
-#~ msgid "Text Tools"
-#~ msgstr "تېكىست قوراللىرى"
-
-#~ msgid "Tools to help you manage your computer"
-#~ msgstr "كومپيۇتېر باشقۇرۇشقا ياردەمچى پروگراممىلار"
-
-#~ msgid "Translation Tools"
-#~ msgstr "تەرجىمە قوراللىرى"
-
-#~ msgid "Tuners"
-#~ msgstr "سازلىغۇچ"
-
-#~ msgid "Utilities"
-#~ msgstr "قوراللار"
-
-#~ msgid "Utilities to help you get work done"
-#~ msgstr "خىزمىتىڭىزنى تاماملاشقا ياردەم بېرىدىغان ئەمەلىي قوراللار"
-
-#~ msgid "Vector Graphics"
-#~ msgstr "ۋېكتورلۇق گرافىك"
-
-#~ msgid "Video"
-#~ msgstr "سىن"
-
-#~ msgid "Video Conference"
-#~ msgstr "سىن يىغىنى"
-
-#~ msgid "Viewer"
-#~ msgstr "كۆرگۈچ"
-
-#~ msgid "Web Browser"
-#~ msgstr "توركۆرگۈ"
-
-#~ msgid "Web Development"
-#~ msgstr "Web ئىجادىيىتى"
-
-#~ msgid "Welcome to the GNOME Help Browser"
-#~ msgstr "GNOME ياردەم كۆرگۈگە مەرھابا"
-
-#~ msgid "Word Processors"
-#~ msgstr "پۈتۈكچىلىك"
-
-#~ msgid "_Edit Bookmarks"
-#~ msgstr "خەتكۈش تەھرىر(_E)"
-
-#~ msgid "Bookmarks for %s"
-#~ msgstr "%s نىڭ خەتكۈچلىرى"
-
-#~ msgid "_Open Bookmark"
-#~ msgstr "خەتكۈش ئاچ(_O)"
-
-#~ msgid "Open Bookmark in New _Window"
-#~ msgstr "خەتكۈشنى يېڭى كۆزنەكتە ئاچ(_W)"
-
-#~ msgid ""
-#~ "The file ‘%s could not be parsed because it is not a well-formed man page."
-#~ msgstr ""
-#~ "ھۆججەت «%s» قۇرۇلمىسى نورمال قوللانما بېتى(man page) بولمىغاچقا تەھلىل "
-#~ "قىلغىلى بولمىدى."
-
-#~ msgid "Re_name"
-#~ msgstr "ئاتىنى ئۆزگەرت(_N)"
-
-#~ msgid "_Bookmarks:"
-#~ msgstr "خەتكۈش(_B):"
-
-#~ msgid "_Title:"
-#~ msgstr "ماۋزۇ (_T):"
-
-#~ msgid "_Location:"
-#~ msgstr "ئورنى(_L):"
-
-#~ msgid "Fonts"
-#~ msgstr "خەت نۇسخا"
-
-#~ msgid "Preferences"
-#~ msgstr "مايىللىق"
-
-#~ msgid "_Browse with caret"
-#~ msgstr "نۇر بەلگىسى بىلەن كۆر(_B)"
-
-#~ msgid "_Fixed width:"
-#~ msgstr "(_F) مۇقىم كەڭلىك"
-
-#~ msgid "_Use system fonts"
-#~ msgstr "سىستېما خەت نۇسخىلىرىنى ئىشلەت(_U)"
-
-#~ msgid "_Variable width:"
-#~ msgstr "ئۆزگىرىشچان كەڭلىك(_V):"
-
-#~ msgid "Font for fixed text"
-#~ msgstr "ئوخشاش كەڭلىكتىكى تېكىست خەت نۇسخىسى"
-
-#~ msgid "Font for text"
-#~ msgstr "تېكىست خەت نۇسخىسى"
-
-#~ msgid "Font for text with fixed width."
-#~ msgstr "ئوخشاش كەڭلىكتىكى تېكىست خەت نۇسخىسى."
-
-#~ msgid "Font for text with variable width."
-#~ msgstr "ئۆزگىرىشچان كەڭلىكتىكى تېكىست خەت نۇسخىسى."
-
-#~ msgid "Use a keyboard-controllable caret when viewing pages."
-#~ msgstr ""
-#~ "بەتنى كۆرۈۋاتقاندا كۇنۇپكا تاختىسىدىن كونترول قىلىنىدىغان نۇر بەلگىسى "
-#~ "ئىشلىتىش"
-
-#~ msgid "Use caret"
-#~ msgstr "نۇر بەلگىسى ئىشلەت"
-
-#~ msgid "Use system fonts"
-#~ msgstr "سىستېما خەت نۇسخىسى ئىشلەت"
-
-#~ msgid "Use the default fonts set for the system."
-#~ msgstr "سىستېمىغا كۆڭۈلدىكى خەت نۇسخىسى قۇرۇلمىسىنى ئىشلەت"
-
-#~ msgid "File is not a valid .desktop file"
-#~ msgstr "ھۆججەت ئىناۋەتلىك .desktop ھۆججىتى ئەمەس."
-
-#~ msgid "Unrecognized desktop file Version '%s'"
-#~ msgstr "ئۈستەل يۈزى ھۆججەت نەشرى '%s' ئىناۋەتسىز"
-
-#~ msgid "Starting %s"
-#~ msgstr "%s قوزغىلىۋاتىدۇ"
-
-#~ msgid "Application does not accept documents on command line"
-#~ msgstr "پروگرامما بۇيرۇق قۇرىدا پۈتۈكلەرنى قوبۇل قىلمايدۇ"
-
-#~ msgid "Unrecognized launch option: %d"
-#~ msgstr "تونۇمايدىغان ئىجرا تاللانمىسى: %d"
-
-#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-#~ msgstr "پۈتۈك URI نى 'Type=Link' ئۈستەلئۈستى تۈرىگە يوللىيالمىدى."
-
-#~ msgid "Not a launchable item"
-#~ msgstr "ئىجراچان تۈر ئەمەس"
-
-#~ msgid "Disable connection to session manager"
-#~ msgstr "ئەڭگىمە باشقۇرغۇغا باغلىنىشنى چەكلە"
-
-#~ msgid "Specify file containing saved configuration"
-#~ msgstr "بەلگىلەنگەن سەپلىمە ساقلانغان ھۆججەت"
-
-#~ msgid "FILE"
-#~ msgstr "ھۆججەت"
-
-#~ msgid "Specify session management ID"
-#~ msgstr "ئەڭگىمە باشقۇرغۇ ID سېنى بەلگىلە"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "Session management options:"
-#~ msgstr "ئەڭگىمە باشقۇرغۇ تاللانمىلىرى:"
-
-#~ msgid "Show session management options"
-#~ msgstr "ئەڭگىمە باشقۇرغۇ تاللانمىلىرى كۆرسەت"
-
-#~ msgid "A bookmark titled %s already exists for this page."
-#~ msgstr "بۇ بەتتە %s ماۋزۇلۇق خەتكۈش بار."
-
-#~ msgid "A bookmark titled <b>%s</b> already exists for this page."
-#~ msgstr "بۇ بەتنىڭ <b>%s</b>  ماۋزۇلۇق تور بەت ئادرېسى مەۋجۇت"
-
-#~ msgid "Help Topics"
-#~ msgstr "ياردەم تېمىلىرى"
-
-#~ msgid "File not found"
-#~ msgstr "ھۆججەت تېپىلمىدى"
-
-#~ msgid "Could not parse file"
-#~ msgstr "ھۆججەتنى يېشەلمىدى"
-
-#~ msgid "Could Not Read File"
-#~ msgstr "ھۆججەت ئوقۇيالمىدى"
-
-#~ msgid "No information is available about this error."
-#~ msgstr "بۇ خاتالىق ھەققىدە ئۇچۇر يوق"
-
-#~ msgid ""
-#~ "The file ‘%s could not be read and decoded. The file may be compressed in "
-#~ "an unsupported format."
-#~ msgstr ""
-#~ "‘%s ھۆججەتنى ئوقۇپ كودىنى يېشەلمىدى. ھۆججەت قوللىمايدىغان فورماتتا "
-#~ "پرېسلانغان بولۇشى مۇمكىن."
-
-#~ msgid "Use a private session"
-#~ msgstr "شەخسىي ئەڭگىمە ئىشلەت"
-
-#~ msgid "Define which cache directory to use"
-#~ msgstr "قايسى غەملەك مۇندەرىجە ئىشلىتىشنى بەلگىلەش"
-
-#~ msgid "Directory not found"
-#~ msgstr "مۇندەرىجە تېپىلمىدى"
-
-#~ msgid "Preparing to print"
-#~ msgstr "بېسىشقا تەييارلىنىۋاتىدۇ"
-
-#~ msgid "Printing is not supported on this printer"
-#~ msgstr "بۇ پرىنتېردا بېسىشنى قوللىمايدۇ"
-
-#~ msgid "Printer %s does not support postscript printing."
-#~ msgstr "%s پرىنتېر postscript تا بېسىشنى قوللىمايدۇ"
-
-#~ msgid "Waiting to print"
-#~ msgstr "بېسىشنى كۈتۈۋاتىدۇ"
-
-#~ msgid "An error occurred while printing"
-#~ msgstr "بېسىۋاتقاندا خاتالىق كۆرۈلدى"
-
-#~ msgid "It was not possible to print your document: %s"
-#~ msgstr "پۈتۈكىڭىزنى باسالمىدى: %s"
-
-#~ msgid "No results for \"%s\""
-#~ msgstr "\"%s\" نەتىجە يوق"
-
-#~ msgid ""
-#~ "Try using different words to describe the problem you're having or the "
-#~ "topic you want help with."
-#~ msgstr ""
-#~ "ئوخشىمىغان مەزمۇندا سىز يولۇققان مەسىلىنى ياكى سىز ئېرىشمەكچى بولغان "
-#~ "ياردەم باش تېمىسىنى بايان قىلىڭ."
-
-#~ msgid ""
-#~ "a:about:an:are:as:at:be:broke:broken:by:can:can't:dialog:dialogue:do:"
-#~ "doesn't:doesnt:don't:dont:explain:for:from:get:gets:got:make:makes:not:"
-#~ "when:has:have:help:how:i:in:is:it:item:me:my:of:on:or:tell:that:the:thing:"
-#~ "this:to:what:where:who:will:with:won't:wont:why:work:working:works"
-#~ msgstr "ھەققىدە: ماق: مەك:ئۈچۈن:نىڭ:دا:دە:تا:تە:"
-
-#~ msgid "re"
-#~ msgstr "جاۋاب"
-
-#~ msgid "ers:er:ing:es:s:'s"
-#~ msgstr "نىڭ: دار:پەز:غۇ:چى"
-
-#~ msgid "No Comment"
-#~ msgstr "باھا يوق"
-
-#~ msgid "Search could not be processed"
-#~ msgstr "ئىزدىيەلمىدى"
-
-#~ msgid "The requested search could not be processed."
-#~ msgstr "ئىزدەش ئىلتىماسىنى ئىجرا قىلالمىدى."
-
-#~ msgid "Cannot process the search"
-#~ msgstr "بۇ ئىزدەشنى ئىجرا قىلالمىدى"
-
-#~ msgid "The search processor returned invalid results"
-#~ msgstr "ئىزدەش جەريانى ئىشلەتكىلى بولمايدىغان نەتىجە قايتۇردى"
-
-#~ msgid "The page %s was not found in the TOC."
-#~ msgstr "TOC دا %s بەتنى تاپالمىدى."
-
-#~ msgid "The requested page was not found in the TOC."
-#~ msgstr "TOC دا ئىلتىماس قىلغان بەتنى تاپالمىدى."
-
-#~ msgid ""
-#~ "The TOC file could not be parsed because it is not a well-formed XML "
-#~ "document."
-#~ msgstr ""
-#~ "TOC ھۆججىتىنى تەھلىل قىلالمىدى، بۇ ئۆلچەملىك فورماتتىكى XML پۈتۈكى ئەمەس."
-
-#~ msgid "Broken Transformation"
-#~ msgstr "بۇزۇلغان ئايلاندۇرۇش"
-
-#~ msgid ""
-#~ "An unknown error occurred while attempting to transform the document."
-#~ msgstr "ھۆججەت ئايلاندۇرغاندا نامەلۇم خاتالىق كۆرۈلدى."
-
-#~ msgid "_File"
-#~ msgstr "ھۆججەت(_F)"
-
-#~ msgid "_Edit"
-#~ msgstr "تەھرىر(_E)"
-
-#~ msgid "_Help"
-#~ msgstr "ياردەم(_H)"
-
-#~ msgid "Print This Document ..."
-#~ msgstr "بۇ پۈتۈكنى باس…"
-
-#~ msgid "Open _Location"
-#~ msgstr "ئادرېس ئاچ(_L)"
-
-#~ msgid "_Close Window"
-#~ msgstr "كۆزنەك ياپ(_C)"
-
-#~ msgid "_Select All"
-#~ msgstr "ھەممىنى تاللا(_S)"
-
-#~ msgid "_Find..."
-#~ msgstr "ئىزدە(_F)…"
-
-#~ msgid "Find Pre_vious"
-#~ msgstr "ئالدىنقىنى ئىزدە(_V)"
-
-#~ msgid "Find previous occurrence of the word or phrase"
-#~ msgstr "ئالدىن قېتىم كۆرۈلگەن سۆز ياكى ئاتالغۇنى ئىزدە"
-
-#~ msgid "Find Ne_xt"
-#~ msgstr "كېيىنكىنى ئىزدە(_X)"
-
-#~ msgid "Find next occurrence of the word or phrase"
-#~ msgstr "كېيىنكى قېتىم كۆرۈلىدىغان سۆز ياكى ئاتالغۇنى ئىزدە"
-
-#~ msgid "_Preferences"
-#~ msgstr "مايىللىق(_P)"
-
-#~ msgid "_Reload"
-#~ msgstr "قايتا يۈكلە(_R)"
-
-#~ msgid "Show previous page in history"
-#~ msgstr "تارىختىكى ئالدىنقى بەتنى كۆرسەت"
-
-#~ msgid "Show next page in history"
-#~ msgstr "تارىختىكى كېيىنكى بەتنى كۆرسەت"
-
-#~ msgid "_Help Topics"
-#~ msgstr "ياردەم تېمىلىرى(_H)"
-
-#~ msgid "Go to the listing of help topics"
-#~ msgstr "ياردەم تېمىلىرىنىڭ تىزىملىكىگە يۆتكەل"
-
-#~ msgid "_Contents"
-#~ msgstr "مەزمۇنلار(_C)"
-
-#~ msgid "_Copy Link Address"
-#~ msgstr "ئۇلانما ئادرېس كۆچۈر(_C)"
-
-#~ msgid "Help On this application"
-#~ msgstr "بۇ پروگرامما ھەققىدىكى ياردەم"
-
-#~ msgid "_About"
-#~ msgstr "ھەققىدە(_A)"
-
-#~ msgid "Copy _Email Address"
-#~ msgstr "ئېلخەت ئادرېسى كۆچۈر(_E)"
-
-#~ msgid "Unknown Page"
-#~ msgstr "نامەلۇم بەت"
-
-#~ msgid "The requested URI \"%s\" is invalid"
-#~ msgstr "ئىلتىماس قىلغان URI \"%s\" ئىناۋەتسىز"
-
-#~ msgid "Unable to load page"
-#~ msgstr "بەتنى يۈكلىيەلمىدى"
-
-#~ msgid "Cannot create search component"
-#~ msgstr "ئىزدەش بۆلىكى قۇرالمىدى"
-
-#~ msgid "Find _Previous"
-#~ msgstr "ئالدىنقىنى ئىزدە(_P)"
-
-#~ msgid "Find _Next"
-#~ msgstr "كېيىنكىنى ئىزدە(_N)"
-
-#~ msgid "Phrase not found"
-#~ msgstr "ئاتالغۇنى تاپالمىدى"
-
-#~ msgid ""
-#~ "The file ‘%s could not be read.  This file might be missing, or you might "
-#~ "not have permissions to read it."
-#~ msgstr ""
-#~ "ھۆججەت %s نى ئوقۇغىلى بولمىدى. يا ھۆججەت يوقالغان يا سىزنىڭ ئوقۇش "
-#~ "رۇخسىتىڭىز يوق"
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "GNOME Uighur Translation Project <gnome-uighur@yahoogroups.comAbduxukur "
-#~ "Abdurixit <abduxukur.abdurixit@t-systems.ch>, 2005\n"
-#~ "\n"
-#~ "Launchpad Contributions:\n"
-#~ "  Burkut https://launchpad.net/~burkut\n"
-#~ "  Gheyret T.Kenji https://launchpad.net/~gheyretkenji\n"
-#~ "  Sebastien Bacher https://launchpad.net/~seb128"
-
-#~ msgid "A documentation browser and viewer for the Gnome Desktop."
-#~ msgstr "Gnome Desktop نىڭ پۈتۈك كۆرگۈچىسى"
-
-#~ msgid "Can't find the answer?"
-#~ msgstr "جاۋاب تېپىلمىدىمۇ؟"
-
-#~ msgid "Canonical, its partners and approved companies provide"
-#~ msgstr ""
-#~ "Canonical، ئۇنىڭ ھەمكارلاشقان شېرىكى ۋە ئىجازەت بېرىلگەن شىركىتى "
-#~ "تەمىنلىگەن"
-
-#~ msgid "Common Questions"
-#~ msgstr "ئادەتتىكى سوئاللار"
-
-#~ msgid "Connecting to the internet"
-#~ msgstr "ئىنتېرنېتقا باغلىنىۋاتىدۇ"
-
-#~ msgid "Enabling visual effects"
-#~ msgstr "كۆرۈنۈش ئۈنۈمىنى ئاكتىپلا"
-
-#~ msgid "General Guides"
-#~ msgstr "ئادەتتىكى كۆرسەتمىلەر"
-
-#~ msgid "How to Contribute"
-#~ msgstr "قانداق ھەسسە قوشىدۇ"
-
-#~ msgid "Importing photos"
-#~ msgstr "رەسىم ئەكىرىۋاتىدۇ"
-
-#~ msgid "Keeping your computer updated"
-#~ msgstr "كومپيۇتېر سىستېمىڭىزنى يېڭىلاپ تۇرۇڭ"
-
-#~ msgid "Playing music"
-#~ msgstr "نەغمە چال"
-
-#~ msgid "The Ubuntu community provides extensive"
-#~ msgstr "Ubuntu جامائىتى كېڭەيتىلمە تەمىنلىگەن"
-
-#~ msgid ""
-#~ "These guides used to be on the front page. Put here for safe keeping in "
-#~ "their own new section."
-#~ msgstr ""
-#~ "بۇ يېتەكچى باشلاش بېتى قىلىپ ئىشلىتىلىدۇ. ئۇلار ئۆزىنىڭ يېڭى بۆلىكىدە "
-#~ "بىخەتەرلىكنى ساقلايدۇ."
-
-#~ msgid "To find help, insert a keyword in the search bar"
-#~ msgstr "ياردەم ئىزدىسىڭىز، ئىزدەش بالدىقىغا ھالقىلىق سۆز كىرگۈزۈڭ"
-
-#~ msgid "Topics"
-#~ msgstr "تېما"
-
-#~ msgid "Ubuntu Help Center"
-#~ msgstr "Ubuntu ياردەم مەركىزى"
-
-#~ msgid "Ubuntu has an open and vibrant community of contributors. Find out"
-#~ msgstr "Ubuntu نىڭ ئوچۇق ۋە ھاياتىي كۈچكە تولغان جامائىتى بار. چۈشىنىڭ"
-
-#~ msgid "Welcome to the Ubuntu Help Center"
-#~ msgstr "Ubuntu ياردەم مەركىزىگە مەرھابا"
-
-#~ msgid "commercial technical support"
-#~ msgstr "تاۋارلاشقان تېخنىكىلىق ياردەملەر"
-
-#~ msgid "free support"
-#~ msgstr "ھەقسىز ياردەملەر"
-
-#~ msgid "how to contribute"
-#~ msgstr "قانداق تۆھپە قوشىدۇ"
-
-#~ msgid "http://www.ubuntu.com/community/participate"
-#~ msgstr "http://www.ubuntu.com/community/participate"
-
-#~ msgid "http://www.ubuntu.com/support/free"
-#~ msgstr "http://www.ubuntu.com/support/free"
-
-#~ msgid "http://www.ubuntu.com/support/paid"
-#~ msgstr "http://www.ubuntu.com/support/paid"
-
-#~ msgid "the Ubuntu Help Pages"
-#~ msgstr "Ubuntu ياردەم بېتى"
+msgstr ""

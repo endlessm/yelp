@@ -1,92 +1,76 @@
-# translation of po_yelp-xsl-km.po to Khmer
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
-# Khoem Sokhem <khoemsokhem@khmeros.info>, 2011.
-# Khmer translation for yelp-xsl
-# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
-# This file is distributed under the same license as the yelp-xsl package.
-# sutha <sutha@khmeros.info>, 2012.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2011
+# sutha <sutha@khmeros.info>, 2012
 msgid ""
 msgstr ""
-"Project-Id-Version: po_yelp-xsl-km\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2012-09-21 14:45+0700\n"
-"Last-Translator: sutha <sutha@khmeros.info>\n"
-"Language-Team: Khmer <support@khmeros>\n"
-"Language: km\n"
+"PO-Revision-Date: 2019-10-04 14:18+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Khmer (http://www.transifex.com/endless-os/yelp/language/km/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: km\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: WordForge 0.8 RC1\n"
-"X-Language: km-KH\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "កំពុង​ផ្ទុក​ស្ថានភាព"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -98,9 +82,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "ដំឡើង <string/>"
@@ -121,8 +103,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -166,17 +148,14 @@ msgstr "មិន​មាន​ឯកសារ ‘%s’ នោះ​ទេ ។"
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"មិន​អាច​ញែក​ឯកសារ​ ‘%s’ នេះ​បាន​ទេ ពីព្រោះ​វា​មិន​មែន​ជា​ឯកសារ​ XML ដែល​មាន​ទ្រង់ទ្រាយ​ត្រឹមត្រូវ​ទេ ។"
+msgstr "មិន​អាច​ញែក​ឯកសារ​ ‘%s’ នេះ​បាន​ទេ ពីព្រោះ​វា​មិន​មែន​ជា​ឯកសារ​ XML ដែល​មាន​ទ្រង់ទ្រាយ​ត្រឹមត្រូវ​ទេ ។"
 
 #: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"មិន​អាច​ញែក​ឯកសារ ‘%s’ បាន​ទេ ពីព្រោះ​ឯកសារ​ដែល​បាន​រួមបញ្ចូល​មួយ​ ឬ​ច្រើន​ គឺជា​ឯកសារ​ XML ដែល​មាន​"
-"ទ្រង់ទ្រាយ​មិន​ត្រឹមត្រូវ ។"
+msgstr "មិន​អាច​ញែក​ឯកសារ ‘%s’ បាន​ទេ ពីព្រោះ​ឯកសារ​ដែល​បាន​រួមបញ្ចូល​មួយ​ ឬ​ច្រើន​ គឺជា​ឯកសារ​ XML ដែល​មាន​ទ្រង់ទ្រាយ​មិន​ត្រឹមត្រូវ ។"
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -260,9 +239,8 @@ msgid "_Install Packages"
 msgstr "ដំឡើង​កញ្ចប់"
 
 #: libyelp/yelp-view.c:282
-#, fuzzy
 msgid "Save Code _Block As…"
-msgstr "រក្សាទុក​ប្លុក​កូដ​ជា..."
+msgstr ""
 
 #: libyelp/yelp-view.c:297
 msgid "_Copy Text"
@@ -283,9 +261,8 @@ msgid "The URI ‘%s’ could not be parsed."
 msgstr "មិន​អាច​ញែក URI ‘%s’ បាន​ទេ ។"
 
 #: libyelp/yelp-view.c:825
-#, fuzzy
 msgid "Unknown Error."
-msgstr "មិន​ស្គាល់​កំហុស"
+msgstr ""
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -305,24 +282,20 @@ msgid "Send email to %s"
 msgstr "ផ្ញើ​អ៊ីមែល​ទៅកាន់ %s"
 
 #: libyelp/yelp-view.c:1525
-#, fuzzy
 msgid "_Save Image As…"
-msgstr "រក្សាទុក​រូបភាព​ជា..."
+msgstr ""
 
 #: libyelp/yelp-view.c:1526
-#, fuzzy
 msgid "_Save Video As…"
-msgstr "រក្សាទុក​វីដេអូ​ជា..."
+msgstr ""
 
 #: libyelp/yelp-view.c:1534
-#, fuzzy
 msgid "S_end Image To…"
-msgstr "ផ្ញើ​រូបភាព​ទៅកាន់..."
+msgstr ""
 
 #: libyelp/yelp-view.c:1535
-#, fuzzy
 msgid "S_end Video To…"
-msgstr "ផ្ញើ​វីដេអូ​ទៅកាន់..."
+msgstr ""
 
 #: libyelp/yelp-view.c:1876
 #, c-format
@@ -359,57 +332,48 @@ msgid "Help"
 msgstr "ជំនួយ"
 
 #: src/yelp-window.c:348
-#, fuzzy
 msgid "Back"
-msgstr "ថយ​ក្រោយ"
+msgstr ""
 
 #: src/yelp-window.c:355
-#, fuzzy
 msgid "Forward"
-msgstr "ទៅ​មុខ"
+msgstr ""
 
 #: src/yelp-window.c:366
 msgid "Menu"
 msgstr ""
 
 #: src/yelp-window.c:371
-#, fuzzy
 msgid "New Window"
-msgstr "បង្អួច​ថ្មី"
+msgstr ""
 
 #: src/yelp-window.c:372
-#, fuzzy
 msgid "Find…"
-msgstr "រក ៖"
+msgstr ""
 
 #: src/yelp-window.c:373
 msgid "Print…"
 msgstr ""
 
 #: src/yelp-window.c:378
-#, fuzzy
 msgid "Previous Page"
-msgstr "ទំព័រ​មុន"
+msgstr ""
 
 #: src/yelp-window.c:379
-#, fuzzy
 msgid "Next Page"
-msgstr "ទំព័រ​បន្ទាប់"
+msgstr ""
 
 #: src/yelp-window.c:384
-#, fuzzy
 msgid "Larger Text"
-msgstr "អត្ថបទ​ធំជាង​នេះ"
+msgstr ""
 
 #: src/yelp-window.c:385
-#, fuzzy
 msgid "Smaller Text"
-msgstr "អត្ថបទ​តូចជាង​នេះ"
+msgstr ""
 
 #: src/yelp-window.c:390
-#, fuzzy
 msgid "All Help"
-msgstr "ជំនួយ"
+msgstr ""
 
 #: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
@@ -420,19 +384,16 @@ msgid "Bookmarks"
 msgstr "ចំណាំ"
 
 #: src/yelp-window.c:444
-#, fuzzy
 msgid "No bookmarks"
-msgstr "ចំណាំ"
+msgstr ""
 
 #: src/yelp-window.c:452
-#, fuzzy
 msgid "Add Bookmark"
-msgstr "បន្ថែម​ចំណាំ"
+msgstr ""
 
 #: src/yelp-window.c:458
-#, fuzzy
 msgid "Remove Bookmark"
-msgstr "យក​ចំណាំ​ចេញ"
+msgstr ""
 
 #: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
@@ -445,190 +406,3 @@ msgstr ""
 #: org.gnome.Yelp.desktop.in.in:8
 msgid "help-browser"
 msgstr ""
-
-#~ msgid "Indexed"
-#~ msgstr "ដាក់​តាម​លិបិក្រម"
-
-#~ msgid "Whether the document content has been indexed"
-#~ msgstr "ថា​តើ​ ឯកសារ​ត្រូវ​បាន​ដាក់​តាម​លិបិក្រម​ដែរ​ឬ​ទេ ។"
-
-#~ msgid "Document URI"
-#~ msgstr "URI របស់​ឯកសារ"
-
-#~ msgid "The URI which identifies the document"
-#~ msgstr "URI ដែល​សម្គាល់​ឯកសារ"
-
-#~ msgid "View"
-#~ msgstr "មើល"
-
-#~ msgid "A YelpView instance to control"
-#~ msgstr "វត្ថុ YelpView ត្រូវ​ត្រួតពិនិត្យ"
-
-#~ msgid "A YelpBookmarks implementation instance"
-#~ msgstr "វត្ថុ​ប្រតិបត្តិ​នៃ YelpBookmarks"
-
-#~ msgid "Enable Search"
-#~ msgstr "បើក​ការ​ស្វែងរក"
-
-#~ msgid "Whether the location entry can be used as a search field"
-#~ msgstr "ថា​តើ​ធាតុ​ទីតាំង​អាច​ត្រូវ​បាន​ប្រើ​ជា​វាល​ស្វែងរក​ដែរ​ឬទេ"
-
-#~ msgid "Search..."
-#~ msgstr "ស្វែងរក..."
-
-#~ msgid "Clear the search text"
-#~ msgstr "សម្អាត​​អត្ថបទ​ស្វែងរក"
-
-#~ msgid "Bookmark this page"
-#~ msgstr "ចំណាំ​ទំព័រ​នេះ"
-
-#~ msgid "Remove bookmark"
-#~ msgstr "យក​ចំណាំ​ចេញ"
-
-#~ msgid "Loading"
-#~ msgstr "ផ្ទុក"
-
-#~ msgid "GtkSettings"
-#~ msgstr "GtkSettings"
-
-#~ msgid "A GtkSettings object to get settings from"
-#~ msgstr "វត្ថុ GtkSettings សម្រាប់ទទួលយក​ការ​កំណត់​ពី"
-
-#~ msgid "GtkIconTheme"
-#~ msgstr "GtkIconTheme"
-
-#~ msgid "A GtkIconTheme object to get icons from"
-#~ msgstr "វត្ថុ GtkIconTheme សម្រាប់​ទទួលយក​រូបតំណាង​ពី"
-
-#~ msgid "Font Adjustment"
-#~ msgstr "ការ​លៃ​តម្រូវ​ពុម្ពអក្សរ"
-
-#~ msgid "A size adjustment to add to font sizes"
-#~ msgstr "ការ​លៃ​តម្រូវ​ពុម្ពអក្សរ​ ដើម្បី​បន្ថែម​ទៅកាន់​ទំហំ​ពុម្ពអក្សរ"
-
-#~ msgid "Show Text Cursor"
-#~ msgstr "បង្ហាញ​ទស្សន៍ទ្រនិច​អត្ថបទ"
-
-#~ msgid "Show the text cursor or caret for accessible navigation"
-#~ msgstr "បង្ហាញ​ទស្សន៍ទ្រនិច​អត្ថបទ ឬ​សញ្ញា (^) សម្រាប់​ការ​រុករក​ដែល​អាច​ចូល​ដំណើរការ​បាន"
-
-#~ msgid "Editor Mode"
-#~ msgstr "របៀប​​កម្មវិធី​កែសម្រួល"
-
-#~ msgid "Enable features useful to editors"
-#~ msgstr "បើក​លក្ខណ​ពិសេស​ដែល​មាន​ប្រយោជន៍​សម្រាប់​កម្មវិធី​កែសម្រួល"
-
-#~ msgid "Database filename"
-#~ msgstr "ឈ្មោះ​ឯកសារ​មូលដ្ឋាន​ទិន្នន័យ"
-
-#~ msgid "The filename of the sqlite database"
-#~ msgstr "ឈ្មោះ​ឯកសារ​នៃ​មូលដ្ឋាន​ទិន្នន័យ sqlite"
-
-#~ msgid "XSLT Stylesheet"
-#~ msgstr "សន្លឹក​រចនាប័ទ្ម XSLT"
-
-#~ msgid "The location of the XSLT stylesheet"
-#~ msgstr "ទីតាំង​របស់​សន្លឹក​រចនាប័ទ្ម XSLT"
-
-#~ msgid "_Print..."
-#~ msgstr "បោះពុម្ព..."
-
-#~ msgid "Yelp URI"
-#~ msgstr "Yelp URI"
-
-#~ msgid "A YelpUri with the current location"
-#~ msgstr "YelpUri ជាមួយ​ទីតាំង​បច្ចុប្បន្ន"
-
-#~ msgid "The loading state of the view"
-#~ msgstr "កំពុង​ផ្ទុក​ស្ថានភាព​នៃ​ទិដ្ឋភាព"
-
-#~ msgid "Page ID"
-#~ msgstr "លេខ​សម្គាល់​ទំព័រ"
-
-#~ msgid "The ID of the root page of the page being viewed"
-#~ msgstr "លេខ​សម្គាល់​ទំព័រ root នៃ​ទំព័រ​ដែល​កំពុង​ត្រូវ​បាន​មើល"
-
-#~ msgid "Root Title"
-#~ msgstr "ចំណង​ជើង Root"
-
-#~ msgid "The title of the root page of the page being viewed"
-#~ msgstr "ចំណង​ជើង​ទំព័រ root នៃ​ទំព័រ​ដែល​កំពុង​ត្រូវ​បាន​មើល"
-
-#~ msgid "Page Title"
-#~ msgstr "ចំណង​ជើង​ទំព័រ"
-
-#~ msgid "The title of the page being viewed"
-#~ msgstr "ចំណង​ជើង​ទំព័រ​ដែល​កំពុង​ត្រូវ​បាន​មើល"
-
-#~ msgid "Page Description"
-#~ msgstr "សេចក្ដី​ពិពណ៌នា​អំពី​ទំព័រ"
-
-#~ msgid "The description of the page being viewed"
-#~ msgstr "សេចក្ដី​ពិពណ៌នា​អំពី​ទំព័រ​ដែល​កំពុង​ត្រូវ​បាន​មើល"
-
-#~ msgid "Page Icon"
-#~ msgstr "រូបតំណាង​ទំព័រ"
-
-#~ msgid "The icon of the page being viewed"
-#~ msgstr "រូប​តំណាង​ទំព័រ​ដែល​កំពុង​ត្រូវ​បាន​មើល"
-
-#~ msgid "See all search results for “%s”"
-#~ msgstr "មើល​​លទ្ធផល​ស្វែងរក​​ទាំងអស់​សម្រាប់ “%s”"
-
-#~ msgid "Search for packages containing this document."
-#~ msgstr "ស្វែងរក​កញ្ចប់​ឯកសារ​នេះ​ដែល​មាន ។"
-
-#~ msgid "Increase the size of the text"
-#~ msgstr "បង្កើន​ទំហំ​អត្ថបទ"
-
-#~ msgid "Decrease the size of the text"
-#~ msgstr "បន្ថយ​ទំហំ​អត្ថបទ"
-
-#~ msgid "Show Text _Cursor"
-#~ msgstr "បង្ហាញ​ទស្សន៍ទ្រនិច​អត្ថបទ"
-
-#~ msgid "_Page"
-#~ msgstr "ទំព័រ"
-
-#~ msgid "_View"
-#~ msgstr "មើល"
-
-#~ msgid "_Go"
-#~ msgstr "ទៅកាន់"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "ចំណាំ"
-
-#~ msgid "_Close"
-#~ msgstr "បិទ"
-
-#~ msgid "_All Documents"
-#~ msgstr "ឯកសារ​ទាំងអស់"
-
-#~ msgid "Find in Page..."
-#~ msgstr "រកមើល​ក្នុង​ទំព័រ..."
-
-#~ msgid "Open Location"
-#~ msgstr "បើក​ទីតាំង"
-
-#~ msgid "Application"
-#~ msgstr "កម្មវិធី"
-
-#~ msgid "A YelpApplication instance that controls this window"
-#~ msgstr "វត្ថុ YelpApplication ដែល​ត្រួតពិនិត្យ​បង្អួច​នេះ"
-
-#~ msgid "Read Link _Later"
-#~ msgstr "អាន​តំណ​ពេល​ក្រោយ"
-
-#~ msgid "Read Later"
-#~ msgstr "អាន​ពេលក្រោយ"
-
-#~ msgid "%i match"
-#~ msgid_plural "%i matches"
-#~ msgstr[0] "%i ផ្គូផ្គង"
-
-#~ msgid "No matches"
-#~ msgstr "គ្មាន​ការ​ផ្គូផ្គង"
-
-#~ msgid "Install <_:string-1/>"
-#~ msgstr "ដំឡើង <_:string-1/>"

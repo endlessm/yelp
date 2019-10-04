@@ -1,100 +1,87 @@
-# Turkish translation of yelp.
-# Copyright (C) 2002-2003, 2004, 2005, 2007, 2008 Free Software Foundation, Inc.
-#
-#
-# Görkem Çetin <gorkem@gelecek.com.tr>, 2002.
-# Arman Aksoy <armish@linux-sevenler.de>, 2003.
-# Serkan Kenar <serkan@ieee.metu.edu.tr>, 2005, 2006.
-# Serdar ÇİÇEK <serdar@nerd.com.tr>, 2007, 2008.
-# Fatih Ergüven <fatih@erguven.org>, 2007.
-# Baris Cicek <baris@teamforce.name.tr>, 2004, 2005, 2007, 2008, 2009.
-# Server ACİM <serveracim@gmail.com>, 2010.
-# Ozan Çağlayan <ozancag@gmail.com>, 2013.
-# Yaşar Şentürk <yasarix@gmail.com>, 2014.
-# Muhammet Kara <muhammetk@gmail.com>, 2011, 2012, 2014, 2015, 2017.
-# Çağatay Yiğit Şahin <cyigitsahin@outlook.com>, 2018.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2018.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# Arman Aksoy <armish@linux-sevenler.de>, 2003
+# Baris Cicek <baris@teamforce.name.tr>, 2004-2005,2007-2009
+# Çağatay Yiğit Şahin <cyigitsahin@outlook.com>, 2018
+# Emin Tufan <etcetin@gmail.com>, 2018
+# Fatih Ergüven <fatih@erguven.org>, 2007
+# Görkem Çetin <gorkem@gelecek.com.tr>, 2002
+# Muha Aliss <muhaaliss@gmail.com>, 2019
+# Muhammet Kara <muhammetk@gmail.com>, 2011-2012,2014-2015,2017
+# ozancaglayan <ozancag@gmail.com>, 2013
+# ozancaglayan <ozancag@gmail.com>, 2013
+# Serdar ÇİÇEK <serdar@nerd.com.tr>, 2007-2008
+# Serkan Kenar <serkan@ieee.metu.edu.tr>, 2005-2006
+# Server ACİM <serveracim@gmail.com>, 2010
+# Yaşar Şentürk <yasarix@gmail.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: yelp.HEAD.tr\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2019-02-01 01:03+0300\n"
-"Last-Translator: Serdar Sağlam <teknomobil@yandex.com>\n"
-"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
-"Language: tr\n"
+"PO-Revision-Date: 2019-10-04 14:19+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Turkish (http://www.transifex.com/endless-os/yelp/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.2.1\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
 msgstr "Başlarken"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr "İnternet"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr "Belgeler &amp; Dosyalar"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
 msgstr "Masaüstü"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr "Yazıcılar, Ekranlar &amp; Aksesuarlar"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr "Evrensel Erişim"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr "Güvenlik &amp; Gizlilik"
@@ -106,9 +93,7 @@ msgstr "Güvenlik &amp; Gizlilik"
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "<string/> ögesini kur"
@@ -125,25 +110,19 @@ msgstr "GNOME için yardım görüntüleyici"
 msgid ""
 "Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
 "also display DocBook, info, man, and HTML documentation."
-msgstr ""
-"Yelp, GNOME yardım görüntüleyicisidir. Öntanımlı Mallard görüntüleyicidir "
-"ama DocBook, info, man ve HTML belgelendirmeler de gösterebilir."
+msgstr "Yelp, GNOME yardım görüntüleyicisidir. Öntanımlı Mallard görüntüleyicidir ama DocBook, info, man ve HTML belgelendirmeler de gösterebilir."
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
-msgstr ""
-"Etkileşimli arama ve yer imleriyle gereksindiğiniz belgelendirmeyi bulmayı "
-"kolaylaştırır."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
+msgstr "Etkileşimli arama ve yer imleriyle gereksindiğiniz belgelendirmeyi bulmayı kolaylaştırır."
 
 #: data/yelp.appdata.xml.in:17
 msgid ""
 "It also has an editor mode, which shows editorial comments and revision "
 "statuses when editing Mallard documents."
-msgstr ""
-"Mallard belgelerini düzenlerken düzenleme yorumlarını ve düzeltme "
-"durumlarını gösteren bir düzenleme kipine de sahiptir."
+msgstr "Mallard belgelerini düzenlerken düzenleme yorumlarını ve düzeltme durumlarını gösteren bir düzenleme kipine de sahiptir."
 
 #: data/yelp.appdata.xml.in:30
 msgid "The GNOME Project"
@@ -180,18 +159,14 @@ msgstr "‘%s’ adlı dosya yok."
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"‘%s’ adlı dosya ayrıştırılamıyor çünkü düzgün biçimlendirilmiş bir XML "
-"belgesi değil."
+msgstr "‘%s’ adlı dosya ayrıştırılamıyor çünkü düzgün biçimlendirilmiş bir XML belgesi değil."
 
 #: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"‘%s’ adlı dosya ayrıştırılamıyor çünkü içerdiği dosyalardan biri veya "
-"birkaçı düzgün biçimlendirilmiş XML belgesi değil."
+msgstr "‘%s’ adlı dosya ayrıştırılamıyor çünkü içerdiği dosyalardan biri veya birkaçı düzgün biçimlendirilmiş XML belgesi değil."
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -229,9 +204,7 @@ msgstr "Tüm Yardım Belgeleri"
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"‘%s’ dosyası ayrıştırılamıyor çünkü düzgün biçimlendirilmiş bir bilgi "
-"sayfası değil."
+msgstr "‘%s’ dosyası ayrıştırılamıyor çünkü düzgün biçimlendirilmiş bir bilgi sayfası değil."
 
 #: libyelp/yelp-mallard-document.c:348
 #, c-format
@@ -304,8 +277,7 @@ msgstr "Bilinmeyen Hata."
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"PackageKit kurulmamış. Paket kurulum bağlantıları PackageKit gerektiriyor."
+msgstr "PackageKit kurulmamış. Paket kurulum bağlantıları PackageKit gerektiriyor."
 
 #: libyelp/yelp-view.c:1226
 msgid "Save Image"
@@ -445,190 +417,3 @@ msgstr "belgelendirme;bilgi;el kitabı;kılavuz;rehber;yardım;"
 #: org.gnome.Yelp.desktop.in.in:8
 msgid "help-browser"
 msgstr "yardım-gezgini"
-
-#~ msgid "Search for packages containing this document."
-#~ msgstr "Bu belgeyi içeren paketleri ara."
-
-#~ msgid "org.gnome.Yelp"
-#~ msgstr "org.gnome.Yelp"
-
-#~ msgid "Indexed"
-#~ msgstr "Dizinli"
-
-#~ msgid "Whether the document content has been indexed"
-#~ msgstr "Belge içeriğinin dizinlenip dizinlenmediğini gösterir"
-
-#~ msgid "Document URI"
-#~ msgstr "Belge Adresi"
-
-#~ msgid "The URI which identifies the document"
-#~ msgstr "Belgeyi tanımlayan adres"
-
-#~ msgid "View"
-#~ msgstr "Görünüm"
-
-#~ msgid "A YelpView instance to control"
-#~ msgstr "Denetleme amaçlı bir YelpGörünümü"
-
-#~ msgid "A YelpBookmarks implementation instance"
-#~ msgstr "Bir YelpYerİmleri uygulaması örneği"
-
-#~ msgid "GtkSettings"
-#~ msgstr "GtkAyarları"
-
-#~ msgid "A GtkSettings object to get settings from"
-#~ msgstr "Bir GtkAyarları nesnesi ayarlarını şuradan alır"
-
-#~ msgid "GtkIconTheme"
-#~ msgstr "GtkSimgeTeması"
-
-#~ msgid "A GtkIconTheme object to get icons from"
-#~ msgstr "Simgeleri şuradan alan bir GtkSimgeTeması"
-
-#~ msgid "Font Adjustment"
-#~ msgstr "Yazıtipi Ayarı"
-
-#~ msgid "A size adjustment to add to font sizes"
-#~ msgstr "Yazıtipi boyutlarına eklenecek olan bir boyut ayarı"
-
-#~ msgid "Show Text Cursor"
-#~ msgstr "Metin İmlecini Göster"
-
-#~ msgid "Show the text cursor or caret for accessible navigation"
-#~ msgstr "Erişilebilir gezinme için metin imlecini ya da kareti göster"
-
-#~ msgid "Editor Mode"
-#~ msgstr "Düzenleme Kipi"
-
-#~ msgid "Enable features useful to editors"
-#~ msgstr "Düzenleyiciler için özellikleri kullandır"
-
-#~ msgid "Database filename"
-#~ msgstr "Veritabanı dosya adı"
-
-#~ msgid "The filename of the sqlite database"
-#~ msgstr "Sqlite veritabanının dosya adı"
-
-#~ msgid "XSLT Stylesheet"
-#~ msgstr "XSLT Stil Sayfası"
-
-#~ msgid "The location of the XSLT stylesheet"
-#~ msgstr "XSLT stil sayfasının bölgesi"
-
-#~ msgid "Yelp URI"
-#~ msgstr "Yelp URI adresi"
-
-#~ msgid "A YelpUri with the current location"
-#~ msgstr "Şu anki bölge ile birlikte YelpUri adresi"
-
-#~ msgid "The loading state of the view"
-#~ msgstr "Görünümün yükleme durumu"
-
-#~ msgid "Page ID"
-#~ msgstr "Sayfa Kimliği"
-
-#~ msgid "The ID of the root page of the page being viewed"
-#~ msgstr "Görüntülenen kök sayfasının kimliği"
-
-#~ msgid "Root Title"
-#~ msgstr "Kök Başlık"
-
-#~ msgid "The title of the root page of the page being viewed"
-#~ msgstr "Görüntülenen kök sayfasının başlığı"
-
-#~ msgid "Page Title"
-#~ msgstr "Sayfa Başlığı"
-
-#~ msgid "The title of the page being viewed"
-#~ msgstr "Görüntülenen sayfanın başlığı"
-
-#~ msgid "Page Description"
-#~ msgstr "Sayfa Tanımı"
-
-#~ msgid "The description of the page being viewed"
-#~ msgstr "Görüntülenen sayfanın tanımı"
-
-#~ msgid "Page Icon"
-#~ msgstr "Sayfa Simgesi"
-
-#~ msgid "The icon of the page being viewed"
-#~ msgstr "Görüntülenen sayfanın simgesi"
-
-#~ msgid "Application"
-#~ msgstr "Uygulama"
-
-#~ msgid "A YelpApplication instance that controls this window"
-#~ msgstr "Bu pencereyi denetleyen bir YelpUygulama örneği"
-
-#~ msgid "See all search results for “%s”"
-#~ msgstr "\"%s\" için tüm arama sonuçlarını gör"
-
-#~ msgid "Enable Search"
-#~ msgstr "Aramayı Etkinleştir"
-
-#~ msgid "Whether the location entry can be used as a search field"
-#~ msgstr "Bölge girişi bir arama alanı olarak da kullanılabilir"
-
-#~ msgid "Search..."
-#~ msgstr "Ara..."
-
-#~ msgid "Clear the search text"
-#~ msgstr "Arama metnini temizle"
-
-#~ msgid "Bookmark this page"
-#~ msgstr "Bu sayfayı yer İmlerine ekle"
-
-#~ msgid "Remove bookmark"
-#~ msgstr "Yer imini kaldır"
-
-#~ msgid "Loading"
-#~ msgstr "Yükleniyor"
-
-#~ msgid "_Print..."
-#~ msgstr "_Yazdır..."
-
-#~ msgid "Increase the size of the text"
-#~ msgstr "Metnin boyutunu büyüt"
-
-#~ msgid "Decrease the size of the text"
-#~ msgstr "Metnin boyutunu küçült"
-
-#~ msgid "Show Text _Cursor"
-#~ msgstr "Metin İmlecini _Göster"
-
-#~ msgid "_Page"
-#~ msgstr "_Sayfa"
-
-#~ msgid "_View"
-#~ msgstr "_Görünüm"
-
-#~ msgid "_Go"
-#~ msgstr "_Git"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "_Yer İmleri"
-
-#~ msgid "_Close"
-#~ msgstr "_Kapat"
-
-#~ msgid "_All Documents"
-#~ msgstr "_Tüm Belgeler"
-
-#~ msgid "Find in Page..."
-#~ msgstr "Sayfada Bul..."
-
-#~ msgid "Open Location"
-#~ msgstr "Konumu Aç"
-
-#~ msgid "Read Link _Later"
-#~ msgstr "Bağlantıyı _Daha Sonra Oku"
-
-#~ msgid "Read Later"
-#~ msgstr "Sonra Oku"
-
-#~ msgid "%i match"
-#~ msgid_plural "%i matches"
-#~ msgstr[0] "%i uyar"
-
-#~ msgid "No matches"
-#~ msgstr "Uyan yok"

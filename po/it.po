@@ -1,92 +1,76 @@
-# Italian translation of Yelp.
-# Copyright (C) 2002, 2003, 2004, 2005, 2005, 2007, 2008, 2009, 2011, 2012, 2013, 2014, 2016, 2018 Free Software Foundation, Inc.
-# Copyright (C) 2019 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
 # This file is distributed under the same license as the yelp package.
-# Psyk[o] <shaihulud@supereva.it>, 2002.
-# Luca Ferretti <lferrett@gnome.org>, 2005-2006, 2011.
-# Milo Casagrande <milo@milo.name>, 2007-2008, 2009, 2011, 2012, 2013, 2014, 2016, 2018, 2019.
-#
+# 
+# Translators:
+# Luca Ferretti <lferrett@gnome.org>, 2005-2006, 2011
+# Milo Casagrande <milo@milo.name>, 2007-2008, 2009,2011-2014,2016,2018-2019
+# Psyk[o] <shaihulud@supereva.it>, 2002
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2019-02-14 11:12+0100\n"
-"Last-Translator: Milo Casagrande <milo@milo.name>\n"
-"Language-Team: Italian <tp@lists.linux.it>\n"
-"Language: it\n"
+"PO-Revision-Date: 2019-10-04 14:23+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Italian (http://www.transifex.com/endless-os/yelp/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "Stato di caricamento"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -98,9 +82,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Installa <string/>"
@@ -117,27 +99,19 @@ msgstr "Visualizzatore di documentazione per GNOME"
 msgid ""
 "Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
 "also display DocBook, info, man, and HTML documentation."
-msgstr ""
-"Yelp è il visualizzatore di guide e documentazione di GNOME. È il "
-"visualizzatore predefinito per i file Mallard, ma è in grado di visualizzare "
-"anche DocBook, info, man e documentazione in HTML."
+msgstr "Yelp è il visualizzatore di guide e documentazione di GNOME. È il visualizzatore predefinito per i file Mallard, ma è in grado di visualizzare anche DocBook, info, man e documentazione in HTML."
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
-msgstr ""
-"Attraverso una ricerca interattiva e il supporto ai segnalibri, cercare la "
-"documentazione necessario non è mai stato così facile."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
+msgstr "Attraverso una ricerca interattiva e il supporto ai segnalibri, cercare la documentazione necessario non è mai stato così facile."
 
 #: data/yelp.appdata.xml.in:17
 msgid ""
 "It also has an editor mode, which shows editorial comments and revision "
 "statuses when editing Mallard documents."
-msgstr ""
-"Dispone inoltre di una modalità editore, che consente di visualizzare i "
-"commenti editoriali e gli stati di revisione durante la modifica di "
-"documenti Mallard."
+msgstr "Dispone inoltre di una modalità editore, che consente di visualizzare i commenti editoriali e gli stati di revisione durante la modifica di documenti Mallard."
 
 #: data/yelp.appdata.xml.in:30
 msgid "The GNOME Project"
@@ -181,9 +155,7 @@ msgstr "Impossibile analizzare il file «%s», non è un file ben formato in XML
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"Impossibile analizzare il file «%s», uno, o più di uno, dei file che include "
-"non è un file ben formato in XML."
+msgstr "Impossibile analizzare il file «%s», uno, o più di uno, dei file che include non è un file ben formato in XML."
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -221,8 +193,7 @@ msgstr "Tutti i documenti di aiuto"
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"Impossibile analizzare il file «%s», non è una pagina info ben formata."
+msgstr "Impossibile analizzare il file «%s», non è una pagina info ben formata."
 
 #: libyelp/yelp-mallard-document.c:348
 #, c-format
@@ -237,8 +208,7 @@ msgstr "Cerca «%s»"
 #: libyelp/yelp-transform.c:370 libyelp/yelp-transform.c:385
 #, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
-msgstr ""
-"Il foglio di stile XSLT «%s» potrebbe essere mancante oppure non valido."
+msgstr "Il foglio di stile XSLT «%s» potrebbe essere mancante oppure non valido."
 
 #: libyelp/yelp-transform.c:519
 msgid "No href attribute found on yelp:document\n"
@@ -296,9 +266,7 @@ msgstr "Errore sconosciuto."
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"PackageKit non è disponibile. I collegamenti per installare pacchetti "
-"richiedono PackageKit."
+msgstr "PackageKit non è disponibile. I collegamenti per installare pacchetti richiedono PackageKit."
 
 #: libyelp/yelp-view.c:1226
 msgid "Save Image"
@@ -438,196 +406,3 @@ msgstr "documentazione;informazioni;manuali;aiuto;"
 #: org.gnome.Yelp.desktop.in.in:8
 msgid "help-browser"
 msgstr ""
-
-#~ msgid "Search for packages containing this document."
-#~ msgstr "Cerca pacchetti che contengono questo documento."
-
-#~ msgid "org.gnome.Yelp"
-#~ msgstr "org.gnome.Yelp"
-
-#~ msgid "Indexed"
-#~ msgstr "Indicizzato"
-
-#~ msgid "Whether the document content has been indexed"
-#~ msgstr "Indica se il contenuto del documento è stato indicizzato o meno"
-
-# Collegamento al frontespizio di un <set>
-#~ msgid "Document URI"
-#~ msgstr "URI del documento"
-
-#~ msgid "The URI which identifies the document"
-#~ msgstr "L'URI che identifica il documento"
-
-#~ msgid "View"
-#~ msgstr "View"
-
-#~ msgid "A YelpView instance to control"
-#~ msgstr "Un'istanza YelpView da controllare"
-
-#~ msgid "A YelpBookmarks implementation instance"
-#~ msgstr "Un'implementazione di un'istanza YelpBookmarks"
-
-#~ msgid "GtkSettings"
-#~ msgstr "GtkSettings"
-
-#~ msgid "A GtkSettings object to get settings from"
-#~ msgstr "Un oggetto GtkSettings da cui recuperare le impostazioni"
-
-#~ msgid "GtkIconTheme"
-#~ msgstr "GtkIconTheme"
-
-#~ msgid "A GtkIconTheme object to get icons from"
-#~ msgstr "Un oggetto GtkIconThem da cui recuperare le icone"
-
-#~ msgid "Font Adjustment"
-#~ msgstr "Regolazione carattere"
-
-#~ msgid "A size adjustment to add to font sizes"
-#~ msgstr "Una regolazione da aggiungere alla dimensione del carattere"
-
-#~ msgid "Show Text Cursor"
-#~ msgstr "Mostra il cursore"
-
-#~ msgid "Show the text cursor or caret for accessible navigation"
-#~ msgstr "Mostra il cursore di testo per un'esplorazione accessibile"
-
-#~ msgid "Editor Mode"
-#~ msgstr "Modalità editore"
-
-#~ msgid "Enable features useful to editors"
-#~ msgstr "Abilita funzionalità utili agli editori"
-
-#~ msgid "Database filename"
-#~ msgstr "Nome file del database"
-
-#~ msgid "The filename of the sqlite database"
-#~ msgstr "Il nome del file del database SQLite"
-
-#~ msgid "XSLT Stylesheet"
-#~ msgstr "Foglio di stile XSLT"
-
-#~ msgid "The location of the XSLT stylesheet"
-#~ msgstr "La posizione del foglio di stile XSLT"
-
-#~ msgid "Yelp URI"
-#~ msgstr "URI Yelp"
-
-#~ msgid "A YelpUri with the current location"
-#~ msgstr "Uno YelpUri con la posizione attuale"
-
-#~ msgid "The loading state of the view"
-#~ msgstr "Lo stato di caricamento della view"
-
-#~ msgid "Page ID"
-#~ msgstr "ID pagina"
-
-#~ msgid "The ID of the root page of the page being viewed"
-#~ msgstr "L'ID della pagina root rispetto alla pagina visualizzata"
-
-#~ msgid "Root Title"
-#~ msgstr "Titolo root"
-
-#~ msgid "The title of the root page of the page being viewed"
-#~ msgstr "Il titolo della pagina root rispetto alla pagina visualizzata"
-
-#~ msgid "Page Title"
-#~ msgstr "Titolo pagina"
-
-#~ msgid "The title of the page being viewed"
-#~ msgstr "Il titolo della pagina visualizzata"
-
-#~ msgid "Page Description"
-#~ msgstr "Descrizione pagina"
-
-#~ msgid "The description of the page being viewed"
-#~ msgstr "La descrizione della pagina visualizzata"
-
-#~ msgid "Page Icon"
-#~ msgstr "Icona pagina"
-
-#~ msgid "The icon of the page being viewed"
-#~ msgstr "L'icona della pagina visualizzata"
-
-#~ msgid "Application"
-#~ msgstr "Application"
-
-#~ msgid "A YelpApplication instance that controls this window"
-#~ msgstr "Un'istanza di YelpApplication che controlla questa finestra"
-
-#~ msgid "See all search results for “%s”"
-#~ msgstr "Visualizza tutti i risultati della ricerca per «%s»"
-
-#~ msgid "Enable Search"
-#~ msgstr "Abilita la ricerca"
-
-#~ msgid "Whether the location entry can be used as a search field"
-#~ msgstr ""
-#~ "Indica se la barra della posizione può essere utilizzata come campo di "
-#~ "ricerca"
-
-#~ msgid "Search..."
-#~ msgstr "Cerca..."
-
-# (ndt) suggerimento
-#~ msgid "Clear the search text"
-#~ msgstr "Pulisce il testo di ricerca"
-
-#~ msgid "Bookmark this page"
-#~ msgstr "Aggiunge la pagina ai segnalibri"
-
-#~ msgid "Remove bookmark"
-#~ msgstr "Rimuove il segnalibro"
-
-#~ msgid "Loading"
-#~ msgstr "Caricamento in corso"
-
-#~ msgid "_Print..."
-#~ msgstr "Stam_pa..."
-
-#~ msgid "Increase the size of the text"
-#~ msgstr "Aumenta la dimensione del testo"
-
-#~ msgid "Decrease the size of the text"
-#~ msgstr "Riduce la dimensione del testo"
-
-#~ msgid "Show Text _Cursor"
-#~ msgstr "Mostra _cursore di testo"
-
-#~ msgid "_Page"
-#~ msgstr "_Pagina"
-
-#~ msgid "_View"
-#~ msgstr "_Visualizza"
-
-#~ msgid "_Go"
-#~ msgstr "V_ai"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "S_egnalibri"
-
-#~ msgid "_Close"
-#~ msgstr "_Chiudi"
-
-# Collegamento al frontespizio di un <set>
-#~ msgid "_All Documents"
-#~ msgstr "Tutti i _documenti"
-
-#~ msgid "Find in Page..."
-#~ msgstr "Trova nella pagina..."
-
-#~ msgid "Open Location"
-#~ msgstr "Apri posizione"
-
-#~ msgid "Read Link _Later"
-#~ msgstr "Leggi _dopo"
-
-#~ msgid "Read Later"
-#~ msgstr "Leggi dopo"
-
-#~ msgid "%i match"
-#~ msgid_plural "%i matches"
-#~ msgstr[0] "%i corrispondenza"
-#~ msgstr[1] "%i corrispondenze"
-
-#~ msgid "No matches"
-#~ msgstr "Nessuna corrispondenza"

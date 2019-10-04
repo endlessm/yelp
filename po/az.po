@@ -1,91 +1,74 @@
-# translation of yelp.HEAD.po to Azerbaijani Turkish
-# Copyright (C) 2003, 2004 Free Software Foundation, Inc.
-# Mətin Əmirov <metin@karegen.com>, 2003, 2004.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# Mətin Əmirov <metin@karegen.com>, 2003-2004
 msgid ""
 msgstr ""
-"Project-Id-Version: yelp.HEAD\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2004-02-14 15:26+0200\n"
-"Last-Translator: Mətin Əmirov <metin@karegen.com>\n"
-"Language-Team: Azerbaijani Turkish <translation-team-az@lists.sourceforge."
-"net>\n"
-"Language: az\n"
+"PO-Revision-Date: 2019-10-04 14:18+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Azerbaijani (http://www.transifex.com/endless-os/yelp/language/az/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.0.2\n"
+"Language: az\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
 msgstr ""
 
-#  GList           *seriesids;
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
-#, fuzzy
 msgid "Internet"
-msgstr "Məzmun"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
-#, fuzzy
 msgid "Documents &amp; Files"
-msgstr "Sənədlər"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "Masa Üstü"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -97,9 +80,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr ""
@@ -109,9 +90,8 @@ msgid "GNOME Help"
 msgstr ""
 
 #: data/yelp.appdata.xml.in:7
-#, fuzzy
 msgid "Help viewer for GNOME"
-msgstr "GNOME Üçün Yardım Səyyahı"
+msgstr ""
 
 #: data/yelp.appdata.xml.in:9
 msgid ""
@@ -121,8 +101,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -140,22 +120,20 @@ msgid "Invalid compressed data"
 msgstr ""
 
 #: libyelp/yelp-bz2-decompressor.c:149 libyelp/yelp-lzma-decompressor.c:158
-#, fuzzy
 msgid "Not enough memory"
-msgstr "Yaddaş çatışmır"
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:292 libyelp/yelp-info-document.c:221
 #: libyelp/yelp-mallard-document.c:306 libyelp/yelp-mallard-document.c:464
 #: libyelp/yelp-man-document.c:199
-#, fuzzy, c-format
+#, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
-msgstr "Seçili səhifə bu sənəddə tapıla bilmədi."
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:331 libyelp/yelp-info-document.c:358
 #: libyelp/yelp-man-document.c:336
-#, fuzzy
 msgid "The file does not exist."
-msgstr "Seçili fayl oxuna bilmədi."
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:341 libyelp/yelp-info-document.c:368
 #: libyelp/yelp-man-document.c:346
@@ -183,9 +161,9 @@ msgstr "Namə'lum"
 
 #: libyelp/yelp-docbook-document.c:908 libyelp/yelp-info-document.c:301
 #: libyelp/yelp-man-document.c:279
-#, fuzzy, c-format
+#, c-format
 msgid "The requested page was not found in the document ‘%s’."
-msgstr "Seçili səhifə bu sənəddə tapıla bilmədi."
+msgstr ""
 
 #: libyelp/yelp-document.c:1068
 #, c-format
@@ -206,9 +184,8 @@ msgid "An unknown error occurred."
 msgstr ""
 
 #: libyelp/yelp-help-list.c:548 libyelp/yelp-help-list.c:557
-#, fuzzy
 msgid "All Help Documents"
-msgstr "Sənədlər"
+msgstr ""
 
 #: libyelp/yelp-info-document.c:383
 #, c-format
@@ -232,9 +209,8 @@ msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
 msgstr ""
 
 #: libyelp/yelp-transform.c:519
-#, fuzzy
 msgid "No href attribute found on yelp:document\n"
-msgstr "yelp:document üstündə href attributu tapılmadı"
+msgstr ""
 
 #: libyelp/yelp-transform.c:534
 msgid "Out of memory"
@@ -245,9 +221,8 @@ msgid "C_opy Code Block"
 msgstr ""
 
 #: libyelp/yelp-view.c:257
-#, fuzzy
 msgid "_Copy Link Location"
-msgstr "Həsr"
+msgstr ""
 
 #: libyelp/yelp-view.c:262
 msgid "_Open Link"
@@ -279,14 +254,13 @@ msgid "The URI does not point to a valid page."
 msgstr ""
 
 #: libyelp/yelp-view.c:820 libyelp/yelp-view.c:2150
-#, fuzzy, c-format
+#, c-format
 msgid "The URI ‘%s’ could not be parsed."
-msgstr "Seçili fayl oxuna bilmədi."
+msgstr ""
 
 #: libyelp/yelp-view.c:825
-#, fuzzy
 msgid "Unknown Error."
-msgstr "Namə'lum"
+msgstr ""
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -322,19 +296,17 @@ msgid "S_end Video To…"
 msgstr ""
 
 #: libyelp/yelp-view.c:1876
-#, fuzzy, c-format
+#, c-format
 msgid "Could not load a document for ‘%s’"
-msgstr "Yeni pəncərə açıla bilmədi."
+msgstr ""
 
 #: libyelp/yelp-view.c:1882
-#, fuzzy
 msgid "Could not load a document"
-msgstr "Yeni pəncərə açıla bilmədi."
+msgstr ""
 
 #: libyelp/yelp-view.c:1966
-#, fuzzy
 msgid "Document Not Found"
-msgstr "Buraxılış Mə'lumatı"
+msgstr ""
 
 #: libyelp/yelp-view.c:1968
 msgid "Page Not Found"
@@ -345,9 +317,8 @@ msgid "Cannot Read"
 msgstr ""
 
 #: libyelp/yelp-view.c:1977
-#, fuzzy
 msgid "Unknown Error"
-msgstr "Namə'lum"
+msgstr ""
 
 #: src/yelp-application.c:59
 msgid "Turn on editor mode"
@@ -359,42 +330,36 @@ msgid "Help"
 msgstr "Yardım"
 
 #: src/yelp-window.c:348
-#, fuzzy
 msgid "Back"
-msgstr "Geri"
+msgstr ""
 
 #: src/yelp-window.c:355
-#, fuzzy
 msgid "Forward"
-msgstr "İrəli"
+msgstr ""
 
 #: src/yelp-window.c:366
 msgid "Menu"
 msgstr ""
 
 #: src/yelp-window.c:371
-#, fuzzy
 msgid "New Window"
-msgstr "/Fayl/_Yeni pəncərə"
+msgstr ""
 
 #: src/yelp-window.c:372
-#, fuzzy
 msgid "Find…"
-msgstr "Axtar"
+msgstr ""
 
 #: src/yelp-window.c:373
 msgid "Print…"
 msgstr ""
 
 #: src/yelp-window.c:378
-#, fuzzy
 msgid "Previous Page"
-msgstr "Ə_vvəlki"
+msgstr ""
 
 #: src/yelp-window.c:379
-#, fuzzy
 msgid "Next Page"
-msgstr "/Get/_Sonrakı Səhifə"
+msgstr ""
 
 #: src/yelp-window.c:384
 msgid "Larger Text"
@@ -405,32 +370,28 @@ msgid "Smaller Text"
 msgstr ""
 
 #: src/yelp-window.c:390
-#, fuzzy
 msgid "All Help"
-msgstr "Yardım"
+msgstr ""
 
 #: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
 msgstr ""
 
 #: src/yelp-window.c:427
-#, fuzzy
 msgid "Bookmarks"
-msgstr "Kitab"
+msgstr ""
 
 #: src/yelp-window.c:444
-#, fuzzy
 msgid "No bookmarks"
-msgstr "Kitab"
+msgstr ""
 
 #: src/yelp-window.c:452
 msgid "Add Bookmark"
 msgstr ""
 
 #: src/yelp-window.c:458
-#, fuzzy
 msgid "Remove Bookmark"
-msgstr "Kitab"
+msgstr ""
 
 #: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
@@ -441,554 +402,5 @@ msgid "documentation;information;manual;help;"
 msgstr ""
 
 #: org.gnome.Yelp.desktop.in.in:8
-#, fuzzy
 msgid "help-browser"
-msgstr "Yardım Səyyahı"
-
-#~ msgid "Applications"
-#~ msgstr "Proqramlar"
-
-#~ msgid "Configuration Files"
-#~ msgstr "Qurğu Faylları"
-
-#~ msgid "Development"
-#~ msgstr "İnkişaf"
-
-#~ msgid "Games"
-#~ msgstr "Oyunlar"
-
-#~ msgid "Hardware Devices"
-#~ msgstr "Avadanlıq"
-
-#~ msgid "Kernel Routines"
-#~ msgstr "Çəyirdək Qaydaları"
-
-#~ msgid "Library Functions"
-#~ msgstr "Kitabxana Funksiyaları"
-
-#, fuzzy
-#~ msgid "OpenSSL Applications"
-#~ msgstr "X Proqramları"
-
-#, fuzzy
-#~ msgid "OpenSSL Configuration"
-#~ msgstr "Qurğu Faylları"
-
-#, fuzzy
-#~ msgid "OpenSSL Overviews"
-#~ msgstr "İcmallar"
-
-#~ msgid "Overviews"
-#~ msgstr "İcmallar"
-
-#, fuzzy
-#~ msgid "Perl Functions"
-#~ msgstr "Kitabxana Funksiyaları"
-
-#, fuzzy
-#~ msgid "Qt Functions"
-#~ msgstr "Kitabxana Funksiyaları"
-
-#~ msgid "System Administration"
-#~ msgstr "Sistem İdarəsi"
-
-#~ msgid "System Calls"
-#~ msgstr "Sistem Çağırışları"
-
-#, fuzzy
-#~ msgid "Termcap Applications"
-#~ msgstr "X Proqramları"
-
-#, fuzzy
-#~ msgid "X11 Applications"
-#~ msgstr "X Proqramları"
-
-#, fuzzy
-#~ msgid "X11 Configuration"
-#~ msgstr "Qurğu Faylları"
-
-#, fuzzy
-#~ msgid "X11 Functions"
-#~ msgstr "Kitabxana Funksiyaları"
-
-#, fuzzy
-#~ msgid "X11 Games"
-#~ msgstr "Oyunlar"
-
-#, fuzzy
-#~ msgid "X11 Overviews"
-#~ msgstr "İcmallar"
-
-#~ msgid "Applets"
-#~ msgstr "Appletlər"
-
-#~ msgid "Education Applications"
-#~ msgstr "Təhsil Proqramları"
-
-#, fuzzy
-#~ msgid "Help Topics"
-#~ msgstr "Yardım Səyyahı"
-
-#~ msgid "KDE"
-#~ msgstr "KDE"
-
-#, fuzzy
-#~ msgid "Other Documentation"
-#~ msgstr "Buraxılış Mə'lumatı"
-
-#, fuzzy
-#~ msgid "Scientific"
-#~ msgstr "Elmi Proqramlar"
-
-#, fuzzy
-#~ msgid "System Tools"
-#~ msgstr "Sistem Çağırışları"
-
-#~ msgid "X Applications"
-#~ msgstr "X Proqramları"
-
-#, fuzzy
-#~ msgid "<b>_Bookmarks:</b>"
-#~ msgstr "Kitab"
-
-#~ msgid "C_ase sensitive"
-#~ msgstr "Böyük/kiçik hərfə _həssas"
-
-#, fuzzy
-#~ msgid "Preferences"
-#~ msgstr "Bələdçi"
-
-#~ msgid "_Find: "
-#~ msgstr "_Axtar: "
-
-#, fuzzy
-#~ msgid "_Location:"
-#~ msgstr "Həsr"
-
-#~ msgid "_Next"
-#~ msgstr "_Növbəti"
-
-#~ msgid "_Wrap around"
-#~ msgstr "_Birbaşa bük"
-
-#~ msgid "Yelp"
-#~ msgstr "Yelp"
-
-#~ msgid "Yelp Factory"
-#~ msgstr "Yelp E'malatxanası"
-
-#, fuzzy
-#~ msgid "Could not read the table of contents"
-#~ msgstr "'%s' OMF faylı uüklənə bilməsi."
-
-#~ msgid "Define which cache directory to use"
-#~ msgstr "İstifadə ediləcək ön yaddaş cərgəsini seç"
-
-#~ msgid "Could not activate Yelp: '%s'"
-#~ msgstr "Yelp fəallaşdırıla bilmədi: '%s'"
-
-#~ msgid "Could not open new window."
-#~ msgstr "Yeni pəncərə açıla bilmədi."
-
-#, fuzzy
-#~ msgid "Document Information"
-#~ msgstr "Buraxılış Mə'lumatı"
-
-#~ msgid "YelpTocPager: Pause count is negative."
-#~ msgstr "YelpTocPager: Fasilə məzmunu mənfidir."
-
-#~ msgid "Could not load the OMF file '%s'."
-#~ msgstr "'%s' OMF faylı uüklənə bilməsi."
-
-#  GList           *seriesids;
-#~ msgid "Help Contents"
-#~ msgstr "Yardım Məzmunu"
-
-#, fuzzy
-#~ msgid "_File"
-#~ msgstr "/_Fayl"
-
-#, fuzzy
-#~ msgid "_Edit"
-#~ msgstr "/_Düzəlt"
-
-#, fuzzy
-#~ msgid "_Go"
-#~ msgstr "/_Get"
-
-#, fuzzy
-#~ msgid "_Help"
-#~ msgstr "/_Yardım"
-
-#, fuzzy
-#~ msgid "About This Document"
-#~ msgstr "Bu Dəstə Haqqında"
-
-#, fuzzy
-#~ msgid "_Close Window"
-#~ msgstr "/Fayl/Pəncərəni _bağla"
-
-#, fuzzy
-#~ msgid "_Select All"
-#~ msgstr "Əlaqəli Olaraq Baxın"
-
-#, fuzzy
-#~ msgid "_Find..."
-#~ msgstr "/Düzəlt/_Axtar..."
-
-#, fuzzy
-#~ msgid "_Preferences"
-#~ msgstr "Bələdçi"
-
-#~ msgid "Show previous page in history"
-#~ msgstr "Keçmişdəki əvvəlki səhifəni göstər"
-
-#~ msgid "Show next page in history"
-#~ msgstr "Keçmişdəki növbəti səhifəni göstər"
-
-#, fuzzy
-#~ msgid "_Previous Section"
-#~ msgstr "/Get/Ə_vvəlki Səhifə"
-
-#, fuzzy
-#~ msgid "_Next Section"
-#~ msgstr "Qisim"
-
-#  GList           *seriesids;
-#, fuzzy
-#~ msgid "_Contents"
-#~ msgstr "Məzmun"
-
-#, fuzzy
-#~ msgid "_About"
-#~ msgstr "/Yardım/_Haqqında"
-
-#, fuzzy
-#~ msgid "Find:"
-#~ msgstr "Axtar"
-
-#, fuzzy
-#~ msgid "Find _Next"
-#~ msgstr "/Düzəlt/_Sonrakını Axtar"
-
-#, fuzzy
-#~ msgid "Find _Previous"
-#~ msgstr "Ə_vvəlki"
-
-#~ msgid "Loading..."
-#~ msgstr "Yüklənir..."
-
-#  Note to translators: put here your name (and address) so it
-#  * will shop up in the "about" box
-#, fuzzy
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "Vasif İsmailoğlu <linuxaz@azerimail.net>\n"
-#~ "Mətin Əmirov <metin@karegen.com>\n"
-#~ "\n"
-#~ "Tərcümə işləri üzrə yazışma siyahısı ünvanımız:\n"
-#~ "<translation-team-az@lists.sourceforge.net>"
-
-#, fuzzy
-#~ msgid "_Home"
-#~ msgstr "Ev"
-
-#~ msgid "Go to home view"
-#~ msgstr "Ev görünüşünə get"
-
-#, fuzzy
-#~ msgid "Fin_d"
-#~ msgstr "Axtar"
-
-#~ msgid "Development Environments"
-#~ msgstr "İnkişaf Mühitləri"
-
-#~ msgid "Development Tools"
-#~ msgstr "İnkişaf Vasitələri"
-
-#~ msgid "Editors"
-#~ msgstr "Editorlar"
-
-#~ msgid "Games and Entertainment"
-#~ msgstr "Oyunlar və Əyləncə"
-
-#~ msgid "General"
-#~ msgstr "Ümumi"
-
-#~ msgid "Internet Applications"
-#~ msgstr "İnternet Proqramları"
-
-#~ msgid "Kernels"
-#~ msgstr "Çəyirdəklər"
-
-#~ msgid "Multimedia Applications"
-#~ msgstr "Multimediya Proqramları"
-
-#~ msgid "Office and Productivity Applications"
-#~ msgstr "Offis və İş Proqramları"
-
-#~ msgid "Securities"
-#~ msgstr "Təhlükəsizlik"
-
-#~ msgid "System"
-#~ msgstr "Sistem"
-
-#~ msgid "Utilities"
-#~ msgstr "Vasitələr"
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid "Titlepage"
-#~ msgstr "Başlıq səhifəsi"
-
-#~ msgid "The selected document could not be opened"
-#~ msgstr "Seçili sənəd açıla bilmədi"
-
-#~ msgid "The table of contents could not be read."
-#~ msgstr "Məzmun oxuna bilmədi."
-
-#~ msgid "DocBook SGML documents are no longer supported."
-#~ msgstr "DocBook SGML sənədləri artıq dəstəklənmir."
-
-#~ msgid "The selected file could not be read."
-#~ msgstr "Seçili fayl oxuna bilmədi."
-
-#~ msgid "X11"
-#~ msgstr "X11"
-
-#~ msgid "OpenSSL"
-#~ msgstr "OpenSSL"
-
-#~ msgid "Termcap"
-#~ msgstr "Termcap"
-
-#~ msgid "Perl"
-#~ msgstr "Perl"
-
-#~ msgid "Qt"
-#~ msgstr "Qt"
-
-#~ msgid "TIFF"
-#~ msgstr "TIFF"
-
-#~ msgid "PThreads"
-#~ msgstr "PThreads"
-
-#~ msgid "Categories"
-#~ msgstr "Kateqoriyalar"
-
-#~ msgid "&#8216;"
-#~ msgstr "&#8216;"
-
-#~ msgid "&#8217;"
-#~ msgstr "&#8217;"
-
-#~ msgid "&#8220;"
-#~ msgstr "&#8220;"
-
-#~ msgid "&#8221;"
-#~ msgstr "&#8221;"
-
-#~ msgid "About This Article"
-#~ msgstr "Bu Məqalə Haqqında"
-
-#~ msgid "About This Bibliography"
-#~ msgstr "Bu Biblioqrafiya Haqqında"
-
-#~ msgid "About This Book"
-#~ msgstr "Bu Kitab Haqqında"
-
-#~ msgid "About This Chapter"
-#~ msgstr "Bu Fəsil Haqqında"
-
-#~ msgid "About This Entry"
-#~ msgstr "Bu Giriş Haqqında"
-
-#~ msgid "About This Glossary"
-#~ msgstr "Bu Lüğət Haqqında"
-
-#~ msgid "About This Index"
-#~ msgstr "Bu Məzmun Haqqında"
-
-#~ msgid "About This Part"
-#~ msgstr "Bu Qisim Haqqında"
-
-#~ msgid "About This Preface"
-#~ msgstr "Bu Giriş Haqqında"
-
-#~ msgid "About This Reference"
-#~ msgstr "Bu Bələdçi Haqqında"
-
-#~ msgid "About This Section"
-#~ msgstr "Bu Bölmə Haqqında"
-
-#~ msgid "Affiliation"
-#~ msgstr "Bağlılıq"
-
-#~ msgid "Appendix"
-#~ msgstr "Əlavə"
-
-#~ msgid "Article"
-#~ msgstr "Məqalə"
-
-#~ msgid "Audience"
-#~ msgstr "Audiyensiya"
-
-#~ msgid "Author"
-#~ msgstr "Müəllif"
-
-#~ msgid "Authors"
-#~ msgstr "Müəlliflər"
-
-#~ msgid "Bibliography"
-#~ msgstr "Biblioqrafiya"
-
-#~ msgid "Caution"
-#~ msgstr "Diqqət"
-
-#~ msgid "Chapter"
-#~ msgstr "Fəsil"
-
-#~ msgid "Collaborator"
-#~ msgstr "İkinci Müəllif"
-
-#~ msgid "Collaborators"
-#~ msgstr "Digər Müəlliflər"
-
-#~ msgid "Colophon"
-#~ msgstr "Kolofon"
-
-#~ msgid "Copyright"
-#~ msgstr "Müəllif Hüququ"
-
-#~ msgid "Copyrights"
-#~ msgstr "Müəllif Hüququ"
-
-#~ msgid "Date"
-#~ msgstr "Tarix"
-
-#~ msgid "Dedication"
-#~ msgstr "Həsr"
-
-#~ msgid "Editor"
-#~ msgstr "Editor"
-
-#~ msgid "Email"
-#~ msgstr "Epoçt"
-
-#~ msgid "Example"
-#~ msgstr "Nümunə"
-
-#~ msgid "Figure"
-#~ msgstr "Fiqur"
-
-#~ msgid "Glossary"
-#~ msgstr "Lüğət"
-
-#~ msgid "Important"
-#~ msgstr "Vacib"
-
-#~ msgid "Index"
-#~ msgstr "Məzmun"
-
-#~ msgid "Legal Notice"
-#~ msgstr "Rəsmi Qeyd"
-
-#~ msgid "Level"
-#~ msgstr "Səviyyə"
-
-#~ msgid "Message Audience"
-#~ msgstr "İsmarış Audiyensiyası"
-
-#~ msgid "Message Level"
-#~ msgstr "İsmarış Səviyyəsi"
-
-#~ msgid "Message Origin"
-#~ msgstr "İsmarış Mənbəsi"
-
-#~ msgid "Note"
-#~ msgstr "Qeyd"
-
-#~ msgid "Origin"
-#~ msgstr "Mənbə"
-
-#~ msgid "Other Contributor"
-#~ msgstr "Digər Köməkçi"
-
-#~ msgid "Other Contributors"
-#~ msgstr "Digər Köməkçilər"
-
-#~ msgid "Part"
-#~ msgstr "Hissə"
-
-#~ msgid "Preface"
-#~ msgstr "Giriş"
-
-#~ msgid "Publisher"
-#~ msgstr "Nəşriyyatçı"
-
-#~ msgid "Publishers"
-#~ msgstr "Nəşriyyatçılar"
-
-#~ msgid "Reference"
-#~ msgstr "Bələdçi"
-
-#~ msgid "Reference Entry"
-#~ msgstr "Bələdçi Boşdur"
-
-#~ msgid "Reference Section"
-#~ msgstr "Bələdçi Qismi"
-
-#~ msgid "Release Information"
-#~ msgstr "Buraxılış Mə'lumatı"
-
-#~ msgid "Revision History"
-#~ msgstr "Reviziya Keçmişi"
-
-#~ msgid "See"
-#~ msgstr "Baxın"
-
-#~ msgid "Set Index"
-#~ msgstr "Məzmunu Seç"
-
-#~ msgid "Table"
-#~ msgstr "Cədvəl"
-
-#  GList           *seriesids;
-#~ msgid "Table of Contents"
-#~ msgstr "Məzmun"
-
-#~ msgid "Tip"
-#~ msgstr "Məsləhət"
-
-#~ msgid "Title"
-#~ msgstr "Başlıq"
-
-#~ msgid "Warning"
-#~ msgstr "Xəbərdarlıq"
-
-#~ msgid "Document URI"
-#~ msgstr "Sənəd URI-si"
-
-#~ msgid "The URI of the document to be processed"
-#~ msgstr "İşlənəcək sənədin URI-si"
-
-#~ msgid "/Edit/Find Pre_vious"
-#~ msgstr "/Düzəlt/Ə_vvəlkini Axtar"
-
-#~ msgid "/Go/_Back"
-#~ msgstr "/Get/_Geri"
-
-#~ msgid "/Go/_Forward"
-#~ msgstr "/Get/_İrəli"
-
-#~ msgid "/Go/_Home"
-#~ msgstr "/Get/_Ev"
-
-#~ msgid "/Go/"
-#~ msgstr "/Get/"
-
-#  GList           *seriesids;
-#~ msgid "/Go/_Contents"
-#~ msgstr "/Get/_Məzmun"
+msgstr ""

@@ -1,93 +1,76 @@
-# translation of yelp.po to Norwegian Nynorsk
-# Norwegian/Nynorsk translation of yelp.
-# Copyright (C) 2002, 2003, 2004, 2006 Free Software Foundation, Inc.
-#
-# Roy-Magne Mo <rmo@sunnmore.net>, 2002.
-# Åsmund Skjæveland <aasmunds@fys.uio.no>, 2003, 2004, 2006.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# Åsmund Skjæveland <aasmunds@fys.uio.no>, 2003-2004,2006
 # Eskild Hustvedt <eskildh@gnome.org>, 2008
+# Roy-Magne Mo <rmo@sunnmore.net>, 2002
 msgid ""
 msgstr ""
-"Project-Id-Version: nn\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2008-03-31 11:21+0200\n"
-"Last-Translator: Eskild Hustvedt <eskildh@gnome.org>\n"
-"Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
-"Language: nn\n"
+"PO-Revision-Date: 2019-10-04 14:18+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Norwegian Nynorsk (http://www.transifex.com/endless-os/yelp/language/nn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: MagicPO 0.3\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Language: nn\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr "Internett"
 
-#
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
-#, fuzzy
 msgid "Documents &amp; Files"
-msgstr "Lyd &amp; bilete"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "Skrivebord"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -99,17 +82,14 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr ""
 
 #: data/yelp.appdata.xml.in:6
-#, fuzzy
 msgid "GNOME Help"
-msgstr "GNOME Hjelplesar"
+msgstr ""
 
 #: data/yelp.appdata.xml.in:7
 msgid "Help viewer for GNOME"
@@ -123,8 +103,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -142,22 +122,20 @@ msgid "Invalid compressed data"
 msgstr ""
 
 #: libyelp/yelp-bz2-decompressor.c:149 libyelp/yelp-lzma-decompressor.c:158
-#, fuzzy
 msgid "Not enough memory"
-msgstr "Tom for minne"
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:292 libyelp/yelp-info-document.c:221
 #: libyelp/yelp-mallard-document.c:306 libyelp/yelp-mallard-document.c:464
 #: libyelp/yelp-man-document.c:199
-#, fuzzy, c-format
+#, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
-msgstr "Sida %s vart ikkje funne i dokument %s."
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:331 libyelp/yelp-info-document.c:358
 #: libyelp/yelp-man-document.c:336
-#, fuzzy
 msgid "The file does not exist."
-msgstr "Fila «%s» finst ikkje."
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:341 libyelp/yelp-info-document.c:368
 #: libyelp/yelp-man-document.c:346
@@ -170,34 +148,29 @@ msgstr "Fila «%s» finst ikkje."
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"Fila «%s» kunne ikkje leses fordi den ikkje er eit gyldig utformet XML-"
-"dokument."
+msgstr "Fila «%s» kunne ikkje leses fordi den ikkje er eit gyldig utformet XML-dokument."
 
 #: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"Fila «%s» kunne ikkje tolkes fordi den eller ein inkludert fil ikkje er "
-"velformet XML."
+msgstr "Fila «%s» kunne ikkje tolkes fordi den eller ein inkludert fil ikkje er velformet XML."
 
-#
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
 msgstr "Ukjend"
 
 #: libyelp/yelp-docbook-document.c:908 libyelp/yelp-info-document.c:301
 #: libyelp/yelp-man-document.c:279
-#, fuzzy, c-format
+#, c-format
 msgid "The requested page was not found in the document ‘%s’."
-msgstr "Etterspurd side vart ikkje funne i dokument %s."
+msgstr ""
 
 #: libyelp/yelp-document.c:1068
-#, fuzzy, c-format
+#, c-format
 msgid "Search results for “%s”"
-msgstr "Søkjeresultat for «%s»"
+msgstr ""
 
 #: libyelp/yelp-document.c:1080
 #, c-format
@@ -209,38 +182,34 @@ msgid "No matching help pages found."
 msgstr ""
 
 #: libyelp/yelp-error.c:35
-#, fuzzy
 msgid "An unknown error occurred."
-msgstr "Ein ukjend feil oppstod"
+msgstr ""
 
 #: libyelp/yelp-help-list.c:548 libyelp/yelp-help-list.c:557
-#, fuzzy
 msgid "All Help Documents"
-msgstr "Hjelpinnhald"
+msgstr ""
 
 #: libyelp/yelp-info-document.c:383
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"Fila «%s» kunne ikkje tolkes fordi den ikkje er ein velformet info-side."
+msgstr "Fila «%s» kunne ikkje tolkes fordi den ikkje er ein velformet info-side."
 
 #: libyelp/yelp-mallard-document.c:348
-#, fuzzy, c-format
+#, c-format
 msgid "The directory ‘%s’ does not exist."
-msgstr "Fila «%s» finst ikkje."
+msgstr ""
 
 #: libyelp/yelp-search-entry.c:434
-#, fuzzy, c-format
+#, c-format
 msgid "Search for “%s”"
-msgstr "Søkjeresultat for «%s»"
+msgstr ""
 
 #: libyelp/yelp-transform.c:370 libyelp/yelp-transform.c:385
-#, fuzzy, c-format
+#, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
-msgstr "XSLT-stilark «%s» manglar eller er ugyldig."
+msgstr ""
 
-#
 #: libyelp/yelp-transform.c:519
 msgid "No href attribute found on yelp:document\n"
 msgstr "Inga href-attributt funne på yelp:document\n"
@@ -254,52 +223,46 @@ msgid "C_opy Code Block"
 msgstr ""
 
 #: libyelp/yelp-view.c:257
-#, fuzzy
 msgid "_Copy Link Location"
-msgstr "Åpne plassering"
+msgstr ""
 
 #: libyelp/yelp-view.c:262
 msgid "_Open Link"
 msgstr "_Opne lenke"
 
 #: libyelp/yelp-view.c:267
-#, fuzzy
 msgid "Open Link in New _Window"
-msgstr "Opne lenke i _nytt vindauge"
+msgstr ""
 
 #: libyelp/yelp-view.c:277
-#, fuzzy
 msgid "_Install Packages"
-msgstr "Manualsider"
+msgstr ""
 
 #: libyelp/yelp-view.c:282
 msgid "Save Code _Block As…"
 msgstr ""
 
 #: libyelp/yelp-view.c:297
-#, fuzzy
 msgid "_Copy Text"
-msgstr "_Kopier"
+msgstr ""
 
 #: libyelp/yelp-view.c:809 libyelp/yelp-view.c:2138
-#, fuzzy, c-format
+#, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
-msgstr "Fila «%s» finst ikkje."
+msgstr ""
 
 #: libyelp/yelp-view.c:815 libyelp/yelp-view.c:2144
 msgid "The URI does not point to a valid page."
 msgstr ""
 
 #: libyelp/yelp-view.c:820 libyelp/yelp-view.c:2150
-#, fuzzy, c-format
+#, c-format
 msgid "The URI ‘%s’ could not be parsed."
-msgstr "Fila «%s» finst ikkje."
+msgstr ""
 
-#
 #: libyelp/yelp-view.c:825
-#, fuzzy
 msgid "Unknown Error."
-msgstr "Ukjend feil"
+msgstr ""
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -335,33 +298,26 @@ msgid "S_end Video To…"
 msgstr ""
 
 #: libyelp/yelp-view.c:1876
-#, fuzzy, c-format
+#, c-format
 msgid "Could not load a document for ‘%s’"
-msgstr "Klarte ikke å lasta dokumentet"
+msgstr ""
 
 #: libyelp/yelp-view.c:1882
-#, fuzzy
 msgid "Could not load a document"
-msgstr "Klarte ikke å lasta dokumentet"
+msgstr ""
 
 #: libyelp/yelp-view.c:1966
-#, fuzzy
 msgid "Document Not Found"
-msgstr "Dokumentdelar"
+msgstr ""
 
-#
 #: libyelp/yelp-view.c:1968
-#, fuzzy
 msgid "Page Not Found"
-msgstr "Side ikkje funne"
+msgstr ""
 
-#
 #: libyelp/yelp-view.c:1971
-#, fuzzy
 msgid "Cannot Read"
-msgstr "Kan ikkje oppretta vindauge"
+msgstr ""
 
-#
 #: libyelp/yelp-view.c:1977
 msgid "Unknown Error"
 msgstr "Ukjend feil"
@@ -376,39 +332,32 @@ msgid "Help"
 msgstr "Hjelp"
 
 #: src/yelp-window.c:348
-#, fuzzy
 msgid "Back"
-msgstr "Til_bake"
+msgstr ""
 
 #: src/yelp-window.c:355
-#, fuzzy
 msgid "Forward"
-msgstr "_Framover"
+msgstr ""
 
 #: src/yelp-window.c:366
 msgid "Menu"
 msgstr ""
 
 #: src/yelp-window.c:371
-#, fuzzy
 msgid "New Window"
-msgstr "_Nytt vindauge"
+msgstr ""
 
 #: src/yelp-window.c:372
-#, fuzzy
 msgid "Find…"
-msgstr "Finn"
+msgstr ""
 
-#
 #: src/yelp-window.c:373
-#, fuzzy
 msgid "Print…"
-msgstr "Skriv ut"
+msgstr ""
 
 #: src/yelp-window.c:378
-#, fuzzy
 msgid "Previous Page"
-msgstr "F_ørre"
+msgstr ""
 
 #: src/yelp-window.c:379
 msgid "Next Page"
@@ -423,9 +372,8 @@ msgid "Smaller Text"
 msgstr ""
 
 #: src/yelp-window.c:390
-#, fuzzy
 msgid "All Help"
-msgstr "Hjelp"
+msgstr ""
 
 #: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
@@ -436,9 +384,8 @@ msgid "Bookmarks"
 msgstr "Bokmerker"
 
 #: src/yelp-window.c:444
-#, fuzzy
 msgid "No bookmarks"
-msgstr "Bokmerker"
+msgstr ""
 
 #: src/yelp-window.c:452
 msgid "Add Bookmark"
@@ -448,7 +395,6 @@ msgstr "Legg til bokmerke"
 msgid "Remove Bookmark"
 msgstr "Fjern bokmerke"
 
-#
 #: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
 msgstr "Få hjelp om GNOME"
@@ -458,1357 +404,5 @@ msgid "documentation;information;manual;help;"
 msgstr ""
 
 #: org.gnome.Yelp.desktop.in.in:8
-#, fuzzy
 msgid "help-browser"
-msgstr "Hjelplesar"
-
-#~ msgid "GNU Info Pages"
-#~ msgstr "GNU info-sider"
-
-#
-#~ msgid "Traditional command line help (info)"
-#~ msgstr "Tradisjonell hjelp for kommandolinja (info)"
-
-#~ msgid "Applications"
-#~ msgstr "Program"
-
-#
-#~ msgid "BLT Functions"
-#~ msgstr "BLT-funksjonar"
-
-#~ msgid "Configuration Files"
-#~ msgstr "Oppsettfiler"
-
-#
-#~ msgid "Curses Functions"
-#~ msgstr "Curses-funksjonar"
-
-#~ msgid "Development"
-#~ msgstr "Utvikling"
-
-#~ msgid "FORTRAN Functions"
-#~ msgstr "FORTRAN-funksjonar"
-
-#~ msgid "Games"
-#~ msgstr "Spel"
-
-#~ msgid "Hardware Devices"
-#~ msgstr "Maskinvareeiningar"
-
-#~ msgid "Kernel Routines"
-#~ msgstr "Kjernerutiner"
-
-#
-#~ msgid "Network Audio Sound Functions"
-#~ msgstr "Network Audio Sound-funksjonar"
-
-#~ msgid "OpenSSL Applications"
-#~ msgstr "OpenSSL-program"
-
-#~ msgid "OpenSSL Configuration"
-#~ msgstr "Oppsettfiler for OpenSSL"
-
-#
-#~ msgid "OpenSSL Functions"
-#~ msgstr "OpenSSL-funksjonar"
-
-#~ msgid "OpenSSL Overviews"
-#~ msgstr "OpenSSL-oversikter"
-
-#~ msgid "Overviews"
-#~ msgstr "Oversikter"
-
-#~ msgid "POSIX Functions"
-#~ msgstr "POSIX-funksjonar"
-
-#~ msgid "POSIX Headers"
-#~ msgstr "POSIX-hovud"
-
-#~ msgid "Perl Functions"
-#~ msgstr "Perl-funksjonar"
-
-#~ msgid "Qt Functions"
-#~ msgstr "Qt-funksjonar"
-
-#
-#~ msgid "Readline Functions"
-#~ msgstr "Readline-funksjonar"
-
-#
-#~ msgid "Section 0p"
-#~ msgstr "Seksjon 0p"
-
-#
-#~ msgid "Section 1m"
-#~ msgstr "Seksjon 1m"
-
-#
-#~ msgid "Section 1ssl"
-#~ msgstr "Seksjon 1ssl"
-
-#
-#~ msgid "Section 1x"
-#~ msgstr "Seksjon 1x"
-
-#
-#~ msgid "Section 2"
-#~ msgstr "Seksjon 2"
-
-#
-#~ msgid "Section 3blt"
-#~ msgstr "Seksjon 3blt"
-
-#
-#~ msgid "Section 3f"
-#~ msgstr "Seksjon 3f"
-
-#
-#~ msgid "Section 3nas"
-#~ msgstr "Seksjon 3nas"
-
-#
-#~ msgid "Section 3p"
-#~ msgstr "Seksjon 3p"
-
-#
-#~ msgid "Section 3qt"
-#~ msgstr "Seksjon 3qt"
-
-#
-#~ msgid "Section 3readline"
-#~ msgstr "Seksjon 3readline"
-
-#
-#~ msgid "Section 3ssl"
-#~ msgstr "Seksjon 3ssl"
-
-#
-#~ msgid "Section 3tiff"
-#~ msgstr "Seksjon 3tiff"
-
-#
-#~ msgid "Section 4"
-#~ msgstr "Seksjon 4"
-
-#
-#~ msgid "Section 4x"
-#~ msgstr "Seksjon 4x"
-
-#
-#~ msgid "Section 5"
-#~ msgstr "Seksjon 5"
-
-#
-#~ msgid "Section 5ssl"
-#~ msgstr "Seksjon 5ssl"
-
-#
-#~ msgid "Section 5x"
-#~ msgstr "Seksjon 5x"
-
-#
-#~ msgid "Section 6"
-#~ msgstr "Seksjon 6"
-
-#
-#~ msgid "Section 6x"
-#~ msgstr "Seksjon 6x"
-
-#
-#~ msgid "Section 7ssl"
-#~ msgstr "Seksjon 7ssl"
-
-#
-#~ msgid "Section 7x"
-#~ msgstr "Seksjon 7x"
-
-#
-#~ msgid "Section 9"
-#~ msgstr "Seksjon 9"
-
-#
-#~ msgid "Sections 1, 1p, 1g and 1t"
-#~ msgstr "Seksjon 1, 1p, 1g og 1t"
-
-#
-#~ msgid "Sections 3, 3o, and 3t"
-#~ msgstr "Seksjon 3, 3o og 3t"
-
-#
-#~ msgid "Sections 3form and 3menu"
-#~ msgstr "Selsjon 3form og 3menu"
-
-#
-#~ msgid "Sections 3ncurses and 3curses"
-#~ msgstr "Seksjon 3ncurses og 3curses"
-
-#
-#~ msgid "Sections 3pm and 3perl"
-#~ msgstr "Seksjon 3pm og 3perl"
-
-#
-#~ msgid "Sections 3x and 3X11"
-#~ msgstr "Seksjon 3x og 3X11"
-
-#
-#~ msgid "Sections 7 and 7gcc"
-#~ msgstr "Seksjon 7 og 7gcc"
-
-#
-#~ msgid "Sections 8 and 8l"
-#~ msgstr "Seksjon 8 og 8l"
-
-#~ msgid "System Administration"
-#~ msgstr "Systemadministrasjon"
-
-#~ msgid "System Calls"
-#~ msgstr "Systemkall"
-
-#
-#~ msgid "System V Form/Menu Functions"
-#~ msgstr "System V skjema/meny-funksjonar"
-
-#
-#~ msgid "TIFF Functions"
-#~ msgstr "TIFF-funksjonar"
-
-#~ msgid "Termcap Applications"
-#~ msgstr "Termcap-program"
-
-#
-#~ msgid "Traditional command line help (man)"
-#~ msgstr "Tradisjonell hjelp for kommandolinja (ein)"
-
-#~ msgid "X11 Applications"
-#~ msgstr "X11-program"
-
-#~ msgid "X11 Configuration"
-#~ msgstr "Oppsettfiler for X11"
-
-#~ msgid "X11 Devices"
-#~ msgstr "X11-einingar"
-
-#~ msgid "X11 Functions"
-#~ msgstr "X11-funksjonar"
-
-#~ msgid "X11 Games"
-#~ msgstr "Spel for X11"
-
-#~ msgid "X11 Overviews"
-#~ msgstr "X11-oversikter"
-
-#
-#~ msgid "2D Graphics"
-#~ msgstr "2D-grafikk"
-
-#
-#~ msgid "3D Graphics"
-#~ msgstr "3D-grafikk"
-
-#~ msgid "Accessibility"
-#~ msgstr "Tilgjenge"
-
-#
-#~ msgid "Action Games"
-#~ msgstr "Action spel"
-
-#
-#~ msgid "Adventure Games"
-#~ msgstr "Eventyrspel"
-
-#
-#~ msgid "Amusement"
-#~ msgstr "Underholdning"
-
-#
-#~ msgid "Applications for viewing and manipulating graphics"
-#~ msgstr "Program for å manipulere eller visa grafikk"
-
-#
-#~ msgid "Applications related to audio and video"
-#~ msgstr "Program relatert til lyd og bilete"
-
-#
-#~ msgid "Applications that teach or aid in learning"
-#~ msgstr "Program for læring eller hjelp til læring"
-
-#
-#~ msgid "Arcade Games"
-#~ msgstr "Arkadespel"
-
-#
-#~ msgid "Archiving Tools"
-#~ msgstr "Arkiveringsverktøy"
-
-#
-#~ msgid "Art"
-#~ msgstr "Kunst"
-
-#
-#~ msgid "Artificial Intelligence"
-#~ msgstr "Kunstig intelligens"
-
-#
-#~ msgid "Astronomy"
-#~ msgstr "Astronomi"
-
-#
-#~ msgid "Biology"
-#~ msgstr "Biologi"
-
-#
-#~ msgid "Blocks Games"
-#~ msgstr "Blokkspel"
-
-#
-#~ msgid "Board Games"
-#~ msgstr "Brettspel"
-
-#
-#~ msgid "Building"
-#~ msgstr "Bygging"
-
-#
-#~ msgid "Calculator"
-#~ msgstr "Kalkulator"
-
-#
-#~ msgid "Calendar"
-#~ msgstr "Kalender"
-
-#
-#~ msgid "Card Games"
-#~ msgstr "Kortspel"
-
-#
-#~ msgid "Charting Tools"
-#~ msgstr "Plotteverktøy"
-
-#
-#~ msgid "Chat"
-#~ msgstr "Prat"
-
-#
-#~ msgid "Chemistry"
-#~ msgstr "Kjemi"
-
-#
-#~ msgid "Clocks"
-#~ msgstr "Klokker"
-
-#
-#~ msgid "Compression Tools"
-#~ msgstr "Komprimeringsverktøy"
-
-#
-#~ msgid "Computer Science"
-#~ msgstr "Informatikk"
-
-#
-#~ msgid "Construction"
-#~ msgstr "Konstruksjon"
-
-#
-#~ msgid "Contact Management"
-#~ msgstr "Kontakthandtering"
-
-#
-#~ msgid "Data Visualization"
-#~ msgstr "Datavisualisering"
-
-#
-#~ msgid "Databases"
-#~ msgstr "Databaser"
-
-#
-#~ msgid "Debuggers"
-#~ msgstr "Feilsøkere"
-
-#
-#~ msgid "Desktop Settings"
-#~ msgstr "Skrivebordsinnstillingar"
-
-#
-#~ msgid "Dialup"
-#~ msgstr "Oppringt samband"
-
-#
-#~ msgid "Dictionaries"
-#~ msgstr "Ordbøker"
-
-#
-#~ msgid "Disc Burning"
-#~ msgstr "CD-brenning"
-
-#
-#~ msgid "Economy"
-#~ msgstr "Økonomi"
-
-#
-#~ msgid "Education"
-#~ msgstr "Utdanning"
-
-#
-#~ msgid "Electricity"
-#~ msgstr "Elektrisitet"
-
-#
-#~ msgid "Electronics"
-#~ msgstr "Elektronikk"
-
-#
-#~ msgid "Email Tools"
-#~ msgstr "E-postverktøy"
-
-#
-#~ msgid "Emulator"
-#~ msgstr "Emulator"
-
-#
-#~ msgid "Engineering"
-#~ msgstr "Ingeniørfag"
-
-#
-#~ msgid "File Manager"
-#~ msgstr "Filhandterere"
-
-#
-#~ msgid "File Tools"
-#~ msgstr "Filverktøy"
-
-#
-#~ msgid "File Transfer"
-#~ msgstr "Filoverføring"
-
-#
-#~ msgid "Filesystem"
-#~ msgstr "Filsystem"
-
-#
-#~ msgid "Financial Tools"
-#~ msgstr "Finansverktøy"
-
-#
-#~ msgid "Flow Charting Tools"
-#~ msgstr "Flytdiagramverktøy"
-
-#
-#~ msgid "GNOME Applications"
-#~ msgstr "GNOME program"
-
-#
-#~ msgid "GTK"
-#~ msgstr "GTK"
-
-#
-#~ msgid "GUI Designers"
-#~ msgstr "Utforming av brukargrensesnitt"
-
-#
-#~ msgid "Generic applications for the GNOME environment"
-#~ msgstr "Generiske program for GNOME"
-
-#
-#~ msgid "Generic applications for the KDE environment"
-#~ msgstr "Program for KDE-miljøet"
-
-#
-#~ msgid "Geography"
-#~ msgstr "Geografi"
-
-#
-#~ msgid "Geology"
-#~ msgstr "Geologi"
-
-#
-#~ msgid "Geoscience"
-#~ msgstr "Geologi"
-
-#~ msgid "Graphics"
-#~ msgstr "Grafikk"
-
-#
-#~ msgid ""
-#~ "Guides and manuals for applications that connect to the outside world"
-#~ msgstr ""
-#~ "Veiledningar og handbøker for program for kommunikasjon med omverdenen"
-
-#
-#~ msgid "Guides for getting involved in development"
-#~ msgstr "Veiledningar for å verta involvert i utvikling"
-
-#
-#~ msgid "Ham Radio"
-#~ msgstr "Ham-radio"
-
-#
-#~ msgid "Hardware Settings"
-#~ msgstr "Maskinvareinnstillingar"
-
-#
-#~ msgid "Have some fun"
-#~ msgstr "Ha det moro"
-
-#
-#~ msgid "History"
-#~ msgstr "Historie"
-
-#
-#~ msgid "IDEs"
-#~ msgstr "Integrerte utviklingsmiljøer"
-
-#
-#~ msgid "IRC Clients"
-#~ msgstr "IRC-klienter"
-
-#
-#~ msgid "Image Processing"
-#~ msgstr "Bilethandtering"
-
-#
-#~ msgid "Instant Messaging"
-#~ msgstr "Lynmeldingar"
-
-#
-#~ msgid "Java"
-#~ msgstr "Java"
-
-#
-#~ msgid "KDE Applications"
-#~ msgstr "KDE program"
-
-#
-#~ msgid "Kids Games"
-#~ msgstr "Barnespel"
-
-#
-#~ msgid ""
-#~ "Learn more about making your system more accessible for a range of "
-#~ "disabilities"
-#~ msgstr ""
-#~ "Lær meir om å gjera systemet tilgjengeleg for ulike typar funksjonshemming"
-
-#
-#~ msgid "Licenses"
-#~ msgstr "Lisenser"
-
-#
-#~ msgid "Literature"
-#~ msgstr "Litteratur"
-
-#
-#~ msgid "Logic Games"
-#~ msgstr "Spel med logikk"
-
-#
-#~ msgid "Math"
-#~ msgstr "Matte"
-
-#
-#~ msgid "Medical Software"
-#~ msgstr "Medisinsk programvare"
-
-#
-#~ msgid "Midi"
-#~ msgstr "Midi"
-
-#
-#~ msgid "Miscellaneous Documentation"
-#~ msgstr "Ulik dokumentasjon"
-
-#
-#~ msgid "Mixers"
-#~ msgstr "Miksere"
-
-#
-#~ msgid "Monitor"
-#~ msgstr "Monitor"
-
-#
-#~ msgid "Motif"
-#~ msgstr "Motif"
-
-#
-#~ msgid "Music"
-#~ msgstr "Musikk"
-
-#
-#~ msgid "News"
-#~ msgstr "Nyheiter"
-
-#
-#~ msgid "Numerical Analysis"
-#~ msgstr "Numerisk analyse"
-
-#
-#~ msgid "OCR"
-#~ msgstr "OCR"
-
-#
-#~ msgid "Office Applications"
-#~ msgstr "Kontorprogram"
-
-#
-#~ msgid "Office applications"
-#~ msgstr "Kontorprogram"
-
-#~ msgid "Other Documentation"
-#~ msgstr "Annan dokumentasjon"
-
-#
-#~ msgid "P2P"
-#~ msgstr "P2P"
-
-#
-#~ msgid "PDA Communication"
-#~ msgstr "PDA-kommunikasjon"
-
-#
-#~ msgid "Package Manager"
-#~ msgstr "Pakkehandsamar"
-
-#
-#~ msgid "Parallel Computing"
-#~ msgstr "Parallelle utrekningar"
-
-#
-#~ msgid "Photography"
-#~ msgstr "Fotografi"
-
-#
-#~ msgid "Physics"
-#~ msgstr "Fysikk"
-
-#
-#~ msgid "Players"
-#~ msgstr "Spelere"
-
-#
-#~ msgid "Presentation Tools"
-#~ msgstr "Presentasjonsverktøy"
-
-#~ msgid "Printing"
-#~ msgstr "Skriv ut"
-
-#
-#~ msgid "Profiling Tools"
-#~ msgstr "Profileringsverktøy"
-
-#
-#~ msgid "Project Management Tools"
-#~ msgstr "Prosjekthandteringsverktøy"
-
-#
-#~ msgid "Publishing"
-#~ msgstr "Publisering"
-
-#
-#~ msgid "Qt"
-#~ msgstr "Qt"
-
-#
-#~ msgid "Raster Graphics"
-#~ msgstr "Rastergrafikk"
-
-#
-#~ msgid "Recorders"
-#~ msgstr "Opptakare"
-
-#
-#~ msgid "Remote Access"
-#~ msgstr "Fjernaksess"
-
-#
-#~ msgid "Revision Control"
-#~ msgstr "Revisjonskontroll"
-
-#
-#~ msgid "Robotics"
-#~ msgstr "Robotikk"
-
-#
-#~ msgid "Role Playing Games"
-#~ msgstr "Rollespel"
-
-#
-#~ msgid "Scanning"
-#~ msgstr "Skanning"
-
-#
-#~ msgid "Science"
-#~ msgstr "Vitskap"
-
-#
-#~ msgid "Security"
-#~ msgstr "Sikkerhet"
-
-#
-#~ msgid "Sequencers"
-#~ msgstr "Sequencere"
-
-#
-#~ msgid "Settings"
-#~ msgstr "Innstillingar"
-
-#
-#~ msgid ""
-#~ "Settings users can manipulate to make their environment more pleasant"
-#~ msgstr ""
-#~ "Innstillingar brukarar kan endra for å tilpassa datamaskinen til sine "
-#~ "behov"
-
-#
-#~ msgid "Simulation Games"
-#~ msgstr "Simulatorar"
-
-#
-#~ msgid "Sound"
-#~ msgstr "Lyd"
-
-#
-#~ msgid "Sound &amp; Video Editing"
-#~ msgstr "Lyd &amp; biletredigering"
-
-#
-#~ msgid "Sports"
-#~ msgstr "Sport"
-
-#
-#~ msgid "Sports Games"
-#~ msgstr "Sportspel"
-
-#
-#~ msgid "Spreadsheet Tools"
-#~ msgstr "Reknearkverktøy"
-
-#
-#~ msgid "Strategy Games"
-#~ msgstr "Strategispel"
-
-#
-#~ msgid "System"
-#~ msgstr "System"
-
-#
-#~ msgid "TV"
-#~ msgstr "TV"
-
-#
-#~ msgid "Telephony"
-#~ msgstr "Telefoni"
-
-#
-#~ msgid "Telephony Tools"
-#~ msgstr "Telefoniverktøy"
-
-#
-#~ msgid "Terminal Emulator"
-#~ msgstr "Terminalemulator"
-
-#
-#~ msgid "Text Editors"
-#~ msgstr "Tekstredigeringsprogram"
-
-#
-#~ msgid "Text Tools"
-#~ msgstr "Tekstverktøy"
-
-#
-#~ msgid "Tools to help you manage your computer"
-#~ msgstr "Verktøy for å handtere din datamaskin"
-
-#
-#~ msgid "Translation Tools"
-#~ msgstr "Verktøy for oversetting"
-
-#
-#~ msgid "Tuners"
-#~ msgstr "Radioer"
-
-#
-#~ msgid "Utilities"
-#~ msgstr "Verktøy"
-
-#
-#~ msgid "Utilities to help you get work done"
-#~ msgstr "Verktøy som hjelper for å få jobben gjort"
-
-#
-#~ msgid "Vector Graphics"
-#~ msgstr "Vektorgrafikk"
-
-#
-#~ msgid "Video"
-#~ msgstr "Video"
-
-#
-#~ msgid "Video Conference"
-#~ msgstr "Videokonferanse"
-
-#
-#~ msgid "Viewer"
-#~ msgstr "Vising"
-
-#
-#~ msgid "Web Browser"
-#~ msgstr "Nettlesar"
-
-#
-#~ msgid "Web Development"
-#~ msgstr "Webutvikling"
-
-#
-#~ msgid "Welcome to the GNOME Help Browser"
-#~ msgstr "Velkomen til GNOME hjelplesar"
-
-#
-#~ msgid "Word Processors"
-#~ msgstr "Teksthandsamarar"
-
-#~ msgid "<b>Accessibility</b>"
-#~ msgstr "<b>Tilgjenge</b>"
-
-#~ msgid "<b>Fonts</b>"
-#~ msgstr "<b>Skrifter</b>"
-
-#~ msgid "C_ase sensitive"
-#~ msgstr "_Skil mellom store og små bokstavar"
-
-#~ msgid "Preferences"
-#~ msgstr "Brukervalg"
-
-#~ msgid "Re_name"
-#~ msgstr "_Døyp om"
-
-#~ msgid "_Bookmarks:"
-#~ msgstr "_Bokmerker:"
-
-#~ msgid "_Browse with caret"
-#~ msgstr "_Vis markør"
-
-#~ msgid "_Find:"
-#~ msgstr "_Finn:"
-
-#~ msgid "_Fixed width:"
-#~ msgstr "_Fast breidd:"
-
-#~ msgid "_Location:"
-#~ msgstr "P_lassering:"
-
-#~ msgid "_Next"
-#~ msgstr "_Neste"
-
-#~ msgid "_Title:"
-#~ msgstr "_Tittel:"
-
-#~ msgid "_Use system fonts"
-#~ msgstr "Br_uk systemets skrifter"
-
-#~ msgid "_Variable width:"
-#~ msgstr "_Variabel breidd:"
-
-#~ msgid "_Wrap around"
-#~ msgstr "S_øk rundt"
-
-#~ msgid "Font for fixed text"
-#~ msgstr "Skrifttype for fastbreiddetekst"
-
-#~ msgid "Font for text"
-#~ msgstr "Skrifttype for tekst"
-
-#~ msgid "Font for text with fixed width."
-#~ msgstr "Skrifttype for tekst med fast teiknbreidde."
-
-#~ msgid "Font for text with variable width."
-#~ msgstr "Skrifttype for tekst med varierande teiknbreidde."
-
-#~ msgid "Use a keyboard-controllable caret when viewing pages."
-#~ msgstr "Bruk ein tastaturstyrt markør under framsyning av sider."
-
-#~ msgid "Use caret"
-#~ msgstr "Bruk markør"
-
-#~ msgid "Use system fonts"
-#~ msgstr "Bruk systemskrifttypar"
-
-#~ msgid "Use the default fonts set for the system."
-#~ msgstr "Bruk standardskrifttypane på systemet."
-
-#~ msgid "Open Bookmark in New Window"
-#~ msgstr "Opne bokmerke i nytt vindauge"
-
-#~ msgid "Rename Bookmark"
-#~ msgstr "Døyp om bokmerke"
-
-#~ msgid "A bookmark titled %s already exists for this page."
-#~ msgstr "Eit bokmerke som heiter «%s» finst alt for denne sida."
-
-#~ msgid "A bookmark titled <b>%s</b> already exists for this page."
-#~ msgstr "Eit bokmerke som heiter <b>%s</b> finst alt for denne sida."
-
-#~ msgid "Help Topics"
-#~ msgstr "Hjelpemne"
-
-#
-#~ msgid "File not found"
-#~ msgstr "Fil ikkje funne"
-
-#
-#~ msgid "Could not parse file"
-#~ msgstr "Kunne ikkje lesa fil"
-
-#
-#~ msgid "Could Not Read File"
-#~ msgstr "Kunne ikkje lesa fila"
-
-#
-#~ msgid "No information is available about this error."
-#~ msgstr "Inga informasjon er tilgjengeleg om denne feilen."
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be read and decoded. The file may be compressed "
-#~ "in an unsupported format."
-#~ msgstr ""
-#~ "Klarte ikkje å lesa og dekoda fila «%s». Fila kan vera komprimert på ein "
-#~ "måte som ikkje er støtta."
-
-#
-#~ msgid "Use a private session"
-#~ msgstr "Bruk ein privat sesjon"
-
-#~ msgid "Define which cache directory to use"
-#~ msgstr "Definer kva for mellomlagermappe som skal brukast"
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be parsed because it is not a well-formed man "
-#~ "page."
-#~ msgstr ""
-#~ "Fila «%s» kunne ikkje tolkes fordi den ikkje er ein velformet manualside."
-
-#~ msgid "Preparing to print"
-#~ msgstr "Gjer klar til utskrift"
-
-#~ msgid "Printing is not supported on this printer"
-#~ msgstr "Denne skrivaren kan ikkje skriva ut"
-
-#~ msgid "Printer %s does not support postscript printing."
-#~ msgstr "Skrivar %s støttar ikkje postscript utskrift."
-
-#~ msgid "Waiting to print"
-#~ msgstr "Ventar på å skriva ut"
-
-#~ msgid "An error occurred while printing"
-#~ msgstr "Ein feil oppstod under utskrift"
-
-#~ msgid "It was not possible to print your document: %s"
-#~ msgstr "Det er ikkje mogleg å skriva ut dokumentet: %s"
-
-#
-#~ msgid "the GNOME Support Forums"
-#~ msgstr "GNOME brukarforum"
-
-#~ msgid "No results for \"%s\""
-#~ msgstr "Inga resultat for «%s»"
-
-#
-#~ msgid ""
-#~ "Try using different words to describe the problem you're having or the "
-#~ "topic you want help with."
-#~ msgstr ""
-#~ "Prøv å bruka ulike ord til å skildra problemet du har eller emnet du "
-#~ "ynskjer hjelp om."
-
-#~ msgid "Repeat the search online at %s"
-#~ msgstr "Gjenta søkjet på på nettet: %s"
-
-#
-#~ msgid ""
-#~ "a:about:an:are:as:at:be:broke:broken:by:can:can't:dialog:dialogue:do:"
-#~ "doesn't:doesnt:don't:dont:explain:for:from:get:gets:got:make:makes:not:"
-#~ "when:has:have:help:how:i:in:is:it:item:me:my:of:on:or:tell:that:the:thing:"
-#~ "this:to:what:where:who:will:with:won't:wont:why:work:working:works"
-#~ msgstr ""
-#~ "ein:om:er:som:ved:av:kan:kan ikkje:dialog:gjer:gjør ikkje:forklar:for:frå:"
-#~ "få:frå:fikk:når:har:ha:hjelp:korleis:eg:i:det:meg:min:på:eller:fortell:"
-#~ "det:ting:dette:til:kva:kor:vil:med:vil ikkje:hvorfor:fungere:fungerer:"
-#~ "kvifor"
-
-#
-#~ msgid "re"
-#~ msgstr "re:"
-
-#
-#~ msgid "ers:er:ing:es:s:'s"
-#~ msgstr "ere:er:ing:es:s"
-
-#
-#~ msgid "No Comment"
-#~ msgstr "Inga kommentar"
-
-#
-#~ msgid "Search could not be processed"
-#~ msgstr "Kunne ikkje prosessere søkjet"
-
-#
-#~ msgid "The requested search could not be processed."
-#~ msgstr "Forespurd søk kunne ikkje prosesserast."
-
-#
-#~ msgid "Cannot process the search"
-#~ msgstr "Kunne ikkje prosessere søkjet"
-
-#
-#~ msgid "The search processor returned invalid results"
-#~ msgstr "Søkjeprosessoren returnerte ugyldige resultat"
-
-#~ msgid "The page %s was not found in the TOC."
-#~ msgstr "%s-siden vart ikkje funne i innhaldsforteiknelsen."
-
-#
-#~ msgid "The requested page was not found in the TOC."
-#~ msgstr "Etterspurd side vart ikkje funne i innhaldsforteiknelsen."
-
-#
-#~ msgid ""
-#~ "The TOC file could not be parsed because it is not a well-formed XML "
-#~ "document."
-#~ msgstr ""
-#~ "Innhaldsforteiknelsen kunne ikkje tolkes fordi den ikkje er eit velformet "
-#~ "XML-dokument."
-
-#
-#~ msgid "Invalid Stylesheet"
-#~ msgstr "Ugyldig stilark"
-
-#
-#~ msgid "Broken Transformation"
-#~ msgstr "Feil i transformasjon"
-
-#
-#~ msgid ""
-#~ "An unknown error occurred while attempting to transform the document."
-#~ msgstr "Ein ukjend feil oppsto under forsøk på å transformere dokumentet."
-
-#~ msgid "_File"
-#~ msgstr "_Fil"
-
-#~ msgid "_Edit"
-#~ msgstr "R_ediger"
-
-#~ msgid "_Go"
-#~ msgstr "_Gå"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "_Bokmerker"
-
-#~ msgid "_Help"
-#~ msgstr "_Hjelp"
-
-#
-#~ msgid "Print This Document ..."
-#~ msgstr "Skriv ut dette dokumentet..."
-
-#
-#~ msgid "Print This Page ..."
-#~ msgstr "Skriv ut denne sida..."
-
-#~ msgid "About This Document"
-#~ msgstr "Om dette dokumentet"
-
-#~ msgid "Open _Location"
-#~ msgstr "Opne p_lassering"
-
-#~ msgid "_Close Window"
-#~ msgstr "_Lukk vindauge"
-
-#~ msgid "_Select All"
-#~ msgstr "_Merk alt"
-
-#~ msgid "_Find..."
-#~ msgstr "_Finn ..."
-
-#~ msgid "Find Pre_vious"
-#~ msgstr "Finn f_ørre"
-
-#~ msgid "Find previous occurrence of the word or phrase"
-#~ msgstr "Finn det førre tilfellet av ordet eller uttrykket"
-
-#~ msgid "Find Ne_xt"
-#~ msgstr "Finn _neste"
-
-#~ msgid "Find next occurrence of the word or phrase"
-#~ msgstr "Finn det neste tilfellet av ordet eller uttrykket"
-
-#~ msgid "_Preferences"
-#~ msgstr "_Innstillingar"
-
-#~ msgid "_Reload"
-#~ msgstr "_Last på nytt"
-
-#~ msgid "Show previous page in history"
-#~ msgstr "Vis førre side i historikken"
-
-#~ msgid "Show next page in history"
-#~ msgstr "Vis neste side i historikken"
-
-#~ msgid "_Help Topics"
-#~ msgstr "_Hjelpemne"
-
-#~ msgid "Go to the listing of help topics"
-#~ msgstr "Gå til oversikta over hjelpemne"
-
-#~ msgid "_Previous Section"
-#~ msgstr "F_ørre avsnitt"
-
-#~ msgid "_Next Section"
-#~ msgstr "Neste _avsnitt"
-
-#~ msgid "_Contents"
-#~ msgstr "_Innhald"
-
-#~ msgid "_Add Bookmark"
-#~ msgstr "_Legg til bokmerke"
-
-#~ msgid "_Edit Bookmarks..."
-#~ msgstr "R_ediger bokmerker..."
-
-#~ msgid "_Copy Link Address"
-#~ msgstr "_Kopier adressa til lenka"
-
-#~ msgid "Help On this application"
-#~ msgstr "Hjelp med dette programmet"
-
-#~ msgid "_About"
-#~ msgstr "_Om"
-
-#~ msgid "Copy _Email Address"
-#~ msgstr "Kopier _e-post-adresse"
-
-#~ msgid "Loading..."
-#~ msgstr "Lastar ..."
-
-#
-#~ msgid "Unknown Page"
-#~ msgstr "Ukjend side"
-
-#~ msgid "The requested URI \"%s\" is invalid"
-#~ msgstr "Etterspurd URI «%s» er ugyldig"
-
-#
-#~ msgid "Unable to load page"
-#~ msgstr "Kan ikkje lasta sida"
-
-#
-#~ msgid "Error executing \"gnome-open\""
-#~ msgstr "Feil ved køyring av «gnome-open»"
-
-#~ msgid "_Search:"
-#~ msgstr "_Søk:"
-
-#~ msgid "Search for other documentation"
-#~ msgstr "Søk etter annan dokumentasjon"
-
-#
-#~ msgid "Cannot create search component"
-#~ msgstr "Kan ikkje oppretta søkjekomponent"
-
-#~ msgid "Fin_d:"
-#~ msgstr "_Finn:"
-
-#~ msgid "Find _Previous"
-#~ msgstr "Finn f_ørre"
-
-#~ msgid "Find _Next"
-#~ msgstr "Finn _neste"
-
-#
-#~ msgid "Phrase not found"
-#~ msgstr "Uttrykk ikkje funne"
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be read.  This file might be missing, or you "
-#~ "might not have permissions to read it."
-#~ msgstr ""
-#~ "Fila «%s» kunne ikkje lesast. Kanskje fila ikkje finst, eller du ikkje "
-#~ "har lov til å lesa henne."
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "Roy-Magne Mo <rmo@sunnmore.net>\n"
-#~ "Åsmund Skjæveland <aasmunds@fys.uio.no>\n"
-#~ "Kjartan Maraas <kmaraas@gnome.org>\n"
-#~ "Eskild Hustvedt <eskildh@gnome.org>\n"
-#~ "\n"
-#~ "Send feilmeldingar og kommentarar til <i18n-nn@lister.ping.uio.no>"
-
-#~ msgid "Yelp"
-#~ msgstr "Yelp"
-
-#~ msgid "A documentation browser and viewer for the Gnome Desktop."
-#~ msgstr "Dokumenthandsamar og visar for GNOME skrivebordet."
-
-#~ msgid "Library Functions"
-#~ msgstr "Bibliotekfunksjonar"
-
-#~ msgid "Accessories"
-#~ msgstr "Ymse"
-
-#~ msgid "Education Applications"
-#~ msgstr "Opplæringsprogram"
-
-#~ msgid "KDE"
-#~ msgstr "KDE"
-
-#~ msgid "Multimedia"
-#~ msgstr "Multimedia"
-
-#~ msgid "Office"
-#~ msgstr "Kontor"
-
-#~ msgid "Other"
-#~ msgstr "Anna"
-
-#~ msgid "Panel Applets"
-#~ msgstr "Panelprogram"
-
-#~ msgid "Programming"
-#~ msgstr "Programmering"
-
-#~ msgid "Yelp Factory"
-#~ msgstr "Yelp-fabrikk"
-
-#~ msgid "Could not read the table of contents"
-#~ msgstr "Klarte ikkje å lasta innhaldslista"
-
-#~ msgid "Unsupported Format"
-#~ msgstr "Ikkje støtta format"
-
-#~ msgid "Could not activate Yelp: '%s'"
-#~ msgstr "Klarte ikkje å starta Yelp: «%s»"
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be parsed.  Either the file does not exist, or it "
-#~ "is formatted incorrectly."
-#~ msgstr ""
-#~ "Klarte ikkje å tolka fila «%s». Anten så finst ikkje fila, eller ho er "
-#~ "formatert feil."
-
-#~ msgid "The YelpDocInfo struct of the document"
-#~ msgstr "YelpDocInfo-strukturen i dokumentet"
-
-#~ msgid "Generating PDF is not currently supported"
-#~ msgstr "Å laga PDF er ikkje støtta no"
-
-#~ msgid ""
-#~ "You were trying to print to a printer using the \"%s\" driver.  This "
-#~ "program requires a PostScript printer driver."
-#~ msgstr ""
-#~ "Du prøvde å skriva til ein skrivar som brukar «%s»-drivaren. Dette "
-#~ "programmet krev ein PostScript-skrivardrivar."
-
-#~ msgid "<b>Printing</b>"
-#~ msgstr "<b>Skriv ut</b>"
-
-#~ msgid "_From:"
-#~ msgstr "_Frå:"
-
-#~ msgid "Sets the start of the range of pages to be printed"
-#~ msgstr "Vel starten på sideområdet som skal skrivast ut"
-
-#~ msgid "_To:"
-#~ msgstr "_Til:"
-
-#~ msgid "Sets the end of the range of pages to be printed"
-#~ msgstr "Vel slutten på sideområdet som skal skrivast ut"
-
-#~ msgid ""
-#~ "Your search could not be processed. The file ‘%s’ is either missing or is "
-#~ "not a valid XSLT stylesheet."
-#~ msgstr ""
-#~ "Søket kunne ikkje utførast. Fila «%s» manglar eller er ikkje eit gyldig "
-#~ "XSLT-stilark."
-
-#~ msgid "Could not load the OMF file '%s'."
-#~ msgstr "Klarte ikkje å lasta OMF-fila «%s»."
-
-#~ msgid "yelp-watermark-blockquote-201C"
-#~ msgstr "yelp-watermark-block-quote-00AB"
-
-#~ msgid "YelpTocPager: Pause count is negative."
-#~ msgstr "YelpTocPage: Talet på pausar er negativt."
-
-#~ msgid "Read man page for %s"
-#~ msgstr "Les manualside for %s"
-
-#~ msgid "Read info page for %s"
-#~ msgstr "Les infoside for %s"
-
-#~ msgid ""
-#~ "The table of contents could not be loaded. The file ‘%s’ is either "
-#~ "missing or is not well-formed XML."
-#~ msgstr ""
-#~ "Innhaldslista kunne ikkje lastast. Fila «%s» manglar eller er ikkje "
-#~ "velforma XML."
-
-#~ msgid "Command Line Help"
-#~ msgstr "Kommandolinjehjelp"
-
-#~ msgid ""
-#~ "The table of contents could not be processed. The file ‘%s’ is either "
-#~ "missing or is not a valid XSLT stylesheet."
-#~ msgstr ""
-#~ "Innhaldslista kunne ikkje lastast. Fila «%s» manglar eller er ikkje eit "
-#~ "gyldig XSLT-stilark."
-
-#~ msgid "The Uniform Resource Identifier for the file is invalid."
-#~ msgstr "URI-en til fila er ugyldig."
-
-#~ msgid ""
-#~ "The Uniform Resource Identifier ‘%s’ is invalid or does not point to an "
-#~ "actual file."
-#~ msgstr "URI-en «%s» er ugyldig eller peikar til ei fil som ikkje finst."
-
-#~ msgid "Man pages are not supported in this version."
-#~ msgstr "Man-sider er ikkje støtta i denne utgåva."
-
-#~ msgid "GNU info pages are not supported in this version"
-#~ msgstr "GNU info-sider er ikkje støtta i denne utgåva."
-
-#~ msgid "Search is not supported in this version."
-#~ msgstr "Søk er ikkje støtta i denne utgåva."
-
-#~ msgid ""
-#~ "SGML documents are no longer supported. Please ask the author of the "
-#~ "document to convert to XML."
-#~ msgstr ""
-#~ "SGML-dokument er ikkje støtta lenger. Be forfattaren om å gå over til XML."
-
-#~ msgid ""
-#~ "A transformation context could not be created for the file ‘%s’. The "
-#~ "format may not be supported."
-#~ msgstr ""
-#~ "Ein transformasjonskontekst kunne ikkje lagast for fila «%s». Formatet er "
-#~ "kanskje ikkje støtta."
-
-#~ msgid ""
-#~ "The section ‘%s’ does not exist in this document. If you were directed to "
-#~ "this section from a Help button in an application, please report this to "
-#~ "the maintainers of that application."
-#~ msgstr ""
-#~ "Delen «%s» finst ikkje i dette dokumentet. Dersom du vart sendt hit frå "
-#~ "ein «Hjelp»-knapp i eit program, vil programutviklarane setja pris på om "
-#~ "du melder frå om denne feilen."
-
-#~ msgid ""
-#~ "Could not display help for Yelp.\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Klarte ikkje å vsa hjelp for Yelp.\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be parsed. Either the file does not exist, or it "
-#~ "is improperly formatted."
-#~ msgstr ""
-#~ "Klarte ikkje tolka fila «%s». Anten så finst ikkje fila, eller så er ho "
-#~ "ikkje rett formatert."
+msgstr ""

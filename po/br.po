@@ -1,88 +1,74 @@
-# Breton translation of Yelp.
-# Copyright (C) 2004-2005 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-menu package.
-# Jérémy Ar Floc'h <jeremy.lefloch@gmail.com>, 2006.
-#
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# Jérémy Ar Floc'h <jeremy.lefloch@gmail.com>, 2006
 msgid ""
 msgstr ""
-"Project-Id-Version: Yelp 2.14\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2009-08-24 11:38+0100\n"
-"Last-Translator: Denis <denisarnuad@yahoo.fr>\n"
-"Language-Team: Britton\n"
-"Language: br\n"
+"PO-Revision-Date: 2019-10-04 14:18+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Breton (http://www.transifex.com/endless-os/yelp/language/br/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: br\n"
+"Plural-Forms: nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr "Kenrouedad"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "Burev"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -94,9 +80,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr ""
@@ -117,8 +101,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -200,9 +184,8 @@ msgid "An unknown error occurred."
 msgstr ""
 
 #: libyelp/yelp-help-list.c:548 libyelp/yelp-help-list.c:557
-#, fuzzy
 msgid "All Help Documents"
-msgstr "Endalc'hadoù ar skoazell"
+msgstr ""
 
 #: libyelp/yelp-info-document.c:383
 #, c-format
@@ -238,32 +221,28 @@ msgid "C_opy Code Block"
 msgstr ""
 
 #: libyelp/yelp-view.c:257
-#, fuzzy
 msgid "_Copy Link Location"
-msgstr "Digeriñ ul lec'hiad"
+msgstr ""
 
 #: libyelp/yelp-view.c:262
 msgid "_Open Link"
 msgstr "_Digeriñ un ere"
 
 #: libyelp/yelp-view.c:267
-#, fuzzy
 msgid "Open Link in New _Window"
-msgstr "Digeriñ an ere e-barzh ur prenestr nevez"
+msgstr ""
 
 #: libyelp/yelp-view.c:277
-#, fuzzy
 msgid "_Install Packages"
-msgstr "Pajennoù dornlevr"
+msgstr ""
 
 #: libyelp/yelp-view.c:282
 msgid "Save Code _Block As…"
 msgstr ""
 
 #: libyelp/yelp-view.c:297
-#, fuzzy
 msgid "_Copy Text"
-msgstr "_Eilañ"
+msgstr ""
 
 #: libyelp/yelp-view.c:809 libyelp/yelp-view.c:2138
 #, c-format
@@ -280,9 +259,8 @@ msgid "The URI ‘%s’ could not be parsed."
 msgstr ""
 
 #: libyelp/yelp-view.c:825
-#, fuzzy
 msgid "Unknown Error."
-msgstr "Fazi dianav"
+msgstr ""
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -318,14 +296,13 @@ msgid "S_end Video To…"
 msgstr ""
 
 #: libyelp/yelp-view.c:1876
-#, fuzzy, c-format
+#, c-format
 msgid "Could not load a document for ‘%s’"
-msgstr "N'eus ket tu da garkañ an teul"
+msgstr ""
 
 #: libyelp/yelp-view.c:1882
-#, fuzzy
 msgid "Could not load a document"
-msgstr "N'eus ket tu da garkañ an teul"
+msgstr ""
 
 #: libyelp/yelp-view.c:1966
 msgid "Document Not Found"
@@ -365,24 +342,20 @@ msgid "Menu"
 msgstr ""
 
 #: src/yelp-window.c:371
-#, fuzzy
 msgid "New Window"
-msgstr "_Prenestr nevez"
+msgstr ""
 
 #: src/yelp-window.c:372
-#, fuzzy
 msgid "Find…"
-msgstr "Klask"
+msgstr ""
 
 #: src/yelp-window.c:373
-#, fuzzy
 msgid "Print…"
-msgstr "Moullañ"
+msgstr ""
 
 #: src/yelp-window.c:378
-#, fuzzy
 msgid "Previous Page"
-msgstr "_Diaraok"
+msgstr ""
 
 #: src/yelp-window.c:379
 msgid "Next Page"
@@ -397,9 +370,8 @@ msgid "Smaller Text"
 msgstr ""
 
 #: src/yelp-window.c:390
-#, fuzzy
 msgid "All Help"
-msgstr "Skoazell"
+msgstr ""
 
 #: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
@@ -410,9 +382,8 @@ msgid "Bookmarks"
 msgstr "Sinedoù"
 
 #: src/yelp-window.c:444
-#, fuzzy
 msgid "No bookmarks"
-msgstr "Sinedoù"
+msgstr ""
 
 #: src/yelp-window.c:452
 msgid "Add Bookmark"
@@ -433,431 +404,3 @@ msgstr ""
 #: org.gnome.Yelp.desktop.in.in:8
 msgid "help-browser"
 msgstr ""
-
-#~ msgid "GNU Info Pages"
-#~ msgstr "Pajennoù GNU Info"
-
-#~ msgid "Applications"
-#~ msgstr "Arloadoù"
-
-#~| msgid "Qt Functions"
-#~ msgid "BLT Functions"
-#~ msgstr "Arc'hwelioù BLT"
-
-#~ msgid "Configuration Files"
-#~ msgstr "Restroù kefluniadur"
-
-#~ msgid "Development"
-#~ msgstr "Diorren"
-
-#~ msgid "FORTRAN Functions"
-#~ msgstr "Arc'hwelioù"
-
-#~ msgid "Games"
-#~ msgstr "C'hoarioù"
-
-#~ msgid "Hardware Devices"
-#~ msgstr "Trobarzhelloù periant"
-
-#~ msgid "OpenSSL Applications"
-#~ msgstr "Arloadoù OpenSSL"
-
-#~ msgid "OpenSSL Configuration"
-#~ msgstr "Kefluniadur OpenSSL"
-
-#~| msgid "OpenSSL Applications"
-#~ msgid "OpenSSL Functions"
-#~ msgstr "Arc'hwelioù OpenSSL"
-
-#~ msgid "OpenSSL Overviews"
-#~ msgstr "A bep seurt OpenSSL"
-
-#~ msgid "Overviews"
-#~ msgstr "A bep seurt"
-
-#~ msgid "POSIX Functions"
-#~ msgstr "Arc'hwelioù POSIX"
-
-#~ msgid "POSIX Headers"
-#~ msgstr "Reollinoù POSIX"
-
-#~ msgid "Perl Functions"
-#~ msgstr "Arc'hwelioù Perl"
-
-#~ msgid "Qt Functions"
-#~ msgstr "Arc'hwelioù Qt"
-
-#, fuzzy
-#~| msgid "Perl Functions"
-#~ msgid "Readline Functions"
-#~ msgstr "Arc'hwelioù Perl"
-
-#, fuzzy
-#~| msgid "Scientific"
-#~ msgid "Section 3tiff"
-#~ msgstr "Skiantel"
-
-#~ msgid "System Administration"
-#~ msgstr "Mererezh ar reizhiad"
-
-#~| msgid "Qt Functions"
-#~ msgid "TIFF Functions"
-#~ msgstr "Arc'hwelioù TIFF"
-
-#~ msgid "Termcap Applications"
-#~ msgstr "Arloadoù Termcap"
-
-#~ msgid "X11 Applications"
-#~ msgstr "Arloadoù X11"
-
-#~ msgid "X11 Configuration"
-#~ msgstr "Kefluniadur X11"
-
-#~ msgid "X11 Devices"
-#~ msgstr "Trobarzhelloù X11"
-
-#~ msgid "X11 Functions"
-#~ msgstr "Arc'hwelioù X11"
-
-#~ msgid "X11 Games"
-#~ msgstr "C'hoarioù X11"
-
-#~ msgid "X11 Overviews"
-#~ msgstr "A bep seurt X11"
-
-#, fuzzy
-#~| msgid "Graphics"
-#~ msgid "2D Graphics"
-#~ msgstr "Grafikoù"
-
-#, fuzzy
-#~| msgid "Graphics"
-#~ msgid "3D Graphics"
-#~ msgstr "Grafikoù"
-
-#~ msgid "Accessibility"
-#~ msgstr "Haezadusted"
-
-#, fuzzy
-#~| msgid "Games"
-#~ msgid "Board Games"
-#~ msgstr "C'hoarioù"
-
-#, fuzzy
-#~| msgid "Games"
-#~ msgid "Card Games"
-#~ msgstr "C'hoarioù"
-
-#, fuzzy
-#~| msgid "Administration"
-#~ msgid "Construction"
-#~ msgstr "Mererezh"
-
-#~| msgid "Desktop"
-#~ msgid "Desktop Settings"
-#~ msgstr "Arventennoù ar burev"
-
-#~| msgid "System Tools"
-#~ msgid "Email Tools"
-#~ msgstr "Binvioù postelerezh"
-
-#~| msgid "X Applications"
-#~ msgid "GNOME Applications"
-#~ msgstr "Arloadoù GNOME"
-
-#~ msgid "GTK"
-#~ msgstr "GTK"
-
-#, fuzzy
-#~ msgid "Graphics"
-#~ msgstr "Grafikoù"
-
-#~| msgid "Hardware Devices"
-#~ msgid "Hardware Settings"
-#~ msgstr "Arventennoù ar periant"
-
-#~| msgid "X Applications"
-#~ msgid "KDE Applications"
-#~ msgstr "Arloadoù KDE"
-
-#, fuzzy
-#~| msgid "Games"
-#~ msgid "Kids Games"
-#~ msgstr "C'hoarioù"
-
-#, fuzzy
-#~| msgid "Games"
-#~ msgid "Logic Games"
-#~ msgstr "C'hoarioù"
-
-#, fuzzy
-#~| msgid "Other Documentation"
-#~ msgid "Miscellaneous Documentation"
-#~ msgstr "Diellerezh all"
-
-#, fuzzy
-#~| msgid "X Applications"
-#~ msgid "Office Applications"
-#~ msgstr "Arloadoù bureveg"
-
-#, fuzzy
-#~| msgid "X Applications"
-#~ msgid "Office applications"
-#~ msgstr "Arloadoù X"
-
-#~ msgid "Other Documentation"
-#~ msgstr "Diellerezh all"
-
-#, fuzzy
-#~| msgid "Pages"
-#~ msgid "Players"
-#~ msgstr "Pajennoù"
-
-#~ msgid "Printing"
-#~ msgstr "Moullañ"
-
-#~ msgid "Qt"
-#~ msgstr "Qt"
-
-#, fuzzy
-#~| msgid "Graphics"
-#~ msgid "Raster Graphics"
-#~ msgstr "Grafikoù"
-
-#, fuzzy
-#~| msgid "Scientific"
-#~ msgid "Science"
-#~ msgstr "Skiantel"
-
-#~ msgid "Security"
-#~ msgstr "Diogelroez"
-
-#~ msgid "Settings"
-#~ msgstr "Arventennoù"
-
-#~ msgid "Sound"
-#~ msgstr "Son"
-
-#, fuzzy
-#~| msgid "System Tools"
-#~ msgid "Spreadsheet Tools"
-#~ msgstr "Binvioù reizhiad"
-
-#~| msgid "System Tools"
-#~ msgid "System"
-#~ msgstr "Reizhiad"
-
-#~ msgid "TV"
-#~ msgstr "TV"
-
-#, fuzzy
-#~| msgid "System Tools"
-#~ msgid "Text Tools"
-#~ msgstr "Binvioù reizhiad"
-
-#, fuzzy
-#~| msgid "Graphics"
-#~ msgid "Vector Graphics"
-#~ msgstr "Grafikoù"
-
-#, fuzzy
-#~| msgid "Development"
-#~ msgid "Web Development"
-#~ msgstr "Diorren"
-
-#~ msgid "Re_name"
-#~ msgstr "_Adenvel"
-
-#~ msgid "_Bookmarks:"
-#~ msgstr "_Sinedoù :"
-
-#~ msgid "_Title:"
-#~ msgstr "_Titl :"
-
-#~ msgid "_Location:"
-#~ msgstr "_Lec'hiadur :"
-
-#~ msgid "Fonts"
-#~ msgstr "Nodrezhioù"
-
-#~ msgid "Preferences"
-#~ msgstr "Dibaboù gwellañ"
-
-#~ msgid "_Use system fonts"
-#~ msgstr "_Arverañ nodrezhoù ar reizhiad"
-
-#~ msgid "Font for text"
-#~ msgstr "Nodrezh evit an destenn"
-
-#~ msgid "Use system fonts"
-#~ msgstr "Arverañ nodrezhoù ar reizhiad"
-
-#~ msgid "Starting %s"
-#~ msgstr "O kregiñ gant %s"
-
-#~ msgid "FILE"
-#~ msgstr "RESTR"
-
-#~ msgid "ID"
-#~ msgstr "HENNADER (ID)"
-
-#~ msgid "Open Bookmark in New Window"
-#~ msgstr "Digeriñ e-barzh ur prenestr nevez"
-
-#~ msgid "Rename Bookmark"
-#~ msgstr "Adenvel ar sined"
-
-#~ msgid "Help Topics"
-#~ msgstr "Danvezioù ar skoazell"
-
-#, fuzzy
-#~| msgid "Could not read document"
-#~ msgid "Could not parse file"
-#~ msgstr "N'eus ket tu da lenn an teul"
-
-#~| msgid "Could not read document"
-#~ msgid "Could Not Read File"
-#~ msgstr "N'eus ket tu da lenn an teul"
-
-#~ msgid "Use a private session"
-#~ msgstr "Averañ un estez prevez"
-
-#, fuzzy
-#~| msgid "Document Information"
-#~ msgid "Broken Transformation"
-#~ msgstr "Stlennoù an teul"
-
-#~ msgid "_File"
-#~ msgstr "_Restr"
-
-#~ msgid "_Edit"
-#~ msgstr "_Kemmañ"
-
-#~ msgid "_Go"
-#~ msgstr "_Mont"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "_Sinedoù"
-
-#~ msgid "_Help"
-#~ msgstr "_Skoazell"
-
-#~| msgid "Print This Document"
-#~ msgid "Print This Document ..."
-#~ msgstr "Moullañ an teul-mañ..."
-
-#~| msgid "Print This Page"
-#~ msgid "Print This Page ..."
-#~ msgstr "Moullañ ar bajenn-mañ..."
-
-#~ msgid "About This Document"
-#~ msgstr "Diwar-benn an teul-mañ"
-
-#~ msgid "Open _Location"
-#~ msgstr "Digeriñ al lec'hiadur"
-
-#~ msgid "_Close Window"
-#~ msgstr "_Serriñ ar prenestr"
-
-#~ msgid "_Select All"
-#~ msgstr "_Diuz pep tra"
-
-#~ msgid "_Find..."
-#~ msgstr "_Kavout..."
-
-#~ msgid "_Preferences"
-#~ msgstr "_Gwellvezioù"
-
-#~ msgid "_Reload"
-#~ msgstr "_Adkargañ"
-
-#~ msgid "_Help Topics"
-#~ msgstr "Danvezioù ar skoazell"
-
-#~ msgid "_Contents"
-#~ msgstr "_Endalc'hadoù"
-
-#~ msgid "_Add Bookmark"
-#~ msgstr "_Ouzhpennañ d'ar sinedoù"
-
-#~ msgid "_Edit Bookmarks..."
-#~ msgstr "_Kemmañ ar sinedoù..."
-
-#~ msgid "_Copy Link Address"
-#~ msgstr "_Eilañ lec'hiadur an ere"
-
-#~ msgid "_About"
-#~ msgstr "_A-zivout"
-
-#~ msgid "Copy _Email Address"
-#~ msgstr "Eilañ ar postel"
-
-#~ msgid "Loading..."
-#~ msgstr "O kargañ..."
-
-#~| msgid "GNU Info Pages"
-#~ msgid "Unknown Page"
-#~ msgstr "Pajenn dianav"
-
-#~ msgid "_Search:"
-#~ msgstr "_Klask :"
-
-#~ msgid "Fin_d:"
-#~ msgstr "Klask :"
-
-#~ msgid "translator-credits"
-#~ msgstr "Jérémy Ar Floc'h <jeremy.lefloch@gmail.com>"
-
-#~ msgid "Yelp"
-#~ msgstr "Yelp"
-
-#~ msgid "Library Functions"
-#~ msgstr "Arc'hwelioù levraoueg"
-
-#~ msgid "Accessories"
-#~ msgstr "Mavegoù"
-
-#~ msgid "Education Applications"
-#~ msgstr "Arloadoù deskadurezh"
-
-#~ msgid "KDE"
-#~ msgstr "KDE"
-
-#~ msgid "Multimedia"
-#~ msgstr "Liesvedia"
-
-#~ msgid "Office"
-#~ msgstr "Bureveg"
-
-#~ msgid "Other"
-#~ msgstr "All"
-
-#~ msgid "Programming"
-#~ msgstr "Gouleviñ"
-
-#~ msgid "<b>Accessibility</b>"
-#~ msgstr "<b>Haezadusted</b>"
-
-#~ msgid "<b>Fonts</b>"
-#~ msgstr "<b>Nodrezhoù</b>"
-
-#~ msgid "_Find:"
-#~ msgstr "_Klask :"
-
-#~ msgid "_Next"
-#~ msgstr "_Da heul"
-
-#~ msgid "Yelp Factory"
-#~ msgstr "Aozerez Yelp"
-
-#~ msgid "Unsupported Format"
-#~ msgstr "Mentrezh anskoret"
-
-#~ msgid "<b>Printing</b>"
-#~ msgstr "<b>Moullañ</b>"
-
-#~ msgid "_From:"
-#~ msgstr "_Eus :"
-
-#~ msgid "_To:"
-#~ msgstr "_Da :"

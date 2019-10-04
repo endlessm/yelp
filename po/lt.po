@@ -1,93 +1,76 @@
-# translation of lt.po to Lithuanian
-# Lithuanian translation of yelp
-# Copyright (C) 2003-2006, 2007, 2008 Free Software Foundation, Inc.
-# Tomas Kuliavas <tokul@users.sourceforge.net>, 2003-2004.
-# Žygimantas Beručka  <zygis@gnome.org>, 2004-2006, 2010.
-# Gintautas Miliauskas <gintas@akl.lt>, 2006, 2007, 2008.
-# Aurimas Černius <aurisc4@gmail.com>, 2010-2019.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# aurisc4 <aurisc4@gmail.com>, 2010,2013-2016
+# Gintautas Miliauskas <gintas@akl.lt>, 2006-2008
+# Žygimantas Beručka  <zygis@gnome.org>, 2004-2006, 2010
 msgid ""
 msgstr ""
-"Project-Id-Version: lt\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2019-02-24 19:11+0200\n"
-"Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
-"Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
-"Language: lt\n"
+"PO-Revision-Date: 2019-10-04 14:22+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Lithuanian (http://www.transifex.com/endless-os/yelp/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Gtranslator 3.30.1\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "Įkėlimo būsena"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -99,9 +82,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Įdiegti <string/>"
@@ -118,25 +99,19 @@ msgstr "GNOME žinyno žiūryklė"
 msgid ""
 "Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
 "also display DocBook, info, man, and HTML documentation."
-msgstr ""
-"Yelp yra GNOME žinyno žiūryklė. Ji yra numatytoji Mallard žiūryklė, tačiau "
-"taip pat gali rodyti DocBook, info, man, ir HTML dokumentaciją."
+msgstr "Yelp yra GNOME žinyno žiūryklė. Ji yra numatytoji Mallard žiūryklė, tačiau taip pat gali rodyti DocBook, info, man, ir HTML dokumentaciją."
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
-msgstr ""
-"Interaktyvios paieškos ir žymelių dėka, ji leidžia lengvai rasti ieškomą "
-"dokumentaciją."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
+msgstr "Interaktyvios paieškos ir žymelių dėka, ji leidžia lengvai rasti ieškomą dokumentaciją."
 
 #: data/yelp.appdata.xml.in:17
 msgid ""
 "It also has an editor mode, which shows editorial comments and revision "
 "statuses when editing Mallard documents."
-msgstr ""
-"Joje taip pat yra redaktoriaus veiksena, kuri, redaguojant Mallard "
-"dokumentus, rodo redaktoriaus komentarus ir taisymų būsenas."
+msgstr "Joje taip pat yra redaktoriaus veiksena, kuri, redaguojant Mallard dokumentus, rodo redaktoriaus komentarus ir taisymų būsenas."
 
 #: data/yelp.appdata.xml.in:30
 msgid "The GNOME Project"
@@ -173,17 +148,14 @@ msgstr "Failas „%s“ neegzistuoja."
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"Nepavyko apdoroti failo „%s“, nes tai nėra tinkamai suformuotas XML failas."
+msgstr "Nepavyko apdoroti failo „%s“, nes tai nėra tinkamai suformuotas XML failas."
 
 #: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"Nepavyko apdoroti failo „%s“, nes bent vienas iš jo įtraukiamų failų nėra "
-"tinkamai suformuotas XML failas."
+msgstr "Nepavyko apdoroti failo „%s“, nes bent vienas iš jo įtraukiamų failų nėra tinkamai suformuotas XML failas."
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -221,9 +193,7 @@ msgstr "Visi pagalbos dokumentai"
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"Nepavyko apdoroti failo „%s“, nes tai nėra tinkamai suformuotas „info“ "
-"puslapis."
+msgstr "Nepavyko apdoroti failo „%s“, nes tai nėra tinkamai suformuotas „info“ puslapis."
 
 #: libyelp/yelp-mallard-document.c:348
 #, c-format
@@ -296,8 +266,7 @@ msgstr "Nežinoma klaida."
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"Jūs nesate įdiegę PackageKit. Paketų diegimo nuorodos reikalauja PackageKit."
+msgstr "Jūs nesate įdiegę PackageKit. Paketų diegimo nuorodos reikalauja PackageKit."
 
 #: libyelp/yelp-view.c:1226
 msgid "Save Image"
@@ -437,142 +406,3 @@ msgstr "dokumentacija;informacija;vadovas;žinynas;"
 #: org.gnome.Yelp.desktop.in.in:8
 msgid "help-browser"
 msgstr ""
-
-#~ msgid "Search for packages containing this document."
-#~ msgstr "Ieškoti paketų, turinčių šį dokumentaciją."
-
-#~ msgid "org.gnome.Yelp"
-#~ msgstr "org.gnome.Yelp"
-
-#~ msgid "Indexed"
-#~ msgstr "Suindeksuotas"
-
-#~ msgid "Whether the document content has been indexed"
-#~ msgstr "Ar dokumento turinys buvo suindeksuotas"
-
-#~ msgid "Document URI"
-#~ msgstr "Dokumento URI"
-
-#~ msgid "The URI which identifies the document"
-#~ msgstr "URI, identifikuojantis dokumentą"
-
-#~ msgid "View"
-#~ msgstr "Rodymas"
-
-#~ msgid "A YelpView instance to control"
-#~ msgstr "Valdomas YelpView egzempliorius"
-
-#~ msgid "A YelpBookmarks implementation instance"
-#~ msgstr "YelpBookmarks realizacijos egzempliorius"
-
-#~ msgid "GtkSettings"
-#~ msgstr "GtkSettings"
-
-#~ msgid "A GtkSettings object to get settings from"
-#~ msgstr "GtkSettings objektas, iš kurio gauti nustatymus"
-
-#~ msgid "GtkIconTheme"
-#~ msgstr "GtkIconTheme"
-
-#~ msgid "A GtkIconTheme object to get icons from"
-#~ msgstr "GtkIconTheme objektas, iš kurio gauti piktogramas"
-
-#~ msgid "Font Adjustment"
-#~ msgstr "Šrifto koregavimas"
-
-#~ msgid "A size adjustment to add to font sizes"
-#~ msgstr "Dydžio korekcija, pridedama prie šriftų dydžių"
-
-#~ msgid "Show Text Cursor"
-#~ msgstr "Rodyti teksto žymiklį"
-
-#~ msgid "Show the text cursor or caret for accessible navigation"
-#~ msgstr "Rodyti teksto žymeklį naršymo pritaikymui neįgaliems"
-
-#~ msgid "Editor Mode"
-#~ msgstr "Redaktoriaus veiksena"
-
-#~ msgid "Enable features useful to editors"
-#~ msgstr "Įjungti redaktoriams naudingas funkcijas"
-
-#~ msgid "Database filename"
-#~ msgstr "Duomenų bazės failo pavadinimas"
-
-#~ msgid "The filename of the sqlite database"
-#~ msgstr "Sqlite duomenų bazės failo pavadinimas"
-
-#~ msgid "XSLT Stylesheet"
-#~ msgstr "XSLT stiliaus aprašas"
-
-#~ msgid "The location of the XSLT stylesheet"
-#~ msgstr "XSLT stiliaus aprašo vieta"
-
-#~ msgid "Yelp URI"
-#~ msgstr "Yelp URI"
-
-#~ msgid "A YelpUri with the current location"
-#~ msgstr "YelpUri su dabartine vieta"
-
-#~ msgid "The loading state of the view"
-#~ msgstr "Rodinio įkėlimo būsena"
-
-#~ msgid "Page ID"
-#~ msgstr "Puslapio ID"
-
-#~ msgid "The ID of the root page of the page being viewed"
-#~ msgstr "Peržiūrimo puslapio pagrindinio puslapio ID"
-
-#~ msgid "Root Title"
-#~ msgstr "Pagrindinis pavadinimas"
-
-#~ msgid "The title of the root page of the page being viewed"
-#~ msgstr "Peržiūrimo puslapio pagrindinio puslapio pavadinimas"
-
-#~ msgid "Page Title"
-#~ msgstr "Puslapio pavadinimas"
-
-#~ msgid "The title of the page being viewed"
-#~ msgstr "Rodomo puslapio pavadinimas"
-
-#~ msgid "Page Description"
-#~ msgstr "Puslapio aprašymas"
-
-#~ msgid "The description of the page being viewed"
-#~ msgstr "Rodomo puslapio parašymas"
-
-#~ msgid "Page Icon"
-#~ msgstr "Puslapio piktograma"
-
-#~ msgid "The icon of the page being viewed"
-#~ msgstr "Rodomo puslapio piktograma"
-
-#~ msgid "Application"
-#~ msgstr "Programa"
-
-#~ msgid "A YelpApplication instance that controls this window"
-#~ msgstr "YelpApplication programa, valdanti šį langą"
-
-#~ msgid "Enable Search"
-#~ msgstr "Įjungti paiešką"
-
-#~ msgid "Whether the location entry can be used as a search field"
-#~ msgstr "Ar vietos įrašas gali būti naudojamas kaip paieškos laukas"
-
-#~| msgid "Search..."
-#~ msgid "Search…"
-#~ msgstr "Ieškoti…"
-
-#~ msgid "Clear the search text"
-#~ msgstr "Išvalyti paieškos tekstą"
-
-#~ msgid "Bookmark this page"
-#~ msgstr "Pažymėti šį puslapį"
-
-#~ msgid "Remove bookmark"
-#~ msgstr "Pašalinti žymelę"
-
-#~ msgid "Loading"
-#~ msgstr "Įkeliama"
-
-#~ msgid "See all search results for “%s”"
-#~ msgstr "Rodyti visus „%s“ paieškos rezultatus"

@@ -1,95 +1,76 @@
-# translation of mn.po to Mongolian
-# translation of yelp.HEAD.po to Mongolian
-# translation of yelp.HEAD.po to mongolian
-# This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-# Sanlig Badral <badral@chinggis.com>, 2003.
-# Sanlig Badral <Badral@openmn.org>, 2003, 2004.
-# Sanlig Badral <badral@openmn.org>, 2004.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# Sanlig Badral <badral@chinggis.com>, 2003
+# Sanlig Badral <badral@openmn.org>, 2004
+# Sanlig Badral <Badral@openmn.org>, 2003-2004
 msgid ""
 msgstr ""
-"Project-Id-Version: mn\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2004-02-20 21:29+0100\n"
-"Last-Translator: Sanlig Badral <badral@openmn.org>\n"
-"Language-Team: Mongolian <openmn-core@lists.sf.net>\n"
-"Language: mn\n"
+"PO-Revision-Date: 2019-10-04 14:18+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Mongolian (http://www.transifex.com/endless-os/yelp/language/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.0.2\n"
+"Language: mn\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
-#, fuzzy
 msgid "Internet"
-msgstr "Агууллагууд"
+msgstr ""
 
-# CHECK
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
-#, fuzzy
 msgid "Documents &amp; Files"
-msgstr "Баримтууд"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "Дэлгэц"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -101,9 +82,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr ""
@@ -113,9 +92,8 @@ msgid "GNOME Help"
 msgstr ""
 
 #: data/yelp.appdata.xml.in:7
-#, fuzzy
 msgid "Help viewer for GNOME"
-msgstr "Гноме-ийн Тусламж Хөтөч"
+msgstr ""
 
 #: data/yelp.appdata.xml.in:9
 msgid ""
@@ -125,8 +103,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -144,28 +122,26 @@ msgid "Invalid compressed data"
 msgstr ""
 
 #: libyelp/yelp-bz2-decompressor.c:149 libyelp/yelp-lzma-decompressor.c:158
-#, fuzzy
 msgid "Not enough memory"
-msgstr "Санах ойноос хэтэрлээ"
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:292 libyelp/yelp-info-document.c:221
 #: libyelp/yelp-mallard-document.c:306 libyelp/yelp-mallard-document.c:464
 #: libyelp/yelp-man-document.c:199
-#, fuzzy, c-format
+#, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
-msgstr "Энэ баримтан дахь сонгосон хуудас олдсонгүй."
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:331 libyelp/yelp-info-document.c:358
 #: libyelp/yelp-man-document.c:336
-#, fuzzy
 msgid "The file does not exist."
-msgstr "»%s« баримт алга байна"
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:341 libyelp/yelp-info-document.c:368
 #: libyelp/yelp-man-document.c:346
-#, fuzzy, c-format
+#, c-format
 msgid "The file ‘%s’ does not exist."
-msgstr "»%s« баримт алга байна"
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:359
 #, c-format
@@ -187,9 +163,9 @@ msgstr "Үл мэдэгдэх"
 
 #: libyelp/yelp-docbook-document.c:908 libyelp/yelp-info-document.c:301
 #: libyelp/yelp-man-document.c:279
-#, fuzzy, c-format
+#, c-format
 msgid "The requested page was not found in the document ‘%s’."
-msgstr "Энэ баримтан дахь сонгосон хуудас олдсонгүй."
+msgstr ""
 
 #: libyelp/yelp-document.c:1068
 #, c-format
@@ -209,11 +185,9 @@ msgstr ""
 msgid "An unknown error occurred."
 msgstr ""
 
-# CHECK
 #: libyelp/yelp-help-list.c:548 libyelp/yelp-help-list.c:557
-#, fuzzy
 msgid "All Help Documents"
-msgstr "Баримтууд"
+msgstr ""
 
 #: libyelp/yelp-info-document.c:383
 #, c-format
@@ -222,9 +196,9 @@ msgid ""
 msgstr ""
 
 #: libyelp/yelp-mallard-document.c:348
-#, fuzzy, c-format
+#, c-format
 msgid "The directory ‘%s’ does not exist."
-msgstr "»%s« баримт алга байна"
+msgstr ""
 
 #: libyelp/yelp-search-entry.c:434
 #, c-format
@@ -237,9 +211,8 @@ msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
 msgstr ""
 
 #: libyelp/yelp-transform.c:519
-#, fuzzy
 msgid "No href attribute found on yelp:document\n"
-msgstr "Елп баримтад href шинж алга"
+msgstr ""
 
 #: libyelp/yelp-transform.c:534
 msgid "Out of memory"
@@ -250,9 +223,8 @@ msgid "C_opy Code Block"
 msgstr ""
 
 #: libyelp/yelp-view.c:257
-#, fuzzy
 msgid "_Copy Link Location"
-msgstr "Оршил"
+msgstr ""
 
 #: libyelp/yelp-view.c:262
 msgid "_Open Link"
@@ -284,14 +256,13 @@ msgid "The URI does not point to a valid page."
 msgstr ""
 
 #: libyelp/yelp-view.c:820 libyelp/yelp-view.c:2150
-#, fuzzy, c-format
+#, c-format
 msgid "The URI ‘%s’ could not be parsed."
-msgstr "Сонгосон фай уншигдахгүй байна."
+msgstr ""
 
 #: libyelp/yelp-view.c:825
-#, fuzzy
 msgid "Unknown Error."
-msgstr "Үл мэдэгдэх"
+msgstr ""
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -327,19 +298,17 @@ msgid "S_end Video To…"
 msgstr ""
 
 #: libyelp/yelp-view.c:1876
-#, fuzzy, c-format
+#, c-format
 msgid "Could not load a document for ‘%s’"
-msgstr "Шинэ цонх нээгдэх боломжгүй."
+msgstr ""
 
 #: libyelp/yelp-view.c:1882
-#, fuzzy
 msgid "Could not load a document"
-msgstr "Шинэ цонх нээгдэх боломжгүй."
+msgstr ""
 
 #: libyelp/yelp-view.c:1966
-#, fuzzy
 msgid "Document Not Found"
-msgstr "Хэвлэлтийн мэдээлэл"
+msgstr ""
 
 #: libyelp/yelp-view.c:1968
 msgid "Page Not Found"
@@ -350,9 +319,8 @@ msgid "Cannot Read"
 msgstr ""
 
 #: libyelp/yelp-view.c:1977
-#, fuzzy
 msgid "Unknown Error"
-msgstr "Үл мэдэгдэх"
+msgstr ""
 
 #: src/yelp-application.c:59
 msgid "Turn on editor mode"
@@ -364,42 +332,36 @@ msgid "Help"
 msgstr "Тусламж"
 
 #: src/yelp-window.c:348
-#, fuzzy
 msgid "Back"
-msgstr "Буцах"
+msgstr ""
 
 #: src/yelp-window.c:355
-#, fuzzy
 msgid "Forward"
-msgstr "Урагш"
+msgstr ""
 
 #: src/yelp-window.c:366
 msgid "Menu"
 msgstr ""
 
 #: src/yelp-window.c:371
-#, fuzzy
 msgid "New Window"
-msgstr "/Файл/_Шинэ цонх"
+msgstr ""
 
 #: src/yelp-window.c:372
-#, fuzzy
 msgid "Find…"
-msgstr "Ол"
+msgstr ""
 
 #: src/yelp-window.c:373
 msgid "Print…"
 msgstr ""
 
 #: src/yelp-window.c:378
-#, fuzzy
 msgid "Previous Page"
-msgstr "_Гэдрэг хайх"
+msgstr ""
 
 #: src/yelp-window.c:379
-#, fuzzy
 msgid "Next Page"
-msgstr "/Оч/_Дараагийн хуудас руу"
+msgstr ""
 
 #: src/yelp-window.c:384
 msgid "Larger Text"
@@ -410,32 +372,28 @@ msgid "Smaller Text"
 msgstr ""
 
 #: src/yelp-window.c:390
-#, fuzzy
 msgid "All Help"
-msgstr "Тусламж"
+msgstr ""
 
 #: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
 msgstr ""
 
 #: src/yelp-window.c:427
-#, fuzzy
 msgid "Bookmarks"
-msgstr "Ном"
+msgstr ""
 
 #: src/yelp-window.c:444
-#, fuzzy
 msgid "No bookmarks"
-msgstr "Ном"
+msgstr ""
 
 #: src/yelp-window.c:452
 msgid "Add Bookmark"
 msgstr ""
 
 #: src/yelp-window.c:458
-#, fuzzy
 msgid "Remove Bookmark"
-msgstr "Ном"
+msgstr ""
 
 #: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
@@ -446,548 +404,5 @@ msgid "documentation;information;manual;help;"
 msgstr ""
 
 #: org.gnome.Yelp.desktop.in.in:8
-#, fuzzy
 msgid "help-browser"
-msgstr "Тусламж хөтөч"
-
-#~ msgid "Applications"
-#~ msgstr "Х.программ"
-
-#~ msgid "Configuration Files"
-#~ msgstr "Тохируулгын файлууд"
-
-#~ msgid "Development"
-#~ msgstr "Хөгжил"
-
-#~ msgid "Games"
-#~ msgstr "Тоглоом"
-
-#~ msgid "Hardware Devices"
-#~ msgstr "Hardware төхөөрөмж"
-
-#~ msgid "Kernel Routines"
-#~ msgstr "Kernel Routines"
-
-#~ msgid "Library Functions"
-#~ msgstr "Сангийн функцүүд"
-
-#, fuzzy
-#~ msgid "OpenSSL Applications"
-#~ msgstr "Х.програм"
-
-#, fuzzy
-#~ msgid "OpenSSL Configuration"
-#~ msgstr "Тохируулгын файлууд"
-
-#, fuzzy
-#~ msgid "OpenSSL Overviews"
-#~ msgstr "Тойм"
-
-#~ msgid "Overviews"
-#~ msgstr "Тойм"
-
-#, fuzzy
-#~ msgid "Perl Functions"
-#~ msgstr "Сангийн функцүүд"
-
-#, fuzzy
-#~ msgid "Qt Functions"
-#~ msgstr "Сангийн функцүүд"
-
-#~ msgid "System Administration"
-#~ msgstr "Системийн зохион байгуулагч"
-
-#~ msgid "System Calls"
-#~ msgstr "Системийн дуудалт"
-
-#, fuzzy
-#~ msgid "Termcap Applications"
-#~ msgstr "Х.програм"
-
-#, fuzzy
-#~ msgid "X11 Applications"
-#~ msgstr "Х.програм"
-
-#, fuzzy
-#~ msgid "X11 Configuration"
-#~ msgstr "Тохируулгын файлууд"
-
-#, fuzzy
-#~ msgid "X11 Functions"
-#~ msgstr "Сангийн функцүүд"
-
-#, fuzzy
-#~ msgid "X11 Games"
-#~ msgstr "Тоглоом"
-
-#, fuzzy
-#~ msgid "X11 Overviews"
-#~ msgstr "Тойм"
-
-#~ msgid "Applets"
-#~ msgstr "Аплетүүд"
-
-#~ msgid "Education Applications"
-#~ msgstr "Сургалтын програмууд"
-
-#, fuzzy
-#~ msgid "Help Topics"
-#~ msgstr "Тусламж хөтөч"
-
-#~ msgid "KDE"
-#~ msgstr "КДЭ"
-
-#, fuzzy
-#~ msgid "Other Documentation"
-#~ msgstr "Хэвлэлтийн мэдээлэл"
-
-#, fuzzy
-#~ msgid "Scientific"
-#~ msgstr "Шинжлэх ухааны програмууд"
-
-#, fuzzy
-#~ msgid "System Tools"
-#~ msgstr "Системийн дуудалт"
-
-#~ msgid "X Applications"
-#~ msgstr "Х.програм"
-
-#, fuzzy
-#~ msgid "<b>_Bookmarks:</b>"
-#~ msgstr "Ном"
-
-#~ msgid "C_ase sensitive"
-#~ msgstr "Жижиг том үсэг ялгана"
-
-#, fuzzy
-#~ msgid "Preferences"
-#~ msgstr "Хамаарал"
-
-#~ msgid "_Find: "
-#~ msgstr "_Ол:"
-
-#, fuzzy
-#~ msgid "_Location:"
-#~ msgstr "Оршил"
-
-#~ msgid "_Next"
-#~ msgstr "_Цааш хайх"
-
-#~ msgid "_Wrap around"
-#~ msgstr "_Тойруулан тэгшил"
-
-#~ msgid "Yelp"
-#~ msgstr "Yelp"
-
-#~ msgid "Yelp Factory"
-#~ msgstr "Yelp үйлдвэр"
-
-#, fuzzy
-#~ msgid "Could not read the table of contents"
-#~ msgstr "»%s« OMF файл ачаалагдсангүй."
-
-#~ msgid "Define which cache directory to use"
-#~ msgstr "Хэрэглэх түр хадгалагч лавлах тодорхойлох"
-
-#~ msgid "Could not activate Yelp: '%s'"
-#~ msgstr "Yelp »%s« идэвхижсэнгүй."
-
-#~ msgid "Could not open new window."
-#~ msgstr "Шинэ цонх нээгдэх боломжгүй."
-
-#, fuzzy
-#~ msgid "Document Information"
-#~ msgstr "Хэвлэлтийн мэдээлэл"
-
-#~ msgid "YelpTocPager: Pause count is negative."
-#~ msgstr "ЕлпТокПейжэр: Түр зогсолтын тоо сөрөг байна."
-
-#~ msgid "Could not load the OMF file '%s'."
-#~ msgstr "»%s« OMF файл ачаалагдсангүй."
-
-#~ msgid "Help Contents"
-#~ msgstr "Тусламж агуулга"
-
-#, fuzzy
-#~ msgid "_File"
-#~ msgstr "/_Файл"
-
-#, fuzzy
-#~ msgid "_Edit"
-#~ msgstr "/_Боловсруулах"
-
-#, fuzzy
-#~ msgid "_Go"
-#~ msgstr "/_Оч"
-
-#, fuzzy
-#~ msgid "_Help"
-#~ msgstr "/_Тусламж"
-
-#, fuzzy
-#~ msgid "About This Document"
-#~ msgstr "Энэ олонлогийн тухай"
-
-#, fuzzy
-#~ msgid "_Close Window"
-#~ msgstr "/Файл/Цонх _хаах"
-
-#, fuzzy
-#~ msgid "_Select All"
-#~ msgstr "Мөн харна уу"
-
-#, fuzzy
-#~ msgid "_Find..."
-#~ msgstr "/Засварлах/_Ол..."
-
-#, fuzzy
-#~ msgid "_Preferences"
-#~ msgstr "Хамаарал"
-
-#~ msgid "Show previous page in history"
-#~ msgstr "Түүх доторхи өмнөх хуудсыг харуулах"
-
-#~ msgid "Show next page in history"
-#~ msgstr "Түүх доторхи дараах хуудсыг харуулах"
-
-#, fuzzy
-#~ msgid "_Previous Section"
-#~ msgstr "/Оч/Ө_мнөх хуудас руу"
-
-#, fuzzy
-#~ msgid "_Next Section"
-#~ msgstr "Хэсэг"
-
-#, fuzzy
-#~ msgid "_Contents"
-#~ msgstr "Агууллагууд"
-
-#, fuzzy
-#~ msgid "_About"
-#~ msgstr "/Тусламж/_Тухай"
-
-#, fuzzy
-#~ msgid "Find:"
-#~ msgstr "Ол"
-
-#, fuzzy
-#~ msgid "Find _Next"
-#~ msgstr "/Засварлах/_Дараагийнхыг ол"
-
-#, fuzzy
-#~ msgid "Find _Previous"
-#~ msgstr "_Гэдрэг хайх"
-
-#~ msgid "Loading..."
-#~ msgstr "Ачаалж байна..."
-
-#, fuzzy
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "Санлиг Бадрал <badral@chinggis.com>\n"
-#~ "Очирбат Батзаяа <buuvei@yahoo.com>\n"
-#~ "Сүхбаатар Дөлмандах <sdulmandakh@yahoo.com>"
-
-#, fuzzy
-#~ msgid "_Home"
-#~ msgstr "Эхлэл"
-
-# CHECK
-#~ msgid "Go to home view"
-#~ msgstr "Эхлэл рүү очих"
-
-#, fuzzy
-#~ msgid "Fin_d"
-#~ msgstr "Ол"
-
-#~ msgid "Development Environments"
-#~ msgstr "Хөгжүүлэлтийн орчинууд"
-
-#~ msgid "Development Tools"
-#~ msgstr "Хөгжүүлэлтийн хэрэгслүүд"
-
-#~ msgid "Editors"
-#~ msgstr "Засварлагчууд"
-
-#~ msgid "Games and Entertainment"
-#~ msgstr "Тоглоом болон зугаа цэнгэл"
-
-#~ msgid "General"
-#~ msgstr "Ерөнхий"
-
-#~ msgid "Internet Applications"
-#~ msgstr "Интернэт програмууд"
-
-#~ msgid "Kernels"
-#~ msgstr "Цөмүүд"
-
-#~ msgid "Multimedia Applications"
-#~ msgstr "Дуу хөгжмийн програмууд"
-
-#~ msgid "Office and Productivity Applications"
-#~ msgstr "Офис болон бүтээмжийн програмууд"
-
-#~ msgid "Securities"
-#~ msgstr "Аюулгүй байдлууд"
-
-#~ msgid "System"
-#~ msgstr "Систем"
-
-#~ msgid "Utilities"
-#~ msgstr "Утилитууд"
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid "Titlepage"
-#~ msgstr "Гарчигийн хуудас"
-
-#~ msgid "The selected document could not be opened"
-#~ msgstr "Сонгосон баримт нээгдэхгүй байна"
-
-#~ msgid "The table of contents could not be read."
-#~ msgstr "Агуулагын хүснэгт уншигдахгүй байна."
-
-#~ msgid "DocBook SGML documents are no longer supported."
-#~ msgstr "ДокБүүк-ийн СЖМЛ баримт дэмжигдэхээ болисон."
-
-#~ msgid "The selected file could not be read."
-#~ msgstr "Сонгосон фай уншигдахгүй байна."
-
-#~ msgid "X11"
-#~ msgstr "X11"
-
-#~ msgid "OpenSSL"
-#~ msgstr "OpenSSL"
-
-#~ msgid "Termcap"
-#~ msgstr "Termcap"
-
-#~ msgid "Perl"
-#~ msgstr "Perl"
-
-#~ msgid "Qt"
-#~ msgstr "Qt"
-
-#~ msgid "TIFF"
-#~ msgstr "TIFF"
-
-#~ msgid "PThreads"
-#~ msgstr "PThreads"
-
-#~ msgid "Categories"
-#~ msgstr "Ангилалууд"
-
-#~ msgid "&#8216;"
-#~ msgstr "&#8216;"
-
-#~ msgid "&#8217;"
-#~ msgstr "&#8217;"
-
-#~ msgid "&#8220;"
-#~ msgstr "&#8220;"
-
-#~ msgid "&#8221;"
-#~ msgstr "&#8221;"
-
-#~ msgid "About This Article"
-#~ msgstr "Энэ нийтлэлийн тухай"
-
-#~ msgid "About This Bibliography"
-#~ msgstr "Энэ ашигласан номын тухай"
-
-#~ msgid "About This Book"
-#~ msgstr "Энэ номын тухай"
-
-#~ msgid "About This Chapter"
-#~ msgstr "Энэ бүлгийн тухай"
-
-#~ msgid "About This Entry"
-#~ msgstr "Энэ бичлэгийн тухай"
-
-#~ msgid "About This Glossary"
-#~ msgstr "Энэ тайлбар толийн тухай"
-
-#~ msgid "About This Index"
-#~ msgstr "Энэ индексийн тухай"
-
-#~ msgid "About This Part"
-#~ msgstr "Энэ хэсгийн тухай"
-
-#~ msgid "About This Preface"
-#~ msgstr "Энэ хэллэгийн тухай"
-
-#~ msgid "About This Reference"
-#~ msgstr "Энэ хамаарлын тухай"
-
-#~ msgid "About This Section"
-#~ msgstr "Энэ бүлгийн тухай"
-
-#~ msgid "Affiliation"
-#~ msgstr "Бүлэгчилэл"
-
-#~ msgid "Appendix"
-#~ msgstr "Хавсралт"
-
-#~ msgid "Article"
-#~ msgstr "Нийтлэл"
-
-#~ msgid "Audience"
-#~ msgstr "Уншигчид"
-
-#~ msgid "Author"
-#~ msgstr "Зохиогч"
-
-#~ msgid "Authors"
-#~ msgstr "Зохиогчид"
-
-#~ msgid "Bibliography"
-#~ msgstr "Ашигласан ном"
-
-#~ msgid "Caution"
-#~ msgstr "Анхааруулга"
-
-#~ msgid "Chapter"
-#~ msgstr "Бүлэг"
-
-#~ msgid "Collaborator"
-#~ msgstr "Хамтрагч"
-
-#~ msgid "Collaborators"
-#~ msgstr "Хамтрагчид"
-
-#~ msgid "Colophon"
-#~ msgstr "Түлхүүр бичиг"
-
-#~ msgid "Copyright"
-#~ msgstr "Зохиогчийн эрх"
-
-#~ msgid "Copyrights"
-#~ msgstr "Зохиогчидын эрх"
-
-#~ msgid "Date"
-#~ msgstr "Огноо"
-
-#~ msgid "Dedication"
-#~ msgstr "Оршил"
-
-#~ msgid "Editor"
-#~ msgstr "Боловсруулагч"
-
-#~ msgid "Email"
-#~ msgstr "Эшуудан"
-
-#~ msgid "Example"
-#~ msgstr "Жишээ"
-
-#~ msgid "Figure"
-#~ msgstr "Зураг"
-
-#~ msgid "Glossary"
-#~ msgstr "Тайлбар толь"
-
-#~ msgid "Important"
-#~ msgstr "Чухал"
-
-#~ msgid "Index"
-#~ msgstr "Индекс"
-
-#~ msgid "Legal Notice"
-#~ msgstr "Хууль зүйн тэмдэглэл"
-
-#~ msgid "Level"
-#~ msgstr "Төвшин"
-
-#~ msgid "Message Audience"
-#~ msgstr "Уншигчийн зурвас"
-
-#~ msgid "Message Level"
-#~ msgstr "Зурвасын төвшин"
-
-#~ msgid "Message Origin"
-#~ msgstr "Зурвас эх үүсэл"
-
-#~ msgid "Note"
-#~ msgstr "Тэмдэглэл"
-
-#~ msgid "Origin"
-#~ msgstr "Эх үүсэл"
-
-#~ msgid "Other Contributor"
-#~ msgstr "Бусад оролцогч"
-
-#~ msgid "Other Contributors"
-#~ msgstr "Бусад оролцогчид"
-
-#~ msgid "Part"
-#~ msgstr "Хэсэг"
-
-#~ msgid "Preface"
-#~ msgstr "Өмнөх үг"
-
-#~ msgid "Publisher"
-#~ msgstr "Хэвлэгч"
-
-#~ msgid "Publishers"
-#~ msgstr "Хэвлэгчид"
-
-#~ msgid "Reference"
-#~ msgstr "Хамаарал"
-
-#~ msgid "Reference Entry"
-#~ msgstr "Хамаарлын бичлэг"
-
-#~ msgid "Reference Section"
-#~ msgstr "Хамаарлын хэсэг"
-
-#~ msgid "Release Information"
-#~ msgstr "Хэвлэлтийн мэдээлэл"
-
-#~ msgid "Revision History"
-#~ msgstr "Шинэчилэгдсэн түүх"
-
-#~ msgid "See"
-#~ msgstr "Харна уу"
-
-#~ msgid "Set Index"
-#~ msgstr "Индекс тогтоох"
-
-#~ msgid "Table"
-#~ msgstr "Хүснэгт"
-
-#~ msgid "Table of Contents"
-#~ msgstr "Агуулгын хүснэгт"
-
-#~ msgid "Tip"
-#~ msgstr "Зөвлөмж"
-
-#~ msgid "Title"
-#~ msgstr "Гарчиг"
-
-#~ msgid "Warning"
-#~ msgstr "Сануулга"
-
-# CHECK
-#~ msgid "Document URI"
-#~ msgstr "Баримтын URI"
-
-#~ msgid "The URI of the document to be processed"
-#~ msgstr "Боловсруулах баримтын URI"
-
-#~ msgid "/Edit/Find Pre_vious"
-#~ msgstr "/Засварлах/_Өмнөхийг ол"
-
-#~ msgid "/Go/_Back"
-#~ msgstr "/Оч/_Хойш"
-
-#~ msgid "/Go/_Forward"
-#~ msgstr "/Оч/_Урагш"
-
-#~ msgid "/Go/_Home"
-#~ msgstr "/Оч/_Эхлэл"
-
-#~ msgid "/Go/"
-#~ msgstr "/Оч/"
-
-#~ msgid "/Go/_Contents"
-#~ msgstr "/Оч/_Агууллагууд"
+msgstr ""

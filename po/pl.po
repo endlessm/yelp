@@ -1,96 +1,76 @@
-# Polish translation for yelp.
-# Copyright © 2002-2019 the yelp authors.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
 # This file is distributed under the same license as the yelp package.
-# Zbigniew Chyla <chyla@alice.ci.pwr.wroc.pl>, 2002-2003.
-# Artur Flinta <aflinta@at.kernel.pl>, 2003-2004.
-# Bartosz Kosiorek <gang65@poczta.onet.pl>, 2005-2006.
-# Marek Stępień <marcoos@aviary.pl>, 2006.
-# Tomasz Dominikowski <dominikowski@gmail.com>, 2007-2009.
-# Piotr Zaryk <pzaryk@aviary.pl>, 2008.
-# Piotr Drąg <piotrdrag@gmail.com>, 2011-2019.
-# Paweł Żołnowski <pawel@zolnowski.name>, 2014.
-# Aviary.pl <community-poland@mozilla.org>, 2006-2019.
-#
+# 
+# Translators:
+# Marek Stępień <marcoos@aviary.pl>, 2006
+# Paweł Żołnowski <pawel@zolnowski.name>, 2014
+# Piotr Zaryk <pzaryk@aviary.pl>, 2008
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2019-02-03 17:50+0100\n"
-"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <community-poland@mozilla.org>\n"
-"Language: pl\n"
+"PO-Revision-Date: 2019-10-04 14:23+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Polish (http://www.transifex.com/endless-os/yelp/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -102,9 +82,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Zainstaluj „<string/>”"
@@ -121,25 +99,19 @@ msgstr "Przeglądarka pomocy dla GNOME"
 msgid ""
 "Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
 "also display DocBook, info, man, and HTML documentation."
-msgstr ""
-"Yelp to przeglądarka pomocy GNOME. To domyślna przeglądarka formatu Mallard, "
-"ale może także wyświetlać dokumentację w formatach DocBook, info, man i HTML."
+msgstr "Yelp to przeglądarka pomocy GNOME. To domyślna przeglądarka formatu Mallard, ale może także wyświetlać dokumentację w formatach DocBook, info, man i HTML."
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
-msgstr ""
-"Ułatwia znajdowanie potrzebnej dokumentacji za pomocą interaktywnego "
-"wyszukiwania i zakładek."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
+msgstr "Ułatwia znajdowanie potrzebnej dokumentacji za pomocą interaktywnego wyszukiwania i zakładek."
 
 #: data/yelp.appdata.xml.in:17
 msgid ""
 "It also has an editor mode, which shows editorial comments and revision "
 "statuses when editing Mallard documents."
-msgstr ""
-"Ma także tryb redaktora, który wyświetla komentarze redakcyjne i stany "
-"wersji podczas redagowania dokumentów w formacie Mallard."
+msgstr "Ma także tryb redaktora, który wyświetla komentarze redakcyjne i stany wersji podczas redagowania dokumentów w formacie Mallard."
 
 #: data/yelp.appdata.xml.in:30
 msgid "The GNOME Project"
@@ -176,18 +148,14 @@ msgstr "Plik „%s” nie istnieje."
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"Nie można przetworzyć pliku „%s”, ponieważ nie jest to prawidłowo "
-"sformatowany dokument XML."
+msgstr "Nie można przetworzyć pliku „%s”, ponieważ nie jest to prawidłowo sformatowany dokument XML."
 
 #: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"Nie można przetworzyć pliku „%s”, ponieważ jeden lub więcej zawartych w nim "
-"plików nie jest prawidłowo sformatowanym dokumentem XML."
+msgstr "Nie można przetworzyć pliku „%s”, ponieważ jeden lub więcej zawartych w nim plików nie jest prawidłowo sformatowanym dokumentem XML."
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -225,9 +193,7 @@ msgstr "Wszystkie dokumenty pomocy"
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"Nie można przetworzyć pliku „%s”, ponieważ nie jest to prawidłowo "
-"sformatowana strona informacyjna."
+msgstr "Nie można przetworzyć pliku „%s”, ponieważ nie jest to prawidłowo sformatowana strona informacyjna."
 
 #: libyelp/yelp-mallard-document.c:348
 #, c-format
@@ -300,9 +266,7 @@ msgstr "Nieznany błąd."
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"Brak usługi PackageKit. Odnośniki instalacji pakietów wymagają usługi "
-"PackageKit."
+msgstr "Brak usługi PackageKit. Odnośniki instalacji pakietów wymagają usługi PackageKit."
 
 #: libyelp/yelp-view.c:1226
 msgid "Save Image"
@@ -437,16 +401,8 @@ msgstr "Pomoc GNOME"
 
 #: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
-msgstr ""
-"dokumentacja;informacje;podręcznik;przewodnik;manual;instrukcja;pomoc;"
-"wsparcie;support;"
+msgstr "dokumentacja;informacje;podręcznik;przewodnik;manual;instrukcja;pomoc;wsparcie;support;"
 
 #: org.gnome.Yelp.desktop.in.in:8
 msgid "help-browser"
 msgstr ""
-
-#~ msgid "Search for packages containing this document."
-#~ msgstr "Wyszukaj pakiety zawierające ten dokument."
-
-#~ msgid "org.gnome.Yelp"
-#~ msgstr "org.gnome.Yelp"

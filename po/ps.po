@@ -1,89 +1,73 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2009-02-07 16:14+0500\n"
-"Last-Translator: Zabeeh Khan <zabeehkhan@gmail.com>\n"
-"Language-Team: Pashto <pathanisation@googlegroups.com>\n"
-"Language: ps\n"
+"PO-Revision-Date: 2019-10-04 14:18+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Pushto (http://www.transifex.com/endless-os/yelp/language/ps/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Pashto, Pushto\n"
-"X-Poedit-Country: AFGHANISTAN, PAKISTAN\n"
+"Language: ps\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr "اېنټرنېټ"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "سرپاڼه"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -95,17 +79,14 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr ""
 
 #: data/yelp.appdata.xml.in:6
-#, fuzzy
 msgid "GNOME Help"
-msgstr "د ګنوم مرسته لټونی"
+msgstr ""
 
 #: data/yelp.appdata.xml.in:7
 msgid "Help viewer for GNOME"
@@ -119,8 +100,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -239,18 +220,16 @@ msgid "C_opy Code Block"
 msgstr ""
 
 #: libyelp/yelp-view.c:257
-#, fuzzy
 msgid "_Copy Link Location"
-msgstr "ځای پرانيستل"
+msgstr ""
 
 #: libyelp/yelp-view.c:262
 msgid "_Open Link"
 msgstr "تړنه پرانيستل_"
 
 #: libyelp/yelp-view.c:267
-#, fuzzy
 msgid "Open Link in New _Window"
-msgstr "تړنه په _نوې کړکۍ کې پرانيستل"
+msgstr ""
 
 #: libyelp/yelp-view.c:277
 msgid "_Install Packages"
@@ -261,9 +240,8 @@ msgid "Save Code _Block As…"
 msgstr ""
 
 #: libyelp/yelp-view.c:297
-#, fuzzy
 msgid "_Copy Text"
-msgstr "لمېسل_"
+msgstr ""
 
 #: libyelp/yelp-view.c:809 libyelp/yelp-view.c:2138
 #, c-format
@@ -280,9 +258,8 @@ msgid "The URI ‘%s’ could not be parsed."
 msgstr ""
 
 #: libyelp/yelp-view.c:825
-#, fuzzy
 msgid "Unknown Error."
-msgstr "ناپېژندلی تېروتنه"
+msgstr ""
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -327,19 +304,16 @@ msgid "Could not load a document"
 msgstr ""
 
 #: libyelp/yelp-view.c:1966
-#, fuzzy
 msgid "Document Not Found"
-msgstr "د لاسوند برخې"
+msgstr ""
 
 #: libyelp/yelp-view.c:1968
-#, fuzzy
 msgid "Page Not Found"
-msgstr "مخ ونه موندل شو"
+msgstr ""
 
 #: libyelp/yelp-view.c:1971
-#, fuzzy
 msgid "Cannot Read"
-msgstr "کړکۍ نه شي جوړولی"
+msgstr ""
 
 #: libyelp/yelp-view.c:1977
 msgid "Unknown Error"
@@ -355,38 +329,32 @@ msgid "Help"
 msgstr "مرسته"
 
 #: src/yelp-window.c:348
-#, fuzzy
 msgid "Back"
-msgstr "شاته_"
+msgstr ""
 
 #: src/yelp-window.c:355
-#, fuzzy
 msgid "Forward"
-msgstr "مخکې_"
+msgstr ""
 
 #: src/yelp-window.c:366
 msgid "Menu"
 msgstr ""
 
 #: src/yelp-window.c:371
-#, fuzzy
 msgid "New Window"
-msgstr "نوې کړکۍ_"
+msgstr ""
 
 #: src/yelp-window.c:372
-#, fuzzy
 msgid "Find…"
-msgstr "لټول"
+msgstr ""
 
 #: src/yelp-window.c:373
-#, fuzzy
 msgid "Print…"
-msgstr "چاپ"
+msgstr ""
 
 #: src/yelp-window.c:378
-#, fuzzy
 msgid "Previous Page"
-msgstr "مخکنی_"
+msgstr ""
 
 #: src/yelp-window.c:379
 msgid "Next Page"
@@ -401,9 +369,8 @@ msgid "Smaller Text"
 msgstr ""
 
 #: src/yelp-window.c:390
-#, fuzzy
 msgid "All Help"
-msgstr "مرسته"
+msgstr ""
 
 #: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
@@ -414,9 +381,8 @@ msgid "Bookmarks"
 msgstr "ليکنښې"
 
 #: src/yelp-window.c:444
-#, fuzzy
 msgid "No bookmarks"
-msgstr "ليکنښې"
+msgstr ""
 
 #: src/yelp-window.c:452
 msgid "Add Bookmark"
@@ -435,405 +401,5 @@ msgid "documentation;information;manual;help;"
 msgstr ""
 
 #: org.gnome.Yelp.desktop.in.in:8
-#, fuzzy
 msgid "help-browser"
-msgstr "مرسته لټونی"
-
-#~ msgid "Applications"
-#~ msgstr "کاريالونه"
-
-#~ msgid "Configuration Files"
-#~ msgstr "د سازونې دوتنې"
-
-#~ msgid "Development"
-#~ msgstr "پرمختګ"
-
-#~ msgid "Games"
-#~ msgstr "لوبې"
-
-#~ msgid "Overviews"
-#~ msgstr "پاسکتنې"
-
-#~ msgid "Section 2"
-#~ msgstr "۲مه برخه"
-
-#~ msgid "Section 4"
-#~ msgstr "۴مه برخه"
-
-#~ msgid "Section 5"
-#~ msgstr "۵مه برخه"
-
-#~ msgid "Section 6"
-#~ msgstr "۶مه برخه"
-
-#~ msgid "Section 9"
-#~ msgstr "۹مه برخه"
-
-#~ msgid "X11 Applications"
-#~ msgstr "کاريالونه X۱۱"
-
-#~ msgid "X11 Configuration"
-#~ msgstr "سازونه X۱۱"
-
-#~ msgid "X11 Devices"
-#~ msgstr "وزلې X۱۱"
-
-#~ msgid "X11 Games"
-#~ msgstr "لوبې X۱۱"
-
-#~ msgid "X11 Overviews"
-#~ msgstr "پاسکتنې X۱۱"
-
-#~ msgid "Astronomy"
-#~ msgstr "ستورپوهنه"
-
-#~ msgid "Biology"
-#~ msgstr "ژوپوهنه"
-
-#~ msgid "Calculator"
-#~ msgstr "شمېرګر"
-
-#~ msgid "Calendar"
-#~ msgstr "کليز"
-
-#~ msgid "Chat"
-#~ msgstr "بنډار"
-
-#~ msgid "Chemistry"
-#~ msgstr "کيميا"
-
-#~ msgid "Clocks"
-#~ msgstr "ګړيالونه"
-
-#~ msgid "Compression Tools"
-#~ msgstr "د زېرنې توکي"
-
-#~ msgid "Computer Science"
-#~ msgstr "سولګر پوهنه"
-
-#~ msgid "Construction"
-#~ msgstr "جوړونه"
-
-#~ msgid "Contact Management"
-#~ msgstr "اړيکلور سمبالونه"
-
-#~ msgid "Databases"
-#~ msgstr "توکبنسټ"
-
-#~ msgid "Desktop Settings"
-#~ msgstr "د سرپاڼې امستنې"
-
-#~ msgid "Dictionaries"
-#~ msgstr "ويېپانګې"
-
-#~ msgid "Education"
-#~ msgstr "پوهنه"
-
-#~ msgid "Electricity"
-#~ msgstr "برېښنا"
-
-#~ msgid "Email Tools"
-#~ msgstr "برېښليک توکي"
-
-#~ msgid "File Manager"
-#~ msgstr "دوتنه سمبالګر"
-
-#~ msgid "File Tools"
-#~ msgstr "دوتنه توکي"
-
-#~ msgid "File Transfer"
-#~ msgstr "دوتنه لېږل"
-
-#~ msgid "Filesystem"
-#~ msgstr "دوتنه غونډال"
-
-#~ msgid "Hardware Settings"
-#~ msgstr "د هډوترو امستنې"
-
-#~ msgid "History"
-#~ msgstr "مخينه"
-
-#~ msgid "Java"
-#~ msgstr "جاوا"
-
-#~ msgid "KDE Applications"
-#~ msgstr "کاريالونه KDE د"
-
-#~ msgid "Kids Games"
-#~ msgstr "د ماشومانو لوبې"
-
-#~ msgid "Licenses"
-#~ msgstr "منښتليک"
-
-#~ msgid "Literature"
-#~ msgstr "ادبيات"
-
-#~ msgid "Medical Software"
-#~ msgstr "درمليز ساوتری"
-
-#~ msgid "Monitor"
-#~ msgstr "ليداڼی"
-
-#~ msgid "Music"
-#~ msgstr "ټنګټکور"
-
-#~ msgid "News"
-#~ msgstr "خبرونه"
-
-#~ msgid "OCR"
-#~ msgstr "OCR"
-
-#~ msgid "Office Applications"
-#~ msgstr "د افېس کاريالونه"
-
-#~ msgid "Office applications"
-#~ msgstr "د افېس کاريالونه"
-
-#~ msgid "Other Documentation"
-#~ msgstr "نورې لاسوندونې"
-
-#~ msgid "P2P"
-#~ msgstr "P2P"
-
-#~ msgid "Package Manager"
-#~ msgstr "بنډل سمبالګر"
-
-#~ msgid "Photography"
-#~ msgstr "انځورګري"
-
-#~ msgid "Physics"
-#~ msgstr "فزيک"
-
-#~ msgid "Players"
-#~ msgstr "غږوني"
-
-#~ msgid "Presentation Tools"
-#~ msgstr "د وړاندونې توکي"
-
-#~ msgid "Printing"
-#~ msgstr "چاپول کيږي"
-
-#~ msgid "Qt"
-#~ msgstr "Qt"
-
-#~ msgid "Remote Access"
-#~ msgstr "لر لاسرس"
-
-#~ msgid "Scanning"
-#~ msgstr "ځېرل کيږي"
-
-#~ msgid "Science"
-#~ msgstr "پوهنه"
-
-#~ msgid "Security"
-#~ msgstr "خوندييښت"
-
-#~ msgid "Settings"
-#~ msgstr "امستنې"
-
-#~ msgid "Sound"
-#~ msgstr "غږ"
-
-#~ msgid "Sports"
-#~ msgstr "لوبې"
-
-#~ msgid "Sports Games"
-#~ msgstr "د لوبو لوبې"
-
-#~ msgid "System"
-#~ msgstr "غوڼدال"
-
-#~ msgid "TV"
-#~ msgstr "ټي وي"
-
-#~ msgid "Text Editors"
-#~ msgstr "د ليکنې سمونګران"
-
-#~ msgid "Text Tools"
-#~ msgstr "د ليکنې توکي"
-
-#~ msgid "Translation Tools"
-#~ msgstr "د ژباړې توکي"
-
-#~ msgid "Video"
-#~ msgstr "وېډيو"
-
-#~ msgid "Viewer"
-#~ msgstr "ليداڼی"
-
-#~ msgid "Web Browser"
-#~ msgstr "ګورت لټونی"
-
-#~ msgid "Word Processors"
-#~ msgstr "ويې بهيرګر"
-
-#~ msgid "<b>Fonts</b>"
-#~ msgstr "<b>ليکبڼې</b>"
-
-#~ msgid "Preferences"
-#~ msgstr "غوراوي"
-
-#~ msgid "Re_name"
-#~ msgstr "بيا_نومول"
-
-#~ msgid "_Bookmarks:"
-#~ msgstr "ليکنښې:_"
-
-#~ msgid "_Find:"
-#~ msgstr "لټول:_"
-
-#~ msgid "_Fixed width:"
-#~ msgstr "جوت پلنوالی:_"
-
-#~ msgid "_Location:"
-#~ msgstr "ځای:_"
-
-#~ msgid "_Next"
-#~ msgstr "راتلونکی_"
-
-#~ msgid "_Title:"
-#~ msgstr "سرليک:_"
-
-#~ msgid "_Use system fonts"
-#~ msgstr "غونډال توکي کارول_"
-
-#~ msgid "Font for text"
-#~ msgstr "د ليکنې لپاره ليکبڼه"
-
-#~ msgid "Use system fonts"
-#~ msgstr "د غونډال ليکبڼې کارول"
-
-#~ msgid "Rename Bookmark"
-#~ msgstr "ليکنښه بيانومول"
-
-#~ msgid "File not found"
-#~ msgstr "دوتنه ونه موندل شوه"
-
-#~ msgid "Could Not Read File"
-#~ msgstr "دوتنه نه شي لوستلی"
-
-#~ msgid "Preparing to print"
-#~ msgstr "د چاپولو لپاره چمتو کيږي"
-
-#~ msgid "Waiting to print"
-#~ msgstr "د چاپولو لپاره تمه کيږي"
-
-#~ msgid "re"
-#~ msgstr "ځواب"
-
-#~ msgid "No Comment"
-#~ msgstr "هېڅ څرګندنه"
-
-#~ msgid "_File"
-#~ msgstr "دوتنه_"
-
-#~ msgid "_Edit"
-#~ msgstr "سمون_"
-
-#~ msgid "_Go"
-#~ msgstr "ورتګ_"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "ليکنښې_"
-
-#~ msgid "_Help"
-#~ msgstr "مرسته_"
-
-#~ msgid "Print This Document ..."
-#~ msgstr "دا لاسوند چاپول..."
-
-#~ msgid "Print This Page ..."
-#~ msgstr "دا مخ چاپول..."
-
-#~ msgid "About This Document"
-#~ msgstr "د دې لاسوند په اړه"
-
-#~ msgid "Open _Location"
-#~ msgstr "ځای _پرانيستل"
-
-#~ msgid "_Close Window"
-#~ msgstr "کړکۍ بندول_"
-
-#~ msgid "_Select All"
-#~ msgstr "ټول ټاکل_"
-
-#~ msgid "_Find..."
-#~ msgstr "لټول..._"
-
-#~ msgid "Find Pre_vious"
-#~ msgstr "مخ_کنی لټول"
-
-#~ msgid "Find Ne_xt"
-#~ msgstr "رات_لونکی لټول"
-
-#~ msgid "_Preferences"
-#~ msgstr "غوراوي_"
-
-#~ msgid "_Reload"
-#~ msgstr "بيالېښل_"
-
-#~ msgid "Show previous page in history"
-#~ msgstr "د مخينې مخکنی مخ ښودل"
-
-#~ msgid "Show next page in history"
-#~ msgstr "د مخينې راتلونکی مخ ښودل"
-
-#~ msgid "_Previous Section"
-#~ msgstr "مخکنۍ برخه_"
-
-#~ msgid "_Next Section"
-#~ msgstr "راتلونکی برخه_"
-
-#~ msgid "_Contents"
-#~ msgstr "منځپانګې_"
-
-#~ msgid "_Add Bookmark"
-#~ msgstr "ليکنښه زياتول_"
-
-#~ msgid "_Edit Bookmarks..."
-#~ msgstr "ليکنښې سمول..._"
-
-#~ msgid "_Copy Link Address"
-#~ msgstr "د تړنې پته لمېسل_"
-
-#~ msgid "Help On this application"
-#~ msgstr "د دې کاريال په اړه مرسته"
-
-#~ msgid "_About"
-#~ msgstr "په اړه_"
-
-#~ msgid "Copy _Email Address"
-#~ msgstr "برېښليک _پته لمېسل"
-
-#~ msgid "Loading..."
-#~ msgstr "لېښل کيږي..."
-
-#~ msgid "Unknown Page"
-#~ msgstr "ناپېژندلی مخ"
-
-#~ msgid "Unable to load page"
-#~ msgstr "مخ نه شي لېښلی"
-
-#~ msgid "_Search:"
-#~ msgstr "لټون:_"
-
-#~ msgid "Search for other documentation"
-#~ msgstr "نورې لاسوندونې لټول"
-
-#~ msgid "Fin_d:"
-#~ msgstr ":لټو_ل"
-
-#~ msgid "Find _Previous"
-#~ msgstr "مخکنی _لټول"
-
-#~ msgid "Find _Next"
-#~ msgstr "راتلونکی _لټول"
-
-#~ msgid "Phrase not found"
-#~ msgstr "څرګندۍ ونه موندل شوه"
-
-#~ msgid "translator-credits"
-#~ msgstr "Zabeeh Khan <zabeehkhan@gmail.com>"
-
-#~ msgid "Yelp"
-#~ msgstr "يلپ"
+msgstr ""

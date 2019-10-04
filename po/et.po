@@ -1,97 +1,76 @@
-# Yelp eesti keele tõlge.
-# Estonian translation of Yelp.
-#
-# Copyright (C) 2002–2006 Free Software Foundation, Inc.
-# Copyright (C) 2007–2011 The GNOME Project
-# This file is distributed under the same license as the Yelp package.
-#
-# Tõivo Leedjärv <toivo@linux.ee>, 2002–2004.
-# Allan Sims <allsi@eau.ee>, 2003.
-# Priit Laes <amd store20 com>, 2005, 2006.
-# Ivar Smolin <okul@linux.ee>, 2005–2011.
-# Mattias Põldaru <mahfiaz@gmail.com>, 2012, 2013.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# Allan Sims <allsi@eau.ee>, 2003
+# Mattias Põldaru <mahfiaz@gmail.com>, 2012-2013
+# Priit Laes <amd store20 com>, 2005-2006
 msgid ""
 msgstr ""
-"Project-Id-Version: yelp MASTER\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2013-09-11 23:08+0300\n"
-"Last-Translator: Mattias Põldaru <mahfiaz@gmail.com>\n"
-"Language-Team: Estonian <gnome-et@linux.ee>\n"
-"Language: et\n"
+"PO-Revision-Date: 2019-10-04 14:18+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Estonian (http://www.transifex.com/endless-os/yelp/language/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"Language: et\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "Oleku laadimine"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -103,9 +82,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Paigalda <string/>"
@@ -126,8 +103,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -171,18 +148,14 @@ msgstr "Faili „%s” pole olemas."
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"Faili „%s” pole võimalik analüüsida, kuna see pole korrektselt vormindatud "
-"XML-dokument."
+msgstr "Faili „%s” pole võimalik analüüsida, kuna see pole korrektselt vormindatud XML-dokument."
 
 #: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"Faili „%s” pole võimalik analüüsida, kuna üks või rohkem selle poolt "
-"kaasatud faili pole korrektselt vormindatud XML-dokumendid."
+msgstr "Faili „%s” pole võimalik analüüsida, kuna üks või rohkem selle poolt kaasatud faili pole korrektselt vormindatud XML-dokumendid."
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -220,9 +193,7 @@ msgstr "Kõik abidokumendid"
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"Faili „%s” pole võimalik analüüsida, kuna see pole korrektselt vormindatud "
-"teabeleht (info page)."
+msgstr "Faili „%s” pole võimalik analüüsida, kuna see pole korrektselt vormindatud teabeleht (info page)."
 
 #: libyelp/yelp-mallard-document.c:348
 #, c-format
@@ -268,9 +239,8 @@ msgid "_Install Packages"
 msgstr "_Paigalda pakid"
 
 #: libyelp/yelp-view.c:282
-#, fuzzy
 msgid "Save Code _Block As…"
-msgstr "Salvesta koodi_blokk kui..."
+msgstr ""
 
 #: libyelp/yelp-view.c:297
 msgid "_Copy Text"
@@ -291,9 +261,8 @@ msgid "The URI ‘%s’ could not be parsed."
 msgstr "URI „%s” pole võimalik analüüsida."
 
 #: libyelp/yelp-view.c:825
-#, fuzzy
 msgid "Unknown Error."
-msgstr "Tundmatu viga"
+msgstr ""
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -313,24 +282,20 @@ msgid "Send email to %s"
 msgstr "Saada e-sõnum aadressile %s"
 
 #: libyelp/yelp-view.c:1525
-#, fuzzy
 msgid "_Save Image As…"
-msgstr "Salvesta pilt _kui..."
+msgstr ""
 
 #: libyelp/yelp-view.c:1526
-#, fuzzy
 msgid "_Save Video As…"
-msgstr "Salvesta video _kui..."
+msgstr ""
 
 #: libyelp/yelp-view.c:1534
-#, fuzzy
 msgid "S_end Image To…"
-msgstr "S_aada pilt..."
+msgstr ""
 
 #: libyelp/yelp-view.c:1535
-#, fuzzy
 msgid "S_end Video To…"
-msgstr "S_aada video..."
+msgstr ""
 
 #: libyelp/yelp-view.c:1876
 #, c-format
@@ -367,57 +332,48 @@ msgid "Help"
 msgstr "Abi"
 
 #: src/yelp-window.c:348
-#, fuzzy
 msgid "Back"
-msgstr "_Tagasi"
+msgstr ""
 
 #: src/yelp-window.c:355
-#, fuzzy
 msgid "Forward"
-msgstr "_Edasi"
+msgstr ""
 
 #: src/yelp-window.c:366
 msgid "Menu"
 msgstr ""
 
 #: src/yelp-window.c:371
-#, fuzzy
 msgid "New Window"
-msgstr "_Uus aken"
+msgstr ""
 
 #: src/yelp-window.c:372
-#, fuzzy
 msgid "Find…"
-msgstr "Otsi:"
+msgstr ""
 
 #: src/yelp-window.c:373
 msgid "Print…"
 msgstr ""
 
 #: src/yelp-window.c:378
-#, fuzzy
 msgid "Previous Page"
-msgstr "_Eelmine leht"
+msgstr ""
 
 #: src/yelp-window.c:379
-#, fuzzy
 msgid "Next Page"
-msgstr "_Järgmine leht"
+msgstr ""
 
 #: src/yelp-window.c:384
-#, fuzzy
 msgid "Larger Text"
-msgstr "_Suurem tekst"
+msgstr ""
 
 #: src/yelp-window.c:385
-#, fuzzy
 msgid "Smaller Text"
-msgstr "_Väiksem tekst"
+msgstr ""
 
 #: src/yelp-window.c:390
-#, fuzzy
 msgid "All Help"
-msgstr "Abi"
+msgstr ""
 
 #: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
@@ -428,214 +384,25 @@ msgid "Bookmarks"
 msgstr "Järjehoidjad"
 
 #: src/yelp-window.c:444
-#, fuzzy
 msgid "No bookmarks"
-msgstr "Järjehoidjad"
+msgstr ""
 
 #: src/yelp-window.c:452
-#, fuzzy
 msgid "Add Bookmark"
-msgstr "_Lisa järjehoidja"
+msgstr ""
 
 #: src/yelp-window.c:458
-#, fuzzy
 msgid "Remove Bookmark"
-msgstr "_Eemalda järjehoidja"
+msgstr ""
 
 #: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
 msgstr "Abistab GNOME kasutamisel"
 
 #: org.gnome.Yelp.desktop.in.in:5
-#, fuzzy
 msgid "documentation;information;manual;help;"
-msgstr "dokumentatsioon;informatsioon;manuaal;käsiraamat;juhend;juhised;"
+msgstr ""
 
 #: org.gnome.Yelp.desktop.in.in:8
 msgid "help-browser"
 msgstr ""
-
-#~ msgid "Indexed"
-#~ msgstr "Indekseeritud"
-
-#~ msgid "Whether the document content has been indexed"
-#~ msgstr "Kas dokumendi sisu on indekseeritud või mitte"
-
-#~ msgid "Document URI"
-#~ msgstr "Dokumendi URI"
-
-#~ msgid "The URI which identifies the document"
-#~ msgstr "Dokumenti identifitseeriv URI"
-
-#~ msgid "View"
-#~ msgstr "Vaade"
-
-#~ msgid "A YelpView instance to control"
-#~ msgstr "Juhitav YelpView instants"
-
-#~ msgid "A YelpBookmarks implementation instance"
-#~ msgstr "Instantsi YelpBookmarks implementatsioon"
-
-#~ msgid "Enable Search"
-#~ msgstr "Luba otsing"
-
-#~ msgid "Whether the location entry can be used as a search field"
-#~ msgstr "Kas asukohavälja saab kasutada ka otsignuväljana"
-
-#~ msgid "Search..."
-#~ msgstr "Otsimine..."
-
-#~ msgid "Clear the search text"
-#~ msgstr "Otsinguteksti puhastamine"
-
-#~ msgid "Bookmark this page"
-#~ msgstr "Käesoleva lehe lisamine järjehoidjatesse"
-
-#~ msgid "Remove bookmark"
-#~ msgstr "Järjehoidja eemaldamine"
-
-#~ msgid "Loading"
-#~ msgstr "Laadimine"
-
-#~ msgid "GtkSettings"
-#~ msgstr "GtkSettings"
-
-#~ msgid "A GtkSettings object to get settings from"
-#~ msgstr "GtkSettings objekt, millelt sätteid hangitakse"
-
-#~ msgid "GtkIconTheme"
-#~ msgstr "GtkIconTheme"
-
-#~ msgid "A GtkIconTheme object to get icons from"
-#~ msgstr "GtkIconTheme objekt, millelt ikoone hangitakse"
-
-#~ msgid "Font Adjustment"
-#~ msgstr "Kirjatüübi kohendamine"
-
-#~ msgid "A size adjustment to add to font sizes"
-#~ msgstr "Kirjatüübi suuruste kohendamine"
-
-#~ msgid "Show Text Cursor"
-#~ msgstr "Tekstikursori näitamine"
-
-#~ msgid "Show the text cursor or caret for accessible navigation"
-#~ msgstr "Hõlpsama navigeerimise jaoks tekstikursori näitamine"
-
-#~ msgid "Editor Mode"
-#~ msgstr "Redaktorirežiim"
-
-#~ msgid "Enable features useful to editors"
-#~ msgstr "Tekstiredaktorite kasulike võimaluste lubamine"
-
-#~ msgid "Database filename"
-#~ msgstr "Andmebaasifaili nimi"
-
-#~ msgid "The filename of the sqlite database"
-#~ msgstr "Sqlite andmebaasifaili nimi"
-
-#~ msgid "XSLT Stylesheet"
-#~ msgstr "XSLT-laaditabel"
-
-#~ msgid "The location of the XSLT stylesheet"
-#~ msgstr "XSLT-laaditabeli asukoht"
-
-#~ msgid "_Print..."
-#~ msgstr "_Prindi..."
-
-#~ msgid "Yelp URI"
-#~ msgstr "Yelpi URI"
-
-#~ msgid "A YelpUri with the current location"
-#~ msgstr "Praeguse asukoha YelpUri"
-
-#~ msgid "The loading state of the view"
-#~ msgstr "Vaate oleku laadimine"
-
-#~ msgid "Page ID"
-#~ msgstr "Lehe ID"
-
-#~ msgid "The ID of the root page of the page being viewed"
-#~ msgstr "Vaadeldava juurlehe ID"
-
-#~ msgid "Root Title"
-#~ msgstr "Juurlehe pealkiri"
-
-#~ msgid "The title of the root page of the page being viewed"
-#~ msgstr "Vaadeldava lehe juurlehe pealkiri"
-
-#~ msgid "Page Title"
-#~ msgstr "Lehe pealkiri"
-
-#~ msgid "The title of the page being viewed"
-#~ msgstr "Vaadatava lehe pealkiri"
-
-#~ msgid "Page Description"
-#~ msgstr "Lehe kirjeldus"
-
-#~ msgid "The description of the page being viewed"
-#~ msgstr "Vaadeldava lehe kirjeldus"
-
-#~ msgid "Page Icon"
-#~ msgstr "Lehe ikoon"
-
-#~ msgid "The icon of the page being viewed"
-#~ msgstr "Vaadeldava lehe ikoon"
-
-#~ msgid "See all search results for “%s”"
-#~ msgstr "Näita kõiki otsingu \"%s\" tulemusi"
-
-#~ msgid "Search for packages containing this document."
-#~ msgstr "Seda dokumenti sisaldavate pakkide otsimine."
-
-#~ msgid "Increase the size of the text"
-#~ msgstr "Teksti suuruse suurendamine"
-
-#~ msgid "Decrease the size of the text"
-#~ msgstr "Teksti suuruse vähendamine"
-
-#~ msgid "Show Text _Cursor"
-#~ msgstr "Näita _tekstikursorit"
-
-#~ msgid "_Page"
-#~ msgstr "_Leht"
-
-#~ msgid "_View"
-#~ msgstr "_Vaade"
-
-#~ msgid "_Go"
-#~ msgstr "_Liikumine"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "_Järjehoidjad"
-
-#~ msgid "_Close"
-#~ msgstr "Sul_ge"
-
-#~ msgid "_All Documents"
-#~ msgstr "_Kõik dokumendid"
-
-#~ msgid "Find in Page..."
-#~ msgstr "Otsi lehelt..."
-
-#~ msgid "Open Location"
-#~ msgstr "Asukoha avamine"
-
-#~ msgid "Application"
-#~ msgstr "Rakendus"
-
-#~ msgid "A YelpApplication instance that controls this window"
-#~ msgstr "Seda akent juhtiv YelpApplication instants"
-
-#~ msgid "Read Link _Later"
-#~ msgstr "Loe _hiljem"
-
-#~ msgid "Read Later"
-#~ msgstr "Loen hiljem"
-
-#~ msgid "%i match"
-#~ msgid_plural "%i matches"
-#~ msgstr[0] "%i vastavus"
-#~ msgstr[1] "%i vastavust"
-
-#~ msgid "No matches"
-#~ msgstr "Vastavused puuduvad"

@@ -1,91 +1,76 @@
-# translation of lv.po to Latvian
-# Copyright (C) 2006 Free Software Foundation, Inc.
-#
-# Peteris Krisjanis <peteris.krisjanis@ttc.lv>, 2002.
-# Raivis Dejus <orvils@gmail.com>, 2006.
-# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011, 2012, 2013, 2014, 2015, 2016, 2018, 2019.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# Peteris Krisjanis <peteris.krisjanis@ttc.lv>, 2002
+# Raivis Dejus <orvils@gmail.com>, 2006
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2011-2016,2018-2019
 msgid ""
 msgstr ""
-"Project-Id-Version: lv\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2019-03-03 12:52+0200\n"
-"Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
-"Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
-"Language: lv\n"
+"PO-Revision-Date: 2019-10-04 14:22+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Latvian (http://www.transifex.com/endless-os/yelp/language/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
-"2);\n"
-"X-Generator: Lokalize 2.0\n"
+"Language: lv\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "Ielādē stāvokli"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -97,9 +82,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Instalēt <string/>"
@@ -116,25 +99,19 @@ msgstr "Palīdzības skatītājs GNOME videi"
 msgid ""
 "Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
 "also display DocBook, info, man, and HTML documentation."
-msgstr ""
-"Yelp ir GNOME palīdzības skatītājs. Tas ir noklusējuma Mallard skatītājs, "
-"bet tas var attēlot arī DocBook, info, man un HTML dokumentāciju."
+msgstr "Yelp ir GNOME palīdzības skatītājs. Tas ir noklusējuma Mallard skatītājs, bet tas var attēlot arī DocBook, info, man un HTML dokumentāciju."
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
-msgstr ""
-"Ar to var viegli atrast vajadzīgo dokumentāciju; tajā ir interaktīva "
-"meklēšana un grāmatzīmes."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
+msgstr "Ar to var viegli atrast vajadzīgo dokumentāciju; tajā ir interaktīva meklēšana un grāmatzīmes."
 
 #: data/yelp.appdata.xml.in:17
 msgid ""
 "It also has an editor mode, which shows editorial comments and revision "
 "statuses when editing Mallard documents."
-msgstr ""
-"Tam ir arī redaktora režīms, kas rāda redakcionālos komentārus un pārskatu "
-"statusus, kad rediģē Mallard dokumentus."
+msgstr "Tam ir arī redaktora režīms, kas rāda redakcionālos komentārus un pārskatu statusus, kad rediģē Mallard dokumentus."
 
 #: data/yelp.appdata.xml.in:30
 msgid "The GNOME Project"
@@ -171,18 +148,14 @@ msgstr "Datne “%s” neeksistē."
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"Datni ar nosaukumu “%s” nevar parsēt, tāpēc ka tā nav korekti noformēts XML "
-"dokuments."
+msgstr "Datni ar nosaukumu “%s” nevar parsēt, tāpēc ka tā nav korekti noformēts XML dokuments."
 
 #: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"Datni ar nosaukumu “%s” nevar parsēt, tāpēc, ka viena vai vairākas iekļautās "
-"datnes nav korekti noformēts XML dokuments."
+msgstr "Datni ar nosaukumu “%s” nevar parsēt, tāpēc, ka viena vai vairākas iekļautās datnes nav korekti noformēts XML dokuments."
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -220,9 +193,7 @@ msgstr "Visi palīdzības dokumenti"
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"Datni ar nosaukumu “%s“ nevar parsēt, tāpēc ka tā nav pareizi noformēta info "
-"lapa."
+msgstr "Datni ar nosaukumu “%s“ nevar parsēt, tāpēc ka tā nav pareizi noformēta info lapa."
 
 #: libyelp/yelp-mallard-document.c:348
 #, c-format
@@ -295,8 +266,7 @@ msgstr "Nezināma kļūda."
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"Jums nav PackageKit. Pakotņu instalēšanas saitēm ir nepieciešams PackageKit."
+msgstr "Jums nav PackageKit. Pakotņu instalēšanas saitēm ir nepieciešams PackageKit."
 
 #: libyelp/yelp-view.c:1226
 msgid "Save Image"
@@ -436,117 +406,3 @@ msgstr "dokumentācija;informācija;rokasgrāmata;palīdzība;palīgā;"
 #: org.gnome.Yelp.desktop.in.in:8
 msgid "help-browser"
 msgstr ""
-
-#~ msgid "Search for packages containing this document."
-#~ msgstr "Meklēt pakotnes, kas satur šo dokumentu."
-
-#~ msgid "org.gnome.Yelp"
-#~ msgstr "org.gnome.Yelp"
-
-#~ msgid "Indexed"
-#~ msgstr "Indeksēts"
-
-#~ msgid "Whether the document content has been indexed"
-#~ msgstr "Vai dokumenta saturs ir ticis indeksēts"
-
-#~ msgid "Document URI"
-#~ msgstr "Dokumenta URI"
-
-#~ msgid "The URI which identifies the document"
-#~ msgstr "URI, kas identificē dokumentu"
-
-#~ msgid "View"
-#~ msgstr "Skats"
-
-#~ msgid "A YelpView instance to control"
-#~ msgstr "YelpView instance, ko vadīt"
-
-#~ msgid "A YelpBookmarks implementation instance"
-#~ msgstr "YelpBookmarks realizācijas instance"
-
-#~ msgid "GtkSettings"
-#~ msgstr "GtkSettings"
-
-#~ msgid "A GtkSettings object to get settings from"
-#~ msgstr "GtkSettings objekts, no kā saņemt iestatījumus"
-
-#~ msgid "GtkIconTheme"
-#~ msgstr "GtkIconTheme"
-
-#~ msgid "A GtkIconTheme object to get icons from"
-#~ msgstr "GtkIconTheme objekts, no kā saņemt ikonas"
-
-#~ msgid "Font Adjustment"
-#~ msgstr "Fontu pieregulēšana"
-
-#~ msgid "A size adjustment to add to font sizes"
-#~ msgstr "Izmēra regulējums, ko pievienot fonta izmēram"
-
-#~ msgid "Show Text Cursor"
-#~ msgstr "Radīt teksta kursoru"
-
-#~ msgid "Show the text cursor or caret for accessible navigation"
-#~ msgstr "Rādīt teksta kursoru pieejamākai navigācijai"
-
-#~ msgid "Editor Mode"
-#~ msgstr "Redaktora režīms"
-
-#~ msgid "Enable features useful to editors"
-#~ msgstr "Aktivēt iespējas, kas noder redaktoram"
-
-#~ msgid "Database filename"
-#~ msgstr "Datubāzes datnes nosaukums"
-
-#~ msgid "The filename of the sqlite database"
-#~ msgstr "Nosaukums sqlite datubāzes datnei"
-
-#~ msgid "XSLT Stylesheet"
-#~ msgstr "XSLT stilu saraksts"
-
-#~ msgid "The location of the XSLT stylesheet"
-#~ msgstr "XSLT stilu saraksta atrašanās vieta"
-
-#~ msgid "Yelp URI"
-#~ msgstr "Yelp URI"
-
-#~ msgid "A YelpUri with the current location"
-#~ msgstr "YelpUri ar pašreizējo atrašanās vietu"
-
-#~ msgid "The loading state of the view"
-#~ msgstr "Ielādē skata stāvokli"
-
-#~ msgid "Page ID"
-#~ msgstr "Lapas ID"
-
-#~ msgid "The ID of the root page of the page being viewed"
-#~ msgstr "Saknes lapas ID lapai, kas tagad tiek skatīta"
-
-#~ msgid "Root Title"
-#~ msgstr "Saknes virsraksts"
-
-#~ msgid "The title of the root page of the page being viewed"
-#~ msgstr "Saknes lapas virsraksts lapai, kas tagad tiek skatīta"
-
-#~ msgid "Page Title"
-#~ msgstr "Lapas virsraksts"
-
-#~ msgid "The title of the page being viewed"
-#~ msgstr "Virsraksts lapai, kas tagad tiek skatīta"
-
-#~ msgid "Page Description"
-#~ msgstr "Lapas apraksts"
-
-#~ msgid "The description of the page being viewed"
-#~ msgstr "Apraksts lapai, kas tagad tiek skatīta"
-
-#~ msgid "Page Icon"
-#~ msgstr "Lapas ikona"
-
-#~ msgid "The icon of the page being viewed"
-#~ msgstr "Ikona lapai, kas tagad tiek skatīta"
-
-#~ msgid "Application"
-#~ msgstr "Lietotne"
-
-#~ msgid "A YelpApplication instance that controls this window"
-#~ msgstr "YelpApplication instance, kas vada šo logu"

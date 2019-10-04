@@ -1,91 +1,75 @@
-# Irish translations for yelp package.
-# Copyright (C) 2003-2013 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
 # This file is distributed under the same license as the yelp package.
-# Paul Duffy <dubhthach@frink.nuigalway.ie>, 2003.
-# Alastair McKinstry <mckinstry@computer.org>, 2004.
-# Seán de Búrca <leftmostcat@gmail.com>, 2007-2013.
-#
+# 
+# Translators:
+# Alastair McKinstry <mckinstry@computer.org>, 2004
+# Paul Duffy <dubhthach@frink.nuigalway.ie>, 2003
 msgid ""
 msgstr ""
-"Project-Id-Version: yelp.master\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2013-08-30 14:52-0600\n"
-"Last-Translator: Seán de Búrca <leftmostcat@gmail.com>\n"
-"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
-"Language: ga\n"
+"PO-Revision-Date: 2019-10-04 14:18+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Irish (http://www.transifex.com/endless-os/yelp/language/ga/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
-"4;\n"
+"Language: ga\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "Á Luchtú..."
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -97,9 +81,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Suiteáil <string/>"
@@ -120,8 +102,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -264,23 +246,22 @@ msgid "_Copy Text"
 msgstr "_Cóipeáil Téacs"
 
 #: libyelp/yelp-view.c:809 libyelp/yelp-view.c:2138
-#, fuzzy, c-format
+#, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
-msgstr "Níl an chomhadlann '%s' ann."
+msgstr ""
 
 #: libyelp/yelp-view.c:815 libyelp/yelp-view.c:2144
 msgid "The URI does not point to a valid page."
 msgstr ""
 
 #: libyelp/yelp-view.c:820 libyelp/yelp-view.c:2150
-#, fuzzy, c-format
+#, c-format
 msgid "The URI ‘%s’ could not be parsed."
-msgstr "Níl an chomhadlann '%s' ann."
+msgstr ""
 
 #: libyelp/yelp-view.c:825
-#, fuzzy
 msgid "Unknown Error."
-msgstr "Earráid Anaithnid"
+msgstr ""
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -300,24 +281,20 @@ msgid "Send email to %s"
 msgstr "Seol ríomhphost chuig %s"
 
 #: libyelp/yelp-view.c:1525
-#, fuzzy
 msgid "_Save Image As…"
-msgstr "_Sábháil Íomhá Mar..."
+msgstr ""
 
 #: libyelp/yelp-view.c:1526
-#, fuzzy
 msgid "_Save Video As…"
-msgstr "_Sábháil Físeán Mar..."
+msgstr ""
 
 #: libyelp/yelp-view.c:1534
-#, fuzzy
 msgid "S_end Image To…"
-msgstr "S_eol Íomhá Chuig..."
+msgstr ""
 
 #: libyelp/yelp-view.c:1535
-#, fuzzy
 msgid "S_end Video To…"
-msgstr "S_eol Físeán Chuig..."
+msgstr ""
 
 #: libyelp/yelp-view.c:1876
 #, c-format
@@ -354,57 +331,48 @@ msgid "Help"
 msgstr "Cabhair"
 
 #: src/yelp-window.c:348
-#, fuzzy
 msgid "Back"
-msgstr "_Siar"
+msgstr ""
 
 #: src/yelp-window.c:355
-#, fuzzy
 msgid "Forward"
-msgstr "Ar _Aghaidh"
+msgstr ""
 
 #: src/yelp-window.c:366
 msgid "Menu"
 msgstr ""
 
 #: src/yelp-window.c:371
-#, fuzzy
 msgid "New Window"
-msgstr "Fuinneog _Nua"
+msgstr ""
 
 #: src/yelp-window.c:372
-#, fuzzy
 msgid "Find…"
-msgstr "Aimsigh:"
+msgstr ""
 
 #: src/yelp-window.c:373
 msgid "Print…"
 msgstr ""
 
 #: src/yelp-window.c:378
-#, fuzzy
 msgid "Previous Page"
-msgstr "An Leathanach _Roimhe Seo"
+msgstr ""
 
 #: src/yelp-window.c:379
-#, fuzzy
 msgid "Next Page"
-msgstr "An Chéad Leathanach _Eile"
+msgstr ""
 
 #: src/yelp-window.c:384
-#, fuzzy
 msgid "Larger Text"
-msgstr "Téacs Níos _Mó"
+msgstr ""
 
 #: src/yelp-window.c:385
-#, fuzzy
 msgid "Smaller Text"
-msgstr "Téacs Níos _Lú"
+msgstr ""
 
 #: src/yelp-window.c:390
-#, fuzzy
 msgid "All Help"
-msgstr "Cabhair"
+msgstr ""
 
 #: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
@@ -415,19 +383,16 @@ msgid "Bookmarks"
 msgstr "Leabharmharcanna"
 
 #: src/yelp-window.c:444
-#, fuzzy
 msgid "No bookmarks"
-msgstr "Leabharmharcanna"
+msgstr ""
 
 #: src/yelp-window.c:452
-#, fuzzy
 msgid "Add Bookmark"
-msgstr "Cuir Leabharmharc _Leis"
+msgstr ""
 
 #: src/yelp-window.c:458
-#, fuzzy
 msgid "Remove Bookmark"
-msgstr "_Bain Leabharmharc"
+msgstr ""
 
 #: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
@@ -440,90 +405,3 @@ msgstr ""
 #: org.gnome.Yelp.desktop.in.in:8
 msgid "help-browser"
 msgstr ""
-
-#~ msgid "Indexed"
-#~ msgstr "Innéacsaithe"
-
-#~ msgid "Document URI"
-#~ msgstr "URI Cáipéise"
-
-#~ msgid "View"
-#~ msgstr "Amharc"
-
-#~ msgid "Enable Search"
-#~ msgstr "Cumasaigh Cuardach"
-
-#~ msgid "Search..."
-#~ msgstr "Cuardaigh..."
-
-#~ msgid "Bookmark this page"
-#~ msgstr "Cruthaigh leabharmharc don leathanach seo"
-
-#~ msgid "Remove bookmark"
-#~ msgstr "Bain leabharmharc"
-
-#~ msgid "Loading"
-#~ msgstr "Á luchtú"
-
-#~ msgid "GtkSettings"
-#~ msgstr "GtkSettings"
-
-#~ msgid "GtkIconTheme"
-#~ msgstr "GtkIconTheme"
-
-#, fuzzy
-#~ msgid "Database filename"
-#~ msgstr "Bunachair Sonraí"
-
-#~ msgid "XSLT Stylesheet"
-#~ msgstr "Stílbhileog XSLT"
-
-#~ msgid "_Print..."
-#~ msgstr "_Priontáil..."
-
-#~ msgid "Yelp URI"
-#~ msgstr "URI Yelp"
-
-#, fuzzy
-#~ msgid "Page Icon"
-#~ msgstr "Leathanach gan aimsiú"
-
-#, fuzzy
-#~ msgid "Search for packages containing this document."
-#~ msgstr "Cuardaigh ar dhoiciméadú eile"
-
-#~ msgid "Show Text _Cursor"
-#~ msgstr "Taispeáin _Cúrsóir Téacs"
-
-#~ msgid "_Page"
-#~ msgstr "_Leathanach"
-
-#~ msgid "_View"
-#~ msgstr "_Amharc"
-
-#~ msgid "_Go"
-#~ msgstr "_Téigh"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "Lea_bharmharcanna"
-
-#~ msgid "_Close"
-#~ msgstr "_Dún"
-
-#~ msgid "_All Documents"
-#~ msgstr "_Gach Cáipéis"
-
-#~ msgid "Find in Page..."
-#~ msgstr "Aimsigh i Leathanach..."
-
-#~ msgid "Open Location"
-#~ msgstr "Oscail Suíomh"
-
-#~ msgid "Application"
-#~ msgstr "Feidhmchlár"
-
-#~ msgid "Read Link _Later"
-#~ msgstr "Léigh Nasc ar _Ball"
-
-#~ msgid "Read Later"
-#~ msgstr "Léigh ar Ball"

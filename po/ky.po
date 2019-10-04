@@ -1,89 +1,74 @@
-# Translation of yelp to Kyrgyz
-# Copyright (C) 2005 Free Software Foundation, Inc.
-#
-# Timur Jamakeev <ztimur@gmail.com>, 2005, 2012.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# Timur Jamakeev <ztimur@gmail.com>, 2005,2012
 msgid ""
 msgstr ""
-"Project-Id-Version: yelp 2.12.1\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2012-09-27 10:35+0600\n"
-"Last-Translator: Timur Zhamakeev <ztimur@gmail.com>\n"
-"Language-Team: Kirghiz <gnome-i18n@gnome.org>\n"
-"Language: ky\n"
+"PO-Revision-Date: 2019-10-04 14:18+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Kyrgyz (http://www.transifex.com/endless-os/yelp/language/ky/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ky\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 1.4\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "Жүктөө абалы"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr "Интернет"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "Иш тактасы"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -95,9 +80,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Орнотуу <string/>"
@@ -118,8 +101,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -163,17 +146,14 @@ msgstr "‘%s’ файлы табылган жок."
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"‘%s’ файлын ажыратып окууга болбоду. Бул файл жок же туура эмес XML файл."
+msgstr "‘%s’ файлын ажыратып окууга болбоду. Бул файл жок же туура эмес XML файл."
 
 #: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"‘%s’ файлын ажыратып окууга болбоду, себеби ал камтыган кээ бир файлдар, "
-"туура эмес XML файл."
+msgstr "‘%s’ файлын ажыратып окууга болбоду, себеби ал камтыган кээ бир файлдар, туура эмес XML файл."
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -257,9 +237,8 @@ msgid "_Install Packages"
 msgstr "Пакеттерди _орнотуу"
 
 #: libyelp/yelp-view.c:282
-#, fuzzy
 msgid "Save Code _Block As…"
-msgstr "Код _блогун жаңыча сактоо..."
+msgstr ""
 
 #: libyelp/yelp-view.c:297
 msgid "_Copy Text"
@@ -280,15 +259,12 @@ msgid "The URI ‘%s’ could not be parsed."
 msgstr "URI ‘%s’ ажыратылып окулган жок."
 
 #: libyelp/yelp-view.c:825
-#, fuzzy
 msgid "Unknown Error."
-msgstr "Белгисиз ката"
+msgstr ""
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"PackageKit орнотулган эмес. Пакетти орнотуу шилтемеси PackageKit ти "
-"керектейт."
+msgstr "PackageKit орнотулган эмес. Пакетти орнотуу шилтемеси PackageKit ти керектейт."
 
 #: libyelp/yelp-view.c:1226
 msgid "Save Image"
@@ -304,24 +280,20 @@ msgid "Send email to %s"
 msgstr "%s ке кат жөнөтүү"
 
 #: libyelp/yelp-view.c:1525
-#, fuzzy
 msgid "_Save Image As…"
-msgstr "Сүрөттү _жаңыча сактоо..."
+msgstr ""
 
 #: libyelp/yelp-view.c:1526
-#, fuzzy
 msgid "_Save Video As…"
-msgstr "_Видеону жаңыча сактоо..."
+msgstr ""
 
 #: libyelp/yelp-view.c:1534
-#, fuzzy
 msgid "S_end Image To…"
-msgstr "_Сүрөт жөнөтүү..."
+msgstr ""
 
 #: libyelp/yelp-view.c:1535
-#, fuzzy
 msgid "S_end Video To…"
-msgstr "_Видео жөнөтүү..."
+msgstr ""
 
 #: libyelp/yelp-view.c:1876
 #, c-format
@@ -358,57 +330,48 @@ msgid "Help"
 msgstr "Жардам"
 
 #: src/yelp-window.c:348
-#, fuzzy
 msgid "Back"
-msgstr "_Артка"
+msgstr ""
 
 #: src/yelp-window.c:355
-#, fuzzy
 msgid "Forward"
-msgstr "А_лга"
+msgstr ""
 
 #: src/yelp-window.c:366
 msgid "Menu"
 msgstr ""
 
 #: src/yelp-window.c:371
-#, fuzzy
 msgid "New Window"
-msgstr "_Жаңы терезе"
+msgstr ""
 
 #: src/yelp-window.c:372
-#, fuzzy
 msgid "Find…"
-msgstr "Табуу"
+msgstr ""
 
 #: src/yelp-window.c:373
 msgid "Print…"
 msgstr ""
 
 #: src/yelp-window.c:378
-#, fuzzy
 msgid "Previous Page"
-msgstr "_Мурунку барак"
+msgstr ""
 
 #: src/yelp-window.c:379
-#, fuzzy
 msgid "Next Page"
-msgstr "_Кийинки барак"
+msgstr ""
 
 #: src/yelp-window.c:384
-#, fuzzy
 msgid "Larger Text"
-msgstr "Тексти _чоңойтуу"
+msgstr ""
 
 #: src/yelp-window.c:385
-#, fuzzy
 msgid "Smaller Text"
-msgstr "Тексти _кичирейтүү"
+msgstr ""
 
 #: src/yelp-window.c:390
-#, fuzzy
 msgid "All Help"
-msgstr "Жардам"
+msgstr ""
 
 #: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
@@ -419,18 +382,16 @@ msgid "Bookmarks"
 msgstr "Эсбелгилер"
 
 #: src/yelp-window.c:444
-#, fuzzy
 msgid "No bookmarks"
-msgstr "Эсбелгилер"
+msgstr ""
 
 #: src/yelp-window.c:452
 msgid "Add Bookmark"
 msgstr "Эсбелги кошуу"
 
 #: src/yelp-window.c:458
-#, fuzzy
 msgid "Remove Bookmark"
-msgstr "Эсбелгини _жоготуу"
+msgstr ""
 
 #: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
@@ -441,573 +402,5 @@ msgid "documentation;information;manual;help;"
 msgstr ""
 
 #: org.gnome.Yelp.desktop.in.in:8
-#, fuzzy
 msgid "help-browser"
-msgstr "Жардамды көрүү программасы"
-
-#~ msgid "Indexed"
-#~ msgstr "Индекстелген"
-
-#~ msgid "Whether the document content has been indexed"
-#~ msgstr "Документтин маалыматы индекстелгенби"
-
-#~ msgid "Document URI"
-#~ msgstr "Документтин URI си"
-
-#~ msgid "The URI which identifies the document"
-#~ msgstr "Документти чагылдырган URI"
-
-#~ msgid "View"
-#~ msgstr "Кароо"
-
-#~ msgid "A YelpView instance to control"
-#~ msgstr "Башкаруу үчүн YelpView экземпляры"
-
-#~ msgid "A YelpBookmarks implementation instance"
-#~ msgstr "YelpBookmarks имплементация экземпляры"
-
-#~ msgid "Enable Search"
-#~ msgstr "Издөөнү ишке киргизүү"
-
-#~ msgid "Whether the location entry can be used as a search field"
-#~ msgstr "Жайгашкан жери, издөө талаасы катар колдонулсунбу"
-
-#~ msgid "Search..."
-#~ msgstr "Издөө..."
-
-#~ msgid "Clear the search text"
-#~ msgstr "Издөө текстин тазалоо"
-
-#~ msgid "Bookmark this page"
-#~ msgstr "Бул баракты эсбелги катары сактоо"
-
-#~ msgid "Remove bookmark"
-#~ msgstr "Эсбелгин жоготуу"
-
-#~ msgid "Loading"
-#~ msgstr "Жүктөө"
-
-#~ msgid "GtkSettings"
-#~ msgstr "GtkSettings"
-
-#~ msgid "A GtkSettings object to get settings from"
-#~ msgstr "Параметрлерди алуу үчүн GtkSettings объекти"
-
-#~ msgid "GtkIconTheme"
-#~ msgstr "GtkIconTheme"
-
-#~ msgid "A GtkIconTheme object to get icons from"
-#~ msgstr "Сүрөтбелгилерди алуу үчүн GtkIconTheme объекти"
-
-#~ msgid "Font Adjustment"
-#~ msgstr "Ариптерди тууралоо"
-
-#~ msgid "A size adjustment to add to font sizes"
-#~ msgstr "Алиптердин өлчөмүнө тууралоо үчүн кошулуучу  өлчөм"
-
-#~ msgid "Show Text Cursor"
-#~ msgstr "Тексттик курсорду көрсөтүү"
-
-#~ msgid "Show the text cursor or caret for accessible navigation"
-#~ msgstr "Навигация үчүн документте курсорду же каретканы көрсөтүү"
-
-#~ msgid "Editor Mode"
-#~ msgstr "Оңдоо режими"
-
-#~ msgid "Enable features useful to editors"
-#~ msgstr "Терүүчүлөр үчүн пайдалуу мүмкунчүлүктөрдү иштетүү"
-
-#~ msgid "Database filename"
-#~ msgstr "Маалымат базасынын файл аты"
-
-#~ msgid "The filename of the sqlite database"
-#~ msgstr "Sqlite базасынын аты"
-
-#~ msgid "XSLT Stylesheet"
-#~ msgstr "XSLT стилдеринин таблицасы"
-
-#~ msgid "The location of the XSLT stylesheet"
-#~ msgstr "XSLT стилдик таблицасынын жайгашкан жери"
-
-#~ msgid "_Print..."
-#~ msgstr "_Басуу..."
-
-#~ msgid "Yelp URI"
-#~ msgstr "Yelp URI"
-
-#~ msgid "A YelpUri with the current location"
-#~ msgstr "YelpUri учурдагы жайгашкан жер менен"
-
-#~ msgid "The loading state of the view"
-#~ msgstr "Көрүнүшүнүн абалын жүктөө"
-
-#~ msgid "Page ID"
-#~ msgstr "Барактын ИДси"
-
-#~ msgid "The ID of the root page of the page being viewed"
-#~ msgstr "Каралып жаткан барактын негизги барагынын идентификатору"
-
-#~ msgid "Root Title"
-#~ msgstr "Негизги титул"
-
-#~ msgid "The title of the root page of the page being viewed"
-#~ msgstr "Каралып жаткан барактын негизги барагынын титулу"
-
-#~ msgid "Page Title"
-#~ msgstr "Барактын титулу"
-
-#~ msgid "The title of the page being viewed"
-#~ msgstr "Каралып жаткан барактын титулу"
-
-#~ msgid "Page Description"
-#~ msgstr "Барак жөнүндө маалымат"
-
-#~ msgid "The description of the page being viewed"
-#~ msgstr "Каралып жаткан барактын аныктамасы"
-
-#~ msgid "Page Icon"
-#~ msgstr "Барактын сүрөтбелгиси"
-
-#~ msgid "The icon of the page being viewed"
-#~ msgstr "Каралып жаткан барактын сүрөтбелгиси"
-
-#~ msgid "See all search results for “%s”"
-#~ msgstr "“%s” үчүн бардык издөө жыйынтыктарын көрүү"
-
-#~ msgid "Search for packages containing this document."
-#~ msgstr "Бул документти камтыган пакеттерди издөө"
-
-#~ msgid "Increase the size of the text"
-#~ msgstr "Тексттин өлчөмүн көбөйтүү"
-
-#~ msgid "Decrease the size of the text"
-#~ msgstr "Текстин өлчөмүн азайтуу"
-
-#~ msgid "Show Text _Cursor"
-#~ msgstr "_Курсорду көрсөтүү"
-
-#~ msgid "_Page"
-#~ msgstr "_Барак"
-
-#~ msgid "_View"
-#~ msgstr "_Кароо"
-
-#~ msgid "_Go"
-#~ msgstr "_Өтүү"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "_Эсбелгилер"
-
-#~ msgid "_Close"
-#~ msgstr "_Жабуу"
-
-#~ msgid "_All Documents"
-#~ msgstr "_Бардык документтер"
-
-#~ msgid "_Add Bookmark"
-#~ msgstr "Эсбелги _кошуу"
-
-#~ msgid "Find in Page..."
-#~ msgstr "Барак _ичинен издөө..."
-
-#~ msgid "Open Location"
-#~ msgstr "Дарек боюнча ачуу"
-
-#~ msgid "Application"
-#~ msgstr "Тиркемелер"
-
-#~ msgid "A YelpApplication instance that controls this window"
-#~ msgstr "Бул терезени башкарган YelpApplication иштемеси"
-
-#~ msgid "Read Link _Later"
-#~ msgstr "Шилтемени _кечирээк окуу"
-
-#~ msgid "Find:"
-#~ msgstr "Табуу:"
-
-#~ msgid "Read Later"
-#~ msgstr "Кечирээк окуу"
-
-#~ msgid "%i match"
-#~ msgid_plural "%i matches"
-#~ msgstr[0] "%i дал келүү"
-
-#~ msgid "No matches"
-#~ msgstr "Дал келгени жок"
-
-#~ msgid "Configuration Files"
-#~ msgstr "Конфигурациялык файлдар"
-
-#~ msgid "Development"
-#~ msgstr "Программалоо"
-
-#~ msgid "FORTRAN Functions"
-#~ msgstr "ФОРТРАН функциялары"
-
-#~ msgid "Games"
-#~ msgstr "Оюндар"
-
-#~ msgid "Hardware Devices"
-#~ msgstr "Техникалык жабдуулар"
-
-#~ msgid "Kernel Routines"
-#~ msgstr "Ядро подпрограммалары"
-
-#~ msgid "Library Functions"
-#~ msgstr "Китепкана функциялары"
-
-#~ msgid "OpenSSL Applications"
-#~ msgstr "OpenSSL тиркемелери"
-
-#~ msgid "OpenSSL Configuration"
-#~ msgstr "OpenSSL конфигурациялоо"
-
-#~ msgid "OpenSSL Overviews"
-#~ msgstr "OpenSSLге киришүү"
-
-#~ msgid "Overviews"
-#~ msgstr "Киришүү"
-
-#~ msgid "Perl Functions"
-#~ msgstr "Perl функциялары"
-
-#~ msgid "Qt Functions"
-#~ msgstr "Qt функциялары"
-
-#~ msgid "System Administration"
-#~ msgstr "Системаны башкаруу"
-
-#~ msgid "System Calls"
-#~ msgstr "Системалык чакыруулар"
-
-#~ msgid "Termcap Applications"
-#~ msgstr "Termcap иштемелери"
-
-#~ msgid "X11 Applications"
-#~ msgstr "X11 тиркемелери"
-
-#~ msgid "X11 Configuration"
-#~ msgstr "X11 конфигурациясы"
-
-#~ msgid "X11 Devices"
-#~ msgstr "X11 жабдуулары"
-
-#~ msgid "X11 Functions"
-#~ msgstr "X11 функциялары"
-
-#~ msgid "X11 Games"
-#~ msgstr "X11 оюндары"
-
-#~ msgid "X11 Overviews"
-#~ msgstr "X11 ге киришүү"
-
-#~ msgid "Accessibility"
-#~ msgstr "Ыңгайлуулуктар"
-
-#~ msgid "Accessories"
-#~ msgstr "Стандарттык иштемелер"
-
-#~ msgid "Administration"
-#~ msgstr "Башкаруу"
-
-#~ msgid "Education Applications"
-#~ msgstr "Билим берүү тиркемелери"
-
-#~ msgid "Graphics"
-#~ msgstr "Графика"
-
-#~ msgid "Help Topics"
-#~ msgstr "Жардам темалары"
-
-#~ msgid "KDE"
-#~ msgstr "KDE"
-
-#~ msgid "Multimedia"
-#~ msgstr "Мультимедиа"
-
-#~ msgid "Office"
-#~ msgstr "Офис"
-
-#~ msgid "Other"
-#~ msgstr "Башка"
-
-#~ msgid "Other Documentation"
-#~ msgstr "Башка документация"
-
-#~ msgid "Panel Applets"
-#~ msgstr "Панель апплеттери"
-
-#~ msgid "Preferences"
-#~ msgstr "Параметрлер"
-
-#~ msgid "Programming"
-#~ msgstr "Программалоо"
-
-#~ msgid "Scientific"
-#~ msgstr "Илим тиркемелери"
-
-#~ msgid "System Tools"
-#~ msgstr "Системалык аспаптар"
-
-#~ msgid "X Applications"
-#~ msgstr "X тиркемелери"
-
-#~ msgid "<b>Accessibility</b>"
-#~ msgstr "<b>Ыңгайлуулук</b>"
-
-#~ msgid "<b>Fonts</b>"
-#~ msgstr "<b>Ариптер</b>"
-
-#~ msgid "<b>_Bookmarks:</b>"
-#~ msgstr "<b>_Эсбелгилер:</b>"
-
-#~ msgid "<b>_Title:</b>"
-#~ msgstr "<b>_Баш сап:</b>"
-
-#~ msgid "C_ase sensitive"
-#~ msgstr "_Регистрди эске алуу"
-
-#~ msgid "Re_name"
-#~ msgstr "_Жаңыча атоо"
-
-#~ msgid "_Browse with caret"
-#~ msgstr "_Курсорду көрсөтүү"
-
-#~ msgid "_Find: "
-#~ msgstr "_Табуу: "
-
-#~ msgid "_Fixed width:"
-#~ msgstr "_Туруктуу жазылык:"
-
-#~ msgid "_Location:"
-#~ msgstr "_Дарек:"
-
-#~ msgid "_Use system fonts"
-#~ msgstr "_Системалык ариптерди колдонуу"
-
-#~ msgid "_Variable width:"
-#~ msgstr " _Өзгөрмөлүү жазылык:"
-
-#~ msgid "_Wrap around"
-#~ msgstr "_Батпаганын ташуу"
-
-#~ msgid "Font for fixed text"
-#~ msgstr "Туруктуу текстин ариби"
-
-#~ msgid "Font for text"
-#~ msgstr "Текстин ариби"
-
-#~ msgid "Font for text with fixed width."
-#~ msgstr "Жазылыгы туруктуу текстин ариби."
-
-#~ msgid "Font for text with variable width."
-#~ msgstr "Жазылыгы өзгөрмөлүү текстин ариби."
-
-#~ msgid "Use a keyboard-controllable caret when viewing pages."
-#~ msgstr ""
-#~ "Барактарды кароодо алиптергич аркылуу башкарылуучу курсорду колдонуу"
-
-#~ msgid "Use caret"
-#~ msgstr "Курсорду колдонуу"
-
-#~ msgid "Use system fonts"
-#~ msgstr "Системалык ариптерди колдонуу"
-
-#~ msgid "Use the default fonts set for the system."
-#~ msgstr "Алдыналынган системалык ариптер көптүгүн колдонуу."
-
-#~ msgid "Yelp Factory"
-#~ msgstr "Yelp-жардам тиркемесинин фабрикасы"
-
-#~ msgid "Open Bookmark in New Window"
-#~ msgstr "Эсбелгини жаңы терезеде ачуу"
-
-#~ msgid "Rename Bookmark"
-#~ msgstr "Эсбелгини жаңыча атоо"
-
-#~ msgid "A bookmark titled <b>%s</b> already exists for this page."
-#~ msgstr "Бул баракта <b>%s</b> аттуу эсбелги алдагачан бар."
-
-#~ msgid "Could not load section"
-#~ msgstr "Бөлүмдү жүктөөгө болбоду"
-
-#~ msgid "Could not read the table of contents"
-#~ msgstr "Мазмунун окууга болбоду"
-
-#~ msgid "Unsupported Format"
-#~ msgstr "Колдоого ээ болбогон формат"
-
-#~ msgid "Could not read document"
-#~ msgstr "Документти окууга болбоду"
-
-#~ msgid "Could not process document"
-#~ msgstr "Документти аткарууга болбоду"
-
-#~ msgid "No information is available about the error."
-#~ msgstr "Бул ката жөнүндө эч кандай маалымат табылбады."
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be read and decoded. The file may be compressed "
-#~ "in an unsupported format."
-#~ msgstr ""
-#~ "%s’ файлын окууга жана декоддоого болбоду. Файл колдоого ээ болбогон "
-#~ "алгоритм менен коддолгон болушу мүмкүн."
-
-#~ msgid "Define which cache directory to use"
-#~ msgstr "Кайсы категорияны колдонууну аныктоо"
-
-#~ msgid "Could not activate Yelp: '%s'"
-#~ msgstr "Жардамды активдештирүүгө болбоду: \"%s\""
-
-#~ msgid "Could not open new window."
-#~ msgstr "Жаңы терезе ачууга болбоду."
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be parsed.  Either the file does not exist, or it "
-#~ "is formatted incorrectly."
-#~ msgstr ""
-#~ "‘%s’ файлын ажыратып окууга болбоду. Бул файл жок же туура эмес "
-#~ "форматталган."
-
-#~ msgid "The YelpDocInfo struct of the document"
-#~ msgstr "Документтин YelpDocInfo структурасы"
-
-#~ msgid "yelp-watermark-blockquote-201C"
-#~ msgstr "yelp-watermark-blockquote-201C"
-
-#~ msgid "YelpTocPager: Pause count is negative."
-#~ msgstr "YelpTocPager: Токтоолор саны терс."
-
-#~ msgid "Could not load the OMF file '%s'."
-#~ msgstr "OMF форматындагы файлды жүктөөгө болбоду: \"%s\""
-
-#~ msgid "Read man page for %s"
-#~ msgstr "%s үчүн колдонмо барактарын кароо"
-
-#~ msgid ""
-#~ "The table of contents could not be processed. The file ‘%s’ is either "
-#~ "missing or is not a valid XSLT stylesheet."
-#~ msgstr ""
-#~ "Мазмунун аткарууга болбоду. ‘%s’ файлы жок же туура эмес XSLT стилдер "
-#~ "файлы."
-
-#~ msgid "_File"
-#~ msgstr "_Файл"
-
-#~ msgid "_Edit"
-#~ msgstr "/_Оңдоо"
-
-#~ msgid "_Help"
-#~ msgstr "_Жардам"
-
-#~ msgid "Open _Location"
-#~ msgstr "_Дарек ачуу"
-
-#~ msgid "_Select All"
-#~ msgstr "_Бардыгын белгилөө"
-
-#~ msgid "_Preferences"
-#~ msgstr "_Ырастоолор"
-
-#~ msgid "_Reload"
-#~ msgstr "_Кайра жүктөө"
-
-#~ msgid "Show previous page in history"
-#~ msgstr "Мурунку баракты көрсөтүү"
-
-#~ msgid "Show next page in history"
-#~ msgstr "Кийинки баракты көрсөтүү"
-
-#~ msgid "_Help Topics"
-#~ msgstr "_Жардам темалары"
-
-#~ msgid "Go to the listing of help topics"
-#~ msgstr "Жардам темаларынын тизмесине өтүү"
-
-#~ msgid "_Previous Section"
-#~ msgstr "_Мурунку бөлүм"
-
-#~ msgid "_Next Section"
-#~ msgstr "_Кийинки бөлүм"
-
-#~ msgid "_Contents"
-#~ msgstr "_Мазмуну"
-
-#~ msgid "_Edit Bookmarks..."
-#~ msgstr "Эсбелгилерди _оңдоо"
-
-#~ msgid "_Copy Link Address"
-#~ msgstr "Шилтеме _дарегин көчүрүү"
-
-#~ msgid "_About"
-#~ msgstr "_Программа жөнүндө"
-
-#~ msgid "Copy _Email Address"
-#~ msgstr "Почто _дарегин көчүрүү"
-
-#~ msgid "The Uniform Resource Identifier for the file is invalid."
-#~ msgstr "Бул файлдын шилтемеси(URI) туура эмес."
-
-#~ msgid "Man pages are not supported in this version."
-#~ msgstr ""
-#~ "Колдонмо барактарын (man pages) кароону программанын бул версиясы "
-#~ "колдобойт."
-
-#~ msgid "GNU info pages are not supported in this version"
-#~ msgstr "GNU info барактарын кароону программанын бул версиясы колдобойт"
-
-#~ msgid ""
-#~ "SGML documents are no longer supported. Please ask the author of the "
-#~ "document to convert to XML."
-#~ msgstr ""
-#~ "SGML форматындагы документтер мындан ары колдоого ээ эмес. Документти XML "
-#~ "форматына которуп берүүсүн автордон сураңыз."
-
-#~ msgid "Find _Next"
-#~ msgstr "_Кийинкисин табуу"
-
-#~ msgid "Find _Previous"
-#~ msgstr "_Мурункусун табуу"
-
-#~ msgid ""
-#~ "A transformation context could not be created for the file ‘%s’. The "
-#~ "format may not be supported."
-#~ msgstr ""
-#~ "‘%s’ файлы үчүн трансформация контекстин түзүүгө болбоду. Формат колдоого "
-#~ "ээ болбошу мүмкүн."
-
-#~ msgid ""
-#~ "The section ‘%s’ does not exist in this document. If you were directed to "
-#~ "this section from a Help button in an application, please report this to "
-#~ "the maintainers of that application."
-#~ msgstr ""
-#~ "Бул документте ‘%s’ бөлүмү жок. Эгер сиз бул бөлүмгө иштеменин  \"Жардам"
-#~ "\" баскычынан келсеңиз, анда бул жөнүндө иштеменин иштеп чыгуучуларына "
-#~ "билдириңиз."
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be read.  This file might be missing, or you "
-#~ "might not have permissions to read it."
-#~ msgstr ""
-#~ "‘%s’ файлын окууга болбоду. Бул файл жок, же аны окуу үчүн укугуңуз "
-#~ "жетишсиз."
-
-#~ msgid "translator-credits"
-#~ msgstr "Тимур Жамакеев <ztimur@gmail.com>"
-
-#~ msgid "A documentation browser and viewer for the Gnome Desktop."
-#~ msgstr "GNOME чөйрөсүнүн документациясын аралоо жана кароо программасы."
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be parsed. Either the file does not exist, or it "
-#~ "is improperly formatted."
-#~ msgstr ""
-#~ "‘%s’ файлын ажыратып окууга болбоду. Бул файл жок, же туура эмес "
-#~ "форматталган."
-
-#~ msgid ""
-#~ "The document ‘%s’ could not be processed. The file ‘%s’ is either "
-#~ "missing, or it is not a valid XSLT stylesheet."
-#~ msgstr ""
-#~ "‘%s’ документин аткарууга болбоду. ‘%s’ файлы жок, же ал туура эмес XSLT "
-#~ "стилдер таблицасы."
+msgstr ""

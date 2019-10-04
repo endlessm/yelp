@@ -1,95 +1,80 @@
-# The Bengali translation for yelp.
-# Copyright (C) 2003, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
 # This file is distributed under the same license as the yelp package.
-#
-# Khandakar Mujahidul Islam <suzan229@yahoo.com>, 2003-2005.
-# Runa Bhattacharjee <runabh@gmail.com>, 2007.
-# Runa Bhattacharjee <runab@fedoraproject.org>, 2008.
-# Runa Bhattacharjee <runab@redhat.com>, 2008, 2009.
-# Israt Jahan <israt@ankur.org.bd>, 2009.
-#
+# 
+# Translators:
+# Israt Jahan <israt@ankur.org.bd>, 2009
+# Roddy Shuler <roddy@stanfordalumni.org>, 2018
+# Runa Bhattacharjee <runab@fedoraproject.org>, 2008
+# runa <runabh@gmail.com>, 2007
+# runab <runab@redhat.com>, 2008-2009
+# runa <runabh@gmail.com>, 2007
+# Shimon Sharmin <oparthib@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: bn_BD\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2009-09-02 11:42+0700\n"
-"Last-Translator: Israt Jahan <israt@ankur.org.bd>\n"
-"Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
-"Language: bn\n"
+"PO-Revision-Date: 2019-10-04 14:18+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Bengali (http://www.transifex.com/endless-os/yelp/language/bn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: bn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.11.4\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
 msgstr "কীভাবে শুরু করবেন"
 
-# msgstr "_অনুসন্ধান হচ্ছেঃ "
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr "ইন্টারনেট"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr "কাগজপত্র &amp; ফাইল"
 
-# msgstr "সাহায্যের পরিমাণ"
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
 msgstr "ডেস্কটপ"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr "প্রিন্টার, প্রদর্শনী &amp; আনুষঙ্গিক সরঞ্জাম"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr "বিশ্বজনীন প্রবেশাধিকার"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr "নিরাপত্তা &amp; গোপনীয়তা"
@@ -101,18 +86,14 @@ msgstr "নিরাপত্তা &amp; গোপনীয়তা"
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "সংস্থাপন <string/>"
 
-# msgstr "/_সহায়তা/_সম্বন্ধে"
 #: data/yelp.appdata.xml.in:6
-#, fuzzy
 msgid "GNOME Help"
-msgstr " GNOME সহায়িকা ব্রাউজার"
+msgstr ""
 
 #: data/yelp.appdata.xml.in:7
 msgid "Help viewer for GNOME"
@@ -126,8 +107,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -178,9 +159,7 @@ msgstr "সঠিক XML ডকুমেন্ট রূপে গঠিত ন�
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"‘%s’ ফাইলের মধ্যে অন্তর্ভুক্ত এক অথবা একাধিক ডকুমেন্ট সঠিক XML ডকুমেন্ট রূপে গঠিত না "
-"হওয়ার ফলে এটি পার্স করতে ব্যর্থ।"
+msgstr "‘%s’ ফাইলের মধ্যে অন্তর্ভুক্ত এক অথবা একাধিক ডকুমেন্ট সঠিক XML ডকুমেন্ট রূপে গঠিত না হওয়ার ফলে এটি পার্স করতে ব্যর্থ।"
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -259,7 +238,6 @@ msgstr "লিংক খুলুন (_O)"
 msgid "Open Link in New _Window"
 msgstr "নতুন _উইন্ডোতে সংযোগ খুলুন"
 
-# msgstr "ক্যাটেগরি"
 #: libyelp/yelp-view.c:277
 msgid "_Install Packages"
 msgstr "_সংস্থাপন করুন প্যাকেজ"
@@ -352,19 +330,15 @@ msgstr "অজানা ত্রুটি"
 msgid "Turn on editor mode"
 msgstr "সম্পাদনা রূপ চালু করুন"
 
-# msgstr "জিনোমের মধ্যে দেয়া সহায়ক তথ্য গ্ড়গ্রহণ করুন"
 #: src/yelp-application.c:338 src/yelp-window.c:1186 src/yelp-window.c:1194
 #: org.gnome.Yelp.desktop.in.in:3
 msgid "Help"
 msgstr "সহায়তা"
 
-# msgstr "জিনোম ২.০ সহায়ক তথ্য  প্রদর্শনকারী ব্রাউজার"
 #: src/yelp-window.c:348
 msgid "Back"
 msgstr "পেছনে"
 
-# msgstr "হিস্টোরি থেকে পূর্ববর্তী পাতাটি দেখানো হোক"
-# msgstr "পূর্বে ব্যবহৃত পাতার তালিকা থেকে শেষ পাতাটি দেখানো হোক"
 #: src/yelp-window.c:355
 msgid "Forward"
 msgstr "সামনে"
@@ -385,7 +359,6 @@ msgstr "অনুসন্ধান..."
 msgid "Print…"
 msgstr "প্রিন্ট..."
 
-# msgstr "_পরেরটা"
 #: src/yelp-window.c:378
 msgid "Previous Page"
 msgstr "পূর্ববর্তী পাতা"
@@ -402,7 +375,6 @@ msgstr "বৃহত্তর লেখা"
 msgid "Smaller Text"
 msgstr "ক্ষুদ্রতর লেখা"
 
-# msgstr "জিনোমের মধ্যে দেয়া সহায়ক তথ্য গ্ড়গ্রহণ করুন"
 #: src/yelp-window.c:390
 msgid "All Help"
 msgstr "সকল প্রকার সহায়তা"
@@ -427,8 +399,6 @@ msgstr "বুকমার্ক যোগ করা হবে"
 msgid "Remove Bookmark"
 msgstr "বুকমার্ক মুছে ফেলা হবে"
 
-# msgstr "সূচকে খুঁজুন"
-# msgstr "ইনডেকসে খুঁজুন"
 #: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
 msgstr "GNOME থেকে সহায়তা নিন"
@@ -437,1033 +407,6 @@ msgstr "GNOME থেকে সহায়তা নিন"
 msgid "documentation;information;manual;help;"
 msgstr ""
 
-# msgstr "/_সহায়তা/_সম্বন্ধে"
 #: org.gnome.Yelp.desktop.in.in:8
-#, fuzzy
 msgid "help-browser"
-msgstr "সহায়ক তথ্য প্রদর্শনকারী ব্রাউজার"
-
-# msgstr "ম্যানুয়াল পেজ"
-#~ msgid "GNU Info Pages"
-#~ msgstr "GNU সংক্রান্ত তথ্যসহ পৃষ্ঠা"
-
-#~ msgid "Traditional command line help (info)"
-#~ msgstr "সনাতন কমান্ড-লাইন থেকে প্রাপ্ত সহায়িকা (তথ্য)"
-
-#~ msgid "Applications"
-#~ msgstr "অ্যাপ্লিকেশন"
-
-#~ msgid "BLT Functions"
-#~ msgstr "BLT ফাংশন"
-
-# msgstr "হার্ডওয়্যার যন্ত্র"
-#~ msgid "Configuration Files"
-#~ msgstr "কনফিগারেশন ফাইল"
-
-#~ msgid "Curses Functions"
-#~ msgstr "Curses ফাংশন"
-
-#~ msgid "Development"
-#~ msgstr "ডেভেলপমেন্ট"
-
-#~ msgid "FORTRAN Functions"
-#~ msgstr "FORTRAN ফাংশন"
-
-#~ msgid "Games"
-#~ msgstr "খেলা"
-
-# msgstr "তৈরী / উন্নয়ন"
-#~ msgid "Hardware Devices"
-#~ msgstr "হার্ডওয়্যার ডিভাইস"
-
-#~ msgid "Kernel Routines"
-#~ msgstr "কার্নেলের রুটিন"
-
-#~ msgid "Network Audio Sound Functions"
-#~ msgstr "নেটওয়ার্ক অডিও শব্দের ফাংশন"
-
-#~ msgid "OpenSSL Applications"
-#~ msgstr "OpenSSL অ্যাপ্লিকেশন"
-
-# msgstr "হার্ডওয়্যার যন্ত্র"
-#~ msgid "OpenSSL Configuration"
-#~ msgstr "OpenSSL কনফিগারেশন"
-
-#~ msgid "OpenSSL Functions"
-#~ msgstr "OpenSSL ফাংশন"
-
-#~ msgid "OpenSSL Overviews"
-#~ msgstr "OpenSSL সারসংক্ষেপ"
-
-#~ msgid "Overviews"
-#~ msgstr "সারসংক্ষেপ"
-
-#~ msgid "POSIX Functions"
-#~ msgstr "POSIX ফাংশন"
-
-#~ msgid "POSIX Headers"
-#~ msgstr "POSIX শীর্ষচরণ"
-
-#~ msgid "Perl Functions"
-#~ msgstr "Perl ফাংশন"
-
-#~ msgid "Qt Functions"
-#~ msgstr "Qt ফাংশন"
-
-#~ msgid "Readline Functions"
-#~ msgstr "Readline ফাংশন"
-
-#~ msgid "Section 0p"
-#~ msgstr "বিভাগ 0p"
-
-#~ msgid "Section 1m"
-#~ msgstr "বিভাগ 1m"
-
-#~ msgid "Section 1ssl"
-#~ msgstr "বিভাগ 1ssl"
-
-#~ msgid "Section 1x"
-#~ msgstr "বিভাগ 1x"
-
-#~ msgid "Section 2"
-#~ msgstr "বিভাগ 2"
-
-#~ msgid "Section 3blt"
-#~ msgstr "বিভাগ 3blt"
-
-#~ msgid "Section 3f"
-#~ msgstr "বিভাগ 3f"
-
-#~ msgid "Section 3nas"
-#~ msgstr "বিভাগ 3nas"
-
-#~ msgid "Section 3p"
-#~ msgstr "বিভাগ 3p"
-
-#~ msgid "Section 3qt"
-#~ msgstr "বিভাগ 3qt"
-
-#~ msgid "Section 3readline"
-#~ msgstr "বিভাগ 3readline"
-
-#~ msgid "Section 3ssl"
-#~ msgstr "বিভাগ 3ssl"
-
-#~ msgid "Section 3tiff"
-#~ msgstr "বিভাগ 3tiff"
-
-#~ msgid "Section 4"
-#~ msgstr "বিভাগ 4"
-
-#~ msgid "Section 4x"
-#~ msgstr "বিভাগ 4x"
-
-#~ msgid "Section 5"
-#~ msgstr "বিভাগ 5"
-
-#~ msgid "Section 5ssl"
-#~ msgstr "বিভাগ 5ssl"
-
-#~ msgid "Section 5x"
-#~ msgstr "বিভাগ 5x"
-
-#~ msgid "Section 6"
-#~ msgstr "বিভাগ 6"
-
-#~ msgid "Section 6x"
-#~ msgstr "বিভাগ 6x"
-
-#~ msgid "Section 7ssl"
-#~ msgstr "বিভাগ 7ssl"
-
-#~ msgid "Section 7x"
-#~ msgstr "বিভাগ 7x"
-
-#~ msgid "Section 9"
-#~ msgstr "বিভাগ 9"
-
-#~ msgid "Sections 1, 1p, 1g and 1t"
-#~ msgstr "বিভাগ 1, 1p, 1g ও 1t"
-
-#~ msgid "Sections 3, 3o, and 3t"
-#~ msgstr "বিভাগ 3, 3o ও 3t"
-
-#~ msgid "Sections 3form and 3menu"
-#~ msgstr "বিভাগ 3form ও 3menu"
-
-#~ msgid "Sections 3ncurses and 3curses"
-#~ msgstr "বিভাগ 3ncurses ও 3curses"
-
-#~ msgid "Sections 3pm and 3perl"
-#~ msgstr "বিভাগ 3pm ও 3perl"
-
-#~ msgid "Sections 3x and 3X11"
-#~ msgstr "বিভাগ 3x ও 3X11"
-
-#~ msgid "Sections 7 and 7gcc"
-#~ msgstr "বিভাগ 7 ও 7gcc"
-
-#~ msgid "Sections 8 and 8l"
-#~ msgstr "বিভাগ 8 ও 8l"
-
-#~ msgid "System Administration"
-#~ msgstr "সিস্টেম সংক্রান্ত কাজ পরিচালনা"
-
-#~ msgid "System Calls"
-#~ msgstr "সিস্টেম কল"
-
-#~ msgid "System V Form/Menu Functions"
-#~ msgstr "System V ফরম/মেনু ফাংশন"
-
-#~ msgid "TIFF Functions"
-#~ msgstr "TIFF ফাংশন"
-
-#~ msgid "Termcap Applications"
-#~ msgstr "Termcap অ্যাপ্লিকেশন"
-
-#~ msgid "Traditional command line help (man)"
-#~ msgstr "সনাতন কমান্ড-লাইন থেকে প্রাপ্ত সহায়িকা (man)"
-
-#~ msgid "X11 Applications"
-#~ msgstr "X11 অ্যাপ্লিকেশন"
-
-# msgstr "হার্ডওয়্যার যন্ত্র"
-#~ msgid "X11 Configuration"
-#~ msgstr "X11 কনফিগারেশন"
-
-#~ msgid "X11 Devices"
-#~ msgstr "X11 ডিভাইস"
-
-#~ msgid "X11 Functions"
-#~ msgstr "X11 ফাংশন"
-
-#~ msgid "X11 Games"
-#~ msgstr "X11 খেলা"
-
-#~ msgid "X11 Overviews"
-#~ msgstr "X11 সারসংক্ষেপ"
-
-#~ msgid "2D Graphics"
-#~ msgstr "2D গ্রাফিক্স"
-
-#~ msgid "3D Graphics"
-#~ msgstr "3D গ্রাফিক্স"
-
-#~ msgid "Accessibility"
-#~ msgstr "প্রবেশযোগ্যতা"
-
-#~ msgid "Action Games"
-#~ msgstr "অ্যাকশেনের খেলা"
-
-#~ msgid "Adventure Games"
-#~ msgstr "অ্যাডভেঞ্চারের খেলা"
-
-#~ msgid "Amusement"
-#~ msgstr "বিনোদন"
-
-#~ msgid "Applications for viewing and manipulating graphics"
-#~ msgstr "গ্রাফিক্স প্রদর্শন ও পরিবর্তনের জন্য ব্যবহৃত অ্যাপ্লিকেশন"
-
-#~ msgid "Applications related to audio and video"
-#~ msgstr "অডিও ও ভিডিও সম্পর্কিত অ্যাপ্লিকেশন"
-
-#~ msgid "Applications that teach or aid in learning"
-#~ msgstr "শিক্ষায় সহায়ক অ্যাপ্লিকেশন"
-
-#~ msgid "Arcade Games"
-#~ msgstr "আর্কেডের খেলা"
-
-#~ msgid "Archiving Tools"
-#~ msgstr "আর্কাইভ করতে ব্যবহৃত সামগ্রী"
-
-#~ msgid "Art"
-#~ msgstr "শিল্প"
-
-#~ msgid "Artificial Intelligence"
-#~ msgstr "কৃতিম মেধা"
-
-#~ msgid "Astronomy"
-#~ msgstr "জ্যোতির্বিদ্যা"
-
-#~ msgid "Biology"
-#~ msgstr "জীববিজ্ঞান"
-
-#~ msgid "Blocks Games"
-#~ msgstr "টালির খেলা"
-
-#~ msgid "Board Games"
-#~ msgstr "বোর্ডের খেলা"
-
-#~ msgid "Building"
-#~ msgstr "নির্মাণকার্য"
-
-#~ msgid "Calculator"
-#~ msgstr "ক্যালকুলেটর"
-
-#~ msgid "Calendar"
-#~ msgstr "বর্ষপঞ্জি"
-
-#~ msgid "Card Games"
-#~ msgstr "তাশের খেলা"
-
-#~ msgid "Charting Tools"
-#~ msgstr "লেখচিত্র নির্মাণের সামগ্রী"
-
-#~ msgid "Chat"
-#~ msgstr "আড্ডা"
-
-#~ msgid "Chemistry"
-#~ msgstr "রসায়ন"
-
-#~ msgid "Clocks"
-#~ msgstr "ঘড়ি"
-
-#~ msgid "Compression Tools"
-#~ msgstr "কম্প্রেশন করতে ব্যবহৃত সামগ্রী"
-
-#~ msgid "Computer Science"
-#~ msgstr "কম্পিউটার বিজ্ঞান"
-
-#~ msgid "Construction"
-#~ msgstr "নির্মাণকার্য"
-
-#~ msgid "Contact Management"
-#~ msgstr "পরিচিতি ব্যবস্থাপনা"
-
-#~ msgid "Data Visualization"
-#~ msgstr "ডাটা ভিজুয়ালাইজেশন"
-
-#~ msgid "Databases"
-#~ msgstr "ডাটাবেস"
-
-#~ msgid "Debuggers"
-#~ msgstr "ডিবাগ ব্যবস্থা"
-
-# msgstr "সাহায্যের পরিমাণ"
-#~ msgid "Desktop Settings"
-#~ msgstr "ডেস্কটপের সেটিং"
-
-#~ msgid "Dialup"
-#~ msgstr "ডায়াল-আপ"
-
-#~ msgid "Dictionaries"
-#~ msgstr "অভিধান"
-
-#~ msgid "Disc Burning"
-#~ msgstr "ডিস্ক বার্ন করার প্রণালী"
-
-#~ msgid "Economy"
-#~ msgstr "অর্থব্যবস্থা"
-
-#~ msgid "Education"
-#~ msgstr "শিক্ষা"
-
-#~ msgid "Electricity"
-#~ msgstr "বিদ্যুৎ"
-
-#~ msgid "Electronics"
-#~ msgstr "ইলেকট্রনিক সামগ্রী"
-
-#~ msgid "Email Tools"
-#~ msgstr "ইমেইলের টুল"
-
-#~ msgid "Emulator"
-#~ msgstr "এমুলেটর"
-
-#~ msgid "Engineering"
-#~ msgstr "প্রকৌশল"
-
-#~ msgid "File Manager"
-#~ msgstr "ফাইল ব্যবস্থাপক"
-
-#~ msgid "File Tools"
-#~ msgstr "ফাইল টুল"
-
-#~ msgid "File Transfer"
-#~ msgstr "ফাইল আদান-প্রদান"
-
-#~ msgid "Filesystem"
-#~ msgstr "ফাইল সিস্টেম"
-
-#~ msgid "Financial Tools"
-#~ msgstr "ব্যবসায়িক টুল"
-
-#~ msgid "Flow Charting Tools"
-#~ msgstr "ফ্লো-চার্টের টুল"
-
-#~ msgid "GNOME Applications"
-#~ msgstr "GNOME অ্যাপ্লিকেশন"
-
-#~ msgid "GTK"
-#~ msgstr "GTK"
-
-#~ msgid "GUI Designers"
-#~ msgstr "GUI ডিজাইনার"
-
-#~ msgid "Generic applications for the GNOME environment"
-#~ msgstr "GNOME ডেস্কটপ পরিবেশের জন্য সাধারণ অ্যাপ্লিকেশন সংকলন"
-
-#~ msgid "Generic applications for the KDE environment"
-#~ msgstr "KDE ডেস্কটপ পরিবেশের জন্য সাধারণ অ্যাপ্লিকেশন সংকলন"
-
-#~ msgid "Geography"
-#~ msgstr "ভূগোল"
-
-#~ msgid "Geology"
-#~ msgstr "ভূতত্ত্ব"
-
-#~ msgid "Geoscience"
-#~ msgstr "ভূ বিজ্ঞান"
-
-#~ msgid "Graphics"
-#~ msgstr "গ্রাফিক্স"
-
-#~ msgid ""
-#~ "Guides and manuals for applications that connect to the outside world"
-#~ msgstr ""
-#~ "বাহির জগতের সাথে সংযোগ স্থাপন করতে ব্যবহৃত অ্যাপ্লিকেশনের জন্য সহায়ক গাইড এবং "
-#~ "ম্যানুয়াল"
-
-#~ msgid "Guides for getting involved in development"
-#~ msgstr "ডেভেলপমেন্টের সাথে সংযুক্ত হওয়ার জন্য সহায়ক গাইড"
-
-#~ msgid "Ham Radio"
-#~ msgstr "হ্যাম রেডিও"
-
-# msgstr "তৈরী / উন্নয়ন"
-#~ msgid "Hardware Settings"
-#~ msgstr "হার্ডওয়্যার সেটিং"
-
-#~ msgid "Have some fun"
-#~ msgstr "উপভোগ করুন"
-
-#~ msgid "History"
-#~ msgstr "ইতিহাস"
-
-#~ msgid "IDEs"
-#~ msgstr "বিবিধ IDE"
-
-#~ msgid "IRC Clients"
-#~ msgstr "IRC ক্লায়েন্ট"
-
-#~ msgid "Image Processing"
-#~ msgstr "ছবি প্রসেসিং"
-
-#~ msgid "Instant Messaging"
-#~ msgstr "তাৎক্ষনিক বার্তালাপ"
-
-#~ msgid "Java"
-#~ msgstr "জাভা"
-
-#~ msgid "KDE Applications"
-#~ msgstr "KDE অ্যাপ্লিকেশন"
-
-#~ msgid "Kids Games"
-#~ msgstr "ছোটদের খেলা"
-
-#~ msgid ""
-#~ "Learn more about making your system more accessible for a range of "
-#~ "disabilities"
-#~ msgstr ""
-#~ "প্রতিবন্ধীদের বিশেষ ব্যবহারের উদ্দেশ্যে নিজের সিস্টেম প্রস্তুত করার প্রণালী জেনে নিন"
-
-#~ msgid "Licenses"
-#~ msgstr "লাইসেন্স"
-
-#~ msgid "Literature"
-#~ msgstr "সাহিত্য"
-
-#~ msgid "Logic Games"
-#~ msgstr "লজিকের খেলা"
-
-#~ msgid "Math"
-#~ msgstr "গণিত"
-
-#~ msgid "Medical Software"
-#~ msgstr "চিকিৎসা সংক্রান্ত সফ্টওয়্যার"
-
-#~ msgid "Midi"
-#~ msgstr "মিডি"
-
-#~ msgid "Miscellaneous Documentation"
-#~ msgstr "বিবিধ ডকুমেন্টেশন"
-
-#~ msgid "Mixers"
-#~ msgstr "মিশ্রণ"
-
-#~ msgid "Monitor"
-#~ msgstr "মনিটর"
-
-#~ msgid "Motif"
-#~ msgstr "মটিফ"
-
-#~ msgid "Music"
-#~ msgstr "সংগীত"
-
-#~ msgid "News"
-#~ msgstr "নিউজ"
-
-#~ msgid "Numerical Analysis"
-#~ msgstr "সংখ্যাসূচক বিশ্লেষণ"
-
-#~ msgid "OCR"
-#~ msgstr "OCR"
-
-#~ msgid "Office Applications"
-#~ msgstr "অফিস অ্যাপ্লিকেশন"
-
-#~ msgid "Office applications"
-#~ msgstr "অফিস অ্যাপ্লিকেশন"
-
-#~ msgid "Other Documentation"
-#~ msgstr "অন্যান্য ডকুমেন্টেশন"
-
-#~ msgid "P2P"
-#~ msgstr "P2P"
-
-#~ msgid "PDA Communication"
-#~ msgstr "PDA যোগাযোগ"
-
-#~ msgid "Package Manager"
-#~ msgstr "প্যাকেজ ব্যবস্থাপক"
-
-#~ msgid "Parallel Computing"
-#~ msgstr "সমান্তরাম গণনা"
-
-#~ msgid "Photography"
-#~ msgstr "আলোকচিত্রবিদ্যা"
-
-#~ msgid "Physics"
-#~ msgstr "পদার্থবিদ্যা"
-
-#~ msgid "Players"
-#~ msgstr "প্লেয়ার"
-
-#~ msgid "Presentation Tools"
-#~ msgstr "উপস্থাপনা টুল"
-
-#~ msgid "Printing"
-#~ msgstr "মুদ্রণ করা হচ্ছে"
-
-#~ msgid "Profiling Tools"
-#~ msgstr "প্রোফাইল নির্মাণে ব্যবহৃত টুল"
-
-#~ msgid "Project Management Tools"
-#~ msgstr "প্রজেক্ট ব্যবস্থাপনা টুল"
-
-#~ msgid "Publishing"
-#~ msgstr "প্রকাশনা"
-
-#~ msgid "Qt"
-#~ msgstr "Qt"
-
-#~ msgid "Raster Graphics"
-#~ msgstr "র‍্যাস্টার গ্রাফিক্স"
-
-#~ msgid "Recorders"
-#~ msgstr "রেকর্ডার"
-
-#~ msgid "Remote Access"
-#~ msgstr "দূরবর্তী প্রবেশাধিকার"
-
-#~ msgid "Revision Control"
-#~ msgstr "পরিমার্জন নিয়ন্ত্রণ"
-
-#~ msgid "Robotics"
-#~ msgstr "রোবোটিক্স"
-
-#~ msgid "Role Playing Games"
-#~ msgstr "ভূমিকার খেলা"
-
-#~ msgid "Scanning"
-#~ msgstr "স্ক্যান ব্যবস্থা"
-
-#~ msgid "Science"
-#~ msgstr "বিজ্ঞান"
-
-#~ msgid "Security"
-#~ msgstr "নিরাপত্তা"
-
-#~ msgid "Sequencers"
-#~ msgstr "সিকুয়েন্সার"
-
-#~ msgid "Settings"
-#~ msgstr "সেটিং"
-
-#~ msgid ""
-#~ "Settings users can manipulate to make their environment more pleasant"
-#~ msgstr "ব্যবহারকারীরদের কর্ম পরিবেশের সৌন্দর্য্য পরিবর্তনের জন্য সেটিং"
-
-#~ msgid "Simulation Games"
-#~ msgstr "সিমুলেশন খেলা"
-
-#~ msgid "Sound"
-#~ msgstr "শব্দ"
-
-#~ msgid "Sound &amp; Video Editing"
-#~ msgstr "শব্দ &amp; ভিডিও সম্পাদনা"
-
-#~ msgid "Sports"
-#~ msgstr "ক্রিড়া"
-
-#~ msgid "Sports Games"
-#~ msgstr "ক্রিড়াসমৃদ্ধ খেলা"
-
-#~ msgid "Spreadsheet Tools"
-#~ msgstr "স্প্রেডশীটের টুল"
-
-#~ msgid "Strategy Games"
-#~ msgstr "কৌশলের খেলা"
-
-#~ msgid "System"
-#~ msgstr "সিস্টেম"
-
-#~ msgid "TV"
-#~ msgstr "টেলিভিশন"
-
-#~ msgid "Telephony"
-#~ msgstr "টেলিফোনি"
-
-#~ msgid "Telephony Tools"
-#~ msgstr "টেলিফোনি টুল"
-
-#~ msgid "Terminal Emulator"
-#~ msgstr "টার্মিন্যাল এমুলেটর"
-
-#~ msgid "Text Editors"
-#~ msgstr "টেক্সট এডিটর"
-
-#~ msgid "Text Tools"
-#~ msgstr "পাঠ্য টুল"
-
-#~ msgid "Tools to help you manage your computer"
-#~ msgstr "আপনার কম্পিউটার ব্যবস্থাপনা সহায়ক বিভিন্ন সামগ্রী"
-
-#~ msgid "Translation Tools"
-#~ msgstr "অনুবাদের টুল"
-
-#~ msgid "Tuners"
-#~ msgstr "টিউনার"
-
-#~ msgid "Utilities"
-#~ msgstr "বিবিধ সামগ্রী"
-
-#~ msgid "Utilities to help you get work done"
-#~ msgstr "আপনার কর্ম সঞ্চালনের জন্য বিভিন্ন সামগ্রী"
-
-#~ msgid "Vector Graphics"
-#~ msgstr "ভেক্টর গ্রাফিক্স"
-
-#~ msgid "Video"
-#~ msgstr "ভিডিও"
-
-#~ msgid "Video Conference"
-#~ msgstr "ভিডিও কনফারেন্স"
-
-#~ msgid "Viewer"
-#~ msgstr "প্রদর্শক"
-
-# msgstr "/_সহায়তা/_সম্বন্ধে"
-#~ msgid "Web Browser"
-#~ msgstr "ওয়েব ব্রাউজার"
-
-#~ msgid "Web Development"
-#~ msgstr "ওয়েব ডেভেলপমেন্ট"
-
-# msgstr "/_সহায়তা/_সম্বন্ধে"
-#~ msgid "Welcome to the GNOME Help Browser"
-#~ msgstr "GNOME সহায়িকা ব্রাউজারে আপনাকে স্বাগতম"
-
-#~ msgid "Word Processors"
-#~ msgstr "ওয়ার্ড প্রসেসর"
-
-#~ msgid "Re_name"
-#~ msgstr "পুনরায় নামকরণ (_n)"
-
-#~ msgid "_Bookmarks:"
-#~ msgstr "বুকমার্ক: (_B)"
-
-#~ msgid "_Title:"
-#~ msgstr "শিরোনাম: (_T)"
-
-#~ msgid "_Location:"
-#~ msgstr "অবস্থান: (_L)"
-
-#~ msgid "Fonts"
-#~ msgstr "ফন্ট"
-
-#~ msgid "Preferences"
-#~ msgstr "পছন্দ"
-
-#~ msgid "_Browse with caret"
-#~ msgstr "caret সহ ব্রাউজ করুন (_B)"
-
-#~ msgid "_Fixed width:"
-#~ msgstr "নির্ধারিত প্রস্থ: (_F)"
-
-#~ msgid "_Use system fonts"
-#~ msgstr "সিস্টেমের ফন্ট ব্যবহার করা হবে (_U)"
-
-#~ msgid "_Variable width:"
-#~ msgstr "পরিবর্তনযোগ্য প্রস্থ: (_V)"
-
-#~ msgid "Font for fixed text"
-#~ msgstr "নির্ধারিত পাঠ্যে ব্যবহৃত ফন্ট"
-
-#~ msgid "Font for text"
-#~ msgstr "পাঠ্যে ব্যবহৃত ফন্ট"
-
-#~ msgid "Font for text with fixed width."
-#~ msgstr "নির্ধারিত প্রস্থের পাঠ্যে ব্যবহৃত ফন্ট।"
-
-#~ msgid "Font for text with variable width."
-#~ msgstr "পরিবর্তনযোগ্য প্রস্থের পাঠ্যে ব্যবহৃত ফন্ট।"
-
-#~ msgid "Use a keyboard-controllable caret when viewing pages."
-#~ msgstr "পৃষ্ঠা প্রদর্শনের সময় কীবোর্ড দ্বারা নিয়ন্ত্রিত ক্যারেট ব্যবহার করা হবে।"
-
-#~ msgid "Use caret"
-#~ msgstr "ক্যারেট ব্যবহার করা হবে"
-
-#~ msgid "Use system fonts"
-#~ msgstr "সিস্টেম ফন্ট ব্যবহার করা হবে"
-
-#~ msgid "Use the default fonts set for the system."
-#~ msgstr "সিস্টেমে নির্ধারিত ডিফল্ট ফন্ট সংকলন ব্যবহৃত করা হবে।"
-
-#~ msgid "File is not a valid .desktop file"
-#~ msgstr "এটি কার্যকর .desktop ফাইল নয়"
-
-#~ msgid "Unrecognized desktop file Version '%s'"
-#~ msgstr "ডেস্কটপ ফাইলের অজানা সংস্করণ '%s'"
-
-#~ msgid "Starting %s"
-#~ msgstr "%s আরম্ভ করা হচ্ছে"
-
-#~ msgid "Application does not accept documents on command line"
-#~ msgstr "অ্যাপ্লিকেশন দ্বারা কমান্ড-লাইনের মাধ্যমে নথি গ্রহণ করা হয় না"
-
-#~ msgid "Unrecognized launch option: %d"
-#~ msgstr "অজানা চালুকরণ অপশন: %d"
-
-#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-#~ msgstr "'Type=Link' ডেস্কটপ ভুক্তির ক্ষেত্রে নথির URI উল্লেখ করা সম্ভব নয়"
-
-#~ msgid "Not a launchable item"
-#~ msgstr "চালু করার যোগ্য আইটেম নয়"
-
-#~ msgid "Disable connection to session manager"
-#~ msgstr "সেশন ব্যবস্থাপকের সাথে সংযোগ বিচ্ছিন্ন করা হবে"
-
-#~ msgid "Specify file containing saved configuration"
-#~ msgstr "সংরক্ষিত কনফিগারেশন ধারণকারী ফাইল উল্লেখ করুন"
-
-#~ msgid "FILE"
-#~ msgstr "FILE"
-
-#~ msgid "Specify session management ID"
-#~ msgstr "সেশন ব্যবস্থাপনার ID উল্লেখ করা হবে"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "Session management options:"
-#~ msgstr "সেশন ব্যবস্থাপনা সংক্রান্ত অপশন:"
-
-#~ msgid "Show session management options"
-#~ msgstr "সেশান ব্যবস্থাপনা সংক্রান্ত অপশন প্রদর্শন করা হবে"
-
-#~ msgid "Open Bookmark in New Window"
-#~ msgstr "নতুন উইন্ডোর মধ্যে বুকমার্ক খোলা হবে"
-
-#~ msgid "Rename Bookmark"
-#~ msgstr "বুকমার্কের নাম পরিবর্তন করা হবে"
-
-#~ msgid "A bookmark titled %s already exists for this page."
-#~ msgstr "এই পৃষ্ঠার জন্য %s শিরোনামসহ একটি বুকমার্ক বর্তমানে উপস্থিত রয়েছে।"
-
-#~ msgid "A bookmark titled <b>%s</b> already exists for this page."
-#~ msgstr "এই পৃষ্ঠার জন্য <b>%s</b> শিরোনামসহ একটি বুকমার্ক বর্তমানে উপস্থিত রয়েছে।"
-
-# msgstr "/_সহায়তা/_সম্বন্ধে"
-#~ msgid "Help Topics"
-#~ msgstr "সহায়িকার সূচিপত্র"
-
-#~ msgid "File not found"
-#~ msgstr "ফাইল পাওয়া যায়নি"
-
-# msgstr "Yelp কে চালু করা যায়নিঃ '%s'"
-# msgstr "Yelp কে স্বয়ংক্রিয় করতে পারছে নাঃ '%s'"
-#~ msgid "Could not parse file"
-#~ msgstr "ফাইল পার্স করতে ব্যর্থ"
-
-#~ msgid "Could Not Read File"
-#~ msgstr "ফাইল পড়তে ব্যর্থ"
-
-#~ msgid "No information is available about this error."
-#~ msgstr "এই ত্রুটি সম্পর্কে কোনো তথ্য উপস্থিত নেই।"
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be read and decoded. The file may be compressed "
-#~ "in an unsupported format."
-#~ msgstr ""
-#~ "‘%s’ ফাইলটি পড়া ও ডিকোড করতে ব্যর্থ। সম্ভবত ফাইলটি কোনো অসমর্থিত বিন্যাসে "
-#~ "কমপ্রেস করা হয়েছে।"
-
-#~ msgid "Use a private session"
-#~ msgstr "ব্যক্তিগত সেশন ব্যবহার করা হবে"
-
-#~ msgid "Define which cache directory to use"
-#~ msgstr "ব্যবহারের উদ্দেশ্যে ক্যাশে ডিরেক্টরি নির্ধারণ করা হবে"
-
-#~ msgid "Directory not found"
-#~ msgstr "ডিরেক্টরি পাওয়া যায়নি"
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be parsed because it is not a well-formed man "
-#~ "page."
-#~ msgstr "সঠিক man ডকুমেন্ট রূপে গঠিত না হওয়ার ফলে ‘%s’ ফাইল পার্স করতে ব্যর্থ।"
-
-#~ msgid "Preparing to print"
-#~ msgstr "মুদ্রণের প্রস্তুতি"
-
-#~ msgid "Printing is not supported on this printer"
-#~ msgstr "এই মুদ্রণ যন্ত্রে মুদ্রণ সমর্থিত হয় না"
-
-#~ msgid "Printer %s does not support postscript printing."
-#~ msgstr "%s মুদ্রণ যন্ত্রে postscript মুদ্রণ সমর্থিত হয় না।"
-
-#~ msgid "Waiting to print"
-#~ msgstr "মুদ্রণের উদ্দেশ্যে অপেক্ষারত"
-
-#~ msgid "An error occurred while printing"
-#~ msgstr "মুদ্রণের সময় ত্রুটি দেখা দিয়েছে"
-
-#~ msgid "It was not possible to print your document: %s"
-#~ msgstr "আপনার ডকুমেন্ট মুদ্রণ করা যায়নি: %s"
-
-#~ msgid "the GNOME Support Forums"
-#~ msgstr "GNOME'র সহায়তার ফোরাম"
-
-#~ msgid "No results for \"%s\""
-#~ msgstr "\"%s\"-র কোনো ফলাফল পাওয়া যায়নি"
-
-#~ msgid ""
-#~ "Try using different words to describe the problem you're having or the "
-#~ "topic you want help with."
-#~ msgstr ""
-#~ "আপনার সমস্যার অথবা অনুসন্ধানের বিষয়বস্তুর বর্নণা করার জন্য বিভিন্ন শব্দ উল্লেখ করুন।"
-
-#~ msgid "Repeat the search online at %s"
-#~ msgstr "%s'এ অনলাইন পুনরায় অনুসন্ধান করা হবে"
-
-#~ msgid ""
-#~ "a:about:an:are:as:at:be:broke:broken:by:can:can't:dialog:dialogue:do:"
-#~ "doesn't:doesnt:don't:dont:explain:for:from:get:gets:got:make:makes:not:"
-#~ "when:has:have:help:how:i:in:is:it:item:me:my:of:on:or:tell:that:the:thing:"
-#~ "this:to:what:where:who:will:with:won't:wont:why:work:working:works"
-#~ msgstr ""
-#~ "a:about:an:are:as:at:be:broke:broken:by:can:can't:dialog:dialogue:do:"
-#~ "doesn't:doesnt:don't:dont:explain:for:from:get:gets:got:make:makes:not:"
-#~ "when:has:have:help:how:i:in:is:it:item:me:my:of:on:or:tell:that:the:thing:"
-#~ "this:to:what:where:who:will:with:won't:wont:why:work:working:works"
-
-#~ msgid "re"
-#~ msgstr "NULL"
-
-#~ msgid "ers:er:ing:es:s:'s"
-#~ msgstr "NULL"
-
-#~ msgid "No Comment"
-#~ msgstr "মন্তব্য বিহীন"
-
-#~ msgid "Search could not be processed"
-#~ msgstr "অনুসন্ধান কর্ম পরিচালনায় ব্যর্থ"
-
-#~ msgid "The requested search could not be processed."
-#~ msgstr "অনুরোধ করা অনুসন্ধান পরিচালনা করতে ব্যর্থ।"
-
-#~ msgid "Cannot process the search"
-#~ msgstr "অনুসন্ধান চালাতে ব্যর্থ"
-
-#~ msgid "The search processor returned invalid results"
-#~ msgstr "অনুসন্ধান প্রক্রিয়া থেকে অকার্যকর ফলাফল পাওয়া গেছে"
-
-#~ msgid "The page %s was not found in the TOC."
-#~ msgstr "সূচিপত্রের মধ্যে %s পাওয়া যায়নি।"
-
-#~ msgid "The requested page was not found in the TOC."
-#~ msgstr "অনুরোধ করার পৃষ্ঠাটি সূচিপত্রের মধ্যে পাওয়া যায়নি।"
-
-#~ msgid ""
-#~ "The TOC file could not be parsed because it is not a well-formed XML "
-#~ "document."
-#~ msgstr ""
-#~ "সঠিক XML ডকুমেন্ট রূপে গঠিত না হওয়ার ফলে সূচিপত্রের ফাইলটি পার্স করতে ব্যর্থ।"
-
-#~ msgid "Invalid Stylesheet"
-#~ msgstr "অকার্যকর স্টাইলশীট"
-
-#~ msgid "Broken Transformation"
-#~ msgstr "রূপান্তর ক্ষতিগ্রস্ত"
-
-#~ msgid ""
-#~ "An unknown error occurred while attempting to transform the document."
-#~ msgstr "ডকুমেন্ট রূপান্তর করার প্রচেষ্টাকালে অজানা ত্রুটি উৎপন্ন হয়েছে।"
-
-#~ msgid "_File"
-#~ msgstr "ফাইল (_F)"
-
-# msgstr "/ফাইল/_বন্ধ উইন্ডো"
-#~ msgid "_Edit"
-#~ msgstr "সম্পাদনা (_E)"
-
-# msgstr "/_সম্পাদনা/_আবার খুঁজুন"
-# msgstr "/_সম্পাদনা/_আবার অনুসন্ধান করুন"
-#~ msgid "_Go"
-#~ msgstr "গন্তব্য (_G)"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "বুকমার্ক (_B)"
-
-# msgstr "/যাও/_সূচি"
-#~ msgid "_Help"
-#~ msgstr "সহায়তা (_H)"
-
-#~ msgid "Print This Document ..."
-#~ msgstr "এই ডকুমেন্টটি মুদ্রণ করুন..."
-
-#~ msgid "Print This Page ..."
-#~ msgstr "পৃষ্ঠা মুদ্রণ করুন ..."
-
-#~ msgid "About This Document"
-#~ msgstr "ডকুমেন্ট পরিচিতি"
-
-#~ msgid "Open _Location"
-#~ msgstr "অবস্থান খুলুন (_L)"
-
-#~ msgid "_Close Window"
-#~ msgstr "উইন্ডো বন্ধ করুন (_C)"
-
-#~ msgid "_Select All"
-#~ msgstr "সব নির্বাচন করুন (_S)"
-
-#~ msgid "_Find..."
-#~ msgstr "অনুসন্ধান...(_F)"
-
-# msgstr "_পরেরটা"
-#~ msgid "Find Pre_vious"
-#~ msgstr "পূর্ববর্তী উপস্থিতি অনুসন্ধান (_v)"
-
-#~ msgid "Find previous occurrence of the word or phrase"
-#~ msgstr "শব্দ অথবা পংক্তির পূর্ববর্তী উপস্থিতি অনুসন্ধান করুন"
-
-# msgstr "স্বয়ংক্রিয়ভাবে _চারদিক থেকে জড়িয়ে ফেলে"
-#~ msgid "Find Ne_xt"
-#~ msgstr "পরবর্তী উপস্থিত অনুসন্ধান (_x)"
-
-#~ msgid "Find next occurrence of the word or phrase"
-#~ msgstr "শব্দ অথবা পংক্তির পরবর্তী উপস্থিতি অনুসন্ধান করুন"
-
-#~ msgid "_Preferences"
-#~ msgstr "পছন্দ (_P)"
-
-#~ msgid "_Reload"
-#~ msgstr "পুনরায় লোড করুন (_R)"
-
-#~ msgid "Show previous page in history"
-#~ msgstr "ইতিহাস চিহ্নিত পুরোনো পৃষ্ঠা দেখুন"
-
-#~ msgid "Show next page in history"
-#~ msgstr "ইতিহাসে চিহ্নিত পরবর্তী পৃষ্ঠা দেখুন"
-
-#~ msgid "_Help Topics"
-#~ msgstr "সহায়িকার সূচি (_H)"
-
-#~ msgid "Go to the listing of help topics"
-#~ msgstr "সহায়িকার বিষয়বস্তুর তালিকা দেখুন"
-
-#~ msgid "_Next Section"
-#~ msgstr "পরবর্তী বিভাগ (_N)"
-
-# msgstr "_অনুসন্ধান হচ্ছেঃ "
-#~ msgid "_Contents"
-#~ msgstr "বিষয়বস্তু (_C)"
-
-#~ msgid "_Add Bookmark"
-#~ msgstr "বুকমার্ক যোগ (_A)"
-
-#~ msgid "_Edit Bookmarks..."
-#~ msgstr "বুকমার্ক সম্পাদনা... (_E)"
-
-#~ msgid "_Copy Link Address"
-#~ msgstr "লিংক দ্বারা চিহ্নিত অবস্থান অনুলিপি করুন (_C)"
-
-#~ msgid "Help On this application"
-#~ msgstr "এই অ্যাপ্লিকেশন সংক্রান্ত সহায়তা"
-
-# msgstr "/_সহায়তা"
-#~ msgid "_About"
-#~ msgstr "পরিচিতি (_A)"
-
-#~ msgid "Copy _Email Address"
-#~ msgstr "ইমেইল ঠিকানা অনুলিপি করুন (_E)"
-
-# msgstr "সিস্টেমের ব্যবস্থাপনা"
-# msgstr "সিস্টেমের পরিচালনা"
-#~ msgid "Loading..."
-#~ msgstr "লোড করা হচ্ছে..."
-
-# msgstr "ম্যানুয়াল পেজ"
-#~ msgid "Unknown Page"
-#~ msgstr "অজানা পৃষ্ঠা"
-
-#~ msgid "The requested URI \"%s\" is invalid"
-#~ msgstr "অনুরোধ করা URI \"%s\" কার্যকর নয়"
-
-#~ msgid "Unable to load page"
-#~ msgstr "পৃষ্ঠা লোড করতে ব্যর্থ"
-
-# msgstr "সেকশন"
-#~ msgid "_Search:"
-#~ msgstr "অনুসন্ধান: (_S)"
-
-#~ msgid "Search for other documentation"
-#~ msgstr "অন্যান্য  অনুসন্ধান করুন"
-
-#~ msgid "Cannot create search component"
-#~ msgstr "অনুসন্ধানের উপাদান নির্মাণ করতে ব্যর্থ"
-
-#~ msgid "Fin_d:"
-#~ msgstr "অনুসন্ধান: (_d)"
-
-# msgstr "_পরেরটা"
-#~ msgid "Find _Previous"
-#~ msgstr "পরবর্তী উপস্থিতি অনুসন্ধান করুন (_P)"
-
-# msgstr "স্বয়ংক্রিয়ভাবে _চারদিক থেকে জড়িয়ে ফেলে"
-#~ msgid "Find _Next"
-#~ msgstr "পরবর্তী উপস্থিতি অনুসন্ধান করুন (_N)"
-
-#~ msgid "Phrase not found"
-#~ msgstr "পংক্তি পাওয়া যায়নি"
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be read.  This file might be missing, or you "
-#~ "might not have permissions to read it."
-#~ msgstr ""
-#~ "‘%s’ ফাইল পড়তে ব্যর্থ। ফাইলটি সম্ভবত অনুপস্থিত অথবা এটি পড়ার জন্য প্রয়োজনীয় "
-#~ "অনুমতি আপনার নেই।"
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "খন্দকার মুজাহিদুল ইসলাম সুজন <suzan@bengalinux.org>\n"
-#~ "রুণা ভট্টাচার্য <runabh@gmail.com>\n"
-#~ "অংকুর গ্রুপের পক্ষ থেকে"
-
-# msgstr "_আগেরটা"
-#~ msgid "Yelp"
-#~ msgstr "Yelp"
-
-#~ msgid "A documentation browser and viewer for the Gnome Desktop."
-#~ msgstr "Gnome ডেস্কটপে ব্যবহারযোগ্য ডকুমেন্টেশন ব্রাউজার ও প্রদর্শন ব্যবস্থা।"
+msgstr ""
