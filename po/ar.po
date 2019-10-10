@@ -13,12 +13,13 @@
 # Roddy Shuler <roddy@stanfordalumni.org>, 2018
 # abuosaid <ambamb1402@gmail.com>, 2011
 # Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002
+# Will Thompson <wjt@endlessm.com>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2019-10-04 14:18+0000\n"
+"PO-Revision-Date: 2019-10-10 14:15+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/endless-os/yelp/language/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -96,33 +97,33 @@ msgstr "ثبّت <string/>"
 
 #: data/yelp.appdata.xml.in:6
 msgid "GNOME Help"
-msgstr ""
+msgstr "مساعدة GNOME"
 
 #: data/yelp.appdata.xml.in:7
 msgid "Help viewer for GNOME"
-msgstr ""
+msgstr "طور مشاهدة المساعدة الخاصة بنظام GNOME"
 
 #: data/yelp.appdata.xml.in:9
 msgid ""
 "Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
 "also display DocBook, info, man, and HTML documentation."
-msgstr ""
+msgstr "يُعد يلب هو الموقع العارض لدعم مشروع جنوم. إنه عارض Mallard الافتراضي، لكن يمكنه أيضاً عرض مستندات DocBook والمعلومات وصفحة دليل يونكس و HTML."
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
 "It makes it easy to find the documentation you need, with interactive search"
 " and bookmarks."
-msgstr ""
+msgstr "يجعل من السهل العثور على الوثائق التي تحتاج إليها، من خلال البحث التفاعلي والإشارات المرجعية."
 
 #: data/yelp.appdata.xml.in:17
 msgid ""
 "It also has an editor mode, which shows editorial comments and revision "
 "statuses when editing Mallard documents."
-msgstr ""
+msgstr "كما أن هناك وضع محرر، يعرض التعليقات التحريرية وحالات المراجعة عند تحرير وثائق مالارد."
 
 #: data/yelp.appdata.xml.in:30
 msgid "The GNOME Project"
-msgstr ""
+msgstr "مشروع جنوم"
 
 #: libyelp/yelp-bz2-decompressor.c:143 libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
@@ -412,4 +413,4 @@ msgstr "التوثيق؛معلومات؛الدليل؛المساعدة؛"
 
 #: org.gnome.Yelp.desktop.in.in:8
 msgid "help-browser"
-msgstr ""
+msgstr "help-browser"

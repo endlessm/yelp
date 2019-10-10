@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2019-10-04 14:18+0000\n"
+"PO-Revision-Date: 2019-10-05 21:04+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Hindi (http://www.transifex.com/endless-os/yelp/language/hi/)\n"
 "MIME-Version: 1.0\n"
@@ -96,33 +96,33 @@ msgstr "<string/> संस्थापित करें"
 
 #: data/yelp.appdata.xml.in:6
 msgid "GNOME Help"
-msgstr ""
+msgstr "GNOME सहायता"
 
 #: data/yelp.appdata.xml.in:7
 msgid "Help viewer for GNOME"
-msgstr ""
+msgstr "GNOME के लिए सहायता दर्शक"
 
 #: data/yelp.appdata.xml.in:9
 msgid ""
 "Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
 "also display DocBook, info, man, and HTML documentation."
-msgstr ""
+msgstr "Yelp GNOME का हेल्प व्यूअर है। यह डिफ़ॉल्ट मल्लार्ड व्यूअर है, लेकिन यह डॉकबुक, सूचना, मेन और HTML डॉक्यूमेंट भी प्रदर्शित कर सकता है।"
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
 "It makes it easy to find the documentation you need, with interactive search"
 " and bookmarks."
-msgstr ""
+msgstr "यह इंटरैक्टिव खोज और बुकमार्क के साथ आपके द्वारा आवश्यक डॉक्यूमेंट को ढूंढना आसान बनाता है।"
 
 #: data/yelp.appdata.xml.in:17
 msgid ""
 "It also has an editor mode, which shows editorial comments and revision "
 "statuses when editing Mallard documents."
-msgstr ""
+msgstr "इसमें एक संपादन मोड भी है, जो Mallard दस्तावेज़ो को संपादित करते समय संपादकीय टिप्पणियों और संशोधन की स्थिति को दर्शाता है।"
 
 #: data/yelp.appdata.xml.in:30
 msgid "The GNOME Project"
-msgstr ""
+msgstr "GNOME प्रॉजेक्ट"
 
 #: libyelp/yelp-bz2-decompressor.c:143 libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
@@ -412,4 +412,4 @@ msgstr "दस्तावेज़ीकरण;सूचना;मैनुअ�
 
 #: org.gnome.Yelp.desktop.in.in:8
 msgid "help-browser"
-msgstr ""
+msgstr "सहायता-ब्राउज़र"
