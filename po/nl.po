@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
-"POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2019-10-04 14:22+0000\n"
+"POT-Creation-Date: 2019-11-05 22:08+0000\n"
+"PO-Revision-Date: 2019-11-05 22:09+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/endless-os/yelp/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -406,7 +406,3 @@ msgstr "Hulp bij Gnome"
 #: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr "documentatie;informatie;handleiding;hulp;help;docs;"
-
-#: org.gnome.Yelp.desktop.in.in:8
-msgid "help-browser"
-msgstr ""

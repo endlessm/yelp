@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
-"POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2019-10-04 14:18+0000\n"
+"POT-Creation-Date: 2019-11-05 22:08+0000\n"
+"PO-Revision-Date: 2019-11-05 22:09+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Nepali (http://www.transifex.com/endless-os/yelp/language/ne/)\n"
 "MIME-Version: 1.0\n"
@@ -409,7 +409,3 @@ msgstr "जिनोमसँग मद्दत प्राप्त गर्
 #: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr "दस्तावेज;सूचना;मैनुअल;मद्दत;"
-
-#: org.gnome.Yelp.desktop.in.in:8
-msgid "help-browser"
-msgstr ""

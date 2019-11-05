@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the yelp package.
 # 
 # Translators:
+# Abner Chay <chay@endlessm.com>, 2019
 # c.sanchez <cassandra@endlessm.com>, 2014
 # c.sanchez <cassandra@endlessm.com>, 2014
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2016
@@ -17,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
-"POT-Creation-Date: 2019-10-04 15:09+0100\n"
-"PO-Revision-Date: 2019-10-04 14:19+0000\n"
+"POT-Creation-Date: 2019-11-05 22:08+0000\n"
+"PO-Revision-Date: 2019-11-05 22:09+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/endless-os/yelp/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -409,7 +410,3 @@ msgstr "Obtenga ayuda acerca de GNOME"
 #: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr "documentación;información;manual;ayuda;"
-
-#: org.gnome.Yelp.desktop.in.in:8
-msgid "help-browser"
-msgstr ""
