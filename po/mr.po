@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
-"POT-Creation-Date: 2019-11-05 22:08+0000\n"
-"PO-Revision-Date: 2019-11-05 22:09+0000\n"
-"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"POT-Creation-Date: 2020-02-24 14:03+0000\n"
+"PO-Revision-Date: 2020-02-24 14:03+0000\n"
+"Last-Translator: endlessmobile_build <philip@endlessm.com>\n"
 "Language-Team: Marathi (http://www.transifex.com/endless-os/yelp/language/mr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -111,10 +111,6 @@ msgstr ""
 msgid ""
 "It also has an editor mode, which shows editorial comments and revision "
 "statuses when editing Mallard documents."
-msgstr ""
-
-#: data/yelp.appdata.xml.in:30
-msgid "The GNOME Project"
 msgstr ""
 
 #: libyelp/yelp-bz2-decompressor.c:143 libyelp/yelp-lzma-decompressor.c:152
