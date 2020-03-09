@@ -1,0 +1,31 @@
+From: Jeremy Bicha <jbicha@ubuntu.com>
+Date: Mon, 26 Sep 2011 21:08:21 -0400
+Subject: Remove "Search for packages" 404 feature
+
+since it doesn't work with Debian's PackageKit. We apparently
+need to implement org.freedesktop.PackageKit.Modify.InstallProvideFiles
+
+https://wiki.debian.org/SessionInstaller
+
+Forwarded: not-needed
+Bug: https://bugs.launchpad.net/bugs/838540
+===================================================================
+---
+ libyelp/yelp-view.c | 4 ----
+ 1 file changed, 4 deletions(-)
+
+diff --git a/libyelp/yelp-view.c b/libyelp/yelp-view.c
+index 183506e..f9da4fb 100644
+--- a/libyelp/yelp-view.c
++++ b/libyelp/yelp-view.c
+@@ -1987,10 +1987,6 @@ view_show_error_page (YelpView *view,
+             scheme = "ghelp";
+             pkg = struri + 6;
+         }
+-        if (pkg != NULL)
+-            content_end = g_markup_printf_escaped ("<p><a href='install-%s:%s'>%s</a></p>",
+-                                                   scheme, pkg,
+-                                                   _("Search for packages containing this document."));
+         g_free (struri);
+     }
+ 

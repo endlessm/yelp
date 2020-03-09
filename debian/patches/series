@@ -1,0 +1,3 @@
+#02_man-utf8.patch
+#04_use_doc-base.patch
+disable_package_search.patch

@@ -9,10 +9,9 @@ Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.
 Uploaders: Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>
 Build-Depends: appstream-util,
                autoconf-archive,
-               debhelper (>= 11),
+               debhelper-compat (= 12),
                gnome-pkg-tools (>= 0.10),
                docbook-to-man,
-               eos-shell-content-dev,
                itstool (>= 1.2.0),
                gtk-doc-tools,
                libglib2.0-doc,
@@ -27,21 +26,20 @@ Build-Depends: appstream-util,
                libwebkit2gtk-4.0-dev (>= 2.19.2),
                libsqlite3-dev,
                yelp-xsl (>= 3.27.1)
-Standards-Version: 4.3.0
+Standards-Version: 4.5.0
 Vcs-Browser: https://salsa.debian.org/gnome-team/yelp
 Vcs-Git: https://salsa.debian.org/gnome-team/yelp.git
 Homepage: https://wiki.gnome.org/Apps/Yelp
 
 Package: yelp
 Architecture: any
-XCBS-EOS-AppId: org.gnome.Yelp
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          libyelp0 (= ${binary:Version}),
          python3-distro,
          yelp-xsl (>= 3.27.1),
          man-db (>= 2.5.1-1)
-Recommends: ${fonts:Recommends}
+Recommends: docbook-xml, ${fonts:Recommends}
 Description: Help browser for GNOME
  Yelp is the help browser for the GNOME desktop.  Yelp provides a simple
  graphical interface for viewing DocBook, Mallard, HTML, man, and info
