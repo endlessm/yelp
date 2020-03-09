@@ -1,3 +1,11 @@
+yelp (3.36.0-0endless1) master; urgency=medium
+
+  * Re-apply Endless changes on latest upstream release:
+    - Support eoscontent/eos-shell-content
+    - Add XCBS-EOS-AppId to override app ID when bundling
+
+ -- Philip Withnall <withnall@endlessm.com>  Mon, 09 Mar 2020 17:51:00 +0000
+
 yelp (3.36.0-1) UNRELEASED; urgency=medium
 
   * debian/control.in: Make yelp recommends docbook-xml, (lib)yelp tries to
