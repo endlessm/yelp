@@ -6,18 +6,6 @@ yelp (3.36.0-0endless1) master; urgency=medium
 
  -- Philip Withnall <withnall@endlessm.com>  Mon, 09 Mar 2020 17:51:00 +0000
 
-yelp (3.36.0-1) UNRELEASED; urgency=medium
-
-  * debian/control.in: Make yelp recommends docbook-xml, (lib)yelp tries to
-    load /etc/xml/catalog, if this file doesn't exist, it falls back to the
-    yelp internal faux catalog. But the fact that /etc/xml/catalog exits
-    doesn't mean that the needed docbookx dtd are installed.
-  * New upstream release
-  * Bump debhelper compatibility to 12
-  * debian/control.in: Bump Standards-Version to 4.5.0 (no further changes)
-
- -- Laurent Bigonville <bigon@debian.org>  Sun, 08 Mar 2020 11:56:32 +0100
-
 yelp (3.34.0-1) unstable; urgency=medium
 
   * New upstream release
