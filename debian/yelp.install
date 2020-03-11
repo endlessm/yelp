@@ -9,4 +9,4 @@ usr/share/yelp
 usr/share/yelp-xsl
 usr/bin
 debian/source_yelp.py usr/share/apport/package-hooks/
-usr/lib/*/yelp-search-provider
+usr/libexec/yelp-search-provider
