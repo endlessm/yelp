@@ -106,26 +106,37 @@ get_result_metas (const gchar * const *page_ids,
                   GHashTable          *page_data)
 {
     GVariantBuilder metas;
-    gint i;
+    gsize i;
 
-    g_variant_builder_init (&metas, G_VARIANT_TYPE ("aa{sv}"));
+    g_variant_builder_init (&metas, G_VARIANT_TYPE ("(aa{sv})"));
+    g_variant_builder_open (&metas, G_VARIANT_TYPE ("aa{sv}"));
 
     for (i = 0; page_ids[i] != NULL; i++) {
-        GVariantBuilder meta;
-        PageData *data = g_hash_table_lookup (page_data, page_ids[i]);
-        g_variant_builder_init (&meta, G_VARIANT_TYPE ("a{sv}"));
-        g_variant_builder_add (&meta, "{sv}",
+        const PageData *data = g_hash_table_lookup (page_data, page_ids[i]);
+        GVariant *serialized_icon = NULL;
+
+        if (data == NULL)
+            continue;
+
+        serialized_icon = g_icon_serialize (data->icon);  /* not floating */
+
+        g_variant_builder_open (&metas, G_VARIANT_TYPE ("a{sv}"));
+        g_variant_builder_add (&metas, "{sv}",
                                "id", g_variant_new_string (page_ids[i]));
-        g_variant_builder_add (&meta, "{sv}",
+        g_variant_builder_add (&metas, "{sv}",
                                "name", g_variant_new_string (data->title));
-        g_variant_builder_add (&meta, "{sv}",
-                               "icon", g_icon_serialize (data->icon));
-        g_variant_builder_add (&meta, "{sv}",
+        g_variant_builder_add (&metas, "{sv}",
+                               "icon", serialized_icon);
+        g_variant_builder_add (&metas, "{sv}",
                                "description", g_variant_new_string (data->desc));
-        g_variant_builder_add_value (&metas, g_variant_builder_end (&meta));
+        g_variant_builder_close (&metas);
+
+        g_variant_unref (serialized_icon);
     }
 
-    return g_variant_new ("(aa{sv})", &metas);
+    g_variant_builder_close (&metas);
+
+    return g_variant_builder_end (&metas);
 }
 
 /* FIXME: Search was copied from yelp-search-entry and slightly adapted.
