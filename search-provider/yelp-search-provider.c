@@ -234,8 +234,10 @@ handle_results (GDBusMethodInvocation  *invocation,
                 YelpSearchProviderApp  *app)
 {
     DelayedResultGetter *delayed;
+    gsize n_terms = g_strv_length ((gchar **) terms);
 
-    if (g_strv_length ((gchar **) terms) < 2 && g_utf8_strlen (terms[0], -1) < 3 ) {
+    if (n_terms == 0 ||
+        (n_terms < 2 && g_utf8_strlen (terms[0], -1) < 3)) {
         g_dbus_method_invocation_return_value (invocation, g_variant_new ("(as)", NULL));
         return;
     }
