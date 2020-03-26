@@ -948,6 +948,9 @@ window_set_bookmarks (YelpWindow  *window,
     g_list_free (children);
 
     value = yelp_application_get_bookmarks (priv->application, doc_uri);
+    if (value == NULL)
+        return;
+
     g_variant_get (value, "a(sss)", &iter);
     while (g_variant_iter_loop (iter, "(&s&s&s)", &page_id, &icon, &title)) {
         YelpMenuEntry *entry = g_new0 (YelpMenuEntry, 1);

@@ -536,13 +536,17 @@ application_uri_resolved (YelpUri             *uri,
         gint width, height;
         GSettings *settings = application_get_doc_settings (data->app, doc_uri);
 
-        g_settings_get (settings, "geometry", "(ii)", &width, &height);
         window = yelp_window_new (data->app);
-        gtk_window_set_default_size (GTK_WINDOW (window), width, height);
+
+        if (settings != NULL) {
+            g_settings_get (settings, "geometry", "(ii)", &width, &height);
+            gtk_window_set_default_size (GTK_WINDOW (window), width, height);
+        }
+
         g_signal_connect (window, "resized", G_CALLBACK (window_resized), data->app);
         priv->windows = g_slist_prepend (priv->windows, window);
 
-        if (!data->new) {
+        if (!data->new && doc_uri != NULL) {
             g_hash_table_insert (priv->windows_by_document, doc_uri, window);
             g_object_set_data (G_OBJECT (window), "doc_uri", doc_uri);
         }
@@ -609,7 +613,12 @@ GSettings *
 application_get_doc_settings (YelpApplication *app, const gchar *doc_uri)
 {
     YelpApplicationPrivate *priv = yelp_application_get_instance_private (app);
-    GSettings *settings = g_hash_table_lookup (priv->docsettings, doc_uri);
+    GSettings *settings = NULL;
+
+    if (doc_uri == NULL)
+        return NULL;
+
+    settings = g_hash_table_lookup (priv->docsettings, doc_uri);
     if (settings == NULL) {
         gchar *tmp, *key, *settings_path;
         tmp = g_uri_escape_string (doc_uri, "", FALSE);
