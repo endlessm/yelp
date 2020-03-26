@@ -597,8 +597,9 @@ view_loaded (YelpView          *view,
     g_object_get (view, "yelp-uri", &uri, NULL);
     doc_uri = yelp_uri_get_document_uri (uri);
 
-    if ((priv->completion_uri == NULL) || 
-        !g_str_equal (doc_uri, priv->completion_uri)) {
+    if ((priv->completion_uri == NULL ||
+         !g_str_equal (doc_uri, priv->completion_uri)) &&
+        doc_uri != NULL) {
         completion = (GtkTreeModel *) g_hash_table_lookup (completions, doc_uri);
         if (completion == NULL) {
             GtkListStore *base = gtk_list_store_new (6,
