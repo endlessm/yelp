@@ -1134,6 +1134,18 @@ view_loaded (YelpView   *view,
                       NULL);
         if (!g_str_has_prefix (page_id, "search=")) {
             gtk_search_bar_set_search_mode (GTK_SEARCH_BAR (priv->search_bar), FALSE);
+        } else if (!gtk_search_bar_get_search_mode (GTK_SEARCH_BAR (priv->search_bar))) {
+            gchar *search_terms = NULL;
+
+            /* Show the search bar if we’re loading a set of search results without
+             * having searched for them in the UI. This could happen if loading
+             * search results from the gnome-shell search provider. */
+            gtk_revealer_set_reveal_child (GTK_REVEALER (priv->find_bar), FALSE);
+            gtk_search_bar_set_search_mode (GTK_SEARCH_BAR (priv->search_bar), TRUE);
+
+            search_terms = g_uri_unescape_string (page_id + strlen ("search="), NULL);
+            gtk_entry_set_text (GTK_ENTRY (priv->search_entry), search_terms);
+            g_free (search_terms);
         }
         yelp_application_update_bookmarks (priv->application,
                                            doc_uri,
