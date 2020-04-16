@@ -34,9 +34,8 @@ msgstr ""
 #. Appears on the static navigation sidebar.
 #.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "حالة التحميل"
+msgstr "دليل الشروع في العمل"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
@@ -55,9 +54,8 @@ msgstr "الإنترنت"
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #.
 #: data/domains/yelp-endless.xml.in:51
-#, fuzzy
 msgid "Documents &amp; Files"
-msgstr "صوت و صورة"
+msgstr "ملفات &amp; المستندات"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
@@ -65,7 +63,6 @@ msgstr "صوت و صورة"
 #. Appears on the static navigation sidebar.
 #.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
 msgstr "سطح المكتب"
 
@@ -78,7 +75,7 @@ msgstr "سطح المكتب"
 #.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
-msgstr ""
+msgstr "الطابعات &amp;وملحقات الشاشات"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
@@ -87,7 +84,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
-msgstr ""
+msgstr "وصول عام"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
@@ -98,7 +95,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
-msgstr ""
+msgstr "الأمن &amp؛ الخصوصية"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -115,31 +112,36 @@ msgid "Install <string/>"
 msgstr "ثبّت <string/>"
 
 #: data/yelp.appdata.xml.in:6
-#, fuzzy
 msgid "GNOME Help"
-msgstr " متصفّح مساعدة جنوم"
+msgstr "مساعدة GNOME"
 
 #: data/yelp.appdata.xml.in:7
 msgid "Help viewer for GNOME"
-msgstr ""
+msgstr "طور مشاهدة المساعدة الخاصة بنظام GNOME"
 
 #: data/yelp.appdata.xml.in:9
 msgid ""
 "Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
 "also display DocBook, info, man, and HTML documentation."
 msgstr ""
+"يُعد يلب هو الموقع العارض لدعم مشروع جنوم. إنه عارض Mallard الافتراضي، لكن "
+"يمكنه أيضاً عرض مستندات DocBook والمعلومات وصفحة دليل يونكس و HTML."
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
 "It makes it easy to find the documentation you need, with interactive search "
 "and bookmarks."
 msgstr ""
+"يجعل من السهل العثور على الوثائق التي تحتاج إليها، من خلال البحث التفاعلي "
+"والإشارات المرجعية."
 
 #: data/yelp.appdata.xml.in:17
 msgid ""
 "It also has an editor mode, which shows editorial comments and revision "
 "statuses when editing Mallard documents."
 msgstr ""
+"كما أن هناك وضع محرر، يعرض التعليقات التحريرية وحالات المراجعة عند تحرير "
+"وثائق مالارد."
 
 #: data/yelp.appdata.xml.in:30
 msgid "The GNOME Project"
@@ -428,9 +430,8 @@ msgid "Get help with GNOME"
 msgstr "احصل على المساعدة في جُنوم"
 
 #: org.gnome.Yelp.desktop.in.in:5
-#, fuzzy
 msgid "documentation;information;manual;help;"
-msgstr "توثيق;معلومات;كتيب;"
+msgstr "التوثيق؛معلومات؛الدليل؛المساعدة؛"
 
 #~ msgid "Indexed"
 #~ msgstr "مُفهرَس"

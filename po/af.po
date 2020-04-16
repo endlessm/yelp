@@ -102,7 +102,7 @@ msgstr ""
 #.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
-msgstr ""
+msgstr "Installeer <string/>"
 
 #: data/yelp.appdata.xml.in:6
 msgid "GNOME Help"
@@ -191,25 +191,24 @@ msgstr "Die bladsy wat versoek is, is nie gevind in die dokument ‘%s’ nie."
 #: libyelp/yelp-document.c:1068
 #, c-format
 msgid "Search results for “%s”"
-msgstr ""
+msgstr "Soekresultate vir \"%s\""
 
 #: libyelp/yelp-document.c:1080
 #, c-format
 msgid "No matching help pages found in “%s”."
-msgstr ""
+msgstr "Geen hulpbladsye wat pas in \"%s\" gevind nie."
 
 #: libyelp/yelp-document.c:1086
 msgid "No matching help pages found."
-msgstr ""
+msgstr "Geen hulpbladsye wat pas gevind nie."
 
 #: libyelp/yelp-error.c:35
 msgid "An unknown error occurred."
 msgstr "'n Onbekende fout het voorgekom."
 
 #: libyelp/yelp-help-list.c:548 libyelp/yelp-help-list.c:557
-#, fuzzy
 msgid "All Help Documents"
-msgstr "_Alle dokumente"
+msgstr "Alle hulpdokumente"
 
 #: libyelp/yelp-info-document.c:383
 #, c-format
@@ -227,7 +226,7 @@ msgstr "Die gids ‘%s’ bestaan nie."
 #: libyelp/yelp-search-entry.c:434
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "Soek vir “%s”"
 
 #: libyelp/yelp-transform.c:370 libyelp/yelp-transform.c:385
 #, c-format
@@ -247,9 +246,8 @@ msgid "C_opy Code Block"
 msgstr "K_opieer kodeblok"
 
 #: libyelp/yelp-view.c:257
-#, fuzzy
 msgid "_Copy Link Location"
-msgstr "Open ligging"
+msgstr "K_opieer skakelligging"
 
 #: libyelp/yelp-view.c:262
 msgid "_Open Link"
@@ -261,12 +259,11 @@ msgstr "Open skakel in nuwe _venster"
 
 #: libyelp/yelp-view.c:277
 msgid "_Install Packages"
-msgstr ""
+msgstr "_Installeer pakkette"
 
 #: libyelp/yelp-view.c:282
-#, fuzzy
 msgid "Save Code _Block As…"
-msgstr "Stoor kode_blok as..."
+msgstr "Stoor kode_blok as…"
 
 #: libyelp/yelp-view.c:297
 msgid "_Copy Text"
@@ -287,12 +284,10 @@ msgid "The URI ‘%s’ could not be parsed."
 msgstr "Die URI ‘%s’ kon nie ontleed word nie."
 
 #: libyelp/yelp-view.c:825
-#, fuzzy
 msgid "Unknown Error."
-msgstr "Onbekende fout"
+msgstr "Onbekende fout."
 
 #: libyelp/yelp-view.c:979
-#, fuzzy
 msgid "You do not have PackageKit. Package install links require PackageKit."
 msgstr ""
 "PackageKit is nie geïnstalleer nie. Pakketinstallasieskakels vereis "
@@ -312,24 +307,20 @@ msgid "Send email to %s"
 msgstr "Stuur e-pos aan %s"
 
 #: libyelp/yelp-view.c:1525
-#, fuzzy
 msgid "_Save Image As…"
-msgstr "_Stoor beeld as..."
+msgstr "_Stoor beeld as…"
 
 #: libyelp/yelp-view.c:1526
-#, fuzzy
 msgid "_Save Video As…"
-msgstr "_Stoor video as..."
+msgstr "_Stoor video as…"
 
 #: libyelp/yelp-view.c:1534
-#, fuzzy
 msgid "S_end Image To…"
-msgstr "S_tuur beeld aan..."
+msgstr "S_tuur beeld aan…"
 
 #: libyelp/yelp-view.c:1535
-#, fuzzy
 msgid "S_end Video To…"
-msgstr "S_tuur video aan..."
+msgstr "S_tuur video aan…"
 
 #: libyelp/yelp-view.c:1876
 #, c-format
@@ -341,14 +332,12 @@ msgid "Could not load a document"
 msgstr "Kon nie 'n dokument laai nie"
 
 #: libyelp/yelp-view.c:1966
-#, fuzzy
 msgid "Document Not Found"
-msgstr "Nie gevind nie"
+msgstr "Dokument nie gevind nie"
 
 #: libyelp/yelp-view.c:1968
-#, fuzzy
 msgid "Page Not Found"
-msgstr "Nie gevind nie"
+msgstr "Bladsy nie gevind nie"
 
 #: libyelp/yelp-view.c:1971
 msgid "Cannot Read"
@@ -368,80 +357,68 @@ msgid "Help"
 msgstr "Hulp"
 
 #: src/yelp-window.c:348
-#, fuzzy
 msgid "Back"
-msgstr "_Terug"
+msgstr "Terug"
 
 #: src/yelp-window.c:355
-#, fuzzy
 msgid "Forward"
-msgstr "_Vorentoe"
+msgstr "Vorentoe"
 
 #: src/yelp-window.c:366
 msgid "Menu"
-msgstr ""
+msgstr "Kieslys"
 
 #: src/yelp-window.c:371
-#, fuzzy
 msgid "New Window"
-msgstr "_Nuwe venster"
+msgstr "Nuwe venster"
 
 #: src/yelp-window.c:372
 msgid "Find…"
-msgstr ""
+msgstr "Vind…"
 
 #: src/yelp-window.c:373
-#, fuzzy
 msgid "Print…"
-msgstr "Druk"
+msgstr "Druk…"
 
 #: src/yelp-window.c:378
-#, fuzzy
 msgid "Previous Page"
-msgstr "_Vorige bladsy"
+msgstr "Vorige bladsy"
 
 #: src/yelp-window.c:379
-#, fuzzy
 msgid "Next Page"
-msgstr "_Volgende bladsy"
+msgstr "Volgende bladsy"
 
 #: src/yelp-window.c:384
-#, fuzzy
 msgid "Larger Text"
-msgstr "_Groter teks"
+msgstr "Groter teks"
 
 #: src/yelp-window.c:385
-#, fuzzy
 msgid "Smaller Text"
-msgstr "_Kleiner teks"
+msgstr "Kleiner teks"
 
 #: src/yelp-window.c:390
-#, fuzzy
 msgid "All Help"
-msgstr "Hulp"
+msgstr "Alle hulp"
 
 #: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
-msgstr ""
+msgstr "Soek (Ctrl+S)"
 
 #: src/yelp-window.c:427
 msgid "Bookmarks"
 msgstr "Boekmerke"
 
 #: src/yelp-window.c:444
-#, fuzzy
 msgid "No bookmarks"
-msgstr "Boekmerke"
+msgstr "Geen boekmerke"
 
 #: src/yelp-window.c:452
-#, fuzzy
 msgid "Add Bookmark"
-msgstr "_Voeg boekmerk by"
+msgstr "Voeg boekmerk by"
 
 #: src/yelp-window.c:458
-#, fuzzy
 msgid "Remove Bookmark"
-msgstr "_Verwyder boekmerk"
+msgstr "Verwyder boekmerk"
 
 #: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
@@ -449,7 +426,7 @@ msgstr "Kry hulp met GNOME"
 
 #: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
-msgstr ""
+msgstr "dokumentasie;inligting;handleiding;hulp;"
 
 #~ msgid "GNU Info Pages"
 #~ msgstr "GNU Info-bladsye"

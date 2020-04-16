@@ -989,7 +989,8 @@ msgstr "dokumentation;information;manual;håndbog;hjælp;"
 #~ msgid "Generic applications for the GNOME environment"
 #~ msgstr "Generiske programmer til GNOME-miljøet"
 
-# Egentlig er KDE Desktop Environment jo navnet i sig selv, men lad os bare oversætte det alligevel
+# Egentlig er KDE Desktop Environment jo navnet i sig selv, men lad os bare
+# oversætte det alligevel
 #~ msgid "Generic applications for the KDE environment"
 #~ msgstr "Specifikke programmer til KDE-miljøet"
 
@@ -1075,7 +1076,9 @@ msgstr "dokumentation;information;manual;håndbog;hjælp;"
 #~ msgid "Mixers"
 #~ msgstr "Miksere"
 
-# Vi ved ikke helt om monitor betegner måling af noget, og i så fald hvad, eller om det har noget med computerskærme at gøre, men det er næppe kriminelt at bruge ordet på dansk
+# Vi ved ikke helt om monitor betegner måling af noget, og i så fald hvad,
+# eller om det har noget med computerskærme at gøre, men det er næppe
+# kriminelt at bruge ordet på dansk
 #~ msgid "Monitor"
 #~ msgstr "Monitor"
 
@@ -1558,7 +1561,9 @@ msgstr "dokumentation;information;manual;håndbog;hjælp;"
 #~ "Prøv at bruge forskellige ord til at beskrive det problem du har eller "
 #~ "emnet du ønsker hjælp til."
 
-# Man kunne oversætte disse, men da GNOME dokumentationen ikke bliver oversat til dansk foreløbig, vil søgningerne alligevel foregå på engelsk. Derfor lader jeg denne streng stå i dens engelske form
+# Man kunne oversætte disse, men da GNOME dokumentationen ikke bliver oversat
+# til dansk foreløbig, vil søgningerne alligevel foregå på engelsk. Derfor
+# lader jeg denne streng stå i dens engelske form
 #~ msgid ""
 #~ "a:about:an:are:as:at:be:broke:broken:by:can:can't:dialog:dialogue:do:"
 #~ "doesn't:doesnt:don't:dont:explain:for:from:get:gets:got:make:makes:not:"

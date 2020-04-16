@@ -28,9 +28,8 @@ msgstr ""
 #. Appears on the static navigation sidebar.
 #.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "מצב הטעינה"
+msgstr "מדריך למתחילים"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
@@ -49,9 +48,8 @@ msgstr "אינטרנט"
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #.
 #: data/domains/yelp-endless.xml.in:51
-#, fuzzy
 msgid "Documents &amp; Files"
-msgstr "קול &amp; וידאו"
+msgstr "משמכים וקובצים"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
@@ -59,9 +57,8 @@ msgstr "קול &amp; וידאו"
 #. Appears on the static navigation sidebar.
 #.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "שולחן עבודה"
+msgstr "שולחן העבודה"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
@@ -72,7 +69,7 @@ msgstr "שולחן עבודה"
 #.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
-msgstr ""
+msgstr "מדפסות, צגים, ואביזרים"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
@@ -81,7 +78,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
-msgstr ""
+msgstr "נגישות לכל"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
@@ -92,7 +89,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
-msgstr ""
+msgstr "ביטחון ופרטיות"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip

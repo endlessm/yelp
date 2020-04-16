@@ -23,8 +23,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
@@ -459,14 +459,12 @@ msgstr ""
 #~ msgid "Whether the document content has been indexed"
 #~ msgstr "Дали содржината на документот е индексирана"
 
-#~| msgid "Document Sections"
 #~ msgid "Document URI"
 #~ msgstr "URI на документот"
 
 #~ msgid "The URI which identifies the document"
 #~ msgstr "URI гој го идентификува документот"
 
-#~| msgid "Viewer"
 #~ msgid "View"
 #~ msgstr "Поглед"
 
@@ -483,27 +481,21 @@ msgstr ""
 #~ msgstr ""
 #~ "Дали записот за локацијата може да се користи во полето за пребарување"
 
-#~| msgid "_Search:"
 #~ msgid "Search..."
 #~ msgstr "Пребарај..."
 
-#~| msgid "Repeat the search online at %s"
 #~ msgid "Clear the search text"
 #~ msgstr "Исчисти го текстот за пребарување"
 
-#~| msgid "Bookmarks"
 #~ msgid "Bookmark this page"
 #~ msgstr "Обележи ја оваа страница"
 
-#~| msgid "Remove Bookmark"
 #~ msgid "Remove bookmark"
 #~ msgstr "Отстрани обележувач"
 
-#~| msgid "Loading..."
 #~ msgid "Loading"
 #~ msgstr "Вчитувам"
 
-#~| msgid "Settings"
 #~ msgid "GtkSettings"
 #~ msgstr "GtkSettings"
 
@@ -534,25 +526,21 @@ msgstr ""
 #~ msgid "Enable features useful to editors"
 #~ msgstr "Овозможи ги опциите корисни за уредувачите"
 
-#~| msgid "Databases"
 #~ msgid "Database filename"
 #~ msgstr "Име на база на податоци"
 
 #~ msgid "The filename of the sqlite database"
 #~ msgstr "Името на датотеката на sqlite базата на податоци"
 
-#~| msgid "Invalid Stylesheet"
 #~ msgid "XSLT Stylesheet"
 #~ msgstr "XSLT Stylesheet"
 
 #~ msgid "The location of the XSLT stylesheet"
 #~ msgstr "Локацијата на XSLT stylesheet"
 
-#~| msgid "Print"
 #~ msgid "_Print..."
 #~ msgstr "_Печати..."
 
-#~| msgid "Yelp"
 #~ msgid "Yelp URI"
 #~ msgstr "Yelp URI"
 
@@ -586,18 +574,15 @@ msgstr ""
 #~ msgid "The description of the page being viewed"
 #~ msgstr "Описот на страницата која се прегледува"
 
-#~| msgid "Page not found"
 #~ msgid "Page Icon"
 #~ msgstr "Икона на страница"
 
 #~ msgid "The icon of the page being viewed"
 #~ msgstr "Иконата на страницата која се прегледува"
 
-#~| msgid "Search results for \"%s\""
 #~ msgid "See all search results for “%s”"
 #~ msgstr "Види ги сите резултати од барањето на „%s“"
 
-#~| msgid "Search for other documentation"
 #~ msgid "Search for packages containing this document."
 #~ msgstr "Барај пакети кои го содржат документот."
 
@@ -613,7 +598,6 @@ msgstr ""
 #~ msgid "_Page"
 #~ msgstr "_Страница"
 
-#~| msgid "Viewer"
 #~ msgid "_View"
 #~ msgstr "_Поглед"
 
@@ -623,25 +607,21 @@ msgstr ""
 #~ msgid "_Bookmarks"
 #~ msgstr "_Обележувачи"
 
-#~| msgid "Clocks"
 #~ msgid "_Close"
 #~ msgstr "_Затвори"
 
-#~| msgid "About This Document"
 #~ msgid "_All Documents"
 #~ msgstr "_Сите документи"
 
 #~ msgid "_Add Bookmark"
 #~ msgstr "_Додај обележувач"
 
-#~| msgid "Print This Page ..."
 #~ msgid "Find in Page..."
 #~ msgstr "Најди во страницата"
 
 #~ msgid "Open Location"
 #~ msgstr "Отвори локација"
 
-#~| msgid "Applications"
 #~ msgid "Application"
 #~ msgstr "Апликација"
 
@@ -651,7 +631,6 @@ msgstr ""
 #~ msgid "Read Link _Later"
 #~ msgstr "Прочитај ја врската _подоцна"
 
-#~| msgid "_Find:"
 #~ msgid "Find:"
 #~ msgstr "Најди:"
 

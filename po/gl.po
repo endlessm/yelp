@@ -46,7 +46,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files

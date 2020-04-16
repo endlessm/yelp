@@ -32,9 +32,8 @@ msgstr ""
 #. Appears on the static navigation sidebar.
 #.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "Stare de încărcare"
+msgstr "Noțiuni de bază"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
@@ -53,9 +52,8 @@ msgstr "Internet"
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #.
 #: data/domains/yelp-endless.xml.in:51
-#, fuzzy
 msgid "Documents &amp; Files"
-msgstr "Multimedia"
+msgstr "Documente si Fisiere"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
@@ -63,7 +61,6 @@ msgstr "Multimedia"
 #. Appears on the static navigation sidebar.
 #.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
 msgstr "Desktop"
 
@@ -76,7 +73,7 @@ msgstr "Desktop"
 #.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
-msgstr ""
+msgstr "Imprimante, Ecrane si Accesorii"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
@@ -85,7 +82,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
-msgstr ""
+msgstr "Acces universal"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
@@ -96,7 +93,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
-msgstr ""
+msgstr "Securitate si Confidentialitate"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip

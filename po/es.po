@@ -1,11 +1,11 @@
 # translation of yelp.master.po to Español
 # Spanish translation for yelp
 # Copyright (C) 2001,2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
-# 
+#
 # Juan Manuel García Molina <juanma_gm@wanadoo.es>, 2001, 2002, 2003.
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2003, 2004, 2005, 2006.
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2009, 2010, 2011.
-# 
+#
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2019.
 #
 msgid ""
@@ -20,8 +20,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 3.31.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 3.31.0\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
@@ -29,9 +29,8 @@ msgstr ""
 #. Appears on the static navigation sidebar.
 #.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "Estado de la carga"
+msgstr "Empezar"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
@@ -50,9 +49,8 @@ msgstr "Internet"
 #. &gt;, &lt;, &quot;, and &apos; respectively.
 #.
 #: data/domains/yelp-endless.xml.in:51
-#, fuzzy
 msgid "Documents &amp; Files"
-msgstr "Sonido y vídeo"
+msgstr "Documentos y Archivos"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
@@ -60,9 +58,8 @@ msgstr "Sonido y vídeo"
 #. Appears on the static navigation sidebar.
 #.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "Escritorio"
+msgstr "El escritorio"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
@@ -73,7 +70,7 @@ msgstr "Escritorio"
 #.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
-msgstr ""
+msgstr "Impresoras, pantallas y accesorios"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
@@ -82,7 +79,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
-msgstr ""
+msgstr "Acceso universal"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
@@ -93,7 +90,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
-msgstr ""
+msgstr "Seguridad y privacidad"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -560,7 +557,6 @@ msgstr "documentación;información;manual;ayuda;"
 #~ msgstr ""
 #~ "Indica si la entrada de ubicación se puede usar como un campo de búsqueda"
 
-#~| msgid "Search"
 #~ msgid "Search…"
 #~ msgstr "Buscar…"
 
@@ -638,14 +634,12 @@ msgstr "documentación;información;manual;ayuda;"
 #~ msgid "No matches"
 #~ msgstr "Sin coincidencias"
 
-#~| msgid "Search..."
 #~ msgid "_Share..."
 #~ msgstr "C_ompartir…"
 
 #~ msgid "Share"
 #~ msgstr "Compartir"
 
-#~| msgid "_Close"
 #~ msgid "Close"
 #~ msgstr "Cerrar"
 
@@ -655,7 +649,6 @@ msgstr "documentación;información;manual;ayuda;"
 #~ msgid "Send a help link to a chat contact:"
 #~ msgstr "Enviar un enlace de ayuda a un contacto de chat:"
 
-#~| msgid "Email Tools"
 #~ msgid "Email"
 #~ msgstr "Correo-e"
 

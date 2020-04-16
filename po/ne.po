@@ -25,8 +25,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
 "Plural-Forms: nplurals=2; plural=n !=1;\n"
+"X-Generator: Poedit 2.0.4\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
@@ -441,7 +441,6 @@ msgstr "दस्तावेज;सूचना;मैनुअल;मद्द
 #~ msgid "Indexed"
 #~ msgstr "अनुक्रमण गरिएको"
 
-#~| msgid "Document Sections"
 #~ msgid "Document URI"
 #~ msgstr "पुस्तक यूआरएल"
 
@@ -488,7 +487,6 @@ msgstr "दस्तावेज;सूचना;मैनुअल;मद्द
 #~ msgstr "सीडी डेटाबेस प्राथमिकता"
 
 #, fuzzy
-#~| msgid "Invalid Stylesheet"
 #~ msgid "XSLT Stylesheet"
 #~ msgstr "अवैध शैलीपाना"
 
@@ -497,7 +495,6 @@ msgstr "दस्तावेज;सूचना;मैनुअल;मद्द
 #~ msgstr "लाइब्रेरी स्थान छनौट गर्नुहोस्"
 
 #, fuzzy
-#~| msgid "Yelp"
 #~ msgid "Yelp URI"
 #~ msgstr "पुस्तक यूआरएल"
 
@@ -523,16 +520,13 @@ msgstr "दस्तावेज;सूचना;मैनुअल;मद्द
 #~ msgid "Page Description"
 #~ msgstr "पृष्ठ वर्णन:"
 
-#~| msgid "Page not found"
 #~ msgid "Page Icon"
 #~ msgstr "पृष्ठ प्रतिमा"
 
 #, fuzzy
-#~| msgid "Search results for \"%s\""
 #~ msgid "See all search results for “%s”"
 #~ msgstr "\"%s\" का लागि नतिजा खोजी गर्नुहोस्"
 
-#~| msgid "Applications"
 #~ msgid "Application"
 #~ msgstr "अनुप्रयोग"
 

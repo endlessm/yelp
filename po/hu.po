@@ -21,8 +21,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.2\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
@@ -31,7 +31,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
-msgstr ""
+msgstr "Kezdő lépések"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
@@ -40,7 +40,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
@@ -51,7 +51,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
-msgstr ""
+msgstr "Dokumentumok és Fájlok"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
@@ -60,7 +60,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
-msgstr ""
+msgstr "Az Asztal"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
@@ -71,7 +71,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
-msgstr ""
+msgstr "Nyomtatók, Megjelenítés és Kiegészítők"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
@@ -80,7 +80,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
-msgstr ""
+msgstr "Akadálymentes hozzáférés"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
@@ -91,7 +91,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
-msgstr ""
+msgstr "Biztonság és Adatvédelem"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip

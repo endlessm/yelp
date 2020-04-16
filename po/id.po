@@ -28,7 +28,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
-msgstr ""
+msgstr "Memulai"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
@@ -37,7 +37,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
@@ -48,7 +48,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
-msgstr ""
+msgstr "Dokumen &amp; Berkas"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
@@ -57,7 +57,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
-msgstr ""
+msgstr "Desktop"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
@@ -68,7 +68,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
-msgstr ""
+msgstr "Printer, Display &amp; Aksesori"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
@@ -77,7 +77,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
-msgstr ""
+msgstr "Akses Universal"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
@@ -88,7 +88,7 @@ msgstr ""
 #.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
-msgstr ""
+msgstr "Keamanan &amp; Privasi"
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
