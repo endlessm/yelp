@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-10 18:41+0200\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
+"POT-Creation-Date: 2020-04-16 23:40+0100\n"
 "PO-Revision-Date: 2016-04-10 18:43+0200\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
@@ -29,6 +29,78 @@ msgstr ""
 "X-Project-Style: gnome\n"
 
 #. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:31
+#, fuzzy
+msgid "Getting Started"
+msgstr "حالة التحميل"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:40
+msgid "Internet"
+msgstr "الإنترنت"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:51
+#, fuzzy
+msgid "Documents &amp; Files"
+msgstr "صوت و صورة"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:60
+#, fuzzy
+msgid "The Desktop"
+msgstr "سطح المكتب"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:71
+msgid "Printers, Displays &amp; Accessories"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:80
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.security-and-privacy
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:91
+msgid "Security &amp; Privacy"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
 #. ID: install.tooltip
 #. This is a format message used to format tooltips on install: links. These
 #. links allow users to install packages by clicking a link in the help. The
@@ -38,454 +110,423 @@ msgstr ""
 #.
 #. <string/> - The package to install
 #.
-#: yelp.xml.in:36
+#: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "ثبّت <string/>"
 
-#: ../libyelp/yelp-bz2-decompressor.c:143
-#: ../libyelp/yelp-lzma-decompressor.c:152
+#: data/yelp.appdata.xml.in:6
+#, fuzzy
+msgid "GNOME Help"
+msgstr " متصفّح مساعدة جنوم"
+
+#: data/yelp.appdata.xml.in:7
+msgid "Help viewer for GNOME"
+msgstr ""
+
+#: data/yelp.appdata.xml.in:9
+msgid ""
+"Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
+"also display DocBook, info, man, and HTML documentation."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:13
+msgid ""
+"It makes it easy to find the documentation you need, with interactive search "
+"and bookmarks."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:17
+msgid ""
+"It also has an editor mode, which shows editorial comments and revision "
+"statuses when editing Mallard documents."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:30
+msgid "The GNOME Project"
+msgstr ""
+
+#: libyelp/yelp-bz2-decompressor.c:143 libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
 msgstr "بيانات مضغوطة غير سليمة"
 
-#: ../libyelp/yelp-bz2-decompressor.c:149
-#: ../libyelp/yelp-lzma-decompressor.c:158
+#: libyelp/yelp-bz2-decompressor.c:149 libyelp/yelp-lzma-decompressor.c:158
 msgid "Not enough memory"
 msgstr "الذاكرة غير كافية"
 
-#: ../libyelp/yelp-docbook-document.c:282 ../libyelp/yelp-info-document.c:218
-#: ../libyelp/yelp-mallard-document.c:298
-#: ../libyelp/yelp-mallard-document.c:452 ../libyelp/yelp-man-document.c:252
+#: libyelp/yelp-docbook-document.c:292 libyelp/yelp-info-document.c:221
+#: libyelp/yelp-mallard-document.c:306 libyelp/yelp-mallard-document.c:464
+#: libyelp/yelp-man-document.c:199
 #, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
 msgstr "تعذّر إيجاد الصفحة ’%s‘ في المستند ’%s‘."
 
-#: ../libyelp/yelp-docbook-document.c:320 ../libyelp/yelp-info-document.c:355
-#: ../libyelp/yelp-man-document.c:390
-#, c-format
+#: libyelp/yelp-docbook-document.c:331 libyelp/yelp-info-document.c:358
+#: libyelp/yelp-man-document.c:336
 msgid "The file does not exist."
 msgstr "الملف غير موجود."
 
-#: ../libyelp/yelp-docbook-document.c:330 ../libyelp/yelp-info-document.c:365
-#: ../libyelp/yelp-man-document.c:400
+#: libyelp/yelp-docbook-document.c:341 libyelp/yelp-info-document.c:368
+#: libyelp/yelp-man-document.c:346
 #, c-format
 msgid "The file ‘%s’ does not exist."
 msgstr "الملف ‘%s’ غير موجود."
 
-#: ../libyelp/yelp-docbook-document.c:345
+#: libyelp/yelp-docbook-document.c:359
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
 msgstr "تعذّر فهم الملف ‘%s’. لأنه ملف XML غير سليم."
 
-#: ../libyelp/yelp-docbook-document.c:358
+#: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
 msgstr "تعذّر فهم الملف ‘%s’. لأنه بعض الملفات التي يُضمّنها غير سليمة."
 
-#: ../libyelp/yelp-docbook-document.c:788
+#: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
 msgstr "مجهول"
 
-#: ../libyelp/yelp-docbook-document.c:850 ../libyelp/yelp-info-document.c:298
-#: ../libyelp/yelp-man-document.c:332
+#: libyelp/yelp-docbook-document.c:908 libyelp/yelp-info-document.c:301
+#: libyelp/yelp-man-document.c:279
 #, c-format
 msgid "The requested page was not found in the document ‘%s’."
 msgstr "تعذّر إيجاد الصفحة المطلوبة في المستند ’%s‘"
 
-#: ../libyelp/yelp-document.c:278
-msgid "Indexed"
-msgstr "مُفهرَس"
-
-#: ../libyelp/yelp-document.c:279
-msgid "Whether the document content has been indexed"
-msgstr "ما إذا كان محتوى المستند مفهرسا أم لا"
-
-#: ../libyelp/yelp-document.c:287
-msgid "Document URI"
-msgstr "مسار المستند"
-
-#: ../libyelp/yelp-document.c:288
-msgid "The URI which identifies the document"
-msgstr "المسار الذي يُميّز المستند"
-
-#: ../libyelp/yelp-document.c:1024
+#: libyelp/yelp-document.c:1068
 #, c-format
 msgid "Search results for “%s”"
 msgstr "نتائج البحث عن “%s”"
 
-#: ../libyelp/yelp-document.c:1036
+#: libyelp/yelp-document.c:1080
 #, c-format
 msgid "No matching help pages found in “%s”."
 msgstr "لم يُعثَر على صفحات مساعدة في “%s”."
 
-#: ../libyelp/yelp-document.c:1042
+#: libyelp/yelp-document.c:1086
 msgid "No matching help pages found."
 msgstr "لم يُعثَر على صفحات مساعدة."
 
-#: ../libyelp/yelp-error.c:35
-#, c-format
+#: libyelp/yelp-error.c:35
 msgid "An unknown error occurred."
 msgstr "حدث عطل غير معروف."
 
-#: ../libyelp/yelp-help-list.c:545 ../libyelp/yelp-help-list.c:554
+#: libyelp/yelp-help-list.c:548 libyelp/yelp-help-list.c:557
 msgid "All Help Documents"
 msgstr "كل وثائق المساعدة"
 
-#: ../libyelp/yelp-info-document.c:380
+#: libyelp/yelp-info-document.c:383
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
 msgstr "تعذّر فهم الملف ‘%s’ لأنه ملف info غير سليم."
 
-#: ../libyelp/yelp-mallard-document.c:340
+#: libyelp/yelp-mallard-document.c:348
 #, c-format
 msgid "The directory ‘%s’ does not exist."
 msgstr "الدليل ‘%s’ غير موجود."
 
-#: ../libyelp/yelp-search-entry.c:172
-msgid "View"
-msgstr "عرض"
-
-#: ../libyelp/yelp-search-entry.c:173
-msgid "A YelpView instance to control"
-msgstr ""
-
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:417
-msgid "Bookmarks"
-msgstr "العلامات"
-
-#: ../libyelp/yelp-search-entry.c:189
-msgid "A YelpBookmarks implementation instance"
-msgstr ""
-
-#: ../libyelp/yelp-search-entry.c:433
+#: libyelp/yelp-search-entry.c:434
 #, c-format
 msgid "Search for “%s”"
 msgstr "ابحث عن \"%s\""
 
-#: ../libyelp/yelp-settings.c:148
-msgid "GtkSettings"
-msgstr ""
-
-#: ../libyelp/yelp-settings.c:149
-msgid "A GtkSettings object to get settings from"
-msgstr "كائن GtkSettings الذي ستؤخذ منه الإعدادات"
-
-#: ../libyelp/yelp-settings.c:157
-msgid "GtkIconTheme"
-msgstr ""
-
-#: ../libyelp/yelp-settings.c:158
-msgid "A GtkIconTheme object to get icons from"
-msgstr "كائن GtkIconTheme الذي ستؤخذ منه الأيقونات"
-
-#: ../libyelp/yelp-settings.c:166
-msgid "Font Adjustment"
-msgstr "ضبط الخط"
-
-#: ../libyelp/yelp-settings.c:167
-msgid "A size adjustment to add to font sizes"
-msgstr "ضبط الحجم لإضافته إلى أحجام الخط"
-
-#: ../libyelp/yelp-settings.c:175
-msgid "Show Text Cursor"
-msgstr "اعرض مؤشر النص"
-
-#: ../libyelp/yelp-settings.c:176
-msgid "Show the text cursor or caret for accessible navigation"
-msgstr "عرض مؤشر النص لتسهيل التنقّل"
-
-#: ../libyelp/yelp-settings.c:184
-msgid "Editor Mode"
-msgstr "نمط المُحرّر"
-
-#: ../libyelp/yelp-settings.c:185
-msgid "Enable features useful to editors"
-msgstr "تمكين الميزات المفيدة للمُحرّرين"
-
-#: ../libyelp/yelp-sqlite-storage.c:145
-msgid "Database filename"
-msgstr "اسم ملف قاعدة البيانات"
-
-#: ../libyelp/yelp-sqlite-storage.c:146
-msgid "The filename of the sqlite database"
-msgstr "اسم ملف قاعدة بيانات sqlite"
-
-#: ../libyelp/yelp-transform.c:164
-msgid "XSLT Stylesheet"
-msgstr "ورقة أنماط XSLT"
-
-#: ../libyelp/yelp-transform.c:165
-msgid "The location of the XSLT stylesheet"
-msgstr "مكان ورق أنماط XSLT"
-
-#: ../libyelp/yelp-transform.c:369 ../libyelp/yelp-transform.c:384
+#: libyelp/yelp-transform.c:370 libyelp/yelp-transform.c:385
 #, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
 msgstr "ملف نسق XSLT‏ ’%s‘ غير موجود أو غير سليم."
 
-#: ../libyelp/yelp-transform.c:518
+#: libyelp/yelp-transform.c:519
 msgid "No href attribute found on yelp:document\n"
 msgstr "لم يوجد إسناد href عند yelp:document\n"
 
-#: ../libyelp/yelp-transform.c:533
+#: libyelp/yelp-transform.c:534
 msgid "Out of memory"
 msgstr "الذاكرة غير كافية"
 
-#: ../libyelp/yelp-view.c:253
+#: libyelp/yelp-view.c:252
 msgid "C_opy Code Block"
 msgstr "انسخ وحدة ال_كود"
 
-#: ../libyelp/yelp-view.c:258
+#: libyelp/yelp-view.c:257
 msgid "_Copy Link Location"
 msgstr "ا_نسخ مكان الوصلة"
 
-#: ../libyelp/yelp-view.c:263
+#: libyelp/yelp-view.c:262
 msgid "_Open Link"
 msgstr "ا_فتح الوصلة"
 
-#: ../libyelp/yelp-view.c:268
+#: libyelp/yelp-view.c:267
 msgid "Open Link in New _Window"
 msgstr "افتح الوصلة في _نافذة جديدة"
 
-#: ../libyelp/yelp-view.c:278
+#: libyelp/yelp-view.c:277
 msgid "_Install Packages"
 msgstr "_ثبّت الحزم"
 
-#: ../libyelp/yelp-view.c:283
+#: libyelp/yelp-view.c:282
 msgid "Save Code _Block As…"
 msgstr "احفظ و_حدة الكود باسم…"
 
-#: ../libyelp/yelp-view.c:298
+#: libyelp/yelp-view.c:297
 msgid "_Copy Text"
 msgstr "ا_نسخ النص"
 
-#: ../libyelp/yelp-view.c:525
-msgid "Yelp URI"
-msgstr "مسار يِلب"
-
-#: ../libyelp/yelp-view.c:526
-msgid "A YelpUri with the current location"
-msgstr "مسار يِلب مع المكان الحالي"
-
-#: ../libyelp/yelp-view.c:534
-msgid "Loading State"
-msgstr "حالة التحميل"
-
-#: ../libyelp/yelp-view.c:535
-msgid "The loading state of the view"
-msgstr "حالة التحميل للمنظور"
-
-#: ../libyelp/yelp-view.c:544
-msgid "Page ID"
-msgstr "معرِّف الصفحة"
-
-#: ../libyelp/yelp-view.c:545
-msgid "The ID of the root page of the page being viewed"
-msgstr "معرِّف جذر الصفحة للصفحة التي تعرض"
-
-#: ../libyelp/yelp-view.c:553
-msgid "Root Title"
-msgstr "عنوان الجذر"
-
-#: ../libyelp/yelp-view.c:554
-msgid "The title of the root page of the page being viewed"
-msgstr "عنوان جذر الصفحة للصفحة التي تعرض "
-
-#: ../libyelp/yelp-view.c:562
-msgid "Page Title"
-msgstr "عنوان الصفحة"
-
-#: ../libyelp/yelp-view.c:563
-msgid "The title of the page being viewed"
-msgstr "عنوان الصفحة التي تعرض"
-
-#: ../libyelp/yelp-view.c:571
-msgid "Page Description"
-msgstr "وصف الصفحة"
-
-#: ../libyelp/yelp-view.c:572
-msgid "The description of the page being viewed"
-msgstr "وصف الصفحة التي تعرض"
-
-#: ../libyelp/yelp-view.c:580
-msgid "Page Icon"
-msgstr "أيقونة الصفحة"
-
-#: ../libyelp/yelp-view.c:581
-msgid "The icon of the page being viewed"
-msgstr "أيقونة الصفحة التي تعرض"
-
-#: ../libyelp/yelp-view.c:826 ../libyelp/yelp-view.c:2198
+#: libyelp/yelp-view.c:809 libyelp/yelp-view.c:2138
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "المسار ‘%s’ لا يصل إلى صفحة سليمة."
 
-#: ../libyelp/yelp-view.c:832 ../libyelp/yelp-view.c:2204
-#, c-format
+#: libyelp/yelp-view.c:815 libyelp/yelp-view.c:2144
 msgid "The URI does not point to a valid page."
 msgstr "المسار لا يصل إلى صفحة سليمة."
 
-#: ../libyelp/yelp-view.c:837 ../libyelp/yelp-view.c:2210
+#: libyelp/yelp-view.c:820 libyelp/yelp-view.c:2150
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "تعذر تحليل المسار ‘%s’."
 
-#: ../libyelp/yelp-view.c:842
-#, c-format
+#: libyelp/yelp-view.c:825
 msgid "Unknown Error."
 msgstr "خطأ مجهول."
 
-#: ../libyelp/yelp-view.c:996
+#: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
 msgstr "ليس لديك PackageKit. وصلات تثبيت الحزمة تتطلب PackageKit."
 
-#: ../libyelp/yelp-view.c:1243
+#: libyelp/yelp-view.c:1226
 msgid "Save Image"
 msgstr "احفظ الصورة"
 
-#: ../libyelp/yelp-view.c:1342
+#: libyelp/yelp-view.c:1325
 msgid "Save Code"
 msgstr "احفظ الكود"
 
-#: ../libyelp/yelp-view.c:1438
+#: libyelp/yelp-view.c:1421
 #, c-format
 msgid "Send email to %s"
 msgstr "أرسل البريد إلى %s"
 
-#: ../libyelp/yelp-view.c:1542
+#: libyelp/yelp-view.c:1525
 msgid "_Save Image As…"
 msgstr "ا_حفظ الصورة باسم…"
 
-#: ../libyelp/yelp-view.c:1543
+#: libyelp/yelp-view.c:1526
 msgid "_Save Video As…"
 msgstr "ا_حفظ الفديو باسم…"
 
-#: ../libyelp/yelp-view.c:1551
+#: libyelp/yelp-view.c:1534
 msgid "S_end Image To…"
 msgstr "أر_سل الصورة إلى…"
 
-#: ../libyelp/yelp-view.c:1552
+#: libyelp/yelp-view.c:1535
 msgid "S_end Video To…"
 msgstr "أر_سل الفديو إلى…"
 
-#: ../libyelp/yelp-view.c:1894
+#: libyelp/yelp-view.c:1876
 #, c-format
 msgid "Could not load a document for ‘%s’"
 msgstr "لا يمكن تحميل مستند ل ‘%s’"
 
-#: ../libyelp/yelp-view.c:1900
-#, c-format
+#: libyelp/yelp-view.c:1882
 msgid "Could not load a document"
 msgstr "لا يمكن تحميل مستند"
 
-#: ../libyelp/yelp-view.c:1984
+#: libyelp/yelp-view.c:1966
 msgid "Document Not Found"
 msgstr "المستند غير موجود"
 
-#: ../libyelp/yelp-view.c:1986
+#: libyelp/yelp-view.c:1968
 msgid "Page Not Found"
 msgstr "الصفحة غير موجودة"
 
-#: ../libyelp/yelp-view.c:1989
+#: libyelp/yelp-view.c:1971
 msgid "Cannot Read"
 msgstr "تعذّر القراءة"
 
-#: ../libyelp/yelp-view.c:1995
+#: libyelp/yelp-view.c:1977
 msgid "Unknown Error"
 msgstr "خطأ مجهول"
 
-#: ../libyelp/yelp-view.c:2015
-msgid "Search for packages containing this document."
-msgstr "ابحث عن الحزم التي تحتوي هذا المستند."
-
-#: ../src/yelp-application.c:59
+#: src/yelp-application.c:59
 msgid "Turn on editor mode"
 msgstr "شغّل نمط المُحرّر"
 
-#: ../src/yelp-application.c:271 ../src/yelp-window.c:1180
-#: ../src/yelp-window.c:1188 ../yelp.desktop.in.in.h:1
+#: src/yelp-application.c:338 src/yelp-window.c:1186 src/yelp-window.c:1194
+#: org.gnome.Yelp.desktop.in.in:3
 msgid "Help"
 msgstr "مساعدة"
 
-#: ../src/yelp-application.c:321
-msgid "New Window"
-msgstr "نافذة جديدة"
-
-#: ../src/yelp-application.c:325
-msgid "Larger Text"
-msgstr "نص أكبر"
-
-#: ../src/yelp-application.c:326
-msgid "Smaller Text"
-msgstr "نص أصغر"
-
-#: ../src/yelp-window.c:211
-msgid "Application"
-msgstr "تطبيق"
-
-#: ../src/yelp-window.c:212
-msgid "A YelpApplication instance that controls this window"
-msgstr ""
-
-#: ../src/yelp-window.c:343
+#: src/yelp-window.c:348
 msgid "Back"
 msgstr "للخلف"
 
-#: ../src/yelp-window.c:350
+#: src/yelp-window.c:355
 msgid "Forward"
 msgstr "للأمام"
 
-#: ../src/yelp-window.c:361
+#: src/yelp-window.c:366
 msgid "Menu"
 msgstr "القائمة"
 
-#: ../src/yelp-window.c:366
+#: src/yelp-window.c:371
+msgid "New Window"
+msgstr "نافذة جديدة"
+
+#: src/yelp-window.c:372
 msgid "Find…"
 msgstr "ابحث…"
 
-#: ../src/yelp-window.c:367
+#: src/yelp-window.c:373
 msgid "Print…"
 msgstr "اطبع…"
 
-#: ../src/yelp-window.c:372
+#: src/yelp-window.c:378
 msgid "Previous Page"
 msgstr "الصفحة السابقة"
 
-#: ../src/yelp-window.c:373
+#: src/yelp-window.c:379
 msgid "Next Page"
 msgstr "الصفحة التالية"
 
-#: ../src/yelp-window.c:378
+#: src/yelp-window.c:384
+msgid "Larger Text"
+msgstr "نص أكبر"
+
+#: src/yelp-window.c:385
+msgid "Smaller Text"
+msgstr "نص أصغر"
+
+#: src/yelp-window.c:390
 msgid "All Help"
 msgstr "كل المساعدة"
 
-#: ../src/yelp-window.c:400
+#: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
 msgstr "ابحث (Ctrl+S)"
 
-#: ../src/yelp-window.c:434
+#: src/yelp-window.c:427
+msgid "Bookmarks"
+msgstr "العلامات"
+
+#: src/yelp-window.c:444
 msgid "No bookmarks"
 msgstr "لا علامات"
 
-#: ../src/yelp-window.c:442
+#: src/yelp-window.c:452
 msgid "Add Bookmark"
 msgstr "أضف علامة"
 
-#: ../src/yelp-window.c:448
+#: src/yelp-window.c:458
 msgid "Remove Bookmark"
 msgstr "احذف العلامة"
 
-#: ../yelp.desktop.in.in.h:2
+#: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
 msgstr "احصل على المساعدة في جُنوم"
 
-#: ../yelp.desktop.in.in.h:3
-msgid "documentation;information;manual;"
+#: org.gnome.Yelp.desktop.in.in:5
+#, fuzzy
+msgid "documentation;information;manual;help;"
 msgstr "توثيق;معلومات;كتيب;"
+
+#~ msgid "Indexed"
+#~ msgstr "مُفهرَس"
+
+#~ msgid "Whether the document content has been indexed"
+#~ msgstr "ما إذا كان محتوى المستند مفهرسا أم لا"
+
+#~ msgid "Document URI"
+#~ msgstr "مسار المستند"
+
+#~ msgid "The URI which identifies the document"
+#~ msgstr "المسار الذي يُميّز المستند"
+
+#~ msgid "View"
+#~ msgstr "عرض"
+
+#~ msgid "A GtkSettings object to get settings from"
+#~ msgstr "كائن GtkSettings الذي ستؤخذ منه الإعدادات"
+
+#~ msgid "A GtkIconTheme object to get icons from"
+#~ msgstr "كائن GtkIconTheme الذي ستؤخذ منه الأيقونات"
+
+#~ msgid "Font Adjustment"
+#~ msgstr "ضبط الخط"
+
+#~ msgid "A size adjustment to add to font sizes"
+#~ msgstr "ضبط الحجم لإضافته إلى أحجام الخط"
+
+#~ msgid "Show Text Cursor"
+#~ msgstr "اعرض مؤشر النص"
+
+#~ msgid "Show the text cursor or caret for accessible navigation"
+#~ msgstr "عرض مؤشر النص لتسهيل التنقّل"
+
+#~ msgid "Editor Mode"
+#~ msgstr "نمط المُحرّر"
+
+#~ msgid "Enable features useful to editors"
+#~ msgstr "تمكين الميزات المفيدة للمُحرّرين"
+
+#~ msgid "Database filename"
+#~ msgstr "اسم ملف قاعدة البيانات"
+
+#~ msgid "The filename of the sqlite database"
+#~ msgstr "اسم ملف قاعدة بيانات sqlite"
+
+#~ msgid "XSLT Stylesheet"
+#~ msgstr "ورقة أنماط XSLT"
+
+#~ msgid "The location of the XSLT stylesheet"
+#~ msgstr "مكان ورق أنماط XSLT"
+
+#~ msgid "Yelp URI"
+#~ msgstr "مسار يِلب"
+
+#~ msgid "A YelpUri with the current location"
+#~ msgstr "مسار يِلب مع المكان الحالي"
+
+#~ msgid "The loading state of the view"
+#~ msgstr "حالة التحميل للمنظور"
+
+#~ msgid "Page ID"
+#~ msgstr "معرِّف الصفحة"
+
+#~ msgid "The ID of the root page of the page being viewed"
+#~ msgstr "معرِّف جذر الصفحة للصفحة التي تعرض"
+
+#~ msgid "Root Title"
+#~ msgstr "عنوان الجذر"
+
+#~ msgid "The title of the root page of the page being viewed"
+#~ msgstr "عنوان جذر الصفحة للصفحة التي تعرض "
+
+#~ msgid "Page Title"
+#~ msgstr "عنوان الصفحة"
+
+#~ msgid "The title of the page being viewed"
+#~ msgstr "عنوان الصفحة التي تعرض"
+
+#~ msgid "Page Description"
+#~ msgstr "وصف الصفحة"
+
+#~ msgid "The description of the page being viewed"
+#~ msgstr "وصف الصفحة التي تعرض"
+
+#~ msgid "Page Icon"
+#~ msgstr "أيقونة الصفحة"
+
+#~ msgid "The icon of the page being viewed"
+#~ msgstr "أيقونة الصفحة التي تعرض"
+
+#~ msgid "Search for packages containing this document."
+#~ msgstr "ابحث عن الحزم التي تحتوي هذا المستند."
+
+#~ msgid "Application"
+#~ msgstr "تطبيق"
 
 #~ msgid "Enable Search"
 #~ msgstr "فعّل البحث"
@@ -862,9 +903,6 @@ msgstr "توثيق;معلومات;كتيب;"
 #~ msgid "Debuggers"
 #~ msgstr "المنقّحات"
 
-#~ msgid "Desktop"
-#~ msgstr "سطح المكتب"
-
 #~ msgid "Desktop Settings"
 #~ msgstr "خصائص سطح المكتب"
 
@@ -973,9 +1011,6 @@ msgstr "توثيق;معلومات;كتيب;"
 
 #~ msgid "Instant Messaging"
 #~ msgstr "تراسل الفوري"
-
-#~ msgid "Internet"
-#~ msgstr "الإنترنت"
 
 #~ msgid "Java"
 #~ msgstr "جافا"
@@ -1120,9 +1155,6 @@ msgstr "توثيق;معلومات;كتيب;"
 
 #~ msgid "Sound"
 #~ msgstr "الصوت"
-
-#~ msgid "Sound &amp; Video"
-#~ msgstr "صوت و صورة"
 
 #~ msgid "Sound &amp; Video Editing"
 #~ msgstr "تحرير الصوت و الصورة"
@@ -1338,9 +1370,6 @@ msgstr "توثيق;معلومات;كتيب;"
 
 #~ msgid "Define which cache directory to use"
 #~ msgstr "عرّف أي دليل خزن مؤقت سيستخدم"
-
-#~ msgid " GNOME Help Browser"
-#~ msgstr " متصفّح مساعدة جنوم"
 
 #~ msgid "Directory not found"
 #~ msgstr "الدليل غير موجود"

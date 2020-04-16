@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp[1].gnome-2-6\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp&keywords=I18N+L10N&component=General\n"
-"POT-Creation-Date: 2015-06-25 00:10+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
+"POT-Creation-Date: 2020-04-16 23:40+0100\n"
 "PO-Revision-Date: 2019-07-21 18:16+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik\n"
@@ -23,6 +23,78 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=1;\n"
 
 #. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:31
+#, fuzzy
+msgid "Getting Started"
+msgstr "Боркунии вазъият"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:40
+#, fuzzy
+msgid "Internet"
+msgstr "Таркибҳо"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:51
+msgid "Documents &amp; Files"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:60
+#, fuzzy
+msgid "The Desktop"
+msgstr "Мизи корӣ"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:71
+msgid "Printers, Displays &amp; Accessories"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:80
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.security-and-privacy
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:91
+msgid "Security &amp; Privacy"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
 #. ID: install.tooltip
 #. This is a format message used to format tooltips on install: links. These
 #. links allow users to install packages by clicking a link in the help. The
@@ -32,449 +104,445 @@ msgstr ""
 #.
 #. <string/> - The package to install
 #.
-#: yelp.xml.in:36
+#: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Насб кардани <string/>"
 
-#: ../libyelp/yelp-bz2-decompressor.c:143
-#: ../libyelp/yelp-lzma-decompressor.c:152
+#: data/yelp.appdata.xml.in:6
+msgid "GNOME Help"
+msgstr ""
+
+#: data/yelp.appdata.xml.in:7
+#, fuzzy
+msgid "Help viewer for GNOME"
+msgstr "Барраси Ёрӣ барои GNOME"
+
+#: data/yelp.appdata.xml.in:9
+msgid ""
+"Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
+"also display DocBook, info, man, and HTML documentation."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:13
+msgid ""
+"It makes it easy to find the documentation you need, with interactive search "
+"and bookmarks."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:17
+msgid ""
+"It also has an editor mode, which shows editorial comments and revision "
+"statuses when editing Mallard documents."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:30
+msgid "The GNOME Project"
+msgstr ""
+
+#: libyelp/yelp-bz2-decompressor.c:143 libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
 msgstr "Иттилооти фишурдашудаи нодуруст"
 
-#: ../libyelp/yelp-bz2-decompressor.c:149
-#: ../libyelp/yelp-lzma-decompressor.c:158
+#: libyelp/yelp-bz2-decompressor.c:149 libyelp/yelp-lzma-decompressor.c:158
 msgid "Not enough memory"
 msgstr "Ҳофиза кифоя нест"
 
-#: ../libyelp/yelp-docbook-document.c:282 ../libyelp/yelp-info-document.c:218
-#: ../libyelp/yelp-mallard-document.c:298
-#: ../libyelp/yelp-mallard-document.c:452 ../libyelp/yelp-man-document.c:252
+#: libyelp/yelp-docbook-document.c:292 libyelp/yelp-info-document.c:221
+#: libyelp/yelp-mallard-document.c:306 libyelp/yelp-mallard-document.c:464
+#: libyelp/yelp-man-document.c:199
 #, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
 msgstr "Саҳифаи ‘%s’ дар ин ҳуҷҷати ‘%s’ ёфт нашудааст."
 
-#: ../libyelp/yelp-docbook-document.c:320 ../libyelp/yelp-info-document.c:355
-#: ../libyelp/yelp-man-document.c:390
-#, c-format
+#: libyelp/yelp-docbook-document.c:331 libyelp/yelp-info-document.c:358
+#: libyelp/yelp-man-document.c:336
 msgid "The file does not exist."
 msgstr "Файл вуҷуд надорад."
 
-#: ../libyelp/yelp-docbook-document.c:330 ../libyelp/yelp-info-document.c:365
-#: ../libyelp/yelp-man-document.c:400
+#: libyelp/yelp-docbook-document.c:341 libyelp/yelp-info-document.c:368
+#: libyelp/yelp-man-document.c:346
 #, c-format
 msgid "The file ‘%s’ does not exist."
 msgstr "Файли ‘%s’ вуҷуд надорад."
 
-#: ../libyelp/yelp-docbook-document.c:345
+#: libyelp/yelp-docbook-document.c:359
 #, c-format
-msgid "The file ‘%s’ could not be parsed because it is not a well-formed XML document."
-msgstr "Файли ‘%s’ таҷзия карда намешавад, зеро ки он дорои ҳуҷҷати XML-и шакли дуруст намебошад."
+msgid ""
+"The file ‘%s’ could not be parsed because it is not a well-formed XML "
+"document."
+msgstr ""
+"Файли ‘%s’ таҷзия карда намешавад, зеро ки он дорои ҳуҷҷати XML-и шакли "
+"дуруст намебошад."
 
-#: ../libyelp/yelp-docbook-document.c:358
+#: libyelp/yelp-docbook-document.c:372
 #, c-format
-msgid "The file ‘%s’ could not be parsed because one or more of its included files is not a well-formed XML document."
-msgstr "Файли ‘%s’ таҷзия карда намешавад, зеро ки як ё якчанд файлҳои даруни он дорои ҳуҷҷати XML-и шакли дуруст намебошанд."
+msgid ""
+"The file ‘%s’ could not be parsed because one or more of its included files "
+"is not a well-formed XML document."
+msgstr ""
+"Файли ‘%s’ таҷзия карда намешавад, зеро ки як ё якчанд файлҳои даруни он "
+"дорои ҳуҷҷати XML-и шакли дуруст намебошанд."
 
-#: ../libyelp/yelp-docbook-document.c:788
+#: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
 msgstr "Номаълум"
 
-#: ../libyelp/yelp-docbook-document.c:850 ../libyelp/yelp-info-document.c:298
-#: ../libyelp/yelp-man-document.c:332
+#: libyelp/yelp-docbook-document.c:908 libyelp/yelp-info-document.c:301
+#: libyelp/yelp-man-document.c:279
 #, c-format
 msgid "The requested page was not found in the document ‘%s’."
 msgstr "Саҳифаи дархостшуда дар ҳуҷҷати ‘%s’ ёфт нашудааст."
 
-#: ../libyelp/yelp-document.c:278
-msgid "Indexed"
-msgstr "Индексшуда"
-
-#: ../libyelp/yelp-document.c:279
-msgid "Whether the document content has been indexed"
-msgstr "Оё мӯҳтавои ҳуҷҷат ба индекс дароварда шудааст"
-
-#: ../libyelp/yelp-document.c:287
-msgid "Document URI"
-msgstr "Санади URI"
-
-#: ../libyelp/yelp-document.c:288
-msgid "The URI which identifies the document"
-msgstr "Суроғаи URI, ки ҳуҷҷатро муайян мекунад"
-
-#: ../libyelp/yelp-document.c:1022
+#: libyelp/yelp-document.c:1068
 #, c-format
 msgid "Search results for “%s”"
 msgstr "Натиҷаҳои ҷустуҷӯи “%s”"
 
-#: ../libyelp/yelp-document.c:1034
+#: libyelp/yelp-document.c:1080
 #, c-format
 msgid "No matching help pages found in “%s”."
 msgstr "Ягон саҳифаи кумаки мувофиқ дар “%s” ёфт нашуд."
 
-#: ../libyelp/yelp-document.c:1040
+#: libyelp/yelp-document.c:1086
 msgid "No matching help pages found."
 msgstr "Ягон саҳифаи кумаки мувофиқ ёфт нашуд."
 
-#: ../libyelp/yelp-error.c:35
-#, c-format
+#: libyelp/yelp-error.c:35
 msgid "An unknown error occurred."
 msgstr "Хатои номаълум ба вуҷуд омад."
 
-#: ../libyelp/yelp-help-list.c:545 ../libyelp/yelp-help-list.c:554
+#: libyelp/yelp-help-list.c:548 libyelp/yelp-help-list.c:557
 msgid "All Help Documents"
 msgstr "Ҳамаи ҳуҷҷатҳои кумак"
 
-#: ../libyelp/yelp-info-document.c:380
+#: libyelp/yelp-info-document.c:383
 #, c-format
-msgid "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr "Файли ‘%s’ таҷзия карда намешавад, зеро ки он дорои иттилооти шакли дуруст намебошад."
+msgid ""
+"The file ‘%s’ could not be parsed because it is not a well-formed info page."
+msgstr ""
+"Файли ‘%s’ таҷзия карда намешавад, зеро ки он дорои иттилооти шакли дуруст "
+"намебошад."
 
-#: ../libyelp/yelp-mallard-document.c:340
+#: libyelp/yelp-mallard-document.c:348
 #, c-format
 msgid "The directory ‘%s’ does not exist."
 msgstr "Директорияи ‘%s’ вуҷуд надорад."
 
-#: ../libyelp/yelp-search-entry.c:172
-msgid "View"
-msgstr "Намоиш"
-
-#: ../libyelp/yelp-search-entry.c:173
-msgid "A YelpView instance to control"
-msgstr "Ҳолати YelpView барои идоракунӣ"
-
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:417
-msgid "Bookmarks"
-msgstr "Хатбаракҳо"
-
-#: ../libyelp/yelp-search-entry.c:189
-msgid "A YelpBookmarks implementation instance"
-msgstr "Ҳолати иҷрокунии YelpBookmarks"
-
-#: ../libyelp/yelp-search-entry.c:433
+#: libyelp/yelp-search-entry.c:434
 #, c-format
 msgid "Search for “%s”"
 msgstr "Ҷустуҷӯ кардани “%s”"
 
-#: ../libyelp/yelp-settings.c:148
-msgid "GtkSettings"
-msgstr "Танзимоти GtkSettings"
-
-#: ../libyelp/yelp-settings.c:149
-msgid "A GtkSettings object to get settings from"
-msgstr "Объекти GtkSettings барои гирифтани танзимот аз"
-
-#: ../libyelp/yelp-settings.c:157
-msgid "GtkIconTheme"
-msgstr "Мавзӯи GtkIconTheme"
-
-#: ../libyelp/yelp-settings.c:158
-msgid "A GtkIconTheme object to get icons from"
-msgstr "Объекти GtkIconTheme барои гирифтани нишонаҳо аз"
-
-#: ../libyelp/yelp-settings.c:166
-msgid "Font Adjustment"
-msgstr "Танзими шрифт"
-
-#: ../libyelp/yelp-settings.c:167
-msgid "A size adjustment to add to font sizes"
-msgstr "Танзими андоза барои илова кардан ба андозаҳои шрифт"
-
-#: ../libyelp/yelp-settings.c:175
-msgid "Show Text Cursor"
-msgstr "Намоиш додани курсори матнӣ"
-
-#: ../libyelp/yelp-settings.c:176
-msgid "Show the text cursor or caret for accessible navigation"
-msgstr "Намоиш додани курсори матнӣ ё аломати ^ барои паймоиш дастрас"
-
-#: ../libyelp/yelp-settings.c:184
-msgid "Editor Mode"
-msgstr "Реҷаи муҳаррир"
-
-#: ../libyelp/yelp-settings.c:185
-msgid "Enable features useful to editors"
-msgstr "Фаъол кардани хусусиятҳои фоиданоки муҳаррир"
-
-#: ../libyelp/yelp-sqlite-storage.c:145
-msgid "Database filename"
-msgstr "Номи файли пойгоҳи иттилоотӣ"
-
-#: ../libyelp/yelp-sqlite-storage.c:146
-msgid "The filename of the sqlite database"
-msgstr "Номи файли пойгоҳи иттилоотии sqlite"
-
-#: ../libyelp/yelp-transform.c:164
-msgid "XSLT Stylesheet"
-msgstr "Сабки варақи XSLT"
-
-#: ../libyelp/yelp-transform.c:165
-msgid "The location of the XSLT stylesheet"
-msgstr "Ҷойгиршавии сабки варақи XSLT"
-
-#: ../libyelp/yelp-transform.c:369 ../libyelp/yelp-transform.c:384
+#: libyelp/yelp-transform.c:370 libyelp/yelp-transform.c:385
 #, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
 msgstr "Сабки варақи XSLT ‘%s’ вуҷуд надорад ё нодуруст аст."
 
-#: ../libyelp/yelp-transform.c:518
+#: libyelp/yelp-transform.c:519
 msgid "No href attribute found on yelp:document\n"
 msgstr "Ягон сифати href дар yelp:document пайдо нашуд\n"
 
-#: ../libyelp/yelp-transform.c:533
+#: libyelp/yelp-transform.c:534
 msgid "Out of memory"
 msgstr "Берун аз хотира"
 
-#: ../libyelp/yelp-view.c:241
+#: libyelp/yelp-view.c:252
 msgid "C_opy Code Block"
 msgstr "Ну_сха бардошнаи блоки рамз"
 
-#: ../libyelp/yelp-view.c:246
+#: libyelp/yelp-view.c:257
 msgid "_Copy Link Location"
 msgstr "_Нусха бардоштани ҷойгиршавии пайванд"
 
-#: ../libyelp/yelp-view.c:251
+#: libyelp/yelp-view.c:262
 msgid "_Open Link"
 msgstr "_Кушодани пайванд"
 
-#: ../libyelp/yelp-view.c:256
+#: libyelp/yelp-view.c:267
 msgid "Open Link in New _Window"
 msgstr "Кушодани пайванд дар _равзанаи нав"
 
-#: ../libyelp/yelp-view.c:266
+#: libyelp/yelp-view.c:277
 msgid "_Install Packages"
 msgstr "_Насб кардани бастаҳо"
 
-#: ../libyelp/yelp-view.c:271
+#: libyelp/yelp-view.c:282
 msgid "Save Code _Block As…"
 msgstr "_Захира кардани блоки рамз ҳамчун…"
 
-#: ../libyelp/yelp-view.c:286
+#: libyelp/yelp-view.c:297
 msgid "_Copy Text"
 msgstr "_Нусха бардошнати матн"
 
-#: ../libyelp/yelp-view.c:517
-msgid "Yelp URI"
-msgstr "Суроғаи URI-и Yelp"
-
-#: ../libyelp/yelp-view.c:518
-msgid "A YelpUri with the current location"
-msgstr "YelpUri бо ҷойгиршавии ҷорӣ"
-
-#: ../libyelp/yelp-view.c:526
-msgid "Loading State"
-msgstr "Боркунии вазъият"
-
-#: ../libyelp/yelp-view.c:527
-msgid "The loading state of the view"
-msgstr "Ҳолати боргирии намуд"
-
-#: ../libyelp/yelp-view.c:536
-msgid "Page ID"
-msgstr "Рақами мушаххаси саҳифа"
-
-#: ../libyelp/yelp-view.c:537
-msgid "The ID of the root page of the page being viewed"
-msgstr "Рақами мушаххаси саҳифаи решагӣ аллакай намоиш дода шуда истодааст"
-
-#: ../libyelp/yelp-view.c:545
-msgid "Root Title"
-msgstr "Сарлавҳаи реша"
-
-#: ../libyelp/yelp-view.c:546
-msgid "The title of the root page of the page being viewed"
-msgstr "Сарлавҳаи саҳифаи решагӣ аллакай намоиш дода шуда истодааст"
-
-#: ../libyelp/yelp-view.c:554
-msgid "Page Title"
-msgstr "Сарлавҳаи саҳифа"
-
-#: ../libyelp/yelp-view.c:555
-msgid "The title of the page being viewed"
-msgstr "Сарлавҳаи саҳифа аллакай намоиш дода шуда истодааст"
-
-#: ../libyelp/yelp-view.c:563
-msgid "Page Description"
-msgstr "Саҳифаи тафсилот"
-
-#: ../libyelp/yelp-view.c:564
-msgid "The description of the page being viewed"
-msgstr "Тавсифи саҳифа аллакай намоиш дода шуда истодааст"
-
-#: ../libyelp/yelp-view.c:572
-msgid "Page Icon"
-msgstr "Нишонаи саҳифа"
-
-#: ../libyelp/yelp-view.c:573
-msgid "The icon of the page being viewed"
-msgstr "Нишонаи саҳифа аллакай намоиш дода шуда истодааст"
-
-#: ../libyelp/yelp-view.c:808 ../libyelp/yelp-view.c:2176
+#: libyelp/yelp-view.c:809 libyelp/yelp-view.c:2138
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "Суроғаи URI ‘%s’ ба саҳифаи дуруст истинод намекунад."
 
-#: ../libyelp/yelp-view.c:814 ../libyelp/yelp-view.c:2182
-#, c-format
+#: libyelp/yelp-view.c:815 libyelp/yelp-view.c:2144
 msgid "The URI does not point to a valid page."
 msgstr "Суроғаи URI ба саҳифаи дуруст истинод намекунад."
 
-#: ../libyelp/yelp-view.c:819 ../libyelp/yelp-view.c:2188
+#: libyelp/yelp-view.c:820 libyelp/yelp-view.c:2150
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "Суроғаи URI-и \"%s\" таҷзия карда намешавад."
 
-#: ../libyelp/yelp-view.c:824
-#, c-format
+#: libyelp/yelp-view.c:825
 msgid "Unknown Error."
 msgstr "Хатои номаълум."
 
-#: ../libyelp/yelp-view.c:978
+#: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr "Шумо PackageKit надоред. Бастаи насби пайвандҳо PackageKit-ро талаб мекунад."
+msgstr ""
+"Шумо PackageKit надоред. Бастаи насби пайвандҳо PackageKit-ро талаб мекунад."
 
-#: ../libyelp/yelp-view.c:1225
+#: libyelp/yelp-view.c:1226
 msgid "Save Image"
 msgstr "Захира кардани тасвир"
 
-#: ../libyelp/yelp-view.c:1324
+#: libyelp/yelp-view.c:1325
 msgid "Save Code"
 msgstr "Захира кардани рамз"
 
-#: ../libyelp/yelp-view.c:1420
+#: libyelp/yelp-view.c:1421
 #, c-format
 msgid "Send email to %s"
 msgstr "Фиристодани почтаи электронӣ ба %s"
 
-#: ../libyelp/yelp-view.c:1524
+#: libyelp/yelp-view.c:1525
 msgid "_Save Image As…"
 msgstr "_Захира кардани тасвир ҳамчун…"
 
-#: ../libyelp/yelp-view.c:1525
+#: libyelp/yelp-view.c:1526
 msgid "_Save Video As…"
 msgstr "_Захира кардани видео ҳамчун…"
 
-#: ../libyelp/yelp-view.c:1533
+#: libyelp/yelp-view.c:1534
 msgid "S_end Image To…"
 msgstr "_Фиристодани тасвир ба…"
 
-#: ../libyelp/yelp-view.c:1534
+#: libyelp/yelp-view.c:1535
 msgid "S_end Video To…"
 msgstr "_Фиристодани видео ба…"
 
-#: ../libyelp/yelp-view.c:1870
+#: libyelp/yelp-view.c:1876
 #, c-format
 msgid "Could not load a document for ‘%s’"
 msgstr "Бор кардани ҳуҷҷат барои \"%s\" имконнопазир аст"
 
-#: ../libyelp/yelp-view.c:1876
-#, c-format
+#: libyelp/yelp-view.c:1882
 msgid "Could not load a document"
 msgstr "Бор кардани ҳуҷҷат имконнопазир аст"
 
-#: ../libyelp/yelp-view.c:1960
+#: libyelp/yelp-view.c:1966
 msgid "Document Not Found"
 msgstr "Ҳуҷҷат ёфт нашуд"
 
-#: ../libyelp/yelp-view.c:1962
+#: libyelp/yelp-view.c:1968
 msgid "Page Not Found"
 msgstr "Ягон саҳифа ёфт нашуд"
 
-#: ../libyelp/yelp-view.c:1965
+#: libyelp/yelp-view.c:1971
 msgid "Cannot Read"
 msgstr "Хонда намешавад"
 
-#: ../libyelp/yelp-view.c:1971
+#: libyelp/yelp-view.c:1977
 msgid "Unknown Error"
 msgstr "Хатои номаълум"
 
-#: ../libyelp/yelp-view.c:1991
-msgid "Search for packages containing this document."
-msgstr "Бастаҳои дорои ин ҳуҷҷатро ҷустуҷӯ кунед."
-
-#: ../src/yelp-application.c:59
+#: src/yelp-application.c:59
 msgid "Turn on editor mode"
 msgstr "Фаъол кардани ҳолати муҳаррир"
 
-#: ../src/yelp-application.c:270 ../src/yelp-window.c:1180
-#: ../src/yelp-window.c:1188 ../yelp.desktop.in.in.h:1
+#: src/yelp-application.c:338 src/yelp-window.c:1186 src/yelp-window.c:1194
+#: org.gnome.Yelp.desktop.in.in:3
 msgid "Help"
 msgstr "Кумак"
 
-#: ../src/yelp-application.c:320
-msgid "New Window"
-msgstr "Равзанаи нав"
-
-#: ../src/yelp-application.c:324
-msgid "Larger Text"
-msgstr "Матни калонтарин"
-
-#: ../src/yelp-application.c:325
-msgid "Smaller Text"
-msgstr "Матни хурдтарин"
-
-#: ../src/yelp-window.c:211
-msgid "Application"
-msgstr "Барнома"
-
-#: ../src/yelp-window.c:212
-msgid "A YelpApplication instance that controls this window"
-msgstr "Ҳолати YelpApplication, ки ин равзанаро идора мекунад"
-
-#: ../src/yelp-window.c:343
+#: src/yelp-window.c:348
 msgid "Back"
 msgstr "Ба қафо"
 
-#: ../src/yelp-window.c:350
+#: src/yelp-window.c:355
 msgid "Forward"
 msgstr "Ба пеш"
 
-#: ../src/yelp-window.c:361
+#: src/yelp-window.c:366
 msgid "Menu"
 msgstr "Меню"
 
-#: ../src/yelp-window.c:366
+#: src/yelp-window.c:371
+msgid "New Window"
+msgstr "Равзанаи нав"
+
+#: src/yelp-window.c:372
 msgid "Find…"
 msgstr "Ёфтан…"
 
-#: ../src/yelp-window.c:367
+#: src/yelp-window.c:373
 msgid "Print…"
 msgstr "Чоп кардан…"
 
-#: ../src/yelp-window.c:372
+#: src/yelp-window.c:378
 msgid "Previous Page"
 msgstr "Саҳифаи қаблӣ"
 
-#: ../src/yelp-window.c:373
+#: src/yelp-window.c:379
 msgid "Next Page"
 msgstr "Саҳифаи навбатӣ"
 
-#: ../src/yelp-window.c:378
+#: src/yelp-window.c:384
+msgid "Larger Text"
+msgstr "Матни калонтарин"
+
+#: src/yelp-window.c:385
+msgid "Smaller Text"
+msgstr "Матни хурдтарин"
+
+#: src/yelp-window.c:390
 msgid "All Help"
 msgstr "Кумаки пурра"
 
-#: ../src/yelp-window.c:400
+#: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
 msgstr "Ҷустуҷӯ (Ctrl+S)"
 
-#: ../src/yelp-window.c:434
+#: src/yelp-window.c:427
+msgid "Bookmarks"
+msgstr "Хатбаракҳо"
+
+#: src/yelp-window.c:444
 msgid "No bookmarks"
 msgstr "Бе хатбаракҳо"
 
-#: ../src/yelp-window.c:442
+#: src/yelp-window.c:452
 msgid "Add Bookmark"
 msgstr "Илова кардани хатбарак"
 
-#: ../src/yelp-window.c:448
+#: src/yelp-window.c:458
 msgid "Remove Bookmark"
 msgstr "Тоза кардани хатбарак"
 
-#: ../yelp.desktop.in.in.h:2
+#: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
 msgstr "Гирифтани кумак аз GNOME"
 
-#: ../yelp.desktop.in.in.h:3
-msgid "documentation;information;manual;"
+#: org.gnome.Yelp.desktop.in.in:5
+#, fuzzy
+msgid "documentation;information;manual;help;"
 msgstr "санад;иттилоот;дастур;"
+
+#~ msgid "Indexed"
+#~ msgstr "Индексшуда"
+
+#~ msgid "Whether the document content has been indexed"
+#~ msgstr "Оё мӯҳтавои ҳуҷҷат ба индекс дароварда шудааст"
+
+#~ msgid "Document URI"
+#~ msgstr "Санади URI"
+
+#~ msgid "The URI which identifies the document"
+#~ msgstr "Суроғаи URI, ки ҳуҷҷатро муайян мекунад"
+
+#~ msgid "View"
+#~ msgstr "Намоиш"
+
+#~ msgid "A YelpView instance to control"
+#~ msgstr "Ҳолати YelpView барои идоракунӣ"
+
+#~ msgid "A YelpBookmarks implementation instance"
+#~ msgstr "Ҳолати иҷрокунии YelpBookmarks"
+
+#~ msgid "GtkSettings"
+#~ msgstr "Танзимоти GtkSettings"
+
+#~ msgid "A GtkSettings object to get settings from"
+#~ msgstr "Объекти GtkSettings барои гирифтани танзимот аз"
+
+#~ msgid "GtkIconTheme"
+#~ msgstr "Мавзӯи GtkIconTheme"
+
+#~ msgid "A GtkIconTheme object to get icons from"
+#~ msgstr "Объекти GtkIconTheme барои гирифтани нишонаҳо аз"
+
+#~ msgid "Font Adjustment"
+#~ msgstr "Танзими шрифт"
+
+#~ msgid "A size adjustment to add to font sizes"
+#~ msgstr "Танзими андоза барои илова кардан ба андозаҳои шрифт"
+
+#~ msgid "Show Text Cursor"
+#~ msgstr "Намоиш додани курсори матнӣ"
+
+#~ msgid "Show the text cursor or caret for accessible navigation"
+#~ msgstr "Намоиш додани курсори матнӣ ё аломати ^ барои паймоиш дастрас"
+
+#~ msgid "Editor Mode"
+#~ msgstr "Реҷаи муҳаррир"
+
+#~ msgid "Enable features useful to editors"
+#~ msgstr "Фаъол кардани хусусиятҳои фоиданоки муҳаррир"
+
+#~ msgid "Database filename"
+#~ msgstr "Номи файли пойгоҳи иттилоотӣ"
+
+#~ msgid "The filename of the sqlite database"
+#~ msgstr "Номи файли пойгоҳи иттилоотии sqlite"
+
+#~ msgid "XSLT Stylesheet"
+#~ msgstr "Сабки варақи XSLT"
+
+#~ msgid "The location of the XSLT stylesheet"
+#~ msgstr "Ҷойгиршавии сабки варақи XSLT"
+
+#~ msgid "Yelp URI"
+#~ msgstr "Суроғаи URI-и Yelp"
+
+#~ msgid "A YelpUri with the current location"
+#~ msgstr "YelpUri бо ҷойгиршавии ҷорӣ"
+
+#~ msgid "The loading state of the view"
+#~ msgstr "Ҳолати боргирии намуд"
+
+#~ msgid "Page ID"
+#~ msgstr "Рақами мушаххаси саҳифа"
+
+#~ msgid "The ID of the root page of the page being viewed"
+#~ msgstr "Рақами мушаххаси саҳифаи решагӣ аллакай намоиш дода шуда истодааст"
+
+#~ msgid "Root Title"
+#~ msgstr "Сарлавҳаи реша"
+
+#~ msgid "The title of the root page of the page being viewed"
+#~ msgstr "Сарлавҳаи саҳифаи решагӣ аллакай намоиш дода шуда истодааст"
+
+#~ msgid "Page Title"
+#~ msgstr "Сарлавҳаи саҳифа"
+
+#~ msgid "The title of the page being viewed"
+#~ msgstr "Сарлавҳаи саҳифа аллакай намоиш дода шуда истодааст"
+
+#~ msgid "Page Description"
+#~ msgstr "Саҳифаи тафсилот"
+
+#~ msgid "The description of the page being viewed"
+#~ msgstr "Тавсифи саҳифа аллакай намоиш дода шуда истодааст"
+
+#~ msgid "Page Icon"
+#~ msgstr "Нишонаи саҳифа"
+
+#~ msgid "The icon of the page being viewed"
+#~ msgstr "Нишонаи саҳифа аллакай намоиш дода шуда истодааст"
+
+#~ msgid "Search for packages containing this document."
+#~ msgstr "Бастаҳои дорои ин ҳуҷҷатро ҷустуҷӯ кунед."
+
+#~ msgid "Application"
+#~ msgstr "Барнома"
+
+#~ msgid "A YelpApplication instance that controls this window"
+#~ msgstr "Ҳолати YelpApplication, ки ин равзанаро идора мекунад"
 
 #~ msgid "See all search results for “%s”"
 #~ msgstr "Дидани ҳамаи натиҷаҳои ҷустуҷӯи “%s”"
@@ -627,19 +695,12 @@ msgstr "санад;иттилоот;дастур;"
 #~ msgid "Applets"
 #~ msgstr "Апплетҳо"
 
-#~ msgid "Desktop"
-#~ msgstr "Мизи корӣ"
-
 #~ msgid "Education Applications"
 #~ msgstr "Замимаҳои Таълимӣ"
 
 #, fuzzy
 #~ msgid "Help Topics"
 #~ msgstr "Барраси Ёрӣ"
-
-#, fuzzy
-#~ msgid "Internet"
-#~ msgstr "Таркибҳо"
 
 #~ msgid "KDE"
 #~ msgstr "KDE"
@@ -1051,6 +1112,3 @@ msgstr "санад;иттилоот;дастур;"
 
 #~ msgid "/Go/_Contents"
 #~ msgstr "/Гузариш/_Таркибҳо"
-
-#~ msgid "A Help Browser for GNOME"
-#~ msgstr "Барраси Ёрӣ барои GNOME"

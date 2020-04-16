@@ -7,9 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp&ke"
-"ywords=I18N+L10N&component=General\n"
-"POT-Creation-Date: 2016-08-19 16:59+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
+"POT-Creation-Date: 2020-04-16 23:40+0100\n"
 "PO-Revision-Date: 2016-09-17 16:03+0300\n"
 "Last-Translator: Daniel Korostil <ted.korostiled@gmail.com>\n"
 "Language-Team: linux.org.ua\n"
@@ -17,10 +16,82 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Virtaal 0.7.1\n"
 "X-Project-Style: gnome\n"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:31
+#, fuzzy
+msgid "Getting Started"
+msgstr "Стан завантаження"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:40
+msgid "Internet"
+msgstr "Інтернет"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:51
+#, fuzzy
+msgid "Documents &amp; Files"
+msgstr "Звук та відео"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:60
+#, fuzzy
+msgid "The Desktop"
+msgstr "Стільниця"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:71
+msgid "Printers, Displays &amp; Accessories"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:80
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.security-and-privacy
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:91
+msgid "Security &amp; Privacy"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: install.tooltip
@@ -32,40 +103,68 @@ msgstr ""
 #.
 #. <string/> - The package to install
 #.
-#: yelp.xml.in:36
+#: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Встановити <string/>"
 
-#: ../libyelp/yelp-bz2-decompressor.c:143
-#: ../libyelp/yelp-lzma-decompressor.c:152
+#: data/yelp.appdata.xml.in:6
+#, fuzzy
+msgid "GNOME Help"
+msgstr "Програма перегляду довідки GNOME"
+
+#: data/yelp.appdata.xml.in:7
+msgid "Help viewer for GNOME"
+msgstr ""
+
+#: data/yelp.appdata.xml.in:9
+msgid ""
+"Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
+"also display DocBook, info, man, and HTML documentation."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:13
+msgid ""
+"It makes it easy to find the documentation you need, with interactive search "
+"and bookmarks."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:17
+msgid ""
+"It also has an editor mode, which shows editorial comments and revision "
+"statuses when editing Mallard documents."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:30
+msgid "The GNOME Project"
+msgstr ""
+
+#: libyelp/yelp-bz2-decompressor.c:143 libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
 msgstr "Неправильно стиснуті дані"
 
-#: ../libyelp/yelp-bz2-decompressor.c:149
-#: ../libyelp/yelp-lzma-decompressor.c:158
+#: libyelp/yelp-bz2-decompressor.c:149 libyelp/yelp-lzma-decompressor.c:158
 msgid "Not enough memory"
 msgstr "Недостатньо пам'яті"
 
-#: ../libyelp/yelp-docbook-document.c:282 ../libyelp/yelp-info-document.c:218
-#: ../libyelp/yelp-mallard-document.c:298
-#: ../libyelp/yelp-mallard-document.c:452 ../libyelp/yelp-man-document.c:252
+#: libyelp/yelp-docbook-document.c:292 libyelp/yelp-info-document.c:221
+#: libyelp/yelp-mallard-document.c:306 libyelp/yelp-mallard-document.c:464
+#: libyelp/yelp-man-document.c:199
 #, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
 msgstr "Сторінка «%s» не існує у документі «%s»."
 
-#: ../libyelp/yelp-docbook-document.c:320 ../libyelp/yelp-info-document.c:355
-#: ../libyelp/yelp-man-document.c:390
-#, c-format
+#: libyelp/yelp-docbook-document.c:331 libyelp/yelp-info-document.c:358
+#: libyelp/yelp-man-document.c:336
 msgid "The file does not exist."
 msgstr "Такий файл не існує."
 
-#: ../libyelp/yelp-docbook-document.c:330 ../libyelp/yelp-info-document.c:365
-#: ../libyelp/yelp-man-document.c:400
+#: libyelp/yelp-docbook-document.c:341 libyelp/yelp-info-document.c:368
+#: libyelp/yelp-man-document.c:346
 #, c-format
 msgid "The file ‘%s’ does not exist."
 msgstr "Файл «%s» не існує."
 
-#: ../libyelp/yelp-docbook-document.c:345
+#: libyelp/yelp-docbook-document.c:359
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
@@ -74,7 +173,7 @@ msgstr ""
 "Не вдається проаналізувати файл «%s», оскільки некоректно сформований "
 "документ XML."
 
-#: ../libyelp/yelp-docbook-document.c:358
+#: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
@@ -83,56 +182,39 @@ msgstr ""
 "Не вдається проаналізувати файл «%s», оскільки один або більше файлів, які "
 "він містить, має некоректно сформовані документи XML."
 
-#: ../libyelp/yelp-docbook-document.c:788
+#: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
 msgstr "Невідомо"
 
-#: ../libyelp/yelp-docbook-document.c:850 ../libyelp/yelp-info-document.c:298
-#: ../libyelp/yelp-man-document.c:332
+#: libyelp/yelp-docbook-document.c:908 libyelp/yelp-info-document.c:301
+#: libyelp/yelp-man-document.c:279
 #, c-format
 msgid "The requested page was not found in the document ‘%s’."
 msgstr "Потрібну сторінку не знайдено у документі «%s»."
 
-#: ../libyelp/yelp-document.c:278
-msgid "Indexed"
-msgstr "Індексовано"
-
-#: ../libyelp/yelp-document.c:279
-msgid "Whether the document content has been indexed"
-msgstr "Будь-який вміст документа буде індексовано "
-
-#: ../libyelp/yelp-document.c:287
-msgid "Document URI"
-msgstr "Посилання документа"
-
-#: ../libyelp/yelp-document.c:288
-msgid "The URI which identifies the document"
-msgstr "Посилання, яке ідентифікує документ"
-
-#: ../libyelp/yelp-document.c:1024
+#: libyelp/yelp-document.c:1068
 #, c-format
 msgid "Search results for “%s”"
 msgstr "Результат пошуку для «%s»"
 
-#: ../libyelp/yelp-document.c:1036
+#: libyelp/yelp-document.c:1080
 #, c-format
 msgid "No matching help pages found in “%s”."
 msgstr "Не знайдено жодного збігу сторінок довідки в «%s»."
 
-#: ../libyelp/yelp-document.c:1042
+#: libyelp/yelp-document.c:1086
 msgid "No matching help pages found."
 msgstr "Не знайдено жодної сторінки довідки."
 
-#: ../libyelp/yelp-error.c:35
-#, c-format
+#: libyelp/yelp-error.c:35
 msgid "An unknown error occurred."
 msgstr "Трапилась невідома помилка."
 
-#: ../libyelp/yelp-help-list.c:545 ../libyelp/yelp-help-list.c:554
+#: libyelp/yelp-help-list.c:548 libyelp/yelp-help-list.c:557
 msgid "All Help Documents"
 msgstr "Усі документи довідки"
 
-#: ../libyelp/yelp-info-document.c:380
+#: libyelp/yelp-info-document.c:383
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
@@ -140,353 +222,325 @@ msgstr ""
 "Не вдається проаналізувати файл «%s», оскільки це некоректно сформована "
 "інформаційна сторінка."
 
-#: ../libyelp/yelp-mallard-document.c:340
+#: libyelp/yelp-mallard-document.c:348
 #, c-format
 msgid "The directory ‘%s’ does not exist."
 msgstr "Теки «%s» не існує."
 
-#: ../libyelp/yelp-search-entry.c:172
-msgid "View"
-msgstr "Переглядач"
-
-#: ../libyelp/yelp-search-entry.c:173
-msgid "A YelpView instance to control"
-msgstr "Наприклад, YelpView для перевірки"
-
-#: ../libyelp/yelp-search-entry.c:188 ../src/yelp-window.c:417
-msgid "Bookmarks"
-msgstr "Закладки"
-
-#: ../libyelp/yelp-search-entry.c:189
-msgid "A YelpBookmarks implementation instance"
-msgstr "Наприклад, YelpBookmarks для реалізації"
-
-#: ../libyelp/yelp-search-entry.c:433
+#: libyelp/yelp-search-entry.c:434
 #, c-format
 msgid "Search for “%s”"
 msgstr "Пошук «%s»"
 
-#: ../libyelp/yelp-settings.c:148
-msgid "GtkSettings"
-msgstr "Налаштування Gtk"
-
-#: ../libyelp/yelp-settings.c:149
-msgid "A GtkSettings object to get settings from"
-msgstr "Об'єкт GtkSettings для налаштування з"
-
-#: ../libyelp/yelp-settings.c:157
-msgid "GtkIconTheme"
-msgstr "Тема піктограм Gtk"
-
-#: ../libyelp/yelp-settings.c:158
-msgid "A GtkIconTheme object to get icons from"
-msgstr "Об'єкт GtkIconTheme для отримання піктограм"
-
-#: ../libyelp/yelp-settings.c:166
-msgid "Font Adjustment"
-msgstr "Коригування шрифтів"
-
-#: ../libyelp/yelp-settings.c:167
-msgid "A size adjustment to add to font sizes"
-msgstr "Регулювання розміру для долучення розмірів шрифту"
-
-#: ../libyelp/yelp-settings.c:175
-msgid "Show Text Cursor"
-msgstr "Показати текстовий курсор"
-
-#: ../libyelp/yelp-settings.c:176
-msgid "Show the text cursor or caret for accessible navigation"
-msgstr "Показує текстовий курсор або позначку вставки для доступної навігації"
-
-#: ../libyelp/yelp-settings.c:184
-msgid "Editor Mode"
-msgstr "Режим редактора"
-
-#: ../libyelp/yelp-settings.c:185
-msgid "Enable features useful to editors"
-msgstr "Увімкнути корисні функції для редактора"
-
-#: ../libyelp/yelp-sqlite-storage.c:145
-msgid "Database filename"
-msgstr "Назва файла бази даних"
-
-#: ../libyelp/yelp-sqlite-storage.c:146
-msgid "The filename of the sqlite database"
-msgstr "Назва файла бази даних SQLite"
-
-#: ../libyelp/yelp-transform.c:164
-msgid "XSLT Stylesheet"
-msgstr "Таблиця стилів XSLT"
-
-#: ../libyelp/yelp-transform.c:165
-msgid "The location of the XSLT stylesheet"
-msgstr "Адреса таблиці стилів XSLT"
-
-#: ../libyelp/yelp-transform.c:369 ../libyelp/yelp-transform.c:384
+#: libyelp/yelp-transform.c:370 libyelp/yelp-transform.c:385
 #, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
 msgstr "Таблиці стилів XSLT «%s» або нема, або вона некоректна."
 
-#: ../libyelp/yelp-transform.c:518
+#: libyelp/yelp-transform.c:519
 msgid "No href attribute found on yelp:document\n"
 msgstr "У yelp:document не знайдено атрибуту href\n"
 
-#: ../libyelp/yelp-transform.c:533
+#: libyelp/yelp-transform.c:534
 msgid "Out of memory"
 msgstr "Недостатньо пам'яті"
 
-#: ../libyelp/yelp-view.c:253
+#: libyelp/yelp-view.c:252
 msgid "C_opy Code Block"
 msgstr "К_опіювати блок коду"
 
-#: ../libyelp/yelp-view.c:258
+#: libyelp/yelp-view.c:257
 msgid "_Copy Link Location"
 msgstr "_Копіювати посилання"
 
-#: ../libyelp/yelp-view.c:263
+#: libyelp/yelp-view.c:262
 msgid "_Open Link"
 msgstr "_Відкрити посилання"
 
-#: ../libyelp/yelp-view.c:268
+#: libyelp/yelp-view.c:267
 msgid "Open Link in New _Window"
 msgstr "Відкрити посилання у _новому вікні"
 
-#: ../libyelp/yelp-view.c:278
+#: libyelp/yelp-view.c:277
 msgid "_Install Packages"
 msgstr "_Установити пакунки"
 
-#: ../libyelp/yelp-view.c:283
+#: libyelp/yelp-view.c:282
 msgid "Save Code _Block As…"
 msgstr "Зберегти _блок коду як…"
 
-#: ../libyelp/yelp-view.c:298
+#: libyelp/yelp-view.c:297
 msgid "_Copy Text"
 msgstr "_Копіювати текст"
 
-#: ../libyelp/yelp-view.c:525
-msgid "Yelp URI"
-msgstr "Yelp URI"
-
-#: ../libyelp/yelp-view.c:526
-msgid "A YelpUri with the current location"
-msgstr "YelpUri з теперішньою адресою"
-
-#: ../libyelp/yelp-view.c:534
-msgid "Loading State"
-msgstr "Стан завантаження"
-
-#: ../libyelp/yelp-view.c:535
-msgid "The loading state of the view"
-msgstr "Стан завантаження перегляду"
-
-#: ../libyelp/yelp-view.c:544
-msgid "Page ID"
-msgstr "ID сторінки"
-
-#: ../libyelp/yelp-view.c:545
-msgid "The ID of the root page of the page being viewed"
-msgstr "ID кореневої сторінки — сторінки, що переглядається "
-
-#: ../libyelp/yelp-view.c:553
-msgid "Root Title"
-msgstr "Назва кореня"
-
-#: ../libyelp/yelp-view.c:554
-msgid "The title of the root page of the page being viewed"
-msgstr "Назва кореневої сторінки — сторінки, що переглядається "
-
-#: ../libyelp/yelp-view.c:562
-msgid "Page Title"
-msgstr "Назва сторінки"
-
-#: ../libyelp/yelp-view.c:563
-msgid "The title of the page being viewed"
-msgstr "Назва сторінки, що переглядається"
-
-#: ../libyelp/yelp-view.c:571
-msgid "Page Description"
-msgstr "Опис сторінки"
-
-#: ../libyelp/yelp-view.c:572
-msgid "The description of the page being viewed"
-msgstr "Опис сторінки, що переглядається"
-
-#: ../libyelp/yelp-view.c:580
-msgid "Page Icon"
-msgstr "Піктограма сторінки"
-
-#: ../libyelp/yelp-view.c:581
-msgid "The icon of the page being viewed"
-msgstr "Піктограма сторінки, що переглядається"
-
-#: ../libyelp/yelp-view.c:826 ../libyelp/yelp-view.c:2198
+#: libyelp/yelp-view.c:809 libyelp/yelp-view.c:2138
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "Посилання «%s» вказує неправильну сторінку."
 
-#: ../libyelp/yelp-view.c:832 ../libyelp/yelp-view.c:2204
-#, c-format
+#: libyelp/yelp-view.c:815 libyelp/yelp-view.c:2144
 msgid "The URI does not point to a valid page."
 msgstr "Посилання вказує неправильну сторінку."
 
-#: ../libyelp/yelp-view.c:837 ../libyelp/yelp-view.c:2210
+#: libyelp/yelp-view.c:820 libyelp/yelp-view.c:2150
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "Посилання «%s» неможливо розібрати."
 
-#: ../libyelp/yelp-view.c:842
-#, c-format
+#: libyelp/yelp-view.c:825
 msgid "Unknown Error."
 msgstr "Невідома помилка."
 
-#: ../libyelp/yelp-view.c:996
+#: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
 msgstr "Нема пакунку PackageKit. Встановлення пакунку потребує PackageKit."
 
-#: ../libyelp/yelp-view.c:1243
+#: libyelp/yelp-view.c:1226
 msgid "Save Image"
 msgstr "Зберегти зображення"
 
-#: ../libyelp/yelp-view.c:1342
+#: libyelp/yelp-view.c:1325
 msgid "Save Code"
 msgstr "Зберегти код"
 
-#: ../libyelp/yelp-view.c:1438
+#: libyelp/yelp-view.c:1421
 #, c-format
 msgid "Send email to %s"
 msgstr "Відправити листа на %s"
 
-#: ../libyelp/yelp-view.c:1542
+#: libyelp/yelp-view.c:1525
 msgid "_Save Image As…"
 msgstr "З_берегти зображення як…"
 
-#: ../libyelp/yelp-view.c:1543
+#: libyelp/yelp-view.c:1526
 msgid "_Save Video As…"
 msgstr "З_берегти відеозапис як…"
 
-#: ../libyelp/yelp-view.c:1551
+#: libyelp/yelp-view.c:1534
 msgid "S_end Image To…"
 msgstr "Н_адіслати зображення на…"
 
-#: ../libyelp/yelp-view.c:1552
+#: libyelp/yelp-view.c:1535
 msgid "S_end Video To…"
 msgstr "Н_адіслати відеозапис на…"
 
-#: ../libyelp/yelp-view.c:1894
+#: libyelp/yelp-view.c:1876
 #, c-format
 msgid "Could not load a document for ‘%s’"
 msgstr "Неможливо завантажити документ для «%s»"
 
-#: ../libyelp/yelp-view.c:1900
-#, c-format
+#: libyelp/yelp-view.c:1882
 msgid "Could not load a document"
 msgstr "Неможливо завантажити документ"
 
-#: ../libyelp/yelp-view.c:1984
+#: libyelp/yelp-view.c:1966
 msgid "Document Not Found"
 msgstr "Документ не знайдено"
 
-#: ../libyelp/yelp-view.c:1986
+#: libyelp/yelp-view.c:1968
 msgid "Page Not Found"
 msgstr "Сторінку не знайдено"
 
-#: ../libyelp/yelp-view.c:1989
+#: libyelp/yelp-view.c:1971
 msgid "Cannot Read"
 msgstr "Неможливо прочитати"
 
-#: ../libyelp/yelp-view.c:1995
+#: libyelp/yelp-view.c:1977
 msgid "Unknown Error"
 msgstr "Невідома помилка"
 
-#: ../libyelp/yelp-view.c:2015
-msgid "Search for packages containing this document."
-msgstr "Пошук пакунків, містить цей документ."
-
-#: ../src/yelp-application.c:59
+#: src/yelp-application.c:59
 msgid "Turn on editor mode"
 msgstr "Увімкнути режим редактора"
 
-#: ../src/yelp-application.c:271 ../src/yelp-window.c:1180
-#: ../src/yelp-window.c:1188 ../yelp.desktop.in.in.h:1
+#: src/yelp-application.c:338 src/yelp-window.c:1186 src/yelp-window.c:1194
+#: org.gnome.Yelp.desktop.in.in:3
 msgid "Help"
 msgstr "Довідка"
 
-#: ../src/yelp-application.c:321
-msgid "New Window"
-msgstr "Створити вікно"
-
-#: ../src/yelp-application.c:325
-msgid "Larger Text"
-msgstr "Більший текст"
-
-#: ../src/yelp-application.c:326
-msgid "Smaller Text"
-msgstr "Менший текст"
-
-#: ../src/yelp-window.c:211
-msgid "Application"
-msgstr "Програма"
-
-#: ../src/yelp-window.c:212
-msgid "A YelpApplication instance that controls this window"
-msgstr "Наприклад, YelpApplication для керування цим вікном"
-
-#: ../src/yelp-window.c:343
+#: src/yelp-window.c:348
 msgid "Back"
 msgstr "Назад"
 
-#: ../src/yelp-window.c:350
+#: src/yelp-window.c:355
 msgid "Forward"
 msgstr "Далі"
 
-#: ../src/yelp-window.c:361
+#: src/yelp-window.c:366
 msgid "Menu"
 msgstr "Меню"
 
-#: ../src/yelp-window.c:366
+#: src/yelp-window.c:371
+msgid "New Window"
+msgstr "Створити вікно"
+
+#: src/yelp-window.c:372
 msgid "Find…"
 msgstr "Знайти…"
 
-#: ../src/yelp-window.c:367
+#: src/yelp-window.c:373
 msgid "Print…"
 msgstr "Надрукувати…"
 
-#: ../src/yelp-window.c:372
+#: src/yelp-window.c:378
 msgid "Previous Page"
 msgstr "Попередня сторінка"
 
-#: ../src/yelp-window.c:373
+#: src/yelp-window.c:379
 msgid "Next Page"
 msgstr "Наступна сторінка"
 
-#: ../src/yelp-window.c:378
+#: src/yelp-window.c:384
+msgid "Larger Text"
+msgstr "Більший текст"
+
+#: src/yelp-window.c:385
+msgid "Smaller Text"
+msgstr "Менший текст"
+
+#: src/yelp-window.c:390
 msgid "All Help"
 msgstr "Усі довідки"
 
-#: ../src/yelp-window.c:400
+#: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
 msgstr "Пошук (Ctrl+S)"
 
-#: ../src/yelp-window.c:434
+#: src/yelp-window.c:427
+msgid "Bookmarks"
+msgstr "Закладки"
+
+#: src/yelp-window.c:444
 msgid "No bookmarks"
 msgstr "Немає закладок"
 
-#: ../src/yelp-window.c:442
+#: src/yelp-window.c:452
 msgid "Add Bookmark"
 msgstr "Додати закладку"
 
-#: ../src/yelp-window.c:448
+#: src/yelp-window.c:458
 msgid "Remove Bookmark"
 msgstr "Вилучити закладку"
 
-#: ../yelp.desktop.in.in.h:2
+#: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
 msgstr "Отримати довідку GNOME"
 
-#: ../yelp.desktop.in.in.h:3
-#| msgid "documentation;information;manual;"
+#: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr "документація;інформація;посібник;довідка;"
+
+#~ msgid "Indexed"
+#~ msgstr "Індексовано"
+
+#~ msgid "Whether the document content has been indexed"
+#~ msgstr "Будь-який вміст документа буде індексовано "
+
+#~ msgid "Document URI"
+#~ msgstr "Посилання документа"
+
+#~ msgid "The URI which identifies the document"
+#~ msgstr "Посилання, яке ідентифікує документ"
+
+#~ msgid "View"
+#~ msgstr "Переглядач"
+
+#~ msgid "A YelpView instance to control"
+#~ msgstr "Наприклад, YelpView для перевірки"
+
+#~ msgid "A YelpBookmarks implementation instance"
+#~ msgstr "Наприклад, YelpBookmarks для реалізації"
+
+#~ msgid "GtkSettings"
+#~ msgstr "Налаштування Gtk"
+
+#~ msgid "A GtkSettings object to get settings from"
+#~ msgstr "Об'єкт GtkSettings для налаштування з"
+
+#~ msgid "GtkIconTheme"
+#~ msgstr "Тема піктограм Gtk"
+
+#~ msgid "A GtkIconTheme object to get icons from"
+#~ msgstr "Об'єкт GtkIconTheme для отримання піктограм"
+
+#~ msgid "Font Adjustment"
+#~ msgstr "Коригування шрифтів"
+
+#~ msgid "A size adjustment to add to font sizes"
+#~ msgstr "Регулювання розміру для долучення розмірів шрифту"
+
+#~ msgid "Show Text Cursor"
+#~ msgstr "Показати текстовий курсор"
+
+#~ msgid "Show the text cursor or caret for accessible navigation"
+#~ msgstr ""
+#~ "Показує текстовий курсор або позначку вставки для доступної навігації"
+
+#~ msgid "Editor Mode"
+#~ msgstr "Режим редактора"
+
+#~ msgid "Enable features useful to editors"
+#~ msgstr "Увімкнути корисні функції для редактора"
+
+#~ msgid "Database filename"
+#~ msgstr "Назва файла бази даних"
+
+#~ msgid "The filename of the sqlite database"
+#~ msgstr "Назва файла бази даних SQLite"
+
+#~ msgid "XSLT Stylesheet"
+#~ msgstr "Таблиця стилів XSLT"
+
+#~ msgid "The location of the XSLT stylesheet"
+#~ msgstr "Адреса таблиці стилів XSLT"
+
+#~ msgid "Yelp URI"
+#~ msgstr "Yelp URI"
+
+#~ msgid "A YelpUri with the current location"
+#~ msgstr "YelpUri з теперішньою адресою"
+
+#~ msgid "The loading state of the view"
+#~ msgstr "Стан завантаження перегляду"
+
+#~ msgid "Page ID"
+#~ msgstr "ID сторінки"
+
+#~ msgid "The ID of the root page of the page being viewed"
+#~ msgstr "ID кореневої сторінки — сторінки, що переглядається "
+
+#~ msgid "Root Title"
+#~ msgstr "Назва кореня"
+
+#~ msgid "The title of the root page of the page being viewed"
+#~ msgstr "Назва кореневої сторінки — сторінки, що переглядається "
+
+#~ msgid "Page Title"
+#~ msgstr "Назва сторінки"
+
+#~ msgid "The title of the page being viewed"
+#~ msgstr "Назва сторінки, що переглядається"
+
+#~ msgid "Page Description"
+#~ msgstr "Опис сторінки"
+
+#~ msgid "The description of the page being viewed"
+#~ msgstr "Опис сторінки, що переглядається"
+
+#~ msgid "Page Icon"
+#~ msgstr "Піктограма сторінки"
+
+#~ msgid "The icon of the page being viewed"
+#~ msgstr "Піктограма сторінки, що переглядається"
+
+#~ msgid "Search for packages containing this document."
+#~ msgstr "Пошук пакунків, містить цей документ."
+
+#~ msgid "Application"
+#~ msgstr "Програма"
+
+#~ msgid "A YelpApplication instance that controls this window"
+#~ msgstr "Наприклад, YelpApplication для керування цим вікном"
 
 #~ msgid "See all search results for “%s”"
 #~ msgstr "Переглянути результати пошуку «%s»"
@@ -860,9 +914,6 @@ msgstr "документація;інформація;посібник;дові�
 #~ msgid "Debuggers"
 #~ msgstr "Зневадження"
 
-#~ msgid "Desktop"
-#~ msgstr "Стільниця"
-
 #~ msgid "Desktop Settings"
 #~ msgstr "Налаштування стільниці"
 
@@ -971,9 +1022,6 @@ msgstr "документація;інформація;посібник;дові�
 
 #~ msgid "Instant Messaging"
 #~ msgstr "Миттєві повідомлення"
-
-#~ msgid "Internet"
-#~ msgstr "Інтернет"
 
 #~ msgid "Java"
 #~ msgstr "Java"
@@ -1120,9 +1168,6 @@ msgstr "документація;інформація;посібник;дові�
 
 #~ msgid "Sound"
 #~ msgstr "Звук"
-
-#~ msgid "Sound &amp; Video"
-#~ msgstr "Звук та відео"
 
 #~ msgid "Sound &amp; Video Editing"
 #~ msgstr "Редагування звуку та відео"
@@ -1299,9 +1344,6 @@ msgstr "документація;інформація;посібник;дові�
 
 #~ msgid "Define which cache directory to use"
 #~ msgstr "Визначити, яку категорію використовувати"
-
-#~ msgid " GNOME Help Browser"
-#~ msgstr "Програма перегляду довідки GNOME"
 
 #~ msgid "Directory not found"
 #~ msgstr "Теки не знайдено"

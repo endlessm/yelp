@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp.HEAD.mk\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp&keywords=I18N+L10N&component=General\n"
-"POT-Creation-Date: 2012-01-10 19:04+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
+"POT-Creation-Date: 2020-04-16 23:40+0100\n"
 "PO-Revision-Date: 2012-01-14 23:32+0100\n"
 "Last-Translator: Jovan N\n"
 "Language-Team: Macedonian <mkde-l10n@lists.sourceforge.net>\n"
@@ -26,563 +26,645 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../libyelp/yelp-bz2-decompressor.c:146
-#: ../libyelp/yelp-lzma-decompressor.c:155
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:31
+#, fuzzy
+msgid "Getting Started"
+msgstr "Ја вчитувам состојбата"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:40
+msgid "Internet"
+msgstr "Интернет"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:51
+#, fuzzy
+msgid "Documents &amp; Files"
+msgstr "Звук и видео"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:60
+#, fuzzy
+msgid "The Desktop"
+msgstr "Работна површина"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:71
+msgid "Printers, Displays &amp; Accessories"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:80
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.security-and-privacy
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:91
+msgid "Security &amp; Privacy"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: install.tooltip
+#. This is a format message used to format tooltips on install: links. These
+#. links allow users to install packages by clicking a link in the help. The
+#. tooltip may also be used as the link text, if there's no link text in the
+#. document. Special elements in the message will be replaced with the
+#. appropriate content, as follows:
+#.
+#. <string/> - The package to install
+#.
+#: data/domains/yelp.xml.in:36
+msgid "Install <string/>"
+msgstr ""
+
+#: data/yelp.appdata.xml.in:6
+#, fuzzy
+msgid "GNOME Help"
+msgstr " Прелистувач за помош "
+
+#: data/yelp.appdata.xml.in:7
+msgid "Help viewer for GNOME"
+msgstr ""
+
+#: data/yelp.appdata.xml.in:9
+msgid ""
+"Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
+"also display DocBook, info, man, and HTML documentation."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:13
+msgid ""
+"It makes it easy to find the documentation you need, with interactive search "
+"and bookmarks."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:17
+msgid ""
+"It also has an editor mode, which shows editorial comments and revision "
+"statuses when editing Mallard documents."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:30
+msgid "The GNOME Project"
+msgstr ""
+
+#: libyelp/yelp-bz2-decompressor.c:143 libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
 msgstr "Невалидни компресирани податоци"
 
-#: ../libyelp/yelp-bz2-decompressor.c:152
-#: ../libyelp/yelp-lzma-decompressor.c:161
-#| msgid "Out of memory"
+#: libyelp/yelp-bz2-decompressor.c:149 libyelp/yelp-lzma-decompressor.c:158
 msgid "Not enough memory"
 msgstr "Нема повеќе меморија"
 
-#: ../libyelp/yelp-docbook-document.c:282
-#: ../libyelp/yelp-info-document.c:238
-#: ../libyelp/yelp-mallard-document.c:271
-#: ../libyelp/yelp-mallard-document.c:423
-#: ../libyelp/yelp-man-document.c:282
+#: libyelp/yelp-docbook-document.c:292 libyelp/yelp-info-document.c:221
+#: libyelp/yelp-mallard-document.c:306 libyelp/yelp-mallard-document.c:464
+#: libyelp/yelp-man-document.c:199
 #, c-format
-#| msgid "The page %s was not found in the document %s."
 msgid "The page ‘%s’ was not found in the document ‘%s’."
 msgstr "Страницата „%s“ не беше најдена во документот „%s“."
 
-#: ../libyelp/yelp-docbook-document.c:317
-#: ../libyelp/yelp-info-document.c:372
-#: ../libyelp/yelp-man-document.c:417
-#, c-format
-#| msgid "The file ‘%s’ does not exist."
+#: libyelp/yelp-docbook-document.c:331 libyelp/yelp-info-document.c:358
+#: libyelp/yelp-man-document.c:336
 msgid "The file does not exist."
 msgstr "Датотеката не постои."
 
-#: ../libyelp/yelp-docbook-document.c:327
-#: ../libyelp/yelp-info-document.c:382
-#: ../libyelp/yelp-man-document.c:427
+#: libyelp/yelp-docbook-document.c:341 libyelp/yelp-info-document.c:368
+#: libyelp/yelp-man-document.c:346
 #, c-format
 msgid "The file ‘%s’ does not exist."
 msgstr "Датотеката %s не постои."
 
-#: ../libyelp/yelp-docbook-document.c:342
+#: libyelp/yelp-docbook-document.c:359
 #, c-format
-msgid "The file ‘%s’ could not be parsed because it is not a well-formed XML document."
-msgstr "Датотеката %s не може да биде парсирана.бидејќи не е добро форматирана како XML документ."
+msgid ""
+"The file ‘%s’ could not be parsed because it is not a well-formed XML "
+"document."
+msgstr ""
+"Датотеката %s не може да биде парсирана.бидејќи не е добро форматирана како "
+"XML документ."
 
-#: ../libyelp/yelp-docbook-document.c:355
+#: libyelp/yelp-docbook-document.c:372
 #, c-format
-msgid "The file ‘%s’ could not be parsed because one or more of its included files is not a well-formed XML document."
-msgstr "Датотеката %s не може да биде парсирана. Или датотеката не постои или пак не е  добро форматирана како XML документ."
+msgid ""
+"The file ‘%s’ could not be parsed because one or more of its included files "
+"is not a well-formed XML document."
+msgstr ""
+"Датотеката %s не може да биде парсирана. Или датотеката не постои или пак не "
+"е  добро форматирана како XML документ."
 
-#: ../libyelp/yelp-docbook-document.c:765
+#: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
 msgstr "Непознато"
 
-#: ../libyelp/yelp-docbook-document.c:826
-#: ../libyelp/yelp-info-document.c:315
-#: ../libyelp/yelp-man-document.c:359
+#: libyelp/yelp-docbook-document.c:908 libyelp/yelp-info-document.c:301
+#: libyelp/yelp-man-document.c:279
 #, c-format
-#| msgid "The requested page was not found in the document %s."
 msgid "The requested page was not found in the document ‘%s’."
 msgstr "Бараната страница не беше пронајдена во документот „%s“."
 
-#: ../libyelp/yelp-document.c:268
-msgid "Indexed"
-msgstr "Индексирани"
-
-#: ../libyelp/yelp-document.c:269
-msgid "Whether the document content has been indexed"
-msgstr "Дали содржината на документот е индексирана"
-
-#: ../libyelp/yelp-document.c:277
-#| msgid "Document Sections"
-msgid "Document URI"
-msgstr "URI на документот"
-
-#: ../libyelp/yelp-document.c:278
-msgid "The URI which identifies the document"
-msgstr "URI гој го идентификува документот"
-
-#: ../libyelp/yelp-document.c:958
+#: libyelp/yelp-document.c:1068
 #, c-format
-#| msgid "Search results for \"%s\""
 msgid "Search results for “%s”"
 msgstr "Резултати од барањето на „%s“"
 
-#: ../libyelp/yelp-document.c:970
+#: libyelp/yelp-document.c:1080
 #, c-format
 msgid "No matching help pages found in “%s”."
 msgstr "Не се пронајдени соодветни страници за помош за „%s“."
 
-#: ../libyelp/yelp-document.c:976
+#: libyelp/yelp-document.c:1086
 msgid "No matching help pages found."
 msgstr "Не се пронајдени соодветни страници за помош."
 
-#: ../libyelp/yelp-error.c:37
-#, c-format
+#: libyelp/yelp-error.c:35
 msgid "An unknown error occurred."
 msgstr "Се случи непозната грешка."
 
-#: ../libyelp/yelp-help-list.c:478
-#: ../libyelp/yelp-help-list.c:487
+#: libyelp/yelp-help-list.c:548 libyelp/yelp-help-list.c:557
 msgid "All Help Documents"
 msgstr "Сите документи за помош"
 
-#: ../libyelp/yelp-info-document.c:397
+#: libyelp/yelp-info-document.c:383
 #, c-format
-msgid "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr "Датотеката %s не може да биде парсирана бидејќи не е добро формирана info страница."
+msgid ""
+"The file ‘%s’ could not be parsed because it is not a well-formed info page."
+msgstr ""
+"Датотеката %s не може да биде парсирана бидејќи не е добро формирана info "
+"страница."
 
-#: ../libyelp/yelp-location-entry.c:331
-#| msgid "Viewer"
-msgid "View"
-msgstr "Поглед"
-
-#: ../libyelp/yelp-location-entry.c:332
-msgid "A YelpView instance to control"
-msgstr "Инстанца на YelpView за контрола"
-
-#: ../libyelp/yelp-location-entry.c:347
-msgid "Bookmarks"
-msgstr "Обележувачи"
-
-#: ../libyelp/yelp-location-entry.c:348
-msgid "A YelpBookmarks implementation instance"
-msgstr "Инстанца на YelpBookmarks имплементацијата"
-
-#: ../libyelp/yelp-location-entry.c:364
-msgid "Enable Search"
-msgstr "Овозможи пребарување"
-
-#: ../libyelp/yelp-location-entry.c:365
-msgid "Whether the location entry can be used as a search field"
-msgstr "Дали записот за локацијата може да се користи во полето за пребарување"
-
-#: ../libyelp/yelp-location-entry.c:435
-#: ../src/yelp-window.c:270
-#| msgid "_Search:"
-msgid "Search..."
-msgstr "Пребарај..."
-
-#: ../libyelp/yelp-location-entry.c:778
-#| msgid "Repeat the search online at %s"
-msgid "Clear the search text"
-msgstr "Исчисти го текстот за пребарување"
-
-#: ../libyelp/yelp-location-entry.c:827
-#: ../libyelp/yelp-location-entry.c:1525
-#| msgid "Bookmarks"
-msgid "Bookmark this page"
-msgstr "Обележи ја оваа страница"
-
-#: ../libyelp/yelp-location-entry.c:835
-#: ../libyelp/yelp-location-entry.c:1533
-#| msgid "Remove Bookmark"
-msgid "Remove bookmark"
-msgstr "Отстрани обележувач"
-
-#: ../libyelp/yelp-location-entry.c:1390
-#| msgid "Loading..."
-msgid "Loading"
-msgstr "Вчитувам"
-
-#: ../libyelp/yelp-mallard-document.c:311
+#: libyelp/yelp-mallard-document.c:348
 #, c-format
-#| msgid "The file ‘%s’ does not exist."
 msgid "The directory ‘%s’ does not exist."
 msgstr "Директориумот „%s“ не постои."
 
-#: ../libyelp/yelp-settings.c:154
-#| msgid "Settings"
-msgid "GtkSettings"
-msgstr "GtkSettings"
+#: libyelp/yelp-search-entry.c:434
+#, fuzzy, c-format
+msgid "Search for “%s”"
+msgstr "Резултати од барањето на „%s“"
 
-#: ../libyelp/yelp-settings.c:155
-msgid "A GtkSettings object to get settings from"
-msgstr "Објект од GtkSettings од кој ќе се земаат поставувања"
-
-#: ../libyelp/yelp-settings.c:163
-msgid "GtkIconTheme"
-msgstr "GtkIconTheme"
-
-#: ../libyelp/yelp-settings.c:164
-msgid "A GtkIconTheme object to get icons from"
-msgstr "Објект од GtkIconTheme од кој ќе се земаат икони"
-
-#: ../libyelp/yelp-settings.c:172
-msgid "Font Adjustment"
-msgstr "Поставување на фонт"
-
-#: ../libyelp/yelp-settings.c:173
-msgid "A size adjustment to add to font sizes"
-msgstr "Прилагодување на големина кое ќе се додава на големината на фонтот"
-
-#: ../libyelp/yelp-settings.c:181
-msgid "Show Text Cursor"
-msgstr "Покажи покажувај за текстот"
-
-#: ../libyelp/yelp-settings.c:182
-msgid "Show the text cursor or caret for accessible navigation"
-msgstr "Покажи го покажувачот за текст или каре за пристапна навигација"
-
-#: ../libyelp/yelp-settings.c:190
-msgid "Editor Mode"
-msgstr "Режим на уредувач"
-
-#: ../libyelp/yelp-settings.c:191
-msgid "Enable features useful to editors"
-msgstr "Овозможи ги опциите корисни за уредувачите"
-
-#: ../libyelp/yelp-sqlite-storage.c:150
-#| msgid "Databases"
-msgid "Database filename"
-msgstr "Име на база на податоци"
-
-#: ../libyelp/yelp-sqlite-storage.c:151
-msgid "The filename of the sqlite database"
-msgstr "Името на датотеката на sqlite базата на податоци"
-
-#: ../libyelp/yelp-transform.c:171
-#| msgid "Invalid Stylesheet"
-msgid "XSLT Stylesheet"
-msgstr "XSLT Stylesheet"
-
-#: ../libyelp/yelp-transform.c:172
-msgid "The location of the XSLT stylesheet"
-msgstr "Локацијата на XSLT stylesheet"
-
-#: ../libyelp/yelp-transform.c:379
-#: ../libyelp/yelp-transform.c:394
+#: libyelp/yelp-transform.c:370 libyelp/yelp-transform.c:385
 #, c-format
-#| msgid "The XSLT stylesheet ‘%s’ is either missing, or it is not valid."
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
 msgstr "XSLT stylesheet „%s“ недостасува или не е валиден."
 
-#: ../libyelp/yelp-transform.c:528
+#: libyelp/yelp-transform.c:519
 msgid "No href attribute found on yelp:document\n"
 msgstr "Не е пронајден href атрибут на yelp:document\n"
 
-#: ../libyelp/yelp-transform.c:543
+#: libyelp/yelp-transform.c:534
 msgid "Out of memory"
 msgstr "Нема повеќе меморија"
 
-#: ../libyelp/yelp-view.c:131
-#| msgid "Print"
-msgid "_Print..."
-msgstr "_Печати..."
+#: libyelp/yelp-view.c:252
+msgid "C_opy Code Block"
+msgstr "К_опирај го блокот код"
 
-#: ../libyelp/yelp-view.c:136
-msgid "_Back"
-msgstr "_Назад"
+#: libyelp/yelp-view.c:257
+msgid "_Copy Link Location"
+msgstr "_Копирај ја локацијата на врската"
 
-#: ../libyelp/yelp-view.c:141
-msgid "_Forward"
-msgstr "_Напред"
+#: libyelp/yelp-view.c:262
+msgid "_Open Link"
+msgstr "_Отвори врска"
 
-#: ../libyelp/yelp-view.c:146
-#| msgid "_Previous"
-msgid "_Previous Page"
-msgstr "_Претходна страница"
+#: libyelp/yelp-view.c:267
+msgid "Open Link in New _Window"
+msgstr "Отвори ја врската во _нов прозорец"
 
-#: ../libyelp/yelp-view.c:151
-#| msgid "_Next"
-msgid "_Next Page"
-msgstr "_Следна страница"
+#: libyelp/yelp-view.c:277
+msgid "_Install Packages"
+msgstr "_Инсталирај пакети"
 
-#: ../libyelp/yelp-view.c:423
-#| msgid "Yelp"
-msgid "Yelp URI"
-msgstr "Yelp URI"
+#: libyelp/yelp-view.c:282
+#, fuzzy
+msgid "Save Code _Block As…"
+msgstr "Зачувај го _блокот код како..."
 
-#: ../libyelp/yelp-view.c:424
-msgid "A YelpUri with the current location"
-msgstr "YelpUri со тековната локација"
+#: libyelp/yelp-view.c:297
+msgid "_Copy Text"
+msgstr "_Копирај го текстот"
 
-#: ../libyelp/yelp-view.c:432
-#| msgid "Loading..."
-msgid "Loading State"
-msgstr "Ја вчитувам состојбата"
+#: libyelp/yelp-view.c:809 libyelp/yelp-view.c:2138
+#, c-format
+msgid "The URI ‘%s’ does not point to a valid page."
+msgstr "URI-то „%s“ не покажува на валидна страница."
 
-#: ../libyelp/yelp-view.c:433
-msgid "The loading state of the view"
-msgstr "Состојбата на вчитување на погледот"
+#: libyelp/yelp-view.c:815 libyelp/yelp-view.c:2144
+msgid "The URI does not point to a valid page."
+msgstr "URI-то не покажува кон валидна страница."
 
-#: ../libyelp/yelp-view.c:442
-msgid "Page ID"
-msgstr "ID на страница"
+#: libyelp/yelp-view.c:820 libyelp/yelp-view.c:2150
+#, c-format
+msgid "The URI ‘%s’ could not be parsed."
+msgstr "URI-то „%s“ не може да се парсира"
 
-#: ../libyelp/yelp-view.c:443
-msgid "The ID of the root page of the page being viewed"
-msgstr "ID на кореновата страница на страницата која се прегледува"
+#: libyelp/yelp-view.c:825
+#, fuzzy
+msgid "Unknown Error."
+msgstr "Непозната грешка"
 
-#: ../libyelp/yelp-view.c:451
-msgid "Root Title"
-msgstr "Наслов на коренот"
-
-#: ../libyelp/yelp-view.c:452
-msgid "The title of the root page of the page being viewed"
-msgstr "Насловот на кореновата страница на страницата која се прегледува"
-
-#: ../libyelp/yelp-view.c:460
-msgid "Page Title"
-msgstr "Наслов на страница"
-
-#: ../libyelp/yelp-view.c:461
-msgid "The title of the page being viewed"
-msgstr "Насловот на страницата која се прегледува"
-
-#: ../libyelp/yelp-view.c:469
-msgid "Page Description"
-msgstr "Опис на страницата"
-
-#: ../libyelp/yelp-view.c:470
-msgid "The description of the page being viewed"
-msgstr "Описот на страницата која се прегледува"
-
-#: ../libyelp/yelp-view.c:478
-#| msgid "Page not found"
-msgid "Page Icon"
-msgstr "Икона на страница"
-
-#: ../libyelp/yelp-view.c:479
-msgid "The icon of the page being viewed"
-msgstr "Иконата на страницата која се прегледува"
-
-#: ../libyelp/yelp-view.c:720
+#: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
 msgstr "Немате PackageKit. За инсталирање на пакети е потребно PackageKit."
 
-#: ../libyelp/yelp-view.c:1013
+#: libyelp/yelp-view.c:1226
 msgid "Save Image"
 msgstr "Зачувај слика"
 
-#: ../libyelp/yelp-view.c:1108
+#: libyelp/yelp-view.c:1325
 msgid "Save Code"
 msgstr "Зачувај код"
 
-#: ../libyelp/yelp-view.c:1271
+#: libyelp/yelp-view.c:1421
 #, c-format
 msgid "Send email to %s"
 msgstr "Зачувај е-пошта во %s"
 
-#: ../libyelp/yelp-view.c:1286
-#| msgid "Manual Pages"
-msgid "_Install Packages"
-msgstr "_Инсталирај пакети"
-
-#: ../libyelp/yelp-view.c:1294
-msgid "_Open Link"
-msgstr "_Отвори врска"
-
-#: ../libyelp/yelp-view.c:1301
-#| msgid "Open Location"
-msgid "_Copy Link Location"
-msgstr "_Копирај ја локацијата на врската"
-
-#: ../libyelp/yelp-view.c:1307
-#| msgid "Open Link in _New Window"
-msgid "Open Link in New _Window"
-msgstr "Отвори ја врската во _нов прозорец"
-
-#: ../libyelp/yelp-view.c:1359
-msgid "_Save Image As..."
+#: libyelp/yelp-view.c:1525
+#, fuzzy
+msgid "_Save Image As…"
 msgstr "_Зачувај ја сликата како..."
 
-#: ../libyelp/yelp-view.c:1361
-msgid "_Save Video As..."
+#: libyelp/yelp-view.c:1526
+#, fuzzy
+msgid "_Save Video As…"
 msgstr "_Зачувај го видеото како..."
 
-#: ../libyelp/yelp-view.c:1368
-msgid "S_end Image To..."
+#: libyelp/yelp-view.c:1534
+#, fuzzy
+msgid "S_end Image To…"
 msgstr "И_спрати ја сликата до..."
 
-#: ../libyelp/yelp-view.c:1370
-msgid "S_end Video To..."
+#: libyelp/yelp-view.c:1535
+#, fuzzy
+msgid "S_end Video To…"
 msgstr "И_спрати го видеото до..."
 
-#: ../libyelp/yelp-view.c:1381
-#| msgid "_Copy"
-msgid "_Copy Text"
-msgstr "_Копирај го текстот"
-
-#: ../libyelp/yelp-view.c:1394
-msgid "C_opy Code Block"
-msgstr "К_опирај го блокот код"
-
-#: ../libyelp/yelp-view.c:1399
-msgid "Save Code _Block As..."
-msgstr "Зачувај го _блокот код како..."
-
-#: ../libyelp/yelp-view.c:1497
-#, c-format
-#| msgid "Search results for \"%s\""
-msgid "See all search results for “%s”"
-msgstr "Види ги сите резултати од барањето на „%s“"
-
-#: ../libyelp/yelp-view.c:1618
+#: libyelp/yelp-view.c:1876
 #, c-format
 msgid "Could not load a document for ‘%s’"
 msgstr "Не можев да го вчитам документот за „%s“"
 
-#: ../libyelp/yelp-view.c:1624
-#, c-format
+#: libyelp/yelp-view.c:1882
 msgid "Could not load a document"
 msgstr "Не можев да го вчитам документот"
 
-#: ../libyelp/yelp-view.c:1698
-#| msgid "Document Sections"
+#: libyelp/yelp-view.c:1966
 msgid "Document Not Found"
 msgstr "Документот не е пронајден"
 
-#: ../libyelp/yelp-view.c:1700
-#| msgid "Page not found"
+#: libyelp/yelp-view.c:1968
 msgid "Page Not Found"
 msgstr "Страницата не е пронајдена"
 
-#: ../libyelp/yelp-view.c:1703
-#| msgid "Cannot create window"
+#: libyelp/yelp-view.c:1971
 msgid "Cannot Read"
 msgstr "Не можам да прочитам"
 
-#: ../libyelp/yelp-view.c:1709
+#: libyelp/yelp-view.c:1977
 msgid "Unknown Error"
 msgstr "Непозната грешка"
 
-#: ../libyelp/yelp-view.c:1729
-#| msgid "Search for other documentation"
-msgid "Search for packages containing this document."
-msgstr "Барај пакети кои го содржат документот."
-
-#: ../libyelp/yelp-view.c:1882
-#, c-format
-#| msgid "The file ‘%s’ does not exist."
-msgid "The URI ‘%s’ does not point to a valid page."
-msgstr "URI-то „%s“ не покажува на валидна страница."
-
-#: ../libyelp/yelp-view.c:1888
-#, c-format
-msgid "The URI does not point to a valid page."
-msgstr "URI-то не покажува кон валидна страница."
-
-#: ../libyelp/yelp-view.c:1894
-#, c-format
-#| msgid "The file ‘%s’ does not exist."
-msgid "The URI ‘%s’ could not be parsed."
-msgstr "URI-то „%s“ не може да се парсира"
-
-#: ../src/yelp-application.c:65
+#: src/yelp-application.c:59
 msgid "Turn on editor mode"
 msgstr "Вклучи го режимот на уредувач"
 
-#: ../src/yelp-application.c:128
-msgid "_Larger Text"
-msgstr "_Поголем текст"
-
-#: ../src/yelp-application.c:130
-msgid "Increase the size of the text"
-msgstr "Зголеми го текстот"
-
-#: ../src/yelp-application.c:133
-msgid "_Smaller Text"
-msgstr "_Помал текст"
-
-#: ../src/yelp-application.c:135
-msgid "Decrease the size of the text"
-msgstr "Намали ја големината на текстот"
-
-#: ../src/yelp-application.c:253
-#: ../src/yelp-window.c:1359
-#: ../yelp.desktop.in.in.h:2
+#: src/yelp-application.c:338 src/yelp-window.c:1186 src/yelp-window.c:1194
+#: org.gnome.Yelp.desktop.in.in:3
 msgid "Help"
 msgstr "Помош"
 
-#: ../src/yelp-application.c:288
-msgid "Show Text _Cursor"
-msgstr "Покажи ја _стрелката за текст"
+#: src/yelp-window.c:348
+#, fuzzy
+msgid "Back"
+msgstr "_Назад"
 
-#: ../src/yelp-window.c:236
-msgid "_Page"
-msgstr "_Страница"
+#: src/yelp-window.c:355
+#, fuzzy
+msgid "Forward"
+msgstr "_Напред"
 
-#: ../src/yelp-window.c:237
-#| msgid "Viewer"
-msgid "_View"
-msgstr "_Поглед"
+#: src/yelp-window.c:366
+msgid "Menu"
+msgstr ""
 
-#: ../src/yelp-window.c:238
-msgid "_Go"
-msgstr "_Оди"
-
-#: ../src/yelp-window.c:239
-msgid "_Bookmarks"
-msgstr "_Обележувачи"
-
-#: ../src/yelp-window.c:242
-msgid "_New Window"
+#: src/yelp-window.c:371
+#, fuzzy
+msgid "New Window"
 msgstr "_Нов прозорец"
 
-#: ../src/yelp-window.c:247
-#| msgid "Clocks"
-msgid "_Close"
-msgstr "_Затвори"
+#: src/yelp-window.c:372
+#, fuzzy
+msgid "Find…"
+msgstr "Најди"
 
-#: ../src/yelp-window.c:252
-#| msgid "About This Document"
-msgid "_All Documents"
-msgstr "_Сите документи"
+#: src/yelp-window.c:373
+#, fuzzy
+msgid "Print…"
+msgstr "Печатење"
 
-#: ../src/yelp-window.c:256
-msgid "_Add Bookmark"
-msgstr "_Додај обележувач"
+#: src/yelp-window.c:378
+#, fuzzy
+msgid "Previous Page"
+msgstr "_Претходна страница"
 
-#: ../src/yelp-window.c:261
-#| msgid "Remove Bookmark"
-msgid "_Remove Bookmark"
+#: src/yelp-window.c:379
+#, fuzzy
+msgid "Next Page"
+msgstr "_Следна страница"
+
+#: src/yelp-window.c:384
+#, fuzzy
+msgid "Larger Text"
+msgstr "_Поголем текст"
+
+#: src/yelp-window.c:385
+#, fuzzy
+msgid "Smaller Text"
+msgstr "_Помал текст"
+
+#: src/yelp-window.c:390
+#, fuzzy
+msgid "All Help"
+msgstr "Помош"
+
+#: src/yelp-window.c:413
+msgid "Search (Ctrl+S)"
+msgstr ""
+
+#: src/yelp-window.c:427
+msgid "Bookmarks"
+msgstr "Обележувачи"
+
+#: src/yelp-window.c:444
+#, fuzzy
+msgid "No bookmarks"
+msgstr "Обележувачи"
+
+#: src/yelp-window.c:452
+msgid "Add Bookmark"
+msgstr "Додај обележувач"
+
+#: src/yelp-window.c:458
+#, fuzzy
+msgid "Remove Bookmark"
 msgstr "_Отстрани го обележувачот"
 
-#: ../src/yelp-window.c:265
-#| msgid "Print This Page ..."
-msgid "Find in Page..."
-msgstr "Најди во страницата"
-
-#: ../src/yelp-window.c:275
-msgid "Open Location"
-msgstr "Отвори локација"
-
-#: ../src/yelp-window.c:301
-#| msgid "Applications"
-msgid "Application"
-msgstr "Апликација"
-
-#: ../src/yelp-window.c:302
-msgid "A YelpApplication instance that controls this window"
-msgstr "Инстанца на YelpApplication која го контролира овој прозорец"
-
-#: ../src/yelp-window.c:429
-msgid "Read Link _Later"
-msgstr "Прочитај ја врската _подоцна"
-
-#: ../src/yelp-window.c:526
-#| msgid "_Find:"
-msgid "Find:"
-msgstr "Најди:"
-
-#: ../src/yelp-window.c:548
-msgid "Read Later"
-msgstr "Прочитај подоцна"
-
-#: ../src/yelp-window.c:1179
-#, c-format
-msgid "%i match"
-msgid_plural "%i matches"
-msgstr[0] "%i совпаѓање"
-msgstr[1] "%i совпаѓање"
-
-#: ../src/yelp-window.c:1188
-msgid "No matches"
-msgstr "Нема совпаѓања"
-
-#: ../yelp.desktop.in.in.h:1
+#: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
 msgstr "Побарај помош со GNOME"
+
+#: org.gnome.Yelp.desktop.in.in:5
+msgid "documentation;information;manual;help;"
+msgstr ""
+
+#~ msgid "Indexed"
+#~ msgstr "Индексирани"
+
+#~ msgid "Whether the document content has been indexed"
+#~ msgstr "Дали содржината на документот е индексирана"
+
+#~| msgid "Document Sections"
+#~ msgid "Document URI"
+#~ msgstr "URI на документот"
+
+#~ msgid "The URI which identifies the document"
+#~ msgstr "URI гој го идентификува документот"
+
+#~| msgid "Viewer"
+#~ msgid "View"
+#~ msgstr "Поглед"
+
+#~ msgid "A YelpView instance to control"
+#~ msgstr "Инстанца на YelpView за контрола"
+
+#~ msgid "A YelpBookmarks implementation instance"
+#~ msgstr "Инстанца на YelpBookmarks имплементацијата"
+
+#~ msgid "Enable Search"
+#~ msgstr "Овозможи пребарување"
+
+#~ msgid "Whether the location entry can be used as a search field"
+#~ msgstr ""
+#~ "Дали записот за локацијата може да се користи во полето за пребарување"
+
+#~| msgid "_Search:"
+#~ msgid "Search..."
+#~ msgstr "Пребарај..."
+
+#~| msgid "Repeat the search online at %s"
+#~ msgid "Clear the search text"
+#~ msgstr "Исчисти го текстот за пребарување"
+
+#~| msgid "Bookmarks"
+#~ msgid "Bookmark this page"
+#~ msgstr "Обележи ја оваа страница"
+
+#~| msgid "Remove Bookmark"
+#~ msgid "Remove bookmark"
+#~ msgstr "Отстрани обележувач"
+
+#~| msgid "Loading..."
+#~ msgid "Loading"
+#~ msgstr "Вчитувам"
+
+#~| msgid "Settings"
+#~ msgid "GtkSettings"
+#~ msgstr "GtkSettings"
+
+#~ msgid "A GtkSettings object to get settings from"
+#~ msgstr "Објект од GtkSettings од кој ќе се земаат поставувања"
+
+#~ msgid "GtkIconTheme"
+#~ msgstr "GtkIconTheme"
+
+#~ msgid "A GtkIconTheme object to get icons from"
+#~ msgstr "Објект од GtkIconTheme од кој ќе се земаат икони"
+
+#~ msgid "Font Adjustment"
+#~ msgstr "Поставување на фонт"
+
+#~ msgid "A size adjustment to add to font sizes"
+#~ msgstr "Прилагодување на големина кое ќе се додава на големината на фонтот"
+
+#~ msgid "Show Text Cursor"
+#~ msgstr "Покажи покажувај за текстот"
+
+#~ msgid "Show the text cursor or caret for accessible navigation"
+#~ msgstr "Покажи го покажувачот за текст или каре за пристапна навигација"
+
+#~ msgid "Editor Mode"
+#~ msgstr "Режим на уредувач"
+
+#~ msgid "Enable features useful to editors"
+#~ msgstr "Овозможи ги опциите корисни за уредувачите"
+
+#~| msgid "Databases"
+#~ msgid "Database filename"
+#~ msgstr "Име на база на податоци"
+
+#~ msgid "The filename of the sqlite database"
+#~ msgstr "Името на датотеката на sqlite базата на податоци"
+
+#~| msgid "Invalid Stylesheet"
+#~ msgid "XSLT Stylesheet"
+#~ msgstr "XSLT Stylesheet"
+
+#~ msgid "The location of the XSLT stylesheet"
+#~ msgstr "Локацијата на XSLT stylesheet"
+
+#~| msgid "Print"
+#~ msgid "_Print..."
+#~ msgstr "_Печати..."
+
+#~| msgid "Yelp"
+#~ msgid "Yelp URI"
+#~ msgstr "Yelp URI"
+
+#~ msgid "A YelpUri with the current location"
+#~ msgstr "YelpUri со тековната локација"
+
+#~ msgid "The loading state of the view"
+#~ msgstr "Состојбата на вчитување на погледот"
+
+#~ msgid "Page ID"
+#~ msgstr "ID на страница"
+
+#~ msgid "The ID of the root page of the page being viewed"
+#~ msgstr "ID на кореновата страница на страницата која се прегледува"
+
+#~ msgid "Root Title"
+#~ msgstr "Наслов на коренот"
+
+#~ msgid "The title of the root page of the page being viewed"
+#~ msgstr "Насловот на кореновата страница на страницата која се прегледува"
+
+#~ msgid "Page Title"
+#~ msgstr "Наслов на страница"
+
+#~ msgid "The title of the page being viewed"
+#~ msgstr "Насловот на страницата која се прегледува"
+
+#~ msgid "Page Description"
+#~ msgstr "Опис на страницата"
+
+#~ msgid "The description of the page being viewed"
+#~ msgstr "Описот на страницата која се прегледува"
+
+#~| msgid "Page not found"
+#~ msgid "Page Icon"
+#~ msgstr "Икона на страница"
+
+#~ msgid "The icon of the page being viewed"
+#~ msgstr "Иконата на страницата која се прегледува"
+
+#~| msgid "Search results for \"%s\""
+#~ msgid "See all search results for “%s”"
+#~ msgstr "Види ги сите резултати од барањето на „%s“"
+
+#~| msgid "Search for other documentation"
+#~ msgid "Search for packages containing this document."
+#~ msgstr "Барај пакети кои го содржат документот."
+
+#~ msgid "Increase the size of the text"
+#~ msgstr "Зголеми го текстот"
+
+#~ msgid "Decrease the size of the text"
+#~ msgstr "Намали ја големината на текстот"
+
+#~ msgid "Show Text _Cursor"
+#~ msgstr "Покажи ја _стрелката за текст"
+
+#~ msgid "_Page"
+#~ msgstr "_Страница"
+
+#~| msgid "Viewer"
+#~ msgid "_View"
+#~ msgstr "_Поглед"
+
+#~ msgid "_Go"
+#~ msgstr "_Оди"
+
+#~ msgid "_Bookmarks"
+#~ msgstr "_Обележувачи"
+
+#~| msgid "Clocks"
+#~ msgid "_Close"
+#~ msgstr "_Затвори"
+
+#~| msgid "About This Document"
+#~ msgid "_All Documents"
+#~ msgstr "_Сите документи"
+
+#~ msgid "_Add Bookmark"
+#~ msgstr "_Додај обележувач"
+
+#~| msgid "Print This Page ..."
+#~ msgid "Find in Page..."
+#~ msgstr "Најди во страницата"
+
+#~ msgid "Open Location"
+#~ msgstr "Отвори локација"
+
+#~| msgid "Applications"
+#~ msgid "Application"
+#~ msgstr "Апликација"
+
+#~ msgid "A YelpApplication instance that controls this window"
+#~ msgstr "Инстанца на YelpApplication која го контролира овој прозорец"
+
+#~ msgid "Read Link _Later"
+#~ msgstr "Прочитај ја врската _подоцна"
+
+#~| msgid "_Find:"
+#~ msgid "Find:"
+#~ msgstr "Најди:"
+
+#~ msgid "Read Later"
+#~ msgstr "Прочитај подоцна"
+
+#~ msgid "%i match"
+#~ msgid_plural "%i matches"
+#~ msgstr[0] "%i совпаѓање"
+#~ msgstr[1] "%i совпаѓање"
+
+#~ msgid "No matches"
+#~ msgstr "Нема совпаѓања"
 
 #~ msgid "GNU Info Pages"
 #~ msgstr "GNU инфо страници"
@@ -866,9 +948,6 @@ msgstr "Побарај помош со GNOME"
 #~ msgid "Debuggers"
 #~ msgstr "Дебагери"
 
-#~ msgid "Desktop"
-#~ msgstr "Работна површина"
-
 #~ msgid "Desktop Settings"
 #~ msgstr "Поставувања на работната површина"
 
@@ -978,9 +1057,6 @@ msgstr "Побарај помош со GNOME"
 #~ msgid "Instant Messaging"
 #~ msgstr "Инстант пораки"
 
-#~ msgid "Internet"
-#~ msgstr "Интернет"
-
 #~ msgid "Java"
 #~ msgstr "Java"
 
@@ -1072,9 +1148,6 @@ msgstr "Побарај помош со GNOME"
 #~ msgid "Presentation Tools"
 #~ msgstr "Алатки за презентации"
 
-#~ msgid "Printing"
-#~ msgstr "Печатење"
-
 #~ msgid "Profiling Tools"
 #~ msgstr "Алатки за профилирање"
 
@@ -1128,9 +1201,6 @@ msgstr "Побарај помош со GNOME"
 
 #~ msgid "Sound"
 #~ msgstr "Звук"
-
-#~ msgid "Sound &amp; Video"
-#~ msgstr "Звук и видео"
 
 #~ msgid "Sound &amp; Video Editing"
 #~ msgstr "Уредување на звук и видео"
@@ -1210,14 +1280,8 @@ msgstr "Побарај помош со GNOME"
 #~ msgid "<b>Fonts</b>"
 #~ msgstr "<b>Фонтови</b>"
 
-#~ msgid "Add Bookmark"
-#~ msgstr "Додај обележувач"
-
 #~ msgid "C_ase sensitive"
 #~ msgstr "Р_азликувај мали-големи"
-
-#~ msgid "Find"
-#~ msgstr "Најди"
 
 #~ msgid "Preferences"
 #~ msgstr "Преференции"
@@ -1312,9 +1376,6 @@ msgstr "Побарај помош со GNOME"
 
 #~ msgid "Define which cache directory to use"
 #~ msgstr "Дефинира кој кеш директориум да се користи"
-
-#~ msgid " GNOME Help Browser"
-#~ msgstr " Прелистувач за помош "
 
 #~ msgid ""
 #~ "The file ‘%s’ could not be parsed because it is not a well-formed man "

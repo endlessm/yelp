@@ -6,9 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=yelp&"
-"keywords=I18N+L10N&component=General\n"
-"POT-Creation-Date: 2017-10-16 16:15+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
+"POT-Creation-Date: 2020-04-16 23:40+0100\n"
 "PO-Revision-Date: 2018-03-02 11:27+0100\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: Fòram na Gàidhlig\n"
@@ -23,6 +22,76 @@ msgstr ""
 "X-Project-Style: gnome\n"
 
 #. (itstool) path: msg/msgstr
+#. ID: sidebar.link.index
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:31
+#, fuzzy
+msgid "Getting Started"
+msgstr "An staid luchdaidh"
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.net
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:40
+msgid "Internet"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.files
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:51
+msgid "Documents &amp; Files"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.shell-overview
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:60
+msgid "The Desktop"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.hardware
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:71
+msgid "Printers, Displays &amp; Accessories"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.a11y
+#.
+#. Appears on the static navigation sidebar.
+#.
+#: data/domains/yelp-endless.xml.in:80
+msgid "Universal Access"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
+#. ID: sidebar.link.security-and-privacy
+#.
+#. Appears on the static navigation sidebar. Make sure that the string is
+#. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
+#. &gt;, &lt;, &quot;, and &apos; respectively.
+#.
+#: data/domains/yelp-endless.xml.in:91
+msgid "Security &amp; Privacy"
+msgstr ""
+
+#. (itstool) path: msg/msgstr
 #. ID: install.tooltip
 #. This is a format message used to format tooltips on install: links. These
 #. links allow users to install packages by clicking a link in the help. The
@@ -32,40 +101,67 @@ msgstr ""
 #.
 #. <string/> - The package to install
 #.
-#: yelp.xml.in:36
+#: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Stàlaich <string/>"
 
-#: ../libyelp/yelp-bz2-decompressor.c:143
-#: ../libyelp/yelp-lzma-decompressor.c:152
+#: data/yelp.appdata.xml.in:6
+msgid "GNOME Help"
+msgstr ""
+
+#: data/yelp.appdata.xml.in:7
+msgid "Help viewer for GNOME"
+msgstr ""
+
+#: data/yelp.appdata.xml.in:9
+msgid ""
+"Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
+"also display DocBook, info, man, and HTML documentation."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:13
+msgid ""
+"It makes it easy to find the documentation you need, with interactive search "
+"and bookmarks."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:17
+msgid ""
+"It also has an editor mode, which shows editorial comments and revision "
+"statuses when editing Mallard documents."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:30
+msgid "The GNOME Project"
+msgstr ""
+
+#: libyelp/yelp-bz2-decompressor.c:143 libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
 msgstr "Dàta dùmhlaichte mì-dhligheach"
 
-#: ../libyelp/yelp-bz2-decompressor.c:149
-#: ../libyelp/yelp-lzma-decompressor.c:158
+#: libyelp/yelp-bz2-decompressor.c:149 libyelp/yelp-lzma-decompressor.c:158
 msgid "Not enough memory"
 msgstr "Chan eil cuimhne gu leòr ann"
 
-#: ../libyelp/yelp-docbook-document.c:285 ../libyelp/yelp-info-document.c:221
-#: ../libyelp/yelp-mallard-document.c:301
-#: ../libyelp/yelp-mallard-document.c:455 ../libyelp/yelp-man-document.c:255
+#: libyelp/yelp-docbook-document.c:292 libyelp/yelp-info-document.c:221
+#: libyelp/yelp-mallard-document.c:306 libyelp/yelp-mallard-document.c:464
+#: libyelp/yelp-man-document.c:199
 #, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
 msgstr "Cha deach an duilleag “%s” a lorg san sgrìobhainn “%s”."
 
-#: ../libyelp/yelp-docbook-document.c:323 ../libyelp/yelp-info-document.c:358
-#: ../libyelp/yelp-man-document.c:393
-#, c-format
+#: libyelp/yelp-docbook-document.c:331 libyelp/yelp-info-document.c:358
+#: libyelp/yelp-man-document.c:336
 msgid "The file does not exist."
 msgstr "Chan eil am faidhle ann."
 
-#: ../libyelp/yelp-docbook-document.c:333 ../libyelp/yelp-info-document.c:368
-#: ../libyelp/yelp-man-document.c:403
+#: libyelp/yelp-docbook-document.c:341 libyelp/yelp-info-document.c:368
+#: libyelp/yelp-man-document.c:346
 #, c-format
 msgid "The file ‘%s’ does not exist."
 msgstr "Chan eil am faidhle “%s” ann."
 
-#: ../libyelp/yelp-docbook-document.c:348
+#: libyelp/yelp-docbook-document.c:359
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
@@ -74,7 +170,7 @@ msgstr ""
 "Cha b’ urrainn dhuinn am am faidhle “%s” a pharsadh a chionn ’s nach e "
 "sgrìobhainn XML dheagh-chumta a tha ann."
 
-#: ../libyelp/yelp-docbook-document.c:361
+#: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
@@ -84,41 +180,40 @@ msgstr ""
 "dhiù aon fhaidhle ’na bhroinn nach eil ’na sgrìobhainn XML dheagh-chumta a "
 "tha ann."
 
-#: ../libyelp/yelp-docbook-document.c:791
+#: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
 msgstr "Neo-aithnichte"
 
-#: ../libyelp/yelp-docbook-document.c:853 ../libyelp/yelp-info-document.c:301
-#: ../libyelp/yelp-man-document.c:335
+#: libyelp/yelp-docbook-document.c:908 libyelp/yelp-info-document.c:301
+#: libyelp/yelp-man-document.c:279
 #, c-format
 msgid "The requested page was not found in the document ‘%s’."
 msgstr "Cha deach an duilleag a dh’iarr thu a lorg san sgrìobhainn “%s”."
 
-#: ../libyelp/yelp-document.c:1030
+#: libyelp/yelp-document.c:1068
 #, c-format
 msgid "Search results for “%s”"
 msgstr "Toraidhean luirg airson “%s”"
 
-#: ../libyelp/yelp-document.c:1042
+#: libyelp/yelp-document.c:1080
 #, c-format
 msgid "No matching help pages found in “%s”."
 msgstr ""
 "Cha deach duilleag cobharach a lorg ann an “%s” a fhreagair ris na lorg thu."
 
-#: ../libyelp/yelp-document.c:1048
+#: libyelp/yelp-document.c:1086
 msgid "No matching help pages found."
 msgstr "Cha deach duilleag cobharach a lorg a fhreagair ris na lorg thu."
 
-#: ../libyelp/yelp-error.c:35
-#, c-format
+#: libyelp/yelp-error.c:35
 msgid "An unknown error occurred."
 msgstr "Thachair mearachd neo-aithnichte"
 
-#: ../libyelp/yelp-help-list.c:548 ../libyelp/yelp-help-list.c:557
+#: libyelp/yelp-help-list.c:548 libyelp/yelp-help-list.c:557
 msgid "All Help Documents"
 msgstr "Gach sgrìobhainn na cobharach"
 
-#: ../libyelp/yelp-info-document.c:383
+#: libyelp/yelp-info-document.c:383
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
@@ -126,224 +221,220 @@ msgstr ""
 "Cha b’ urrainn dhuinn am faidhle “%s” a pharsadh a chionn ’s nach e duilleag "
 "cobharach dheagh-chumta a tha ann."
 
-#: ../libyelp/yelp-mallard-document.c:343
+#: libyelp/yelp-mallard-document.c:348
 #, c-format
 msgid "The directory ‘%s’ does not exist."
 msgstr "Chan eil am pasgan “%s” ann"
 
-#: ../libyelp/yelp-search-entry.c:433
+#: libyelp/yelp-search-entry.c:434
 #, c-format
 msgid "Search for “%s”"
 msgstr "Lorg “%s”"
 
-#: ../libyelp/yelp-transform.c:369 ../libyelp/yelp-transform.c:384
+#: libyelp/yelp-transform.c:370 libyelp/yelp-transform.c:385
 #, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
 msgstr "Chan eil an siota-stoidhle XSLT “%s” ann no chan eil e dligheach."
 
-#: ../libyelp/yelp-transform.c:518
+#: libyelp/yelp-transform.c:519
 msgid "No href attribute found on yelp:document\n"
 msgstr "Cha deach buadh href a lorg air yelp:document\n"
 
-#: ../libyelp/yelp-transform.c:533
+#: libyelp/yelp-transform.c:534
 msgid "Out of memory"
 msgstr "Chan eil cuimhne air fhàgail"
 
-#: ../libyelp/yelp-view.c:253
+#: libyelp/yelp-view.c:252
 msgid "C_opy Code Block"
 msgstr "Dèan l_ethbhreac de bhloca a’ chòd"
 
-#: ../libyelp/yelp-view.c:258
+#: libyelp/yelp-view.c:257
 msgid "_Copy Link Location"
 msgstr "_Dèan lethbhreac de dh’ionad a’ cheangail"
 
-#: ../libyelp/yelp-view.c:263
+#: libyelp/yelp-view.c:262
 msgid "_Open Link"
 msgstr "_Fosgail an ceangal"
 
-#: ../libyelp/yelp-view.c:268
+#: libyelp/yelp-view.c:267
 msgid "Open Link in New _Window"
 msgstr "Fosgail an ceangal ann an _uinneag ùr"
 
-#: ../libyelp/yelp-view.c:278
+#: libyelp/yelp-view.c:277
 msgid "_Install Packages"
 msgstr "_Stàlaich na pacaidean"
 
-#: ../libyelp/yelp-view.c:283
+#: libyelp/yelp-view.c:282
 msgid "Save Code _Block As…"
 msgstr "Sàbhail _bloca a’ chòd mar…"
 
-#: ../libyelp/yelp-view.c:298
+#: libyelp/yelp-view.c:297
 msgid "_Copy Text"
 msgstr "Dèan _lethbhreac dhen teacsa"
 
-#: ../libyelp/yelp-view.c:826 ../libyelp/yelp-view.c:2197
+#: libyelp/yelp-view.c:809 libyelp/yelp-view.c:2138
 #, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr "Chan eil an URI “%s” a’ tomhadh ri duilleag dhligheach."
 
-#: ../libyelp/yelp-view.c:832 ../libyelp/yelp-view.c:2203
-#, c-format
+#: libyelp/yelp-view.c:815 libyelp/yelp-view.c:2144
 msgid "The URI does not point to a valid page."
 msgstr "Chan eil an URI a’ tomhadh ri duilleag dhligheach."
 
-#: ../libyelp/yelp-view.c:837 ../libyelp/yelp-view.c:2209
+#: libyelp/yelp-view.c:820 libyelp/yelp-view.c:2150
 #, c-format
 msgid "The URI ‘%s’ could not be parsed."
 msgstr "Cha b’ urrainn an URI “%s” a pharsadh."
 
-#: ../libyelp/yelp-view.c:842
-#, c-format
+#: libyelp/yelp-view.c:825
 msgid "Unknown Error."
 msgstr "Mearachd nach aithne dhuinn."
 
-#: ../libyelp/yelp-view.c:996
+#: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
 msgstr ""
 "Chan eil PackageKit agad. Feumaidh ceanglaichean stàladh na pacaide "
 "PackageKit."
 
-#: ../libyelp/yelp-view.c:1243
+#: libyelp/yelp-view.c:1226
 msgid "Save Image"
 msgstr "Sabhail an dealbh"
 
-#: ../libyelp/yelp-view.c:1342
+#: libyelp/yelp-view.c:1325
 msgid "Save Code"
 msgstr "Sàbhail an còd"
 
-#: ../libyelp/yelp-view.c:1438
+#: libyelp/yelp-view.c:1421
 #, c-format
 msgid "Send email to %s"
 msgstr "Cuir post-d gu  %s"
 
-#: ../libyelp/yelp-view.c:1542
+#: libyelp/yelp-view.c:1525
 msgid "_Save Image As…"
 msgstr "_Sàbhail an dealbh mar…"
 
-#: ../libyelp/yelp-view.c:1543
+#: libyelp/yelp-view.c:1526
 msgid "_Save Video As…"
 msgstr "_Sàbhail a’ video mar…"
 
-#: ../libyelp/yelp-view.c:1551
+#: libyelp/yelp-view.c:1534
 msgid "S_end Image To…"
 msgstr "Cu_ir an dealbh gu…"
 
-#: ../libyelp/yelp-view.c:1552
+#: libyelp/yelp-view.c:1535
 msgid "S_end Video To…"
 msgstr "Cuir a’ _video gu…"
 
-#: ../libyelp/yelp-view.c:1893
+#: libyelp/yelp-view.c:1876
 #, c-format
 msgid "Could not load a document for ‘%s’"
 msgstr "Cha b’ urrainn dhuinn sgrìobhainn a luchdadh airson “%s”"
 
-#: ../libyelp/yelp-view.c:1899
-#, c-format
+#: libyelp/yelp-view.c:1882
 msgid "Could not load a document"
 msgstr "Tha sgrìobhainn ann nach b’ urrainn a luchdadh"
 
-#: ../libyelp/yelp-view.c:1983
+#: libyelp/yelp-view.c:1966
 msgid "Document Not Found"
 msgstr "Cha deach an sgrìobhainn a lorg"
 
-#: ../libyelp/yelp-view.c:1985
+#: libyelp/yelp-view.c:1968
 msgid "Page Not Found"
 msgstr "Cha deach an duilleag a lorg"
 
-#: ../libyelp/yelp-view.c:1988
+#: libyelp/yelp-view.c:1971
 msgid "Cannot Read"
 msgstr "Cha ghabh a leughadh"
 
-#: ../libyelp/yelp-view.c:1994
+#: libyelp/yelp-view.c:1977
 msgid "Unknown Error"
 msgstr "Mearachd nach aithne dhuinn"
 
-#: ../libyelp/yelp-view.c:2014
-msgid "Search for packages containing this document."
-msgstr "Lorg airson pacaidean sa bheil an sgrìobhainn seo."
-
-#: ../src/yelp-application.c:59
+#: src/yelp-application.c:59
 msgid "Turn on editor mode"
 msgstr "Cuir air modh an deasaiche"
 
-#: ../src/yelp-application.c:271 ../src/yelp-window.c:1181
-#: ../src/yelp-window.c:1189 ../yelp.desktop.in.in.h:1
+#: src/yelp-application.c:338 src/yelp-window.c:1186 src/yelp-window.c:1194
+#: org.gnome.Yelp.desktop.in.in:3
 msgid "Help"
 msgstr "Cobhair"
 
-#: ../src/yelp-application.c:321
-msgid "New Window"
-msgstr "Uinneag ùr"
-
-#: ../src/yelp-application.c:325
-msgid "Larger Text"
-msgstr "Teacsa nas motha"
-
-#: ../src/yelp-application.c:326
-msgid "Smaller Text"
-msgstr "Teacsa nas lugha"
-
-#: ../src/yelp-window.c:343
+#: src/yelp-window.c:348
 msgid "Back"
 msgstr "Air ais"
 
-#: ../src/yelp-window.c:350
+#: src/yelp-window.c:355
 msgid "Forward"
 msgstr "Air adhart"
 
-#: ../src/yelp-window.c:361
+#: src/yelp-window.c:366
 msgid "Menu"
 msgstr "Clàr-taice"
 
-#: ../src/yelp-window.c:366
+#: src/yelp-window.c:371
+msgid "New Window"
+msgstr "Uinneag ùr"
+
+#: src/yelp-window.c:372
 msgid "Find…"
 msgstr "Lorg…"
 
-#: ../src/yelp-window.c:367
+#: src/yelp-window.c:373
 msgid "Print…"
 msgstr "Clò-bhuail…"
 
-#: ../src/yelp-window.c:372
+#: src/yelp-window.c:378
 msgid "Previous Page"
 msgstr "An duilleag roimhpe"
 
-#: ../src/yelp-window.c:373
+#: src/yelp-window.c:379
 msgid "Next Page"
 msgstr "An ath dhuilleag"
 
-#: ../src/yelp-window.c:378
+#: src/yelp-window.c:384
+msgid "Larger Text"
+msgstr "Teacsa nas motha"
+
+#: src/yelp-window.c:385
+msgid "Smaller Text"
+msgstr "Teacsa nas lugha"
+
+#: src/yelp-window.c:390
 msgid "All Help"
 msgstr "Cobhair shlàn"
 
-#: ../src/yelp-window.c:400
+#: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
 msgstr "Lorg (Ctrl+S)"
 
-#: ../src/yelp-window.c:417
+#: src/yelp-window.c:427
 msgid "Bookmarks"
 msgstr "Comharran-lìn"
 
-#: ../src/yelp-window.c:434
+#: src/yelp-window.c:444
 msgid "No bookmarks"
 msgstr "Gun chomharra-lìn"
 
-#: ../src/yelp-window.c:442
+#: src/yelp-window.c:452
 msgid "Add Bookmark"
 msgstr "Cuir comharra-lìn ris"
 
-#: ../src/yelp-window.c:448
+#: src/yelp-window.c:458
 msgid "Remove Bookmark"
 msgstr "Thoir an comharra-lìn air falbh"
 
-#: ../yelp.desktop.in.in.h:2
+#: org.gnome.Yelp.desktop.in.in:4
 msgid "Get help with GNOME"
 msgstr "Faigh cobhair le GNOME"
 
-#: ../yelp.desktop.in.in.h:3
+#: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr ""
 "documentation;information;manual;help;docamaideadh;fiosrachadh;stiùireadh;"
 "treòir;cobhair;"
+
+#~ msgid "Search for packages containing this document."
+#~ msgstr "Lorg airson pacaidean sa bheil an sgrìobhainn seo."
 
 #~ msgid "Indexed"
 #~ msgstr "Air inneacsadh"
@@ -414,9 +505,6 @@ msgstr ""
 
 #~ msgid "A YelpUri with the current location"
 #~ msgstr "YelpUri leis an ionad làithreach"
-
-#~ msgid "Loading State"
-#~ msgstr "An staid luchdaidh"
 
 #~ msgid "The loading state of the view"
 #~ msgstr "Staid luchdadh an t-seallaidh"
