@@ -1,91 +1,75 @@
-# Afrikaans translation of Yelp.
-# This file is distributed under the same license as the Yelp package.
-# Hermien Bos <hermienbos@gmail.com>, 2010.
-# F Wolff <friedel@translate.org.za>, 2010.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# F Wolff <friedel@translate.org.za>, 2010
+# Hermien Bos <hermienbos@gmail.com>, 2010
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2020-04-16 23:40+0100\n"
-"PO-Revision-Date: 2010-09-24 23:30+0100\n"
-"Last-Translator: F Wolff <friedel@translate.org.za>\n"
-"Language-Team: translate-discuss-af@lists.sourceforge.net\n"
-"Language: af\n"
+"PO-Revision-Date: 2020-04-16 22:44+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Afrikaans (http://www.transifex.com/endless-os/yelp/language/af/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: af\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.0-beta1\n"
-"X-Project-Style: gnome\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "Laai status"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr "Internet"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
-#, fuzzy
 msgid "Documents &amp; Files"
-msgstr "Klank en video"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "Werkskerm"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -97,9 +81,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Installeer <string/>"
@@ -120,8 +102,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -165,18 +147,14 @@ msgstr "Die lêer ‘%s’ bestaan nie."
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"Die lêer ‘%s’ kon nie ontleed word nie, want dit is nie 'n goed gevormde XML-"
-"dokument nie."
+msgstr "Die lêer ‘%s’ kon nie ontleed word nie, want dit is nie 'n goed gevormde XML-dokument nie."
 
 #: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"Die lêer ‘%s’ kon nie ontleed word nie, want een of meer van die ingeslote "
-"lêers is nie 'n goed gevormde XML-dokument nie."
+msgstr "Die lêer ‘%s’ kon nie ontleed word nie, want een of meer van die ingeslote lêers is nie 'n goed gevormde XML-dokument nie."
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -214,9 +192,7 @@ msgstr "Alle hulpdokumente"
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"Die lêer ‘%s’ kon nie ontleed word nie, want dit is nie 'n goed gevormde "
-"\"info\"-bladsy nie."
+msgstr "Die lêer ‘%s’ kon nie ontleed word nie, want dit is nie 'n goed gevormde \"info\"-bladsy nie."
 
 #: libyelp/yelp-mallard-document.c:348
 #, c-format
@@ -289,9 +265,7 @@ msgstr "Onbekende fout."
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"PackageKit is nie geïnstalleer nie. Pakketinstallasieskakels vereis "
-"PackageKit."
+msgstr "PackageKit is nie geïnstalleer nie. Pakketinstallasieskakels vereis PackageKit."
 
 #: libyelp/yelp-view.c:1226
 msgid "Save Image"
@@ -427,755 +401,3 @@ msgstr "Kry hulp met GNOME"
 #: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr "dokumentasie;inligting;handleiding;hulp;"
-
-#~ msgid "GNU Info Pages"
-#~ msgstr "GNU Info-bladsye"
-
-#~ msgid "Traditional command line help (info)"
-#~ msgstr "Tradisionele opdraglynhulp (info)"
-
-#~ msgid "Applications"
-#~ msgstr "Toepassings"
-
-#, fuzzy
-#~ msgid "Curses Functions"
-#~ msgstr "Curses-funksies"
-
-#~ msgid "Development"
-#~ msgstr "Ontwikkeling"
-
-#~ msgid "FORTRAN Functions"
-#~ msgstr "FORTRAN-funksies"
-
-#~ msgid "Games"
-#~ msgstr "Speletjies"
-
-#~ msgid "Hardware Devices"
-#~ msgstr "Hardewaretoestelle"
-
-#~ msgid "POSIX Functions"
-#~ msgstr "POSIX-funksies"
-
-#~ msgid "Perl Functions"
-#~ msgstr "Perl-funksies"
-
-#~ msgid "Qt Functions"
-#~ msgstr "Qt-funksies"
-
-#~ msgid "Readline Functions"
-#~ msgstr "Readline-funksies"
-
-#~ msgid "Section 0p"
-#~ msgstr "Afdeling 0p"
-
-#~ msgid "Section 1m"
-#~ msgstr "Afdeling 1m"
-
-#~ msgid "Section 1ssl"
-#~ msgstr "Afdeling 1ssl"
-
-#~ msgid "Section 1x"
-#~ msgstr "Afdeling 1x"
-
-#~ msgid "Section 2"
-#~ msgstr "Afdeling 2"
-
-#~ msgid "Section 3blt"
-#~ msgstr "Afdeling 3blt"
-
-#~ msgid "Section 3f"
-#~ msgstr "Afdeling 3f"
-
-#~ msgid "Section 3nas"
-#~ msgstr "Afdeling 3nas"
-
-#~ msgid "Section 3p"
-#~ msgstr "Afdeling 3p"
-
-#~ msgid "Section 3qt"
-#~ msgstr "Afdeling 3qt"
-
-#~ msgid "Section 3readline"
-#~ msgstr "Afdeling 3leeslyn"
-
-#~ msgid "Section 3ssl"
-#~ msgstr "Afdeling 3ssl"
-
-#~ msgid "Section 3tiff"
-#~ msgstr "Afdeling 3tiff"
-
-#~ msgid "Section 4"
-#~ msgstr "Afdeling 4"
-
-#~ msgid "Section 4x"
-#~ msgstr "Afdeling 4x"
-
-#~ msgid "Section 5"
-#~ msgstr "Afdeling 5"
-
-#~ msgid "Section 5ssl"
-#~ msgstr "Afdeling 5ssl"
-
-#~ msgid "Section 5x"
-#~ msgstr "Afdeling 5x"
-
-#~ msgid "Section 6"
-#~ msgstr "Afdeling 6"
-
-#~ msgid "Section 6x"
-#~ msgstr "Afdeling 6x"
-
-#~ msgid "Section 7ssl"
-#~ msgstr "Afdeling 7ssl"
-
-#~ msgid "Section 7x"
-#~ msgstr "Afdeling 7x"
-
-#~ msgid "Section 9"
-#~ msgstr "Afdeling 9"
-
-#~ msgid "Sections 1, 1p, 1g and 1t"
-#~ msgstr "Afdelings 1, 1p, 1g en 1t"
-
-#~ msgid "Sections 3, 3o, and 3t"
-#~ msgstr "Afdelings 3, 3o en 3t"
-
-#, fuzzy
-#~ msgid "Sections 3form and 3menu"
-#~ msgstr "Afdelings 3form en 3menu"
-
-#~ msgid "Sections 3ncurses and 3curses"
-#~ msgstr "Afdelings 3ncurses en 3curses"
-
-#~ msgid "Sections 3pm and 3perl"
-#~ msgstr "Afdelings 3pm en 3perl"
-
-#~ msgid "Sections 3x and 3X11"
-#~ msgstr "Afdelings 3x en 3x11"
-
-#~ msgid "Sections 7 and 7gcc"
-#~ msgstr "Afdelings 7 en 7gcc"
-
-#~ msgid "Sections 8 and 8l"
-#~ msgstr "Afdelings 8 en 8l"
-
-#~ msgid "System Administration"
-#~ msgstr "Stelseladministrasie"
-
-#~ msgid "System Calls"
-#~ msgstr "Stelselroepe"
-
-#~ msgid "System V Form/Menu Functions"
-#~ msgstr "System V vorm/kieslys funksies"
-
-#~ msgid "TIFF Functions"
-#~ msgstr "TIFF-funksies"
-
-#~ msgid "Termcap Applications"
-#~ msgstr "Termcap-toepassings"
-
-#~ msgid "Traditional command line help (man)"
-#~ msgstr "Tradisionele opdraglynhulp (man)"
-
-#~ msgid "X11 Applications"
-#~ msgstr "X11-toepassings"
-
-#~ msgid "X11 Configuration"
-#~ msgstr "X11-opstelling"
-
-#~ msgid "X11 Devices"
-#~ msgstr "X11-toestelle"
-
-#~ msgid "X11 Functions"
-#~ msgstr "X11-funksies"
-
-#~ msgid "X11 Games"
-#~ msgstr "X11-speletjies"
-
-#~ msgid "X11 Overviews"
-#~ msgstr "X11-oorsigte"
-
-#~ msgid "2D Graphics"
-#~ msgstr "2D-grafika"
-
-#~ msgid "3D Graphics"
-#~ msgstr "3D-grafika"
-
-#~ msgid "Accessibility"
-#~ msgstr "Toeganklikheid"
-
-#~ msgid "Action Games"
-#~ msgstr "Aksiespeletjies"
-
-#~ msgid "Adventure Games"
-#~ msgstr "Avontuurspeletjies"
-
-#~ msgid "Amusement"
-#~ msgstr "Vermaak"
-
-#~ msgid "Applications for viewing and manipulating graphics"
-#~ msgstr "Toepassings vir die bekyk en manipulasie van grafika"
-
-#, fuzzy
-#~ msgid "Applications related to audio and video"
-#~ msgstr "Toepassings verwant aan oudio en video"
-
-#~ msgid "Applications that teach or aid in learning"
-#~ msgstr "Toepassings wat onderrig en help met leer"
-
-#~ msgid "Arcade Games"
-#~ msgstr "Arkadespeletjies"
-
-#~ msgid "Archiving Tools"
-#~ msgstr "Argiefnutsgoed"
-
-#~ msgid "Art"
-#~ msgstr "Kuns"
-
-#~ msgid "Artificial Intelligence"
-#~ msgstr "Kunsmatige intelligensie"
-
-#~ msgid "Astronomy"
-#~ msgstr "Sterrekunde"
-
-#~ msgid "Biology"
-#~ msgstr "Biologie"
-
-#~ msgid "Blocks Games"
-#~ msgstr "Blokspeletjies"
-
-#~ msgid "Board Games"
-#~ msgstr "Bordspeletjies"
-
-#~ msgid "Building"
-#~ msgstr "Bou"
-
-#~ msgid "Calculator"
-#~ msgstr "Sakrekenaar"
-
-#~ msgid "Calendar"
-#~ msgstr "Kalender"
-
-#~ msgid "Card Games"
-#~ msgstr "Kaartspeletjies"
-
-#~ msgid "Charting Tools"
-#~ msgstr "Diagramnutsgoed"
-
-#~ msgid "Chat"
-#~ msgstr "Gesels"
-
-#~ msgid "Chemistry"
-#~ msgstr "Chemie"
-
-#~ msgid "Clocks"
-#~ msgstr "Horlosies"
-
-#~ msgid "Compression Tools"
-#~ msgstr "Saampersnutsgoed"
-
-#~ msgid "Computer Science"
-#~ msgstr "Rekenaarwetenskap"
-
-#~ msgid "Construction"
-#~ msgstr "Konstruksie"
-
-#~ msgid "Contact Management"
-#~ msgstr "Kontakbestuur"
-
-#~ msgid "Data Visualization"
-#~ msgstr "Data visualisering"
-
-#~ msgid "Databases"
-#~ msgstr "Databasisse"
-
-#~ msgid "Debuggers"
-#~ msgstr "Ontfouting"
-
-#~ msgid "Desktop Settings"
-#~ msgstr "Werkskermopstelling"
-
-#~ msgid "Dictionaries"
-#~ msgstr "Woordeboeke"
-
-#~ msgid "Disc Burning"
-#~ msgstr "Skryf van skywe"
-
-#~ msgid "Economy"
-#~ msgstr "Ekonomie"
-
-#~ msgid "Education"
-#~ msgstr "Onderwys"
-
-#~ msgid "Electricity"
-#~ msgstr "Elektrisiteit"
-
-#~ msgid "Electronics"
-#~ msgstr "Elektronika"
-
-#~ msgid "Email Tools"
-#~ msgstr "E-pos-nutsgoed"
-
-#~ msgid "Emulator"
-#~ msgstr "Emulator"
-
-#~ msgid "Engineering"
-#~ msgstr "Ingenieurswese"
-
-#~ msgid "File Manager"
-#~ msgstr "Lêerbestuurder"
-
-#~ msgid "File Tools"
-#~ msgstr "Lêernutsgoed"
-
-#~ msgid "File Transfer"
-#~ msgstr "Lêeroordrag"
-
-#~ msgid "Filesystem"
-#~ msgstr "Lêerstelsel"
-
-#~ msgid "Financial Tools"
-#~ msgstr "Finansiële nutsgoed"
-
-#~ msgid "Flow Charting Tools"
-#~ msgstr "Vloeidiagramnutsgoed"
-
-#~ msgid "GNOME Applications"
-#~ msgstr "GNOME-toepassings"
-
-#~ msgid "GTK"
-#~ msgstr "GTK"
-
-#~ msgid "GUI Designers"
-#~ msgstr "GUI-ontwerpers"
-
-#~ msgid "Generic applications for the GNOME environment"
-#~ msgstr "Generiese toepassings vir die GNOME-omgewing"
-
-#~ msgid "Generic applications for the KDE environment"
-#~ msgstr "Generiese toepassings vir die KDE-omgewing"
-
-#~ msgid "Geography"
-#~ msgstr "Aardrykskunde"
-
-#~ msgid "Geology"
-#~ msgstr "Geologie"
-
-#~ msgid "Geoscience"
-#~ msgstr "Geowetenskap"
-
-#~ msgid "Graphics"
-#~ msgstr "Grafika"
-
-#~ msgid ""
-#~ "Guides and manuals for applications that connect to the outside world"
-#~ msgstr ""
-#~ "Riglyne en handleidings vir toepassings wat met die buitewêreld koppel"
-
-#~ msgid "Guides for getting involved in development"
-#~ msgstr "Riglyne om by die ontwikkeling betrokke te raak"
-
-#, fuzzy
-#~ msgid "Ham Radio"
-#~ msgstr "Ham radio"
-
-#~ msgid "Hardware Settings"
-#~ msgstr "Hardewareopstelling"
-
-#, fuzzy
-#~ msgid "Have some fun"
-#~ msgstr "Pret"
-
-#~ msgid "History"
-#~ msgstr "Geskiedenis"
-
-#~ msgid "IDEs"
-#~ msgstr "IDE's"
-
-#~ msgid "IRC Clients"
-#~ msgstr "IRC-kliënte"
-
-#~ msgid "Image Processing"
-#~ msgstr "Beeldverwerking"
-
-#~ msgid "Instant Messaging"
-#~ msgstr "Kitsboodskappe"
-
-#~ msgid "Java"
-#~ msgstr "Java"
-
-#~ msgid "KDE Applications"
-#~ msgstr "KDE-toepassings"
-
-#~ msgid "Kids Games"
-#~ msgstr "Kinderspeletjies"
-
-#~ msgid ""
-#~ "Learn more about making your system more accessible for a range of "
-#~ "disabilities"
-#~ msgstr ""
-#~ "Vind meer uit oor hoe om die stelsel meer toeganklik te maak vir 'n "
-#~ "verskeidenheid gestremdhede"
-
-#~ msgid "Licenses"
-#~ msgstr "Lisensies"
-
-#~ msgid "Literature"
-#~ msgstr "Literatuur"
-
-#~ msgid "Logic Games"
-#~ msgstr "Logikaspeletjies"
-
-#~ msgid "Math"
-#~ msgstr "Wiskunde"
-
-#~ msgid "Medical Software"
-#~ msgstr "Mediese sagteware"
-
-#~ msgid "Midi"
-#~ msgstr "Midi"
-
-#~ msgid "Miscellaneous Documentation"
-#~ msgstr "Allerlei dokumentasie"
-
-#, fuzzy
-#~ msgid "Mixers"
-#~ msgstr "Mengers"
-
-#, fuzzy
-#~ msgid "Monitor"
-#~ msgstr "Skerm"
-
-#~ msgid "Motif"
-#~ msgstr "Motif"
-
-#~ msgid "Music"
-#~ msgstr "Musiek"
-
-#~ msgid "News"
-#~ msgstr "Nuus"
-
-#~ msgid "Numerical Analysis"
-#~ msgstr "Numeriese analise"
-
-#~ msgid "OCR"
-#~ msgstr "Karakterherkenning (OCR)"
-
-#~ msgid "Office Applications"
-#~ msgstr "Kantoortoepassings"
-
-#~ msgid "Office applications"
-#~ msgstr "Kantoortoepassings"
-
-#~ msgid "Other Documentation"
-#~ msgstr "Ander dokumentasie"
-
-#~ msgid "P2P"
-#~ msgstr "P2P"
-
-#~ msgid "PDA Communication"
-#~ msgstr "PDA-kommunikasie"
-
-#~ msgid "Package Manager"
-#~ msgstr "Pakketbestuurder"
-
-#~ msgid "Parallel Computing"
-#~ msgstr "Parallelle verwerking"
-
-#~ msgid "Photography"
-#~ msgstr "Fotografie"
-
-#~ msgid "Physics"
-#~ msgstr "Fisika"
-
-#~ msgid "Players"
-#~ msgstr "Spelers"
-
-#~ msgid "Presentation Tools"
-#~ msgstr "Voorleggingnutsgoed"
-
-#~ msgid "Project Management Tools"
-#~ msgstr "Projekbestuurnutsgoed"
-
-#, fuzzy
-#~ msgid "Publishing"
-#~ msgstr "Publisering"
-
-#~ msgid "Qt"
-#~ msgstr "Qt"
-
-#~ msgid "Raster Graphics"
-#~ msgstr "Roostergrafika"
-
-#~ msgid "Recorders"
-#~ msgstr "Opnemers"
-
-#~ msgid "Remote Access"
-#~ msgstr "Afgeleë toegang"
-
-#~ msgid "Revision Control"
-#~ msgstr "Weergawebeheer"
-
-#~ msgid "Robotics"
-#~ msgstr "Robotika"
-
-#~ msgid "Role Playing Games"
-#~ msgstr "Rolspelspeletjies"
-
-#~ msgid "Scanning"
-#~ msgstr "Skandering"
-
-#~ msgid "Science"
-#~ msgstr "Wetenskap"
-
-#~ msgid "Security"
-#~ msgstr "Sekuriteit"
-
-#~ msgid "Settings"
-#~ msgstr "Instellings"
-
-#~ msgid ""
-#~ "Settings users can manipulate to make their environment more pleasant"
-#~ msgstr "Instellings waarmee gebruikers hulle omgewing aangenamer kan maak"
-
-#~ msgid "Simulation Games"
-#~ msgstr "Simulasiespeletjies"
-
-#~ msgid "Sound"
-#~ msgstr "Klank"
-
-#~ msgid "Sound &amp; Video Editing"
-#~ msgstr "Klank- en videoredigering"
-
-#~ msgid "Sports"
-#~ msgstr "Sport"
-
-#~ msgid "Sports Games"
-#~ msgstr "Sportspeletjies"
-
-#, fuzzy
-#~ msgid "Spreadsheet Tools"
-#~ msgstr "Sigblaaie"
-
-#~ msgid "Strategy Games"
-#~ msgstr "Strategiespeletjies"
-
-#~ msgid "System"
-#~ msgstr "Stelsel"
-
-#~ msgid "TV"
-#~ msgstr "TV"
-
-#~ msgid "Terminal Emulator"
-#~ msgstr "Terminaalemulator"
-
-#~ msgid "Text Editors"
-#~ msgstr "Teksredigeerders"
-
-#~ msgid "Text Tools"
-#~ msgstr "Teksnutsgoed"
-
-#~ msgid "Tools to help you manage your computer"
-#~ msgstr "Nutsgoed om te help met die bestuur van die rekenaar"
-
-#~ msgid "Translation Tools"
-#~ msgstr "Vertaalnutsgoed"
-
-#, fuzzy
-#~ msgid "Tuners"
-#~ msgstr "Radio"
-
-#, fuzzy
-#~ msgid "Utilities"
-#~ msgstr "Nutsgoed"
-
-#~ msgid "Vector Graphics"
-#~ msgstr "Vektorgrafika"
-
-#~ msgid "Video"
-#~ msgstr "Video"
-
-#~ msgid "Video Conference"
-#~ msgstr "Videokonferensie"
-
-#~ msgid "Viewer"
-#~ msgstr "Bekyker"
-
-#~ msgid "Web Browser"
-#~ msgstr "Webblaaier"
-
-#~ msgid "Web Development"
-#~ msgstr "Webontwikkeling"
-
-#~ msgid "Welcome to the GNOME Help Browser"
-#~ msgstr "Welkom by die GNOME hulpblaaier"
-
-#~ msgid "Word Processors"
-#~ msgstr "Woordverwerkers"
-
-#~ msgid "View"
-#~ msgstr "Bekyk"
-
-#, fuzzy
-#~ msgid "A YelpView instance to control"
-#~ msgstr "'n YelpView-voorkoms om te beheer"
-
-#, fuzzy
-#~ msgid "A YelpBookmarks implementation instance"
-#~ msgstr "'n YelpBookmarks implimenteringsvoorkoms"
-
-#~ msgid "Enable Search"
-#~ msgstr "Stel soektog in werking"
-
-#, fuzzy
-#~ msgid "Whether the location entry can be used as a search field"
-#~ msgstr "Of die liggingstoegang gebruik kan word as 'n soekveld"
-
-#~ msgid "Search..."
-#~ msgstr "Soek..."
-
-#~ msgid "Loading"
-#~ msgstr "Laai"
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be parsed because it is not a well-formed man "
-#~ "page."
-#~ msgstr ""
-#~ "Die lêer ‘%s’ kon nie ontleed word nie, want dit is nie 'n goed gevormde "
-#~ "\"man\"-bladsy nie."
-
-#~ msgid "GtkSettings"
-#~ msgstr "GtkSettings"
-
-#~ msgid "A GtkSettings object to get settings from"
-#~ msgstr "'n GtkSettings-objek om instellings van te kry"
-
-#~ msgid "GtkIconTheme"
-#~ msgstr "GtkIconTheme"
-
-#~ msgid "A GtkIconTheme object to get icons from"
-#~ msgstr "'n GtkIconTheme-objek om ikone van te kry"
-
-#~ msgid "Font Adjustment"
-#~ msgstr "Font-verstelling"
-
-#~ msgid "A size adjustment to add to font sizes"
-#~ msgstr "'n Grootte verstelling om by fontgroottes te voeg"
-
-#~ msgid "Show Text Cursor"
-#~ msgstr "Vertoon teksmerker"
-
-#, fuzzy
-#~ msgid "Show the text cursor or caret for accessible navigation"
-#~ msgstr "Vertoon die teksmerker of vir toeganklike navigasie"
-
-#~ msgid "Editor Mode"
-#~ msgstr "Redigeerdermodus"
-
-#~ msgid "Enable features useful to editors"
-#~ msgstr "Aktiveer eienskappe nuttig vir redigeerders"
-
-#~ msgid "XSLT Stylesheet"
-#~ msgstr "XSLT-stylblad"
-
-#~ msgid "The location of the XSLT stylesheet"
-#~ msgstr "Die ligging van die XSLT-stylblad"
-
-#~ msgid "_Print..."
-#~ msgstr "_Druk..."
-
-#~ msgid "Yelp URI"
-#~ msgstr "Yelp URI"
-
-#~ msgid "A YelpUri with the current location"
-#~ msgstr "'n YelpUri met die huidige ligging"
-
-#, fuzzy
-#~ msgid "The loading state of the view"
-#~ msgstr "Die laaistatus van die bekyk"
-
-#~ msgid "Page ID"
-#~ msgstr "Bladsy ID"
-
-#, fuzzy
-#~ msgid "The ID of the root page of the page being viewed"
-#~ msgstr "Die ID van die   bladsy van die bladsy word bekyk"
-
-#, fuzzy
-#~ msgid "The title of the root page of the page being viewed"
-#~ msgstr "Die titel van die boonstevlak-bladsy van die bladsy wat bekyk word"
-
-#~ msgid "Page Title"
-#~ msgstr "Bladsytitel"
-
-#~ msgid "The title of the page being viewed"
-#~ msgstr "Die titel van die bladsy wat bekyk word"
-
-#~ msgid "Page Description"
-#~ msgstr "Bladsybeskrywing"
-
-#~ msgid "The description of the page being viewed"
-#~ msgstr "Die beskrywing van die bladsy wat bekyk word"
-
-#~ msgid "Page Icon"
-#~ msgstr "Bladsyikoon"
-
-#~ msgid "The icon of the page being viewed"
-#~ msgstr "Die ikoon van die bladsy wat bekyk word"
-
-#~ msgid "Increase the size of the text"
-#~ msgstr "Vergroot die grootte van die teks"
-
-#~ msgid "Decrease the size of the text"
-#~ msgstr "Verklein die grootte van die teks"
-
-#~ msgid "Show Text _Cursor"
-#~ msgstr "Vertoon _teksmerker"
-
-#~ msgid "_Page"
-#~ msgstr "_Bladsy"
-
-#~ msgid "_View"
-#~ msgstr "Be_kyk"
-
-#~ msgid "_Go"
-#~ msgstr "_Gaan"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "_Boekmerke"
-
-#~ msgid "_Close"
-#~ msgstr "_Gaan uit"
-
-#~ msgid "_Edit Bookmarks"
-#~ msgstr "_Redigeer boekmerke"
-
-#~ msgid "Find in Page..."
-#~ msgstr "Vind op bladsy..."
-
-#~ msgid "Application"
-#~ msgstr "Toepassing"
-
-#, fuzzy
-#~ msgid "A YelpApplication instance that controls this window"
-#~ msgstr "'n YelpApplication-voorkoms  wat hierdie venster beheer"
-
-#~ msgid "Read Later"
-#~ msgstr "Lees later"
-
-#~ msgid "Bookmarks for %s"
-#~ msgstr "Boekmerke vir %s"
-
-#~ msgid "%i match"
-#~ msgid_plural "%i matches"
-#~ msgstr[0] "%i wat pas"
-#~ msgstr[1] "%i wat pas"
-
-#~ msgid "No matches"
-#~ msgstr "Niks wat pas"
-
-#~ msgid "_Open Bookmark"
-#~ msgstr "_Open boekmerk"
-
-#~ msgid "Open Bookmark in New _Window"
-#~ msgstr "Open boekmerk in nuwe _venster"

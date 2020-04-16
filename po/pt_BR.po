@@ -1,98 +1,89 @@
-# Brazilian Portuguese translation of yelp.
-# Copyright (C) 2002-2019 Free Software Foundation, Inc.
-# Evandro Fernandes Giovanini <evandrofg@ig.com.br>, 2002.
-# Estêvão Samuel Procópio <tevaum@gmail.com>, 2003-2005.
-# Leonardo Ferreira Fontenelle <leo.fontenelle@gmail.com>, 2006.
-# Vladimir Melo <vladimirmelo@foresightlinux.org>, 2007.
-# Og Maciel <ogmaciel@gnome.org>, 2007, 2011.
-# Jonh Wendell <wendell@bani.com.br>, 2008.
-# André Gondim <In Memoriam>, 2009.
-# Henrique P. Machado <hpmachado@gnome.org>, 2009-2010.
-# Felipe Borges <felipe10borges@gmail.com>, 2011.
-# Enrico Nicoletto <liverig@gmail.com>, 2013, 2015.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2014-2019.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# André Gondim <In Memoriam>, 2009
+# Enrico Nicoletto <liverig@gmail.com>, 2013,2015
+# Evandro Fernandes Giovanini <evandrofg@ig.com.br>, 2002
+# Felipe Borges <felipe10borges@gmail.com>, 2011
+# Ivan G. Gonçalves <i@endlessm.com>, 2015
+# Jonh Wendell <wendell@bani.com.br>, 2008
+# Leandro Stanger <leandrostanger@hotmail.com>, 2019
+# Leonardo Ferreira Fontenelle <leo.fontenelle@gmail.com>, 2006
+# Mariana Barbosa <mari@endlessm.com>, 2016
+# Og Maciel <ogmaciel@gnome.org>, 2007,2011
+# Philip Chimento <philip.chimento@gmail.com>, 2015
+# Rafael Ferreira <rafael.f.f1@gmail.com>, 2014
+# Rafael Fontenelle <rafaelff@gnome.org>, 2016
+# Roddy Shuler <roddy@stanfordalumni.org>, 2018
+# Vladimir Melo <vladimirmelo@foresightlinux.org>, 2007
+# Will Thompson <wjt@endlessm.com>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2020-04-16 23:40+0100\n"
-"PO-Revision-Date: 2019-02-26 23:43-0300\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
-"Language-Team: Portuguese - Brazil <gnome-pt_br-list@gnome.org>\n"
-"Language: pt_BR\n"
+"PO-Revision-Date: 2020-04-16 22:50+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/endless-os/yelp/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
-"X-Generator: Gtranslator 3.31.90\n"
-"X-Project-Style: gnome\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
 msgstr "Começando"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr "Internet"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr "Documentos &amp; Arquivos"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
 msgstr "A área de trabalho"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr "Impressoras, telas &amp; Acessórios"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr "Acessibilidade"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr "Segurança &amp; Privacidade"
@@ -104,9 +95,7 @@ msgstr "Segurança &amp; Privacidade"
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Instalar <string/>"
@@ -123,25 +112,19 @@ msgstr "Visualizador de ajuda para o GNOME"
 msgid ""
 "Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
 "also display DocBook, info, man, and HTML documentation."
-msgstr ""
-"Yelp é o visualizador de ajuda do GNOME. É o visualizador padrão do Mallard, "
-"mas também pode exibir documentação em DocBook, info, man e HTML."
+msgstr "Yelp é o visualizador de ajuda do GNOME. É o visualizador padrão do Mallard, mas também pode exibir documentação em DocBook, info, man e HTML."
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
-msgstr ""
-"Isso facilita a localização da documentação de que você precisa, com "
-"pesquisa e marcadores interativos."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
+msgstr "Isso facilita a localização da documentação de que você precisa, com pesquisa e marcadores interativos."
 
 #: data/yelp.appdata.xml.in:17
 msgid ""
 "It also has an editor mode, which shows editorial comments and revision "
 "statuses when editing Mallard documents."
-msgstr ""
-"Ele também possui um modo de editor, que mostra comentários editoriais e "
-"status de revisão ao editar documentos do Mallard."
+msgstr "Ele também possui um modo de editor, que mostra comentários editoriais e status de revisão ao editar documentos do Mallard."
 
 #: data/yelp.appdata.xml.in:30
 msgid "The GNOME Project"
@@ -178,18 +161,14 @@ msgstr "O arquivo “%s” não existe."
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"Não foi possível analisar o arquivo “%s” porque não é um documento XML bem "
-"formado."
+msgstr "Não foi possível analisar o arquivo “%s” porque não é um documento XML bem formado."
 
 #: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"Não foi possível analisar o arquivo “%s” porque um ou mais dos seus arquivos "
-"incluídos não são um documento XML bem formado."
+msgstr "Não foi possível analisar o arquivo “%s” porque um ou mais dos seus arquivos incluídos não são um documento XML bem formado."
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -227,9 +206,7 @@ msgstr "Todos os documentos de ajuda"
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"Não foi possível analisar o arquivo “%s” porque não é uma página de "
-"informações bem formada."
+msgstr "Não foi possível analisar o arquivo “%s” porque não é uma página de informações bem formada."
 
 #: libyelp/yelp-mallard-document.c:348
 #, c-format
@@ -302,9 +279,7 @@ msgstr "Erro desconhecido."
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"Você não tem o PackageKit instalado. Os links de instalação de pacotes "
-"requerem o PackageKit."
+msgstr "Você não tem o PackageKit instalado. Os links de instalação de pacotes requerem o PackageKit."
 
 #: libyelp/yelp-view.c:1226
 msgid "Save Image"
@@ -440,1260 +415,3 @@ msgstr "Obtenha ajuda sobre o GNOME"
 #: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr "documentação;informação;informações;manual;ajuda;"
-
-#~ msgid "Search for packages containing this document."
-#~ msgstr "Pesquisar por pacotes contendo esse documento."
-
-#~ msgid "org.gnome.Yelp"
-#~ msgstr "org.gnome.Yelp"
-
-#~ msgid "Indexed"
-#~ msgstr "Indexado"
-
-#~ msgid "Whether the document content has been indexed"
-#~ msgstr "Se o conteúdo do documento foi indexado"
-
-#~ msgid "Document URI"
-#~ msgstr "URI do documento"
-
-#~ msgid "The URI which identifies the document"
-#~ msgstr "A URI que identifica o documento"
-
-#~ msgid "View"
-#~ msgstr "Ver"
-
-#~ msgid "A YelpView instance to control"
-#~ msgstr "Uma instância YelpView para controlar"
-
-#~ msgid "A YelpBookmarks implementation instance"
-#~ msgstr "Uma implementação de instância do YelpBookmarks"
-
-#~ msgid "GtkSettings"
-#~ msgstr "GtkSettings"
-
-#~ msgid "A GtkSettings object to get settings from"
-#~ msgstr "Um objeto GtkSettings de onde obter configurações"
-
-#~ msgid "GtkIconTheme"
-#~ msgstr "GtkIconTheme"
-
-#~ msgid "A GtkIconTheme object to get icons from"
-#~ msgstr "Um objeto GtkIconTheme de onde obter ícones"
-
-#~ msgid "Font Adjustment"
-#~ msgstr "Ajustamento de fonte"
-
-#~ msgid "A size adjustment to add to font sizes"
-#~ msgstr "Um ajustador de tamanho para adicionar aos tamanhos de fontes"
-
-#~ msgid "Show Text Cursor"
-#~ msgstr "Mostrar o cursor de texto"
-
-#~ msgid "Show the text cursor or caret for accessible navigation"
-#~ msgstr "Mostra o cursor de texto para navegação acessível"
-
-#~ msgid "Editor Mode"
-#~ msgstr "Modo Editor"
-
-#~ msgid "Enable features useful to editors"
-#~ msgstr "Habilita recursos úteis para editores"
-
-#~ msgid "Database filename"
-#~ msgstr "Nome de arquivo do banco de dados"
-
-#~ msgid "The filename of the sqlite database"
-#~ msgstr "O nome do arquivo da base de dados sqlite"
-
-#~ msgid "XSLT Stylesheet"
-#~ msgstr "Folha de estilo XSLT"
-
-#~ msgid "The location of the XSLT stylesheet"
-#~ msgstr "A localização da folha de estilo XSLT"
-
-#~ msgid "Yelp URI"
-#~ msgstr "URI do Yelp"
-
-#~ msgid "A YelpUri with the current location"
-#~ msgstr "Uma YelpUri com a localização atual"
-
-#~ msgid "The loading state of the view"
-#~ msgstr "O estado de carregamento da visão"
-
-#~ msgid "Page ID"
-#~ msgstr "ID da página"
-
-#~ msgid "The ID of the root page of the page being viewed"
-#~ msgstr "A ID da página raiz da página em exibição"
-
-#~ msgid "Root Title"
-#~ msgstr "Título da raiz"
-
-#~ msgid "The title of the root page of the page being viewed"
-#~ msgstr "O título da página raiz da página em exibição"
-
-#~ msgid "Page Title"
-#~ msgstr "Título da página"
-
-#~ msgid "The title of the page being viewed"
-#~ msgstr "O título da página em exibição"
-
-#~ msgid "Page Description"
-#~ msgstr "Descrição da página"
-
-#~ msgid "The description of the page being viewed"
-#~ msgstr "A descrição da página em exibição"
-
-#~ msgid "Page Icon"
-#~ msgstr "Ícone da página"
-
-#~ msgid "The icon of the page being viewed"
-#~ msgstr "O ícone da página em exibição"
-
-#~ msgid "Application"
-#~ msgstr "Aplicativo"
-
-#~ msgid "A YelpApplication instance that controls this window"
-#~ msgstr "Uma instância YelpApplication que controla esta janela"
-
-#~ msgid "Enable Search"
-#~ msgstr "Habilitar pesquisa"
-
-#~ msgid "Whether the location entry can be used as a search field"
-#~ msgstr "Se o campo de localização pode ser usado como um campo de pesquisa"
-
-#~ msgid "Search…"
-#~ msgstr "Pesquisar…"
-
-#~ msgid "Clear the search text"
-#~ msgstr "Limpar o texto de pesquisa"
-
-#~ msgid "Bookmark this page"
-#~ msgstr "Adicionar essa página ao marcador"
-
-#~ msgid "Remove bookmark"
-#~ msgstr "Remover marcador"
-
-#~ msgid "Loading"
-#~ msgstr "Carregando"
-
-#~ msgid "See all search results for “%s”"
-#~ msgstr "Ver todos resultados por \"%s\""
-
-#~ msgid ""
-#~ "Yelp is a viewer and framework for documentation on the Linux desktop. It "
-#~ "is used heavily by the GNOME desktop environment, and its tools serve as "
-#~ "the reference implementation for the Mallard help format. Yelp supports "
-#~ "DocBook, Mallard, HTML, man, and info documents."
-#~ msgstr ""
-#~ "Yelp é um visualização e framework para documentação no ambiente Linux. "
-#~ "Ele é usado massivamente pelo ambiente de área de trabalho do GNOME e "
-#~ "suas ferramentas servem como a implementação referência do formato de "
-#~ "ajuda do Mallard. Yelp provê suporte a documentos DocBook, Mallard, HTML, "
-#~ "man e info."
-
-#~ msgid ""
-#~ "Yelp development has led to the development of various tools, and the "
-#~ "Mallard and DocBook transformations live in standalone XSLT module. All "
-#~ "of these are under the umbrella name Yelp."
-#~ msgstr ""
-#~ "O desenvolvimento do Yelp levou ao desenvolvimento de várias ferramentas "
-#~ "e as transformações do Mallard e DocBook vivem em um módulo XSLT "
-#~ "autônomo. Todos esses estão sob o nome do Yelp."
-
-#~ msgid "_Print..."
-#~ msgstr "Im_primir..."
-
-#~ msgid "Increase the size of the text"
-#~ msgstr "Aumenta o tamanho do texto"
-
-#~ msgid "Decrease the size of the text"
-#~ msgstr "Diminui o tamanho do texto"
-
-#~ msgid "Show Text _Cursor"
-#~ msgstr "Mostrar o _cursor de texto"
-
-#~ msgid "_Page"
-#~ msgstr "_Página"
-
-#~ msgid "_View"
-#~ msgstr "_Ver"
-
-#~ msgid "_Go"
-#~ msgstr "_Ir"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "_Marcadores"
-
-#~ msgid "_Close"
-#~ msgstr "_Fechar"
-
-#~ msgid "_All Documents"
-#~ msgstr "_Todos os documentos"
-
-#~ msgid "_Add Bookmark"
-#~ msgstr "_Adicionar marcador"
-
-#~ msgid "Find in Page..."
-#~ msgstr "Procurar na página..."
-
-#~ msgid "Open Location"
-#~ msgstr "Abrir localização"
-
-#~ msgid "Read Link _Later"
-#~ msgstr "Ler link _depois"
-
-#~ msgid "Find:"
-#~ msgstr "Localizar:"
-
-#~ msgid "Read Later"
-#~ msgstr "Ler depois"
-
-#~ msgid "%i match"
-#~ msgid_plural "%i matches"
-#~ msgstr[0] "%i correspondência"
-#~ msgstr[1] "%i correspondências"
-
-#~ msgid "No matches"
-#~ msgstr "Nenhuma correspondência"
-
-#~ msgid "Don't steal focus"
-#~ msgstr "Não roubar o foco"
-
-#~ msgid "GNU Info Pages"
-#~ msgstr "Páginas GNU Info"
-
-#~ msgid "Traditional command line help (info)"
-#~ msgstr "Ajuda tradicional da linha de comando (info)"
-
-#~ msgid "Applications"
-#~ msgstr "Aplicativos"
-
-#~ msgid "BLT Functions"
-#~ msgstr "Funções BLT"
-
-#~ msgid "Configuration Files"
-#~ msgstr "Arquivos de configuração"
-
-#~ msgid "Curses Functions"
-#~ msgstr "Funções Curses"
-
-#~ msgid "Development"
-#~ msgstr "Desenvolvimento"
-
-#~ msgid "FORTRAN Functions"
-#~ msgstr "Funções FORTRAN"
-
-#~ msgid "Games"
-#~ msgstr "Jogos"
-
-#~ msgid "Hardware Devices"
-#~ msgstr "Dispositivos de hardware"
-
-#~ msgid "Kernel Routines"
-#~ msgstr "Rotinas do kernel"
-
-#~ msgid "Network Audio Sound Functions"
-#~ msgstr "Funções de som de áudio em rede"
-
-#~ msgid "OpenSSL Applications"
-#~ msgstr "Aplicativos OpenSSL"
-
-#~ msgid "OpenSSL Configuration"
-#~ msgstr "Configuração do OpenSSL"
-
-#~ msgid "OpenSSL Functions"
-#~ msgstr "Funções OpenSSL"
-
-#~ msgid "OpenSSL Overviews"
-#~ msgstr "Resumos do OpenSSL"
-
-#~ msgid "Overviews"
-#~ msgstr "Resumos"
-
-#~ msgid "POSIX Functions"
-#~ msgstr "Funções POSIX"
-
-#~ msgid "POSIX Headers"
-#~ msgstr "Cabeçalhos POSIX"
-
-#~ msgid "Perl Functions"
-#~ msgstr "Funções Perl"
-
-#~ msgid "Qt Functions"
-#~ msgstr "Funções Qt"
-
-#~ msgid "Readline Functions"
-#~ msgstr "Funções Readline"
-
-#~ msgid "Section 0p"
-#~ msgstr "Seção 0p"
-
-#~ msgid "Section 1m"
-#~ msgstr "Seção 1m"
-
-#~ msgid "Section 1ssl"
-#~ msgstr "Seção 1ssl"
-
-#~ msgid "Section 1x"
-#~ msgstr "Seção 1x"
-
-#~ msgid "Section 2"
-#~ msgstr "Seção 2"
-
-#~ msgid "Section 3blt"
-#~ msgstr "Seção 3blt"
-
-#~ msgid "Section 3f"
-#~ msgstr "Seção 3f"
-
-#~ msgid "Section 3nas"
-#~ msgstr "Seçao 3nas"
-
-#~ msgid "Section 3p"
-#~ msgstr "Seção 3p"
-
-#~ msgid "Section 3qt"
-#~ msgstr "Seção 3qt"
-
-#~ msgid "Section 3readline"
-#~ msgstr "Seção 3readline"
-
-#~ msgid "Section 3ssl"
-#~ msgstr "Seção 3ssl"
-
-#~ msgid "Section 3tiff"
-#~ msgstr "Seção 3tiff"
-
-#~ msgid "Section 4"
-#~ msgstr "Seção 4"
-
-#~ msgid "Section 4x"
-#~ msgstr "Seção 4x"
-
-#~ msgid "Section 5"
-#~ msgstr "Seção 5"
-
-#~ msgid "Section 5ssl"
-#~ msgstr "Seção 5ssl"
-
-#~ msgid "Section 5x"
-#~ msgstr "Seção 5x"
-
-#~ msgid "Section 6"
-#~ msgstr "Seção 6"
-
-#~ msgid "Section 6x"
-#~ msgstr "Seção 6x"
-
-#~ msgid "Section 7ssl"
-#~ msgstr "Seção 7ssl"
-
-#~ msgid "Section 7x"
-#~ msgstr "Seção 7x"
-
-#~ msgid "Section 9"
-#~ msgstr "Seção 9"
-
-#~ msgid "Sections 1, 1p, 1g and 1t"
-#~ msgstr "Seções 1, 1p, 1g e 1t"
-
-#~ msgid "Sections 3, 3o, and 3t"
-#~ msgstr "Seções 3, 3o e 3t"
-
-#~ msgid "Sections 3form and 3menu"
-#~ msgstr "Seções 3form e 3menu"
-
-#~ msgid "Sections 3ncurses and 3curses"
-#~ msgstr "Seções 3ncurses e 3curses"
-
-#~ msgid "Sections 3pm and 3perl"
-#~ msgstr "Seções 3pm e 3perl"
-
-#~ msgid "Sections 3x and 3X11"
-#~ msgstr "Seções 3x e 3X11"
-
-#~ msgid "Sections 7 and 7gcc"
-#~ msgstr "Seções 7 e 7gcc"
-
-#~ msgid "Sections 8 and 8l"
-#~ msgstr "Seções 8 e 8l"
-
-#~ msgid "System Administration"
-#~ msgstr "Administração do sistema"
-
-#~ msgid "System Calls"
-#~ msgstr "Chamadas de sistema"
-
-#~ msgid "System V Form/Menu Functions"
-#~ msgstr "Funções Form e Menu do System V"
-
-#~ msgid "TIFF Functions"
-#~ msgstr "Funções TIFF"
-
-#~ msgid "Termcap Applications"
-#~ msgstr "Aplicativos Termcap"
-
-#~ msgid "Traditional command line help (man)"
-#~ msgstr "Ajuda tradicional da linha de comando (man)"
-
-#~ msgid "X11 Applications"
-#~ msgstr "Aplicativos X11"
-
-#~ msgid "X11 Configuration"
-#~ msgstr "Configuração do X11"
-
-#~ msgid "X11 Devices"
-#~ msgstr "Dispositivos do X11"
-
-#~ msgid "X11 Functions"
-#~ msgstr "Funções do X11"
-
-#~ msgid "X11 Games"
-#~ msgstr "Jogos do X11"
-
-#~ msgid "X11 Overviews"
-#~ msgstr "Resumos do X11"
-
-#~ msgid "2D Graphics"
-#~ msgstr "Gráficos 2D"
-
-#~ msgid "3D Graphics"
-#~ msgstr "Gráficos 3D"
-
-#~ msgid "Accessibility"
-#~ msgstr "Acessibilidade"
-
-#~ msgid "Action Games"
-#~ msgstr "Jogos de ação"
-
-#~ msgid "Adventure Games"
-#~ msgstr "Jogos de aventura"
-
-#~ msgid "Amusement"
-#~ msgstr "Entretenimento"
-
-#~ msgid "Applications for viewing and manipulating graphics"
-#~ msgstr "Aplicativos para manipulação ou visualização de gráficos"
-
-#~ msgid "Applications related to audio and video"
-#~ msgstr "Aplicativos relacionados a multimídia"
-
-#~ msgid "Applications that teach or aid in learning"
-#~ msgstr "Aplicativos relacionados ao ensino"
-
-#~ msgid "Arcade Games"
-#~ msgstr "Jogos arcade"
-
-#~ msgid "Archiving Tools"
-#~ msgstr "Ferramentas de armazenamento"
-
-#~ msgid "Art"
-#~ msgstr "Arte"
-
-#~ msgid "Artificial Intelligence"
-#~ msgstr "Inteligência artificial"
-
-#~ msgid "Astronomy"
-#~ msgstr "Astronomia"
-
-#~ msgid "Biology"
-#~ msgstr "Biologia"
-
-#~ msgid "Blocks Games"
-#~ msgstr "Jogos de blocos"
-
-#~ msgid "Board Games"
-#~ msgstr "Jogos de tabuleiro"
-
-#~ msgid "Building"
-#~ msgstr "Compiladores"
-
-#~ msgid "Calculator"
-#~ msgstr "Calculadora"
-
-#~ msgid "Calendar"
-#~ msgstr "Calendário"
-
-#~ msgid "Card Games"
-#~ msgstr "Jogos de cartas"
-
-#~ msgid "Charting Tools"
-#~ msgstr "Ferramentas gráficas"
-
-#~ msgid "Chat"
-#~ msgstr "Bate papo"
-
-#~ msgid "Chemistry"
-#~ msgstr "Química"
-
-#~ msgid "Clocks"
-#~ msgstr "Relógios"
-
-#~ msgid "Compression Tools"
-#~ msgstr "Ferramentas de compactação"
-
-#~ msgid "Computer Science"
-#~ msgstr "Ciência da computação"
-
-#~ msgid "Construction"
-#~ msgstr "Construção"
-
-#~ msgid "Contact Management"
-#~ msgstr "Gerenciamento de contatos"
-
-#~ msgid "Data Visualization"
-#~ msgstr "Visualização de dados"
-
-#~ msgid "Databases"
-#~ msgstr "Bancos de dados"
-
-#~ msgid "Debuggers"
-#~ msgstr "Depuradores"
-
-#~ msgid "Desktop Settings"
-#~ msgstr "Configurações da área de trabalho"
-
-#~ msgid "Dialup"
-#~ msgstr "Discada"
-
-#~ msgid "Dictionaries"
-#~ msgstr "Dicionários"
-
-#~ msgid "Disc Burning"
-#~ msgstr "Gravação de discos"
-
-#~ msgid "Economy"
-#~ msgstr "Economia"
-
-#~ msgid "Education"
-#~ msgstr "Educativo"
-
-#~ msgid "Electricity"
-#~ msgstr "Eletricidade"
-
-#~ msgid "Electronics"
-#~ msgstr "Eletrônicos"
-
-#~ msgid "Email Tools"
-#~ msgstr "Ferramentas de e-mail"
-
-#~ msgid "Emulator"
-#~ msgstr "Emulador"
-
-#~ msgid "Engineering"
-#~ msgstr "Engenharia"
-
-#~ msgid "File Manager"
-#~ msgstr "Gerenciador de arquivos"
-
-#~ msgid "File Tools"
-#~ msgstr "Ferramentas de arquivos"
-
-#~ msgid "File Transfer"
-#~ msgstr "Transferência de Arquivos"
-
-#~ msgid "Filesystem"
-#~ msgstr "Sistema de arquivos"
-
-#~ msgid "Financial Tools"
-#~ msgstr "Ferramentas financeiras"
-
-#~ msgid "Flow Charting Tools"
-#~ msgstr "Ferramentas gráficas"
-
-#~ msgid "GNOME Applications"
-#~ msgstr "Aplicativos GNOME"
-
-#~ msgid "GTK"
-#~ msgstr "GTK"
-
-#~ msgid "GUI Designers"
-#~ msgstr "Construtores de interface gráfica"
-
-#~ msgid "Generic applications for the GNOME environment"
-#~ msgstr "Aplicativos genéricos para o ambiente GNOME"
-
-#~ msgid "Generic applications for the KDE environment"
-#~ msgstr "Aplicativos genéricos para o ambiente KDE"
-
-#~ msgid "Geography"
-#~ msgstr "Geografia"
-
-#~ msgid "Geology"
-#~ msgstr "Geologia"
-
-#~ msgid "Geoscience"
-#~ msgstr "Geociência"
-
-#~ msgid "Graphics"
-#~ msgstr "Gráficos"
-
-#~ msgid ""
-#~ "Guides and manuals for applications that connect to the outside world"
-#~ msgstr "Guias e manuais para aplicativos que se conectam ao mundo exterior"
-
-#~ msgid "Guides for getting involved in development"
-#~ msgstr "Guias para envolver-se com desenvolvimento"
-
-#~ msgid "Ham Radio"
-#~ msgstr "Radioamador"
-
-#~ msgid "Hardware Settings"
-#~ msgstr "Configurações de hardware"
-
-#~ msgid "Have some fun"
-#~ msgstr "Divirta-se"
-
-#~ msgid "History"
-#~ msgstr "História"
-
-#~ msgid "IDEs"
-#~ msgstr "Ambientes de desenvolvimento integrado"
-
-#~ msgid "IRC Clients"
-#~ msgstr "Clientes IRC"
-
-#~ msgid "Image Processing"
-#~ msgstr "Processamento de imagens"
-
-#~ msgid "Instant Messaging"
-#~ msgstr "Mensageiros instantâneos"
-
-#~ msgid "Java"
-#~ msgstr "Java"
-
-#~ msgid "KDE Applications"
-#~ msgstr "Aplicativos KDE"
-
-#~ msgid "Kids Games"
-#~ msgstr "Jogos infantis"
-
-#~ msgid ""
-#~ "Learn more about making your system more accessible for a range of "
-#~ "disabilities"
-#~ msgstr ""
-#~ "Veja como tornar seu sistema mais acessível para pessoas com algum tipo "
-#~ "de deficiência"
-
-#~ msgid "Licenses"
-#~ msgstr "Licenças"
-
-#~ msgid "Literature"
-#~ msgstr "Literatura"
-
-#~ msgid "Logic Games"
-#~ msgstr "Jogos de lógica"
-
-#~ msgid "Math"
-#~ msgstr "Matemática"
-
-#~ msgid "Medical Software"
-#~ msgstr "Softwares médicos"
-
-#~ msgid "Midi"
-#~ msgstr "Midi"
-
-#~ msgid "Miscellaneous Documentation"
-#~ msgstr "Documentos variados"
-
-#~ msgid "Mixers"
-#~ msgstr "Mixers"
-
-#~ msgid "Monitor"
-#~ msgstr "Monitor"
-
-#~ msgid "Motif"
-#~ msgstr "Motif"
-
-#~ msgid "Music"
-#~ msgstr "Música"
-
-#~ msgid "News"
-#~ msgstr "Notícias"
-
-#~ msgid "Numerical Analysis"
-#~ msgstr "Análises numéricas"
-
-#~ msgid "OCR"
-#~ msgstr "OCR"
-
-#~ msgid "Office Applications"
-#~ msgstr "Aplicativos de escritório"
-
-#~ msgid "Office applications"
-#~ msgstr "Aplicativos de escritório"
-
-#~ msgid "Other Documentation"
-#~ msgstr "Outras documentações"
-
-#~ msgid "P2P"
-#~ msgstr "P2P"
-
-#~ msgid "PDA Communication"
-#~ msgstr "Comunicação com PDA"
-
-#~ msgid "Package Manager"
-#~ msgstr "Gerenciador de pacotes"
-
-#~ msgid "Parallel Computing"
-#~ msgstr "Computação paralela"
-
-#~ msgid "Photography"
-#~ msgstr "Fotografia"
-
-#~ msgid "Physics"
-#~ msgstr "Física"
-
-#~ msgid "Players"
-#~ msgstr "Reprodutores"
-
-#~ msgid "Presentation Tools"
-#~ msgstr "Ferramentas para apresentação"
-
-#~ msgid "Profiling Tools"
-#~ msgstr "Ferramentas de perfis"
-
-#~ msgid "Project Management Tools"
-#~ msgstr "Ferramentas de gerenciamento de projetos"
-
-#~ msgid "Publishing"
-#~ msgstr "Publicação"
-
-#~ msgid "Qt"
-#~ msgstr "Qt"
-
-#~ msgid "Raster Graphics"
-#~ msgstr "Gráficos rasterizados"
-
-#~ msgid "Recorders"
-#~ msgstr "Gravadores"
-
-#~ msgid "Remote Access"
-#~ msgstr "Acesso remoto"
-
-#~ msgid "Revision Control"
-#~ msgstr "Controle de revisão"
-
-#~ msgid "Robotics"
-#~ msgstr "Robótica"
-
-#~ msgid "Role Playing Games"
-#~ msgstr "Jogos RPG"
-
-#~ msgid "Scanning"
-#~ msgstr "Scanner"
-
-#~ msgid "Science"
-#~ msgstr "Ciência"
-
-#~ msgid "Security"
-#~ msgstr "Segurança"
-
-#~ msgid "Sequencers"
-#~ msgstr "Sequenciadores"
-
-#~ msgid "Settings"
-#~ msgstr "Configurações"
-
-#~ msgid ""
-#~ "Settings users can manipulate to make their environment more pleasant"
-#~ msgstr ""
-#~ "Configurações que os usuários podem fazer para tornar o ambiente mais "
-#~ "agradável"
-
-#~ msgid "Simulation Games"
-#~ msgstr "Jogos de simulação"
-
-#~ msgid "Sound"
-#~ msgstr "Som"
-
-#~ msgid "Sound &amp; Video Editing"
-#~ msgstr "Edição de multimídia"
-
-#~ msgid "Sports"
-#~ msgstr "Esportes"
-
-#~ msgid "Sports Games"
-#~ msgstr "Jogos de esportes"
-
-#~ msgid "Spreadsheet Tools"
-#~ msgstr "Planilhas eletrônicas"
-
-#~ msgid "Strategy Games"
-#~ msgstr "Jogos de estratégia"
-
-#~ msgid "System"
-#~ msgstr "Sistema"
-
-#~ msgid "TV"
-#~ msgstr "TV"
-
-#~ msgid "Telephony"
-#~ msgstr "Telefonia"
-
-#~ msgid "Telephony Tools"
-#~ msgstr "Ferramentas de telefonia"
-
-#~ msgid "Terminal Emulator"
-#~ msgstr "Emuladores de terminal"
-
-#~ msgid "Text Editors"
-#~ msgstr "Editores de texto"
-
-#~ msgid "Text Tools"
-#~ msgstr "Ferramentas de texto"
-
-#~ msgid "Tools to help you manage your computer"
-#~ msgstr "Ferramentas para ajudá-lo a gerenciar seu computador"
-
-#~ msgid "Translation Tools"
-#~ msgstr "Ferramentas de tradução"
-
-#~ msgid "Tuners"
-#~ msgstr "Afinadores"
-
-#~ msgid "Utilities"
-#~ msgstr "Acessórios"
-
-#~ msgid "Utilities to help you get work done"
-#~ msgstr "Acessórios para ajudá-lo a fazer o seu trabalho"
-
-#~ msgid "Vector Graphics"
-#~ msgstr "Gráficos de vetores"
-
-#~ msgid "Video"
-#~ msgstr "Vídeo"
-
-#~ msgid "Video Conference"
-#~ msgstr "Videoconferência"
-
-#~ msgid "Viewer"
-#~ msgstr "Visualizadores"
-
-#~ msgid "Web Browser"
-#~ msgstr "Navegador web"
-
-#~ msgid "Web Development"
-#~ msgstr "Desenvolvimento web"
-
-#~ msgid "Welcome to the GNOME Help Browser"
-#~ msgstr "Bem-vindo ao Navegador da Ajuda do GNOME"
-
-#~ msgid "Word Processors"
-#~ msgstr "Processadores de texto"
-
-#~ msgid "Description Column"
-#~ msgstr "Coluna Descrição"
-
-#~ msgid "A column in the model to get descriptions from"
-#~ msgstr "Uma coluna no modelo de onde obter descrições"
-
-#~ msgid "Icon Column"
-#~ msgstr "Coluna Ícone"
-
-#~ msgid "A column in the model to get icon names from"
-#~ msgstr "Uma coluna no modelo de onde obter nomes de ícones"
-
-#~ msgid "Flags Column"
-#~ msgstr "Coluna Atributos"
-
-#~ msgid "A column in the model with YelpLocationEntryFlags flags"
-#~ msgstr "Uma coluna no modelo com sinalizadores YelpLocationEntryFlags"
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be parsed because it is not a well-formed man "
-#~ "page."
-#~ msgstr ""
-#~ "Não foi possível analisar o arquivo \"%s\" porque não é uma página de "
-#~ "manual bem formada."
-
-#~ msgid "_Edit Bookmarks"
-#~ msgstr "_Editar marcadores..."
-
-#~ msgid "Bookmarks for %s"
-#~ msgstr "Marcadores para %s"
-
-#~ msgid "_Open Bookmark"
-#~ msgstr "Abrir _marcador"
-
-#~ msgid "Open Bookmark in New _Window"
-#~ msgstr "Abrir marcador em _nova janela"
-
-#~ msgid "Re_name"
-#~ msgstr "Re_nomear"
-
-#~ msgid "_Bookmarks:"
-#~ msgstr "_Marcadores:"
-
-#~ msgid "_Title:"
-#~ msgstr "_Título:"
-
-#~ msgid "_Location:"
-#~ msgstr "_Localização:"
-
-#~ msgid "Fonts"
-#~ msgstr "Fontes"
-
-#~ msgid "Preferences"
-#~ msgstr "Preferências"
-
-#~ msgid "_Browse with caret"
-#~ msgstr "_Navegar com cursor"
-
-#~ msgid "_Fixed width:"
-#~ msgstr "L_argura fixa:"
-
-#~ msgid "_Use system fonts"
-#~ msgstr "_Usar fontes do sistema"
-
-#~ msgid "_Variable width:"
-#~ msgstr "Largura _variável"
-
-#~ msgid "Font for fixed text"
-#~ msgstr "Fonte para texto fixo"
-
-#~ msgid "Font for text"
-#~ msgstr "Fonte para o texto"
-
-#~ msgid "Font for text with fixed width."
-#~ msgstr "Fonte para texto de largura fixa."
-
-#~ msgid "Font for text with variable width."
-#~ msgstr "Fonte para texto com largura variável."
-
-#~ msgid "Use a keyboard-controllable caret when viewing pages."
-#~ msgstr "Usa o cursor do teclado ao visualizar páginas."
-
-#~ msgid "Use caret"
-#~ msgstr "Usar cursor"
-
-#~ msgid "Use system fonts"
-#~ msgstr "Usar fontes do sistema"
-
-#~ msgid "Use the default fonts set for the system."
-#~ msgstr "Usar fontes padrão configuradas para o sistema."
-
-#~ msgid "File is not a valid .desktop file"
-#~ msgstr "O arquivo não é um arquivo .desktop válido"
-
-#~ msgid "Unrecognized desktop file Version '%s'"
-#~ msgstr "Versão não reconhecida do arquivo desktop \"%s\""
-
-#~ msgid "Starting %s"
-#~ msgstr "Iniciando %s"
-
-#~ msgid "Application does not accept documents on command line"
-#~ msgstr "O aplicativo não aceita documentos na linha de comando"
-
-#~ msgid "Unrecognized launch option: %d"
-#~ msgstr "Opção de lançamento desconhecida: %d"
-
-#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-#~ msgstr ""
-#~ "Não é possível passar URIs de documento a uma entrada de desktop "
-#~ "'Type=Link'"
-
-#~ msgid "Not a launchable item"
-#~ msgstr "Não é um item lançável"
-
-#~ msgid "Disable connection to session manager"
-#~ msgstr "Desabilitar conexão com o gerenciador de sessão"
-
-#~ msgid "Specify file containing saved configuration"
-#~ msgstr "Especificar o arquivo que contém as configurações salvas"
-
-#~ msgid "FILE"
-#~ msgstr "ARQUIVO"
-
-#~ msgid "Specify session management ID"
-#~ msgstr "Especificar a ID do gerenciador de sessão"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "Session management options:"
-#~ msgstr "Opções do gerenciador de sessão:"
-
-#~ msgid "Show session management options"
-#~ msgstr "Mostrar opções do gerenciador de sessão"
-
-#~ msgid "A bookmark titled %s already exists for this page."
-#~ msgstr "Um marcador com o nome %s já existe para esta página."
-
-#~ msgid "A bookmark titled <b>%s</b> already exists for this page."
-#~ msgstr "Um marcador com o nome <b>%s</b> já existe para esta página."
-
-#~ msgid "Help Topics"
-#~ msgstr "Tópicos de ajuda"
-
-#~ msgid "File not found"
-#~ msgstr "Arquivo não localizado"
-
-#~ msgid "Could not parse file"
-#~ msgstr "Não foi possível analisar o arquivo"
-
-#~ msgid "Could Not Read File"
-#~ msgstr "Não foi possível ler o arquivo"
-
-#~ msgid "No information is available about this error."
-#~ msgstr "Nenhuma informação disponível sobre este erro."
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be read and decoded. The file may be compressed "
-#~ "in an unsupported format."
-#~ msgstr ""
-#~ "Não foi possível ler e decodificar o arquivo \"%s\". Ele pode estar "
-#~ "compactado num formato para o qual não existe suporte."
-
-#~ msgid "Use a private session"
-#~ msgstr "Usar uma sessão privada"
-
-#~ msgid "Define which cache directory to use"
-#~ msgstr "Definir qual diretório de cache usar"
-
-#~ msgid "Directory not found"
-#~ msgstr "Diretório não localizado"
-
-#~ msgid "Preparing to print"
-#~ msgstr "Preparando para imprimir"
-
-#~ msgid "Printing is not supported on this printer"
-#~ msgstr "Não há suporte para impressão com essa impressora"
-
-#~ msgid "Printer %s does not support postscript printing."
-#~ msgstr "A impressora %s não tem suporte a impressão PostScript."
-
-#~ msgid "Waiting to print"
-#~ msgstr "Aguardando para imprimir"
-
-#~ msgid "An error occurred while printing"
-#~ msgstr "Ocorreu um erro ao imprimir"
-
-#~ msgid "It was not possible to print your document: %s"
-#~ msgstr "Não foi possível imprimir o seu documento: %s"
-
-#~ msgid "the GNOME Support Forums"
-#~ msgstr "Fóruns de Suporte do GNOME"
-
-#~ msgid "No results for \"%s\""
-#~ msgstr "Nenhum resultado para \"%s\""
-
-#~ msgid ""
-#~ "Try using different words to describe the problem you're having or the "
-#~ "topic you want help with."
-#~ msgstr ""
-#~ "Experimente usar palavras diferentes para descrever o problema ou o "
-#~ "assunto para o qual você quer ajuda"
-
-#~ msgid ""
-#~ "a:about:an:are:as:at:be:broke:broken:by:can:can't:dialog:dialogue:do:"
-#~ "doesn't:doesnt:don't:dont:explain:for:from:get:gets:got:make:makes:not:"
-#~ "when:has:have:help:how:i:in:is:it:item:me:my:of:on:or:tell:that:the:thing:"
-#~ "this:to:what:where:who:will:with:won't:wont:why:work:working:works"
-#~ msgstr ""
-#~ "o:a:sobre:um:uma:são:como:em:ser:quebrado:quebrada:travado:travada:travou:"
-#~ "por:pode:posso:diálogo:não:explicar:explique-me:explique:para:de:obter:"
-#~ "obtenho:obtém:obtêm:obteve:obtive:obtiveram:fazer:faço:não:quando:tem:têm:"
-#~ "tenho:ajuda:ajude-me:eu:em:é:são:sou:isso:isto:esse:este:esses:estes:item:"
-#~ "itens:me:meu:minha:meus:minhas:de:no:na:nos:nas:ou:diga:dizer:que:coisa:"
-#~ "assunto:para:até:que:quê:onde:quem:com:por:funciona:funcionam:funcionando"
-
-#~ msgid "re"
-#~ msgstr ""
-#~ "ab:acro:ad:aero:anfi:ante:anti:apico:arqui:auri:auro:auto:bis:bio:cata:"
-#~ "cerebro:cervico:circum:circun:cis:com:con:contra:des:deis:ego:eletro:endo:"
-#~ "entre:extra:filo:fisio:gastro:geo:hemi:hepta:hetero:hexa:hidro:hiper:hipo:"
-#~ "homo:idio:ido:in:infra:inter:intra:intro:iso:justa:labio:linguo:macro:mal:"
-#~ "medio:mega:meso:meta:micro:mono:moto:multi:nefro:neo:neuro:novi:ob:octo:"
-#~ "oni:orto:oto:pan:para:peta:per:peri:poli:pos:pre:preter:pro:proto:pseudo:"
-#~ "psico:quadri:quarti:quilo:qüinq:radio:re:retro:rino:sacro:semi:sesqui:sob:"
-#~ "sobre:socio:sub:subter:sulfo:super:supra:tele:termo:ter:tetra:trans:"
-#~ "traqueo:tras:trans:tres:tri:turbo:ultra:uni:uretro:vasco:vesico:xanto:"
-#~ "xilo:zinco:zoo"
-
-#~ msgid "ers:er:ing:es:s:'s"
-#~ msgstr ""
-#~ "alhão:alhona:alhões:alhonas:ão:ona:ães:ãos:ões:onas:anzil:anzis:arra:"
-#~ "arras:orra:orras:ázio:ázios:aço:aços:az:azes:acho:acha:achos:achas:eto:"
-#~ "eta:etos:etas:inho:inha:inhos:inhas:ote:otes:ota:otas:íssimo:íssimos:"
-#~ "íssima:íssimas:érrimo:érrima:érrimos:érrimas:limo:lima:limos:limas:aria:"
-#~ "arias:ato:atos:douro:douros:ia:ias:dor:dora:dores:doras:ista:istas:ano:"
-#~ "ana:anos:anas:eiro:eiros:ês:esa:êses:esas:al:ais:ada:adas:agem:agens:oso:"
-#~ "osa:osos:osas:ento:enta:entos:entas:udo:uda:udos:udas:ear:eares:ejar:"
-#~ "ejares:ecer:eceres:escer:esceres:entar:entares:fazer:fazeres:ficar:"
-#~ "ficares:icar:icares:iscar:iscares:ilhar:ilhares:inhar:inhares:itar:itares:"
-#~ "izar:izares:mente:ão:ona:ões:ães:ãos:onas"
-
-#~ msgid "No Comment"
-#~ msgstr "Nenhum comentário"
-
-#~ msgid "Search could not be processed"
-#~ msgstr "Não foi possível processar a pesquisa"
-
-#~ msgid "The requested search could not be processed."
-#~ msgstr "Não foi possível processar a pesquisa solicitada."
-
-#~ msgid "Cannot process the search"
-#~ msgstr "Não foi possível processar a pesquisa"
-
-#~ msgid "The search processor returned invalid results"
-#~ msgstr "O processador de pesquisa retornou resultados inválidos"
-
-#~ msgid "The page %s was not found in the TOC."
-#~ msgstr "A página %s não foi localizada no sumário."
-
-#~ msgid "The requested page was not found in the TOC."
-#~ msgstr "A página solicitada não foi localizada no sumário."
-
-#~ msgid ""
-#~ "The TOC file could not be parsed because it is not a well-formed XML "
-#~ "document."
-#~ msgstr ""
-#~ "Não foi possível analisar o arquivo do sumário porque não é um documento "
-#~ "XML bem formado."
-
-#~ msgid "Broken Transformation"
-#~ msgstr "Transformação quebrada"
-
-#~ msgid ""
-#~ "An unknown error occurred while attempting to transform the document."
-#~ msgstr "Um erro desconhecido ocorreu ao tentar transformar o documento."
-
-#~ msgid "_File"
-#~ msgstr "_Arquivo"
-
-#~ msgid "_Edit"
-#~ msgstr "_Editar"
-
-#~ msgid "_Help"
-#~ msgstr "Aj_uda"
-
-#~ msgid "Print This Document ..."
-#~ msgstr "Imprimir este documento..."
-
-#~ msgid "Open _Location"
-#~ msgstr "Abrir l_ocalização"
-
-#~ msgid "_Close Window"
-#~ msgstr "_Fechar janela"
-
-#~ msgid "_Select All"
-#~ msgstr "Selecionar _tudo"
-
-#~ msgid "_Find..."
-#~ msgstr "_Localizar..."
-
-#~ msgid "Find Pre_vious"
-#~ msgstr "Localizar a_nterior"
-
-#~ msgid "Find previous occurrence of the word or phrase"
-#~ msgstr "Localizar a ocorrência anterior da palavra ou frase"
-
-#~ msgid "Find Ne_xt"
-#~ msgstr "Localizar pró_ximo"
-
-#~ msgid "Find next occurrence of the word or phrase"
-#~ msgstr "Localizar a próxima ocorrência da palavra ou frase"
-
-#~ msgid "_Preferences"
-#~ msgstr "_Preferências"
-
-#~ msgid "_Reload"
-#~ msgstr "_Recarregar"
-
-#~ msgid "Show previous page in history"
-#~ msgstr "Mostrar página anterior no histórico"
-
-#~ msgid "Show next page in history"
-#~ msgstr "Mostrar página seguinte no histórico"
-
-#~ msgid "_Help Topics"
-#~ msgstr "_Tópicos da ajuda"
-
-#~ msgid "Go to the listing of help topics"
-#~ msgstr "Ir para a listagem de tópicos da ajuda"
-
-#~ msgid "_Previous Section"
-#~ msgstr "Seção a_nterior"
-
-#~ msgid "_Next Section"
-#~ msgstr "Pró_xima seção"
-
-#~ msgid "_Contents"
-#~ msgstr "S_umário"
-
-#~ msgid "_Copy Link Address"
-#~ msgstr "_Copiar endereço do vínculo"
-
-#~ msgid "Help On this application"
-#~ msgstr "Ajuda sobre este aplicativo"
-
-#~ msgid "_About"
-#~ msgstr "_Sobre"
-
-#~ msgid "Copy _Email Address"
-#~ msgstr "Copiar _endereço de e-mail"
-
-#~ msgid "Help Browser"
-#~ msgstr "Navegador de Ajuda"
-
-#~ msgid "Unknown Page"
-#~ msgstr "Página desconhecida"
-
-#~ msgid "The requested URI \"%s\" is invalid"
-#~ msgstr "A URI solicitada \"%s\" é inválida"
-
-#~ msgid "Unable to load page"
-#~ msgstr "Não foi possível carregar a página"
-
-#~ msgid "Cannot create search component"
-#~ msgstr "Não foi possível criar componente de pesquisa"
-
-#~ msgid "Find _Previous"
-#~ msgstr "Localizar a_nterior"
-
-#~ msgid "Find _Next"
-#~ msgstr "Localizar pró_ximo"
-
-#~ msgid "Phrase not found"
-#~ msgstr "Expressão não localizada"
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be read.  This file might be missing, or you "
-#~ "might not have permissions to read it."
-#~ msgstr ""
-#~ "Não foi possível ler o arquivo \"%s\". Esse arquivo pode não existir ou "
-#~ "você pode não ter permissões para leitura."
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "Evandro Fernandes Giovanini <evandrofg@ig.com.br>\n"
-#~ "Estêvão Samuel Procópio <tevaum@gmail.com>\n"
-#~ "Leonardo Ferreira Fontenelle <leo.fontenelle@gmail.com>\n"
-#~ "Vladimir Melo <vladimirmelo@foresightlinux.org>\n"
-#~ "Og Maciel <ogmaciel@gnome.org>\n"
-#~ "Jonh Wendell <wendell@bani.com.br>\n"
-#~ "André Gondim <andregondim@ubuntu.com>\n"
-#~ "Henrique P Machado <zehrique@gmail.com>\n"
-#~ "Felipe Borges <felipe10borges@gmail.com>"
-
-#~ msgid "A documentation browser and viewer for the Gnome Desktop."
-#~ msgstr "Um navegador e visualizador de documentação para o ambiente GNOME."
-
-#~ msgid "<b>Accessibility</b>"
-#~ msgstr "<b>Acessibilidade</b>"
-
-#~ msgid "<b>Fonts</b>"
-#~ msgstr "<b>Fontes</b>"
-
-#~ msgid "C_ase sensitive"
-#~ msgstr "_Diferenciar maiúsculas de minúsculas"
-
-#~ msgid "_Find:"
-#~ msgstr "_Localizar:"
-
-#~ msgid "_Wrap around"
-#~ msgstr "_Voltar ao Início"
-
-#~ msgid "Error executing \"gnome-open\""
-#~ msgstr "Erro ao executar \"gnome-open\""

@@ -1,90 +1,79 @@
-# Vital Khilko <dojlid@mova.org>, 2003.
-# Ales Nyakhaychyk <nab@mail.by>, 2003, 2004, 2006.
-# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2011.
-# Kasia Bondarava <kasia.bondarava>, 2011.
-# Yuras Shumovich <shumovichy@gmail.com>, 2017.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# nab <nab@mail.by>, 2003-2004,2006
+# booxter <ihar.hrachyshka@gmail.com>, 2011
+# booxter <ihar.hrachyshka@gmail.com>, 2011
+# Kasia Bondarava <kasia.bondarava>, 2011
+# Vital Khilko <dojlid@mova.org>, 2003
+# Yuras Shumovich <shumovichy@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: yelp.master\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2020-04-16 23:40+0100\n"
-"PO-Revision-Date: 2017-04-22 15:13+0300\n"
-"Last-Translator: Yuras Shumovich <shumovichy@gmail.com>\n"
-"Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
-"Language: be\n"
+"PO-Revision-Date: 2020-04-16 22:44+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Belarusian (http://www.transifex.com/endless-os/yelp/language/be/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 1.8.11\n"
+"Language: be\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "Стан загрузкі"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -96,9 +85,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Усталяваць <string/>"
@@ -119,8 +106,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -164,18 +151,14 @@ msgstr "Файл \"%s\" не існуе."
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"Не ўдалося разабраць файл \"%s\", бо ён не ўяўляе сабой карэктнага XML-"
-"дакумента."
+msgstr "Не ўдалося разабраць файл \"%s\", бо ён не ўяўляе сабой карэктнага XML-дакумента."
 
 #: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"Не ўдалося разабраць файл \"%s\", бо ён улучае ў сябе некарэктны XML-"
-"дакумент."
+msgstr "Не ўдалося разабраць файл \"%s\", бо ён улучае ў сябе некарэктны XML-дакумент."
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -213,9 +196,7 @@ msgstr "Усе даведачныя дакументы"
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"Не ўдалося разабраць файл \"%s\", бо ён не ўяўляе сабой карэктнай info-"
-"старонкі."
+msgstr "Не ўдалося разабраць файл \"%s\", бо ён не ўяўляе сабой карэктнай info-старонкі."
 
 #: libyelp/yelp-mallard-document.c:348
 #, c-format
@@ -288,8 +269,7 @@ msgstr "Невядомая памылка."
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"Вы не маеце PackageKit. Спасылкі ўсталявання пакункаў патрабуюць PackageKit."
+msgstr "Вы не маеце PackageKit. Спасылкі ўсталявання пакункаў патрабуюць PackageKit."
 
 #: libyelp/yelp-view.c:1226
 msgid "Save Image"
@@ -425,189 +405,3 @@ msgstr "Даведка GNOME"
 #: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr "дакументацыя;інфармацыя;звесткі;падручнік;дапаможнік;інструкцыя;"
-
-#~ msgid "Indexed"
-#~ msgstr "Індэксавана"
-
-#~ msgid "Whether the document content has been indexed"
-#~ msgstr "Ці было змесціва дакумента праіндэксавана"
-
-#~ msgid "Document URI"
-#~ msgstr "URI-адрас дакумента"
-
-#~ msgid "The URI which identifies the document"
-#~ msgstr "URI-адрас дакумента"
-
-#~ msgid "View"
-#~ msgstr "Аб'ект прагляду"
-
-#~ msgid "A YelpView instance to control"
-#~ msgstr "Кіраваны аб'ект YelpView"
-
-#~ msgid "A YelpBookmarks implementation instance"
-#~ msgstr "Аб'ект рэалізацыі YelpBookmarks"
-
-#~ msgid "GtkSettings"
-#~ msgstr "GtkSettings"
-
-#~ msgid "A GtkSettings object to get settings from"
-#~ msgstr "Аб'ект GtkSettings для атрымання настроек"
-
-#~ msgid "GtkIconTheme"
-#~ msgstr "GtkIconTheme"
-
-#~ msgid "A GtkIconTheme object to get icons from"
-#~ msgstr "Аб'ект GtkIconTheme для атрымання значкоў"
-
-#~ msgid "Font Adjustment"
-#~ msgstr "Падстройка шрыфту"
-
-#~ msgid "A size adjustment to add to font sizes"
-#~ msgstr "Падстройка памераў шрыфтоў"
-
-#~ msgid "Show Text Cursor"
-#~ msgstr "Паказваць курсор у тэксце"
-
-#~ msgid "Show the text cursor or caret for accessible navigation"
-#~ msgstr "Паказваць курсор у тэксце для зручнага аглядання"
-
-#~ msgid "Editor Mode"
-#~ msgstr "Рэжым рэдактара"
-
-#~ msgid "Enable features useful to editors"
-#~ msgstr "Уключыць функцыі для працы карэктара"
-
-#~ msgid "Database filename"
-#~ msgstr "Назва файла базы даных"
-
-#~ msgid "The filename of the sqlite database"
-#~ msgstr "Назва файла базы даных sqlite"
-
-#~ msgid "XSLT Stylesheet"
-#~ msgstr "Аркуш стыляў XSLT"
-
-#~ msgid "The location of the XSLT stylesheet"
-#~ msgstr "Месцазнаходжанне аркуша стыляў XSLT"
-
-#~ msgid "Yelp URI"
-#~ msgstr "URI-адрас Yelp"
-
-#~ msgid "A YelpUri with the current location"
-#~ msgstr "Аб'ект YelpUri з бягучым месцазнаходжаннем"
-
-#~ msgid "The loading state of the view"
-#~ msgstr "Стан загрузкі аб'екта прагляду"
-
-#~ msgid "Page ID"
-#~ msgstr "Ідэнтыфікатар старонкі"
-
-#~ msgid "The ID of the root page of the page being viewed"
-#~ msgstr "Каранёвы ідэнтыфікатар для паказанай старонкі"
-
-#~ msgid "Root Title"
-#~ msgstr "Каранёвы загаловак"
-
-#~ msgid "The title of the root page of the page being viewed"
-#~ msgstr "Каранёвы загаловак для паказанай старонкі"
-
-#~ msgid "Page Title"
-#~ msgstr "Загаловак старонкі"
-
-#~ msgid "The title of the page being viewed"
-#~ msgstr "Загаловак паказанай старонкі"
-
-#~ msgid "Page Description"
-#~ msgstr "Апісанне старонкі"
-
-#~ msgid "The description of the page being viewed"
-#~ msgstr "Апісанне паказанай старонкі"
-
-#~ msgid "Page Icon"
-#~ msgstr "Значок старонкі"
-
-#~ msgid "The icon of the page being viewed"
-#~ msgstr "Значок паказанай старонкі"
-
-#~ msgid "Search for packages containing this document."
-#~ msgstr "Пошук пакункаў, якія змяшчаюць гэты дакумент."
-
-#~ msgid "Application"
-#~ msgstr "Праграма"
-
-#~ msgid "A YelpApplication instance that controls this window"
-#~ msgstr "Аб'ект YelpApplication, які кіруе гэтым акном"
-
-#~ msgid "Enable Search"
-#~ msgstr "Уключыць пошук"
-
-#~ msgid "Whether the location entry can be used as a search field"
-#~ msgstr "Ці можна выкарыстоўваць поле адрасу для пошуку"
-
-#~ msgid "Search..."
-#~ msgstr "Шукаць..."
-
-#~ msgid "Clear the search text"
-#~ msgstr "Ачысціць поле пошуку"
-
-#~ msgid "Bookmark this page"
-#~ msgstr "Стварыць закладку для старонкі"
-
-#~ msgid "Remove bookmark"
-#~ msgstr "Выдаліць закладку"
-
-#~ msgid "Loading"
-#~ msgstr "Загрузка"
-
-#~ msgid "_Print..."
-#~ msgstr "_Надрукаваць..."
-
-#~ msgid "See all search results for “%s”"
-#~ msgstr "Праглядзець усе вынікі пошуку \"%s\""
-
-#~ msgid "Increase the size of the text"
-#~ msgstr "Павялічыць памер тэксту"
-
-#~ msgid "Decrease the size of the text"
-#~ msgstr "Паменшыць памер тэксту"
-
-#~ msgid "Show Text _Cursor"
-#~ msgstr "Паказаць _курсор у тэксце"
-
-#~ msgid "_Page"
-#~ msgstr "_Старонка"
-
-#~ msgid "_View"
-#~ msgstr "_Від"
-
-#~ msgid "_Go"
-#~ msgstr "Пера_ход"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "_Закладкі"
-
-#~ msgid "_Close"
-#~ msgstr "За_крыць"
-
-#~ msgid "_All Documents"
-#~ msgstr "_Усе дакументы"
-
-#~ msgid "Find in Page..."
-#~ msgstr "Знайсці на старонцы..."
-
-#~ msgid "Open Location"
-#~ msgstr "Адкрыць месцазнаходжанне"
-
-#~ msgid "Read Link _Later"
-#~ msgstr "Пра_чытаць спасылку пазней"
-
-#~ msgid "Read Later"
-#~ msgstr "Прачытаць пазней"
-
-#~ msgid "%i match"
-#~ msgid_plural "%i matches"
-#~ msgstr[0] "%i адпаведнік"
-#~ msgstr[1] "%i адпаведнікі"
-#~ msgstr[2] "%i адпаведнікаў"
-
-#~ msgid "No matches"
-#~ msgstr "Няма адпаведнікаў"

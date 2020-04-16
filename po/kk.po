@@ -1,90 +1,74 @@
-# Kazakh translation for yelp.
-# Copyright (C) 2010 yelp's COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
 # This file is distributed under the same license as the yelp package.
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2010.
-#
+# 
+# Translators:
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2010
 msgid ""
 msgstr ""
-"Project-Id-Version: yelp gnome-2-30\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2020-04-16 23:40+0100\n"
-"PO-Revision-Date: 2016-09-04 09:37+0500\n"
-"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
-"Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
-"Language: kk\n"
+"PO-Revision-Date: 2020-04-16 22:44+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Kazakh (http://www.transifex.com/endless-os/yelp/language/kk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.8\n"
+"Language: kk\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "Жүктелу күйі"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr "Интернет"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "Қалыпты компьютер"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -96,9 +80,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr ""
@@ -119,8 +101,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -418,286 +400,3 @@ msgstr "GNOME көмегін алу"
 #: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr "құжаттама;ақпарат;нұсқама;көмек;"
-
-#~ msgid "Indexed"
-#~ msgstr "Индекстелген"
-
-#~ msgid "View"
-#~ msgstr "Қарау"
-
-#~ msgid "GtkSettings"
-#~ msgstr "GtkSettings"
-
-#~ msgid "GtkIconTheme"
-#~ msgstr "GtkIconTheme"
-
-#~ msgid "Font Adjustment"
-#~ msgstr "Қаріп баптаулары"
-
-#~ msgid "Show Text Cursor"
-#~ msgstr "Мәтіндік курсорды көрсету"
-
-#~ msgid "Editor Mode"
-#~ msgstr "Түзетуші режимі"
-
-#~ msgid "Database filename"
-#~ msgstr "Дерекқор файл аты"
-
-#~ msgid "XSLT Stylesheet"
-#~ msgstr "XSLT стильдер кестесі"
-
-#~ msgid "Yelp URI"
-#~ msgstr "Yelp URI"
-
-#~ msgid "Application"
-#~ msgstr "Қолданба"
-
-#~ msgid "Development"
-#~ msgstr "Өндіру"
-
-#~ msgid "Games"
-#~ msgstr "Ойындар"
-
-#, fuzzy
-#~ msgid "Section 2"
-#~ msgstr "санат"
-
-#, fuzzy
-#~ msgid "Section 4"
-#~ msgstr "санат"
-
-#, fuzzy
-#~ msgid "Section 5"
-#~ msgstr "санат"
-
-#, fuzzy
-#~ msgid "Section 6"
-#~ msgstr "санат"
-
-#, fuzzy
-#~ msgid "Section 9"
-#~ msgstr "санат"
-
-#~ msgid "Accessibility"
-#~ msgstr "Қолжетерлілік"
-
-#~ msgid "Calculator"
-#~ msgstr "Калькулятор"
-
-#~ msgid "Calendar"
-#~ msgstr "Күнтізбе"
-
-#~ msgid "Chat"
-#~ msgstr "Чат"
-
-#~ msgid "Desktop Settings"
-#~ msgstr "Жұмыс үстел баптаулары"
-
-#~ msgid "Dictionaries"
-#~ msgstr "Сөздіктер"
-
-#~ msgid "Education"
-#~ msgstr "Білім алу"
-
-#~ msgid "File Manager"
-#~ msgstr "Файлдар басқарушысы"
-
-#~ msgid "File Transfer"
-#~ msgstr "Файлдармен алмасу"
-
-#~ msgid "Filesystem"
-#~ msgstr "Файлдық жүйе"
-
-#, fuzzy
-#~ msgid "Graphics"
-#~ msgstr "Сурет"
-
-#~ msgid "History"
-#~ msgstr "Тарих"
-
-#~ msgid "Monitor"
-#~ msgstr "Монитор"
-
-#~ msgid "Music"
-#~ msgstr "Музыка"
-
-#~ msgid "News"
-#~ msgstr "Жаңалықтар"
-
-#~ msgid "Office Applications"
-#~ msgstr "Кеңселік қолданбалар"
-
-#~ msgid "Office applications"
-#~ msgstr "Кеңселік қолданбалар"
-
-#~ msgid "Printing"
-#~ msgstr "Баспаға шығару"
-
-#~ msgid "Scanning"
-#~ msgstr "Сканерлеу"
-
-#~ msgid "Science"
-#~ msgstr "Ғылым"
-
-#~ msgid "Security"
-#~ msgstr "Қауіпсіздік"
-
-#~ msgid "Sound"
-#~ msgstr "Дыбыс"
-
-#~ msgid "System"
-#~ msgstr "Жүйелік"
-
-#~ msgid "Terminal Emulator"
-#~ msgstr "Терминал эмуляторы"
-
-#~ msgid "Utilities"
-#~ msgstr "Утилиталар"
-
-#~ msgid "Video"
-#~ msgstr "Видео"
-
-#~ msgid "Web Browser"
-#~ msgstr "Веб браузері"
-
-#~ msgid "Re_name"
-#~ msgstr "Аты_н ауыстыру"
-
-#~ msgid "_Bookmarks:"
-#~ msgstr "Б_етбелгілер:"
-
-#~ msgid "_Title:"
-#~ msgstr "А_тауы:"
-
-#~ msgid "_Location:"
-#~ msgstr "Ор_наласу:"
-
-#~ msgid "Fonts"
-#~ msgstr "Қаріптер"
-
-#~ msgid "Preferences"
-#~ msgstr "Қалаулар"
-
-#~ msgid "File is not a valid .desktop file"
-#~ msgstr "Файл дұрыс .desktop файлы емес"
-
-#~ msgid "Unrecognized desktop file Version '%s'"
-#~ msgstr "Белгісіз desktop файлдың нұсқасы '%s'"
-
-#~ msgid "Starting %s"
-#~ msgstr "%s іске қосылуда"
-
-#~ msgid "Application does not accept documents on command line"
-#~ msgstr "Қолданба команда жолында құжаттарды қабылдамайды"
-
-#~ msgid "Unrecognized launch option: %d"
-#~ msgstr "Белгісіз қосу опциясы: %d"
-
-#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-#~ msgstr "Құжат URI-ін 'Type=Link' desktop элементіне беру мүмкін емес"
-
-#~ msgid "Not a launchable item"
-#~ msgstr "Жөнелтілетін элемент емес"
-
-#~ msgid "Disable connection to session manager"
-#~ msgstr "Сессиялар менеджеріне байланыстарды сөндіру"
-
-#~ msgid "Specify file containing saved configuration"
-#~ msgstr "Сақталған баптаулары бар файлды көрсету"
-
-#~ msgid "FILE"
-#~ msgstr "ФАЙЛ"
-
-#~ msgid "Specify session management ID"
-#~ msgstr "Сессия менеджментінің ID-ін көрсету"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "Session management options:"
-#~ msgstr "Сессияны басқару опциялары:"
-
-#~ msgid "Show session management options"
-#~ msgstr "Сессияны басқару опцияларын көрсету"
-
-#~ msgid "Preparing to print"
-#~ msgstr "Баспаға шығаруға дайындау"
-
-#~ msgid "Printing is not supported on this printer"
-#~ msgstr "Бұл принтер баспаға шығаруды қолдамайды"
-
-#, fuzzy
-#~ msgid "re"
-#~ msgstr "RE: %s"
-
-#~ msgid "_File"
-#~ msgstr "_Файл"
-
-#~ msgid "_Edit"
-#~ msgstr "Тү_зету"
-
-#~ msgid "_Go"
-#~ msgstr "Ө_ту"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "Б_етбелгілер"
-
-#~ msgid "_Help"
-#~ msgstr "_Көмек"
-
-#~ msgid "Open _Location"
-#~ msgstr "Орнал_асуды ашу"
-
-#~ msgid "_Close Window"
-#~ msgstr "Те_резені жабу"
-
-#~ msgid "_Select All"
-#~ msgstr "Б_арлығын таңдау"
-
-#~ msgid "_Find..."
-#~ msgstr "_Табу..."
-
-#~ msgid "Find Pre_vious"
-#~ msgstr "Ал_дыңғысын табу"
-
-#~ msgid "Find Ne_xt"
-#~ msgstr "Ке_лесіні табу"
-
-#~ msgid "_Preferences"
-#~ msgstr "Қа_лаулар"
-
-#~ msgid "_Reload"
-#~ msgstr "Қа_йта жүктеу"
-
-#~ msgid "_Contents"
-#~ msgstr "Құра_масы"
-
-#~ msgid "_Edit Bookmarks..."
-#~ msgstr "Бе_тбелгілерді түзету..."
-
-#~ msgid "_Copy Link Address"
-#~ msgstr "Сілтеме адр_есін көшіру"
-
-#~ msgid "Help On this application"
-#~ msgstr "Бұл қолданба үшін көмек ақпараты"
-
-#~ msgid "_About"
-#~ msgstr "О_сы туралы"
-
-#~ msgid "Copy _Email Address"
-#~ msgstr "Email а_дресін көшіру"
-
-#~ msgid "_Search:"
-#~ msgstr "І_здеу:"
-
-#~ msgid "Fin_d:"
-#~ msgstr "Та_бу:"
-
-#~ msgid "Find _Previous"
-#~ msgstr "Алдыңғысын табу"
-
-#~ msgid "Find _Next"
-#~ msgstr "Кел_есіні табу"
-
-#~ msgid "translator-credits"
-#~ msgstr "Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2010"

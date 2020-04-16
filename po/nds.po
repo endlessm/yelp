@@ -1,104 +1,76 @@
-# This is a DRAFT translation into a common dialect
-# for the Frisian Enclave in Northern Low Saxon; which
-# means the Northern Low Saxon variaties grown on 
-# Frisian substrate.
-#
-# This dialect is based on the Northern variaties of 
-# Groningen and East Frisia.
-#
-# So far this is mostly based on Gronings; but that will
-# change. 
-#
-# The orthography is based on ANS; but using some different
-# letter conbinations (ie, öü, üü, ei etc)
-#
-# Copyright © 2002 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
 # Kenneth Christiansen <kenneth@gnu.org>, 2004
-#
-# Ideas are taken from the Dutch translation by
-# Tino Meinen <a.t.meinen@chello.nl>, 2002, 2003, 2004
 # Ronald Hummelink <ronald@hummelink.xs4all.nl>, 2002
-#
+# Tino Meinen <a.t.meinen@chello.nl>, 2002-2004
 msgid ""
 msgstr ""
-"Project-Id-Version: Yelp cvs\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2020-04-16 23:40+0100\n"
-"PO-Revision-Date: 2004-02-09 17:14+0100\n"
-"Last-Translator: Kenneth Christiansen <kenneth@gnu.org>\n"
-"Language-Team: Low Saxon NFE (Northern Frisian Enclave) <kenneth@gnu.org>\n"
-"Language: nds\n"
+"PO-Revision-Date: 2020-04-16 22:44+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Low German (http://www.transifex.com/endless-os/yelp/language/nds/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nds\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
-#, fuzzy
 msgid "Documents &amp; Files"
-msgstr "Dukmenten"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "Desktop"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -110,9 +82,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr ""
@@ -121,11 +91,9 @@ msgstr ""
 msgid "GNOME Help"
 msgstr ""
 
-# Een Hulp voor GNOME, een Hulp-programma voor GNOME
 #: data/yelp.appdata.xml.in:7
-#, fuzzy
 msgid "Help viewer for GNOME"
-msgstr "Ein Hulp-browser vöör GNOME"
+msgstr ""
 
 #: data/yelp.appdata.xml.in:9
 msgid ""
@@ -135,8 +103,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -154,18 +122,15 @@ msgid "Invalid compressed data"
 msgstr ""
 
 #: libyelp/yelp-bz2-decompressor.c:149 libyelp/yelp-lzma-decompressor.c:158
-#, fuzzy
 msgid "Not enough memory"
-msgstr "Gein gehögen meer"
+msgstr ""
 
-# werd niet gevonden?
-# aangetroffen?
 #: libyelp/yelp-docbook-document.c:292 libyelp/yelp-info-document.c:221
 #: libyelp/yelp-mallard-document.c:306 libyelp/yelp-mallard-document.c:464
 #: libyelp/yelp-man-document.c:199
-#, fuzzy, c-format
+#, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
-msgstr "Dei selecteerde sied kon neit in dit dukment vonden worden."
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:331 libyelp/yelp-info-document.c:358
 #: libyelp/yelp-man-document.c:336
@@ -196,13 +161,11 @@ msgstr ""
 msgid "Unknown"
 msgstr "Onbekend"
 
-# werd niet gevonden?
-# aangetroffen?
 #: libyelp/yelp-docbook-document.c:908 libyelp/yelp-info-document.c:301
 #: libyelp/yelp-man-document.c:279
-#, fuzzy, c-format
+#, c-format
 msgid "The requested page was not found in the document ‘%s’."
-msgstr "Dei selecteerde sied kon neit in dit dukment vonden worden."
+msgstr ""
 
 #: libyelp/yelp-document.c:1068
 #, c-format
@@ -223,9 +186,8 @@ msgid "An unknown error occurred."
 msgstr ""
 
 #: libyelp/yelp-help-list.c:548 libyelp/yelp-help-list.c:557
-#, fuzzy
 msgid "All Help Documents"
-msgstr "Dukmenten"
+msgstr ""
 
 #: libyelp/yelp-info-document.c:383
 #, c-format
@@ -249,9 +211,8 @@ msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
 msgstr ""
 
 #: libyelp/yelp-transform.c:519
-#, fuzzy
 msgid "No href attribute found on yelp:document\n"
-msgstr "Gein href-attribüüt vonden op yelp:document"
+msgstr ""
 
 #: libyelp/yelp-transform.c:534
 msgid "Out of memory"
@@ -295,14 +256,13 @@ msgid "The URI does not point to a valid page."
 msgstr ""
 
 #: libyelp/yelp-view.c:820 libyelp/yelp-view.c:2150
-#, fuzzy, c-format
+#, c-format
 msgid "The URI ‘%s’ could not be parsed."
-msgstr "Et selecteerde bestand kon neit lesen worden."
+msgstr ""
 
 #: libyelp/yelp-view.c:825
-#, fuzzy
 msgid "Unknown Error."
-msgstr "Onbekend"
+msgstr ""
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -347,9 +307,8 @@ msgid "Could not load a document"
 msgstr ""
 
 #: libyelp/yelp-view.c:1966
-#, fuzzy
 msgid "Document Not Found"
-msgstr "Dokment-URI"
+msgstr ""
 
 #: libyelp/yelp-view.c:1968
 msgid "Page Not Found"
@@ -360,9 +319,8 @@ msgid "Cannot Read"
 msgstr ""
 
 #: libyelp/yelp-view.c:1977
-#, fuzzy
 msgid "Unknown Error"
-msgstr "Onbekend"
+msgstr ""
 
 #: src/yelp-application.c:59
 msgid "Turn on editor mode"
@@ -386,28 +344,24 @@ msgid "Menu"
 msgstr ""
 
 #: src/yelp-window.c:371
-#, fuzzy
 msgid "New Window"
-msgstr "/Bestand/_Nei vinster"
+msgstr ""
 
 #: src/yelp-window.c:372
-#, fuzzy
 msgid "Find…"
-msgstr "Söüken"
+msgstr ""
 
 #: src/yelp-window.c:373
 msgid "Print…"
 msgstr ""
 
 #: src/yelp-window.c:378
-#, fuzzy
 msgid "Previous Page"
-msgstr "/Ga naar/V_orige sied"
+msgstr ""
 
 #: src/yelp-window.c:379
-#, fuzzy
 msgid "Next Page"
-msgstr "/Ga naar/_Völgende sied"
+msgstr ""
 
 #: src/yelp-window.c:384
 msgid "Larger Text"
@@ -418,18 +372,16 @@ msgid "Smaller Text"
 msgstr ""
 
 #: src/yelp-window.c:390
-#, fuzzy
 msgid "All Help"
-msgstr "Hulp"
+msgstr ""
 
 #: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
 msgstr ""
 
 #: src/yelp-window.c:427
-#, fuzzy
 msgid "Bookmarks"
-msgstr "Bouk"
+msgstr ""
 
 #: src/yelp-window.c:444
 msgid "No bookmarks"
@@ -450,444 +402,3 @@ msgstr "Hulp bie GNOME"
 #: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr ""
-
-#~ msgid "Applets"
-#~ msgstr "Paneelprogramma's"
-
-#~ msgid "Applications"
-#~ msgstr "Toupassens"
-
-#~ msgid "Development"
-#~ msgstr "Development"
-
-#~ msgid "Development Environments"
-#~ msgstr "Ontwikkelomgevens"
-
-#~ msgid "Development Tools"
-#~ msgstr "Ontwikkelings-warktüüg"
-
-#~ msgid "Editors"
-#~ msgstr "Bewarkers"
-
-#~ msgid "Education Applications"
-#~ msgstr "Educatieve toupassens"
-
-#~ msgid "Games and Entertainment"
-#~ msgstr "Spöllen en amusement"
-
-#~ msgid "General"
-#~ msgstr "Algemein"
-
-#~ msgid "Help Contents"
-#~ msgstr "Hulp Inholdsopgave"
-
-#~ msgid "Internet Applications"
-#~ msgstr "Internettoupassens"
-
-#~ msgid "KDE"
-#~ msgstr "KDE"
-
-#~ msgid "Kernels"
-#~ msgstr "Kernels"
-
-#~ msgid "Multimedia Applications"
-#~ msgstr "Multimediatoupassens"
-
-# Office niet vertalen?
-#~ msgid "Office and Productivity Applications"
-#~ msgstr "Kentoor- en productiviteitstoupassens"
-
-#~ msgid "Scientific Applications"
-#~ msgstr "Wetenschappelke toupassens"
-
-#~ msgid "Securities"
-#~ msgstr "Veilighaid"
-
-#~ msgid "System"
-#~ msgstr "Systeem"
-
-#~ msgid "Utilities"
-#~ msgstr "Hulpmiddels"
-
-#~ msgid "X Applications"
-#~ msgstr "X-toupassens"
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid "C_ase sensitive"
-#~ msgstr "_Hoofdlettergevoulig"
-
-#~ msgid "_Find: "
-#~ msgstr "_Söüken: "
-
-#~ msgid "_Next"
-#~ msgstr "_Völgende"
-
-#~ msgid "_Previous"
-#~ msgstr "V_orige"
-
-# hele discussie hierover op http://home.o2w.net/~ivo/wiki.pl?WrapAround
-# Betere vertaling hier in yelp?
-#~ msgid "_Wrap around"
-#~ msgstr "_Trügloop"
-
-#~ msgid "Yelp"
-#~ msgstr "Yelp"
-
-#~ msgid "Yelp Factory"
-#~ msgstr "Yelp-fabriek"
-
-#~ msgid "Titlepage"
-#~ msgstr "Titelsied"
-
-#~ msgid "Contents"
-#~ msgstr "Inholdsopgave"
-
-#~ msgid "The selected document could not be opened"
-#~ msgstr "Et selecteerde dukment kon neit opend worden"
-
-#~ msgid "The table of contents could not be read."
-#~ msgstr "Dei inholdsopgave kon neit lesen worden."
-
-#~ msgid "DocBook SGML documents are no longer supported."
-#~ msgstr "DocBook SGML-dukmenten worden neit meer unnerstöönd."
-
-#~ msgid "Define which cache directory to use"
-#~ msgstr "Angeven welke map mout worden bruukt voor tiedelke opslag"
-
-#~ msgid "Could not activate Yelp: '%s'"
-#~ msgstr "Kon Yelp neit opstarten: '%s'"
-
-#~ msgid "Could not open new window."
-#~ msgstr "Kon gein nei vinster openen."
-
-#~ msgid "X11"
-#~ msgstr "X11"
-
-#~ msgid "OpenSSL"
-#~ msgstr "OpenSSL"
-
-#~ msgid "Termcap"
-#~ msgstr "Termcap"
-
-#~ msgid "Perl"
-#~ msgstr "Perl"
-
-#~ msgid "Qt"
-#~ msgstr "Qt"
-
-#~ msgid "TIFF"
-#~ msgstr "TIFF"
-
-#~ msgid "PThreads"
-#~ msgstr "PThreads"
-
-#~ msgid "System Calls"
-#~ msgstr "Systeemfunkties"
-
-#~ msgid "Library Functions"
-#~ msgstr "Bibliotheekfunkties"
-
-#~ msgid "Kernel Routines"
-#~ msgstr "Kernelroutines"
-
-#~ msgid "Hardware Devices"
-#~ msgstr "Hardware-apparatuur"
-
-#~ msgid "Configuration Files"
-#~ msgstr "Konfiguratiebestanden"
-
-#~ msgid "Games"
-#~ msgstr "Spölletjes"
-
-#~ msgid "Overviews"
-#~ msgstr "Oversichten"
-
-#~ msgid "System Administration"
-#~ msgstr "Systeemadministratie"
-
-#~ msgid "The URI of the document to be processed"
-#~ msgstr "Dei URI van t te verwerken dukment"
-
-#~ msgid "YelpTocPager: Pause count is negative."
-#~ msgstr "YelpTocPager: Pauserentelling is negatiev."
-
-#~ msgid "Could not load the OMF file '%s'."
-#~ msgstr "Kon t OMF-bestand neit laden: '%s'."
-
-#~ msgid "Categories"
-#~ msgstr "Kategorieën"
-
-#~ msgid "/_File"
-#~ msgstr "/_Bestand"
-
-#~ msgid "/File/_Close window"
-#~ msgstr "/Bestand/Vnster _sluten"
-
-#~ msgid "/_Edit"
-#~ msgstr "/Be_warken"
-
-#~ msgid "/Edit/_Find..."
-#~ msgstr "/Bewarken/_Söüken..."
-
-#~ msgid "/Edit/Find Ne_xt"
-#~ msgstr "/Bewarken/_Völgende zöüken"
-
-#~ msgid "/Edit/Find Pre_vious"
-#~ msgstr "/Bewarken/V_orige söüken"
-
-#~ msgid "/_Go"
-#~ msgstr "/_Ga naar"
-
-#~ msgid "/Go/_Back"
-#~ msgstr "/Ga naar/V_orige"
-
-#~ msgid "/Go/_Forward"
-#~ msgstr "/Ga naar/_Völgende"
-
-#~ msgid "/Go/_Home"
-#~ msgstr "/Ga naar/_Startsied"
-
-#~ msgid "/Go/"
-#~ msgstr "/_Ga naar/"
-
-#~ msgid "/Go/_Contents"
-#~ msgstr "/Ga naar/_Inholdsopgave"
-
-#~ msgid "/_Help"
-#~ msgstr "/_Hulp"
-
-#~ msgid "/Help/_About"
-#~ msgstr "/Hulp/_Info"
-
-#~ msgid "Help Browser"
-#~ msgstr "Hulp-browser"
-
-#~ msgid "Section"
-#~ msgstr "Sektie"
-
-#~ msgid "Show previous page in history"
-#~ msgstr "Dei vorige sied tonen"
-
-#~ msgid "Show next page in history"
-#~ msgstr "Dei völgende sied tonen"
-
-#~ msgid "Home"
-#~ msgstr "Startsied"
-
-#~ msgid "Go to home view"
-#~ msgstr "Dei startsied tonen"
-
-#~ msgid "Loading..."
-#~ msgstr "Besig mit laden..."
-
-#~ msgid "translator_credits"
-#~ msgstr "Kenneth Christiansen <kenneth@gnu.org"
-
-#~ msgid "&#8216;"
-#~ msgstr "&#8216;"
-
-#~ msgid "&#8217;"
-#~ msgstr "&#8217;"
-
-#~ msgid "&#8220;"
-#~ msgstr "&#8220;"
-
-#~ msgid "&#8221;"
-#~ msgstr "&#8221;"
-
-# onderdeel beter dan artikel
-#~ msgid "About This Article"
-#~ msgstr "Över dit onderdeil"
-
-#~ msgid "About This Bibliography"
-#~ msgstr "Över disse bibliografie"
-
-#~ msgid "About This Book"
-#~ msgstr "Över dit bouk"
-
-#~ msgid "About This Chapter"
-#~ msgstr "Över dit hoofdstuk"
-
-#~ msgid "About This Entry"
-#~ msgstr "Över dit unnerwerp"
-
-#~ msgid "About This Glossary"
-#~ msgstr "Över disse woordenliest"
-
-#~ msgid "About This Index"
-#~ msgstr "Över disse indeks"
-
-#~ msgid "About This Part"
-#~ msgstr "Över dit onderdeil"
-
-#~ msgid "About This Preface"
-#~ msgstr "Över dit inleiding"
-
-#~ msgid "About This Reference"
-#~ msgstr "Över disse referentie"
-
-#~ msgid "About This Section"
-#~ msgstr "Över disse sektie"
-
-#~ msgid "About This Set"
-#~ msgstr "Över disse touhoopstellen"
-
-#~ msgid "Affiliation"
-#~ msgstr "Verwantschup"
-
-#~ msgid "Appendix"
-#~ msgstr "Appendiks"
-
-#~ msgid "Article"
-#~ msgstr "Artikel"
-
-#~ msgid "Audience"
-#~ msgstr "Publiek"
-
-#~ msgid "Author"
-#~ msgstr "Autöör"
-
-#~ msgid "Authors"
-#~ msgstr "Autöörs"
-
-#~ msgid "Bibliography"
-#~ msgstr "Bibliografie"
-
-#~ msgid "Caution"
-#~ msgstr "Waarschuwing"
-
-#~ msgid "Chapter"
-#~ msgstr "Hoofdstuk"
-
-# Medeschrijver?
-#~ msgid "Collaborator"
-#~ msgstr "Medewarker"
-
-# Medeschrijver?
-#~ msgid "Collaborators"
-#~ msgstr "Medewarkers"
-
-#~ msgid "Colophon"
-#~ msgstr "Kolofoon"
-
-#~ msgid "Copyright"
-#~ msgstr "Autöörsrecht"
-
-# onvertaald laten?
-#~ msgid "Copyrights"
-#~ msgstr "Autöörsrechten"
-
-#~ msgid "Date"
-#~ msgstr "Datum"
-
-#~ msgid "Dedication"
-#~ msgstr "Touwieding"
-
-#~ msgid "Editor"
-#~ msgstr "Bewarker"
-
-#~ msgid "Email"
-#~ msgstr "E-mail"
-
-#~ msgid "Example"
-#~ msgstr "Vöörbeeld"
-
-#~ msgid "Figure"
-#~ msgstr "Figuur"
-
-#~ msgid "Glossary"
-#~ msgstr "Woordenliest"
-
-#~ msgid "Important"
-#~ msgstr "Belangriek"
-
-#~ msgid "Index"
-#~ msgstr "Indeks"
-
-# Kort:
-# Rechtspraak
-#~ msgid "Legal Notice"
-#~ msgstr "Juridische opmarking"
-
-#~ msgid "Level"
-#~ msgstr "Nivo"
-
-#~ msgid "Message Audience"
-#~ msgstr "Berichtpubliek"
-
-#~ msgid "Message Level"
-#~ msgstr "Berichtnivo"
-
-#~ msgid "Message Origin"
-#~ msgstr "Berichtbron"
-
-#~ msgid "Note"
-#~ msgstr "Opmerking"
-
-#~ msgid "Origin"
-#~ msgstr "Afkomst"
-
-# bijdrager
-#~ msgid "Other Contributor"
-#~ msgstr "Andere medewarker"
-
-# bijdrager
-#~ msgid "Other Contributors"
-#~ msgstr "Överige medewarkers"
-
-#~ msgid "Part"
-#~ msgstr "Deil"
-
-# inleiding
-#~ msgid "Preface"
-#~ msgstr "Vöörwoord"
-
-#~ msgid "Publisher"
-#~ msgstr "Uutgever"
-
-#~ msgid "Publishers"
-#~ msgstr "Uutgevers"
-
-#~ msgid "Reference"
-#~ msgstr "Verwiesen"
-
-#~ msgid "Reference Entry"
-#~ msgstr "Referentieunnerwarp"
-
-#~ msgid "Reference Section"
-#~ msgstr "Referentiesektie"
-
-# specifieke informatie?
-#~ msgid "Release Information"
-#~ msgstr "Versie-informatie"
-
-# herziening
-#~ msgid "Revision History"
-#~ msgstr "Revisiegeschiedenis"
-
-#~ msgid "See"
-#~ msgstr "Sei"
-
-#~ msgid "See Also"
-#~ msgstr "Sei ook"
-
-# is dit de goede context?
-#~ msgid "Set Index"
-#~ msgstr "Indeks instellen"
-
-#~ msgid "Table"
-#~ msgstr "Tabel"
-
-#~ msgid "Table of Contents"
-#~ msgstr "Inholdsopgave"
-
-#~ msgid "Tip"
-#~ msgstr "Tip"
-
-#~ msgid "Title"
-#~ msgstr "Titel"
-
-#~ msgid "Warning"
-#~ msgstr "Waarschuwen"

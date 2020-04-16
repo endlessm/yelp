@@ -1,92 +1,83 @@
-# translation of yelp.master.po to Hindi
-# Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009, 2011 Free Software Foundation, Inc.
-# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2004.
-# Rajesh Ranjan <rranjan@redhat.com>, 2005, 2006, 2008, 2009, 2011, 2013.
-# G Karunakar <karunakar@freedomink.org>, 2007.
-# G Karunakar <karunakar@indlinux.org>, 2007.
-# chandankumar(ciypro) <chandankumar.093047@gmail.com>, 2012.
-# rajesh <rajesh>, 2014.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# Chandan kumar <chandankumar.093047@gmail.com>, 2012
+# Chandan kumar <chandankumar.093047@gmail.com>, 2012
+# 25c299dc371da5bff014f86901f492aa, 2017
+# G Karunakar <karunakar@freedomink.org>, 2007
+# Karunakar Guntupalli <karunakar@indlinux.org>, 2007
+# Karunakar Guntupalli <karunakar@indlinux.org>, 2007
+# rajesh <rajesh>, 2014
+# Rajesh Ranjan <rranjan@redhat.com>, 2005-2006,2008-2009,2011,2013
+# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2004
+# Roddy Shuler <roddy@stanfordalumni.org>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: yelp.master\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2020-04-16 23:40+0100\n"
-"PO-Revision-Date: 2014-09-21 08:03+0630\n"
-"Last-Translator: rajesh <rajesh>\n"
-"Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
-"Language: hi\n"
+"PO-Revision-Date: 2020-04-16 22:44+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Hindi (http://www.transifex.com/endless-os/yelp/language/hi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"\n"
-"X-Generator: Lokalize 1.5\n"
+"Language: hi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
 msgstr "प्रारंभ करना"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr "इंटरनेट"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr "दस्तावेज़ और फ़ाइलें"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
 msgstr "डेस्कटॉप"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr "प्रिंटर, डिस्प्ले और सहायक सामग्री"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr "विश्वव्यापी पहुँच"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr "सुरक्षा और गोपनीयता"
@@ -98,9 +89,7 @@ msgstr "सुरक्षा और गोपनीयता"
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "<string/> संस्थापित करें"
@@ -117,24 +106,19 @@ msgstr "GNOME के लिए सहायता दर्शक"
 msgid ""
 "Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
 "also display DocBook, info, man, and HTML documentation."
-msgstr ""
-"Yelp GNOME का हेल्प व्यूअर है। यह डिफ़ॉल्ट मल्लार्ड व्यूअर है, लेकिन यह डॉकबुक, सूचना, मेन "
-"और HTML डॉक्यूमेंट भी प्रदर्शित कर सकता है।"
+msgstr "Yelp GNOME का हेल्प व्यूअर है। यह डिफ़ॉल्ट मल्लार्ड व्यूअर है, लेकिन यह डॉकबुक, सूचना, मेन और HTML डॉक्यूमेंट भी प्रदर्शित कर सकता है।"
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
-msgstr ""
-"यह इंटरैक्टिव खोज और बुकमार्क के साथ आपके द्वारा आवश्यक डॉक्यूमेंट को ढूंढना आसान बनाता है।"
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
+msgstr "यह इंटरैक्टिव खोज और बुकमार्क के साथ आपके द्वारा आवश्यक डॉक्यूमेंट को ढूंढना आसान बनाता है।"
 
 #: data/yelp.appdata.xml.in:17
 msgid ""
 "It also has an editor mode, which shows editorial comments and revision "
 "statuses when editing Mallard documents."
-msgstr ""
-"इसमें एक संपादन मोड भी है, जो Mallard दस्तावेज़ो को संपादित करते समय संपादकीय टिप्पणियों "
-"और संशोधन की स्थिति को दर्शाता है।"
+msgstr "इसमें एक संपादन मोड भी है, जो Mallard दस्तावेज़ो को संपादित करते समय संपादकीय टिप्पणियों और संशोधन की स्थिति को दर्शाता है।"
 
 #: data/yelp.appdata.xml.in:30
 msgid "The GNOME Project"
@@ -178,9 +162,7 @@ msgstr "‘%s’ फ़ाइल विश्लेषित नहीं कर
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"‘%s’ फ़ाइल विश्लेषित नहीं कर सका क्योंकि इसमें शामिल एक या अधिक फ़ाइल सही XML दस्तावेज़ "
-"नहीं है."
+msgstr "‘%s’ फ़ाइल विश्लेषित नहीं कर सका क्योंकि इसमें शामिल एक या अधिक फ़ाइल सही XML दस्तावेज़ नहीं है."
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -291,8 +273,7 @@ msgstr "अज्ञात त्रुटि."
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"आपके पास  PackageKit नहीं है. संकुल संस्थापन लिंक को PackageKit की आवश्यकता होती है."
+msgstr "आपके पास  PackageKit नहीं है. संकुल संस्थापन लिंक को PackageKit की आवश्यकता होती है."
 
 #: libyelp/yelp-view.c:1226
 msgid "Save Image"
@@ -428,188 +409,3 @@ msgstr "गनोम से मदद लें"
 #: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr "दस्तावेज़ीकरण;सूचना;मैनुअल;सहायता;"
-
-#~ msgid "Indexed"
-#~ msgstr "सूचीबद्ध"
-
-#~ msgid "Whether the document content has been indexed"
-#~ msgstr "क्या दस्तावेज़ सामग्री को तालिकाबद्ध किया गया है"
-
-#~ msgid "Document URI"
-#~ msgstr "दस्तावेज URI"
-
-#~ msgid "The URI which identifies the document"
-#~ msgstr "यूआरआइ जो दस्तावेज़ को पहचानती है "
-
-#~ msgid "View"
-#~ msgstr "दृश्य"
-
-#~ msgid "A YelpView instance to control"
-#~ msgstr "YelpView इंसटैंस के नियंत्रण के लिए"
-
-#~ msgid "A YelpBookmarks implementation instance"
-#~ msgstr "YelpBookmarks कार्यान्वयन इंसटैंस"
-
-#~ msgid "GtkSettings"
-#~ msgstr "GtkSettings"
-
-#~ msgid "A GtkSettings object to get settings from"
-#~ msgstr " सेटिंग्स प्राप्त करने हेतु GtkSettings ऑब्जैक्ट"
-
-#~ msgid "GtkIconTheme"
-#~ msgstr "GtkIconTheme"
-
-#~ msgid "A GtkIconTheme object to get icons from"
-#~ msgstr "चिह्न प्राप्त करने हेतु GtkIconTheme ऑब्जैक्ट"
-
-#~ msgid "Font Adjustment"
-#~ msgstr "फॉन्ट समायोजन"
-
-#~ msgid "A size adjustment to add to font sizes"
-#~ msgstr "फ़ॉन्ट आकार को जोड़ने के लिए आकार समायोजन"
-
-#~ msgid "Show Text Cursor"
-#~ msgstr "पाठ कर्सर दिखाएँ"
-
-#~ msgid "Show the text cursor or caret for accessible navigation"
-#~ msgstr "पहुंचनीय नेविगेशन के लिए पाठ कर्सर या हंसपद चिन्ह दिखाएँ"
-
-#~ msgid "Editor Mode"
-#~ msgstr "संपादक विधि"
-
-#~ msgid "Enable features useful to editors"
-#~ msgstr "संपादकों के लिए उपयोगी सुविधाओं को सक्षम करें"
-
-#~ msgid "Database filename"
-#~ msgstr "डाटाबेसे फ़ाइलनाम"
-
-#~ msgid "The filename of the sqlite database"
-#~ msgstr "sqlite डाटाबेस के फ़ाइल का नाम"
-
-#~ msgid "XSLT Stylesheet"
-#~ msgstr "XSLT स्टाइलशीट"
-
-#~ msgid "The location of the XSLT stylesheet"
-#~ msgstr "XSLT स्टाइलशीट का स्थान"
-
-#~ msgid "Yelp URI"
-#~ msgstr "Yelp URI"
-
-#~ msgid "A YelpUri with the current location"
-#~ msgstr "मौजूदा स्थान के साथ YelpUri"
-
-#~ msgid "The loading state of the view"
-#~ msgstr "दृश्य का स्थिति लोड कर रहा है"
-
-#~ msgid "Page ID"
-#~ msgstr "पृष्ठ ID"
-
-#~ msgid "The ID of the root page of the page being viewed"
-#~ msgstr "पृष्ठ के रूट पृष्ठ की आईडी को देखा जा रहा है"
-
-#~ msgid "Root Title"
-#~ msgstr "रूट शीर्षक"
-
-#~ msgid "The title of the root page of the page being viewed"
-#~ msgstr "पृष्ठ के रूट पृष्ठ की शीर्षक को देखा जा रहा है"
-
-#~ msgid "Page Title"
-#~ msgstr "पृष्ठ शीर्षक"
-
-#~ msgid "The title of the page being viewed"
-#~ msgstr "पृष्ठ के शीर्षक को देखा जा रहा है"
-
-#~ msgid "Page Description"
-#~ msgstr "पृष्ठ वर्णन"
-
-#~ msgid "The description of the page being viewed"
-#~ msgstr "पृष्ठ के वर्णन को देखा जा रहा है"
-
-#~ msgid "Page Icon"
-#~ msgstr "पृष्ठ प्रतीक"
-
-#~ msgid "The icon of the page being viewed"
-#~ msgstr "पृष्ठ केप्रतीक को देखा जा रहा है"
-
-#~ msgid "See all search results for “%s”"
-#~ msgstr " “%s” के लिए सारे खोज परिणाम देखें"
-
-#~ msgid "Search for packages containing this document."
-#~ msgstr "इस दस्तावेज़ युक्त संकुल के लिए खोज."
-
-#~ msgid "Application"
-#~ msgstr "अनुप्रयोग"
-
-#~ msgid "A YelpApplication instance that controls this window"
-#~ msgstr "YelpApplication इंस्टेंस जो इस विंडो को नियंत्रित करता है"
-
-#~ msgid "Enable Search"
-#~ msgstr "ढूंढना सक्षम करें"
-
-#~ msgid "Whether the location entry can be used as a search field"
-#~ msgstr "क्या स्थान प्रविष्टि एक खोज फ़ील्ड के रूप में इस्तेमाल किया जा सकता है"
-
-#~ msgid "Search..."
-#~ msgstr "खोजें..."
-
-#~ msgid "Clear the search text"
-#~ msgstr "खोज पाठ साफ करें"
-
-#~ msgid "Bookmark this page"
-#~ msgstr "यह पृष्ठ पुस्तचिह्नित करें"
-
-#~ msgid "Remove bookmark"
-#~ msgstr "पुस्तचिह्न मिटाएँ"
-
-#~ msgid "Loading"
-#~ msgstr "लोड हो रहा है"
-
-#~ msgid "_Print..."
-#~ msgstr "छापें... (_P)"
-
-#~ msgid "Increase the size of the text"
-#~ msgstr "पाठ का आकार बढ़ाएँ"
-
-#~ msgid "Decrease the size of the text"
-#~ msgstr "पाठ का आकार घटाएँ"
-
-#~ msgid "Show Text _Cursor"
-#~ msgstr "पाठ कर्सर दिखाएँ (_C)"
-
-#~ msgid "_Page"
-#~ msgstr "पृष्ठ"
-
-#~ msgid "_View"
-#~ msgstr "देखें (_V)"
-
-#~ msgid "_Go"
-#~ msgstr "जाएँ (_G)"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "पसंद (_B)"
-
-#~ msgid "_Close"
-#~ msgstr "बंद करें (_C)"
-
-#~ msgid "_All Documents"
-#~ msgstr "सभी दस्तावेज"
-
-#~ msgid "Find in Page..."
-#~ msgstr "इस पृष्ठ में ढूँढें..."
-
-#~ msgid "Open Location"
-#~ msgstr "स्थान खोलें"
-
-#~ msgid "Read Link _Later"
-#~ msgstr "लिंक बाद में (_L) पढ़ें"
-
-#~ msgid "Read Later"
-#~ msgstr "इसे बाद में पढ़ें"
-
-#~ msgid "%i match"
-#~ msgid_plural "%i matches"
-#~ msgstr[0] "%i match"
-#~ msgstr[1] "%i matches"
-
-#~ msgid "No matches"
-#~ msgstr "कोई मेल नहीं"

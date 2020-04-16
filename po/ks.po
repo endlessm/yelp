@@ -1,89 +1,74 @@
-# translation of yelp.HEAD.hi.po to yelp.HEAD.ks.po
-# Copyright (C) 2007 Rakesh Pandit
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Rakesh Pandit <rakesh.pandit@gmail.com>, 2007.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# Rakesh Pandit <rakesh.pandit@gmail.com>, 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: ks\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2020-04-16 23:40+0100\n"
-"PO-Revision-Date: 2008-06-28 07:40+0530\n"
-"Last-Translator: Rakesh Pandit <rakesh.pandit@gmail.com>\n"
-"Language-Team: Kashmiri <ks-gnome-trans-commits@lists.code.indlinux.net>\n"
-"Language: ks\n"
+"PO-Revision-Date: 2020-04-16 22:44+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Kashmiri (http://www.transifex.com/endless-os/yelp/language/ks/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ks\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr "इन्टरनेट्"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
-#, fuzzy
 msgid "Documents &amp; Files"
-msgstr "आवाज &amp; विड्यो"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "डेस्कटॉप"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -95,17 +80,14 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr ""
 
 #: data/yelp.appdata.xml.in:6
-#, fuzzy
 msgid "GNOME Help"
-msgstr "गनोम मदद बरोजर"
+msgstr ""
 
 #: data/yelp.appdata.xml.in:7
 msgid "Help viewer for GNOME"
@@ -119,8 +101,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -138,22 +120,20 @@ msgid "Invalid compressed data"
 msgstr ""
 
 #: libyelp/yelp-bz2-decompressor.c:149 libyelp/yelp-lzma-decompressor.c:158
-#, fuzzy
 msgid "Not enough memory"
-msgstr "मेम्री नयबर"
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:292 libyelp/yelp-info-document.c:221
 #: libyelp/yelp-mallard-document.c:306 libyelp/yelp-mallard-document.c:464
 #: libyelp/yelp-man-document.c:199
-#, fuzzy, c-format
+#, c-format
 msgid "The page ‘%s’ was not found in the document ‘%s’."
-msgstr "य: वरुख %s आव न: यमन कागजन %s मंज अथ्थिह्"
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:331 libyelp/yelp-info-document.c:358
 #: libyelp/yelp-man-document.c:336
-#, fuzzy
 msgid "The file does not exist."
-msgstr "यह् फाइल ‘%s’ छय्यिनी।"
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:341 libyelp/yelp-info-document.c:368
 #: libyelp/yelp-man-document.c:346
@@ -173,9 +153,7 @@ msgstr "फायल ‘%s’ ह्यको न: पारस करिथ क
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"फायल ‘%s’ ह्यको न: पारस करिथ कयाजकिह् अक्य खोत ज्याद ईन्कलुडिड फायलछन्न ठीक एक्सएमएल "
-"कागज"
+msgstr "फायल ‘%s’ ह्यको न: पारस करिथ कयाजकिह् अक्य खोत ज्याद ईन्कलुडिड फायलछन्न ठीक एक्सएमएल कागज"
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -183,14 +161,14 @@ msgstr "खबरकस"
 
 #: libyelp/yelp-docbook-document.c:908 libyelp/yelp-info-document.c:301
 #: libyelp/yelp-man-document.c:279
-#, fuzzy, c-format
+#, c-format
 msgid "The requested page was not found in the document ‘%s’."
-msgstr "मगोमूत पेज औस न: कागजस %s मंज"
+msgstr ""
 
 #: libyelp/yelp-document.c:1068
-#, fuzzy, c-format
+#, c-format
 msgid "Search results for “%s”"
-msgstr "छंडिव नतीजि \"%s\" खत्तर:"
+msgstr ""
 
 #: libyelp/yelp-document.c:1080
 #, c-format
@@ -216,19 +194,19 @@ msgid ""
 msgstr "फासल ‘%s’ हयको न: पारस करिथ क्याज की यह् छुन ठीक इन्नफो वरुख।"
 
 #: libyelp/yelp-mallard-document.c:348
-#, fuzzy, c-format
+#, c-format
 msgid "The directory ‘%s’ does not exist."
-msgstr "यह् फाइल ‘%s’ छय्यिनी।"
+msgstr ""
 
 #: libyelp/yelp-search-entry.c:434
-#, fuzzy, c-format
+#, c-format
 msgid "Search for “%s”"
-msgstr "छंडिव नतीजि \"%s\" खत्तर:"
+msgstr ""
 
 #: libyelp/yelp-transform.c:370 libyelp/yelp-transform.c:385
-#, fuzzy, c-format
+#, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
-msgstr "एक्सएसएलटी सटायलशीट्टह् ‘%s’ छ: गह्ब या छंन ठीक।"
+msgstr ""
 
 #: libyelp/yelp-transform.c:519
 msgid "No href attribute found on yelp:document\n"
@@ -243,51 +221,46 @@ msgid "C_opy Code Block"
 msgstr ""
 
 #: libyelp/yelp-view.c:257
-#, fuzzy
 msgid "_Copy Link Location"
-msgstr "जाय खूलिव"
+msgstr ""
 
 #: libyelp/yelp-view.c:262
 msgid "_Open Link"
 msgstr "लिंक  खूलिव(_0)"
 
 #: libyelp/yelp-view.c:267
-#, fuzzy
 msgid "Open Link in New _Window"
-msgstr "लिंक नवि विंडो मंज खूलिव(_N)"
+msgstr ""
 
 #: libyelp/yelp-view.c:277
-#, fuzzy
 msgid "_Install Packages"
-msgstr "मैनुअल वरख"
+msgstr ""
 
 #: libyelp/yelp-view.c:282
 msgid "Save Code _Block As…"
 msgstr ""
 
 #: libyelp/yelp-view.c:297
-#, fuzzy
 msgid "_Copy Text"
-msgstr "नकल (_C)"
+msgstr ""
 
 #: libyelp/yelp-view.c:809 libyelp/yelp-view.c:2138
-#, fuzzy, c-format
+#, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
-msgstr "यह् फाइल ‘%s’ छय्यिनी।"
+msgstr ""
 
 #: libyelp/yelp-view.c:815 libyelp/yelp-view.c:2144
 msgid "The URI does not point to a valid page."
 msgstr ""
 
 #: libyelp/yelp-view.c:820 libyelp/yelp-view.c:2150
-#, fuzzy, c-format
+#, c-format
 msgid "The URI ‘%s’ could not be parsed."
-msgstr "यह् फाइल ‘%s’ छय्यिनी।"
+msgstr ""
 
 #: libyelp/yelp-view.c:825
-#, fuzzy
 msgid "Unknown Error."
-msgstr "खबरकस गलती"
+msgstr ""
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -332,19 +305,16 @@ msgid "Could not load a document"
 msgstr ""
 
 #: libyelp/yelp-view.c:1966
-#, fuzzy
 msgid "Document Not Found"
-msgstr "कागजिक हिस्स:"
+msgstr ""
 
 #: libyelp/yelp-view.c:1968
-#, fuzzy
 msgid "Page Not Found"
-msgstr "वरुख आव न: अथ्थिह्"
+msgstr ""
 
 #: libyelp/yelp-view.c:1971
-#, fuzzy
 msgid "Cannot Read"
-msgstr "विंडो ह्यको न: बनह्वित"
+msgstr ""
 
 #: libyelp/yelp-view.c:1977
 msgid "Unknown Error"
@@ -360,38 +330,32 @@ msgid "Help"
 msgstr "मदद"
 
 #: src/yelp-window.c:348
-#, fuzzy
 msgid "Back"
-msgstr "पतिम"
+msgstr ""
 
 #: src/yelp-window.c:355
-#, fuzzy
 msgid "Forward"
-msgstr "बरोट्ठ (_F)"
+msgstr ""
 
 #: src/yelp-window.c:366
 msgid "Menu"
 msgstr ""
 
 #: src/yelp-window.c:371
-#, fuzzy
 msgid "New Window"
-msgstr "नोव विंडो (_N)"
+msgstr ""
 
 #: src/yelp-window.c:372
-#, fuzzy
 msgid "Find…"
-msgstr "छंडिव"
+msgstr ""
 
 #: src/yelp-window.c:373
-#, fuzzy
 msgid "Print…"
-msgstr "प्रंट"
+msgstr ""
 
 #: src/yelp-window.c:378
-#, fuzzy
 msgid "Previous Page"
-msgstr "पतिम (_P)"
+msgstr ""
 
 #: src/yelp-window.c:379
 msgid "Next Page"
@@ -406,9 +370,8 @@ msgid "Smaller Text"
 msgstr ""
 
 #: src/yelp-window.c:390
-#, fuzzy
 msgid "All Help"
-msgstr "मदद"
+msgstr ""
 
 #: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
@@ -419,9 +382,8 @@ msgid "Bookmarks"
 msgstr "पसंदुक निशान"
 
 #: src/yelp-window.c:444
-#, fuzzy
 msgid "No bookmarks"
-msgstr "पसंदुक निशान"
+msgstr ""
 
 #: src/yelp-window.c:452
 msgid "Add Bookmark"
@@ -438,719 +400,3 @@ msgstr "गनोम पय्टठ नियू मदद"
 #: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr ""
-
-#~ msgid "GNU Info Pages"
-#~ msgstr "गनू खबर्य वरख"
-
-#~ msgid "Traditional command line help (info)"
-#~ msgstr "आम कमान्ड सत्तर मदद (खबर)"
-
-#~ msgid "Applications"
-#~ msgstr "अमय्क प्रयोग"
-
-#~ msgid "BLT Functions"
-#~ msgstr "बीएलटी कामि:"
-
-#~ msgid "Configuration Files"
-#~ msgstr "डालन वाजिह फ़ाइल:"
-
-#~ msgid "Curses Functions"
-#~ msgstr "कर्सेस कामिह"
-
-#~ msgid "Development"
-#~ msgstr "बडावून"
-
-#~ msgid "FORTRAN Functions"
-#~ msgstr "फारटरेन कामिह"
-
-#~ msgid "Games"
-#~ msgstr "खय्यल:"
-
-#~ msgid "Hardware Devices"
-#~ msgstr "हार्डवेयरुक सामान"
-
-#~ msgid "Kernel Routines"
-#~ msgstr "कर्नेल रूटीन्स"
-
-#~ msgid "Network Audio Sound Functions"
-#~ msgstr "नेटवर्क आवाज कामिह्"
-
-#~ msgid "OpenSSL Applications"
-#~ msgstr "औपन एस एस एल्लक  प्रयोग"
-
-#~ msgid "OpenSSL Configuration"
-#~ msgstr "औपन एस एस एल डालून"
-
-#~ msgid "OpenSSL Functions"
-#~ msgstr "औपन एस एस एल्लक कामिह्"
-
-#~ msgid "OpenSSL Overviews"
-#~ msgstr "औपन एस एस एलस प्येठ प्येठ नजर"
-
-#~ msgid "Overviews"
-#~ msgstr "प्येठ प्येठ नजर"
-
-#~ msgid "POSIX Functions"
-#~ msgstr "पोजिक्स कामि:"
-
-#~ msgid "POSIX Headers"
-#~ msgstr "पोजिक्स कुनुई नाव"
-
-#~ msgid "Perl Functions"
-#~ msgstr "पर्ल कामिह्"
-
-#~ msgid "Qt Functions"
-#~ msgstr "क्योटी कामिह्"
-
-#~ msgid "Readline Functions"
-#~ msgstr "कामिह्"
-
-#~ msgid "Section 0p"
-#~ msgstr "हिय्स: 0p"
-
-#~ msgid "Section 1m"
-#~ msgstr "हिय्स: 1m"
-
-#~ msgid "Section 1ssl"
-#~ msgstr "हिय्स: 1ssl"
-
-#~ msgid "Section 1x"
-#~ msgstr "हिय्स: 1x"
-
-#~ msgid "Section 2"
-#~ msgstr "हिय्स: 2"
-
-#~ msgid "Section 3blt"
-#~ msgstr "हिय्स: 3blt"
-
-#~ msgid "Section 3f"
-#~ msgstr "हिय्स: 3f"
-
-#~ msgid "Section 3nas"
-#~ msgstr "हिय्स: 3nas"
-
-#~ msgid "Section 3p"
-#~ msgstr "हिय्स: 3p"
-
-#~ msgid "Section 3qt"
-#~ msgstr "हिय्स: 3qt"
-
-#~ msgid "Section 3readline"
-#~ msgstr "हिय्स: 3readline"
-
-#~ msgid "Section 3ssl"
-#~ msgstr "हिय्स: 3ssl"
-
-#~ msgid "Section 3tiff"
-#~ msgstr "हिय्स: 3tiff"
-
-#~ msgid "Section 4"
-#~ msgstr "हिय्स: 4"
-
-#~ msgid "Section 4x"
-#~ msgstr "हिय्स: 4x"
-
-#~ msgid "Section 5"
-#~ msgstr "हिय्स: 5"
-
-#~ msgid "Section 5ssl"
-#~ msgstr "हिय्स: 5ssl"
-
-#~ msgid "Section 5x"
-#~ msgstr "हिय्स: 5x"
-
-#~ msgid "Section 6"
-#~ msgstr "हिय्स: 6"
-
-#~ msgid "Section 6x"
-#~ msgstr "हिय्स: 6x"
-
-#~ msgid "Section 7ssl"
-#~ msgstr "हिय्स: 7ssl"
-
-#~ msgid "Section 7x"
-#~ msgstr "हिय्स: 7x"
-
-#~ msgid "Section 9"
-#~ msgstr "हिय्स: 9"
-
-#~ msgid "Sections 1, 1p, 1g and 1t"
-#~ msgstr "हिय्स: 1, 1p, 1g तह् 1t"
-
-#~ msgid "Sections 3, 3o, and 3t"
-#~ msgstr "हिय्स: 3, 3o, तह् 3t"
-
-#~ msgid "Sections 3form and 3menu"
-#~ msgstr "हिय्स: 3form तह् 3menu"
-
-#~ msgid "Sections 3ncurses and 3curses"
-#~ msgstr "हिय्स: 3ncurses तह् 3curses"
-
-#~ msgid "Sections 3pm and 3perl"
-#~ msgstr "हिय्स: 3pm तह् 3perl"
-
-#~ msgid "Sections 3x and 3X11"
-#~ msgstr "हिय्स: 3x तह् 3X11"
-
-#~ msgid "Sections 7 and 7gcc"
-#~ msgstr "हिय्स: 7 तह् 7gcc"
-
-#~ msgid "Sections 8 and 8l"
-#~ msgstr "हिय्स: 8 तह् 8l"
-
-#~ msgid "System Administration"
-#~ msgstr "सिस्टम नजर थव्न वोल"
-
-#~ msgid "System Calls"
-#~ msgstr "सिस्टम काल्स"
-
-#~ msgid "System V Form/Menu Functions"
-#~ msgstr "सिस्टम वी फार्म मेनु कामिह्"
-
-#~ msgid "TIFF Functions"
-#~ msgstr "टी आई एफ एफ कामिह्"
-
-#~ msgid "Termcap Applications"
-#~ msgstr "टरमकेप प्रयोग"
-
-#~ msgid "Traditional command line help (man)"
-#~ msgstr "प्रर्यन्यह् कमान्ड लायन मदद (मेन्न)"
-
-#~ msgid "X11 Applications"
-#~ msgstr "एक्स11"
-
-#~ msgid "X11 Configuration"
-#~ msgstr "एक्स11"
-
-#~ msgid "X11 Devices"
-#~ msgstr "एक्स11"
-
-#~ msgid "X11 Functions"
-#~ msgstr "एक्स11"
-
-#~ msgid "X11 Games"
-#~ msgstr "एक्स11"
-
-#~ msgid "X11 Overviews"
-#~ msgstr "एक्स11 प्येठ प्येठ नजर"
-
-#, fuzzy
-#~ msgid "2D Graphics"
-#~ msgstr "गर्फेकिस"
-
-#, fuzzy
-#~ msgid "3D Graphics"
-#~ msgstr "गर्फेकिस"
-
-#~ msgid "Accessibility"
-#~ msgstr "एक्सेसिबिलिटी"
-
-#, fuzzy
-#~ msgid "Action Games"
-#~ msgstr "हिय्स: 3nas"
-
-#, fuzzy
-#~ msgid "Applications for viewing and manipulating graphics"
-#~ msgstr "गरेफकस बदलनूक तह् वुछनुक सामान"
-
-#, fuzzy
-#~ msgid "Applications related to audio and video"
-#~ msgstr "एक्स विन्डोउक सामान"
-
-#, fuzzy
-#~ msgid "Applications that teach or aid in learning"
-#~ msgstr "इन्टरनेटुक सामान"
-
-#, fuzzy
-#~ msgid "Board Games"
-#~ msgstr "खय्यल:"
-
-#, fuzzy
-#~ msgid "Card Games"
-#~ msgstr "खय्यल:"
-
-#, fuzzy
-#~ msgid "Desktop Settings"
-#~ msgstr "डेस्कटॉप"
-
-#~ msgid "Education"
-#~ msgstr "पढ्ह्य्य़"
-
-#, fuzzy
-#~ msgid "Email Tools"
-#~ msgstr "सिस्ट्म सामान"
-
-#, fuzzy
-#~ msgid "File Tools"
-#~ msgstr "सिस्ट्म सामान"
-
-#, fuzzy
-#~ msgid "GNOME Applications"
-#~ msgstr "एक्स सामान"
-
-#, fuzzy
-#~ msgid "Generic applications for the KDE environment"
-#~ msgstr "य्यम कागजात छ:  केडीई डेस्कटॉपिक"
-
-#~ msgid "Graphics"
-#~ msgstr "गर्फेकिस"
-
-#, fuzzy
-#~ msgid "Hardware Settings"
-#~ msgstr "हार्डवेयरुक सामान"
-
-#, fuzzy
-#~ msgid "KDE Applications"
-#~ msgstr "एक्स सामान"
-
-#, fuzzy
-#~ msgid "Kids Games"
-#~ msgstr "खय्यल:"
-
-#, fuzzy
-#~ msgid "Logic Games"
-#~ msgstr "खय्यल:"
-
-#, fuzzy
-#~ msgid "Miscellaneous Documentation"
-#~ msgstr "अलग अलग तराह्कि कागजात"
-
-#, fuzzy
-#~ msgid "Office Applications"
-#~ msgstr "बाक्य्य"
-
-#, fuzzy
-#~ msgid "Office applications"
-#~ msgstr "बाक्य्य"
-
-#~ msgid "Other Documentation"
-#~ msgstr "बाक्कय कागज्"
-
-#~ msgid "Printing"
-#~ msgstr "प्रंट करान"
-
-#, fuzzy
-#~ msgid "Raster Graphics"
-#~ msgstr "गर्फेकिस"
-
-#, fuzzy
-#~ msgid "Science"
-#~ msgstr "सयन्टिफक"
-
-#, fuzzy
-#~ msgid "Settings"
-#~ msgstr "हिय्स: 1ssl"
-
-#, fuzzy
-#~ msgid "Sound &amp; Video Editing"
-#~ msgstr "आवाज &amp; विड्यो"
-
-#, fuzzy
-#~ msgid "Spreadsheet Tools"
-#~ msgstr "सिस्ट्म सामान"
-
-#, fuzzy
-#~ msgid "System"
-#~ msgstr "सिस्टम काल्स"
-
-#, fuzzy
-#~ msgid "Text Tools"
-#~ msgstr "सिस्ट्म सामान"
-
-#, fuzzy
-#~ msgid "Tools to help you manage your computer"
-#~ msgstr "तुहुंद कम्पयूटर समभालन्न खत्तर सामान"
-
-#, fuzzy
-#~ msgid "Utilities to help you get work done"
-#~ msgstr "तुहुंद कम्पयूटर समभालन्न खत्तर सामान"
-
-#, fuzzy
-#~ msgid "Vector Graphics"
-#~ msgstr "गर्फेकिस"
-
-#, fuzzy
-#~ msgid "Web Browser"
-#~ msgstr "मदद बरवजर"
-
-#, fuzzy
-#~ msgid "Web Development"
-#~ msgstr "बडावून"
-
-#~ msgid "Welcome to the GNOME Help Browser"
-#~ msgstr "तोह्य छुव गनोम मदद बरोजर मंज स्वागत"
-
-#~ msgid "<b>Accessibility</b>"
-#~ msgstr "<b>ऐस्सबवटी</b>"
-
-#~ msgid "<b>Fonts</b>"
-#~ msgstr "<b>फ़ॉन्ट्स</b>"
-
-#~ msgid "C_ase sensitive"
-#~ msgstr "लकुट या बोड अक्षर (_a)"
-
-#~ msgid "Preferences"
-#~ msgstr "रुचिया:"
-
-#~ msgid "Re_name"
-#~ msgstr "नोव नाव (_n)"
-
-#~ msgid "_Bookmarks:"
-#~ msgstr "पसंदुक निशान (_B)"
-
-#~ msgid "_Browse with caret"
-#~ msgstr "कैरेट सय्यत करिव: बरुज"
-
-#~ msgid "_Find:"
-#~ msgstr "छंडिव (_F)"
-
-#~ msgid "_Fixed width:"
-#~ msgstr "बराबर खजर (_F)"
-
-#~ msgid "_Location:"
-#~ msgstr "जाय (_L)"
-
-#~ msgid "_Next"
-#~ msgstr "पत्त: (_N)"
-
-#~ msgid "_Title:"
-#~ msgstr "शीर्षक (_T)"
-
-#~ msgid "_Use system fonts"
-#~ msgstr "सिस्ट्म फांट करिव: ईसत्यमाल(_U)"
-
-#~ msgid "_Variable width:"
-#~ msgstr "वेरेबल खजर (_V)"
-
-#~ msgid "_Wrap around"
-#~ msgstr "अयंद अयंद वलूव(_W)"
-
-#~ msgid "Font for fixed text"
-#~ msgstr "बराबर टैक्सट खत्तर: फॉन्ट"
-
-#~ msgid "Font for text"
-#~ msgstr "टैक्सट खत्तर: फॉन्ट"
-
-#~ msgid "Font for text with fixed width."
-#~ msgstr "बराबर खजरूक टैक्सट खत्तर: फॉन्ट"
-
-#~ msgid "Font for text with variable width."
-#~ msgstr "वेरेबल खजरूक टैक्सट खत्तर: फॉन्ट"
-
-#~ msgid "Use a keyboard-controllable caret when viewing pages."
-#~ msgstr "पेज वुच्छन विज किबोड केरेट इस्तिमाल"
-
-#~ msgid "Use caret"
-#~ msgstr "केरेट करिव इस्तेमाल"
-
-#~ msgid "Use system fonts"
-#~ msgstr "सिस्टम फॉन्ट करिव इस्तेमाल"
-
-#~ msgid "Use the default fonts set for the system."
-#~ msgstr "सिस्टम खत्तर: करिव डिफाल्ट फोंटुक इस्तेमाल"
-
-#~ msgid "Open Bookmark in New Window"
-#~ msgstr "पसंदुक निशान करिव इस्तेमाल"
-
-#~ msgid "Rename Bookmark"
-#~ msgstr "पसंदिक निशानुक नाव  बदल्यव"
-
-#~ msgid "A bookmark titled %s already exists for this page."
-#~ msgstr "आक: पसंदुक निशान %s छु बरोंठुई याथ वरखस प्यठ।"
-
-#~ msgid "A bookmark titled <b>%s</b> already exists for this page."
-#~ msgstr "आक: पसंदुक निशान नाव <b>%s</b> छु बरोंठुई याथ वरखस प्यठ।"
-
-#~ msgid "Help Topics"
-#~ msgstr "मदद मूदद"
-
-#~ msgid "File not found"
-#~ msgstr "फाइल आय न: अथ्थय:"
-
-#~ msgid "Could not parse file"
-#~ msgstr "यह् फायल ह्यको न: पारस करिथ"
-
-#~ msgid "Could Not Read File"
-#~ msgstr "यह फाइल ह्यको न: परिथ"
-
-#~ msgid "No information is available about this error."
-#~ msgstr "य़थ गलती बारे मंज छन काह्: जानकरी"
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be read and decoded. The file may be compressed "
-#~ "in an unsupported format."
-#~ msgstr "फायल ‘%s’ ह्यको न परिथ या डिकोड करिथय। यह् फायलुक कामप्रसड फारमेटुकछुन्न "
-
-#~ msgid "Use a private session"
-#~ msgstr "पनुन सेशन करिव ईस्तेमाल"
-
-#~ msgid "Define which cache directory to use"
-#~ msgstr "यह् दपिव कि कस कैश डिरेक्ट्री करिव ईसतेमाल"
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be parsed because it is not a well-formed man "
-#~ "page."
-#~ msgstr "यह् फायल ‘%s’ हयको न: पारस करिथ कयाज कि यह् छुन्न ठिक मेन पेज"
-
-#~ msgid "Preparing to print"
-#~ msgstr "प्रंट खत्तर तयरी"
-
-#~ msgid "Printing is not supported on this printer"
-#~ msgstr "प्रंटर्र छुन्न करान प्रंट"
-
-#~ msgid "Printer %s does not support postscript printing."
-#~ msgstr "प्रंटर्र %s छुन्न करान पौस्टसकरिपट प्रंट"
-
-#~ msgid "Waiting to print"
-#~ msgstr "परंट करनस प्ररिव"
-
-#~ msgid "An error occurred while printing"
-#~ msgstr "प्रट करान विज आव आकह् गल्ती"
-
-#~ msgid "It was not possible to print your document: %s"
-#~ msgstr "तुहंज कागजात: %s प्रंट करनिच अस्स न: गुनज्यश"
-
-#~ msgid "the GNOME Support Forums"
-#~ msgstr "गनोम मदद फौरम"
-
-#~ msgid "No results for \"%s\""
-#~ msgstr "\"%s\" खत्तर छुन काह् नतिज"
-
-#~ msgid ""
-#~ "Try using different words to describe the problem you're having or the "
-#~ "topic you want help with."
-#~ msgstr "अलग शब्दन मंज पंनिन परेशनी या टापिककरिव जह्यर"
-
-#~ msgid "Repeat the search online at %s"
-#~ msgstr "य: छाडुन कर्यतव आनलायन बेय्य %s प्यठ"
-
-#~ msgid "re"
-#~ msgstr "NULL"
-
-#~ msgid "ers:er:ing:es:s:'s"
-#~ msgstr "NULL"
-
-#~ msgid "Search could not be processed"
-#~ msgstr "छाडुन हयोक न परासेस करिथ"
-
-#~ msgid "The requested search could not be processed."
-#~ msgstr "यह् मंगमूत्त छांडून हयोक न: परासेस करितह्"
-
-#~ msgid "Cannot process the search"
-#~ msgstr "छांडनुक परास्से हयको न: करित"
-
-#~ msgid "The search processor returned invalid results"
-#~ msgstr "छांडनूक परास्सेरन कोर न: ठीक नतिज वापस"
-
-#~ msgid "The page %s was not found in the TOC."
-#~ msgstr "पेज %s औस न टाकस मंज"
-
-#~ msgid "The requested page was not found in the TOC."
-#~ msgstr "मगोमूत पेज औस न टाकस मंज"
-
-#~ msgid ""
-#~ "The TOC file could not be parsed because it is not a well-formed XML "
-#~ "document."
-#~ msgstr "टाक फाईल ह्यकव न: पारस करिथ कयाजिह् कि यह छुनह् ठीक एकएमएलकागज"
-
-#~ msgid "Invalid Stylesheet"
-#~ msgstr "खराब सटायलशीट्टह्"
-
-#~ msgid "Broken Transformation"
-#~ msgstr "फूट्टमिच: टरान्सफरमेशन"
-
-#~ msgid ""
-#~ "An unknown error occurred while attempting to transform the document."
-#~ msgstr "आक्ह अनजान गलती गय याथ कागजस तबदिल करनस मंज"
-
-#~ msgid "_File"
-#~ msgstr "फ़ाइल (_F)"
-
-#~ msgid "_Edit"
-#~ msgstr "एडिट (_E)"
-
-#~ msgid "_Go"
-#~ msgstr "गच्छिव (_G)"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "पसंद (_B)"
-
-#~ msgid "_Help"
-#~ msgstr "मदद (_H)"
-
-#~ msgid "Print This Document ..."
-#~ msgstr "यी: कागज छप्पवय्व"
-
-#~ msgid "Print This Page ..."
-#~ msgstr "यी: वरुख छप्पवय्व"
-
-#~ msgid "About This Document"
-#~ msgstr "यम्य: कागज मुतलिक"
-
-#~ msgid "Open _Location"
-#~ msgstr "यी जाय खुलिव (_L)"
-
-#~ msgid "_Close Window"
-#~ msgstr "विंडो करिव बन्द (_C)"
-
-#~ msgid "_Select All"
-#~ msgstr "सारि तुलिव (_S)"
-
-#~ msgid "_Find..."
-#~ msgstr "छंडिव (_F)..."
-
-#~ msgid "Find Pre_vious"
-#~ msgstr "छंडिव पतिम (_P)"
-
-#~ msgid "Find previous occurrence of the word or phrase"
-#~ msgstr "पतिम शब्द या पर्च्छ्छ छंडिव"
-
-#~ msgid "Find Ne_xt"
-#~ msgstr "बरूठिम छंडिव (_N)"
-
-#~ msgid "Find next occurrence of the word or phrase"
-#~ msgstr "बरूठिम शब्द या पर्च्छ्छ छंडिव"
-
-#~ msgid "_Preferences"
-#~ msgstr "रुचिः (_P)"
-
-#~ msgid "_Reload"
-#~ msgstr "बेय्य गस्य लोड (_R)"
-
-#~ msgid "Show previous page in history"
-#~ msgstr "पतिम वरूक वुच्छिव हिस्टरी मंज"
-
-#~ msgid "Show next page in history"
-#~ msgstr "दयम वरूक वुच्छिव हिस्टरी मंज"
-
-#~ msgid "_Help Topics"
-#~ msgstr "मदद टॉपिक (_H)"
-
-#~ msgid "Go to the listing of help topics"
-#~ msgstr "मदद लिस्ट वुच्छनी गसिव"
-
-#~ msgid "_Previous Section"
-#~ msgstr "पतिम हिस्ह् (_P)"
-
-#~ msgid "_Next Section"
-#~ msgstr "बरुठिम हिस्ह् (_N)"
-
-#~ msgid "_Contents"
-#~ msgstr "आथ: मंज (_C)"
-
-#~ msgid "_Add Bookmark"
-#~ msgstr "नोव्व पसन्द निशान (_A)"
-
-#~ msgid "_Edit Bookmarks..."
-#~ msgstr "एडिट करिव पसन्द निशान. . . (_E)"
-
-#~ msgid "_Copy Link Address"
-#~ msgstr "नकल करिव लिंक एड्डरस(_C)"
-
-#~ msgid "Help On this application"
-#~ msgstr "यथ सामानच् मदद"
-
-#~ msgid "_About"
-#~ msgstr "आथ: बारे मंज (_A)"
-
-#~ msgid "Copy _Email Address"
-#~ msgstr "ईमेल पता करिव नकल (_E)"
-
-#~ msgid "Help Browser"
-#~ msgstr "मदद बरवजर"
-
-#~ msgid "Loading..."
-#~ msgstr "पकान..."
-
-#~ msgid "Unknown Page"
-#~ msgstr "यम पेज्जच छनह् पयी"
-
-#~ msgid "The requested URI \"%s\" is invalid"
-#~ msgstr "रिक्वेसटिड यूआरएल \"%s\" छु गलत"
-
-#~ msgid "Unable to load page"
-#~ msgstr "यह पेज ह्यको न: लोड"
-
-#~ msgid "Error executing \"gnome-open\""
-#~ msgstr "गलती आय \"gnome-open\" चलावनस मंज"
-
-#~ msgid "_Search:"
-#~ msgstr "छंडिव (_S)"
-
-#~ msgid "Search for other documentation"
-#~ msgstr "दयमन कागजन छंडिव"
-
-#~ msgid "Cannot create search component"
-#~ msgstr "छांडनुक हिस्ह ह्यको न: बनह्वित"
-
-#~ msgid "Fin_d:"
-#~ msgstr "छंडिव (_d)"
-
-#~ msgid "Find _Previous"
-#~ msgstr "पत्तिम छंडिव (_P)"
-
-#~ msgid "Find _Next"
-#~ msgstr "दय्यम छंडिव (_N)"
-
-#~ msgid "Phrase not found"
-#~ msgstr "यह् परर्च्छ आय न: अय्थह्"
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be read.  This file might be missing, or you "
-#~ "might not have permissions to read it."
-#~ msgstr ""
-#~ "‘%s’ फाइल हय्किव न: परित। यह: फाइल छ: रवमच्च या च्य छय्य न: आग्या यह् परनस ।"
-
-#~ msgid "translator-credits"
-#~ msgstr "राकेश पंडित (rakesh.pandit@gmail.com)"
-
-#~ msgid "Yelp"
-#~ msgstr "येल्प"
-
-#~ msgid "A documentation browser and viewer for the Gnome Desktop."
-#~ msgstr "गनोम डेस्कटॉप खत्तर: कागजय: ब्रॉउजर ।"
-
-#~ msgid "Accessories"
-#~ msgstr "मददतूक सामान"
-
-#~ msgid "Applications for fun"
-#~ msgstr "मजदार सामान"
-
-#~ msgid "Applications for word processing and other office tasks"
-#~ msgstr "कागजी कामिह् तह् आफिस्चह् कामिह् करनुक सामान"
-
-#~ msgid "Applications related to multimedia"
-#~ msgstr "मलटिह् मिडियाऊक सामान"
-
-#~ msgid "Applications related to software development"
-#~ msgstr "साफटविसर ढेव्लपमेंटुक सामान"
-
-#~ msgid "Applications specific to the panel"
-#~ msgstr "पेनलुक सामान"
-
-#~ msgid "Applications that support assistive technologies"
-#~ msgstr "ऐस्सटिव टेकनोलाजियुक सामान"
-
-#~ msgid "KDE"
-#~ msgstr "केडीई"
-
-#~ msgid "Learning applications"
-#~ msgstr "सामान चलावुन हैच्छुन"
-
-#~ msgid "Office"
-#~ msgstr "आफिस"
-
-#~ msgid "Panel Applets"
-#~ msgstr "पटलल एप्लेट्स"
-
-#~ msgid "Programming"
-#~ msgstr "प्रोग्रामिंग"
-
-#~ msgid "Scientific Applications."
-#~ msgstr "सयन्टिफक सामान"
-
-#~ msgid "Utility applications"
-#~ msgstr "सामान ठिक करन्न खत्तर सामान"
-
-#~ msgid "Variety of other applications"
-#~ msgstr "बाकय तरह हुक सामान"

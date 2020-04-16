@@ -1,100 +1,81 @@
-# translation of yelp.master.po to Galician
-# Galician translation of yelp.
-# Copyright (C) 2002-2004 Jesús Bravo Álvarez
-# First Version: 2002-05-25 20:05+0200
-# Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
-# colaborar connosco, podes atopar máis información en http://www.trasno.net
-# Jesús Bravo Álvarez <suso@trasno.net>, 2002-2004.
-# Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005, 2006.
-# Ignacio Casal Quinteiro <icq@svn.gnome.org>, 2007, 2008.
-# Suso Baleato <suso.baleato@xunta.es>, 2009.
-# Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009.
-# Antón Méixome <meixome@mancomun.org>, 2009.
-# Fran Diéguez <frandieguez@gnome.org>, 2010, 2011.
-# Leandro Regueiro <leandro.regueiro@gmail.com>, 2012.
-# Fran Dieguez <frandieguez@gnome.org>, 2011-2019.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# Antón Méixome <meixome@mancomun.org>, 2009
+# Fran Dieguez <frandieguez@gnome.org>, 2011-2016
+# Fran Diéguez <frandieguez@gnome.org>, 2010-2011
+# Ignacio Casal Quinteiro <icq@svn.gnome.org>, 2007-2008
+# Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005-2006
+# Leandro Regueiro <leandro.regueiro@gmail.com>, 2012
+# Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009
+# Suso Baleato <suso.baleato@xunta.es>, 2009
 msgid ""
 msgstr ""
-"Project-Id-Version: yelp.master\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2020-04-16 23:40+0100\n"
-"PO-Revision-Date: 2019-12-25 04:32+0100\n"
-"Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
-"Language-Team: Galician <proxecto@trasno.gal>\n"
-"Language: gl\n"
+"PO-Revision-Date: 2020-04-16 22:49+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Galician (http://www.transifex.com/endless-os/yelp/language/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: gl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.4\n"
-"X-Project-Style: gnome\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr "Internet"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -106,9 +87,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Instalar <string/>"
@@ -125,25 +104,19 @@ msgstr "Visor de axuda de GNOME"
 msgid ""
 "Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
 "also display DocBook, info, man, and HTML documentation."
-msgstr ""
-"Yelp é o visor de axuda de GNOME. É o visor por omisión de Mallard, pero "
-"tamén pode mostrar documentación en formato DocBook, info, man e HTML."
+msgstr "Yelp é o visor de axuda de GNOME. É o visor por omisión de Mallard, pero tamén pode mostrar documentación en formato DocBook, info, man e HTML."
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
-msgstr ""
-"Fai doado atopar a docuemntación que precisa, con busca interactiva e "
-"marcadores."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
+msgstr "Fai doado atopar a docuemntación que precisa, con busca interactiva e marcadores."
 
 #: data/yelp.appdata.xml.in:17
 msgid ""
 "It also has an editor mode, which shows editorial comments and revision "
 "statuses when editing Mallard documents."
-msgstr ""
-"Tamén conta con un modo editor, que mostra os comentarios editoriais e "
-"estados de revisión ao editar documentos Mallard."
+msgstr "Tamén conta con un modo editor, que mostra os comentarios editoriais e estados de revisión ao editar documentos Mallard."
 
 #: data/yelp.appdata.xml.in:30
 msgid "The GNOME Project"
@@ -180,17 +153,14 @@ msgstr "O ficheiro ‘%s’ non existe."
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"Non foi posíbel analizar o ficheiro ‘%s’ porque non é un documento HTML ben "
-"formado."
+msgstr "Non foi posíbel analizar o ficheiro ‘%s’ porque non é un documento HTML ben formado."
 
 #: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"Non foi posíbel o ficheiro ‘%s’ porque non é un documento XML ben formado."
+msgstr "Non foi posíbel o ficheiro ‘%s’ porque non é un documento XML ben formado."
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -228,9 +198,7 @@ msgstr "Tódolos documentos de axuda"
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"Non foi posíbel analizar o ficheiro ‘%s’ porque non é unha páxina de "
-"información ben elaborada."
+msgstr "Non foi posíbel analizar o ficheiro ‘%s’ porque non é unha páxina de información ben elaborada."
 
 #: libyelp/yelp-mallard-document.c:348
 #, c-format
@@ -303,9 +271,7 @@ msgstr "Erro descoñecido."
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"O seu sistema non ten PackageKit instalado. As ligazóns de instalación de "
-"paquetes requiren PackageKit."
+msgstr "O seu sistema non ten PackageKit instalado. As ligazóns de instalación de paquetes requiren PackageKit."
 
 #: libyelp/yelp-view.c:1226
 msgid "Save Image"
@@ -441,6 +407,3 @@ msgstr "Obter axuda co Gnome"
 #: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr "documentación;información;manual;axuda;"
-
-#~ msgid "Search for packages containing this document."
-#~ msgstr "Buscar os paquetes que conteñen este documento."

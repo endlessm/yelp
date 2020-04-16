@@ -1,94 +1,79 @@
-# Chinese (Hong Kong) translation of yelp.
-# Copyright (C) 2002-2006 Free Software Foundation, Inc.
-# Joe Man <trmetal@yahoo.com.hk>, 2002.
-# Roy Chan <roy.chan@linux.org.hk>, 2004.
-# Abel Cheung <abel@oaka.org>, 2002, 03, 05.
-# Woodman Tuen <wmtuen@gmail.com>, 2006.
-# Hialan Liu <hialan.liu@gmail.com>, 2008.
-# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2010.
-# Wei-Lun Chao <chaoweilun@gmail.com>, 2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2010
+# Hialan Liu <hialan.liu@gmail.com>, 2008
+# Joe Man <trmetal@yahoo.com.hk>, 2002
+# Roy Chan <roy.chan@linux.org.hk>, 2004
+# Wei-Lun Chao <chaoweilun@gmail.com>, 2010
+# Woodman Tuen <wmtuen@gmail.com>, 2006
 msgid ""
 msgstr ""
-"Project-Id-Version: yelp 3.3.3\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2020-04-16 23:40+0100\n"
-"PO-Revision-Date: 2014-08-19 20:30+0800\n"
-"Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
-"Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
-"Language: zh_HK\n"
+"PO-Revision-Date: 2020-04-16 22:44+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Chinese (Hong Kong) (http://www.transifex.com/endless-os/yelp/language/zh_HK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_HK\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.6.5\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "載入狀態"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -100,9 +85,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "安裝 <string/>"
@@ -123,8 +106,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -175,9 +158,7 @@ msgstr "無法解析檔案「%s」的內容，因為它並不是一個格式完�
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"無法解析檔案「%s」的內容，因為它所包含的一個或多個檔案並不是格式完善的 XML 文"
-"件。"
+msgstr "無法解析檔案「%s」的內容，因為它所包含的一個或多個檔案並不是格式完善的 XML 文件。"
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -283,9 +264,8 @@ msgid "The URI ‘%s’ could not be parsed."
 msgstr "無法解析 URI「%s」。"
 
 #: libyelp/yelp-view.c:825
-#, fuzzy
 msgid "Unknown Error."
-msgstr "不明的錯誤"
+msgstr ""
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -423,190 +403,5 @@ msgid "Get help with GNOME"
 msgstr "顯示 GNOME 說明文件"
 
 #: org.gnome.Yelp.desktop.in.in:5
-#, fuzzy
 msgid "documentation;information;manual;help;"
-msgstr "documentation;information;manual;文件;資訊;手冊;"
-
-#~ msgid "Indexed"
-#~ msgstr "已索引"
-
-#~ msgid "Whether the document content has been indexed"
-#~ msgstr "這份文件的內容是否已索引"
-
-#~ msgid "Document URI"
-#~ msgstr "文件 URI"
-
-#~ msgid "The URI which identifies the document"
-#~ msgstr "這份文件的識別 URI"
-
-#~ msgid "View"
-#~ msgstr "檢視"
-
-#~ msgid "A YelpView instance to control"
-#~ msgstr "要控制的 YelpView"
-
-#~ msgid "A YelpBookmarks implementation instance"
-#~ msgstr "YelpBookmarks 實作實體"
-
-#~ msgid "GtkSettings"
-#~ msgstr "GtkSettings"
-
-#~ msgid "A GtkSettings object to get settings from"
-#~ msgstr "用來取得設定值的 GtkSettings 物件"
-
-#~ msgid "GtkIconTheme"
-#~ msgstr "GtkIconTheme"
-
-#~ msgid "A GtkIconTheme object to get icons from"
-#~ msgstr "用來取得圖示的 GtkIconTheme 物件"
-
-#~ msgid "Font Adjustment"
-#~ msgstr "字型調整"
-
-#~ msgid "A size adjustment to add to font sizes"
-#~ msgstr "調整尺寸以加入字型大小"
-
-#~ msgid "Show Text Cursor"
-#~ msgstr "顯示文字游標"
-
-#~ msgid "Show the text cursor or caret for accessible navigation"
-#~ msgstr "顯示無障礙導覽的文字游標或鍵盤瀏覽"
-
-#~ msgid "Editor Mode"
-#~ msgstr "編輯器模式"
-
-#~ msgid "Enable features useful to editors"
-#~ msgstr "啟用對編輯器有用的功能"
-
-#~ msgid "Database filename"
-#~ msgstr "資料庫檔案名稱"
-
-#~ msgid "The filename of the sqlite database"
-#~ msgstr "sqlite 資料庫的檔案名稱"
-
-#~ msgid "XSLT Stylesheet"
-#~ msgstr "XSLT 樣式表"
-
-#~ msgid "The location of the XSLT stylesheet"
-#~ msgstr "XSLT 樣式表的位置"
-
-#~ msgid "Yelp URI"
-#~ msgstr "Yelp URI"
-
-#~ msgid "A YelpUri with the current location"
-#~ msgstr "YelpUri 目前的位置"
-
-#~ msgid "The loading state of the view"
-#~ msgstr "檢視的載入狀態"
-
-#~ msgid "Page ID"
-#~ msgstr "頁面 ID"
-
-#~ msgid "The ID of the root page of the page being viewed"
-#~ msgstr "已檢視過頁面的根頁面 ID"
-
-#~ msgid "Root Title"
-#~ msgstr "根標題"
-
-#~ msgid "The title of the root page of the page being viewed"
-#~ msgstr "已檢視過頁面的根頁面標題"
-
-#~ msgid "Page Title"
-#~ msgstr "頁面標題"
-
-#~ msgid "The title of the page being viewed"
-#~ msgstr "已檢視過的頁面標題"
-
-#~ msgid "Page Description"
-#~ msgstr "頁面描述"
-
-#~ msgid "The description of the page being viewed"
-#~ msgstr "已檢視過的頁面描述"
-
-#~ msgid "Page Icon"
-#~ msgstr "頁面圖示"
-
-#~ msgid "The icon of the page being viewed"
-#~ msgstr "已檢視過的頁面圖示"
-
-#~ msgid "See all search results for “%s”"
-#~ msgstr "查看所有「%s」的搜尋結果"
-
-#~ msgid "Search for packages containing this document."
-#~ msgstr "搜尋包含這份文件的套件。"
-
-#~ msgid "Application"
-#~ msgstr "應用程式"
-
-#~ msgid "A YelpApplication instance that controls this window"
-#~ msgstr "控制這個視窗的 YelpApplication 實體。"
-
-#~ msgid "Enable Search"
-#~ msgstr "啟用搜尋"
-
-#~ msgid "Whether the location entry can be used as a search field"
-#~ msgstr "位置項目是否可以用於搜尋欄位"
-
-#~ msgid "Search..."
-#~ msgstr "搜尋…"
-
-#~ msgid "Clear the search text"
-#~ msgstr "清除搜尋文字"
-
-#~ msgid "Bookmark this page"
-#~ msgstr "這一頁的書籤"
-
-#~ msgid "Remove bookmark"
-#~ msgstr "移除書籤"
-
-#~ msgid "Loading"
-#~ msgstr "載入中"
-
-#~ msgid "_Print..."
-#~ msgstr "列印(_P)…"
-
-#~ msgid "Increase the size of the text"
-#~ msgstr "將文字放大"
-
-#~ msgid "Decrease the size of the text"
-#~ msgstr "將文字縮小"
-
-#~ msgid "Show Text _Cursor"
-#~ msgstr "顯示文字游標(_C)"
-
-#~ msgid "_Page"
-#~ msgstr "頁面(_P)"
-
-#~ msgid "_View"
-#~ msgstr "檢視(_V)"
-
-#~ msgid "_Go"
-#~ msgstr "前往(_G)"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "書籤(_B)"
-
-#~ msgid "_Close"
-#~ msgstr "關閉(_C)"
-
-#~ msgid "_All Documents"
-#~ msgstr "所有文件(_A)"
-
-#~ msgid "Find in Page..."
-#~ msgstr "在頁面中尋找…"
-
-#~ msgid "Open Location"
-#~ msgstr "開啟位置"
-
-#~ msgid "Read Link _Later"
-#~ msgstr "稍後再閱讀連結(_L)"
-
-#~ msgid "Read Later"
-#~ msgstr "稍後再閱讀"
-
-#~ msgid "%i match"
-#~ msgid_plural "%i matches"
-#~ msgstr[0] "%i 項符合"
-
-#~ msgid "No matches"
-#~ msgstr "找不到符合項"
+msgstr ""

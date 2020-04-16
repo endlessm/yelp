@@ -1,89 +1,74 @@
-# translation of si.po to Sinhala
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Danishka Navin <snavin@redhat.com>, 2007.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# Danishka Navin <snavin@redhat.com>, 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: si\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2020-04-16 23:40+0100\n"
-"PO-Revision-Date: 2007-09-05 16:50+0530\n"
-"Last-Translator: Danishka Navin <snavin@redhat.com>\n"
-"Language-Team: Sinhala <en@li.org>\n"
-"Language: si\n"
+"PO-Revision-Date: 2020-04-16 22:44+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Sinhala (http://www.transifex.com/endless-os/yelp/language/si/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: si\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr "අන්තර්ජාලය"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "මූලික තිරය"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -95,9 +80,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr ""
@@ -118,8 +101,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -238,9 +221,8 @@ msgid "C_opy Code Block"
 msgstr ""
 
 #: libyelp/yelp-view.c:257
-#, fuzzy
 msgid "_Copy Link Location"
-msgstr "පිහිටීම විවෘත කරන්න"
+msgstr ""
 
 #: libyelp/yelp-view.c:262
 msgid "_Open Link"
@@ -259,9 +241,8 @@ msgid "Save Code _Block As…"
 msgstr ""
 
 #: libyelp/yelp-view.c:297
-#, fuzzy
 msgid "_Copy Text"
-msgstr "පිටපත් කරන්න (_C)"
+msgstr ""
 
 #: libyelp/yelp-view.c:809 libyelp/yelp-view.c:2138
 #, c-format
@@ -278,9 +259,8 @@ msgid "The URI ‘%s’ could not be parsed."
 msgstr ""
 
 #: libyelp/yelp-view.c:825
-#, fuzzy
 msgid "Unknown Error."
-msgstr "හඳුනානොගත් දෝෂයකි"
+msgstr ""
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -325,9 +305,8 @@ msgid "Could not load a document"
 msgstr ""
 
 #: libyelp/yelp-view.c:1966
-#, fuzzy
 msgid "Document Not Found"
-msgstr "ලේඛන තොරතුරු"
+msgstr ""
 
 #: libyelp/yelp-view.c:1968
 msgid "Page Not Found"
@@ -351,38 +330,32 @@ msgid "Help"
 msgstr "උදව්"
 
 #: src/yelp-window.c:348
-#, fuzzy
 msgid "Back"
-msgstr "පසු පසට (_B)"
+msgstr ""
 
 #: src/yelp-window.c:355
-#, fuzzy
 msgid "Forward"
-msgstr "ඉදිරියට (_F)"
+msgstr ""
 
 #: src/yelp-window.c:366
 msgid "Menu"
 msgstr ""
 
 #: src/yelp-window.c:371
-#, fuzzy
 msgid "New Window"
-msgstr "කවුළුව වසන්න (_C)"
+msgstr ""
 
 #: src/yelp-window.c:372
-#, fuzzy
 msgid "Find…"
-msgstr "සොයන්න"
+msgstr ""
 
 #: src/yelp-window.c:373
-#, fuzzy
 msgid "Print…"
-msgstr "මුද්‍රණය"
+msgstr ""
 
 #: src/yelp-window.c:378
-#, fuzzy
 msgid "Previous Page"
-msgstr "පෙර (_P)"
+msgstr ""
 
 #: src/yelp-window.c:379
 msgid "Next Page"
@@ -397,9 +370,8 @@ msgid "Smaller Text"
 msgstr ""
 
 #: src/yelp-window.c:390
-#, fuzzy
 msgid "All Help"
-msgstr "උදව්"
+msgstr ""
 
 #: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
@@ -410,9 +382,8 @@ msgid "Bookmarks"
 msgstr "පිටු සළකුණු"
 
 #: src/yelp-window.c:444
-#, fuzzy
 msgid "No bookmarks"
-msgstr "පිටු සළකුණු"
+msgstr ""
 
 #: src/yelp-window.c:452
 msgid "Add Bookmark"
@@ -429,135 +400,3 @@ msgstr ""
 #: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr ""
-
-#~ msgid "GNU Info Pages"
-#~ msgstr "GNU තොරතුරු පිටුව"
-
-#~ msgid "Applications"
-#~ msgstr "යෙදුම්"
-
-#~ msgid "Games"
-#~ msgstr "ක්‍රිඩා"
-
-#~ msgid "Overviews"
-#~ msgstr "දළ විශ්ලේෂණ"
-
-#~ msgid "X11 Applications"
-#~ msgstr "X11 යෙදුම්"
-
-#~ msgid "X11 Games"
-#~ msgstr "X11 ක්‍රීඩා"
-
-#~ msgid "Accessibility"
-#~ msgstr "පිවිසුම් හැකියාව"
-
-#~ msgid "Accessories"
-#~ msgstr "උපාංග"
-
-#~ msgid "Applications for fun"
-#~ msgstr "විනෝදය සඳහා යෙදුම්"
-
-#~ msgid "Education"
-#~ msgstr "අධ්‍යාපනිකපනික"
-
-#~ msgid "Graphics"
-#~ msgstr "චිත්‍ර"
-
-#~ msgid "KDE"
-#~ msgstr "KDE"
-
-#~ msgid "Learning applications"
-#~ msgstr "අධ්‍යාපනික යෙදුම්"
-
-#~ msgid "Office"
-#~ msgstr "කාර්‍යාලිය"
-
-#~ msgid "Other Applications"
-#~ msgstr "සෙසු යෙදුම්"
-
-#~ msgid "Programming"
-#~ msgstr "කේතරචනය"
-
-#~ msgid "Scientific"
-#~ msgstr "විද්‍යාත්මක"
-
-#~ msgid "Scientific Applications."
-#~ msgstr "විද්‍යාත්මක යෙදුම්."
-
-#~ msgid "System Tools"
-#~ msgstr "පද්දති මෙවලම්"
-
-#~ msgid "Preferences"
-#~ msgstr "අභිප්‍රේත"
-
-#~ msgid "_Find:"
-#~ msgstr "සොයන්න (_F):"
-
-#~ msgid "_Location:"
-#~ msgstr "පිහිටීම (_L):"
-
-#~ msgid "_Next"
-#~ msgstr "මීළඟ (_N)"
-
-#~ msgid "_Title:"
-#~ msgstr "සිරස්තලය: (_T)"
-
-#~ msgid "_Wrap around"
-#~ msgstr "වටා එතුම (_W)"
-
-#~ msgid "_File"
-#~ msgstr "ගොනු (_F)"
-
-#~ msgid "_Edit"
-#~ msgstr "සැකසුම් (_E)"
-
-#~ msgid "_Go"
-#~ msgstr "යන්න (_G)"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "පිටු සළකුණු (_B)"
-
-#~ msgid "_Help"
-#~ msgstr "උදව් (_H)"
-
-#~ msgid "About This Document"
-#~ msgstr "මෙම ලේඛණය පිළිබදව"
-
-#~ msgid "_Find..."
-#~ msgstr "සොයන්න... (_F)"
-
-#~ msgid "Find Pre_vious"
-#~ msgstr "පෙර සෙවුම (_x)"
-
-#~ msgid "Find Ne_xt"
-#~ msgstr "මීළඟ සෙවුම (_x)"
-
-#~ msgid "_Preferences"
-#~ msgstr "අභිප්‍රේත (_P)"
-
-#~ msgid "_Reload"
-#~ msgstr "ප්‍රතිපුරණය (_R)"
-
-#~ msgid "_Contents"
-#~ msgstr "අන්තර්ගත (_C)"
-
-#~ msgid "_Add Bookmark"
-#~ msgstr "පිටු සළකුණු එක් කරන්න (_A)"
-
-#~ msgid "_Copy Link Address"
-#~ msgstr "පුරුක් ලිපිනය පිටපත් කරන්න (_C)"
-
-#~ msgid "_About"
-#~ msgstr "සම්බන්ධව (_A)"
-
-#~ msgid "Loading..."
-#~ msgstr "පුරණය වෙමින්..."
-
-#~ msgid "Unknown Page"
-#~ msgstr "නොදන්නා පිටුව"
-
-#~ msgid "_Search:"
-#~ msgstr "සොයන්න (_S):"
-
-#~ msgid "translator-credits"
-#~ msgstr "පරිවර්තන ස්තුතිය"

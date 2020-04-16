@@ -1,95 +1,76 @@
-# translation of yelp.gnome-2-6.po to Tajik
-# translation of yelp.gnome-2-6.po to Тоҷикӣ
-# Copyright (C) 2003,2004 Free Software Foundation, Inc.
-# 2004, infoDev, a World Bank organization
-# 2004, Khujand Computer Technologies, Inc.
-# 2004, KCT1, NGO
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# Dilshod Marupov <dma165@hotmail.com>, 2003-2004
 # Roger Kovacs <rkovacs@khujand.org>, 2003
-# Dilshod Marupov <dma165@hotmail.com>, 2003, 2004
-# Victor Ibragimov <victor.ibragimov@gmail.com>, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2019
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2003-2015,2019
 msgid ""
 msgstr ""
-"Project-Id-Version: yelp[1].gnome-2-6\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2020-04-16 23:40+0100\n"
-"PO-Revision-Date: 2019-07-21 18:16+0500\n"
-"Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
-"Language-Team: Tajik\n"
-"Language: tg\n"
+"PO-Revision-Date: 2020-04-16 22:44+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Tajik (http://www.transifex.com/endless-os/yelp/language/tg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
-"Plural-Forms: nplurals=2; plural=1;\n"
+"Language: tg\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
-#, fuzzy
 msgid "Getting Started"
-msgstr "Боркунии вазъият"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
-#, fuzzy
 msgid "Internet"
-msgstr "Таркибҳо"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "Мизи корӣ"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -101,9 +82,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Насб кардани <string/>"
@@ -113,9 +92,8 @@ msgid "GNOME Help"
 msgstr ""
 
 #: data/yelp.appdata.xml.in:7
-#, fuzzy
 msgid "Help viewer for GNOME"
-msgstr "Барраси Ёрӣ барои GNOME"
+msgstr ""
 
 #: data/yelp.appdata.xml.in:9
 msgid ""
@@ -125,8 +103,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -170,18 +148,14 @@ msgstr "Файли ‘%s’ вуҷуд надорад."
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"Файли ‘%s’ таҷзия карда намешавад, зеро ки он дорои ҳуҷҷати XML-и шакли "
-"дуруст намебошад."
+msgstr "Файли ‘%s’ таҷзия карда намешавад, зеро ки он дорои ҳуҷҷати XML-и шакли дуруст намебошад."
 
 #: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"Файли ‘%s’ таҷзия карда намешавад, зеро ки як ё якчанд файлҳои даруни он "
-"дорои ҳуҷҷати XML-и шакли дуруст намебошанд."
+msgstr "Файли ‘%s’ таҷзия карда намешавад, зеро ки як ё якчанд файлҳои даруни он дорои ҳуҷҷати XML-и шакли дуруст намебошанд."
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -219,9 +193,7 @@ msgstr "Ҳамаи ҳуҷҷатҳои кумак"
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"Файли ‘%s’ таҷзия карда намешавад, зеро ки он дорои иттилооти шакли дуруст "
-"намебошад."
+msgstr "Файли ‘%s’ таҷзия карда намешавад, зеро ки он дорои иттилооти шакли дуруст намебошад."
 
 #: libyelp/yelp-mallard-document.c:348
 #, c-format
@@ -294,8 +266,7 @@ msgstr "Хатои номаълум."
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"Шумо PackageKit надоред. Бастаи насби пайвандҳо PackageKit-ро талаб мекунад."
+msgstr "Шумо PackageKit надоред. Бастаи насби пайвандҳо PackageKit-ро талаб мекунад."
 
 #: libyelp/yelp-view.c:1226
 msgid "Save Image"
@@ -429,686 +400,5 @@ msgid "Get help with GNOME"
 msgstr "Гирифтани кумак аз GNOME"
 
 #: org.gnome.Yelp.desktop.in.in:5
-#, fuzzy
 msgid "documentation;information;manual;help;"
-msgstr "санад;иттилоот;дастур;"
-
-#~ msgid "Indexed"
-#~ msgstr "Индексшуда"
-
-#~ msgid "Whether the document content has been indexed"
-#~ msgstr "Оё мӯҳтавои ҳуҷҷат ба индекс дароварда шудааст"
-
-#~ msgid "Document URI"
-#~ msgstr "Санади URI"
-
-#~ msgid "The URI which identifies the document"
-#~ msgstr "Суроғаи URI, ки ҳуҷҷатро муайян мекунад"
-
-#~ msgid "View"
-#~ msgstr "Намоиш"
-
-#~ msgid "A YelpView instance to control"
-#~ msgstr "Ҳолати YelpView барои идоракунӣ"
-
-#~ msgid "A YelpBookmarks implementation instance"
-#~ msgstr "Ҳолати иҷрокунии YelpBookmarks"
-
-#~ msgid "GtkSettings"
-#~ msgstr "Танзимоти GtkSettings"
-
-#~ msgid "A GtkSettings object to get settings from"
-#~ msgstr "Объекти GtkSettings барои гирифтани танзимот аз"
-
-#~ msgid "GtkIconTheme"
-#~ msgstr "Мавзӯи GtkIconTheme"
-
-#~ msgid "A GtkIconTheme object to get icons from"
-#~ msgstr "Объекти GtkIconTheme барои гирифтани нишонаҳо аз"
-
-#~ msgid "Font Adjustment"
-#~ msgstr "Танзими шрифт"
-
-#~ msgid "A size adjustment to add to font sizes"
-#~ msgstr "Танзими андоза барои илова кардан ба андозаҳои шрифт"
-
-#~ msgid "Show Text Cursor"
-#~ msgstr "Намоиш додани курсори матнӣ"
-
-#~ msgid "Show the text cursor or caret for accessible navigation"
-#~ msgstr "Намоиш додани курсори матнӣ ё аломати ^ барои паймоиш дастрас"
-
-#~ msgid "Editor Mode"
-#~ msgstr "Реҷаи муҳаррир"
-
-#~ msgid "Enable features useful to editors"
-#~ msgstr "Фаъол кардани хусусиятҳои фоиданоки муҳаррир"
-
-#~ msgid "Database filename"
-#~ msgstr "Номи файли пойгоҳи иттилоотӣ"
-
-#~ msgid "The filename of the sqlite database"
-#~ msgstr "Номи файли пойгоҳи иттилоотии sqlite"
-
-#~ msgid "XSLT Stylesheet"
-#~ msgstr "Сабки варақи XSLT"
-
-#~ msgid "The location of the XSLT stylesheet"
-#~ msgstr "Ҷойгиршавии сабки варақи XSLT"
-
-#~ msgid "Yelp URI"
-#~ msgstr "Суроғаи URI-и Yelp"
-
-#~ msgid "A YelpUri with the current location"
-#~ msgstr "YelpUri бо ҷойгиршавии ҷорӣ"
-
-#~ msgid "The loading state of the view"
-#~ msgstr "Ҳолати боргирии намуд"
-
-#~ msgid "Page ID"
-#~ msgstr "Рақами мушаххаси саҳифа"
-
-#~ msgid "The ID of the root page of the page being viewed"
-#~ msgstr "Рақами мушаххаси саҳифаи решагӣ аллакай намоиш дода шуда истодааст"
-
-#~ msgid "Root Title"
-#~ msgstr "Сарлавҳаи реша"
-
-#~ msgid "The title of the root page of the page being viewed"
-#~ msgstr "Сарлавҳаи саҳифаи решагӣ аллакай намоиш дода шуда истодааст"
-
-#~ msgid "Page Title"
-#~ msgstr "Сарлавҳаи саҳифа"
-
-#~ msgid "The title of the page being viewed"
-#~ msgstr "Сарлавҳаи саҳифа аллакай намоиш дода шуда истодааст"
-
-#~ msgid "Page Description"
-#~ msgstr "Саҳифаи тафсилот"
-
-#~ msgid "The description of the page being viewed"
-#~ msgstr "Тавсифи саҳифа аллакай намоиш дода шуда истодааст"
-
-#~ msgid "Page Icon"
-#~ msgstr "Нишонаи саҳифа"
-
-#~ msgid "The icon of the page being viewed"
-#~ msgstr "Нишонаи саҳифа аллакай намоиш дода шуда истодааст"
-
-#~ msgid "Search for packages containing this document."
-#~ msgstr "Бастаҳои дорои ин ҳуҷҷатро ҷустуҷӯ кунед."
-
-#~ msgid "Application"
-#~ msgstr "Барнома"
-
-#~ msgid "A YelpApplication instance that controls this window"
-#~ msgstr "Ҳолати YelpApplication, ки ин равзанаро идора мекунад"
-
-#~ msgid "See all search results for “%s”"
-#~ msgstr "Дидани ҳамаи натиҷаҳои ҷустуҷӯи “%s”"
-
-#~ msgid "Enable Search"
-#~ msgstr "Фаъол кардани ҷустуҷӯ"
-
-#~ msgid "Whether the location entry can be used as a search field"
-#~ msgstr "Вуруди ҷойгиршавӣ метавонад ҳамчун майдони ҷустуҷӯ истифода шавад"
-
-#~ msgid "Search..."
-#~ msgstr "Ҷустуҷӯ..."
-
-#~ msgid "Clear the search text"
-#~ msgstr "Пок кардани матни ҷустуҷӯӣ"
-
-#~ msgid "Bookmark this page"
-#~ msgstr "Гузоштани хатбарак ба ин саҳифа"
-
-#~ msgid "Remove bookmark"
-#~ msgstr "Тоза кардани хатбарак"
-
-#~ msgid "Loading"
-#~ msgstr "Бор шуда истодааст"
-
-#~ msgid "_Print..."
-#~ msgstr "_Чоп кардан..."
-
-#~ msgid "Increase the size of the text"
-#~ msgstr "Калон кардани андозаи матн"
-
-#~ msgid "Decrease the size of the text"
-#~ msgstr "Хурд кардани андозаи матн"
-
-#~ msgid "Show Text _Cursor"
-#~ msgstr "Намоиш додани _курсори матнӣ"
-
-#~ msgid "_Page"
-#~ msgstr "_Саҳифа"
-
-#~ msgid "_View"
-#~ msgstr "_Намоиш"
-
-#~ msgid "_Go"
-#~ msgstr "_Гузариш"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "_Хатбаракҳо"
-
-#~ msgid "_Close"
-#~ msgstr "_Пӯшидан"
-
-#~ msgid "_All Documents"
-#~ msgstr "_Ҳамаи ҳуҷҷатҳо"
-
-#~ msgid "Find in Page..."
-#~ msgstr "Ёфтан дар саҳифа..."
-
-#~ msgid "Open Location"
-#~ msgstr "Кушодани ҷойгиршавӣ"
-
-#~ msgid "Read Link _Later"
-#~ msgstr "Баъдтар хондани пайванд"
-
-#~ msgid "Find:"
-#~ msgstr "Ёфтан:"
-
-#~ msgid "Read Later"
-#~ msgstr "Баъдтар хондан"
-
-#~ msgid "%i match"
-#~ msgid_plural "%i matches"
-#~ msgstr[0] "%i мувофиқат"
-#~ msgstr[1] "%i мувофиқат"
-
-#~ msgid "No matches"
-#~ msgstr "Ягон мутобиқат ёфт нашуд"
-
-#~ msgid "Configuration Files"
-#~ msgstr "Файлҳои Батанзимдарорӣ"
-
-#~ msgid "Development"
-#~ msgstr "Коркард"
-
-#~ msgid "Games"
-#~ msgstr "Бозиҳо"
-
-#~ msgid "Hardware Devices"
-#~ msgstr "Дастгоҳҳои Сахтафзор"
-
-#~ msgid "Kernel Routines"
-#~ msgstr "Амрҳои оддии Ҳаста"
-
-#~ msgid "Library Functions"
-#~ msgstr "Вазифаҳои Китобхона"
-
-#, fuzzy
-#~ msgid "OpenSSL Applications"
-#~ msgstr "X Замимаҳо"
-
-#, fuzzy
-#~ msgid "OpenSSL Configuration"
-#~ msgstr "Файлҳои Батанзимдарорӣ"
-
-#, fuzzy
-#~ msgid "OpenSSL Overviews"
-#~ msgstr "Азназаргузаронӣ"
-
-#~ msgid "Overviews"
-#~ msgstr "Азназаргузаронӣ"
-
-#, fuzzy
-#~ msgid "Perl Functions"
-#~ msgstr "Вазифаҳои Китобхона"
-
-#, fuzzy
-#~ msgid "Qt Functions"
-#~ msgstr "Вазифаҳои Китобхона"
-
-#~ msgid "System Administration"
-#~ msgstr "Мудирияти Системавӣ"
-
-#~ msgid "System Calls"
-#~ msgstr "Бозхониҳои Системавӣ"
-
-#, fuzzy
-#~ msgid "Termcap Applications"
-#~ msgstr "X Замимаҳо"
-
-#, fuzzy
-#~ msgid "X11 Applications"
-#~ msgstr "X Замимаҳо"
-
-#, fuzzy
-#~ msgid "X11 Configuration"
-#~ msgstr "Файлҳои Батанзимдарорӣ"
-
-#, fuzzy
-#~ msgid "X11 Functions"
-#~ msgstr "Вазифаҳои Китобхона"
-
-#, fuzzy
-#~ msgid "X11 Games"
-#~ msgstr "Бозиҳо"
-
-#, fuzzy
-#~ msgid "X11 Overviews"
-#~ msgstr "Азназаргузаронӣ"
-
-#~ msgid "Applets"
-#~ msgstr "Апплетҳо"
-
-#~ msgid "Education Applications"
-#~ msgstr "Замимаҳои Таълимӣ"
-
-#, fuzzy
-#~ msgid "Help Topics"
-#~ msgstr "Барраси Ёрӣ"
-
-#~ msgid "KDE"
-#~ msgstr "KDE"
-
-#, fuzzy
-#~ msgid "Other Documentation"
-#~ msgstr "Ахбороти Барориш"
-
-#, fuzzy
-#~ msgid "Scientific"
-#~ msgstr "Замимаҳои Илмӣ"
-
-#, fuzzy
-#~ msgid "System Tools"
-#~ msgstr "Бозхониҳои Системавӣ"
-
-#~ msgid "X Applications"
-#~ msgstr "X Замимаҳо"
-
-#, fuzzy
-#~ msgid "<b>_Bookmarks:</b>"
-#~ msgstr "Китоб"
-
-#~ msgid "C_ase sensitive"
-#~ msgstr "Ҳассосияти ҳ_олат"
-
-#, fuzzy
-#~ msgid "Preferences"
-#~ msgstr "Нишон"
-
-#~ msgid "_Find: "
-#~ msgstr "_Бозёбӣ: "
-
-#, fuzzy
-#~ msgid "_Location:"
-#~ msgstr "Таъинот"
-
-#~ msgid "_Next"
-#~ msgstr "_Оянда"
-
-#~ msgid "_Wrap around"
-#~ msgstr "_Баргашти даврӣ"
-
-#~ msgid "Yelp Factory"
-#~ msgstr "Yelp Истеҳсолгар"
-
-#, fuzzy
-#~ msgid "Could not read the table of contents"
-#~ msgstr "Файли OMF '%s' бор карда намешавад."
-
-#~ msgid "Define which cache directory to use"
-#~ msgstr "Истифодаи кадом феҳристи ниҳониро муайян кунед"
-
-#~ msgid "Could not activate Yelp: '%s'"
-#~ msgstr "Yelp-ро фаъол сохта нашуд: '%s'"
-
-#~ msgid "Could not open new window."
-#~ msgstr "Тирезаи навро кушода намешавад."
-
-#~ msgid "YelpTocPager: Pause count is negative."
-#~ msgstr "YelpTocPager: Ҳисоби таваққуф бад аст."
-
-#~ msgid "Could not load the OMF file '%s'."
-#~ msgstr "Файли OMF '%s' бор карда намешавад."
-
-#~ msgid "Help Contents"
-#~ msgstr "Мазмунҳои Ёрӣ"
-
-#, fuzzy
-#~ msgid "_Edit"
-#~ msgstr "/_Таҳрир"
-
-#, fuzzy
-#~ msgid "_Help"
-#~ msgstr "/_Ёрӣ"
-
-#, fuzzy
-#~ msgid "About This Document"
-#~ msgstr "Оиди Ин Маҷмӯъ"
-
-#, fuzzy
-#~ msgid "_Select All"
-#~ msgstr "Инчунин Нигаред"
-
-#, fuzzy
-#~ msgid "_Preferences"
-#~ msgstr "Нишон"
-
-#~ msgid "Show previous page in history"
-#~ msgstr "Дар таърих саҳифаи гузаштаро нишон диҳед"
-
-#~ msgid "Show next page in history"
-#~ msgstr "Дар таърих саҳифаи ояндаро нишон диҳед"
-
-#, fuzzy
-#~ msgid "_Previous Section"
-#~ msgstr "/Гузариш/_Саҳифаи Гузашта"
-
-#, fuzzy
-#~ msgid "_Next Section"
-#~ msgstr "Бахш"
-
-#, fuzzy
-#~ msgid "_Contents"
-#~ msgstr "Таркибҳо"
-
-#, fuzzy
-#~ msgid "_About"
-#~ msgstr "/Ёрӣ/_Оиди"
-
-#~ msgid "Help Browser"
-#~ msgstr "Барраси Ёрӣ"
-
-#, fuzzy
-#~ msgid "Find _Next"
-#~ msgstr "/Таҳрир/Бозёбии О_янда"
-
-#, fuzzy
-#~ msgid "Find _Previous"
-#~ msgstr "_Гузашта"
-
-#, fuzzy
-#~ msgid "translator-credits"
-#~ msgstr "translator_credits"
-
-#, fuzzy
-#~ msgid "_Home"
-#~ msgstr "Хона"
-
-#~ msgid "Go to home view"
-#~ msgstr "Ба назари хона баргардед"
-
-#, fuzzy
-#~ msgid "Fin_d"
-#~ msgstr "Бозёбӣ"
-
-#~ msgid "Development Environments"
-#~ msgstr "Муҳитҳои Коркард"
-
-#~ msgid "Development Tools"
-#~ msgstr "Асбобҳои Коркард"
-
-#~ msgid "Editors"
-#~ msgstr "Муҳаррирон"
-
-#~ msgid "Games and Entertainment"
-#~ msgstr "Бозиҳо ва Вақтхушӣ"
-
-#~ msgid "General"
-#~ msgstr "Умумӣ"
-
-#~ msgid "Internet Applications"
-#~ msgstr "Замимаҳои Интернет"
-
-#~ msgid "Kernels"
-#~ msgstr "Ҳастаҳо"
-
-#~ msgid "Multimedia Applications"
-#~ msgstr "Замимаҳои Бисёрмуҳита"
-
-#~ msgid "Office and Productivity Applications"
-#~ msgstr "Замимаҳои Идоравӣ ва Маҳсулотнокӣ"
-
-#~ msgid "Securities"
-#~ msgstr "Бехатариҳо"
-
-#~ msgid "System"
-#~ msgstr "Система"
-
-#~ msgid "Utilities"
-#~ msgstr "Барномаҳои пуштибонӣ"
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid "Titlepage"
-#~ msgstr "Саҳифаи унвон"
-
-#~ msgid "The table of contents could not be read."
-#~ msgstr "Ҷалвали таркиб хонда намешавад."
-
-#~ msgid "DocBook SGML documents are no longer supported."
-#~ msgstr "DocBook SGML санадҳо дигар пуштибонӣ намегарданд."
-
-#~ msgid "The selected file could not be read."
-#~ msgstr "Файли интихобшуда хонда намешавад."
-
-#~ msgid "X11"
-#~ msgstr "X11"
-
-#~ msgid "OpenSSL"
-#~ msgstr "OpenSSL"
-
-#~ msgid "Termcap"
-#~ msgstr "Termcap"
-
-#~ msgid "Perl"
-#~ msgstr "Perl"
-
-#~ msgid "Qt"
-#~ msgstr "Qt"
-
-#~ msgid "TIFF"
-#~ msgstr "TIFF"
-
-#~ msgid "PThreads"
-#~ msgstr "PThreads"
-
-#~ msgid "Categories"
-#~ msgstr "Категорияҳо"
-
-#~ msgid "&#8216;"
-#~ msgstr "&#8216;"
-
-#~ msgid "&#8217;"
-#~ msgstr "&#8217;"
-
-#~ msgid "&#8220;"
-#~ msgstr "&#8220;"
-
-#~ msgid "&#8221;"
-#~ msgstr "&#8221;"
-
-#~ msgid "About This Article"
-#~ msgstr "Оиди Ин Мақола"
-
-#~ msgid "About This Bibliography"
-#~ msgstr "Оиди Ин Китобшиносӣ"
-
-#~ msgid "About This Book"
-#~ msgstr "Оиди Ин Китоб"
-
-#~ msgid "About This Chapter"
-#~ msgstr "Оиди Ин Боб"
-
-#~ msgid "About This Entry"
-#~ msgstr "Оиди Ин Элемент"
-
-#~ msgid "About This Glossary"
-#~ msgstr "Оиди Ин Феҳристи Вожаҳо"
-
-#~ msgid "About This Index"
-#~ msgstr "Оиди Ин Нишондиҳанда"
-
-#~ msgid "About This Part"
-#~ msgstr "Оиди Ин Қисм"
-
-#~ msgid "About This Preface"
-#~ msgstr "Оиди Ин Пешрӯй"
-
-#~ msgid "About This Reference"
-#~ msgstr "Оиди Ин Нишон"
-
-#~ msgid "About This Section"
-#~ msgstr "Оиди Ин Бахш"
-
-#~ msgid "Affiliation"
-#~ msgstr "Ҷузъиёт"
-
-#~ msgid "Appendix"
-#~ msgstr "Илова"
-
-#~ msgid "Article"
-#~ msgstr "Мақола"
-
-#~ msgid "Audience"
-#~ msgstr "Шунавандагон"
-
-#~ msgid "Author"
-#~ msgstr "Муаллиф"
-
-#~ msgid "Authors"
-#~ msgstr "Муаллифҳо"
-
-#~ msgid "Bibliography"
-#~ msgstr "Китобшиносӣ"
-
-#~ msgid "Caution"
-#~ msgstr "Эҳтиётӣ"
-
-#~ msgid "Chapter"
-#~ msgstr "Боб"
-
-#~ msgid "Collaborator"
-#~ msgstr "Collaborator"
-
-#~ msgid "Collaborators"
-#~ msgstr "Collaborators"
-
-#~ msgid "Colophon"
-#~ msgstr "Colophon"
-
-#~ msgid "Copyright"
-#~ msgstr "Ҳуқуқи Нусхабардорӣ"
-
-#~ msgid "Copyrights"
-#~ msgstr "Ҳуқуқҳои Нусхабардорӣ"
-
-#~ msgid "Date"
-#~ msgstr "Сана"
-
-#~ msgid "Dedication"
-#~ msgstr "Таъинот"
-
-#~ msgid "Email"
-#~ msgstr "Пости Электронӣ"
-
-#~ msgid "Example"
-#~ msgstr "Мисол"
-
-#~ msgid "Figure"
-#~ msgstr "Шакл"
-
-#~ msgid "Glossary"
-#~ msgstr "Феҳристи Вожаҳо"
-
-#~ msgid "Important"
-#~ msgstr "Муҳим"
-
-#~ msgid "Legal Notice"
-#~ msgstr "Огоҳии Қонунӣ"
-
-#~ msgid "Level"
-#~ msgstr "Сатҳ"
-
-#~ msgid "Message Audience"
-#~ msgstr "Паёми Шунавандагон"
-
-#~ msgid "Message Level"
-#~ msgstr "Сатҳи Паём"
-
-#~ msgid "Message Origin"
-#~ msgstr "Сарчашмаи Паём"
-
-#~ msgid "Note"
-#~ msgstr "Эзоҳ"
-
-#~ msgid "Origin"
-#~ msgstr "Ибтидоӣ"
-
-#~ msgid "Other Contributor"
-#~ msgstr "Дигар Ҳамкор"
-
-#~ msgid "Other Contributors"
-#~ msgstr "Дигар Ҳамкорон"
-
-#~ msgid "Part"
-#~ msgstr "Қисм"
-
-#~ msgid "Preface"
-#~ msgstr "Пешрӯй"
-
-#~ msgid "Publisher"
-#~ msgstr "Матбуотҳо"
-
-#~ msgid "Publishers"
-#~ msgstr "Матбуотҳо"
-
-#~ msgid "Reference"
-#~ msgstr "Нишон"
-
-#~ msgid "Reference Entry"
-#~ msgstr "Элементи Нишон"
-
-#~ msgid "Reference Section"
-#~ msgstr "Бахшҳои Нишон"
-
-#~ msgid "Release Information"
-#~ msgstr "Ахбороти Барориш"
-
-#~ msgid "Revision History"
-#~ msgstr "Таърихи Гузашта"
-
-#~ msgid "See"
-#~ msgstr "Нигаред"
-
-#~ msgid "Set Index"
-#~ msgstr "Барпосозии Нишондиҳанда"
-
-#~ msgid "Table"
-#~ msgstr "Ҷадвал"
-
-#~ msgid "Table of Contents"
-#~ msgstr "Ҷадвали Таркибҳо"
-
-#~ msgid "Tip"
-#~ msgstr "Маслиҳат"
-
-#~ msgid "Warning"
-#~ msgstr "Огоҳӣ"
-
-#~ msgid "The URI of the document to be processed"
-#~ msgstr "URI-и санад давом дода мешавад"
-
-#~ msgid "/Edit/Find Pre_vious"
-#~ msgstr "/Таҳрир/Бозёбии Гу_зашта"
-
-#~ msgid "/Go/_Back"
-#~ msgstr "/Гузариш/_Ақиб"
-
-#~ msgid "/Go/_Forward"
-#~ msgstr "/Гузариш/_Пеш"
-
-#~ msgid "/Go/_Home"
-#~ msgstr "/Гузариш/_Хона"
-
-#~ msgid "/Go/"
-#~ msgstr "/Гузариш/"
-
-#~ msgid "/Go/_Contents"
-#~ msgstr "/Гузариш/_Таркибҳо"
+msgstr ""

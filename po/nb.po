@@ -1,87 +1,74 @@
-# Norwegian bokmål translation of yelp.
-# Copyright © 2001-2004 Free Software Foundation, Inc.
-# Kjartan Maraas <kmaraas@gnome.org>, 2001-2018.
-# Åka Sikrom <a4NOSPAMPLEASETHANKYOU@hush.com>, 2014.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# Åka Sikrom <a4NOSPAMPLEASETHANKYOU@hush.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: yelp 3.30.x\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2020-04-16 23:40+0100\n"
-"PO-Revision-Date: 2018-10-09 12:05+0200\n"
-"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
-"Language-Team: Norwegian bokmål <i18n-nb@lister.ping.uio.no>\n"
-"Language: nb\n"
+"PO-Revision-Date: 2020-04-16 22:51+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Norwegian Bokmål (http://www.transifex.com/endless-os/yelp/language/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
 msgid "The Desktop"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -93,9 +80,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr "Installer <string/>"
@@ -112,25 +97,19 @@ msgstr "Hjelpviser for GNOME"
 msgid ""
 "Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
 "also display DocBook, info, man, and HTML documentation."
-msgstr ""
-"Yelp viser hjelpetekster for GNOME. Det er forvalgt visningsprogram for "
-"Mallard, men kan også vise DocBook, info, man og HTML-dokumentasjon."
+msgstr "Yelp viser hjelpetekster for GNOME. Det er forvalgt visningsprogram for Mallard, men kan også vise DocBook, info, man og HTML-dokumentasjon."
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
-msgstr ""
-"Programmet gjør det lett å finne dokumentasjonen du trenger med interaktivt "
-"søk og bokmerker."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
+msgstr "Programmet gjør det lett å finne dokumentasjonen du trenger med interaktivt søk og bokmerker."
 
 #: data/yelp.appdata.xml.in:17
 msgid ""
 "It also has an editor mode, which shows editorial comments and revision "
 "statuses when editing Mallard documents."
-msgstr ""
-"Det har også redigeringsmodus som viser kommentarer og revisjonsstatus ved "
-"redigering av Mallard-dokumenter."
+msgstr "Det har også redigeringsmodus som viser kommentarer og revisjonsstatus ved redigering av Mallard-dokumenter."
 
 #: data/yelp.appdata.xml.in:30
 msgid "The GNOME Project"
@@ -167,17 +146,14 @@ msgstr "Filen «%s» eksisterer ikke."
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
-msgstr ""
-"Klarte ikke å lese filen «%s» fordi den er et ugyldig utformet XML-dokument."
+msgstr "Klarte ikke å lese filen «%s» fordi den er et ugyldig utformet XML-dokument."
 
 #: libyelp/yelp-docbook-document.c:372
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
-msgstr ""
-"Klarte ikke å lese filen «%s» fordi den eller en inkludert fil ikke er "
-"velformet XML."
+msgstr "Klarte ikke å lese filen «%s» fordi den eller en inkludert fil ikke er velformet XML."
 
 #: libyelp/yelp-docbook-document.c:810
 msgid "Unknown"
@@ -215,8 +191,7 @@ msgstr "Alle hjelpdokumenter"
 #, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
-msgstr ""
-"Klarte ikke å tolke filen «%s» fordi den ikke er en velformet infoside."
+msgstr "Klarte ikke å tolke filen «%s» fordi den ikke er en velformet infoside."
 
 #: libyelp/yelp-mallard-document.c:348
 #, c-format
@@ -289,9 +264,7 @@ msgstr "Ukjent feil."
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
-msgstr ""
-"Du har ikke installert PackageKit. Lenker for pakkeinstallasjon krever "
-"PackageKit."
+msgstr "Du har ikke installert PackageKit. Lenker for pakkeinstallasjon krever PackageKit."
 
 #: libyelp/yelp-view.c:1226
 msgid "Save Image"
@@ -427,6 +400,3 @@ msgstr "Få hjelp med GNOME"
 #: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr "dokumentasjon;informasjon;håndbok;hjelp;"
-
-#~ msgid "Search for packages containing this document."
-#~ msgstr "Søk etter pakker som inneholder dette dokumentet."

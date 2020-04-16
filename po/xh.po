@@ -1,88 +1,74 @@
-# Xhosa translation of yelp
-# Copyright (C) 2005 Canonical Ltd.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
 # This file is distributed under the same license as the yelp package.
-# Translation by Canonical Ltd <translations@canonical.com> with thanks to
-# Translation World CC in South Africa, 2005.
-#
+# 
+# Translators:
+# Translation World CC in South Africa, 2005
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2020-04-16 23:40+0100\n"
-"PO-Revision-Date: 2005-03-31 13:49+0200\n"
-"Last-Translator: Canonical Ltd <translations@canonical.com>\n"
-"Language-Team: Xhosa <xh-translate@ubuntu.com>\n"
-"Language: xh\n"
+"PO-Revision-Date: 2020-04-16 22:44+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Xhosa (http://www.transifex.com/endless-os/yelp/language/xh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: xh\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr "I-Intanethi"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
 msgid "Documents &amp; Files"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "I-Deskop"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -94,9 +80,7 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr ""
@@ -117,8 +101,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -136,9 +120,8 @@ msgid "Invalid compressed data"
 msgstr ""
 
 #: libyelp/yelp-bz2-decompressor.c:149 libyelp/yelp-lzma-decompressor.c:158
-#, fuzzy
 msgid "Not enough memory"
-msgstr "Iphulukene novimba wolwazi"
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:292 libyelp/yelp-info-document.c:221
 #: libyelp/yelp-mallard-document.c:306 libyelp/yelp-mallard-document.c:464
@@ -159,27 +142,22 @@ msgid "The file ‘%s’ does not exist."
 msgstr ""
 
 #: libyelp/yelp-docbook-document.c:359
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
 msgstr ""
-"Ifayili ‘%s’ ayikwazanga ukwahlula ngezijungqu. Mhlawumbi ifayili ayikho, "
-"okanye yi-XML engenziwanga kakuhle."
 
 #: libyelp/yelp-docbook-document.c:372
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
 msgstr ""
-"Ifayili ‘%s’ ayikwazanga ukwahlula ngezijungqu. Mhlawumbi ifayili ayikho, "
-"okanye yi-XML engenziwanga kakuhle."
 
 #: libyelp/yelp-docbook-document.c:810
-#, fuzzy
 msgid "Unknown"
-msgstr "Icandelo Elingaziwayo"
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:908 libyelp/yelp-info-document.c:301
 #: libyelp/yelp-man-document.c:279
@@ -202,22 +180,18 @@ msgid "No matching help pages found."
 msgstr ""
 
 #: libyelp/yelp-error.c:35
-#, fuzzy
 msgid "An unknown error occurred."
-msgstr "Kwenzekee impazamo engaziwayo"
+msgstr ""
 
 #: libyelp/yelp-help-list.c:548 libyelp/yelp-help-list.c:557
-#, fuzzy
 msgid "All Help Documents"
-msgstr "Uncedo Lweziqulatho"
+msgstr ""
 
 #: libyelp/yelp-info-document.c:383
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed info page."
 msgstr ""
-"Ifayili ‘%s’ ayikwazanga ukwahlula ngezijungqu. Mhlawumbi ifayili ayikho, "
-"okanye yi-XML engenziwanga kakuhle."
 
 #: libyelp/yelp-mallard-document.c:348
 #, c-format
@@ -230,16 +204,13 @@ msgid "Search for “%s”"
 msgstr ""
 
 #: libyelp/yelp-transform.c:370 libyelp/yelp-transform.c:385
-#, fuzzy, c-format
+#, c-format
 msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
 msgstr ""
-"Itheyibhile yeziqulatho ayikwazanga ukuba ifakwe. Ifayili ‘%s’ mhlawumbi "
-"ilahlekile okanye yi-XML engenziwanga ngokuchanekileyo."
 
 #: libyelp/yelp-transform.c:519
-#, fuzzy
 msgid "No href attribute found on yelp:document\n"
-msgstr "Akufunyanwanga luphawu lwe-href kwi-yelp:document"
+msgstr ""
 
 #: libyelp/yelp-transform.c:534
 msgid "Out of memory"
@@ -250,18 +221,16 @@ msgid "C_opy Code Block"
 msgstr ""
 
 #: libyelp/yelp-view.c:257
-#, fuzzy
 msgid "_Copy Link Location"
-msgstr "Indawo Evulekileyo"
+msgstr ""
 
 #: libyelp/yelp-view.c:262
 msgid "_Open Link"
 msgstr "_Vula Unxulumano"
 
 #: libyelp/yelp-view.c:267
-#, fuzzy
 msgid "Open Link in New _Window"
-msgstr "Vula Unxulumano Kwifestile _Entsha"
+msgstr ""
 
 #: libyelp/yelp-view.c:277
 msgid "_Install Packages"
@@ -272,16 +241,13 @@ msgid "Save Code _Block As…"
 msgstr ""
 
 #: libyelp/yelp-view.c:297
-#, fuzzy
 msgid "_Copy Text"
-msgstr "_Kopa"
+msgstr ""
 
 #: libyelp/yelp-view.c:809 libyelp/yelp-view.c:2138
-#, fuzzy, c-format
+#, c-format
 msgid "The URI ‘%s’ does not point to a valid page."
 msgstr ""
-"I-Uniform Resource Identifier ‘%s’ ayilunganga okanye ayikhombi kweyona "
-"fayili iyiyo."
 
 #: libyelp/yelp-view.c:815 libyelp/yelp-view.c:2144
 msgid "The URI does not point to a valid page."
@@ -293,9 +259,8 @@ msgid "The URI ‘%s’ could not be parsed."
 msgstr ""
 
 #: libyelp/yelp-view.c:825
-#, fuzzy
 msgid "Unknown Error."
-msgstr "Icandelo Elingaziwayo"
+msgstr ""
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -331,19 +296,17 @@ msgid "S_end Video To…"
 msgstr ""
 
 #: libyelp/yelp-view.c:1876
-#, fuzzy, c-format
+#, c-format
 msgid "Could not load a document for ‘%s’"
-msgstr "Ayikwazanga ukufaka uxwebhu"
+msgstr ""
 
 #: libyelp/yelp-view.c:1882
-#, fuzzy
 msgid "Could not load a document"
-msgstr "Ayikwazanga ukufaka uxwebhu"
+msgstr ""
 
 #: libyelp/yelp-view.c:1966
-#, fuzzy
 msgid "Document Not Found"
-msgstr "Amacandelo Oxwebhu"
+msgstr ""
 
 #: libyelp/yelp-view.c:1968
 msgid "Page Not Found"
@@ -354,9 +317,8 @@ msgid "Cannot Read"
 msgstr ""
 
 #: libyelp/yelp-view.c:1977
-#, fuzzy
 msgid "Unknown Error"
-msgstr "Icandelo Elingaziwayo"
+msgstr ""
 
 #: src/yelp-application.c:59
 msgid "Turn on editor mode"
@@ -368,37 +330,32 @@ msgid "Help"
 msgstr "Uncedo"
 
 #: src/yelp-window.c:348
-#, fuzzy
 msgid "Back"
-msgstr "_Ngasemva"
+msgstr ""
 
 #: src/yelp-window.c:355
-#, fuzzy
 msgid "Forward"
-msgstr "_Gqithisa"
+msgstr ""
 
 #: src/yelp-window.c:366
 msgid "Menu"
 msgstr ""
 
 #: src/yelp-window.c:371
-#, fuzzy
 msgid "New Window"
-msgstr "_IFestile eNtsha"
+msgstr ""
 
 #: src/yelp-window.c:372
-#, fuzzy
 msgid "Find…"
-msgstr "Fumana"
+msgstr ""
 
 #: src/yelp-window.c:373
 msgid "Print…"
 msgstr ""
 
 #: src/yelp-window.c:378
-#, fuzzy
 msgid "Previous Page"
-msgstr "_Ngaphambili"
+msgstr ""
 
 #: src/yelp-window.c:379
 msgid "Next Page"
@@ -413,9 +370,8 @@ msgid "Smaller Text"
 msgstr ""
 
 #: src/yelp-window.c:390
-#, fuzzy
 msgid "All Help"
-msgstr "Uncedo"
+msgstr ""
 
 #: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
@@ -426,9 +382,8 @@ msgid "Bookmarks"
 msgstr "Izinto Zokuphawula"
 
 #: src/yelp-window.c:444
-#, fuzzy
 msgid "No bookmarks"
-msgstr "Izinto Zokuphawula"
+msgstr ""
 
 #: src/yelp-window.c:452
 msgid "Add Bookmark"
@@ -445,416 +400,3 @@ msgstr "Fumana uncedo nge-GNOME"
 #: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr ""
-
-#~ msgid "Applications"
-#~ msgstr "Iinkqubo zekhompyutha"
-
-#~ msgid "Configuration Files"
-#~ msgstr "Iifayili Zokumiselwa Kwenkqubo Yekhompyutha"
-
-#~ msgid "Development"
-#~ msgstr "Uphuhliso"
-
-#~ msgid "FORTRAN Functions"
-#~ msgstr "Imifanekiso ye-FORTRAN"
-
-#~ msgid "Games"
-#~ msgstr "Imidlalo"
-
-#~ msgid "Hardware Devices"
-#~ msgstr "Izixhobo Zobuxhaka-xhaka Bekhompyutha"
-
-#~ msgid "Kernel Routines"
-#~ msgstr "Indlela zesiqhelo ze-Kernel"
-
-#~ msgid "Library Functions"
-#~ msgstr "Imisebenzi Yethala Lencwadi"
-
-#~ msgid "Man Pages"
-#~ msgstr "Amaxwebhu Ozenzela Ngokwakho"
-
-#~ msgid "OpenSSL Applications"
-#~ msgstr "Inkqubo yekhompyutha i-OpenSSL"
-
-#~ msgid "OpenSSL Configuration"
-#~ msgstr "Ukumiselwa kwenkqubo yekhompyutha i-OpenSSL"
-
-#~ msgid "OpenSSL Overviews"
-#~ msgstr "IIMiba Jikelele ye-OpenSSL"
-
-#~ msgid "Overviews"
-#~ msgstr "Imiba jikelele"
-
-#~ msgid "Perl Functions"
-#~ msgstr "Imisebenzi ye-Perl"
-
-#~ msgid "Qt Functions"
-#~ msgstr "Imisebenzi ye-Qt"
-
-#~ msgid "System Administration"
-#~ msgstr "Ulawulo Lwenkqubo"
-
-#~ msgid "System Calls"
-#~ msgstr "Inkqubo Yonxibelelwano"
-
-#~ msgid "Termcap Applications"
-#~ msgstr "Iinkqubo ze-Termcap"
-
-#~ msgid "X11 Applications"
-#~ msgstr "X11 Iinkqubo zekhompyutha"
-
-#~ msgid "X11 Configuration"
-#~ msgstr "X11 Ukumiselwa kwenkqubo yekhompyutha"
-
-#~ msgid "X11 Devices"
-#~ msgstr "X11 Izixhobo"
-
-#~ msgid "X11 Functions"
-#~ msgstr "X11 Imisebenzi"
-
-#~ msgid "X11 Games"
-#~ msgstr "X11 Imidlalo"
-
-#~ msgid "X11 Overviews"
-#~ msgstr "X11 Izishwankathelo"
-
-#~ msgid "Accessibility"
-#~ msgstr "Ufikelelo"
-
-#~ msgid "Accessories"
-#~ msgstr "Izongezo"
-
-#~ msgid "Administration"
-#~ msgstr "Ulawulo"
-
-#~ msgid "Education Applications"
-#~ msgstr "Imimiselo Yenkqubo Yemfundo"
-
-#~ msgid "Graphics"
-#~ msgstr "Imifanekiso ezotyiweyo"
-
-#~ msgid "Help Topics"
-#~ msgstr "Uncedo Lwezihloko"
-
-#~ msgid "KDE"
-#~ msgstr "I-KDE"
-
-#~ msgid "Multimedia"
-#~ msgstr "Amajelo"
-
-#~ msgid "Office"
-#~ msgstr "I-Ofisi"
-
-#~ msgid "Other"
-#~ msgstr "Enye"
-
-#~ msgid "Other Documentation"
-#~ msgstr "Enye Inkcazelo"
-
-#~ msgid "Panel Applets"
-#~ msgstr "Indawo Yolawulo Lweenkqutyana Zekhompyutha"
-
-#~ msgid "Preferences"
-#~ msgstr "Uluhlu lwezinto ezikhethwayo"
-
-#~ msgid "Programming"
-#~ msgstr "Ukumiselwa kwenkqubo yekhompyutha"
-
-#~ msgid "Scientific"
-#~ msgstr "Enobunzululwazi"
-
-#~ msgid "System Tools"
-#~ msgstr "Izixhobo Zenkqubo"
-
-#~ msgid "X Applications"
-#~ msgstr "X Inkqubo zekhompyutha"
-
-#~ msgid "<b>Accessibility</b>"
-#~ msgstr "<b>Ufikeleleko</b>"
-
-#~ msgid "<b>Fonts</b>"
-#~ msgstr "<b>I-fonti</b>"
-
-#~ msgid "<b>_Bookmarks:</b>"
-#~ msgstr "<b>I_zinto Zokuphawula:</b>"
-
-#~ msgid "<b>_Title:</b>"
-#~ msgstr "<b>I_sihloko:</b>"
-
-#~ msgid "C_ase sensitive"
-#~ msgstr "Inonophela oo_nobumba"
-
-#~ msgid "Re_name"
-#~ msgstr "Yi_nike elinye igama"
-
-#~ msgid "_Browse with caret"
-#~ msgstr "_Khangela nge-caret"
-
-#~ msgid "_Find: "
-#~ msgstr "_Fumana: "
-
-#~ msgid "_Fixed width:"
-#~ msgstr "_Ububanzi obusisigxina:"
-
-#~ msgid "_Location:"
-#~ msgstr "_Indawo:"
-
-#~ msgid "_Next"
-#~ msgstr "_Okulandelayo"
-
-#~ msgid "_Use system fonts"
-#~ msgstr "_Sebenzisa iifonti zenkqubo"
-
-#~ msgid "_Variable width:"
-#~ msgstr "_Ububanzi obuguqukayo:"
-
-#~ msgid "_Wrap around"
-#~ msgstr "_Uqhubekeko magama ngokujikelezayo"
-
-#~ msgid "Font for fixed text"
-#~ msgstr "Ifonti yombhalo osisigxina"
-
-#~ msgid "Font for text"
-#~ msgstr "I-fonti yombhalo"
-
-#~ msgid "Font for text with fixed width."
-#~ msgstr "Ifonti yombhalo onobubanzi obusisigxina."
-
-#~ msgid "Font for text with variable width."
-#~ msgstr "Ifonti yombhalo enobubanzi obuguqukayo."
-
-#~ msgid "Use a keyboard-controllable caret when viewing pages."
-#~ msgstr "Sebenzisa i-caret ye-keyboard elawulekayo xa ujonga amaxwebhu."
-
-#~ msgid "Use caret"
-#~ msgstr "Sebenzisa i-caret"
-
-#~ msgid "Use system fonts"
-#~ msgstr "Sebenzisa inkqubo zeefonti"
-
-#~ msgid "Use the default fonts set for the system."
-#~ msgstr "Sebenzisa iifonti ezimiselwe lenkqubo."
-
-#~ msgid "Yelp"
-#~ msgstr "I-Yelp"
-
-#~ msgid "Yelp Factory"
-#~ msgstr "I-Yelp Factory"
-
-#~ msgid "Open Bookmark in New Window"
-#~ msgstr "Vula Into Yokuphawula Kwifestile Entsha"
-
-#~ msgid "Rename Bookmark"
-#~ msgstr "Yinike Elinye Igama Into Yokuphawula"
-
-#~ msgid "A bookmark titled <b>%s</b> already exists for this page."
-#~ msgstr "Into yokuphawula enesihloko <b>%s</b> sele ikhona kweliphepha."
-
-#~ msgid "Could not load section"
-#~ msgstr "Ayiwakwazanga ukufaka icandelo"
-
-#~ msgid "Could not read the table of contents"
-#~ msgstr "Ayikwazanga ukufunda itheyibhile yeziqulatho"
-
-#~ msgid "Unsupported Format"
-#~ msgstr "Ulungiselelo Olungaxhaswanga"
-
-#~ msgid "Could not read document"
-#~ msgstr "Ayikwazanga ukufunda uxwebhu"
-
-#~ msgid "Could not process document"
-#~ msgstr "Ayikwazanga ukuhambisa uxwebhu"
-
-#~ msgid "No information is available about the error."
-#~ msgstr "Akukho nkcazelo ifumanekayo ngempazamo."
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be read and decoded. The file may be compressed "
-#~ "in an unsupported format."
-#~ msgstr ""
-#~ "Ifayili ‘%s’ ayikwazanga ukufundwa nokuguqulwa. Ifayili kungenzekam kuthi "
-#~ "kanti inyanzelwee kulungiselelo olungaxhaswanga."
-
-#~ msgid "Define which cache directory to use"
-#~ msgstr "Chaza ukuba ngowuphi uvimba weefayili ofihliweyo omakasetyenziswe"
-
-#~ msgid "Could not activate Yelp: '%s'"
-#~ msgstr "Ayikwazanga ukwenza ukuba asebenze u-Yelp: '%s'"
-
-#~ msgid "Could not open new window."
-#~ msgstr "Ayikwazanga ukuvula ifestile entsha."
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be parsed.  Either the file does not exist, or it "
-#~ "is formatted incorrectly."
-#~ msgstr ""
-#~ "Ifayili ‘%s’ ayikwazanga ukwahlula iinguqu. Mhlawumbi ifayili ayikho, "
-#~ "okanye ayilungiswanga ngokuchanekileyo."
-
-#~ msgid "Document Information"
-#~ msgstr "Inkcazelo Yoxwebhu"
-
-#~ msgid "The YelpDocInfo struct of the document"
-#~ msgstr "I-YelpDocInfo struct yoxwebhu"
-
-#~ msgid "yelp-watermark-blockquote-201C"
-#~ msgstr "yelp-watermark-blockquote-201C"
-
-#~ msgid "YelpTocPager: Pause count is negative."
-#~ msgstr "I-Yelp TocPager: I-Pause count ilungile."
-
-#~ msgid "Could not load the OMF file '%s'."
-#~ msgstr "Ayikwazanga ukufaka ifayili yeOMF '%s'."
-
-#~ msgid "Read man page for %s"
-#~ msgstr "Funda uxwebhu ozenzela lona lwe %s"
-
-#~ msgid ""
-#~ "The table of contents could not be processed. The file ‘%s’ is either "
-#~ "missing or is not a valid XSLT stylesheet."
-#~ msgstr ""
-#~ "Iteyibhile yeziqulatho ayinjiswanga. Ifayili ‘%s’ mhlawumbi ilahlekile "
-#~ "okanye uxwebhu olubhalwe ngezimbo lwe-XSLT alulunganga."
-
-#~ msgid "_File"
-#~ msgstr "I_fayili"
-
-#~ msgid "_Edit"
-#~ msgstr "_Hlela"
-
-#~ msgid "_Go"
-#~ msgstr "_Hamba"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "_Izinto zokuphawula"
-
-#~ msgid "_Help"
-#~ msgstr "_Uncedo"
-
-#~ msgid "About This Document"
-#~ msgstr "Malunga nolu Xwebhu"
-
-#~ msgid "Open _Location"
-#~ msgstr "Vula _Indawo"
-
-#~ msgid "_Close Window"
-#~ msgstr "_Vala Ifestile"
-
-#~ msgid "_Select All"
-#~ msgstr "_Khetha Konke"
-
-#~ msgid "_Find..."
-#~ msgstr "_Fumana..."
-
-#~ msgid "_Preferences"
-#~ msgstr "_Uluhlu lwezinto ezikhethwayo"
-
-#~ msgid "_Reload"
-#~ msgstr "_Phinda uyifake kwakhona"
-
-#~ msgid "Show previous page in history"
-#~ msgstr "Bonisa iphepha eligqithileyo kwimbali"
-
-#~ msgid "Show next page in history"
-#~ msgstr "Bonisa iphepha elilandelayo kwimbali"
-
-#~ msgid "_Help Topics"
-#~ msgstr "_Uncedo lwezihloko"
-
-#~ msgid "Go to the listing of help topics"
-#~ msgstr "Yiya kuluhlu loncedo lwezihloko"
-
-#~ msgid "_Previous Section"
-#~ msgstr "_Kwicandelo elingaphambili"
-
-#~ msgid "_Next Section"
-#~ msgstr "_Kwicandelo elilandelayo"
-
-#~ msgid "_Contents"
-#~ msgstr "_Iziqulatho"
-
-#~ msgid "_Add Bookmark"
-#~ msgstr "_Yongenza into yokukhomba"
-
-#~ msgid "_Edit Bookmarks..."
-#~ msgstr "_Hlela izinto zokuikhomba..."
-
-#~ msgid "_Copy Link Address"
-#~ msgstr "_Kopa idilesi yonxulumano"
-
-#~ msgid "_About"
-#~ msgstr "_Malunga"
-
-#~ msgid "Help Browser"
-#~ msgstr "Uncedo Lwesikhangeli"
-
-#~ msgid "The Uniform Resource Identifier for the file is invalid."
-#~ msgstr "I-Uniform Resource Identifier yefayili ayilunganga."
-
-#~ msgid "Man pages are not supported in this version."
-#~ msgstr "Amaxwebhu ozenzela wona awaxhaswanga koluhlobo."
-
-#~ msgid "GNU info pages are not supported in this version"
-#~ msgstr "Amaphepha enkcazelo eGNU awaxhaswanga koluhlobo"
-
-#~ msgid ""
-#~ "SGML documents are no longer supported. Please ask the author of the "
-#~ "document to convert to XML."
-#~ msgstr ""
-#~ "Amaxwebhu e-SGML awasaxhaswanga. Nceda ucele umbhali woluxwebhu ukuba "
-#~ "aguqulele kwi-XML."
-
-#~ msgid "Find:"
-#~ msgstr "Fumana:"
-
-#~ msgid "Find _Next"
-#~ msgstr "Fumana Oku_landelayo"
-
-#~ msgid "Find _Previous"
-#~ msgstr "Fumana Oku_gqithileyo"
-
-#~ msgid ""
-#~ "A transformation context could not be created for the file ‘%s’. The "
-#~ "format may not be supported."
-#~ msgstr ""
-#~ "Ayikwazanga ukusekwa ingxam yenguqu yakefayili ‘%s’. Ulungiselelo "
-#~ "lungangaxhaswa."
-
-#~ msgid ""
-#~ "The section ‘%s’ does not exist in this document. If you were directed to "
-#~ "this section from a Help button in an application, please report this to "
-#~ "the maintainers of that application."
-#~ msgstr ""
-#~ "Eli candelo alikho ‘%s’ kolu xwebhu. Ukuba ubukhonjwe kwelicandelo usuka "
-#~ "kwiqhosha Loncedo kwinkqubo yekhompyutha, ncedabika kubalungisi balo "
-#~ "nkqubo yekhompyutha."
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be read.  This file might be missing, or you "
-#~ "might not have permissions to read it."
-#~ msgstr ""
-#~ "Ifayili ‘%s’ ayifundekanga. Le fayili kungenzeka kuthi kanti ilahlekile, "
-#~ "okanye mhlawumbi awunazo iimvume zokuyifunda."
-
-#~ msgid "Loading..."
-#~ msgstr "Iyafaka..."
-
-#~ msgid "translator-credits"
-#~ msgstr "Canonical Ltd <translations@canonical.com>"
-
-#~ msgid "A documentation browser and viewer for the Gnome Desktop."
-#~ msgstr "Isikhangeli sokubhaliweyo nombukeli we-GNOME Desktop."
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be parsed. Either the file does not exist, or it "
-#~ "is improperly formatted."
-#~ msgstr ""
-#~ "Ifayili ‘%s’ ayikwazanga ukwahlula izijungqu. Mhlawumbi ifayili ayikho, "
-#~ "okanye ilungiselelwee gwenxa."
-
-#~ msgid ""
-#~ "The document ‘%s’ could not be processed. The file ‘%s’ is either "
-#~ "missing, or it is not a valid XSLT stylesheet."
-#~ msgstr ""
-#~ "Olu xwebhu ‘%s’ aluhambisekanga. Ifayili ‘%s’ mhlawumbi ilahlekile, "
-#~ "okanye uxwebhu olubhalwe ngezimbo lwe-XSLT alulunganga."

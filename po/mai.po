@@ -1,91 +1,74 @@
-# translation of yelp.HEAD.po to Maithili
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Yelp Team and others. See AUTHORS
+# This file is distributed under the same license as the yelp package.
+# 
+# Translators:
+# Sangeeta Kumari <sangeeta09@gmail.com>, 2009
 msgid ""
 msgstr ""
-"Project-Id-Version: yelp.HEAD\n"
+"Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2020-04-16 23:40+0100\n"
-"PO-Revision-Date: 2009-03-15 16:20+0530\n"
-"Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
-"Language-Team: Maithili <maithili.sf.net>\n"
-"Language: mai\n"
+"PO-Revision-Date: 2020-04-16 22:44+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Maithili (http://www.transifex.com/endless-os/yelp/language/mai/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"\n"
+"Language: mai\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.index
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:31
 msgid "Getting Started"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.net
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:40
 msgid "Internet"
 msgstr "इंटरनेट"
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.files
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:51
-#, fuzzy
 msgid "Documents &amp; Files"
-msgstr "ध्वनि &amp; वीडियो"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.shell-overview
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:60
-#, fuzzy
 msgid "The Desktop"
-msgstr "डेस्कटाप"
+msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.hardware
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:71
 msgid "Printers, Displays &amp; Accessories"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.a11y
-#.
 #. Appears on the static navigation sidebar.
-#.
 #: data/domains/yelp-endless.xml.in:80
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: msg/msgstr
 #. ID: sidebar.link.security-and-privacy
-#.
 #. Appears on the static navigation sidebar. Make sure that the string is
 #. XML-escaped, e.g. &, >, <, ", ', are replaced by &amp;,
 #. &gt;, &lt;, &quot;, and &apos; respectively.
-#.
 #: data/domains/yelp-endless.xml.in:91
 msgid "Security &amp; Privacy"
 msgstr ""
@@ -97,17 +80,14 @@ msgstr ""
 #. tooltip may also be used as the link text, if there's no link text in the
 #. document. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
-#.
 #. <string/> - The package to install
-#.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
 msgstr ""
 
 #: data/yelp.appdata.xml.in:6
-#, fuzzy
 msgid "GNOME Help"
-msgstr "GNOME मद्दति ब्राउज़र"
+msgstr ""
 
 #: data/yelp.appdata.xml.in:7
 msgid "Help viewer for GNOME"
@@ -121,8 +101,8 @@ msgstr ""
 
 #: data/yelp.appdata.xml.in:13
 msgid ""
-"It makes it easy to find the documentation you need, with interactive search "
-"and bookmarks."
+"It makes it easy to find the documentation you need, with interactive search"
+" and bookmarks."
 msgstr ""
 
 #: data/yelp.appdata.xml.in:17
@@ -140,9 +120,8 @@ msgid "Invalid compressed data"
 msgstr ""
 
 #: libyelp/yelp-bz2-decompressor.c:149 libyelp/yelp-lzma-decompressor.c:158
-#, fuzzy
 msgid "Not enough memory"
-msgstr "स्मृति सँ बाहर"
+msgstr ""
 
 #: libyelp/yelp-docbook-document.c:292 libyelp/yelp-info-document.c:221
 #: libyelp/yelp-mallard-document.c:306 libyelp/yelp-mallard-document.c:464
@@ -187,9 +166,9 @@ msgid "The requested page was not found in the document ‘%s’."
 msgstr ""
 
 #: libyelp/yelp-document.c:1068
-#, fuzzy, c-format
+#, c-format
 msgid "Search results for “%s”"
-msgstr "\"%s\" क'लेल खोज परिणाम"
+msgstr ""
 
 #: libyelp/yelp-document.c:1080
 #, c-format
@@ -220,9 +199,9 @@ msgid "The directory ‘%s’ does not exist."
 msgstr ""
 
 #: libyelp/yelp-search-entry.c:434
-#, fuzzy, c-format
+#, c-format
 msgid "Search for “%s”"
-msgstr "\"%s\" क'लेल खोज परिणाम"
+msgstr ""
 
 #: libyelp/yelp-transform.c:370 libyelp/yelp-transform.c:385
 #, c-format
@@ -242,32 +221,28 @@ msgid "C_opy Code Block"
 msgstr ""
 
 #: libyelp/yelp-view.c:257
-#, fuzzy
 msgid "_Copy Link Location"
-msgstr "स्थान खोलू"
+msgstr ""
 
 #: libyelp/yelp-view.c:262
 msgid "_Open Link"
 msgstr "लिंक खोलू (_O)"
 
 #: libyelp/yelp-view.c:267
-#, fuzzy
 msgid "Open Link in New _Window"
-msgstr "नवीन विंडोमे लिंक खोलू (_N)"
+msgstr ""
 
 #: libyelp/yelp-view.c:277
-#, fuzzy
 msgid "_Install Packages"
-msgstr "मैनुअल पृष्ठ"
+msgstr ""
 
 #: libyelp/yelp-view.c:282
 msgid "Save Code _Block As…"
 msgstr ""
 
 #: libyelp/yelp-view.c:297
-#, fuzzy
 msgid "_Copy Text"
-msgstr "कॉपी करू (_C)"
+msgstr ""
 
 #: libyelp/yelp-view.c:809 libyelp/yelp-view.c:2138
 #, c-format
@@ -284,9 +259,8 @@ msgid "The URI ‘%s’ could not be parsed."
 msgstr ""
 
 #: libyelp/yelp-view.c:825
-#, fuzzy
 msgid "Unknown Error."
-msgstr "अनजान त्रुटि"
+msgstr ""
 
 #: libyelp/yelp-view.c:979
 msgid "You do not have PackageKit. Package install links require PackageKit."
@@ -331,14 +305,12 @@ msgid "Could not load a document"
 msgstr ""
 
 #: libyelp/yelp-view.c:1966
-#, fuzzy
 msgid "Document Not Found"
-msgstr "दस्ताबेज जानकारी"
+msgstr ""
 
 #: libyelp/yelp-view.c:1968
-#, fuzzy
 msgid "Page Not Found"
-msgstr "मुहावरा नहि भेटल"
+msgstr ""
 
 #: libyelp/yelp-view.c:1971
 msgid "Cannot Read"
@@ -358,38 +330,32 @@ msgid "Help"
 msgstr "मद्दति "
 
 #: src/yelp-window.c:348
-#, fuzzy
 msgid "Back"
-msgstr "पाछाँ (_B)"
+msgstr ""
 
 #: src/yelp-window.c:355
-#, fuzzy
 msgid "Forward"
-msgstr "आगाँ (_F)"
+msgstr ""
 
 #: src/yelp-window.c:366
 msgid "Menu"
 msgstr ""
 
 #: src/yelp-window.c:371
-#, fuzzy
 msgid "New Window"
-msgstr "नवीन विंडो (_N)"
+msgstr ""
 
 #: src/yelp-window.c:372
-#, fuzzy
 msgid "Find…"
-msgstr "खोजू"
+msgstr ""
 
 #: src/yelp-window.c:373
-#, fuzzy
 msgid "Print…"
-msgstr "छपाइ"
+msgstr ""
 
 #: src/yelp-window.c:378
-#, fuzzy
 msgid "Previous Page"
-msgstr "पछिला (_P)"
+msgstr ""
 
 #: src/yelp-window.c:379
 msgid "Next Page"
@@ -404,9 +370,8 @@ msgid "Smaller Text"
 msgstr ""
 
 #: src/yelp-window.c:390
-#, fuzzy
 msgid "All Help"
-msgstr "मद्दति "
+msgstr ""
 
 #: src/yelp-window.c:413
 msgid "Search (Ctrl+S)"
@@ -417,9 +382,8 @@ msgid "Bookmarks"
 msgstr "पुस्तकचिह्न"
 
 #: src/yelp-window.c:444
-#, fuzzy
 msgid "No bookmarks"
-msgstr "पुस्तकचिह्न"
+msgstr ""
 
 #: src/yelp-window.c:452
 msgid "Add Bookmark"
@@ -436,596 +400,3 @@ msgstr "GNOME सँ मद्दति लिअ'"
 #: org.gnome.Yelp.desktop.in.in:5
 msgid "documentation;information;manual;help;"
 msgstr ""
-
-#~ msgid "GNU Info Pages"
-#~ msgstr "GNU सूचनाक पृष्ठ"
-
-#~ msgid "Traditional command line help (info)"
-#~ msgstr "पारंपरिक कमांड लाइन मद्दति (सूचना)"
-
-#~ msgid "Applications"
-#~ msgstr "अनुप्रयोग"
-
-#~ msgid "BLT Functions"
-#~ msgstr "BLT प्रकार्य"
-
-#~ msgid "Configuration Files"
-#~ msgstr "बिन्यास फाइल"
-
-#~ msgid "Curses Functions"
-#~ msgstr "कर्सेस प्रकार्य"
-
-#~ msgid "Development"
-#~ msgstr "विकास"
-
-#~ msgid "FORTRAN Functions"
-#~ msgstr "फोट्रान प्रकार्य"
-
-#~ msgid "Games"
-#~ msgstr "खेल"
-
-#~ msgid "Hardware Devices"
-#~ msgstr "हार्डवेयर डिवाइस"
-
-#~ msgid "Kernel Routines"
-#~ msgstr "कर्नेल रूटिन्स"
-
-#~ msgid "Network Audio Sound Functions"
-#~ msgstr "नेटवर्क श्रव्य ध्वनि प्रकार्य"
-
-#~ msgid "OpenSSL Applications"
-#~ msgstr "OpenSSL अनुप्रयोग"
-
-#~ msgid "OpenSSL Configuration"
-#~ msgstr "OpenSSL बिन्यास"
-
-#~ msgid "OpenSSL Functions"
-#~ msgstr "OpenSSL प्रकार्य"
-
-#~ msgid "OpenSSL Overviews"
-#~ msgstr "OpenSSLसंक्षेप"
-
-#~ msgid "Overviews"
-#~ msgstr "संक्षेप"
-
-#~ msgid "POSIX Functions"
-#~ msgstr "POSIX प्रकार्य"
-
-#~ msgid "POSIX Headers"
-#~ msgstr "POSIX शीर्षक"
-
-#~ msgid "Perl Functions"
-#~ msgstr "पर्ल प्रकार्य"
-
-#~ msgid "Qt Functions"
-#~ msgstr "Qt प्रकार्य"
-
-#~ msgid "Readline Functions"
-#~ msgstr "रीडलाइन प्रकार्य"
-
-#~ msgid "Section 0p"
-#~ msgstr "खंड 0p"
-
-#~ msgid "Section 1m"
-#~ msgstr "खंड 1m"
-
-#~ msgid "Section 1ssl"
-#~ msgstr "खंड 1ssl"
-
-#~ msgid "Section 1x"
-#~ msgstr "खंड 1x"
-
-#~ msgid "Section 2"
-#~ msgstr "खंड 2"
-
-#~ msgid "Section 3blt"
-#~ msgstr "खंड 3blt"
-
-#~ msgid "Section 3f"
-#~ msgstr "खंड 3f"
-
-#~ msgid "Section 3nas"
-#~ msgstr "खंड 3nas"
-
-#~ msgid "Section 3p"
-#~ msgstr "खंड 3p"
-
-#~ msgid "Section 3qt"
-#~ msgstr "खंड 3qt"
-
-#~ msgid "Section 3readline"
-#~ msgstr "खंड 3readline"
-
-#~ msgid "Section 3ssl"
-#~ msgstr "खंड 3ssl"
-
-#~ msgid "Section 3tiff"
-#~ msgstr "खंड 3tiff"
-
-#~ msgid "Section 4"
-#~ msgstr "खंड 4"
-
-#~ msgid "Section 4x"
-#~ msgstr "खंड 4x"
-
-#~ msgid "Section 5"
-#~ msgstr "खंड 5"
-
-#~ msgid "Section 5ssl"
-#~ msgstr "खंड 5ssl"
-
-#~ msgid "Section 5x"
-#~ msgstr "खंड 5x"
-
-#~ msgid "Section 6"
-#~ msgstr "खंड 6"
-
-#~ msgid "Section 6x"
-#~ msgstr "खंड 6x"
-
-#~ msgid "Section 7ssl"
-#~ msgstr "खंड 7ssl"
-
-#~ msgid "Section 7x"
-#~ msgstr "खंड 7x"
-
-#~ msgid "Section 9"
-#~ msgstr "खंड 9"
-
-#~ msgid "Sections 1, 1p, 1g and 1t"
-#~ msgstr "खंड 1, 1p, 1g आओर 1t"
-
-#~ msgid "Sections 3, 3o, and 3t"
-#~ msgstr "खंड 3, 3o, आओर 3t"
-
-#~ msgid "Sections 3form and 3menu"
-#~ msgstr "खंड 3form आओर 3menu"
-
-#~ msgid "Sections 3ncurses and 3curses"
-#~ msgstr "खंड 3एनकर्सेस आओर 3कर्सेस"
-
-#~ msgid "Sections 3pm and 3perl"
-#~ msgstr "खंड 3pm आओर 3पर्ल"
-
-#~ msgid "Sections 3x and 3X11"
-#~ msgstr "खंड 3x आओर 3X11"
-
-#~ msgid "Sections 7 and 7gcc"
-#~ msgstr "खंड 7 आओर 7gcc"
-
-#~ msgid "Sections 8 and 8l"
-#~ msgstr "खंड 8 आओर 8l"
-
-#~ msgid "System Administration"
-#~ msgstr "सिस्टम प्रशासन"
-
-#~ msgid "System Calls"
-#~ msgstr "सिस्टम कालसभ"
-
-#~ msgid "System V Form/Menu Functions"
-#~ msgstr "सिस्टम V फार्म/मेनु प्रकार्य"
-
-#~ msgid "TIFF Functions"
-#~ msgstr "टिफ प्रकार्य"
-
-#~ msgid "Termcap Applications"
-#~ msgstr "Termcap अनुप्रयोग"
-
-#~ msgid "Traditional command line help (man)"
-#~ msgstr "पारंपरित कमांड लाइ मद्दति (man )"
-
-#~ msgid "X11 Applications"
-#~ msgstr "X11 अनुप्रयोग"
-
-#~ msgid "X11 Configuration"
-#~ msgstr "X11 बिन्यास"
-
-#~ msgid "X11 Devices"
-#~ msgstr "X11 डिवाइस"
-
-#~ msgid "X11 Functions"
-#~ msgstr "X11 प्रकार्य"
-
-#~ msgid "X11 Games"
-#~ msgstr "X11 खेल"
-
-#~ msgid "X11 Overviews"
-#~ msgstr "X11 संक्षेप"
-
-#~ msgid "Accessibility"
-#~ msgstr "अभिगम्यता"
-
-#~ msgid "Art"
-#~ msgstr "कला"
-
-#~ msgid "Astronomy"
-#~ msgstr "खगोलशास्त्र"
-
-#~ msgid "Calculator"
-#~ msgstr "कैलकुलेटर"
-
-#~ msgid "Calendar"
-#~ msgstr "कैलेंडर"
-
-#~ msgid "Chat"
-#~ msgstr "गप्प-सप्प"
-
-#~ msgid "Databases"
-#~ msgstr "डाटाबेस"
-
-#~ msgid "Desktop Settings"
-#~ msgstr "डेस्कटाप जमावट"
-
-#~ msgid "Dialup"
-#~ msgstr "डायलअप"
-
-#~ msgid "Dictionaries"
-#~ msgstr "शब्दकोश"
-
-#~ msgid "Education"
-#~ msgstr "शिक्षा"
-
-#~ msgid "Electronics"
-#~ msgstr "इलेक्ट्रानिक"
-
-#~ msgid "File Manager"
-#~ msgstr "फाइल प्रबंधक"
-
-#~ msgid "File Transfer"
-#~ msgstr "फाइल हस्तांतरण"
-
-#~ msgid "Filesystem"
-#~ msgstr "फ़ाइलसिस्टम"
-
-#~ msgid "GTK"
-#~ msgstr "GTK"
-
-#~ msgid "Graphics"
-#~ msgstr "आलेखी"
-
-#~ msgid "History"
-#~ msgstr "इतिहास"
-
-#~ msgid "Instant Messaging"
-#~ msgstr "इंस्टेंट मैसेजिंग"
-
-#~ msgid "Java"
-#~ msgstr "जावा"
-
-#~ msgid "Math"
-#~ msgstr "गणित"
-
-#~ msgid "Music"
-#~ msgstr "संगीत"
-
-#~ msgid "News"
-#~ msgstr "समाचार"
-
-#~ msgid "OCR"
-#~ msgstr "OCR"
-
-#~ msgid "Office Applications"
-#~ msgstr "कार्यालयक अनुप्रयोग"
-
-#~ msgid "Other Documentation"
-#~ msgstr "आन दस्ताबेजन"
-
-#~ msgid "Package Manager"
-#~ msgstr "संकुल प्रबंधक"
-
-#~ msgid "Players"
-#~ msgstr "खेलाड़ी"
-
-#~ msgid "Printing"
-#~ msgstr "छपाइ कए रहल अछि"
-
-#~ msgid "Scanning"
-#~ msgstr "स्कैन कए रहल अछि"
-
-#~ msgid "Science"
-#~ msgstr "विज्ञान"
-
-#~ msgid "Security"
-#~ msgstr "सुरक्षा"
-
-#~ msgid "Settings"
-#~ msgstr "जमावट"
-
-#~ msgid "Sound"
-#~ msgstr "ध्वनि"
-
-#~ msgid "Sports"
-#~ msgstr "खेलकूद"
-
-#~ msgid "System"
-#~ msgstr "सिस्टम"
-
-#~ msgid "Utilities"
-#~ msgstr "उपयोगिता"
-
-#~ msgid "Video"
-#~ msgstr "वीडियो"
-
-#~ msgid "Viewer"
-#~ msgstr "दर्शक"
-
-#~ msgid "Web Browser"
-#~ msgstr "वेब ब्राउज़र"
-
-#~ msgid "Welcome to the GNOME Help Browser"
-#~ msgstr "GNOME मद्दति ब्राउजरमे अहाँक स्वागत अछि"
-
-#~ msgid "<b>Accessibility</b>"
-#~ msgstr "<b>सुगमता</b>"
-
-#~ msgid "<b>Fonts</b>"
-#~ msgstr "<b>फाँटसभ</b>"
-
-#~ msgid "C_ase sensitive"
-#~ msgstr "छोट-पैघ अक्षरक प्रति संवेदनशील (_a)"
-
-#~ msgid "Preferences"
-#~ msgstr "वरीयतासभ"
-
-#~ msgid "Re_name"
-#~ msgstr "फिनु नाम दिअ'(_n)"
-
-#~ msgid "_Bookmarks:"
-#~ msgstr "पुस्तक चिह्न (_B)"
-
-#~ msgid "_Browse with caret"
-#~ msgstr "कैरेट सँ ब्राउज करू (_B)"
-
-#~ msgid "_Find:"
-#~ msgstr "खोजू: (_F)"
-
-#~ msgid "_Fixed width:"
-#~ msgstr "निश्चित चओड़ाइ (_F):"
-
-#~ msgid "_Location:"
-#~ msgstr "स्थान (_L):"
-
-#~ msgid "_Next"
-#~ msgstr "अगिला (_N)"
-
-#~ msgid "_Title:"
-#~ msgstr "शीर्षक (_T):"
-
-#~ msgid "_Use system fonts"
-#~ msgstr "सिस्टम फाँट क' प्रयोग करू (_U)"
-
-#~ msgid "_Variable width:"
-#~ msgstr "अनियत चओड़ाइ (_V):"
-
-#~ msgid "_Wrap around"
-#~ msgstr "चारोकात लपेटू (_W)"
-
-#~ msgid "Font for fixed text"
-#~ msgstr "स्थिर पाठ क'लेल फाँट"
-
-#~ msgid "Font for text"
-#~ msgstr "पाठ क'लेल फाँट"
-
-#~ msgid "Font for text with fixed width."
-#~ msgstr "स्थिर चओड़ाइ क' सँग पाठ क'लेल फाँट"
-
-#~ msgid "Font for text with variable width."
-#~ msgstr "परिवर्तनशील चओड़ाइ क' सँग पाठ क'लेल फाँट"
-
-#~ msgid "Use a keyboard-controllable caret when viewing pages."
-#~ msgstr "पृष्ठ देखब क' दौरान कीबोर्ड नियंत्रक हँसपदक' प्रयोग करू."
-
-#~ msgid "Use caret"
-#~ msgstr "हँसपदक' प्रयोग करू "
-
-#~ msgid "Use system fonts"
-#~ msgstr "सिस्टम फाँट क' प्रयोग करू "
-
-#~ msgid "Use the default fonts set for the system."
-#~ msgstr "सिस्टम क'लेल मूलभूत फाँट सेट क' प्रयोग करू "
-
-#~ msgid "Open Bookmark in New Window"
-#~ msgstr "नवीन विंडोमे पुस्तक चिह्न खोलू"
-
-#~ msgid "Rename Bookmark"
-#~ msgstr "पृष्ठसंकेत केँ पुनः नाम दिअ'"
-
-#~ msgid "A bookmark titled %s already exists for this page."
-#~ msgstr "%s शीर्षक क' पुस्तक चिह्न एहि पृष्ठ क'लेल पहिने सँ मोजुद अछि."
-
-#~ msgid "A bookmark titled <b>%s</b> already exists for this page."
-#~ msgstr "<b>%s</b> शीर्षक क' पुस्तक चिह्न एहि पृष्ठ क'लेल पहिनेसँ मोजुद अछि."
-
-#~ msgid "Help Topics"
-#~ msgstr "मद्दति सूची"
-
-#~ msgid "File not found"
-#~ msgstr "फाइल नहि मिलल"
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be read and decoded. The file may be compressed "
-#~ "in an unsupported format."
-#~ msgstr ""
-#~ "‘%s’ फाइल पढ़िकेँ विकूटित नहि कएल जाय सकल. फाइलकेँ एकटा असमर्थित प्रारूपमे संकुचित "
-#~ "कएल जाय सकैत अछि."
-
-#~ msgid "Use a private session"
-#~ msgstr "एकटा निजी सत्र क' प्रयोग करू "
-
-#~ msgid "Define which cache directory to use"
-#~ msgstr "पारिभाषित करू जे कओन कैश डायरेक्ट्री उपयोग कएनाइ अछि"
-
-#~ msgid "Preparing to print"
-#~ msgstr "छापब क'लेल तैआर कए रहल अछि"
-
-#~ msgid "Printing is not supported on this printer"
-#~ msgstr "एहि मुद्रक पर छपाइ समर्थित नहि अछि."
-
-#~ msgid "Printer %s does not support postscript printing."
-#~ msgstr "मुद्रक %s पोस्टस्क्रिप्ट छपाइ क' समर्थन नहि करैत अछि."
-
-#~ msgid "Waiting to print"
-#~ msgstr "छपाइ क'लेल प्रतीक्षारत"
-
-#~ msgid "An error occurred while printing"
-#~ msgstr "छपाइ क' दौरान गलती आएल"
-
-#~ msgid "It was not possible to print your document: %s"
-#~ msgstr "अहाँक दस्ताबेजक छपाइ संभव नहि छल: %s"
-
-#~ msgid "the GNOME Support Forums"
-#~ msgstr "GNOME समर्थन फोरम"
-
-#~ msgid "No results for \"%s\""
-#~ msgstr "\"%s\" क'लेल कोनो परिणाम नहि"
-
-#~ msgid ""
-#~ "Try using different words to describe the problem you're having or the "
-#~ "topic you want help with."
-#~ msgstr ""
-#~ "अपन समस्या कहब क'लेल अलग शब्द क' प्रयोग करू अथवा टापिक जकर अहाँ मद्दति लेनाइ चाहैत "
-#~ "छी."
-
-#~ msgid "Repeat the search online at %s"
-#~ msgstr "%s पर सर्च केँ आनलाइन दोहराबू"
-
-#~ msgid ""
-#~ "a:about:an:are:as:at:be:broke:broken:by:can:can't:dialog:dialogue:do:"
-#~ "doesn't:doesnt:don't:dont:explain:for:from:get:gets:got:make:makes:not:"
-#~ "when:has:have:help:how:i:in:is:it:item:me:my:of:on:or:tell:that:the:thing:"
-#~ "this:to:what:where:who:will:with:won't:wont:why:work:working:works"
-#~ msgstr ""
-#~ "a:about:an:are:as:at:be:broke:broken:by:can:can't:dialog:dialogue:do:"
-#~ "doesn't:doesnt:don't:dont:explain:for:from:get:gets:got:make:makes:not:"
-#~ "when:has:have:help:how:i:in:is:it:item:me:my:of:on:or:tell:that:the:thing:"
-#~ "this:to:what:where:who:will:with:won't:wont:why:work:working:works"
-
-#~ msgid "re"
-#~ msgstr "re"
-
-#~ msgid "ers:er:ing:es:s:'s"
-#~ msgstr "ers:er:ing:es:s:'s"
-
-#~ msgid "_File"
-#~ msgstr "फाइल (_F)"
-
-#~ msgid "_Edit"
-#~ msgstr "संपादन (_E)"
-
-#~ msgid "_Go"
-#~ msgstr "जाउ (_G)"
-
-#~ msgid "_Bookmarks"
-#~ msgstr "पुस्तकचिह्न (_B)"
-
-#~ msgid "_Help"
-#~ msgstr "मद्दति (_H)"
-
-#~ msgid "About This Document"
-#~ msgstr "एहि दस्ताबेजक बेरमे"
-
-#~ msgid "Open _Location"
-#~ msgstr "अवस्थिति खोलू (_L)"
-
-#~ msgid "_Close Window"
-#~ msgstr "विंडो बन्न करू (_C)"
-
-#~ msgid "_Select All"
-#~ msgstr "सबहि चुनू (_S)"
-
-#~ msgid "_Find..."
-#~ msgstr "खोजू (_F)..."
-
-#~ msgid "Find Pre_vious"
-#~ msgstr "पछिला खोजू (_v)"
-
-#~ msgid "Find previous occurrence of the word or phrase"
-#~ msgstr "शब्द अथवा वाक्यांश क' पछिला उपस्थिति खोजू"
-
-#~ msgid "Find Ne_xt"
-#~ msgstr "अगिला खोजू (_x)"
-
-#~ msgid "Find next occurrence of the word or phrase"
-#~ msgstr "शब्द अथवा वाक्यांश क' अगिला उपस्थिति खोजू"
-
-#~ msgid "_Preferences"
-#~ msgstr "वरीयतासभ (_P)"
-
-#~ msgid "_Reload"
-#~ msgstr "पुनः लोड करू (_R)"
-
-#~ msgid "Show previous page in history"
-#~ msgstr "इतिहासमे पछिला पृष्ठ देखाबू"
-
-#~ msgid "Show next page in history"
-#~ msgstr "इतिहासमे अगिला पृष्ठ देखाबू"
-
-#~ msgid "_Help Topics"
-#~ msgstr "मद्दति विषय (_H)"
-
-#~ msgid "Go to the listing of help topics"
-#~ msgstr "मद्दति विषय सूची क'लेल जाउ"
-
-#~ msgid "_Previous Section"
-#~ msgstr "पछिला खंड (_P)"
-
-#~ msgid "_Next Section"
-#~ msgstr "अगिला खंड (_N)"
-
-#~ msgid "_Contents"
-#~ msgstr "विषय सूची (_C)"
-
-#~ msgid "_Add Bookmark"
-#~ msgstr "पुस्तकचिह्न जोड़ू (_A)"
-
-#~ msgid "_Edit Bookmarks..."
-#~ msgstr "पुस्तक चिह्न संपादित करू (_E)..."
-
-#~ msgid "_Copy Link Address"
-#~ msgstr "लिंक पता कापी करू (_C)"
-
-#~ msgid "Help On this application"
-#~ msgstr "एहि अनुप्रयोग पर मद्दति"
-
-#~ msgid "_About"
-#~ msgstr "क' संबंधमे (_A)"
-
-#~ msgid "Copy _Email Address"
-#~ msgstr "इमेल पता कापी करू (_E)"
-
-#~ msgid "Help Browser"
-#~ msgstr "मद्दति ब्राउज़र"
-
-#~ msgid "Loading..."
-#~ msgstr "लोड कए रहल..."
-
-#~ msgid "_Search:"
-#~ msgstr "खोजू (_S):"
-
-#~ msgid "Search for other documentation"
-#~ msgstr "आन दस्ताबेजसभ क'लेल खोजू"
-
-#~ msgid "Fin_d:"
-#~ msgstr "खोजू (_d):"
-
-#~ msgid "Find _Previous"
-#~ msgstr "पछिला खोजू (_P)"
-
-#~ msgid "Find _Next"
-#~ msgstr "अगिला खोजू (_N)"
-
-#~ msgid ""
-#~ "The file ‘%s’ could not be read.  This file might be missing, or you "
-#~ "might not have permissions to read it."
-#~ msgstr ""
-#~ "‘%s’ फाइल पढ़ल नहि जाए सकल. ई फाइल गुम भेल भ' सकैत अछि अथवा अहाँक पास एकरा "
-#~ "पढ़बाक अनुमति नहि भ' सकैत अछि."
-
-#~ msgid "translator-credits"
-#~ msgstr "संगीता कुमारी (sangeeta09@gmail.com)"
-
-#~ msgid "Yelp"
-#~ msgstr "येल्प"
-
-#~ msgid "A documentation browser and viewer for the Gnome Desktop."
-#~ msgstr "Gnome डेस्कटाप क'लेल दस्ताबेज ब्राउजर आओर देखाबैबला. "
