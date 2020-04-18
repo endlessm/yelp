@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
 "POT-Creation-Date: 2020-04-16 23:40+0100\n"
-"PO-Revision-Date: 2020-04-16 22:44+0000\n"
+"PO-Revision-Date: 2020-04-18 06:43+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/endless-os/yelp/language/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -123,7 +123,7 @@ msgstr "كما أن هناك وضع محرر، يعرض التعليقات ال�
 
 #: data/yelp.appdata.xml.in:30
 msgid "The GNOME Project"
-msgstr ""
+msgstr "مشروع GNOME"
 
 #: libyelp/yelp-bz2-decompressor.c:143 libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
