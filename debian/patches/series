@@ -1,3 +1,4 @@
 #02_man-utf8.patch
 #04_use_doc-base.patch
 disable_package_search.patch
+required-content_rating-and-releases-appdata.patch

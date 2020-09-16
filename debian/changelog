@@ -1,10 +1,33 @@
-yelp (3.36.0-0endless1) master; urgency=medium
+yelp (3.38.0-1) unstable; urgency=medium
 
-  * Re-apply Endless changes on latest upstream release:
-    - Support eoscontent/eos-shell-content
-    - Add XCBS-EOS-AppId to override app ID when bundling
+  * New upstream release
 
- -- Philip Withnall <withnall@endlessm.com>  Mon, 09 Mar 2020 17:51:00 +0000
+ -- Sebastien Bacher <seb128@ubuntu.com>  Tue, 15 Sep 2020 13:43:37 +0200
+
+yelp (3.37.90-1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Mon, 10 Aug 2020 12:38:37 +0200
+
+yelp (3.36.0-1) unstable; urgency=medium
+
+  * Upload to unstable
+
+  [ Laurent Bigonville ]
+  * debian/control.in: Make yelp recommends docbook-xml, (lib)yelp tries to
+    load /etc/xml/catalog, if this file doesn't exist, it falls back to the
+    yelp internal faux catalog. But the fact that /etc/xml/catalog exits
+    doesn't mean that the needed docbookx dtd are installed.
+  * New upstream release
+  * Bump debhelper compatibility to 12
+  * debian/control.in: Bump Standards-Version to 4.5.0 (no further changes)
+
+  [ Ken VanDine ]
+  * debian/patches/required-content_rating-and-releases-appdata.patch
+    - Added tags required for validation, fixing FTBFS due to test failures
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Tue, 07 Apr 2020 22:15:37 +0200
 
 yelp (3.34.0-1) unstable; urgency=medium
 
