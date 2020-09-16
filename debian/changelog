@@ -1,3 +1,14 @@
+yelp (3.38.0-1endless0) eos; urgency=medium
+
+  * Re-apply Endless changes on latest upstream release (T30176):
+    - Support search provider
+    - Drop `XCBS-EOS-AppId` metadata, as that was only used on eos3.2 and
+      earlier
+    - Drop eos-shell-content-dev dependency as EOS style customisations have been
+      removed
+
+ -- Philip Withnall <pwithnall@endlessos.org>  Wed, 16 Sep 2020 13:55:00 +0100
+
 yelp (3.38.0-1) unstable; urgency=medium
 
   * New upstream release
