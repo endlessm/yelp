@@ -17,9 +17,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
-"POT-Creation-Date: 2020-04-16 23:40+0100\n"
-"PO-Revision-Date: 2020-04-18 04:41+0000\n"
-"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"POT-Creation-Date: 2020-09-20 06:09+0000\n"
+"PO-Revision-Date: 2020-09-20 06:09+0000\n"
+"Last-Translator: endlessmobile_build <philip@endlessm.com>\n"
 "Language-Team: Hindi (http://www.transifex.com/endless-os/yelp/language/hi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -119,10 +119,6 @@ msgid ""
 "It also has an editor mode, which shows editorial comments and revision "
 "statuses when editing Mallard documents."
 msgstr "इसमें एक संपादन मोड भी है, जो Mallard दस्तावेज़ो को संपादित करते समय संपादकीय टिप्पणियों और संशोधन की स्थिति को दर्शाता है।"
-
-#: data/yelp.appdata.xml.in:30
-msgid "The GNOME Project"
-msgstr "The GNOME Project"
 
 #: libyelp/yelp-bz2-decompressor.c:143 libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"

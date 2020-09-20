@@ -13,14 +13,14 @@
 # Roddy Shuler <roddy@stanfordalumni.org>, 2018
 # abuosaid <ambamb1402@gmail.com>, 2011
 # Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002
-# Will Thompson <wjt@endlessm.com>, 2019
+# Will Thompson <wjt@endlessos.org>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: yelp\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp\n"
-"POT-Creation-Date: 2020-04-16 23:40+0100\n"
-"PO-Revision-Date: 2020-04-18 06:43+0000\n"
-"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"POT-Creation-Date: 2020-09-20 06:09+0000\n"
+"PO-Revision-Date: 2020-09-20 06:09+0000\n"
+"Last-Translator: endlessmobile_build <philip@endlessm.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/endless-os/yelp/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -120,10 +120,6 @@ msgid ""
 "It also has an editor mode, which shows editorial comments and revision "
 "statuses when editing Mallard documents."
 msgstr "كما أن هناك وضع محرر، يعرض التعليقات التحريرية وحالات المراجعة عند تحرير وثائق مالارد."
-
-#: data/yelp.appdata.xml.in:30
-msgid "The GNOME Project"
-msgstr "مشروع GNOME"
 
 #: libyelp/yelp-bz2-decompressor.c:143 libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
