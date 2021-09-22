@@ -1,3 +1,10 @@
+yelp (3.38.3-0endless1) eos; urgency=medium
+
+  * New upstream release (T31755)
+  * Debian packaging not updated
+
+ -- Will Thompson <wjt@endlessos.org>  Wed, 22 Sep 2021 14:29:07 +0100
+
 yelp (3.38.0-1endless0) eos; urgency=medium
 
   * Re-apply Endless changes on latest upstream release (T30176):
