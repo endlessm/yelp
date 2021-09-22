@@ -1,3 +1,18 @@
+3.38.3
+======
+* Updated translations:
+  be    (Źmicier Turok)
+
+3.38.2
+======
+* Fix crash when reloading local document (Michael Catanzaro)
+
+3.38.1
+======
+* Fix issue when opening local HTML files (#158)
+* Updated translations:
+  he    (Yosef Or Boczko)
+
 3.38.0
 ======
 * Updated translations:
