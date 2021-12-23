@@ -1,0 +1,3 @@
+Tests: libyelp-dev
+Restrictions: allow-stderr, superficial
+Depends: build-essential, libyelp-dev, pkg-config

@@ -1,20 +1,82 @@
-yelp (3.38.3-0endless1) eos; urgency=medium
+yelp (41.2-1) unstable; urgency=medium
 
-  * New upstream release (T31755)
-  * Debian packaging not updated
+  * New upstream release
 
- -- Will Thompson <wjt@endlessos.org>  Wed, 22 Sep 2021 14:29:07 +0100
+ -- Jeremy Bicha <jbicha@debian.org>  Sun, 05 Dec 2021 03:57:12 -0500
 
-yelp (3.38.0-1endless0) eos; urgency=medium
+yelp (41.1-1) unstable; urgency=medium
 
-  * Re-apply Endless changes on latest upstream release (T30176):
-    - Support search provider
-    - Drop `XCBS-EOS-AppId` metadata, as that was only used on eos3.2 and
-      earlier
-    - Drop eos-shell-content-dev dependency as EOS style customisations have been
-      removed
+  * New upstream release
+  * Drop AppStream patch: applied in new release
 
- -- Philip Withnall <pwithnall@endlessos.org>  Wed, 16 Sep 2020 13:55:00 +0100
+ -- Jeremy Bicha <jbicha@debian.org>  Sat, 25 Sep 2021 18:54:28 -0400
+
+yelp (41.0-2) unstable; urgency=medium
+
+  * Cherry-pick patch to fix AppStream metadata validation
+
+ -- Jeremy Bicha <jbicha@debian.org>  Mon, 20 Sep 2021 17:26:52 -0400
+
+yelp (41.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jeremy Bicha <jbicha@debian.org>  Sat, 18 Sep 2021 18:37:12 -0400
+
+yelp (41~beta2-2) unstable; urgency=medium
+
+  * debian/control.in: Lower yelp-xsl dependency to 41~
+
+ -- Jeremy Bicha <jbicha@debian.org>  Mon, 30 Aug 2021 22:41:46 -0400
+
+yelp (41~beta2-1) unstable; urgency=medium
+
+  * New upstream release
+  * Drop appdata update patch: applied in new release
+  * debian/rules: Build with webkit2gtk 2.32
+  * debian/rules: Simplify a bit
+  * debian/libyelp0.symbols: Update
+  * Bump debhelper-compat to 13
+  * Build-Depend on dh-sequence-gnome instead of gnome-pkg-tools
+  * Bump minimum glib to 2.67.4 and yelp-xsl to 41
+
+ -- Jeremy Bicha <jbicha@debian.org>  Mon, 30 Aug 2021 22:30:26 -0400
+
+yelp (40.stable-1) experimental; urgency=medium
+
+  * New upstream release, hacked version to be newer...
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Tue, 23 Mar 2021 20:41:19 +0100
+
+yelp (40.beta-1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Wed, 24 Feb 2021 10:17:13 +0100
+
+yelp (3.38.3-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Mon, 15 Feb 2021 11:37:06 +0100
+
+yelp (3.38.2-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * d/upstream/metadata: Add
+  * Add a Lintian override for gtk-doc documentation (see #970275)
+  * Standards-Version: 4.5.1 (no changes required)
+  * Set Rules-Requires-Root to no
+  * d/tests: Add a superficial compile/link/run autopkgtest
+
+ -- Simon McVittie <smcv@debian.org>  Mon, 30 Nov 2020 15:59:45 +0000
+
+yelp (3.38.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Mon, 05 Oct 2020 10:29:30 +0200
 
 yelp (3.38.0-1) unstable; urgency=medium
 

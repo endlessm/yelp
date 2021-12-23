@@ -14,11 +14,11 @@ Bug: https://bugs.launchpad.net/bugs/838540
  libyelp/yelp-view.c | 4 ----
  1 file changed, 4 deletions(-)
 
-Index: yelp-3.38.0/libyelp/yelp-view.c
-===================================================================
---- yelp-3.38.0.orig/libyelp/yelp-view.c
-+++ yelp-3.38.0/libyelp/yelp-view.c
-@@ -1988,10 +1988,6 @@ view_show_error_page (YelpView *view,
+diff --git a/libyelp/yelp-view.c b/libyelp/yelp-view.c
+index d4810fa..ca9215e 100644
+--- a/libyelp/yelp-view.c
++++ b/libyelp/yelp-view.c
+@@ -1997,10 +1997,6 @@ view_show_error_page (YelpView *view,
              scheme = "ghelp";
              pkg = struri + 6;
          }

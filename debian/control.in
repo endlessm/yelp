@@ -5,14 +5,14 @@ Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.
 Uploaders: @GNOME_TEAM@
 Build-Depends: appstream-util,
                autoconf-archive,
-               debhelper-compat (= 12),
-               gnome-pkg-tools (>= 0.10),
+               debhelper-compat (= 13),
+               dh-sequence-gnome,
                docbook-to-man,
                itstool (>= 1.2.0),
                gtk-doc-tools,
                libglib2.0-doc,
                libgtk-3-doc,
-               libglib2.0-dev (>= 2.38.0),
+               libglib2.0-dev (>= 2.67.4),
                libgtk-3-dev (>= 3.13.3),
                libxml2-dev (>= 2.6.5),
                libxslt1-dev (>= 1.1.4),
@@ -21,8 +21,9 @@ Build-Depends: appstream-util,
                liblzma-dev (>= 4.9),
                libwebkit2gtk-4.0-dev (>= 2.19.2),
                libsqlite3-dev,
-               yelp-xsl (>= 3.27.1)
-Standards-Version: 4.5.0
+               yelp-xsl (>= 41~)
+Rules-Requires-Root: no
+Standards-Version: 4.5.1
 Vcs-Browser: https://salsa.debian.org/gnome-team/yelp
 Vcs-Git: https://salsa.debian.org/gnome-team/yelp.git
 Homepage: https://wiki.gnome.org/Apps/Yelp
@@ -33,7 +34,7 @@ Depends: ${shlibs:Depends},
          ${misc:Depends},
          libyelp0 (= ${binary:Version}),
          python3-distro,
-         yelp-xsl (>= 3.27.1),
+         yelp-xsl (>= 41~),
          man-db (>= 2.5.1-1)
 Recommends: docbook-xml, ${fonts:Recommends}
 Description: Help browser for GNOME

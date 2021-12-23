@@ -1,0 +1,8 @@
+Archive: GNOME
+Bug-Database: https://gitlab.gnome.org/GNOME/yelp/issues
+Bug-Submit: https://gitlab.gnome.org/GNOME/yelp/issues/new
+Changelog: https://gitlab.gnome.org/GNOME/yelp/commits/master
+Repository-Browse: https://gitlab.gnome.org/GNOME/yelp
+Repository: https://gitlab.gnome.org/GNOME/yelp.git
+
+# vim:set ft=yaml:
