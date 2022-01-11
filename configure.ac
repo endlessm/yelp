@@ -30,7 +30,7 @@ AC_ARG_WITH([webkit2gtk-4-0],
         AS_HELP_STRING([--with-webkit2gtk-4-0],
         [Build against webkit2gtk-4.0 instead of webkit2gtk-4.1]),
         [webkitdep="webkit2gtk-4.0 >= 2.19.2";webextdep="webkit2gtk-web-extension-4.0 >= 2.7.2"],
-        [webkitdep="webkit2gtk-4.1";webextdep="webkit2gtk-web-extension-4.1"])
+        [webkitdep="webkit2gtk-4.0 >= 2.19.2";webextdep="webkit2gtk-web-extension-4.0 >= 2.7.2"])
 
 # Library dependecies
 LT_LIB_M
