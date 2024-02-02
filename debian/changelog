@@ -1,13 +1,42 @@
-yelp (41.2-1endless1) eos; urgency=medium
+yelp (42.2-1) unstable; urgency=medium
 
-  * Re-apply Endless changes on latest upstream release (T32865):
-    - Support search provider
-    - Drop `XCBS-EOS-AppId` metadata, as that was only used on eos3.2 and
-      earlier
-    - Drop eos-shell-content-dev dependency as EOS style customisations have
-      been removed
+  * New upstream release
+  * debian/yelp.docs: README -> README.md
+  * debian/control.in: Bump Standards-Version to 4.6.1
 
- -- Jian-Hong Pan <jhp@endlessos.org>  Thu, 23 Dec 2021 17:44:34 +0800
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Mon, 19 Sep 2022 10:48:14 -0400
+
+yelp (42.1-2) unstable; urgency=medium
+
+  * Build against webkit2gtk 4.1
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Wed, 01 Jun 2022 15:59:15 -0400
+
+yelp (42.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Mon, 28 Mar 2022 08:21:00 -0400
+
+yelp (42.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Mon, 21 Mar 2022 09:43:27 -0400
+
+yelp (42~beta-2) unstable; urgency=medium
+
+  * Release to unstable
+
+ -- Jeremy Bicha <jeremy.bicha@canonical.com>  Mon, 14 Feb 2022 12:20:39 -0500
+
+yelp (42~beta-1) experimental; urgency=medium
+
+  * New upstream release
+  * debian/yelp-dev.install: The gtk-doc docs are no longer installed
+  * debian/control.in: Build-Depend on libhandy-1-dev
+
+ -- Jeremy Bicha <jeremy.bicha@canonical.com>  Mon, 14 Feb 2022 09:49:40 -0500
 
 yelp (41.2-1) unstable; urgency=medium
 

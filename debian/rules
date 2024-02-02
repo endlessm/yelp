@@ -10,7 +10,7 @@ execute_after_dh_auto_clean:
 	rm -f debian/yelp.1
 
 override_dh_auto_configure:
-	dh_auto_configure -- --enable-gtk-doc --with-webkit2gtk-4-0
+	dh_auto_configure -- --enable-gtk-doc
 
 execute_after_dh_auto_build:
 	/usr/bin/docbook-to-man debian/yelp.sgml > debian/yelp.1
