@@ -869,7 +869,6 @@ MAINTAINERCLEANFILES = \
 	mkinstalldirs
 
 AM_DISTCHECK_CONFIGURE_FLAGS = \
-	--with-webkit2gtk-4-0 \
 	--enable-bz2 \
 	--enable-lzma
 
